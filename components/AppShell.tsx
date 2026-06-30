@@ -6,6 +6,7 @@ import type { RepoView } from "@/lib/types";
 import { translations, type Lang } from "@/lib/i18n";
 import { weekLabel } from "@/lib/week";
 import RepoCard from "./RepoCard";
+import ShareButton from "./ShareButton";
 
 export default function AppShell({
   repos,
@@ -117,6 +118,17 @@ export default function AppShell({
           <p className="footer__credit">{t.footer}</p>
         </footer>
       </main>
+
+      <ShareButton
+        repos={repos}
+        lang={lang}
+        t={t}
+        headerLabel={
+          isArchive && activeWeekId
+            ? weekLabel(activeWeekId, lang)
+            : t.currentWeek
+        }
+      />
     </div>
   );
 }
