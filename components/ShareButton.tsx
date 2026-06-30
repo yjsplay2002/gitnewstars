@@ -7,6 +7,8 @@ import type { Lang, Dict } from "@/lib/i18n";
 const SITE_URL = "https://gitnewstars.vercel.app";
 const X_LIMIT = 270; // a little under X's 280
 const THREADS_LIMIT = 490; // a little under Threads' 500
+const CHUNK_LIMIT = 250; // per reply in an admin thread (URLs count as ~23 on X)
+const DIVIDER = "\n\n✂━━━━━━━━━━━━ ✂\n\n";
 
 function truncate(s: string, n: number): string {
   return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s;
@@ -19,15 +21,17 @@ export default function ShareButton({
   repos,
   lang,
   t,
+  isAdmin,
   headerLabel,
 }: {
   repos: RepoView[];
   lang: Lang;
   t: Dict;
+  isAdmin: boolean;
   headerLabel: string;
 }) {
   const [open, setOpen] = useState(false);
-  const [text, setText] = useState(""); // full text (copy / textarea)
+  const [shorts, setShorts] = useState<string[] | null>(null);
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
 
@@ -38,39 +42,11 @@ export default function ShareButton({
     return truncate((lang === "ko" ? r.descKo : r.descEn) || r.fullName, n);
   }
 
-  /** Full list: rank + description + stars + shortened link, blank line between. */
-  async function buildFull() {
-    setLoading(true);
-
-    let shorts = repos.map((r) => r.url);
-    try {
-      const res = await fetch("/api/shorten", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ urls: repos.map((r) => r.url) }),
-      });
-      if (res.ok) {
-        const data = (await res.json()) as { short?: string[] };
-        if (Array.isArray(data.short) && data.short.length === repos.length) {
-          shorts = data.short;
-        }
-      }
-    } catch {
-      /* keep full URLs */
-    }
-
-    const blocks = repos.map(
-      (r, i) => `${r.rank}. ${desc(r, 60)} ⭐${fmt(r.starsThisWeek)}\n${shorts[i]}`
-    );
-    setText(`${head}\n\n${blocks.join("\n\n")}\n\n${tail}`);
-    setLoading(false);
-  }
-
-  /** Length-capped version for X / Threads: top entries that fit + "more" note. */
-  function buildCapped(budget: number): string {
-    const moreReserve = 28; // room for the "…+N more" line
+  /** Single-post version (general users): top entries that fit + "more" note, no per-line links. */
+  function cappedText(budget: number): string {
+    const reserve = 28; // room for the "…+N more" line
     let body = "";
-    let used = head.length + tail.length + 4 + moreReserve;
+    let used = head.length + tail.length + 4 + reserve;
     let shown = 0;
     for (const r of repos) {
       const line = `\n\n${r.rank}. ${desc(r, 42)} ⭐${fmt(r.starsThisWeek)}`;
@@ -90,15 +66,67 @@ export default function ShareButton({
     return `${head}${body}${more}\n\n${tail}`;
   }
 
+  /** Full list split into reply-sized chunks (admin): header + all entries with links. */
+  function threadText(): string {
+    if (!shorts) return "";
+    const blocks = repos.map(
+      (r, i) =>
+        `${r.rank}. ${desc(r, 60)} ⭐${fmt(r.starsThisWeek)}\n${shorts[i]}`
+    );
+
+    const chunks: string[] = [];
+    let cur = head; // first chunk seeds with the header
+    for (const b of blocks) {
+      const candidate = cur ? `${cur}\n\n${b}` : b;
+      if (candidate.length > CHUNK_LIMIT && cur) {
+        chunks.push(cur);
+        cur = b;
+      } else {
+        cur = candidate;
+      }
+    }
+    if (cur) chunks.push(cur);
+
+    const n = chunks.length;
+    const numbered = chunks.map((c, i) => `${c}\n(${i + 1}/${n})`);
+    numbered[n - 1] += `\n${tail}`;
+    return numbered.join(DIVIDER);
+  }
+
+  // What the textarea shows and the Copy button copies.
+  const displayText = isAdmin ? threadText() : cappedText(X_LIMIT);
+
+  async function loadShorts() {
+    setLoading(true);
+    try {
+      const res = await fetch("/api/shorten", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ urls: repos.map((r) => r.url) }),
+      });
+      const data = res.ok ? ((await res.json()) as { short?: string[] }) : {};
+      setShorts(
+        Array.isArray(data.short) && data.short.length === repos.length
+          ? data.short
+          : repos.map((r) => r.url)
+      );
+    } catch {
+      setShorts(repos.map((r) => r.url));
+    } finally {
+      setLoading(false);
+    }
+  }
+
   function openModal() {
     setOpen(true);
     setCopied(false);
-    if (!text) void buildFull();
+    // Only the admin thread needs shortened links; fetch once.
+    if (isAdmin && !shorts) void loadShorts();
   }
 
   async function copy() {
     try {
-      await navigator.clipboard.writeText(text);
+      await navigator.clipboard.writeText(displayText);
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {
@@ -108,11 +136,13 @@ export default function ShareButton({
 
   function shareTo(base: string, budget: number) {
     window.open(
-      base + encodeURIComponent(buildCapped(budget)),
+      base + encodeURIComponent(cappedText(budget)),
       "_blank",
       "noopener,noreferrer"
     );
   }
+
+  const busy = isAdmin && (loading || !shorts);
 
   return (
     <>
@@ -139,19 +169,21 @@ export default function ShareButton({
               </button>
             </div>
 
-            {loading ? (
+            {busy ? (
               <p className="modal__loading">{t.shareLoading}</p>
             ) : (
               <>
                 <textarea
                   className="modal__text"
-                  value={text}
+                  value={displayText}
                   readOnly
                   onFocus={(e) => e.currentTarget.select()}
                 />
                 <div className="modal__actions">
                   <button className="share-btn share-btn--copy" onClick={copy}>
-                    {copied ? `✓ ${t.copied}` : `📋 ${t.copy}`}
+                    {copied
+                      ? `✓ ${t.copied}`
+                      : `📋 ${isAdmin ? t.copyFull : t.copy}`}
                   </button>
                   <button
                     className="share-btn share-btn--x"
@@ -176,7 +208,9 @@ export default function ShareButton({
                     @ {t.shareThreads}
                   </button>
                 </div>
-                <p className="share-hint">{t.shareHint}</p>
+                <p className="share-hint">
+                  {isAdmin ? t.shareHintAdmin : t.shareHintUser}
+                </p>
               </>
             )}
           </div>

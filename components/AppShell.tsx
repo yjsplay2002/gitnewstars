@@ -123,6 +123,7 @@ export default function AppShell({
         repos={repos}
         lang={lang}
         t={t}
+        isAdmin={isAdmin}
         headerLabel={
           isArchive && activeWeekId
             ? weekLabel(activeWeekId, lang)

@@ -38,10 +38,12 @@ export const translations = {
     shareThisWeek: "GitHub 인기 프로젝트",
     shareLoading: "공유 문구 만드는 중…",
     copy: "복사",
+    copyFull: "전체 복사 (스레드)",
     copied: "복사됨!",
     shareX: "X에 공유",
     shareThreads: "쓰레드에 공유",
-    shareHint: "X·쓰레드는 글자 수 제한이 있어 상위 항목만 자동으로 담깁니다. 전체 목록은 ‘복사’로 가져가세요.",
+    shareHintUser: "글자 수 제한에 맞춰 한 개 글 분량으로 축약했습니다.",
+    shareHintAdmin: "관리자 전용: 전체 20개를 답글용으로 나눴습니다. ✂️ 구분선마다 끊어 첫 글 → 답글 순서로 올리세요.",
   },
   en: {
     badge: "This Week's GitHub Rising Stars",
@@ -79,10 +81,12 @@ export const translations = {
     shareThisWeek: "trending GitHub projects",
     shareLoading: "Building share text…",
     copy: "Copy",
+    copyFull: "Copy all (thread)",
     copied: "Copied!",
     shareX: "Share on X",
     shareThreads: "Share on Threads",
-    shareHint: "X/Threads have length limits, so only the top entries are auto-filled. Use Copy for the full list.",
+    shareHintUser: "Shortened to fit a single post.",
+    shareHintAdmin: "Admin only: the full top 20 split for a thread. Post each segment between the ✂️ dividers as a reply.",
   },
 } as const;
 
