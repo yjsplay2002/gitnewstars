@@ -1,0 +1,71 @@
+export type Lang = "ko" | "en";
+
+export const translations = {
+  ko: {
+    badge: "이번 주 GitHub 라이징 스타",
+    title: "이번 주 가장 빠르게 뜨는\nGitHub 프로젝트 TOP 10",
+    subtitle:
+      "지난 7일간 가장 많은 별(⭐)을 새로 받은 오픈소스 프로젝트들입니다. 지금 개발자들이 무엇에 주목하는지 한눈에 확인하세요.",
+    archiveSubtitle: "해당 주차에 가장 많은 신규 스타를 받은 프로젝트 기록입니다.",
+    starsThisWeek: "이번 주 신규 스타",
+    totalStars: "전체 스타",
+    forks: "포크",
+    viewOnGithub: "GitHub에서 보기",
+    noDescription: "설명이 제공되지 않았습니다.",
+    updatedNote: "데이터는 1시간마다 자동으로 갱신됩니다 · 출처: GitHub Trending",
+    archivedNote: "보관된 스냅샷",
+    rankSuffix: "위",
+    langToggle: "EN",
+    footer: "GitHub Trending 데이터를 기반으로 제작 · Vercel에 배포됨",
+    // sidebar
+    historyTitle: "주간 기록",
+    currentWeek: "이번 주",
+    noHistory: "아직 보관된 기록이 없습니다. 매주 자동으로 쌓입니다.",
+    // auth / admin
+    signIn: "관리자 로그인",
+    signOut: "로그아웃",
+    adminBadge: "관리자",
+    edit: "수정",
+    save: "저장",
+    cancel: "취소",
+    saving: "저장 중…",
+    editedBadge: "관리자 편집됨",
+    editPlaceholder: "한글 설명을 입력하세요",
+    saveError: "저장에 실패했습니다.",
+    editHint: "한글 설명을 직접 다듬을 수 있습니다.",
+  },
+  en: {
+    badge: "This Week's GitHub Rising Stars",
+    title: "Top 10 Fastest-Growing\nGitHub Projects This Week",
+    subtitle:
+      "The open-source projects that gained the most new stars (⭐) over the past 7 days. See what developers are paying attention to right now.",
+    archiveSubtitle:
+      "Projects that gained the most new stars during this week.",
+    starsThisWeek: "New stars this week",
+    totalStars: "Total stars",
+    forks: "Forks",
+    viewOnGithub: "View on GitHub",
+    noDescription: "No description provided.",
+    updatedNote: "Data refreshes automatically every hour · Source: GitHub Trending",
+    archivedNote: "Archived snapshot",
+    rankSuffix: "",
+    langToggle: "한국어",
+    footer: "Built on GitHub Trending data · Deployed on Vercel",
+    historyTitle: "Weekly Archive",
+    currentWeek: "This week",
+    noHistory: "No archived weeks yet. They accumulate automatically each week.",
+    signIn: "Admin sign in",
+    signOut: "Sign out",
+    adminBadge: "Admin",
+    edit: "Edit",
+    save: "Save",
+    cancel: "Cancel",
+    saving: "Saving…",
+    editedBadge: "Edited by admin",
+    editPlaceholder: "Enter a Korean description",
+    saveError: "Failed to save.",
+    editHint: "You can refine the Korean description.",
+  },
+} as const;
+
+export type Dict = (typeof translations)[Lang];
