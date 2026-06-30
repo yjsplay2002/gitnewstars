@@ -206,9 +206,14 @@ button {
   gap: 12px;
 }
 .card {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    "rank avatar name   weekly"
+    "rank avatar desc   weekly"
+    "rank avatar meta   weekly";
+  column-gap: 16px;
   align-items: center;
-  gap: 16px;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -225,7 +230,7 @@ button {
 }
 
 .rank {
-  flex: 0 0 auto;
+  grid-area: rank;
   width: 44px;
   text-align: center;
   font-weight: 800;
@@ -243,7 +248,7 @@ button {
 .rank--n .rank__num { color: var(--text-muted); }
 
 .avatar {
-  flex: 0 0 auto;
+  grid-area: avatar;
   width: 56px;
   height: 56px;
   border-radius: 12px;
@@ -251,11 +256,8 @@ button {
   border: 1px solid var(--border);
 }
 
-.card__body {
-  flex: 1 1 auto;
-  min-width: 0;
-}
 .card__name {
+  grid-area: name;
   font-size: 18px;
   font-weight: 700;
   white-space: nowrap;
@@ -272,6 +274,7 @@ button {
   font-weight: 500;
 }
 .card__desc {
+  grid-area: desc;
   color: var(--text-muted);
   font-size: 14px;
   margin: 4px 0 10px;
@@ -286,6 +289,7 @@ button {
   cursor: help;
 }
 .meta {
+  grid-area: meta;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -318,7 +322,7 @@ button {
 }
 
 .weekly {
-  flex: 0 0 auto;
+  grid-area: weekly;
   text-align: right;
   min-width: 90px;
 }
@@ -335,6 +339,7 @@ button {
 
 /* ---------- inline editor ---------- */
 .edit {
+  grid-area: desc;
   margin: 6px 0 10px;
 }
 .edit__area {
@@ -429,20 +434,44 @@ button {
 }
 @media (max-width: 600px) {
   .card {
-    flex-wrap: wrap;
-    padding: 16px;
+    grid-template-columns: auto auto minmax(0, 1fr) auto;
+    grid-template-areas:
+      "rank avatar name weekly"
+      "desc desc   desc desc"
+      "meta meta   meta meta";
+    column-gap: 12px;
+    row-gap: 8px;
+    align-items: center;
+    padding: 14px 16px;
+  }
+  .rank {
+    width: 28px;
+  }
+  .rank__num {
+    font-size: 20px;
   }
   .avatar {
-    width: 44px;
-    height: 44px;
-  }
-  .weekly {
-    text-align: left;
-    width: 100%;
-    margin-left: 60px;
+    width: 42px;
+    height: 42px;
   }
   .card__name {
     white-space: normal;
+    font-size: 16px;
+  }
+  /* new-star count sits to the right of the thumbnail, on the top line */
+  .weekly {
+    text-align: right;
+    min-width: auto;
+  }
+  .weekly__num {
+    font-size: 18px;
+  }
+  .weekly__label {
+    max-width: 84px;
+    margin-left: auto;
+  }
+  .card__desc {
+    margin: 0;
   }
   .main {
     padding: 20px 16px 72px;

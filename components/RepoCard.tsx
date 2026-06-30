@@ -70,7 +70,6 @@ export default function RepoCard({
         height={56}
       />
 
-      <div className="card__body">
         <a
           className="card__name"
           href={repo.url}
@@ -145,7 +144,6 @@ export default function RepoCard({
             </button>
           )}
         </div>
-      </div>
 
       <div className="weekly">
         <div className="weekly__num">+{formatNumber(repo.starsThisWeek)}</div>
