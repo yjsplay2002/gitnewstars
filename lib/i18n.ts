@@ -41,7 +41,7 @@ export const translations = {
     copied: "복사됨!",
     shareX: "X에 공유",
     shareThreads: "쓰레드에 공유",
-    shareHint: "원하는 부분만 골라서 게시해도 됩니다. (X/쓰레드 글자 수 제한)",
+    shareHint: "X·쓰레드는 글자 수 제한이 있어 상위 항목만 자동으로 담깁니다. 전체 목록은 ‘복사’로 가져가세요.",
   },
   en: {
     badge: "This Week's GitHub Rising Stars",
@@ -82,7 +82,7 @@ export const translations = {
     copied: "Copied!",
     shareX: "Share on X",
     shareThreads: "Share on Threads",
-    shareHint: "Feel free to post only part of it (X/Threads have length limits).",
+    shareHint: "X/Threads have length limits, so only the top entries are auto-filled. Use Copy for the full list.",
   },
 } as const;
 

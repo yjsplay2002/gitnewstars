@@ -5,6 +5,8 @@ import type { RepoView } from "@/lib/types";
 import type { Lang, Dict } from "@/lib/i18n";
 
 const SITE_URL = "https://gitnewstars.vercel.app";
+const X_LIMIT = 270; // a little under X's 280
+const THREADS_LIMIT = 490; // a little under Threads' 500
 
 function truncate(s: string, n: number): string {
   return s.length > n ? s.slice(0, n - 1).trimEnd() + "…" : s;
@@ -25,14 +27,21 @@ export default function ShareButton({
   headerLabel: string;
 }) {
   const [open, setOpen] = useState(false);
-  const [text, setText] = useState("");
+  const [text, setText] = useState(""); // full text (copy / textarea)
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
 
-  async function buildText() {
+  const head = `🌟 ${headerLabel} ${t.shareThisWeek}\n👉 ${SITE_URL}`;
+  const tail = lang === "ko" ? "#GitHub #오픈소스" : "#GitHub #OpenSource";
+
+  function desc(r: RepoView, n: number): string {
+    return truncate((lang === "ko" ? r.descKo : r.descEn) || r.fullName, n);
+  }
+
+  /** Full list: rank + description + stars + shortened link, blank line between. */
+  async function buildFull() {
     setLoading(true);
 
-    // Shorten the GitHub URLs server-side (falls back to full URLs on failure).
     let shorts = repos.map((r) => r.url);
     try {
       const res = await fetch("/api/shorten", {
@@ -50,26 +59,41 @@ export default function ShareButton({
       /* keep full URLs */
     }
 
-    // Lead with the site URL up top to drive clicks.
-    const header = `🌟 ${headerLabel} ${t.shareThisWeek}\n👉 ${SITE_URL}`;
-    const lines = repos.map((r, i) => {
-      const desc = truncate(
-        (lang === "ko" ? r.descKo : r.descEn) || r.fullName,
-        60
-      );
-      return `${r.rank}. ${desc} ⭐${fmt(r.starsThisWeek)}\n${shorts[i]}`;
-    });
-    const footer =
-      lang === "ko" ? "\n#GitHub #오픈소스" : "\n#GitHub #OpenSource";
-
-    setText([header, "", ...lines, footer].join("\n"));
+    const blocks = repos.map(
+      (r, i) => `${r.rank}. ${desc(r, 60)} ⭐${fmt(r.starsThisWeek)}\n${shorts[i]}`
+    );
+    setText(`${head}\n\n${blocks.join("\n\n")}\n\n${tail}`);
     setLoading(false);
+  }
+
+  /** Length-capped version for X / Threads: top entries that fit + "more" note. */
+  function buildCapped(budget: number): string {
+    const moreReserve = 28; // room for the "…+N more" line
+    let body = "";
+    let used = head.length + tail.length + 4 + moreReserve;
+    let shown = 0;
+    for (const r of repos) {
+      const line = `\n\n${r.rank}. ${desc(r, 42)} ⭐${fmt(r.starsThisWeek)}`;
+      if (used + line.length > budget) break;
+      body += line;
+      used += line.length;
+      shown++;
+    }
+    let more = "";
+    if (shown < repos.length) {
+      const n = repos.length - shown;
+      more =
+        lang === "ko"
+          ? `\n\n…외 ${n}개 더 → 위 링크`
+          : `\n\n…+${n} more → link above`;
+    }
+    return `${head}${body}${more}\n\n${tail}`;
   }
 
   function openModal() {
     setOpen(true);
     setCopied(false);
-    if (!text) void buildText();
+    if (!text) void buildFull();
   }
 
   async function copy() {
@@ -82,8 +106,12 @@ export default function ShareButton({
     }
   }
 
-  function shareTo(url: string) {
-    window.open(url, "_blank", "noopener,noreferrer");
+  function shareTo(base: string, budget: number) {
+    window.open(
+      base + encodeURIComponent(buildCapped(budget)),
+      "_blank",
+      "noopener,noreferrer"
+    );
   }
 
   return (
@@ -129,8 +157,8 @@ export default function ShareButton({
                     className="share-btn share-btn--x"
                     onClick={() =>
                       shareTo(
-                        "https://twitter.com/intent/tweet?text=" +
-                          encodeURIComponent(text)
+                        "https://twitter.com/intent/tweet?text=",
+                        X_LIMIT
                       )
                     }
                   >
@@ -140,8 +168,8 @@ export default function ShareButton({
                     className="share-btn share-btn--threads"
                     onClick={() =>
                       shareTo(
-                        "https://www.threads.net/intent/post?text=" +
-                          encodeURIComponent(text)
+                        "https://www.threads.net/intent/post?text=",
+                        THREADS_LIMIT
                       )
                     }
                   >
