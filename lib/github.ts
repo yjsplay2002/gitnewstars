@@ -12,9 +12,25 @@
 
 const API = "https://api.github.com";
 
+/**
+ * Keep only printable ASCII. Windows shells frequently prepend a UTF-8 BOM
+ * (U+FEFF) when a secret is piped into another process; left in place it
+ * corrupts HTTP header values and URLs (e.g. "Bearer ﻿ghp_..."). Tokens
+ * and "owner/repo" strings are pure printable ASCII, so this is safe.
+ */
+function cleanEnv(value: string | undefined): string {
+  if (!value) return "";
+  let out = "";
+  for (const ch of value) {
+    const code = ch.codePointAt(0) ?? 0;
+    if (code >= 0x21 && code <= 0x7e) out += ch;
+  }
+  return out;
+}
+
 export function getDataRepo(): { owner: string; repo: string } | null {
-  const full = process.env.GH_DATA_REPO; // "owner/repo"
-  if (!full || !full.includes("/")) return null;
+  const full = cleanEnv(process.env.GH_DATA_REPO); // "owner/repo"
+  if (!full.includes("/")) return null;
   const [owner, repo] = full.split("/");
   return owner && repo ? { owner, repo } : null;
 }
@@ -24,9 +40,8 @@ function authHeaders(): Record<string, string> {
     Accept: "application/vnd.github+json",
     "X-GitHub-Api-Version": "2022-11-28",
   };
-  if (process.env.GH_TOKEN) {
-    headers.Authorization = `Bearer ${process.env.GH_TOKEN}`;
-  }
+  const token = cleanEnv(process.env.GH_TOKEN);
+  if (token) headers.Authorization = `Bearer ${token}`;
   return headers;
 }
 
@@ -46,16 +61,15 @@ export async function readJson<T>(
   const repo = getDataRepo();
   if (!repo) return null;
 
-  const res = await fetch(
-    `${API}/repos/${repo.owner}/${repo.repo}/contents/${path}`,
-    { headers: authHeaders(), next: { revalidate } }
-  );
-  if (res.status === 404) return null;
-  if (!res.ok) return null;
-
-  const json = (await res.json()) as { content?: string };
-  if (!json.content) return null;
   try {
+    const res = await fetch(
+      `${API}/repos/${repo.owner}/${repo.repo}/contents/${path}`,
+      { headers: authHeaders(), next: { revalidate } }
+    );
+    if (!res.ok) return null;
+
+    const json = (await res.json()) as { content?: string };
+    if (!json.content) return null;
     return JSON.parse(decodeBase64(json.content)) as T;
   } catch {
     return null;
@@ -70,30 +84,38 @@ export async function listDir(
   const repo = getDataRepo();
   if (!repo) return [];
 
-  const res = await fetch(
-    `${API}/repos/${repo.owner}/${repo.repo}/contents/${path}`,
-    { headers: authHeaders(), next: { revalidate } }
-  );
-  if (!res.ok) return [];
+  try {
+    const res = await fetch(
+      `${API}/repos/${repo.owner}/${repo.repo}/contents/${path}`,
+      { headers: authHeaders(), next: { revalidate } }
+    );
+    if (!res.ok) return [];
 
-  const items = (await res.json()) as Array<{ name: string; type: string }>;
-  if (!Array.isArray(items)) return [];
-  return items
-    .filter((i) => i.type === "file" && i.name.endsWith(".json"))
-    .map((i) => i.name.replace(/\.json$/, ""));
+    const items = (await res.json()) as Array<{ name: string; type: string }>;
+    if (!Array.isArray(items)) return [];
+    return items
+      .filter((i) => i.type === "file" && i.name.endsWith(".json"))
+      .map((i) => i.name.replace(/\.json$/, ""));
+  } catch {
+    return [];
+  }
 }
 
 /** Get the current blob SHA of a file (needed to update it), or null. */
 async function getSha(path: string): Promise<string | null> {
   const repo = getDataRepo();
   if (!repo) return null;
-  const res = await fetch(
-    `${API}/repos/${repo.owner}/${repo.repo}/contents/${path}`,
-    { headers: authHeaders(), cache: "no-store" }
-  );
-  if (!res.ok) return null;
-  const json = (await res.json()) as { sha?: string };
-  return json.sha ?? null;
+  try {
+    const res = await fetch(
+      `${API}/repos/${repo.owner}/${repo.repo}/contents/${path}`,
+      { headers: authHeaders(), cache: "no-store" }
+    );
+    if (!res.ok) return null;
+    const json = (await res.json()) as { sha?: string };
+    return json.sha ?? null;
+  } catch {
+    return null;
+  }
 }
 
 /** Create or update a JSON file in the data repo. Requires GH_TOKEN. */
@@ -104,7 +126,7 @@ export async function writeJson(
 ): Promise<void> {
   const repo = getDataRepo();
   if (!repo) throw new Error("GH_DATA_REPO is not configured");
-  if (!process.env.GH_TOKEN) throw new Error("GH_TOKEN is not configured");
+  if (!cleanEnv(process.env.GH_TOKEN)) throw new Error("GH_TOKEN is not configured");
 
   const sha = await getSha(path);
   const body = {
