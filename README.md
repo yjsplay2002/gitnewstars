@@ -1,11 +1,11 @@
 # GitNewStars ⭐
 
-이번 주 GitHub에서 **가장 많은 신규 스타**를 받은 오픈소스 프로젝트 TOP 10을 일반 사용자에게 소개하는 웹사이트입니다.
-A website that introduces the top 10 GitHub projects that gained the most new stars this week.
+이번 주 GitHub에서 **가장 많은 신규 스타**를 받은 오픈소스 프로젝트 TOP 20을 일반 사용자에게 소개하는 웹사이트입니다.
+A website that introduces the top 20 GitHub projects that gained the most new stars this week.
 
 ## 주요 기능 / Features
 
-- 📈 `github.com/trending?since=weekly` 스크래핑 → **이번 주 신규 스타 기준 내림차순** TOP 10
+- 📈 `github.com/trending?since=weekly` 스크래핑 → **이번 주 신규 스타 기준 내림차순** TOP 20
 - 🇰🇷 한국어 선택 시 **설명도 한글로** (자동 번역 초안) — 한/영 토글
 - 🔐 **관리자(Google 로그인)** 가 한글 설명을 인앱에서 직접 수정 → GitHub에 커밋되어 영구 반영
 - 🗂️ 왼쪽 **주간 히스토리 사이드바** — 매주 자동 스냅샷으로 과거 주차의 순위를 다시 조회

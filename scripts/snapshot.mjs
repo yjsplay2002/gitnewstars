@@ -140,7 +140,7 @@ async function main() {
   const weekId = isoWeekId(lastWeek);
 
   const [repos, overrides] = await Promise.all([
-    getTrending(10),
+    getTrending(20),
     readOverrides(),
   ]);
 

@@ -1,8 +1,18 @@
 import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 
+/** Keep only printable ASCII (guards against a BOM/whitespace sneaking in via env). */
+function sanitize(s: string): string {
+  let out = "";
+  for (const ch of s) {
+    const code = ch.codePointAt(0) ?? 0;
+    if (code >= 0x21 && code <= 0x7e) out += ch;
+  }
+  return out;
+}
+
 /** Only this Google account may edit Korean descriptions. */
-export const ADMIN_EMAIL = process.env.ADMIN_EMAIL ?? "yjs@lnrgame.com";
+export const ADMIN_EMAIL = sanitize(process.env.ADMIN_EMAIL ?? "yjs@lnrgame.com");
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
   providers: [Google],

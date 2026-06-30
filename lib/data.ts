@@ -40,7 +40,7 @@ export async function buildRepoViews(
 /** The current week's top 10, fully prepared for rendering. */
 export async function getCurrentWeek(): Promise<RepoView[]> {
   const [repos, overrides] = await Promise.all([
-    getWeeklyTrending(10),
+    getWeeklyTrending(20),
     getOverrides(),
   ]);
   return buildRepoViews(repos, overrides);

@@ -3,7 +3,7 @@ export type Lang = "ko" | "en";
 export const translations = {
   ko: {
     badge: "이번 주 GitHub 라이징 스타",
-    title: "이번 주 가장 빠르게 뜨는\nGitHub 프로젝트 TOP 10",
+    title: "이번 주 가장 빠르게 뜨는\nGitHub 프로젝트 TOP 20",
     subtitle:
       "지난 7일간 가장 많은 별(⭐)을 새로 받은 오픈소스 프로젝트들입니다. 지금 개발자들이 무엇에 주목하는지 한눈에 확인하세요.",
     archiveSubtitle: "해당 주차에 가장 많은 신규 스타를 받은 프로젝트 기록입니다.",
@@ -36,7 +36,7 @@ export const translations = {
   },
   en: {
     badge: "This Week's GitHub Rising Stars",
-    title: "Top 10 Fastest-Growing\nGitHub Projects This Week",
+    title: "Top 20 Fastest-Growing\nGitHub Projects This Week",
     subtitle:
       "The open-source projects that gained the most new stars (⭐) over the past 7 days. See what developers are paying attention to right now.",
     archiveSubtitle:
