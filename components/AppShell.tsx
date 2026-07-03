@@ -7,6 +7,7 @@ import { translations, type Lang } from "@/lib/i18n";
 import { weekLabel } from "@/lib/week";
 import RepoCard from "./RepoCard";
 import ShareButton from "./ShareButton";
+import VisitorCounter from "./VisitorCounter";
 
 export default function AppShell({
   repos,
@@ -119,17 +120,20 @@ export default function AppShell({
         </footer>
       </main>
 
-      <ShareButton
-        repos={repos}
-        lang={lang}
-        t={t}
-        isAdmin={isAdmin}
-        headerLabel={
-          isArchive && activeWeekId
-            ? weekLabel(activeWeekId, lang)
-            : t.currentWeek
-        }
-      />
+      <div className="fab-bar">
+        <VisitorCounter t={t} />
+        <ShareButton
+          repos={repos}
+          lang={lang}
+          t={t}
+          isAdmin={isAdmin}
+          headerLabel={
+            isArchive && activeWeekId
+              ? weekLabel(activeWeekId, lang)
+              : t.currentWeek
+          }
+        />
+      </div>
     </div>
   );
 }

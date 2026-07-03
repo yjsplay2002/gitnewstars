@@ -44,6 +44,9 @@ export const translations = {
     shareThreads: "쓰레드에 공유",
     shareHintUser: "글자 수 제한에 맞춰 한 개 글 분량으로 축약했습니다.",
     shareHintAdmin: "관리자 전용: 전체 20개를 답글용으로 나눴습니다. ✂️ 구분선마다 끊어 첫 글 → 답글 순서로 올리세요.",
+    visitorsOnline: "현재 접속자",
+    visitorsToday: "오늘 방문자",
+    visitorsTotal: "총 방문자",
   },
   en: {
     badge: "This Week's GitHub Rising Stars",
@@ -87,6 +90,9 @@ export const translations = {
     shareThreads: "Share on Threads",
     shareHintUser: "Shortened to fit a single post.",
     shareHintAdmin: "Admin only: the full top 20 split for a thread. Post each segment between the ✂️ dividers as a reply.",
+    visitorsOnline: "Online now",
+    visitorsToday: "Today",
+    visitorsTotal: "Total visitors",
   },
 } as const;
 
