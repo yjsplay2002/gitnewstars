@@ -137,6 +137,20 @@ button {
   align-items: center;
   gap: 8px;
 }
+.user__avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+}
+.user__name {
+  font-size: 13px;
+  color: var(--text-muted);
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .user__badge {
   background: rgba(88, 166, 255, 0.15);
   border: 1px solid rgba(88, 166, 255, 0.4);
@@ -209,9 +223,10 @@ button {
   display: grid;
   grid-template-columns: auto auto minmax(0, 1fr) auto;
   grid-template-areas:
-    "rank avatar name   weekly"
-    "rank avatar desc   weekly"
-    "rank avatar meta   weekly";
+    "rank    avatar  name    weekly"
+    "rank    avatar  desc    weekly"
+    "rank    avatar  meta    weekly"
+    "reviews reviews reviews reviews";
   column-gap: 16px;
   align-items: center;
   background: var(--bg-card);
@@ -385,6 +400,147 @@ button {
   font-size: 12px;
 }
 
+/* ---------- reviews & comments ---------- */
+.reviews {
+  grid-area: reviews;
+  margin-top: 10px;
+}
+.reviews__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 5px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+.reviews__toggle:hover {
+  border-color: var(--accent-2);
+  color: var(--text);
+}
+.reviews__count {
+  font-weight: 700;
+  color: var(--accent-2);
+}
+.reviews__chev {
+  opacity: 0.6;
+}
+.reviews__panel {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.reviews__signin {
+  font-size: 13px;
+}
+.reviews__note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.review-form {
+  margin-bottom: 4px;
+}
+.review-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 12px;
+}
+.review {
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.review__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 24px;
+}
+.review__avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  flex: none;
+}
+.review__avatar--sm {
+  width: 18px;
+  height: 18px;
+}
+.review__avatar--fallback {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  background: var(--bg-card);
+}
+.review__author {
+  font-size: 13px;
+  font-weight: 600;
+}
+.review__date {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.review__del {
+  margin-left: auto;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 2px 4px;
+}
+.review__del:hover {
+  color: #f85149;
+}
+.review__text {
+  margin-top: 6px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.review__comments {
+  margin-top: 10px;
+  padding-left: 14px;
+  border-left: 2px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.comment .review__text {
+  margin-top: 3px;
+  font-size: 13px;
+  color: var(--text);
+}
+.comment-form {
+  display: flex;
+  gap: 8px;
+}
+.comment-form__input {
+  flex: 1 1 auto;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 7px 10px;
+  font-size: 13px;
+  font-family: inherit;
+}
+.comment-form__input:focus {
+  outline: none;
+  border-color: var(--accent-2);
+}
+
 /* ---------- footer ---------- */
 .footer {
   text-align: center;
@@ -436,9 +592,10 @@ button {
   .card {
     grid-template-columns: auto auto minmax(0, 1fr) auto;
     grid-template-areas:
-      "rank avatar name weekly"
-      "desc desc   desc desc"
-      "meta meta   meta meta";
+      "rank    avatar  name    weekly"
+      "desc    desc    desc    desc"
+      "meta    meta    meta    meta"
+      "reviews reviews reviews reviews";
     column-gap: 12px;
     row-gap: 8px;
     align-items: center;

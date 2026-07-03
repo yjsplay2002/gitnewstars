@@ -3,6 +3,7 @@
 import { useState } from "react";
 import type { RepoView } from "@/lib/types";
 import type { Lang, Dict } from "@/lib/i18n";
+import ReviewSection from "./ReviewSection";
 
 function formatNumber(n: number): string {
   return n.toLocaleString("en-US");
@@ -14,12 +15,14 @@ export default function RepoCard({
   t,
   isAdmin,
   editable,
+  reviewCount,
 }: {
   repo: RepoView;
   lang: Lang;
   t: Dict;
   isAdmin: boolean;
   editable: boolean;
+  reviewCount?: number;
 }) {
   const [descKo, setDescKo] = useState(repo.descKo);
   const [edited, setEdited] = useState(repo.edited);
@@ -149,6 +152,13 @@ export default function RepoCard({
         <div className="weekly__num">+{formatNumber(repo.starsThisWeek)}</div>
         <div className="weekly__label">{t.starsThisWeek}</div>
       </div>
+
+      <ReviewSection
+        fullName={repo.fullName}
+        lang={lang}
+        t={t}
+        initialCount={reviewCount}
+      />
     </div>
   );
 }

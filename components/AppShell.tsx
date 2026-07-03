@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import type { RepoView } from "@/lib/types";
 import { translations, type Lang } from "@/lib/i18n";
@@ -24,6 +24,23 @@ export default function AppShell({
   const t = translations[lang];
   const { data: session } = useSession();
   const isAdmin = Boolean(session?.user?.isAdmin);
+
+  // One batched fetch for the "💬 review count" badges on all cards.
+  const [reviewCounts, setReviewCounts] = useState<Record<string, number>>({});
+  useEffect(() => {
+    const names = repos.map((r) => r.fullName).join(",");
+    if (!names) return;
+    let cancelled = false;
+    fetch(`/api/reviews?counts=${encodeURIComponent(names)}`)
+      .then((res) => (res.ok ? res.json() : { counts: {} }))
+      .then((data: { counts: Record<string, number> }) => {
+        if (!cancelled) setReviewCounts(data.counts ?? {});
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [repos]);
 
   return (
     <div className="layout">
@@ -63,7 +80,21 @@ export default function AppShell({
         <div className="topbar">
           {session?.user ? (
             <span className="user">
-              <span className="user__badge">{t.adminBadge}</span>
+              {session.user.image && (
+                <img
+                  className="user__avatar"
+                  src={session.user.image}
+                  alt=""
+                  width={26}
+                  height={26}
+                  referrerPolicy="no-referrer"
+                />
+              )}
+              {isAdmin ? (
+                <span className="user__badge">{t.adminBadge}</span>
+              ) : (
+                <span className="user__name">{session.user.name}</span>
+              )}
               <button className="lang-btn" onClick={() => signOut()}>
                 {t.signOut}
               </button>
@@ -110,6 +141,7 @@ export default function AppShell({
               t={t}
               isAdmin={isAdmin}
               editable={!isArchive}
+              reviewCount={reviewCounts[repo.fullName]}
             />
           ))}
         </section>
