@@ -442,6 +442,7 @@ button {
 .top-review__text {
   margin-top: 2px;
   font-size: 13px;
+  white-space: pre-wrap;
   overflow-wrap: anywhere;
   word-break: break-word;
 }
