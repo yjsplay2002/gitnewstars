@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import type { RepoView } from "@/lib/types";
+import type { TopReviewView } from "@/lib/reviews";
 import { translations, type Lang } from "@/lib/i18n";
 import { weekLabel } from "@/lib/week";
 import RepoCard from "./RepoCard";
@@ -35,6 +36,23 @@ export default function AppShell({
       .then((res) => (res.ok ? res.json() : { counts: {} }))
       .then((data: { counts: Record<string, number> }) => {
         if (!cancelled) setReviewCounts(data.counts ?? {});
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [repos]);
+
+  // One batched fetch for each card's top-3 starred reviews (shown even collapsed).
+  const [topReviews, setTopReviews] = useState<Record<string, TopReviewView[]>>({});
+  useEffect(() => {
+    const names = repos.map((r) => r.fullName).join(",");
+    if (!names) return;
+    let cancelled = false;
+    fetch(`/api/reviews?topFor=${encodeURIComponent(names)}`)
+      .then((res) => (res.ok ? res.json() : { top: {} }))
+      .then((data: { top: Record<string, TopReviewView[]> }) => {
+        if (!cancelled) setTopReviews(data.top ?? {});
       })
       .catch(() => {});
     return () => {
@@ -142,6 +160,7 @@ export default function AppShell({
               isAdmin={isAdmin}
               editable={!isArchive}
               reviewCount={reviewCounts[repo.fullName]}
+              topReviews={topReviews[repo.fullName]}
             />
           ))}
         </section>

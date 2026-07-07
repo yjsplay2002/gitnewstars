@@ -10,6 +10,7 @@ import {
   reviewCounts,
   reviewsKey,
   toView,
+  topReviews,
 } from "@/lib/reviews";
 
 export const dynamic = "force-dynamic";
@@ -30,6 +31,7 @@ async function viewer() {
 /**
  * GET ?repo=owner/repo   -> { reviews: ReviewView[] }
  * GET ?counts=a/b,c/d    -> { counts: { "a/b": n, ... } }
+ * GET ?topFor=a/b,c/d    -> { top: { "a/b": TopReviewView[], ... } }
  */
 export async function GET(req: Request) {
   const redis = getRedis();
@@ -43,6 +45,18 @@ export async function GET(req: Request) {
       .slice(0, 50);
     if (!redis || repos.length === 0) return NextResponse.json({ counts: {} });
     return NextResponse.json({ counts: await reviewCounts(redis, repos) });
+  }
+
+  const topForParam = searchParams.get("topFor");
+  if (topForParam !== null) {
+    const repos = topForParam
+      .split(",")
+      .filter((r) => REPO_RE.test(r))
+      .slice(0, 50);
+    if (!redis || repos.length === 0) return NextResponse.json({ top: {} });
+    const { email } = await viewer();
+    const entries = await Promise.all(repos.map((r) => topReviews(redis, r, email, 3)));
+    return NextResponse.json({ top: Object.fromEntries(repos.map((r, i) => [r, entries[i]])) });
   }
 
   const repo = searchParams.get("repo") ?? "";

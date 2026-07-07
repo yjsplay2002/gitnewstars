@@ -48,6 +48,7 @@ export const translations = {
     visitorsToday: "오늘 방문자",
     visitorsTotal: "총 방문자",
     // reviews & comments
+    topReviewsTitle: "인기 후기",
     reviewsToggle: "후기",
     writeReviewPlaceholder: "이 프로젝트를 써본 경험을 공유해 주세요",
     commentPlaceholder: "댓글을 입력하세요",
@@ -108,6 +109,7 @@ export const translations = {
     visitorsToday: "Today",
     visitorsTotal: "Total visitors",
     // reviews & comments
+    topReviewsTitle: "Top reviews",
     reviewsToggle: "Reviews",
     writeReviewPlaceholder: "Share your experience with this project",
     commentPlaceholder: "Write a comment",

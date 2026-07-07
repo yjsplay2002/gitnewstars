@@ -15,6 +15,8 @@ interface CommentView {
 
 interface ReviewView extends CommentView {
   comments: CommentView[];
+  starCount: number;
+  starred: boolean;
 }
 
 function fmtDate(iso: string, lang: Lang): string {
@@ -137,6 +139,25 @@ export default function ReviewSection({
     }
   }
 
+  async function toggleStar(reviewId: string) {
+    if (!signedIn) {
+      signIn("google");
+      return;
+    }
+    const res = await fetch("/api/reviews/star", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ repo: fullName, reviewId }),
+    });
+    if (!res.ok) return;
+    const data = (await res.json()) as { starCount: number; starred: boolean };
+    setReviews((prev) =>
+      prev.map((r) =>
+        r.id === reviewId ? { ...r, starCount: data.starCount, starred: data.starred } : r
+      )
+    );
+  }
+
   async function removeComment(reviewId: string, id: string) {
     if (!window.confirm(t.deleteConfirm)) return;
     const res = await fetch(
@@ -215,6 +236,13 @@ export default function ReviewSection({
                   )}
                   <span className="review__author">{r.authorName}</span>
                   <span className="review__date">{fmtDate(r.createdAt, lang)}</span>
+                  <button
+                    className={`review__star${r.starred ? " review__star--active" : ""}`}
+                    onClick={() => toggleStar(r.id)}
+                    aria-pressed={r.starred}
+                  >
+                    {r.starred ? "⭐" : "☆"} {r.starCount > 0 && r.starCount}
+                  </button>
                   {(r.mine || isAdmin) && (
                     <button className="review__del" onClick={() => removeReview(r.id)}>
                       {t.delete}

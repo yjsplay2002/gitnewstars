@@ -32,10 +32,17 @@ export interface CommentView {
 
 export interface ReviewView extends CommentView {
   comments: CommentView[];
+  starCount: number;
+  starred: boolean;
+}
+
+export interface TopReviewView extends CommentView {
+  starCount: number;
 }
 
 export const reviewsKey = (repo: string) => `reviews:${repo}`;
 export const commentsKey = (reviewId: string) => `review-comments:${reviewId}`;
+export const starsKey = (reviewId: string) => `review-stars:${reviewId}`;
 
 export function toView(entry: StoredEntry, viewerEmail: string | null): CommentView {
   return {
@@ -46,6 +53,23 @@ export function toView(entry: StoredEntry, viewerEmail: string | null): CommentV
     createdAt: entry.createdAt,
     mine: Boolean(viewerEmail && entry.authorEmail === viewerEmail),
   };
+}
+
+/** Toggle the viewer's star on a review. Returns the new state. */
+export async function toggleStar(
+  redis: Redis,
+  reviewId: string,
+  viewerEmail: string
+): Promise<{ starCount: number; starred: boolean }> {
+  const key = starsKey(reviewId);
+  const already = await redis.sismember(key, viewerEmail);
+  if (already) {
+    await redis.srem(key, viewerEmail);
+  } else {
+    await redis.sadd(key, viewerEmail);
+  }
+  const starCount = await redis.scard(key);
+  return { starCount, starred: !already };
 }
 
 function entriesOf(hash: Record<string, unknown> | null): StoredEntry[] {
@@ -65,15 +89,49 @@ export async function listReviews(
   const reviews = entriesOf(await redis.hgetall(reviewsKey(repo)));
   reviews.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 
-  const commentHashes = await Promise.all(
-    reviews.map((r) => redis.hgetall(commentsKey(r.id)))
-  );
+  const [commentHashes, starCounts, starredFlags] = await Promise.all([
+    Promise.all(reviews.map((r) => redis.hgetall(commentsKey(r.id)))),
+    Promise.all(reviews.map((r) => redis.scard(starsKey(r.id)))),
+    viewerEmail
+      ? Promise.all(reviews.map((r) => redis.sismember(starsKey(r.id), viewerEmail)))
+      : Promise.resolve(reviews.map(() => false)),
+  ]);
 
   return reviews.map((review, i) => {
     const comments = entriesOf(commentHashes[i]);
     comments.sort((a, b) => a.createdAt.localeCompare(b.createdAt));
-    return { ...toView(review, viewerEmail), comments: comments.map((c) => toView(c, viewerEmail)) };
+    return {
+      ...toView(review, viewerEmail),
+      comments: comments.map((c) => toView(c, viewerEmail)),
+      starCount: starCounts[i],
+      starred: Boolean(starredFlags[i]),
+    };
   });
+}
+
+/** Top-starred reviews for a repo (starCount > 0), newest-first tiebreak. No comments. */
+export async function topReviews(
+  redis: Redis,
+  repo: string,
+  viewerEmail: string | null,
+  limit = 3
+): Promise<TopReviewView[]> {
+  const reviews = entriesOf(await redis.hgetall(reviewsKey(repo)));
+  if (reviews.length === 0) return [];
+
+  const starCounts = await Promise.all(reviews.map((r) => redis.scard(starsKey(r.id))));
+  const ranked = reviews
+    .map((review, i) => ({ review, starCount: starCounts[i] }))
+    .filter((r) => r.starCount > 0)
+    .sort(
+      (a, b) => b.starCount - a.starCount || b.review.createdAt.localeCompare(a.review.createdAt)
+    )
+    .slice(0, limit);
+
+  return ranked.map(({ review, starCount }) => ({
+    ...toView(review, viewerEmail),
+    starCount,
+  }));
 }
 
 /** Review counts for a batch of repos, keyed by fullName. */

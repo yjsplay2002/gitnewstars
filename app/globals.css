@@ -223,9 +223,10 @@ button {
   display: grid;
   grid-template-columns: auto auto minmax(0, 1fr) auto;
   grid-template-areas:
-    "rank    avatar  name    weekly"
-    "rank    avatar  desc    weekly"
-    "rank    avatar  meta    weekly"
+    "rank    avatar  name        weekly"
+    "rank    avatar  desc        weekly"
+    "rank    avatar  meta        weekly"
+    "top-reviews top-reviews top-reviews top-reviews"
     "reviews reviews reviews reviews";
   column-gap: 16px;
   align-items: center;
@@ -400,6 +401,51 @@ button {
   font-size: 12px;
 }
 
+/* ---------- top-3 starred reviews (shown even collapsed) ---------- */
+.top-reviews {
+  grid-area: top-reviews;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+}
+.top-reviews__title {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+.top-reviews__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.top-review {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.top-review__body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.top-review__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.top-review__stars {
+  font-size: 11px;
+  color: #e3b341;
+  font-weight: 600;
+}
+.top-review__text {
+  margin-top: 2px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 /* ---------- reviews & comments ---------- */
 .reviews {
   grid-area: reviews;
@@ -490,8 +536,26 @@ button {
   font-size: 11px;
   color: var(--text-muted);
 }
-.review__del {
+.review__star {
   margin-left: auto;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 2px 8px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.review__star:hover {
+  border-color: #e3b341;
+  color: #e3b341;
+}
+.review__star--active {
+  border-color: #e3b341;
+  color: #e3b341;
+}
+.review__del {
   background: transparent;
   border: none;
   color: var(--text-muted);
@@ -521,6 +585,9 @@ button {
   margin-top: 3px;
   font-size: 13px;
   color: var(--text);
+}
+.comment .review__del {
+  margin-left: auto;
 }
 .comment-form {
   display: flex;
@@ -595,6 +662,7 @@ button {
       "rank    avatar  name    weekly"
       "desc    desc    desc    desc"
       "meta    meta    meta    meta"
+      "top-reviews top-reviews top-reviews top-reviews"
       "reviews reviews reviews reviews";
     column-gap: 12px;
     row-gap: 8px;
