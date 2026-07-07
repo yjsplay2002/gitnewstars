@@ -431,6 +431,11 @@ button {
 }
 
 /* ---------- AI tools tab ---------- */
+.tool-card__logo {
+  padding: 8px;
+  object-fit: contain;
+  background: #fff;
+}
 .tool-card__emoji {
   grid-area: avatar;
   font-size: 34px;

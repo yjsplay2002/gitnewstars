@@ -1,5 +1,6 @@
 // Client component by inheritance: only imported from ToolsShell ("use client").
 // No "use client" directive here so the star-toggle callback prop is allowed.
+import { useState } from "react";
 import type { AiTool } from "@/lib/aiTools";
 import type { TopReviewView } from "@/lib/reviews";
 import type { Lang, Dict } from "@/lib/i18n";
@@ -36,6 +37,11 @@ export default function ToolCard({
   reviewCount?: number;
   topReviews?: TopReviewView[];
 }) {
+  const [logoFailed, setLogoFailed] = useState(false);
+  const logoUrl = `https://www.google.com/s2/favicons?domain=${encodeURIComponent(
+    new URL(tool.url).hostname
+  )}&sz=128`;
+
   const description = lang === "ko" ? tool.descKo || tool.descEn : tool.descEn;
   const pricingLabel =
     tool.pricing === "free"
@@ -52,7 +58,20 @@ export default function ToolCard({
         {t.rankSuffix && <span className="rank__suffix">{t.rankSuffix}</span>}
       </div>
 
-      <span className="tool-card__emoji">{categoryEmoji}</span>
+      {logoFailed ? (
+        <span className="tool-card__emoji">{categoryEmoji}</span>
+      ) : (
+        <img
+          className="avatar tool-card__logo"
+          src={logoUrl}
+          alt={`${tool.name} logo`}
+          loading="lazy"
+          width={56}
+          height={56}
+          referrerPolicy="no-referrer"
+          onError={() => setLogoFailed(true)}
+        />
+      )}
 
       <a className="card__name" href={tool.url} target="_blank" rel="noopener noreferrer">
         {tool.name}
