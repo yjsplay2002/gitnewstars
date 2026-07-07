@@ -109,7 +109,7 @@ export async function listReviews(
   });
 }
 
-/** Top-starred reviews for a repo (starCount > 0), newest-first tiebreak. No comments. */
+/** Top reviews for a repo: most-starred first, oldest-first when tied (incl. all-zero). No comments. */
 export async function topReviews(
   redis: Redis,
   repo: string,
@@ -122,9 +122,8 @@ export async function topReviews(
   const starCounts = await Promise.all(reviews.map((r) => redis.scard(starsKey(r.id))));
   const ranked = reviews
     .map((review, i) => ({ review, starCount: starCounts[i] }))
-    .filter((r) => r.starCount > 0)
     .sort(
-      (a, b) => b.starCount - a.starCount || b.review.createdAt.localeCompare(a.review.createdAt)
+      (a, b) => b.starCount - a.starCount || a.review.createdAt.localeCompare(b.review.createdAt)
     )
     .slice(0, limit);
 

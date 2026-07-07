@@ -177,9 +177,7 @@ export default function ReviewSection({
     <div className="reviews">
       <button className="reviews__toggle" onClick={toggle} aria-expanded={open}>
         💬 {t.reviewsToggle}
-        {typeof shownCount === "number" && shownCount > 0 && (
-          <span className="reviews__count">{shownCount}</span>
-        )}
+        <span className="reviews__count">{shownCount ?? 0}</span>
         <span className="reviews__chev">{open ? "▴" : "▾"}</span>
       </button>
 
