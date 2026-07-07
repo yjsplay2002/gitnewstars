@@ -96,6 +96,14 @@ export default function AppShell({
       {/* ---- main content ---- */}
       <main className="main">
         <div className="topbar">
+          <nav className="tabs">
+            <a className="tab tab--active" href="/">
+              ⭐ {t.tabGithub}
+            </a>
+            <a className="tab" href="/tools">
+              🤖 {t.tabAiTools}
+            </a>
+          </nav>
           {session?.user ? (
             <span className="user">
               {session.user.image && (

@@ -132,6 +132,35 @@ button {
   align-items: center;
   gap: 10px;
 }
+.tabs {
+  margin-right: auto;
+  display: inline-flex;
+  gap: 6px;
+}
+.tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.tab:hover {
+  background: var(--bg-soft);
+  border-color: var(--accent-2);
+  color: var(--text);
+}
+.tab--active {
+  background: var(--bg-soft);
+  border-color: var(--accent-2);
+  color: var(--text);
+  font-weight: 600;
+}
 .user {
   display: inline-flex;
   align-items: center;
@@ -399,6 +428,74 @@ button {
 .edit__error {
   color: #f85149;
   font-size: 12px;
+}
+
+/* ---------- AI tools tab ---------- */
+.tool-card__emoji {
+  grid-area: avatar;
+  font-size: 34px;
+  line-height: 56px;
+  width: 56px;
+  text-align: center;
+}
+.tool-card__vendor {
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+}
+.tool-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 2px 8px;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.tool-badge--free {
+  border-color: #3fb950;
+  color: #3fb950;
+}
+.tool-badge--freemium {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+.tool-badge--paid {
+  border-color: #d29922;
+  color: #d29922;
+}
+.tool-badge--oss:hover {
+  background: var(--bg-soft);
+}
+.tool-badge--new {
+  border-color: #f85149;
+  color: #f85149;
+}
+.tool-star {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 12px;
+  cursor: pointer;
+  padding: 3px 10px;
+  transition: border-color 0.15s, color 0.15s;
+}
+.tool-star:hover,
+.tool-star--active {
+  border-color: #e3b341;
+  color: #e3b341;
+}
+button.week-link {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+  width: 100%;
 }
 
 /* ---------- top-3 starred reviews (shown even collapsed) ---------- */
