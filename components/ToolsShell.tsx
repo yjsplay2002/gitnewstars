@@ -132,6 +132,9 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
             <a className="tab tab--active" href="/tools">
               🤖 {t.tabAiTools}
             </a>
+            <a className="tab" href="/posts">
+              💡 {t.tabPosts}
+            </a>
           </nav>
           {session?.user ? (
             <span className="user">

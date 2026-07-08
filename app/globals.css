@@ -991,3 +991,163 @@ button.week-link {
   font-size: 12px;
   color: var(--text-muted);
 }
+
+/* ---------- posts (usecases & tips) tab ---------- */
+.post {
+  display: block;
+}
+.post__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.post__head .review__del {
+  margin-left: auto;
+}
+.post__title {
+  font-size: 19px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  line-height: 1.35;
+}
+.post__body {
+  font-size: 14.5px;
+  color: var(--text);
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin-bottom: 12px;
+}
+.post__media {
+  display: block;
+  margin: 4px 0 12px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  background: var(--bg);
+}
+.post__image {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+  object-fit: contain;
+}
+.post__media--video {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+.post__media--video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.post__video {
+  display: block;
+  width: 100%;
+  max-height: 480px;
+}
+.post__media-link {
+  display: block;
+  margin: 4px 0 12px;
+  font-size: 13px;
+  color: var(--accent-2);
+  overflow-wrap: anywhere;
+}
+.post__meta {
+  align-items: center;
+}
+.post__weekly {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* compose form */
+.post-compose {
+  margin-bottom: 22px;
+}
+.post-form {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.post-form__input,
+.post-form__area {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 9px 11px;
+  font-size: 14px;
+  font-family: inherit;
+}
+.post-form__area {
+  resize: vertical;
+}
+.post-form__input:focus,
+.post-form__area:focus {
+  outline: none;
+  border-color: var(--accent-2);
+}
+.post-form__hint {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* weekly-top sidebar entries */
+button.post-rank {
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+  width: 100%;
+}
+button.post-rank:hover {
+  background: var(--bg-card);
+}
+.post-rank__num {
+  flex: 0 0 auto;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  background: var(--bg-card);
+  color: var(--text-muted);
+}
+.post-rank__num--1 {
+  background: var(--gold);
+  color: #1a1500;
+}
+.post-rank__num--2 {
+  background: var(--silver);
+  color: #14181d;
+}
+.post-rank__num--3 {
+  background: var(--bronze);
+  color: #1f1000;
+}
+.post-rank__title {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13.5px;
+}
+.post-rank__stars {
+  flex: 0 0 auto;
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+}
