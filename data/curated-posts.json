@@ -50,6 +50,18 @@
       "createdAt": "2026-07-03T09:00:00Z"
     },
     {
+      "id": "curated-20260430-codex-proven-patterns",
+      "title": "OpenAI Codex 검증된 패턴 5가지 — 프롬프트, 검증, 거버넌스",
+      "body": "Codex를 팀에서 지속 가능하게 쓰기 위한 패턴 정리: (1) 목표·컨텍스트·제약·완료 조건을 갖춘 구조화 프롬프트, (2) 빌드 명령·아키텍처 규칙을 담은 AGENTS.md를 '가장 중요한 설정 파일'로 관리, (3) 복잡한 작업은 plan 모드로 탐색 후 실행, (4) 테스트를 먼저 쓰고 구현 중 테스트 수정 금지 — 에이전트에게 외부 진실 소스를 제공, (5) 게이트웨이로 예산·감사 로그·멀티 프로바이더 라우팅 통제. Claude Code의 CLAUDE.md 운영법과 그대로 대응되는 내용이라 비교해 읽기 좋습니다.",
+      "titleEn": "5 proven patterns for OpenAI Codex — prompts, validation, governance",
+      "bodyEn": "Patterns for sustainable team use of Codex: (1) structured prompts with goal/context/constraints/done-when, (2) AGENTS.md as 'the single most important configuration file' for build commands and architecture rules, (3) plan mode first for complex tasks, (4) write tests first and forbid test edits during implementation — give the agent an external truth source, (5) gateway-level budgets, audit logs, and multi-provider routing. Maps one-to-one onto CLAUDE.md practice in Claude Code — worth reading side by side.",
+      "sourceName": "DEV Community",
+      "sourceUrl": "https://dev.to/kuldeep_paul/proven-patterns-for-openai-codex-in-2026-prompts-validation-and-gateway-governance-1jhm",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-04-30T09:00:00Z"
+    },
+    {
       "id": "curated-20250722-clien-vibe-coding-launch",
       "title": "[한국어] 바이브 코딩으로 앱 출시까지 — 40일 1인 개발 후기와 팁 5가지",
       "body": "Flutter + PocketBase로 iOS/Android 앱 '아보행'을 40일 만에 1인 출시한 클리앙 후기입니다. 실전 팁: (1) 수정할 파일과 메서드까지 지정하는 구체적 지시, (2) 프로젝트 구조·컨벤션을 담은 rules 문서로 컨텍스트 관리, (3) UI 수정 전 ASCII 와이어프레임으로 합의, (4) AI가 임베딩으로 검색하므로 주석을 코드와 동기화, (5) 규모가 커지면 '지시자'에서 여러 AI 작업을 병렬 관리하는 'PM'으로 역할 전환. 오래됐지만 여전히 유효한 한국어 바이브 코딩 실전 가이드입니다.",
