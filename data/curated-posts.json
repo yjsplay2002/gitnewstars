@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-07-08T06:00:00Z",
+  "generatedAt": "2026-07-08T06:40:00Z",
   "posts": [
+    {
+      "id": "curated-20260707-gn-agent-mistakes",
+      "title": "실서비스에서 AI 에이전트 실수, 어떻게 추적하나요? — GeekNews 실무 토론",
+      "body": "여러 AI 에이전트를 실서비스에 투입한 팀이 에이전트가 잘못된 코드를 배포하거나 엉뚱한 파일을 수정했을 때의 책임 추적 방법을 물었고, 실전 답변이 모였습니다. 핵심 조언: 에이전트별 역할·권한 명세와 승인 배지, 로그·감사 추적 기반 사후 검증, 그리고 'AI가 제안하고 사람이 결정'하는 게이트 유지. 수정 권한 자체를 좁혀 예측 불가능한 오류 범위를 줄이라는 팁도 나왔습니다. 에이전트를 업무에 붙이기 시작한 팀이라면 그대로 참고할 만한 체크리스트입니다.",
+      "titleEn": "How do you track AI agent mistakes in production? — GeekNews discussion",
+      "bodyEn": "A team running multiple AI agents in production asked how to track accountability when agents deploy wrong code or edit the wrong files. Practical answers: per-agent role/permission specs with approval badges, log/audit-trail-based post-verification, and keeping an 'AI proposes, humans decide' gate. Also: narrow the modification authority itself to shrink the blast radius. A ready-made checklist for teams starting to wire agents into real work.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31212",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-07T10:00:00Z"
+    },
+    {
+      "id": "curated-20260706-gn-dev-role-shift",
+      "title": "AI 코딩 시대의 개발자 역할 — 코딩 실행자에서 맥락·검증·제품화 설계자로",
+      "body": "velog의 teo님이 쓴 글이 GeekNews에서 화제가 됐습니다. AI가 개발 워크플로우 전체를 실행하는 시대에 개발자의 일은 문제 범위 설계, 문서로 컨텍스트 유지, AI 산출물 검증, 프로토타입을 제품 품질로 다듬는 것으로 이동한다는 내용입니다. 커밋과 테스트 수를 늘리는 것 자체는 제품 개선을 보장하지 않으며, AI 워크플로우를 오케스트레이션하는 능력이 핵심 역량이 된다고 짚습니다.",
+      "titleEn": "Developer roles in the AI coding era — from code executor to context/verification/product designer",
+      "bodyEn": "A widely-discussed velog post by teo: as AI executes entire dev workflows, the developer's job shifts to scoping problems, maintaining context via documentation, verifying AI output, and refining prototypes into production quality. More commits and tests don't guarantee a better product — orchestrating AI workflows becomes the core skill.",
+      "sourceName": "GeekNews · velog @teo",
+      "sourceUrl": "https://news.hada.io/topic?id=31165",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-06T09:00:00Z"
+    },
+    {
+      "id": "curated-20260706-gn-opentag",
+      "title": "OpenTag — Slack용 Claude Tag의 오픈소스 대안",
+      "body": "Slack에서 Claude를 태그해 바로 부려쓰는 'Claude Tag' 기능의 오픈소스 대안이 공개됐습니다. 자체 호스팅이 가능해 사내 보안 정책 때문에 공식 연동을 못 쓰는 팀도 Slack 스레드 안에서 에이전트 워크플로우를 돌릴 수 있습니다. 팀 챗봇 형태의 에이전트 활용을 실험 중이라면 코드째 뜯어볼 수 있는 좋은 출발점입니다.",
+      "titleEn": "OpenTag — an open-source alternative to Claude Tag for Slack",
+      "bodyEn": "An open-source, self-hostable alternative to Slack's 'Claude Tag' integration. Teams blocked from the official integration by security policy can still run agent workflows inside Slack threads. A good starting point to dissect if you're experimenting with team-chatbot-style agents.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31158",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-06T08:00:00Z"
+    },
+    {
+      "id": "curated-20260705-ko-claude-15min",
+      "title": "[영상·한글자막] 1,000시간 넘게 배운 Claude를 15분 만에 — 초보부터 프로까지",
+      "body": "Claude를 단순 챗봇으로 쓰는 단계를 넘어 프로젝트, 커넥터, 스킬, Claude Code, 에이전트 오케스트레이션까지 단계별로 확장하는 방법을 15분에 압축한 한글자막 영상입니다. 기능별로 '언제 무엇을 쓰는지' 기준을 잡아줘서, 팀에 Claude를 도입하며 온보딩 자료가 필요할 때 공유하기 좋습니다.",
+      "titleEn": "[Video, KO subs] 1,000+ hours of Claude experience compressed into 15 minutes",
+      "bodyEn": "A Korean-subtitled video compressing 1,000+ hours of Claude experience into 15 minutes: moving beyond chatbot usage to projects, connectors, skills, Claude Code, and agent orchestration. Gives clear 'when to use what' criteria — a good onboarding share when rolling Claude out to a team.",
+      "sourceName": "YouTube",
+      "sourceUrl": "https://www.youtube.com/watch?v=DQbpvuVN0SI",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=DQbpvuVN0SI",
+      "createdAt": "2026-07-05T12:00:00Z"
+    },
     {
       "id": "curated-20260707-fable5-extended-access",
       "title": "Anthropic, 모든 유료 플랜에 Fable 5 접근 7월 12일까지 연장",
