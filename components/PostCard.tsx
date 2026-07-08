@@ -78,6 +78,9 @@ export default function PostCard({
   onToggleStar: (id: string) => void;
   onDelete: (id: string) => void;
 }) {
+  const title = lang === "en" && post.titleEn ? post.titleEn : post.title;
+  const body = lang === "en" && post.bodyEn ? post.bodyEn : post.body;
+
   return (
     <article className="card post" id={`post-${post.id}`}>
       <div className="post__head">
@@ -91,9 +94,14 @@ export default function PostCard({
             referrerPolicy="no-referrer"
           />
         ) : (
-          <span className="review__avatar review__avatar--fallback">👤</span>
+          <span className="review__avatar review__avatar--fallback">
+            {post.curated ? "🌐" : "👤"}
+          </span>
         )}
         <span className="review__author">{post.authorName}</span>
+        {post.curated && (
+          <span className="tool-badge tool-badge--oss">{t.curatedBadge}</span>
+        )}
         <span className="review__date">{fmtDate(post.createdAt, lang)}</span>
         {post.mediaType === "video" && (
           <span className="tool-badge tool-badge--new">🎬 {t.videoBadge}</span>
@@ -101,7 +109,7 @@ export default function PostCard({
         {post.mediaType === "image" && (
           <span className="tool-badge tool-badge--freemium">🖼️ {t.imageBadge}</span>
         )}
-        {canDelete && (
+        {canDelete && !post.curated && (
           <button
             className="review__del"
             onClick={() => {
@@ -113,12 +121,22 @@ export default function PostCard({
         )}
       </div>
 
-      <h3 className="post__title">{post.title}</h3>
-      <p className="post__body">{post.body}</p>
+      <h3 className="post__title">{title}</h3>
+      <p className="post__body">{body}</p>
 
       <PostMedia post={post} />
 
       <div className="meta post__meta">
+        {post.sourceUrl && (
+          <a
+            className="post__source"
+            href={post.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            🔗 {t.viewSource}
+          </a>
+        )}
         <button
           className={`tool-star${post.starred ? " tool-star--active" : ""}`}
           onClick={() => onToggleStar(post.id)}

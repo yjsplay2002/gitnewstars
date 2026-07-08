@@ -9,6 +9,8 @@
  */
 import type { Redis } from "@upstash/redis";
 import { isoWeekId } from "./week";
+import { readJson } from "./github";
+import bundledCurated from "@/data/curated-posts.json";
 
 export const POST_TITLE_MAX_LEN = 120;
 export const POST_BODY_MAX_LEN = 3000;
@@ -34,6 +36,8 @@ export interface PostView {
   authorImage: string;
   title: string;
   body: string;
+  titleEn?: string; // curated posts carry both languages
+  bodyEn?: string;
   mediaType: PostMediaType;
   mediaUrl: string;
   createdAt: string;
@@ -41,6 +45,41 @@ export interface PostView {
   starCount: number;
   weeklyStarCount: number;
   starred: boolean;
+  curated?: boolean;
+  sourceName?: string;
+  sourceUrl?: string;
+}
+
+/**
+ * Curated posts — crawled daily from the web (HN, Reddit, blogs …) by the
+ * scheduled research routine, which rewrites data/curated-posts.json and
+ * commits (git-as-DB, same pattern as ai-tools.json). They join the feed
+ * alongside user posts and take stars/reviews through the same Redis keys.
+ */
+export interface CuratedPost {
+  id: string; // stable slug, e.g. "curated-2026-07-08-claude-report"
+  title: string; // Korean
+  body: string; // Korean summary
+  titleEn: string;
+  bodyEn: string;
+  sourceName: string; // e.g. "Hacker News", "Reddit r/ClaudeAI"
+  sourceUrl: string;
+  mediaType: PostMediaType;
+  mediaUrl: string;
+  createdAt: string; // ISO — when the tip was published/crawled
+}
+
+export interface CuratedPostsSnapshot {
+  generatedAt: string;
+  posts: CuratedPost[];
+}
+
+export const CURATED_ID_RE = /^curated-[\w-]+$/;
+
+/** Live file from the data repo when available, bundled copy otherwise. */
+export async function getCuratedPosts(): Promise<CuratedPostsSnapshot> {
+  const live = await readJson<CuratedPostsSnapshot>("data/curated-posts.json", 300);
+  return live ?? (bundledCurated as CuratedPostsSnapshot);
 }
 
 export const postsKey = () => "posts";
@@ -101,23 +140,59 @@ export function toPostView(
   };
 }
 
-/** All posts (newest first) with all-time + this-week star counts. */
-export async function listPosts(redis: Redis, viewerEmail: string | null): Promise<PostView[]> {
-  const posts = postsOf(await redis.hgetall(postsKey()));
-  posts.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+export function curatedToView(post: CuratedPost): PostView {
+  return {
+    id: post.id,
+    authorName: post.sourceName,
+    authorImage: "",
+    title: post.title,
+    body: post.body,
+    titleEn: post.titleEn,
+    bodyEn: post.bodyEn,
+    mediaType: post.mediaType,
+    mediaUrl: post.mediaUrl,
+    createdAt: post.createdAt,
+    mine: false,
+    starCount: 0,
+    weeklyStarCount: 0,
+    starred: false,
+    curated: true,
+    sourceName: post.sourceName,
+    sourceUrl: post.sourceUrl,
+  };
+}
+
+/**
+ * User posts (Redis) merged with curated posts (crawled JSON), newest first,
+ * each with all-time + this-week star counts from the shared Redis star keys.
+ */
+export async function listPosts(
+  redis: Redis,
+  viewerEmail: string | null,
+  curated: CuratedPost[] = []
+): Promise<PostView[]> {
+  const userPosts = postsOf(await redis.hgetall(postsKey()));
+  const views: PostView[] = [
+    ...userPosts.map((p) => toPostView(p, viewerEmail, 0, 0, false)),
+    ...curated.map(curatedToView),
+  ];
+  views.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 
   const week = isoWeekId();
   const [starCounts, weeklyCounts, starredFlags] = await Promise.all([
-    Promise.all(posts.map((p) => redis.scard(postStarsKey(p.id)))),
-    Promise.all(posts.map((p) => redis.scard(postWeeklyStarsKey(p.id, week)))),
+    Promise.all(views.map((p) => redis.scard(postStarsKey(p.id)))),
+    Promise.all(views.map((p) => redis.scard(postWeeklyStarsKey(p.id, week)))),
     viewerEmail
-      ? Promise.all(posts.map((p) => redis.sismember(postStarsKey(p.id), viewerEmail)))
-      : Promise.resolve(posts.map(() => false)),
+      ? Promise.all(views.map((p) => redis.sismember(postStarsKey(p.id), viewerEmail)))
+      : Promise.resolve(views.map(() => false)),
   ]);
 
-  return posts.map((post, i) =>
-    toPostView(post, viewerEmail, starCounts[i], weeklyCounts[i], Boolean(starredFlags[i]))
-  );
+  return views.map((view, i) => ({
+    ...view,
+    starCount: starCounts[i],
+    weeklyStarCount: weeklyCounts[i],
+    starred: Boolean(starredFlags[i]),
+  }));
 }
 
 /**

@@ -6,7 +6,9 @@ import {
   POST_TITLE_MAX_LEN,
   POST_URL_MAX_LEN,
   type StoredPost,
+  curatedToView,
   detectMediaType,
+  getCuratedPosts,
   listPosts,
   postStarsKey,
   postWeeklyStarsKey,
@@ -31,12 +33,22 @@ async function viewer() {
   };
 }
 
-/** GET -> { posts: PostView[], weekId } — newest first, with weekly star counts. */
+/** GET -> { posts: PostView[], weekId } — user + curated posts, newest first. */
 export async function GET() {
   const redis = getRedis();
-  if (!redis) return NextResponse.json({ posts: [], weekId: isoWeekId() });
+  const curated = await getCuratedPosts();
+  if (!redis) {
+    // Without Redis there are no user posts or stars — curated feed only.
+    const posts = curated.posts
+      .map(curatedToView)
+      .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+    return NextResponse.json({ posts, weekId: isoWeekId() });
+  }
   const { email } = await viewer();
-  return NextResponse.json({ posts: await listPosts(redis, email), weekId: isoWeekId() });
+  return NextResponse.json({
+    posts: await listPosts(redis, email, curated.posts),
+    weekId: isoWeekId(),
+  });
 }
 
 /** POST { title, body, mediaUrl? } -> { post: PostView } (requires sign-in) */

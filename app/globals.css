@@ -1151,3 +1151,12 @@ button.post-rank:hover {
   color: var(--accent);
   font-weight: 600;
 }
+
+.post__source {
+  font-size: 13px;
+  color: var(--accent-2);
+  font-weight: 600;
+}
+.post__source:hover {
+  text-decoration: underline;
+}

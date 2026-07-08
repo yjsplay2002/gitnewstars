@@ -1,7 +1,13 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/auth";
 import { getRedis } from "@/lib/redis";
-import { type StoredPost, postsKey, togglePostStar } from "@/lib/posts";
+import {
+  CURATED_ID_RE,
+  type StoredPost,
+  getCuratedPosts,
+  postsKey,
+  togglePostStar,
+} from "@/lib/posts";
 
 export const dynamic = "force-dynamic";
 
@@ -24,8 +30,15 @@ export async function POST(req: Request) {
   if (!id) return NextResponse.json({ error: "Invalid id" }, { status: 400 });
 
   // Only real posts accumulate stars — otherwise the keyspace is spammable.
-  const post = await redis.hget<StoredPost>(postsKey(), id);
-  if (!post) return NextResponse.json({ error: "Not found" }, { status: 404 });
+  if (CURATED_ID_RE.test(id)) {
+    const snapshot = await getCuratedPosts();
+    if (!snapshot.posts.some((p) => p.id === id)) {
+      return NextResponse.json({ error: "Not found" }, { status: 404 });
+    }
+  } else {
+    const post = await redis.hget<StoredPost>(postsKey(), id);
+    if (!post) return NextResponse.json({ error: "Not found" }, { status: 404 });
+  }
 
   return NextResponse.json(await togglePostStar(redis, id, email));
 }

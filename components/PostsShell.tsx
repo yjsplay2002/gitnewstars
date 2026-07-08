@@ -136,7 +136,9 @@ export default function PostsShell() {
               <span className={`post-rank__num post-rank__num--${i < 3 ? i + 1 : "n"}`}>
                 {i + 1}
               </span>
-              <span className="post-rank__title">{p.title}</span>
+              <span className="post-rank__title">
+                {lang === "en" && p.titleEn ? p.titleEn : p.title}
+              </span>
               <span className="post-rank__stars">⭐ {p.weeklyStarCount}</span>
             </button>
           ))}

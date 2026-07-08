@@ -83,6 +83,8 @@ export const translations = {
     noPosts: "아직 게시글이 없습니다. 첫 활용 사례를 공유해 보세요!",
     videoBadge: "동영상",
     imageBadge: "이미지",
+    curatedBadge: "웹 큐레이션",
+    viewSource: "원문 보기",
     // reviews & comments
     topReviewsTitle: "인기 후기",
     reviewsToggle: "후기",
@@ -180,6 +182,8 @@ export const translations = {
     noPosts: "No posts yet. Be the first to share a usecase!",
     videoBadge: "Video",
     imageBadge: "Image",
+    curatedBadge: "Web curated",
+    viewSource: "View source",
     // reviews & comments
     topReviewsTitle: "Top reviews",
     reviewsToggle: "Reviews",
