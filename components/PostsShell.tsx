@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import type { PostView } from "@/lib/posts";
 import { translations, type Lang } from "@/lib/i18n";
+import BottomNav from "./BottomNav";
 import PostCard from "./PostCard";
 import VisitorCounter from "./VisitorCounter";
 
@@ -280,6 +281,8 @@ export default function PostsShell() {
       <div className="fab-bar">
         <VisitorCounter t={t} />
       </div>
+
+      <BottomNav active="posts" t={t} />
     </div>
   );
 }

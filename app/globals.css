@@ -28,9 +28,12 @@ body {
     "Apple SD Gothic Neo", "Malgun Gothic", Roboto, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
-  /* Never allow horizontal scrolling (esp. on mobile). */
+  /* Never allow horizontal scrolling (esp. on mobile). `clip` (unlike
+     `hidden`) doesn't create a scroll container, so position:sticky keeps
+     working; the plain `hidden` line stays as a fallback for old browsers. */
   max-width: 100%;
   overflow-x: hidden;
+  overflow-x: clip;
 }
 
 * {
@@ -265,10 +268,13 @@ button {
   padding: 18px 20px;
   transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
-.card:hover {
-  transform: translateY(-2px);
-  border-color: var(--accent-2);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+/* Lift on hover only where hover exists — on touch it just causes sticky states. */
+@media (hover: hover) {
+  .card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent-2);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+  }
 }
 .card--top {
   background: linear-gradient(135deg, var(--bg-card), #20283a);
@@ -737,25 +743,170 @@ button.week-link {
   margin: 4px 0;
 }
 
+/* ---------- bottom navigation (mobile only) ---------- */
+.bottom-nav {
+  display: none;
+}
+
 /* ---------- responsive ---------- */
 @media (max-width: 820px) {
+  /*
+   * Mobile app shell: .main becomes display:contents so its children join the
+   * column flex layout directly — that lets the sticky topbar (DOM: inside
+   * main) order itself ABOVE the sidebar chip scroller. Final visual order:
+   * topbar → chips → hero → list → footer, plus a fixed bottom tab bar.
+   */
   .layout {
     flex-direction: column;
   }
+  .main {
+    display: contents;
+  }
+
+  /* sticky frosted top bar: brand + auth + language; tabs move to the bottom nav */
+  .topbar {
+    order: -1;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    margin: 0;
+    padding: 10px 16px;
+    padding-top: calc(10px + env(safe-area-inset-top));
+    background: rgba(13, 17, 23, 0.82);
+    -webkit-backdrop-filter: blur(14px);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--border);
+  }
+  .topbar .tabs {
+    display: none;
+  }
+  .topbar::before {
+    /* compact brand mark replaces the sidebar logo in the sticky bar */
+    content: "⭐ GitNewStars";
+    margin-right: auto;
+    font-weight: 800;
+    font-size: 15px;
+  }
+
+  /* sidebar collapses into a horizontal chip scroller */
   .sidebar {
     width: 100%;
     flex: none;
     height: auto;
     position: static;
+    /* topbar is order:-1, so DOM order puts these chips right below it */
     border-right: none;
     border-bottom: 1px solid var(--border);
+    padding: 10px 0 4px;
+    overflow: visible;
+  }
+  .sidebar__head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 16px;
+  }
+  .sidebar__logo {
+    display: none; /* brand lives in the sticky topbar on mobile */
+  }
+  .sidebar__title {
+    margin-top: 0;
   }
   .sidebar__nav {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    margin-top: 8px;
+    padding: 2px 16px 10px;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
   }
-  .sidebar__title {
-    margin-top: 12px;
+  .sidebar__nav::-webkit-scrollbar {
+    display: none;
+  }
+  .sidebar__nav .week-link {
+    flex: 0 0 auto;
+    width: auto;
+    white-space: nowrap;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 8px 14px;
+    scroll-snap-align: start;
+    min-height: 38px;
+  }
+  .sidebar__nav .week-link--active {
+    border-color: var(--accent-2);
+    color: var(--text);
+  }
+  .sidebar__nav button.post-rank {
+    max-width: 240px;
+  }
+  .sidebar__nav .post-rank__title {
+    max-width: 140px;
+  }
+  .sidebar__empty {
+    white-space: nowrap;
+  }
+
+  /* .main is display:contents — its padding is gone, so pad the children */
+  .hero,
+  .list,
+  .post-compose {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .hero {
+    margin: 20px 0 24px;
+  }
+  .footer {
+    padding: 0 16px calc(96px + env(safe-area-inset-bottom));
+    margin-top: 36px;
+  }
+  /* .layout prefix beats the base .fab-bar rule that appears later in the file */
+  .layout .fab-bar {
+    bottom: calc(84px + env(safe-area-inset-bottom));
+  }
+
+  /* fixed frosted bottom tab bar */
+  .bottom-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: flex;
+    align-items: stretch;
+    background: rgba(22, 27, 34, 0.92);
+    -webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    border-top: 1px solid var(--border);
+    padding: 6px 10px calc(6px + env(safe-area-inset-bottom));
+  }
+  .bottom-nav__item {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-height: 50px;
+    border-radius: 12px;
+    color: var(--text-muted);
+    font-size: 11px;
+    font-weight: 500;
+    transition: color 0.15s, background 0.15s;
+  }
+  .bottom-nav__icon {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .bottom-nav__item--active {
+    color: var(--accent);
+    font-weight: 700;
+    background: rgba(255, 211, 61, 0.08);
   }
 }
 @media (max-width: 600px) {
@@ -807,9 +958,8 @@ button.week-link {
   .hero {
     margin: 16px 0 28px;
   }
-  .fab-bar {
+  .layout .fab-bar {
     right: 12px;
-    bottom: 12px;
     gap: 8px;
   }
   .visitor-info {

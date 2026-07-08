@@ -6,6 +6,7 @@ import type { RepoView } from "@/lib/types";
 import type { TopReviewView } from "@/lib/reviews";
 import { translations, type Lang } from "@/lib/i18n";
 import { weekLabel } from "@/lib/week";
+import BottomNav from "./BottomNav";
 import RepoCard from "./RepoCard";
 import ShareButton from "./ShareButton";
 import VisitorCounter from "./VisitorCounter";
@@ -196,6 +197,8 @@ export default function AppShell({
           }
         />
       </div>
+
+      <BottomNav active="github" t={t} />
     </div>
   );
 }

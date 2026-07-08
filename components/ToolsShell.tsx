@@ -5,6 +5,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import type { AiToolsSnapshot } from "@/lib/aiTools";
 import type { TopReviewView } from "@/lib/reviews";
 import { translations, type Lang } from "@/lib/i18n";
+import BottomNav from "./BottomNav";
 import ToolCard from "./ToolCard";
 import VisitorCounter from "./VisitorCounter";
 
@@ -204,6 +205,8 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
       <div className="fab-bar">
         <VisitorCounter t={t} />
       </div>
+
+      <BottomNav active="tools" t={t} />
     </div>
   );
 }
