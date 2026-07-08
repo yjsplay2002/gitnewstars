@@ -128,7 +128,7 @@ export default function RepoCard({
             {description}
             {lang === "ko" && edited && (
               <span className="edited" title={t.editedBadge}>
-                ✍️
+                ·{t.editedBadge}
               </span>
             )}
           </p>
@@ -144,8 +144,8 @@ export default function RepoCard({
               {repo.language}
             </span>
           )}
-          <span className="meta__item">⭐ {formatNumber(repo.totalStars)}</span>
-          <span className="meta__item">🍴 {formatNumber(repo.forks)}</span>
+          <span className="meta__item">★ {formatNumber(repo.totalStars)}</span>
+          <span className="meta__item">{t.forks} {formatNumber(repo.forks)}</span>
           {isAdmin && editable && !editing && (
             <button
               className="meta__edit"
@@ -154,7 +154,7 @@ export default function RepoCard({
                 setEditing(true);
               }}
             >
-              ✏️ {t.edit}
+              {t.edit}
             </button>
           )}
         </div>
@@ -166,7 +166,7 @@ export default function RepoCard({
 
       {topReviews && topReviews.length > 0 && (
         <div className="top-reviews">
-          <div className="top-reviews__title">🏆 {t.topReviewsTitle}</div>
+          <div className="top-reviews__title">{t.topReviewsTitle}</div>
           <ul className="top-reviews__list">
             {topReviews.map((r) => (
               <li key={r.id} className="top-review">
@@ -180,12 +180,12 @@ export default function RepoCard({
                     referrerPolicy="no-referrer"
                   />
                 ) : (
-                  <span className="review__avatar review__avatar--fallback">👤</span>
+                  <span className="review__avatar review__avatar--fallback">{(r.authorName || "·").slice(0, 1)}</span>
                 )}
                 <div className="top-review__body">
                   <div className="top-review__head">
                     <span className="review__author">{r.authorName}</span>
-                    <span className="top-review__stars">⭐ {r.starCount}</span>
+                    <span className="top-review__stars">★ {r.starCount}</span>
                     <span className="review__date">{fmtDate(r.createdAt, lang)}</span>
                   </div>
                   <p className="top-review__text">{r.text}</p>

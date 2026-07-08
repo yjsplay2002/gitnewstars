@@ -5,7 +5,7 @@ export const translations = {
     badge: "이번 주 GitHub 라이징 스타",
     title: "이번 주 가장 빠르게 뜨는\nGitHub 프로젝트 TOP 20",
     subtitle:
-      "지난 7일간 가장 많은 별(⭐)을 새로 받은 오픈소스 프로젝트들입니다. 지금 개발자들이 무엇에 주목하는지 한눈에 확인하세요.",
+      "지난 7일간 가장 많은 별(★)을 새로 받은 오픈소스 프로젝트들입니다. 지금 개발자들이 무엇에 주목하는지 한눈에 확인하세요.",
     archiveSubtitle: "해당 주차에 가장 많은 신규 스타를 받은 프로젝트 기록입니다.",
     starsThisWeek: "이번 주 신규 스타",
     totalStars: "전체 스타",
@@ -69,10 +69,10 @@ export const translations = {
     postsBadge: "AI 활용 사례 & 팁",
     postsTitle: "AI 사용 후기 · 워크플로우 · 팁 모음",
     postsSubtitle:
-      "실제 AI 활용 사례, 워크플로우, 꿀팁을 공유하는 공간입니다. 좋은 글에는 별(⭐)을 눌러 추천해 주세요. 매주 월요일 순위가 새로 시작됩니다.",
+      "실제 AI 활용 사례, 워크플로우, 꿀팁을 공유하는 공간입니다. 좋은 글에는 별(★)을 눌러 추천해 주세요. 매주 월요일 순위가 새로 시작됩니다.",
     weeklyTopTitle: "이번 주 최고 추천",
     weeklyTopEmpty: "아직 이번 주 추천이 없습니다. 첫 별을 눌러보세요!",
-    weeklyStarsLabel: "이번 주 ⭐",
+    weeklyStarsLabel: "이번 주 ★",
     newPost: "글 쓰기",
     postTitlePlaceholder: "제목 (예: Claude로 주간 보고서 자동화하기)",
     postBodyPlaceholder: "사용 후기, 워크플로우, 팁을 자유롭게 적어주세요",
@@ -105,7 +105,7 @@ export const translations = {
     badge: "This Week's GitHub Rising Stars",
     title: "Top 20 Fastest-Growing\nGitHub Projects This Week",
     subtitle:
-      "The open-source projects that gained the most new stars (⭐) over the past 7 days. See what developers are paying attention to right now.",
+      "The open-source projects that gained the most new stars (★) over the past 7 days. See what developers are paying attention to right now.",
     archiveSubtitle:
       "Projects that gained the most new stars during this week.",
     starsThisWeek: "New stars this week",
@@ -168,10 +168,10 @@ export const translations = {
     postsBadge: "AI Usecases & Tips",
     postsTitle: "AI Reviews · Workflows · Tips",
     postsSubtitle:
-      "Share real AI usecases, workflows, and tips. Star (⭐) the posts you'd recommend — rankings reset every Monday.",
+      "Share real AI usecases, workflows, and tips. Star (★) the posts you'd recommend — rankings reset every Monday.",
     weeklyTopTitle: "Top This Week",
     weeklyTopEmpty: "No recommendations yet this week. Be the first to star!",
-    weeklyStarsLabel: "⭐ this week",
+    weeklyStarsLabel: "★ this week",
     newPost: "Write a post",
     postTitlePlaceholder: "Title (e.g. Automating weekly reports with Claude)",
     postBodyPlaceholder: "Share your experience, workflow, or tip",

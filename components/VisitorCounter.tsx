@@ -58,7 +58,7 @@ export default function VisitorCounter({ t }: { t: Dict }) {
   return (
     <div className="visitor-info" aria-live="polite">
       <span className="visitor-info__item">
-        🟢 {t.visitorsOnline} {fmt(counts.online)}
+        {t.visitorsOnline} {fmt(counts.online)}
       </span>
       <span className="visitor-info__item">
         {t.visitorsToday} {fmt(counts.today)}

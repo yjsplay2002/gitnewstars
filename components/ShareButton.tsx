@@ -147,7 +147,7 @@ export default function ShareButton({
   return (
     <>
       <button className="fab" onClick={openModal} aria-label={t.shareAria}>
-        📤
+        ↗
       </button>
 
       {open && (
@@ -159,7 +159,7 @@ export default function ShareButton({
         >
           <div className="modal" role="dialog" aria-modal="true">
             <div className="modal__head">
-              <span className="modal__title">📤 {t.shareTitle}</span>
+              <span className="modal__title">{t.shareTitle}</span>
               <button
                 className="modal__close"
                 onClick={() => setOpen(false)}
@@ -183,7 +183,7 @@ export default function ShareButton({
                   <button className="share-btn share-btn--copy" onClick={copy}>
                     {copied
                       ? `✓ ${t.copied}`
-                      : `📋 ${isAdmin ? t.copyFull : t.copy}`}
+                      : `${isAdmin ? t.copyFull : t.copy}`}
                   </button>
                   <button
                     className="share-btn share-btn--x"

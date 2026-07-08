@@ -66,7 +66,7 @@ export default function AppShell({
       {/* ---- left history sidebar ---- */}
       <aside className="sidebar">
         <div className="sidebar__head">
-          <span className="sidebar__logo">⭐ GitNewStars</span>
+          <span className="sidebar__logo">GitNewStars</span>
           <h2 className="sidebar__title">{t.historyTitle}</h2>
         </div>
         <nav className="sidebar__nav">
@@ -99,13 +99,13 @@ export default function AppShell({
         <div className="topbar">
           <nav className="tabs">
             <a className="tab tab--active" href="/">
-              ⭐ {t.tabGithub}
+              {t.tabGithub}
             </a>
             <a className="tab" href="/tools">
-              🤖 {t.tabAiTools}
+              {t.tabAiTools}
             </a>
             <a className="tab" href="/posts">
-              💡 {t.tabPosts}
+              {t.tabPosts}
             </a>
           </nav>
           {session?.user ? (
@@ -131,7 +131,7 @@ export default function AppShell({
             </span>
           ) : (
             <button className="lang-btn" onClick={() => signIn("google")}>
-              🔑 {t.signIn}
+              {t.signIn}
             </button>
           )}
           <button
@@ -139,7 +139,7 @@ export default function AppShell({
             onClick={() => setLang((l) => (l === "ko" ? "en" : "ko"))}
             aria-label="Toggle language"
           >
-            🌐 {t.langToggle}
+            {t.langToggle}
           </button>
         </div>
 
@@ -158,7 +158,7 @@ export default function AppShell({
             {isArchive ? t.archiveSubtitle : t.subtitle}
           </p>
           {isAdmin && !isArchive && (
-            <p className="hero__hint">💡 {t.editHint}</p>
+            <p className="hero__hint">{t.editHint}</p>
           )}
         </header>
 

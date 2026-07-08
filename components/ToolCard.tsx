@@ -17,7 +17,6 @@ function fmtDate(iso: string, lang: Lang): string {
 export default function ToolCard({
   tool,
   rank,
-  categoryEmoji,
   lang,
   t,
   starCount,
@@ -28,7 +27,6 @@ export default function ToolCard({
 }: {
   tool: AiTool;
   rank: number;
-  categoryEmoji: string;
   lang: Lang;
   t: Dict;
   starCount: number;
@@ -59,7 +57,7 @@ export default function ToolCard({
       </div>
 
       {logoFailed ? (
-        <span className="tool-card__emoji">{categoryEmoji}</span>
+        <span className="tool-card__emoji">{tool.name.slice(0, 1)}</span>
       ) : (
         <img
           className="avatar tool-card__logo"
@@ -98,7 +96,7 @@ export default function ToolCard({
           onClick={() => onToggleStar(tool.slug)}
           aria-pressed={starred}
         >
-          {starred ? "⭐" : "☆"} {starCount > 0 ? starCount : ""}
+          {starred ? "★" : "☆"} {starCount > 0 ? starCount : ""}
         </button>
       </div>
 
@@ -109,7 +107,7 @@ export default function ToolCard({
 
       {topReviews && topReviews.length > 0 && (
         <div className="top-reviews">
-          <div className="top-reviews__title">🏆 {t.topReviewsTitle}</div>
+          <div className="top-reviews__title">{t.topReviewsTitle}</div>
           <ul className="top-reviews__list">
             {topReviews.map((r) => (
               <li key={r.id} className="top-review">
@@ -123,12 +121,12 @@ export default function ToolCard({
                     referrerPolicy="no-referrer"
                   />
                 ) : (
-                  <span className="review__avatar review__avatar--fallback">👤</span>
+                  <span className="review__avatar review__avatar--fallback">{(r.authorName || "·").slice(0, 1)}</span>
                 )}
                 <div className="top-review__body">
                   <div className="top-review__head">
                     <span className="review__author">{r.authorName}</span>
-                    <span className="top-review__stars">⭐ {r.starCount}</span>
+                    <span className="top-review__stars">★ {r.starCount}</span>
                     <span className="review__date">{fmtDate(r.createdAt, lang)}</span>
                   </div>
                   <p className="top-review__text">{r.text}</p>

@@ -176,7 +176,7 @@ export default function ReviewSection({
   return (
     <div className="reviews">
       <button className="reviews__toggle" onClick={toggle} aria-expanded={open}>
-        💬 {t.reviewsToggle}
+        {t.reviewsToggle}
         <span className="reviews__count">{shownCount ?? 0}</span>
         <span className="reviews__chev">{open ? "▴" : "▾"}</span>
       </button>
@@ -206,7 +206,7 @@ export default function ReviewSection({
             </div>
           ) : (
             <button className="btn reviews__signin" onClick={() => signIn("google")}>
-              🔑 {t.signInToWrite}
+              {t.signInToWrite}
             </button>
           )}
 
@@ -230,7 +230,9 @@ export default function ReviewSection({
                       referrerPolicy="no-referrer"
                     />
                   ) : (
-                    <span className="review__avatar review__avatar--fallback">👤</span>
+                    <span className="review__avatar review__avatar--fallback">
+                      {(r.authorName || "·").slice(0, 1)}
+                    </span>
                   )}
                   <span className="review__author">{r.authorName}</span>
                   <span className="review__date">{fmtDate(r.createdAt, lang)}</span>
@@ -239,7 +241,7 @@ export default function ReviewSection({
                     onClick={() => toggleStar(r.id)}
                     aria-pressed={r.starred}
                   >
-                    {r.starred ? "⭐" : "☆"} {r.starCount > 0 && r.starCount}
+                    {r.starred ? "★" : "☆"} {r.starCount > 0 && r.starCount}
                   </button>
                   {(r.mine || isAdmin) && (
                     <button className="review__del" onClick={() => removeReview(r.id)}>
@@ -263,7 +265,9 @@ export default function ReviewSection({
                             referrerPolicy="no-referrer"
                           />
                         ) : (
-                          <span className="review__avatar review__avatar--fallback">👤</span>
+                          <span className="review__avatar review__avatar--fallback">
+                            {(c.authorName || "·").slice(0, 1)}
+                          </span>
                         )}
                         <span className="review__author">{c.authorName}</span>
                         <span className="review__date">{fmtDate(c.createdAt, lang)}</span>

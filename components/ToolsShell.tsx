@@ -26,10 +26,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
     return tools.sort((a, b) => b.score - a.score);
   }, [snapshot.tools, activeCategory]);
 
-  const emojiFor = useMemo(() => {
-    const map = new Map(snapshot.categories.map((c) => [c.key, c.emoji]));
-    return (key: string) => map.get(key) ?? "🤖";
-  }, [snapshot.categories]);
+
 
   // ---- tool stars (batched counts + own state, toggle) ----
   const [starCounts, setStarCounts] = useState<Record<string, number>>({});
@@ -100,7 +97,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
       {/* ---- left category sidebar ---- */}
       <aside className="sidebar">
         <div className="sidebar__head">
-          <span className="sidebar__logo">⭐ GitNewStars</span>
+          <span className="sidebar__logo">GitNewStars</span>
           <h2 className="sidebar__title">{t.categoriesTitle}</h2>
         </div>
         <nav className="sidebar__nav">
@@ -117,7 +114,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
               className={`week-link${activeCategory === c.key ? " week-link--active" : ""}`}
               onClick={() => setActiveCategory(c.key)}
             >
-              {c.emoji} {lang === "ko" ? c.ko : c.en}
+              {lang === "ko" ? c.ko : c.en}
             </button>
           ))}
         </nav>
@@ -128,13 +125,13 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
         <div className="topbar">
           <nav className="tabs">
             <a className="tab" href="/">
-              ⭐ {t.tabGithub}
+              {t.tabGithub}
             </a>
             <a className="tab tab--active" href="/tools">
-              🤖 {t.tabAiTools}
+              {t.tabAiTools}
             </a>
             <a className="tab" href="/posts">
-              💡 {t.tabPosts}
+              {t.tabPosts}
             </a>
           </nav>
           {session?.user ? (
@@ -160,7 +157,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
             </span>
           ) : (
             <button className="lang-btn" onClick={() => signIn("google")}>
-              🔑 {t.signIn}
+              {t.signIn}
             </button>
           )}
           <button
@@ -168,7 +165,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
             onClick={() => setLang((l) => (l === "ko" ? "en" : "ko"))}
             aria-label="Toggle language"
           >
-            🌐 {t.langToggle}
+            {t.langToggle}
           </button>
         </div>
 
@@ -184,7 +181,6 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
               key={tool.slug}
               tool={tool}
               rank={i + 1}
-              categoryEmoji={emojiFor(tool.category)}
               lang={lang}
               t={t}
               starCount={starCounts[tool.slug] ?? 0}

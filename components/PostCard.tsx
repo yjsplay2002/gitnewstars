@@ -45,7 +45,7 @@ function PostMedia({ post }: { post: PostView }) {
   if (failed) {
     return (
       <a className="post__media-link" href={post.mediaUrl} target="_blank" rel="noopener noreferrer">
-        🔗 {post.mediaUrl}
+        {post.mediaUrl}
       </a>
     );
   }
@@ -95,7 +95,7 @@ export default function PostCard({
           />
         ) : (
           <span className="review__avatar review__avatar--fallback">
-            {post.curated ? "🌐" : "👤"}
+            {(post.authorName || "·").slice(0, 1)}
           </span>
         )}
         <span className="review__author">{post.authorName}</span>
@@ -104,10 +104,10 @@ export default function PostCard({
         )}
         <span className="review__date">{fmtDate(post.createdAt, lang)}</span>
         {post.mediaType === "video" && (
-          <span className="tool-badge tool-badge--new">🎬 {t.videoBadge}</span>
+          <span className="tool-badge tool-badge--new">{t.videoBadge}</span>
         )}
         {post.mediaType === "image" && (
-          <span className="tool-badge tool-badge--freemium">🖼️ {t.imageBadge}</span>
+          <span className="tool-badge tool-badge--freemium">{t.imageBadge}</span>
         )}
         {canDelete && !post.curated && (
           <button
@@ -134,7 +134,7 @@ export default function PostCard({
             target="_blank"
             rel="noopener noreferrer"
           >
-            🔗 {t.viewSource}
+            {t.viewSource} ↗
           </a>
         )}
         <button
@@ -142,11 +142,11 @@ export default function PostCard({
           onClick={() => onToggleStar(post.id)}
           aria-pressed={post.starred}
         >
-          {post.starred ? "⭐" : "☆"} {post.starCount > 0 ? post.starCount : ""}
+          {post.starred ? "★" : "☆"} {post.starCount > 0 ? post.starCount : ""}
         </button>
         {post.weeklyStarCount > 0 && (
           <span className="post__weekly">
-            🔥 {t.weeklyStarsLabel} {post.weeklyStarCount}
+            {t.weeklyStarsLabel} {post.weeklyStarCount}
           </span>
         )}
       </div>

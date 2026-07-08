@@ -7,7 +7,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   // viewport-fit=cover so the bottom nav can extend into the home-indicator area.
   viewportFit: "cover",
-  themeColor: "#0d1117",
+  themeColor: "#faf9f5",
 };
 
 export const metadata: Metadata = {

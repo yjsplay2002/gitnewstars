@@ -127,8 +127,8 @@ export default function PostsShell() {
       {/* ---- left "top this week" sidebar ---- */}
       <aside className="sidebar">
         <div className="sidebar__head">
-          <span className="sidebar__logo">⭐ GitNewStars</span>
-          <h2 className="sidebar__title">🔥 {t.weeklyTopTitle}</h2>
+          <span className="sidebar__logo">GitNewStars</span>
+          <h2 className="sidebar__title">{t.weeklyTopTitle}</h2>
         </div>
         <nav className="sidebar__nav">
           {weeklyTop.length === 0 && <p className="sidebar__empty">{t.weeklyTopEmpty}</p>}
@@ -140,7 +140,7 @@ export default function PostsShell() {
               <span className="post-rank__title">
                 {lang === "en" && p.titleEn ? p.titleEn : p.title}
               </span>
-              <span className="post-rank__stars">⭐ {p.weeklyStarCount}</span>
+              <span className="post-rank__stars">★ {p.weeklyStarCount}</span>
             </button>
           ))}
         </nav>
@@ -151,13 +151,13 @@ export default function PostsShell() {
         <div className="topbar">
           <nav className="tabs">
             <a className="tab" href="/">
-              ⭐ {t.tabGithub}
+              {t.tabGithub}
             </a>
             <a className="tab" href="/tools">
-              🤖 {t.tabAiTools}
+              {t.tabAiTools}
             </a>
             <a className="tab tab--active" href="/posts">
-              💡 {t.tabPosts}
+              {t.tabPosts}
             </a>
           </nav>
           {session?.user ? (
@@ -183,7 +183,7 @@ export default function PostsShell() {
             </span>
           ) : (
             <button className="lang-btn" onClick={() => signIn("google")}>
-              🔑 {t.signIn}
+              {t.signIn}
             </button>
           )}
           <button
@@ -191,7 +191,7 @@ export default function PostsShell() {
             onClick={() => setLang((l) => (l === "ko" ? "en" : "ko"))}
             aria-label="Toggle language"
           >
-            🌐 {t.langToggle}
+            {t.langToggle}
           </button>
         </div>
 
@@ -205,11 +205,11 @@ export default function PostsShell() {
         <section className="post-compose">
           {!signedIn ? (
             <button className="btn btn--primary" onClick={() => signIn("google")}>
-              🔑 {t.signInToPost}
+              {t.signInToPost}
             </button>
           ) : !formOpen ? (
             <button className="btn btn--primary" onClick={() => setFormOpen(true)}>
-              ✏️ {t.newPost}
+              {t.newPost}
             </button>
           ) : (
             <div className="post-form">
