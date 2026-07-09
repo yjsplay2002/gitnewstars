@@ -40,7 +40,8 @@ export interface PostView {
   bodyEn?: string;
   mediaType: PostMediaType;
   mediaUrl: string;
-  createdAt: string;
+  createdAt: string; // publish date — shown as the item's date label
+  sortAt: string; // ordering key: curatedAt for curated posts, else createdAt
   mine: boolean;
   starCount: number;
   weeklyStarCount: number;
@@ -66,7 +67,8 @@ export interface CuratedPost {
   sourceUrl: string;
   mediaType: PostMediaType;
   mediaUrl: string;
-  createdAt: string; // ISO — when the tip was published/crawled
+  createdAt: string; // ISO — original publish date of the source (shown as the label)
+  curatedAt?: string; // ISO — when this item was first pulled into the feed; drives ordering
 }
 
 export interface CuratedPostsSnapshot {
@@ -133,6 +135,7 @@ export function toPostView(
     mediaType: post.mediaType,
     mediaUrl: post.mediaUrl,
     createdAt: post.createdAt,
+    sortAt: post.createdAt,
     mine: Boolean(viewerEmail && post.authorEmail === viewerEmail),
     starCount,
     weeklyStarCount,
@@ -152,6 +155,7 @@ export function curatedToView(post: CuratedPost): PostView {
     mediaType: post.mediaType,
     mediaUrl: post.mediaUrl,
     createdAt: post.createdAt,
+    sortAt: post.curatedAt || post.createdAt,
     mine: false,
     starCount: 0,
     weeklyStarCount: 0,
@@ -176,7 +180,11 @@ export async function listPosts(
     ...userPosts.map((p) => toPostView(p, viewerEmail, 0, 0, false)),
     ...curated.map(curatedToView),
   ];
-  views.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  // Order by when each item entered the feed (curatedAt for crawled posts,
+  // createdAt for user posts) so each day's fresh batch surfaces on top even
+  // when the sources were published a few days earlier. The date label still
+  // shows the true publish date.
+  views.sort((a, b) => b.sortAt.localeCompare(a.sortAt));
 
   const week = isoWeekId();
   const [starCounts, weeklyCounts, starredFlags] = await Promise.all([

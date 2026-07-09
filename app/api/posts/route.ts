@@ -41,7 +41,7 @@ export async function GET() {
     // Without Redis there are no user posts or stars — curated feed only.
     const posts = curated.posts
       .map(curatedToView)
-      .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+      .sort((a, b) => b.sortAt.localeCompare(a.sortAt));
     return NextResponse.json({ posts, weekId: isoWeekId() });
   }
   const { email } = await viewer();

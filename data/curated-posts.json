@@ -11,7 +11,8 @@
       "sourceUrl": "https://www.aitimes.com/news/articleView.html?idxno=212530",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-08T00:00:00Z"
+      "createdAt": "2026-07-08T00:00:00Z",
+      "curatedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "curated-20260709-rowboat-open-source-coworker",
@@ -23,7 +24,8 @@
       "sourceUrl": "https://github.com/rowboatlabs/rowboat",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-07T16:10:44Z"
+      "createdAt": "2026-07-07T16:10:44Z",
+      "curatedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "curated-20260707-slopfix-ai-code-cleanup",
@@ -35,7 +37,8 @@
       "sourceUrl": "https://odra.dev/slopfix/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-07T14:00:00Z"
+      "createdAt": "2026-07-07T14:00:00Z",
+      "curatedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "curated-20260707-gn-agent-mistakes",
@@ -47,7 +50,8 @@
       "sourceUrl": "https://news.hada.io/topic?id=31212",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-07T10:00:00Z"
+      "createdAt": "2026-07-07T10:00:00Z",
+      "curatedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "curated-20260707-addy-osmani-llm-workflow",
@@ -59,7 +63,8 @@
       "sourceUrl": "https://addyosmani.com/blog/ai-coding-workflow/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-07T09:00:00Z"
+      "createdAt": "2026-07-07T09:00:00Z",
+      "curatedAt": "2026-07-07T00:00:00Z"
     },
     {
       "id": "curated-20260706-learning-to-code-worthwhile",
@@ -71,7 +76,8 @@
       "sourceUrl": "https://stevekrouse.com/learn-to-code",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-06T15:00:00Z"
+      "createdAt": "2026-07-06T15:00:00Z",
+      "curatedAt": "2026-07-06T00:00:00Z"
     },
     {
       "id": "curated-20260708-teo-ai-developer-role-shift",
@@ -83,7 +89,8 @@
       "sourceUrl": "https://velog.io/@teo/ai-era-developer-role",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-06T00:00:00Z"
+      "createdAt": "2026-07-06T00:00:00Z",
+      "curatedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "curated-20260705-claude-design-system-prompt",
@@ -95,7 +102,8 @@
       "sourceUrl": "https://github.com/Trystan-SA/claude-design-system-prompt",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-05T08:43:37Z"
+      "createdAt": "2026-07-05T08:43:37Z",
+      "curatedAt": "2026-07-05T00:00:00Z"
     },
     {
       "id": "curated-20260705-sqlite-utils-fable",
@@ -107,7 +115,8 @@
       "sourceUrl": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-05T06:19:34Z"
+      "createdAt": "2026-07-05T06:19:34Z",
+      "curatedAt": "2026-07-05T00:00:00Z"
     },
     {
       "id": "curated-20260708-mindstudio-5-patterns",
@@ -119,7 +128,8 @@
       "sourceUrl": "https://www.mindstudio.ai/blog/claude-code-5-workflow-patterns-explained",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-05T00:00:00Z"
+      "createdAt": "2026-07-05T00:00:00Z",
+      "curatedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "curated-20260704-claude-mri-second-opinion",
@@ -131,7 +141,8 @@
       "sourceUrl": "https://antoine.fi/mri-analysis-using-claude-code-opus",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-04T00:00:00Z"
+      "createdAt": "2026-07-04T00:00:00Z",
+      "curatedAt": "2026-07-04T00:00:00Z"
     },
     {
       "id": "curated-20260709-ctx-agent-history-search",
@@ -143,7 +154,8 @@
       "sourceUrl": "https://github.com/ctxrs/ctx",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-02T15:58:32Z"
+      "createdAt": "2026-07-02T15:58:32Z",
+      "curatedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "curated-20260430-codex-proven-patterns",
@@ -155,7 +167,8 @@
       "sourceUrl": "https://dev.to/kuldeep_paul/proven-patterns-for-openai-codex-in-2026-prompts-validation-and-gateway-governance-1jhm",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-04-30T09:00:00Z"
+      "createdAt": "2026-04-30T09:00:00Z",
+      "curatedAt": "2026-04-30T00:00:00Z"
     },
     {
       "id": "curated-20250722-clien-vibe-coding-launch",
@@ -167,7 +180,8 @@
       "sourceUrl": "https://www.clien.net/service/board/lecture/19029086",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2025-07-22T23:42:56Z"
+      "createdAt": "2025-07-22T23:42:56Z",
+      "curatedAt": "2025-07-22T00:00:00Z"
     }
   ]
 }
