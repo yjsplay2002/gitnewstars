@@ -32,6 +32,7 @@ export async function buildRepoViews(
       ...r,
       descEn: r.description,
       descKo: ov?.descKo || koDrafts[i] || r.description,
+      whyKo: ov?.whyKo || undefined,
       edited: Boolean(ov),
     };
   });

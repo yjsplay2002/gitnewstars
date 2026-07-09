@@ -2,10 +2,10 @@ export type Lang = "ko" | "en";
 
 export const translations = {
   ko: {
-    badge: "이번 주 GitHub 라이징 스타",
-    title: "이번 주 가장 빠르게 뜨는\nGitHub 프로젝트 TOP 20",
+    badge: "한국어 AI 코딩 브리핑",
+    title: "이번 주 뜨는 GitHub 프로젝트\nTOP 20",
     subtitle:
-      "지난 7일간 가장 많은 별(★)을 새로 받은 오픈소스 프로젝트들입니다. 지금 개발자들이 무엇에 주목하는지 한눈에 확인하세요.",
+      "이번 주 뜨는 GitHub 프로젝트와 AI 코딩 도구 실전 팁을 한국어로. 왜 떴는지까지 5분 안에.",
     archiveSubtitle: "해당 주차에 가장 많은 신규 스타를 받은 프로젝트 기록입니다.",
     starsThisWeek: "이번 주 신규 스타",
     totalStars: "전체 스타",
@@ -31,6 +31,9 @@ export const translations = {
     saving: "저장 중…",
     editedBadge: "관리자 편집됨",
     editPlaceholder: "한글 설명을 입력하세요",
+    whyLabel: "왜 떴나",
+    whyPlaceholder: "왜 떴는지 한 줄로 적어 주세요",
+    otherTools: "기타 도구",
     saveError: "저장에 실패했습니다.",
     editHint: "한글 설명을 직접 다듬을 수 있습니다.",
     shareAria: "공유하기",
@@ -103,10 +106,10 @@ export const translations = {
     tooFast: "너무 빠릅니다. 잠시 후 다시 시도해 주세요.",
   },
   en: {
-    badge: "This Week's GitHub Rising Stars",
-    title: "Top 20 Fastest-Growing\nGitHub Projects This Week",
+    badge: "Korean AI-coding briefing",
+    title: "Trending GitHub Projects\nTOP 20 This Week",
     subtitle:
-      "The open-source projects that gained the most new stars (★) over the past 7 days. See what developers are paying attention to right now.",
+      "Korean AI-coding briefing — trending GitHub repos & daily agent-tool tips. Why it rose, in under 5 minutes.",
     archiveSubtitle:
       "Projects that gained the most new stars during this week.",
     starsThisWeek: "New stars this week",
@@ -131,6 +134,9 @@ export const translations = {
     saving: "Saving…",
     editedBadge: "Edited by admin",
     editPlaceholder: "Enter a Korean description",
+    whyLabel: "Why it trended",
+    whyPlaceholder: "One line on why this trended",
+    otherTools: "Other tools",
     saveError: "Failed to save.",
     editHint: "You can refine the Korean description.",
     shareAria: "Share",

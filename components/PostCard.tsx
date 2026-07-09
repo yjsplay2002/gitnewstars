@@ -1,5 +1,6 @@
 // Client component by inheritance: only imported from PostsShell ("use client").
 import { useState } from "react";
+import Link from "next/link";
 import type { PostView } from "@/lib/posts";
 import type { Lang, Dict } from "@/lib/i18n";
 import ReviewSection from "./ReviewSection";
@@ -121,7 +122,11 @@ export default function PostCard({
         )}
       </div>
 
-      <h3 className="post__title">{title}</h3>
+      <h3 className="post__title">
+        <Link href={`/posts/${post.id}`} className="post__title-link">
+          {title}
+        </Link>
+      </h3>
       <p className="post__body">{body}</p>
 
       <PostMedia post={post} />

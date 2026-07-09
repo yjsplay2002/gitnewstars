@@ -4,6 +4,8 @@ import type { TrendingRepo } from "./trending";
 export interface RepoView extends TrendingRepo {
   descEn: string;
   descKo: string;
+  /** Admin "why it trended" blurb (Korean). Absent when not curated. */
+  whyKo?: string;
   /** true when descKo came from an admin edit rather than auto-translation. */
   edited: boolean;
 }
@@ -11,7 +13,7 @@ export interface RepoView extends TrendingRepo {
 /** data/overrides.json — admin edits keyed by "owner/repo". */
 export type Overrides = Record<
   string,
-  { descKo: string; updatedAt: string; updatedBy: string }
+  { descKo: string; whyKo?: string; updatedAt: string; updatedBy: string }
 >;
 
 /** data/weeks/<weekId>.json — an archived weekly snapshot. */

@@ -8,7 +8,8 @@ const OVERRIDES_PATH = "data/overrides.json";
 
 /**
  * Admin-only: set or clear the Korean description override for one repo.
- * Body: { fullName: string, descKo: string }  (empty descKo removes it)
+ * Body: { fullName: string, descKo: string, whyKo?: string }
+ * (empty descKo removes the override; whyKo is optional)
  */
 export async function POST(req: Request) {
   const session = await auth();
@@ -24,7 +25,7 @@ export async function POST(req: Request) {
     );
   }
 
-  let body: { fullName?: string; descKo?: string };
+  let body: { fullName?: string; descKo?: string; whyKo?: string };
   try {
     body = await req.json();
   } catch {
@@ -33,11 +34,15 @@ export async function POST(req: Request) {
 
   const fullName = body.fullName?.trim();
   const descKo = (body.descKo ?? "").trim();
+  const whyKo = (body.whyKo ?? "").trim();
   if (!fullName || !/^[\w.-]+\/[\w.-]+$/.test(fullName)) {
     return NextResponse.json({ error: "Invalid fullName" }, { status: 400 });
   }
   if (descKo.length > 500) {
     return NextResponse.json({ error: "Description too long" }, { status: 400 });
+  }
+  if (whyKo.length > 500) {
+    return NextResponse.json({ error: "Why-text too long" }, { status: 400 });
   }
 
   const overrides = (await readJson<Overrides>(OVERRIDES_PATH, 0)) ?? {};
@@ -45,6 +50,7 @@ export async function POST(req: Request) {
   if (descKo) {
     overrides[fullName] = {
       descKo,
+      ...(whyKo ? { whyKo } : {}),
       updatedAt: new Date().toISOString(),
       updatedBy: email,
     };
@@ -68,5 +74,10 @@ export async function POST(req: Request) {
   // Refresh cached pages so the edit shows up on the next request.
   revalidatePath("/");
 
-  return NextResponse.json({ ok: true, descKo, edited: Boolean(descKo) });
+  return NextResponse.json({
+    ok: true,
+    descKo,
+    whyKo: whyKo || undefined,
+    edited: Boolean(descKo),
+  });
 }

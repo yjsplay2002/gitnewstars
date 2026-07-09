@@ -11,13 +11,13 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "GitNewStars — 이번 주 뜨는 GitHub 프로젝트 TOP 20",
+  title: "GitNewStars — 한국어 AI 코딩 브리핑",
   description:
-    "지난 7일간 가장 많은 별을 새로 받은 GitHub 오픈소스 프로젝트 TOP 20. The top 20 GitHub projects that gained the most new stars this week.",
+    "이번 주 뜨는 GitHub 프로젝트와 AI 코딩 도구 실전 팁을 한국어로. 왜 떴는지까지 5분 안에.",
   openGraph: {
-    title: "GitNewStars — Top 20 Trending GitHub Projects This Week",
+    title: "GitNewStars — 한국어 AI 코딩 브리핑",
     description:
-      "The open-source projects that gained the most new stars over the past 7 days.",
+      "Korean AI-coding briefing — trending GitHub repos & daily agent-tool tips",
     type: "website",
   },
 };

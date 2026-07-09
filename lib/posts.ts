@@ -10,6 +10,7 @@
 import type { Redis } from "@upstash/redis";
 import { isoWeekId } from "./week";
 import { readJson } from "./github";
+import { getRedis } from "./redis";
 import bundledCurated from "@/data/curated-posts.json";
 
 export const POST_TITLE_MAX_LEN = 120;
@@ -164,6 +165,44 @@ export function curatedToView(post: CuratedPost): PostView {
     sourceName: post.sourceName,
     sourceUrl: post.sourceUrl,
   };
+}
+
+/**
+ * Load a single post for the detail page. Curated ids match CURATED_ID_RE
+ * and come from the snapshot; everything else is a user post in Redis.
+ * Returns null when missing or when Redis is unconfigured for a user id.
+ */
+export async function getPostById(id: string): Promise<PostView | null> {
+  if (!id) return null;
+
+  if (CURATED_ID_RE.test(id)) {
+    const curated = await getCuratedPosts();
+    const post = curated.posts.find((p) => p.id === id);
+    return post ? curatedToView(post) : null;
+  }
+
+  const redis = getRedis();
+  if (!redis) return null;
+  const raw = await redis.hget<StoredPost | string>(postsKey(), id);
+  if (!raw) return null;
+  // Upstash may return the hash field already parsed or still as a JSON string.
+  let stored: StoredPost;
+  if (typeof raw === "string") {
+    try {
+      stored = JSON.parse(raw) as StoredPost;
+    } catch {
+      return null;
+    }
+  } else {
+    stored = raw;
+  }
+  if (!stored.id) return null;
+  return toPostView(stored, null, 0, 0, false);
+}
+
+/** Bundled curated post ids — used by generateStaticParams / sitemap. */
+export function listBundledCuratedIds(): string[] {
+  return (bundledCurated as CuratedPostsSnapshot).posts.map((p) => p.id);
 }
 
 /**

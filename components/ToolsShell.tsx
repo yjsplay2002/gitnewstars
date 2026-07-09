@@ -10,6 +10,9 @@ import ToolCard from "./ToolCard";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
 
+/** Coding vertical first; everything else demoted under "기타 도구". */
+const PRIMARY_CATEGORY_KEYS = ["coding", "agents"] as const;
+
 export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) {
   const [lang, setLang] = useState<Lang>("ko");
   const t = translations[lang];
@@ -18,7 +21,20 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
   const signedIn = Boolean(session?.user);
   const postsHasNew = useNewPosts(false);
 
-  const [activeCategory, setActiveCategory] = useState<string>("all");
+  const [activeCategory, setActiveCategory] = useState<string>("coding");
+  const [otherOpen, setOtherOpen] = useState(false);
+
+  const { primaryCategories, otherCategories } = useMemo(() => {
+    const primarySet = new Set<string>(PRIMARY_CATEGORY_KEYS);
+    const byKey = new Map(snapshot.categories.map((c) => [c.key, c]));
+    const primary = PRIMARY_CATEGORY_KEYS.map((k) => byKey.get(k)).filter(
+      (c): c is NonNullable<typeof c> => Boolean(c)
+    );
+    const other = snapshot.categories.filter((c) => !primarySet.has(c.key));
+    return { primaryCategories: primary, otherCategories: other };
+  }, [snapshot.categories]);
+
+  const otherActive = otherCategories.some((c) => c.key === activeCategory);
 
   const visibleTools = useMemo(() => {
     const tools =
@@ -110,7 +126,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
             <span className="week-link__dot" />
             {t.allCategories}
           </button>
-          {snapshot.categories.map((c) => (
+          {primaryCategories.map((c) => (
             <button
               key={c.key}
               className={`week-link${activeCategory === c.key ? " week-link--active" : ""}`}
@@ -119,6 +135,30 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
               {lang === "ko" ? c.ko : c.en}
             </button>
           ))}
+          {otherCategories.length > 0 && (
+            <>
+              <button
+                className={`week-link week-link--toggle${otherActive || otherOpen ? " week-link--open" : ""}`}
+                onClick={() => setOtherOpen((o) => !o)}
+                aria-expanded={otherOpen || otherActive}
+              >
+                {t.otherTools}
+                <span className="week-link__chev" aria-hidden>
+                  {otherOpen || otherActive ? "▾" : "▸"}
+                </span>
+              </button>
+              {(otherOpen || otherActive) &&
+                otherCategories.map((c) => (
+                  <button
+                    key={c.key}
+                    className={`week-link week-link--nested${activeCategory === c.key ? " week-link--active" : ""}`}
+                    onClick={() => setActiveCategory(c.key)}
+                  >
+                    {lang === "ko" ? c.ko : c.en}
+                  </button>
+                ))}
+            </>
+          )}
         </nav>
       </aside>
 

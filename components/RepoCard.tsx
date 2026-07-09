@@ -36,9 +36,11 @@ export default function RepoCard({
   topReviews?: TopReviewView[];
 }) {
   const [descKo, setDescKo] = useState(repo.descKo);
+  const [whyKo, setWhyKo] = useState(repo.whyKo ?? "");
   const [edited, setEdited] = useState(repo.edited);
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(repo.descKo);
+  const [whyDraft, setWhyDraft] = useState(repo.whyKo ?? "");
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -54,11 +56,20 @@ export default function RepoCard({
       const res = await fetch("/api/override", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ fullName: repo.fullName, descKo: draft.trim() }),
+        body: JSON.stringify({
+          fullName: repo.fullName,
+          descKo: draft.trim(),
+          whyKo: whyDraft.trim(),
+        }),
       });
       if (!res.ok) throw new Error(String(res.status));
-      const data = (await res.json()) as { descKo: string; edited: boolean };
+      const data = (await res.json()) as {
+        descKo: string;
+        whyKo?: string;
+        edited: boolean;
+      };
       setDescKo(data.descKo || repo.descEn);
+      setWhyKo(data.whyKo ?? "");
       setEdited(data.edited);
       setEditing(false);
     } catch {
@@ -105,6 +116,14 @@ export default function RepoCard({
               maxLength={500}
               autoFocus
             />
+            <textarea
+              className="edit__area edit__area--why"
+              value={whyDraft}
+              onChange={(e) => setWhyDraft(e.target.value)}
+              placeholder={t.whyPlaceholder}
+              rows={2}
+              maxLength={500}
+            />
             <div className="edit__row">
               <button className="btn btn--primary" onClick={save} disabled={saving}>
                 {saving ? t.saving : t.save}
@@ -114,6 +133,7 @@ export default function RepoCard({
                 onClick={() => {
                   setEditing(false);
                   setDraft(descKo);
+                  setWhyDraft(whyKo);
                   setError(null);
                 }}
                 disabled={saving}
@@ -124,14 +144,22 @@ export default function RepoCard({
             </div>
           </div>
         ) : (
-          <p className="card__desc">
-            {description}
-            {lang === "ko" && edited && (
-              <span className="edited" title={t.editedBadge}>
-                ·{t.editedBadge}
-              </span>
+          <div className="card__body-text">
+            <p className="card__desc">
+              {description}
+              {lang === "ko" && edited && (
+                <span className="edited" title={t.editedBadge}>
+                  ·{t.editedBadge}
+                </span>
+              )}
+            </p>
+            {whyKo && (
+              <div className="card__why">
+                <span className="card__why-label">{t.whyLabel} —</span>
+                {whyKo}
+              </div>
             )}
-          </p>
+          </div>
         )}
 
         <div className="meta">
@@ -151,6 +179,7 @@ export default function RepoCard({
               className="meta__edit"
               onClick={() => {
                 setDraft(descKo);
+                setWhyDraft(whyKo);
                 setEditing(true);
               }}
             >
