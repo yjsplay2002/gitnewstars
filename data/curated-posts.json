@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-07-10T00:00:00Z",
+  "generatedAt": "2026-07-10T09:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260710-gpt56-sol-benchmarks",
+      "title": "OpenAI GPT-5.6 Sol·Terra·Luna 정식 출시 — 에이전트 코딩 벤치마크 새 SOTA",
+      "body": "OpenAI가 7월 9일 GPT-5.6를 ChatGPT·Codex·API에 정식 출시했습니다. 플래그십 Sol, 균형형 Terra, 저가·고속 Luna 3단 구성입니다. 벤치마크: 명령줄 에이전트 작업을 재는 Terminal-Bench 2.1에서 Sol 88.8%, Sol Ultra 91.9%로 Claude Mythos 5(88.0%)·Fable 5(83.4%)를 앞섰고, Artificial Analysis 코딩 에이전트 지수에서 Sol(max) 80점으로 선두입니다. 유즈케이스: 장기 호흡 코딩, 에이전트 워크플로우, 보안, 컴퓨터 유즈 등 '가장 어려운 작업'에 포지셔닝됐습니다. 가격은 입력 $5/출력 $30(1M)로 Grok 4.5보다 출력 기준 약 5배 비쌉니다.",
+      "titleEn": "OpenAI ships GPT-5.6 Sol/Terra/Luna — new SOTA on agentic coding benchmarks",
+      "bodyEn": "OpenAI made GPT-5.6 generally available on July 9 across ChatGPT, Codex, and the API, in three tiers: flagship Sol, balanced Terra, fast/cheap Luna. Benchmarks: on Terminal-Bench 2.1 (command-line agent tasks) Sol scores 88.8% and Sol Ultra 91.9%, beating Claude Mythos 5 (88.0%) and Fable 5 (83.4%); Sol (max) tops the Artificial Analysis Coding Agent Index at 80. Use cases: positioned for the 'hardest work' — long-horizon coding, agentic workflows, cybersecurity, computer use. Priced at $5 in / $30 out per 1M, ~5x Grok 4.5's output cost.",
+      "sourceName": "Artificial Analysis",
+      "sourceUrl": "https://artificialanalysis.ai/articles/gpt-5-6-has-landed",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-09T00:00:00Z",
+      "curatedAt": "2026-07-10T09:00:00Z"
+    },
+    {
+      "id": "curated-20260708-grok45-coding-benchmarks",
+      "title": "xAI Grok 4.5 출시 — Cursor와 함께 학습한 코딩·에이전트 모델, 토큰 효율이 무기",
+      "body": "xAI가 7월 8일 Grok 4.5를 공개했습니다. Cursor와 함께 학습한 첫 코딩·에이전트 전용 모델로, Elon은 'Opus급'이라 표현했습니다. 벤치마크: SWE Marathon 29.0%로 Claude Opus 4.8을 제치고 1위, Terminal-Bench 2.1 83.3%(GPT-5.5 83.4%와 거의 동률), 단 DeepSWE 1.1은 53%로 Fable 5(70%)에 뒤집니다. 진짜 강점은 효율: SWE-Bench Pro 작업당 평균 출력 15,954토큰으로 Opus 4.8(max) 67,020토큰의 약 1/4, 가격도 입력 $2/출력 $6(1M)로 Fable 5($10/$50)·GPT-5.6($5/$30)보다 크게 쌉니다. 코딩 에이전트 지수 작업당 비용 $2.49 대 Fable 5 $11.80. 저비용으로 긴 에이전트 작업을 돌리는 유즈케이스에 적합합니다.",
+      "titleEn": "xAI ships Grok 4.5 — a Cursor-trained coding/agent model whose edge is token efficiency",
+      "bodyEn": "xAI released Grok 4.5 on July 8 — its first model trained specifically for coding and agents, alongside Cursor; Elon called it 'Opus-class.' Benchmarks: tops SWE Marathon at 29.0% (ahead of Claude Opus 4.8), Terminal-Bench 2.1 at 83.3% (nearly tying GPT-5.5's 83.4%), but DeepSWE 1.1 only 53% vs Fable 5's 70%. The real edge is efficiency: ~15,954 output tokens per SWE-Bench Pro task vs Opus 4.8 (max) at 67,020 (~4.2x fewer), priced at $2 in / $6 out per 1M — far under Fable 5 ($10/$50) and GPT-5.6 ($5/$30). Coding Agent Index cost of $2.49/task vs Fable 5's $11.80. A fit for running long agent jobs cheaply.",
+      "sourceName": "MarkTechPost · SpaceXAI",
+      "sourceUrl": "https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T00:00:00Z",
+      "curatedAt": "2026-07-10T09:00:00Z"
+    },
+    {
+      "id": "curated-20260709-grok45-vs-gpt56-head-to-head",
+      "title": "Grok 4.5 vs GPT-5.6 Sol 정면 비교 — 성능은 GPT, 가성비는 Grok",
+      "body": "두 모델을 같은 벤치마크에서 붙인 비교 정리입니다. 종합 점수는 GPT-5.6 Sol 86 대 Grok 4.5 82로 GPT 우위, 특히 에이전트 작업(92 대 83.3)과 Terminal-Bench(91.9% 대 83.3%)에서 격차가 큽니다. 반면 SWE-Bench Pro는 Grok 64.7%로 GPT-5.5(58.6%)를 앞서고, Next.js Evals는 둘 다 83%로 동률. 결정적 차이는 비용: Grok는 출력 $6 대 GPT $30로 약 5배 저렴하고 작업당 토큰도 훨씬 적게 씁니다. 결론: 최고 난도 장기 작업엔 GPT-5.6 Sol, 대량·반복 에이전트 작업엔 Grok 4.5로 '모델 믹스'하는 게 실용적입니다.",
+      "titleEn": "Grok 4.5 vs GPT-5.6 Sol, head to head — GPT wins on quality, Grok on cost",
+      "bodyEn": "A side-by-side on shared benchmarks. Aggregate favors GPT-5.6 Sol 86 to Grok 4.5's 82, with the widest gaps in agentic tasks (92 vs 83.3) and Terminal-Bench (91.9% vs 83.3%). But Grok takes SWE-Bench Pro at 64.7% over GPT-5.5's 58.6%, and Next.js Evals ties at 83%. The decisive difference is cost: Grok's $6 output vs GPT's $30 (~5x cheaper) plus far fewer tokens per task. Takeaway: mix models — GPT-5.6 Sol for the hardest long-horizon work, Grok 4.5 for high-volume repetitive agent jobs.",
+      "sourceName": "The Decoder",
+      "sourceUrl": "https://the-decoder.com/grok-4-5-is-so-cheap-compared-to-fable-5-and-gpt-5-5-that-benchmark-gaps-may-not-matter-much/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-09T00:00:00Z",
+      "curatedAt": "2026-07-10T09:00:00Z"
+    },
+    {
+      "id": "curated-20260708-cursor-grok45-usecase",
+      "title": "Cursor, Grok 4.5 탑재 — 에디터에서 바로 써보는 저비용 에이전트 코딩",
+      "body": "Cursor가 Grok 4.5를 정식 지원합니다. Grok 4.5가 Cursor와 함께 학습됐기 때문에 에디터 내 에이전트 작업(멀티파일 편집, 터미널 실행, 반복 수정 루프)에 최적화돼 있다는 게 xAI·Cursor 설명입니다. 실전 팁: 초당 약 80토큰의 생성 속도와 낮은 토큰 사용량 덕에 인터랙티브 에이전트 루프를 돌려도 대기·비용 부담이 적어, 보일러플레이트·리팩터링 같은 반복 작업을 Grok로 분리하고 어려운 설계는 상위 모델로 넘기는 구성이 잘 맞습니다.",
+      "titleEn": "Cursor adds Grok 4.5 — low-cost agentic coding right in the editor",
+      "bodyEn": "Cursor now supports Grok 4.5. Because Grok 4.5 was trained alongside Cursor, xAI and Cursor say it's tuned for in-editor agent work — multi-file edits, running the terminal, iterative fix loops. Practical tip: at ~80 tokens/sec and low token usage, interactive agent loops stay cheap and responsive, so it pairs well as the model you route boilerplate and refactors to while sending hard design work to a top-tier model.",
+      "sourceName": "Cursor",
+      "sourceUrl": "https://cursor.com/blog/grok-4-5",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T00:00:00Z",
+      "curatedAt": "2026-07-10T09:00:00Z"
+    },
     {
       "id": "curated-20260710-flint-ai-viz-language",
       "title": "마이크로소프트 Flint — AI 에이전트가 예쁜 차트를 실패 없이 그리게 하는 시각화 언어, HN 337점",

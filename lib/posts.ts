@@ -219,11 +219,12 @@ export async function listPosts(
     ...userPosts.map((p) => toPostView(p, viewerEmail, 0, 0, false)),
     ...curated.map(curatedToView),
   ];
-  // Order by when each item entered the feed (curatedAt for crawled posts,
-  // createdAt for user posts) so each day's fresh batch surfaces on top even
-  // when the sources were published a few days earlier. The date label still
-  // shows the true publish date.
-  views.sort((a, b) => b.sortAt.localeCompare(a.sortAt));
+  // Newest publish date first (the date label the reader sees), with the
+  // curation date (sortAt) as a tiebreaker so same-day items keep a stable,
+  // fresh-first order.
+  views.sort(
+    (a, b) => b.createdAt.localeCompare(a.createdAt) || b.sortAt.localeCompare(a.sortAt)
+  );
 
   const week = isoWeekId();
   const [starCounts, weeklyCounts, starredFlags] = await Promise.all([

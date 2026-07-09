@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import type { PostView } from "@/lib/posts";
 import { translations, type Lang } from "@/lib/i18n";
@@ -23,6 +23,27 @@ export default function PostsShell() {
   const [posts, setPosts] = useState<PostView[]>([]);
   const [loading, setLoading] = useState(true);
   const [loadError, setLoadError] = useState(false);
+
+  // ---- infinite scroll: render a growing window over the fetched feed ----
+  const PAGE = 8;
+  const [visibleCount, setVisibleCount] = useState(PAGE);
+  const totalRef = useRef(0);
+  totalRef.current = posts.length;
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el) return;
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries[0]?.isIntersecting) {
+          setVisibleCount((c) => (c < totalRef.current ? Math.min(c + PAGE, totalRef.current) : c));
+        }
+      },
+      { rootMargin: "500px" }
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [loading]);
 
   useEffect(() => {
     let cancelled = false;
@@ -137,9 +158,16 @@ export default function PostsShell() {
   }
 
   function scrollToPost(id: string) {
-    document
-      .getElementById(`post-${id}`)
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const el = document.getElementById(`post-${id}`);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
+    // Target is past the current window — reveal everything, then scroll.
+    setVisibleCount(posts.length);
+    requestAnimationFrame(() =>
+      document.getElementById(`post-${id}`)?.scrollIntoView({ behavior: "smooth", block: "start" })
+    );
   }
 
   return (
@@ -303,7 +331,7 @@ export default function PostsShell() {
           {!loading && !loadError && posts.length === 0 && (
             <p className="sidebar__empty">{t.noPosts}</p>
           )}
-          {posts.map((post) => (
+          {posts.slice(0, visibleCount).map((post) => (
             <PostCard
               key={post.id}
               post={post}
@@ -314,6 +342,11 @@ export default function PostsShell() {
               onDelete={deletePost}
             />
           ))}
+          {visibleCount < posts.length && (
+            <div ref={sentinelRef} className="feed-sentinel" aria-hidden>
+              {t.loading}
+            </div>
+          )}
         </section>
 
         <footer className="footer">
