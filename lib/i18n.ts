@@ -85,6 +85,7 @@ export const translations = {
     imageBadge: "이미지",
     curatedBadge: "웹 큐레이션",
     viewSource: "원문 보기",
+    newContent: "새 글",
     // reviews & comments
     topReviewsTitle: "인기 후기",
     reviewsToggle: "후기",
@@ -184,6 +185,7 @@ export const translations = {
     imageBadge: "Image",
     curatedBadge: "Web curated",
     viewSource: "View source",
+    newContent: "New",
     // reviews & comments
     topReviewsTitle: "Top reviews",
     reviewsToggle: "Reviews",

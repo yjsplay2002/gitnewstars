@@ -10,6 +10,7 @@ import BottomNav from "./BottomNav";
 import RepoCard from "./RepoCard";
 import ShareButton from "./ShareButton";
 import VisitorCounter from "./VisitorCounter";
+import { useNewPosts } from "./useNewPosts";
 
 export default function AppShell({
   repos,
@@ -26,6 +27,7 @@ export default function AppShell({
   const t = translations[lang];
   const { data: session } = useSession();
   const isAdmin = Boolean(session?.user?.isAdmin);
+  const postsHasNew = useNewPosts(false);
 
   // One batched fetch for the "💬 review count" badges on all cards.
   const [reviewCounts, setReviewCounts] = useState<Record<string, number>>({});
@@ -106,6 +108,7 @@ export default function AppShell({
             </a>
             <a className="tab" href="/posts">
               {t.tabPosts}
+              {postsHasNew && <span className="nav-dot" aria-label={t.newContent} />}
             </a>
           </nav>
           {session?.user ? (
@@ -198,7 +201,7 @@ export default function AppShell({
         />
       </div>
 
-      <BottomNav active="github" t={t} />
+      <BottomNav active="github" t={t} postsHasNew={postsHasNew} />
     </div>
   );
 }

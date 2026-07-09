@@ -7,6 +7,7 @@ import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
 import PostCard from "./PostCard";
 import VisitorCounter from "./VisitorCounter";
+import { useNewPosts } from "./useNewPosts";
 
 export default function PostsShell() {
   const [lang, setLang] = useState<Lang>("ko");
@@ -14,6 +15,8 @@ export default function PostsShell() {
   const { data: session } = useSession();
   const isAdmin = Boolean(session?.user?.isAdmin);
   const signedIn = Boolean(session?.user);
+  // Visiting this page marks the feed as seen, clearing the tab badge.
+  useNewPosts(true);
 
   const [posts, setPosts] = useState<PostView[]>([]);
   const [loading, setLoading] = useState(true);

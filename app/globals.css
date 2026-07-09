@@ -1312,3 +1312,24 @@ button.post-rank:hover {
 .post__source:hover {
   text-decoration: underline;
 }
+
+/* ---------- "new content" tab badge ---------- */
+.nav-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  vertical-align: middle;
+}
+/* On the bottom nav the label is centered; float the dot above-right of it. */
+.bottom-nav__label {
+  position: relative;
+}
+.bottom-nav__label .nav-dot {
+  position: absolute;
+  top: -3px;
+  right: -10px;
+  margin-left: 0;
+}

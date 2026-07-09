@@ -8,6 +8,7 @@ import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
 import ToolCard from "./ToolCard";
 import VisitorCounter from "./VisitorCounter";
+import { useNewPosts } from "./useNewPosts";
 
 export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) {
   const [lang, setLang] = useState<Lang>("ko");
@@ -15,6 +16,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
   const { data: session } = useSession();
   const isAdmin = Boolean(session?.user?.isAdmin);
   const signedIn = Boolean(session?.user);
+  const postsHasNew = useNewPosts(false);
 
   const [activeCategory, setActiveCategory] = useState<string>("all");
 
@@ -132,6 +134,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
             </a>
             <a className="tab" href="/posts">
               {t.tabPosts}
+              {postsHasNew && <span className="nav-dot" aria-label={t.newContent} />}
             </a>
           </nav>
           {session?.user ? (
@@ -202,7 +205,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
         <VisitorCounter t={t} />
       </div>
 
-      <BottomNav active="tools" t={t} />
+      <BottomNav active="tools" t={t} postsHasNew={postsHasNew} />
     </div>
   );
 }

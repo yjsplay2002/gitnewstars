@@ -10,7 +10,15 @@ const TABS: { key: TabKey; href: string; label: (t: Dict) => string }[] = [
   { key: "posts", href: "/posts", label: (t) => t.tabPosts },
 ];
 
-export default function BottomNav({ active, t }: { active: TabKey; t: Dict }) {
+export default function BottomNav({
+  active,
+  t,
+  postsHasNew = false,
+}: {
+  active: TabKey;
+  t: Dict;
+  postsHasNew?: boolean;
+}) {
   return (
     <nav className="bottom-nav" aria-label="Primary">
       {TABS.map(({ key, href, label }) => (
@@ -20,7 +28,12 @@ export default function BottomNav({ active, t }: { active: TabKey; t: Dict }) {
           href={href}
           aria-current={active === key ? "page" : undefined}
         >
-          <span className="bottom-nav__label">{label(t)}</span>
+          <span className="bottom-nav__label">
+            {label(t)}
+            {key === "posts" && postsHasNew && (
+              <span className="nav-dot" aria-label={t.newContent} />
+            )}
+          </span>
         </a>
       ))}
     </nav>
