@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPostById, listBundledCuratedIds } from "@/lib/posts";
+import TrackMetric from "@/components/TrackMetric";
+import SourceLink from "@/components/SourceLink";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -59,6 +61,7 @@ export default async function PostDetailPage({
 
   return (
     <div className="layout">
+      <TrackMetric kind="detail" id={post.id} />
       <main className="main">
         <div className="topbar">
           <nav className="tabs">
@@ -70,6 +73,9 @@ export default async function PostDetailPage({
             </Link>
             <Link className="tab tab--active" href="/posts">
               활용 & 팁
+            </Link>
+            <Link className="tab" href="/topics">
+              토픽
             </Link>
           </nav>
         </div>
@@ -109,14 +115,11 @@ export default async function PostDetailPage({
           {(post.sourceUrl || post.sourceName) && (
             <p className="post-detail__source">
               {post.sourceUrl ? (
-                <a
-                  className="post__source"
+                <SourceLink
                   href={post.sourceUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {post.sourceName || "원문"} ↗
-                </a>
+                  postId={post.id}
+                  label={`${post.sourceName || "원문"} ↗`}
+                />
               ) : (
                 <span className="post__source">{post.sourceName}</span>
               )}

@@ -75,6 +75,13 @@ npm run dev                  # http://localhost:3000
    `GH_DATA_REPO`, `GH_TOKEN`
 4. **Deploy** → 배포 도메인을 Google OAuth redirect URI 에도 추가
 
+### 4. Newsletter (optional)
+구독 폼은 항상 렌더됩니다. env 없으면 API가 200 + "준비 중"으로 응답합니다.
+
+- `NEWSLETTER_API_URL` + `NEWSLETTER_API_KEY` — 외부 서비스로 전달(프로바이더 미정, SDK 없음)
+- 없으면 Upstash Redis set `newsletter:subscribers`에 저장(위 3번 Redis와 동일)
+- 상세: `docs/plan-phase2-4.md` Phase 4 env
+
 ## 참고 / Notes
 
 - "주간 스타 증가량"은 GitHub 공식 API에 없어 Trending HTML을 파싱합니다.

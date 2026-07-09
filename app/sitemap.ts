@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
+import { listToolSlugs } from "@/lib/aiTools";
 import { listBundledCuratedIds } from "@/lib/posts";
+import { listTopics } from "@/lib/topics";
 
 const SITE_URL = "https://gitnewstars.vercel.app";
 
@@ -35,10 +37,36 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${SITE_URL}/topics`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.85,
+    },
+    {
+      url: `${SITE_URL}/feed.xml`,
+      lastModified: now,
+      changeFrequency: "hourly",
+      priority: 0.6,
+    },
   ];
 
   const postRoutes: MetadataRoute.Sitemap = listBundledCuratedIds().map((id) => ({
     url: `${SITE_URL}/posts/${id}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
+  const topicRoutes: MetadataRoute.Sitemap = listTopics().map((t) => ({
+    url: `${SITE_URL}/topics/${t.slug}`,
+    lastModified: now,
+    changeFrequency: "daily",
+    priority: 0.75,
+  }));
+
+  const toolRoutes: MetadataRoute.Sitemap = listToolSlugs().map((slug) => ({
+    url: `${SITE_URL}/tools/${slug}`,
     lastModified: now,
     changeFrequency: "weekly",
     priority: 0.7,
@@ -51,5 +79,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...postRoutes, ...weekRoutes];
+  return [...staticRoutes, ...postRoutes, ...topicRoutes, ...toolRoutes, ...weekRoutes];
 }

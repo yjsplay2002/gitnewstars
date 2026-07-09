@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { PostView } from "@/lib/posts";
 import type { Lang, Dict } from "@/lib/i18n";
 import ReviewSection from "./ReviewSection";
+import { trackMetric } from "./TrackMetric";
 
 function fmtDate(iso: string, lang: Lang): string {
   return new Date(iso).toLocaleDateString(lang === "ko" ? "ko-KR" : "en-US", {
@@ -138,6 +139,7 @@ export default function PostCard({
             href={post.sourceUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackMetric("source", post.id)}
           >
             {t.viewSource} ↗
           </a>

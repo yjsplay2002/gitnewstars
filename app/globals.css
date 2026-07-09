@@ -775,6 +775,66 @@ button.week-link {
   opacity: 0.7;
 }
 
+/* ---------- newsletter subscribe (Phase 4 scaffold) ---------- */
+.newsletter {
+  max-width: 420px;
+  margin: 0 auto 20px;
+  padding: 18px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-align: left;
+}
+.newsletter__title {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  font-family: var(--font-serif);
+}
+.newsletter__hint {
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+.newsletter__form {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.newsletter__input {
+  flex: 1 1 180px;
+  min-width: 0;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  padding: 10px 12px;
+  font-size: 14px;
+  font-family: inherit;
+}
+.newsletter__input:focus {
+  outline: none;
+  border-color: var(--accent-2);
+}
+.newsletter__input:disabled {
+  opacity: 0.7;
+}
+.newsletter__btn {
+  flex: 0 0 auto;
+}
+.newsletter__ok {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--green);
+}
+.newsletter__err {
+  margin: 10px 0 0;
+  font-size: 13px;
+  color: var(--accent-2);
+}
+
 /* ---------- error page ---------- */
 .page--error {
   text-align: center;
@@ -1290,6 +1350,12 @@ button.week-link {
 .post-compose {
   margin-bottom: 22px;
 }
+.post-compose__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
 .post-form {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1321,6 +1387,23 @@ button.week-link {
 .post-form__hint {
   font-size: 12px;
   color: var(--text-muted);
+}
+.usage-form__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 650;
+  color: var(--text);
+}
+.usage-form__label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.usage-form select.post-form__input {
+  cursor: pointer;
 }
 
 /* weekly-top sidebar entries */
@@ -1401,4 +1484,78 @@ button.post-rank:hover {
   top: -3px;
   right: -10px;
   margin-left: 0;
+}
+
+/* ---------- topics ---------- */
+.topic-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.topic-chip {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.topic-chip:hover {
+  border-color: var(--accent-2);
+  box-shadow: 0 2px 10px rgba(44, 36, 22, 0.06);
+}
+.topic-chip__label {
+  font-size: 17px;
+  font-weight: 700;
+  font-family: var(--font-serif);
+}
+.topic-chip__en {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.topic-chip__count {
+  font-size: 13px;
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 4px;
+}
+.topic-chip--sm {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 999px;
+}
+.topic-inline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tool-detail__head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.tool-card--detail {
+  display: block;
+  padding: 28px 24px;
+}
+.btn--ghost {
+  background: transparent;
+}
+a.btn {
+  display: inline-block;
+  text-decoration: none;
 }

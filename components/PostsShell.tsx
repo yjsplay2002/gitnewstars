@@ -6,6 +6,8 @@ import type { PostView } from "@/lib/posts";
 import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
 import PostCard from "./PostCard";
+import UsageReportForm from "./UsageReportForm";
+import SubscribeForm from "./SubscribeForm";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
 
@@ -59,13 +61,28 @@ export default function PostsShell() {
     [posts]
   );
 
-  // ---- new post form ----
-  const [formOpen, setFormOpen] = useState(false);
+  // ---- compose: free-text post OR structured usage report ----
+  type ComposeMode = "closed" | "free" | "usage";
+  const [composeMode, setComposeMode] = useState<ComposeMode>("closed");
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [mediaUrl, setMediaUrl] = useState("");
   const [posting, setPosting] = useState(false);
   const [postError, setPostError] = useState<string | null>(null);
+
+  function openCompose(mode: "free" | "usage") {
+    if (!signedIn) {
+      signIn("google");
+      return;
+    }
+    setPostError(null);
+    setComposeMode(mode);
+  }
+
+  function closeCompose() {
+    setComposeMode("closed");
+    setPostError(null);
+  }
 
   async function submitPost() {
     if (!title.trim() || !body.trim() || posting) return;
@@ -86,7 +103,7 @@ export default function PostsShell() {
       setTitle("");
       setBody("");
       setMediaUrl("");
-      setFormOpen(false);
+      closeCompose();
     } catch {
       setPostError(t.postError);
     } finally {
@@ -162,6 +179,9 @@ export default function PostsShell() {
             <a className="tab tab--active" href="/posts">
               {t.tabPosts}
             </a>
+            <a className="tab" href="/topics">
+              {t.tabTopics}
+            </a>
           </nav>
           {session?.user ? (
             <span className="user">
@@ -204,17 +224,26 @@ export default function PostsShell() {
           <p className="hero__subtitle">{t.postsSubtitle}</p>
         </header>
 
-        {/* ---- new post ---- */}
+        {/* ---- new post / usage report ---- */}
         <section className="post-compose">
-          {!signedIn ? (
-            <button className="btn btn--primary" onClick={() => signIn("google")}>
-              {t.signInToPost}
-            </button>
-          ) : !formOpen ? (
-            <button className="btn btn--primary" onClick={() => setFormOpen(true)}>
-              {t.newPost}
-            </button>
-          ) : (
+          {composeMode === "closed" && (
+            <div className="post-compose__actions">
+              {!signedIn ? (
+                <button className="btn btn--primary" onClick={() => signIn("google")}>
+                  {t.signInToPost}
+                </button>
+              ) : (
+                <button className="btn btn--primary" onClick={() => openCompose("free")}>
+                  {t.newPost}
+                </button>
+              )}
+              <button className="btn" onClick={() => openCompose("usage")}>
+                {t.usageReport}
+              </button>
+            </div>
+          )}
+
+          {composeMode === "free" && (
             <div className="post-form">
               <input
                 className="post-form__input"
@@ -248,11 +277,22 @@ export default function PostsShell() {
                 >
                   {posting ? t.posting : t.submitPost}
                 </button>
-                <button className="btn" onClick={() => setFormOpen(false)} disabled={posting}>
+                <button className="btn" onClick={closeCompose} disabled={posting}>
                   {t.cancel}
                 </button>
               </div>
             </div>
+          )}
+
+          {composeMode === "usage" && (
+            <UsageReportForm
+              t={t}
+              onCancel={closeCompose}
+              onCreated={(post) => {
+                setPosts((list) => [post, ...list]);
+                closeCompose();
+              }}
+            />
           )}
         </section>
 
@@ -277,6 +317,7 @@ export default function PostsShell() {
         </section>
 
         <footer className="footer">
+          <SubscribeForm t={t} />
           <p className="footer__credit">{t.footer}</p>
         </footer>
       </main>

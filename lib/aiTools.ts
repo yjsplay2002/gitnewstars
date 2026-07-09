@@ -53,3 +53,24 @@ export function toolsByCategory(snapshot: AiToolsSnapshot, categoryKey: string):
     .filter((t) => t.category === categoryKey)
     .sort((a, b) => b.score - a.score);
 }
+
+/** Single tool by slug from live snapshot, or null. */
+export async function getToolBySlug(slug: string): Promise<AiTool | null> {
+  if (!slug || !TOOL_SLUG_RE.test(slug)) return null;
+  const snapshot = await getAiTools();
+  return snapshot.tools.find((t) => t.slug === slug) ?? null;
+}
+
+/** Bundled tool slugs for generateStaticParams / sitemap. */
+export function listToolSlugs(): string[] {
+  return (bundled as AiToolsSnapshot).tools.map((t) => t.slug);
+}
+
+/** Category metadata for a tool, or null. */
+export function categoryForTool(
+  snapshot: AiToolsSnapshot,
+  categoryKey: string
+): AiToolCategory | undefined {
+  return snapshot.categories.find((c) => c.key === categoryKey);
+}
+

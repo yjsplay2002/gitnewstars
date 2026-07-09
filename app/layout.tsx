@@ -11,9 +11,15 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gitnewstars.vercel.app"),
   title: "GitNewStars — 한국어 AI 코딩 브리핑",
   description:
     "이번 주 뜨는 GitHub 프로젝트와 AI 코딩 도구 실전 팁을 한국어로. 왜 떴는지까지 5분 안에.",
+  alternates: {
+    types: {
+      "application/rss+xml": "https://gitnewstars.vercel.app/feed.xml",
+    },
+  },
   openGraph: {
     title: "GitNewStars — 한국어 AI 코딩 브리핑",
     description:

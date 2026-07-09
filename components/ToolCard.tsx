@@ -71,7 +71,7 @@ export default function ToolCard({
         />
       )}
 
-      <a className="card__name" href={tool.url} target="_blank" rel="noopener noreferrer">
+      <a className="card__name" href={`/tools/${tool.slug}`}>
         {tool.name}
         <span className="tool-card__vendor">{tool.vendor}</span>
       </a>
