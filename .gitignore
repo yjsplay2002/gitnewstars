@@ -16,3 +16,4 @@ next-env.d.ts
 
 # mcporter writes its config relative to cwd (from the Agent-Reach install)
 /config/
+scripts/crawl.log
