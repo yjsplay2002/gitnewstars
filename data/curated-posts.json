@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-07-09T00:10:23Z",
+  "generatedAt": "2026-07-10T00:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260710-flint-ai-viz-language",
+      "title": "마이크로소프트 Flint — AI 에이전트가 예쁜 차트를 실패 없이 그리게 하는 시각화 언어, HN 337점",
+      "body": "마이크로소프트가 공개한 Flint는 에이전트가 축·간격·라벨 같은 세부 설정을 일일이 조정하지 않아도, 데이터와 의미 타입만 넘기면 컴파일러가 알아서 보기 좋은 차트 설정을 도출해주는 중간 시각화 언어입니다. 라이브러리로 직접 호출하거나 MCP 서버로 붙여 대화 중에 차트를 생성·검증·렌더링할 수 있고, 같은 스펙이 Vega-Lite·ECharts·Chart.js 어디로든 컴파일됩니다. 대시보드나 리포트를 자동 생성하는 에이전트 워크플로우에 바로 끼워 넣을 만합니다.",
+      "titleEn": "Microsoft's Flint — a visualization language that lets AI agents draw good-looking charts reliably, 337 points on HN",
+      "bodyEn": "Microsoft's Flint is a visualization intermediate language: agents just pass data and semantic types, and Flint's compiler derives sensible scales, axes, spacing, and labels instead of the agent hand-tuning them. It's usable as a library or via an MCP server that lets an agent create, validate, and render charts mid-conversation, and the same spec compiles down to Vega-Lite, ECharts, or Chart.js. A drop-in for any agent workflow that auto-generates dashboards or reports.",
+      "sourceName": "Hacker News · Microsoft",
+      "sourceUrl": "https://microsoft.github.io/flint-chart/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T17:46:12Z",
+      "curatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "curated-20260710-databricks-coding-agent-benchmark",
+      "title": "Databricks가 수백만 줄 코드베이스에서 코딩 에이전트 벤치마크 — 토큰 단가보다 하네스 선택이 비용 좌우",
+      "body": "Databricks가 자사의 수백만 줄 규모 코드베이스에서 GPT-5.4 Mini, Opus 4.8, Sonnet 5, GLM 5.2 등 여러 모델과 Claude Code·Codex·Pi 등 실행 하네스를 실전 벤치마크했습니다. 상위권 모델은 작업당 $1.28~$1.94, 완료율 81~87%로 갈렸고, GLM 5.2는 Opus 4.8과 품질은 통계적으로 동률이면서 비용은 약 34% 저렴했습니다. 특히 Sonnet 5는 토큰 단가가 Opus 4.8보다 1.7배 싸지만 토큰을 1.9배 더 써서 작업당 비용은 오히려 더 비쌌고, 같은 모델도 하네스에 따라 비용이 2배 넘게 벌어져 — 토큰 가격만 보고 모델을 고르지 말라는 실전 데이터입니다.",
+      "titleEn": "Databricks benchmarked coding agents on its multi-million-line codebase — harness choice matters more than token price",
+      "bodyEn": "Databricks ran a real-world benchmark of coding agent models (GPT-5.4 Mini, Opus 4.8, Sonnet 5, GLM 5.2) and harnesses (Claude Code, Codex, Pi) against its own multi-million-line codebase. Top-tier models landed at $1.28-$1.94 per task with 81-87% completion rates; GLM 5.2 statistically tied Opus 4.8 on quality at ~34% lower cost. Sonnet 5, despite 1.7x cheaper tokens than Opus 4.8, cost more per task because it burned 1.9x more tokens — and the same model's cost varied over 2x across harnesses. Hard data against picking a model on token price alone.",
+      "sourceName": "Databricks Blog",
+      "sourceUrl": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T21:30:09Z",
+      "curatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "curated-20260710-code-cleanliness-coding-agents-study",
+      "title": "코드가 깔끔하면 에이전트가 더 싸게, 더 빨리 끝낸다 — 660회 통제 실험 결과",
+      "body": "같은 아키텍처·동작을 가진 저장소 쌍을 코드 품질만 다르게 만들어 Claude Code에게 33개 작업, 총 660회 시행을 돌린 통제 연구입니다. 작업 성공률 자체는 코드 품질과 무관했지만, 깔끔한 코드에서 작업할 때 토큰 사용량이 7~8% 줄고 같은 파일을 다시 열어보는 재방문 횟수가 34% 감소했습니다. AI 시대에도 코드 정리·리팩터링이 실질적인 비용 절감으로 이어진다는 근거입니다.",
+      "titleEn": "Clean code makes coding agents cheaper and faster — a 660-trial controlled study",
+      "bodyEn": "Researchers built matched repo pairs with identical architecture and behavior but differing code quality, then ran Claude Code on 33 tasks across six pairs (660 trials total). Task success rate was unaffected by code cleanliness, but agents working on cleaner code used 7-8% fewer tokens and revisited files 34% less often. Concrete evidence that code cleanup still pays for itself in the agent era — just as lower operational cost, not higher success rate.",
+      "sourceName": "Hacker News · arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2605.20049",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-05T23:03:55Z",
+      "curatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "curated-20260710-danluu-agentic-coding-notes",
+      "title": "danluu.com — 에이전틱 코딩 실전 노트: 버그 찾기는 감사보다 퍼징, 벤치마크는 믿지 말 것",
+      "body": "Dan Luu가 에이전트 코딩을 실무에 적용하며 쌓은 노트입니다. 핵심 주장: LLM에게 코드를 감사시키기보다 LLM이 만든 퍼저(fuzzer)로 버그를 찾는 게 발견 속도·발견량 모두 앞선다. 거짓 양성을 줄이려면 서로 다른 페르소나(회의론자·반대론자)를 가진 독립 에이전트로 같은 버그를 재검증시키고, UI 버그는 영상·테스트 코드 같은 증거를 요구할 것. 모델 벤치마크는 표본이 작아 결론이 뒤집히기 쉬우니, 범용 순위표보다 자기 작업에 직접 여러 모델을 붙여보고 판단하라는 조언이 인상적입니다.",
+      "titleEn": "danluu.com — agentic coding field notes: fuzz for bugs, don't trust general benchmarks",
+      "bodyEn": "Dan Luu's hands-on notes from applying agentic coding at scale. Core claim: LLM-written fuzzers find bugs faster and find more of them than asking an LLM to audit code directly. To cut false positives, have independent agents with different personas (skeptic, contrarian) re-verify the same alleged bug, and require artifacts like video or test code for UI bugs. Model benchmarks are noisy with small samples — his advice is to test specific models against your actual workload rather than trust a leaderboard.",
+      "sourceName": "danluu.com",
+      "sourceUrl": "https://danluu.com/ai-coding/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-04T04:37:15Z",
+      "curatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "id": "curated-20260710-jaehong-claude-vs-codex-ko",
+      "title": "[한국어] Claude Code 100시간 vs Codex 20시간 — 14년차 엔지니어의 실전 비교, \"속도의 클로드, 장인의 코덱스\"",
+      "body": "8만 줄 규모 Python/TypeScript 데이터 분석 앱(테스트 2,800개)에 Claude Code(Opus 4.6)와 Codex(GPT-5.4)를 실제로 붙여본 시니어 엔지니어의 비교 글입니다. Claude Code는 빠르고 대화하듯 쓸 수 있지만 지시를 무시하거나 작업을 절반만 끝내는 경우가 있어 경험 많은 개발자의 적극적 감독이 필요했고, Codex는 3~4배 느린 대신 가이드라인을 충실히 따르고 자발적으로 리팩터링까지 해냈습니다. 커뮤니티에서 가장 인기 있는 전략은 Claude로 초안을 빠르게 뽑고 Codex로 검토·교차검증하는 조합 — 두 모델이 서로 다른 방식으로 실수하기 때문에 상호 보완이 잘 된다는 실전 팁입니다.",
+      "titleEn": "[Korean] Claude Code for 100 hours vs. Codex for 20 hours — a 14-year engineer's verdict: \"Claude for speed, Codex for craftsmanship\"",
+      "bodyEn": "A senior engineer's real-world comparison of Claude Code (Opus 4.6) and Codex (GPT-5.4) on an 80,000-line Python/TypeScript data-analysis app with 2,800 tests. Claude Code was fast and conversational but sometimes ignored instructions or left work half-done, requiring active supervision from an experienced developer; Codex ran 3-4x slower but faithfully followed guidelines and even did voluntary refactoring. The most popular community strategy: draft fast with Claude, then cross-check and review with Codex, since the two rarely hallucinate the same way.",
+      "sourceName": "박재홍의 실리콘밸리",
+      "sourceUrl": "https://wikidocs.net/blog/@jaehong/11879/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T00:00:00Z",
+      "curatedAt": "2026-07-10T00:00:00Z"
+    },
     {
       "id": "curated-20260708-cowork-mobile-web-ko",
       "title": "클로드 코워크, 모바일·웹으로 확장 — 노트북 꺼도 백그라운드에서 작업 계속",
@@ -82,9 +147,9 @@
     {
       "id": "curated-20260708-teo-ai-developer-role-shift",
       "title": "[한국어] 사람이 코딩을 멈추면 개발자는 무엇을 해야 하나 — AI 시대 개발자 역할론",
-      "body": "SWE-bench 76.8%까지 올라온 AI 코딩 성공률을 근거로, '어떻게 코드를 짤까'에서 '어떻게 AI에게 시키고 검증할까'로 개발자 역할이 바뀌어야 한다고 주장하는 velog 글입니다(GeekNews 21점). 구체적 팁: (1) 지금보다 훨씬 큰 문제를 AI에게 맡겨봐야 문서화·테스트·요구사항 관리 같은 숨어 있던 비코딩 작업이 드러난다, (2) 커스텀 스킬/워크플로우를 최소 하나는 직접 만들어 '절차를 명시적으로 알려주는' 감각을 익힐 것, (3) 완벽한 프롬프트를 찾기보다 결과물을 반복해서 다듬는 판단력을 기를 것. AI 시대 개발자로 전환 중인 팀에 실용적인 체크리스트입니다.",
+      "body": "SWE-bench 76.8%까지 올라온 AI 코딩 성공률을 근거로, '어떻게 코드를 짤까'에서 '어떻게 AI에게 시키고 검증할까'로 개발자 역할이 바뀌어야 한다고 주장하는 velog 글입니다(GeekNews 23점). 구체적 팁: (1) 지금보다 훨씬 큰 문제를 AI에게 맡겨봐야 문서화·테스트·요구사항 관리 같은 숨어 있던 비코딩 작업이 드러난다, (2) 커스텀 스킬/워크플로우를 최소 하나는 직접 만들어 '절차를 명시적으로 알려주는' 감각을 익힐 것, (3) 완벽한 프롬프트를 찾기보다 결과물을 반복해서 다듬는 판단력을 기를 것. AI 시대 개발자로 전환 중인 팀에 실용적인 체크리스트입니다.",
       "titleEn": "[Korean] When people stop coding, what should developers do? — a role-shift argument for the AI era",
-      "bodyEn": "A velog post (21 points on GeekNews) argues that with AI coding success rates hitting 76.8% on SWE-bench, developers need to shift from 'how do I code this' to 'how do I direct and verify AI.' Concrete tips: (1) hand AI substantially bigger problems to surface hidden non-coding work like docs, tests, and requirements management, (2) build at least one custom skill/workflow yourself to learn what it means to state a procedure explicitly, (3) stop chasing the perfect prompt and instead build judgment for iterating on outputs. A practical checklist for teams transitioning into AI-era development roles.",
+      "bodyEn": "A velog post (23 points on GeekNews) argues that with AI coding success rates hitting 76.8% on SWE-bench, developers need to shift from 'how do I code this' to 'how do I direct and verify AI.' Concrete tips: (1) hand AI substantially bigger problems to surface hidden non-coding work like docs, tests, and requirements management, (2) build at least one custom skill/workflow yourself to learn what it means to state a procedure explicitly, (3) stop chasing the perfect prompt and instead build judgment for iterating on outputs. A practical checklist for teams transitioning into AI-era development roles.",
       "sourceName": "velog · GeekNews",
       "sourceUrl": "https://velog.io/@teo/ai-era-developer-role",
       "mediaType": "none",
@@ -143,19 +208,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-04T00:00:00Z",
       "curatedAt": "2026-07-04T00:00:00Z"
-    },
-    {
-      "id": "curated-20260709-ctx-agent-history-search",
-      "title": "코딩 에이전트 히스토리 검색 CLI 'ctx' — Claude Code·Cursor·Codex 등 30개 이상 지원",
-      "body": "에이전트는 매번 '제로'에서 시작한다는 문제를 풀기 위해 나온 오픈소스 CLI 'ctx'가 HN에서 65포인트를 받았습니다. Claude Code, Cursor, Codex, GitHub Copilot CLI 등 30개 이상의 에이전트 플랫폼의 로컬 세션 기록을 인덱싱해, 예전에 시도했다가 실패한 접근이나 이미 내린 결정을 토큰 효율적으로 다시 찾아줍니다. 여러 에이전트를 오가며 작업하는 팀이라면 컨텍스트 유실을 줄이는 데 바로 써볼 만합니다.",
-      "titleEn": "'ctx' — a CLI that searches your coding-agent history across Claude Code, Cursor, Codex, and 30+ tools",
-      "bodyEn": "An open-source CLI called ctx hit 65 points on HN, built to solve the problem that agents \"usually start from zero.\" It indexes local session history across 30+ agent platforms — Claude Code, Cursor, Codex, GitHub Copilot CLI, and more — so agents can token-efficiently surface past failed attempts and decisions instead of repeating them. Useful right away for teams juggling multiple agents who want to stop losing context between sessions.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/ctxrs/ctx",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-02T15:58:32Z",
-      "curatedAt": "2026-07-09T00:00:00Z"
     },
     {
       "id": "curated-20260430-codex-proven-patterns",
