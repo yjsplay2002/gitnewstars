@@ -12,6 +12,7 @@ REPO="/c/Users/amaze luke/Documents/GitNewStars"
 PROMPT="$REPO/scripts/crawl-prompt.md"
 LOG="$REPO/scripts/crawl.log"
 DATA="data/curated-posts.json"
+VIDEOS="data/ai-videos.json"
 PUSH_USER="yjsplay2002"
 ORIG_USER="lukeamaze"
 
@@ -41,22 +42,40 @@ CLAUDE_RC=$?
 echo "claude exit code: $CLAUDE_RC"
 
 # Nothing changed → nothing to push.
-if git diff --quiet -- "$DATA"; then
-  echo "no changes to $DATA — done"
+if git diff --quiet -- "$DATA" "$VIDEOS"; then
+  echo "no changes to data files — done"
   exit 0
 fi
 
-# Guard against a corrupted write before publishing.
-if ! node -e "const j=JSON.parse(require('fs').readFileSync('$DATA','utf8')); if(!Array.isArray(j.posts)||j.posts.length===0) throw new Error('no posts')"; then
-  echo "invalid $DATA — reverting, not pushing"
-  git checkout -- "$DATA"
-  exit 1
+STAGE=()
+
+# Guard each changed file against a corrupted write before publishing.
+if ! git diff --quiet -- "$DATA"; then
+  if node -e "const j=JSON.parse(require('fs').readFileSync('$DATA','utf8')); if(!Array.isArray(j.posts)||j.posts.length===0) throw new Error('no posts')"; then
+    STAGE+=("$DATA")
+  else
+    echo "invalid $DATA — reverting"
+    git checkout -- "$DATA"
+  fi
+fi
+if ! git diff --quiet -- "$VIDEOS"; then
+  if node -e "const j=JSON.parse(require('fs').readFileSync('$VIDEOS','utf8')); if(!Array.isArray(j.videos)||j.videos.length===0) throw new Error('no videos')"; then
+    STAGE+=("$VIDEOS")
+  else
+    echo "invalid $VIDEOS — reverting"
+    git checkout -- "$VIDEOS"
+  fi
 fi
 
-echo "changes detected — committing"
+if [ ${#STAGE[@]} -eq 0 ]; then
+  echo "nothing valid to commit — done"
+  exit 0
+fi
+
+echo "changes detected — committing: ${STAGE[*]}"
 gh auth switch --user "$PUSH_USER" || { echo "gh switch failed"; exit 1; }
-git add "$DATA"
-git commit -m "chore(posts): daily curated tips refresh"
+git add "${STAGE[@]}"
+git commit -m "chore(data): daily curated tips & videos refresh"
 if git push origin main; then
   echo "pushed successfully"
 else

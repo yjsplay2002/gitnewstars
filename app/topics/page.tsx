@@ -41,6 +41,9 @@ export default async function TopicsIndexPage() {
             <Link className="tab" href="/posts">
               활용 & 팁
             </Link>
+            <Link className="tab" href="/videos">
+              영상
+            </Link>
             <Link className="tab tab--active" href="/topics">
               토픽
             </Link>

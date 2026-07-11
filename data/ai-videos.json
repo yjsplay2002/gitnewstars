@@ -1,0 +1,104 @@
+{
+  "generatedAt": "2026-07-11T00:00:00Z",
+  "videos": [
+    {
+      "id": "vid-claude-code-tips-2026",
+      "youtubeId": "8MKnL1Da7aI",
+      "category": "tip",
+      "title": "Claude Code 팁 & 트릭 베스트 (2026)",
+      "titleEn": "Best Claude Code Tips & Tricks (2026)",
+      "descKo": "프로젝트 메모리 파일(CLAUDE.md)을 제대로 세팅하는 법 등 Claude Code 실전 팁 10가지.",
+      "descEn": "10 practical Claude Code tips, including setting up your project memory file (CLAUDE.md) the right way.",
+      "publishedAt": "2026-05-25T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-full-ai-agent-tutorial-2026",
+      "youtubeId": "OfEcMXLOAtE",
+      "category": "usecase",
+      "title": "초보자를 위한 AI 에이전트 완전 튜토리얼 (2026)",
+      "titleEn": "Full AI Agent Tutorial for Beginners 2026",
+      "descKo": "Toolhouse로 몇 분 만에 실전 AI 에이전트를 만드는 법을 처음부터 끝까지.",
+      "descEn": "Build a working AI agent in minutes with Toolhouse — from zero to a real agent.",
+      "publishedAt": "2026-04-19T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-build-first-ai-agent-2026",
+      "youtubeId": "GY7Suc-oONc",
+      "category": "usecase",
+      "title": "첫 AI 에이전트 만들기 — 완전 초보 가이드 (2026)",
+      "titleEn": "Build Your First AI Agent — Complete Beginner Guide 2026",
+      "descKo": "사전 지식 없이 10분 만에 ReAct 루프를 이해하고 실제 에이전트를 만들어 봅니다.",
+      "descEn": "No prior AI experience — grasp the ReAct loop and build a real agent in 10 minutes.",
+      "publishedAt": "2026-04-09T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-ai-workflow-claude-cursor",
+      "youtubeId": "mu-KIRt4igc",
+      "category": "tip",
+      "title": "아무도 얘기 안 하는 AI 워크플로우 (Claude Code + Cursor)",
+      "titleEn": "The AI Workflow Nobody's Talking About (Claude Code + Cursor)",
+      "descKo": "가드레일을 갖춘 견고한 시스템으로서의 AI 워크플로우 — Claude Code와 Cursor를 함께 쓰는 법.",
+      "descEn": "AI as a robust system with guardrails — how to combine Claude Code and Cursor.",
+      "publishedAt": "2026-01-30T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-my-claude-code-workflow-2026",
+      "youtubeId": "sy65ARFI9Bg",
+      "category": "tip",
+      "title": "나의 2026 Claude Code 워크플로우",
+      "titleEn": "My Claude Code Workflow for 2026",
+      "descKo": "프로젝트 초기 설정부터 컨텍스트 관리, 테스트 주도 진행까지 실전 워크플로우 전 과정.",
+      "descEn": "An end-to-end Claude Code workflow: project setup, context management, test-driven loop.",
+      "publishedAt": "2026-01-02T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-claude-beginner-guide-ko-2026",
+      "youtubeId": "O6Lw_4Hh0mQ",
+      "category": "lecture",
+      "title": "클로드 초보자 가이드 2026 — 이 영상 하나로 끝",
+      "titleEn": "Claude Beginner's Guide 2026 (Korean)",
+      "descKo": "ChatGPT·Gemini 사용자도 갈아타게 만드는 클로드 입문 강의. 한국어.",
+      "descEn": "A Korean beginner course on Claude that makes ChatGPT/Gemini users reconsider.",
+      "publishedAt": "2026-02-01T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-complete-guide-ai-agents-2026",
+      "youtubeId": "LNkAW4SSgdY",
+      "category": "lecture",
+      "title": "2026 AI 에이전트 완전 가이드 (그리고 실제로 쓰는 법)",
+      "titleEn": "The Complete Guide to AI Agents in 2026 (And How to Actually Use Them)",
+      "descKo": "에이전트 개념부터 실제 업무에 적용하는 법까지 한 편으로 정리한 강의형 영상.",
+      "descEn": "A lecture-style overview from agent concepts to actually using them in real work.",
+      "publishedAt": "2026-03-15T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-how-im-using-ai-agents-2026",
+      "youtubeId": "BikPUaT76i8",
+      "category": "usecase",
+      "title": "내가 2026년에 AI 에이전트를 쓰는 방식",
+      "titleEn": "How I'm Using AI Agents in 2026",
+      "descKo": "실제 업무에서 AI 에이전트를 어떻게 배치하고 활용하는지 보여주는 실전 사례.",
+      "descEn": "A hands-on look at how the creator deploys and uses AI agents in real work.",
+      "publishedAt": "2026-05-01T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-n8n-first-ai-agent-2026",
+      "youtubeId": "GuaKeDS6UKU",
+      "category": "usecase",
+      "title": "n8n 퀵스타트 — 첫 AI 에이전트 만들기 (2026)",
+      "titleEn": "n8n Quick Start Tutorial: Build Your First AI Agent [2026]",
+      "descKo": "노코드 자동화 n8n으로 첫 AI 에이전트를 빠르게 조립하는 튜토리얼.",
+      "descEn": "Assemble your first AI agent fast with the no-code automation tool n8n.",
+      "publishedAt": "2026-04-01T00:00:00Z",
+      "addedAt": "2026-07-11T00:00:00Z"
+    }
+  ]
+}

@@ -207,6 +207,9 @@ export default function PostsShell() {
             <a className="tab tab--active" href="/posts">
               {t.tabPosts}
             </a>
+            <a className="tab" href="/videos">
+              {t.tabVideos}
+            </a>
             <a className="tab" href="/topics">
               {t.tabTopics}
             </a>

@@ -176,6 +176,9 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
               {t.tabPosts}
               {postsHasNew && <span className="nav-dot" aria-label={t.newContent} />}
             </a>
+            <a className="tab" href="/videos">
+              {t.tabVideos}
+            </a>
             <a className="tab" href="/topics">
               {t.tabTopics}
             </a>

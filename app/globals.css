@@ -1567,3 +1567,72 @@ a.btn {
   font-size: 13px;
   color: var(--text-muted);
 }
+
+/* ---------- AI videos tab ---------- */
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 18px;
+}
+.video-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+@media (hover: hover) {
+  .video-card:hover {
+    border-color: var(--accent-2);
+    box-shadow: 0 8px 24px rgba(20, 20, 19, 0.08);
+  }
+}
+.video-card__frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--bg-soft);
+}
+.video-card__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.video-card__body {
+  padding: 12px 14px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.video-card__cat {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--accent-2);
+  background: rgba(217, 119, 87, 0.1);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+.video-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: var(--font-serif);
+  line-height: 1.35;
+}
+.video-card__desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.video-card__link {
+  margin-top: 2px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+.video-card__link:hover {
+  text-decoration: underline;
+}
