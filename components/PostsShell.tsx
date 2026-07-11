@@ -210,6 +210,9 @@ export default function PostsShell() {
             <a className="tab" href="/videos">
               {t.tabVideos}
             </a>
+            <a className="tab" href="/skills">
+              {t.tabSkills}
+            </a>
             <a className="tab" href="/topics">
               {t.tabTopics}
             </a>

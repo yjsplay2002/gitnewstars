@@ -13,6 +13,7 @@ PROMPT="$REPO/scripts/crawl-prompt.md"
 LOG="$REPO/scripts/crawl.log"
 DATA="data/curated-posts.json"
 VIDEOS="data/ai-videos.json"
+SKILLS="data/skills.json"
 PUSH_USER="yjsplay2002"
 ORIG_USER="lukeamaze"
 
@@ -42,7 +43,7 @@ CLAUDE_RC=$?
 echo "claude exit code: $CLAUDE_RC"
 
 # Nothing changed → nothing to push.
-if git diff --quiet -- "$DATA" "$VIDEOS"; then
+if git diff --quiet -- "$DATA" "$VIDEOS" "$SKILLS"; then
   echo "no changes to data files — done"
   exit 0
 fi
@@ -64,6 +65,14 @@ if ! git diff --quiet -- "$VIDEOS"; then
   else
     echo "invalid $VIDEOS — reverting"
     git checkout -- "$VIDEOS"
+  fi
+fi
+if ! git diff --quiet -- "$SKILLS"; then
+  if node -e "const j=JSON.parse(require('fs').readFileSync('$SKILLS','utf8')); if(!Array.isArray(j.skills)||j.skills.length===0) throw new Error('no skills')"; then
+    STAGE+=("$SKILLS")
+  else
+    echo "invalid $SKILLS — reverting"
+    git checkout -- "$SKILLS"
   fi
 fi
 

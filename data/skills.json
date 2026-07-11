@@ -1,0 +1,203 @@
+{
+  "generatedAt": "2026-07-11T00:00:00Z",
+  "skills": [
+    {
+      "id": "caveman",
+      "repo": "JuliusBrussee/caveman",
+      "author": "JuliusBrussee",
+      "category": "coding",
+      "name": "Caveman",
+      "descKo": "출력을 원시인 말투로 압축해 토큰을 크게 줄여주는 Claude Code 스킬. 기술 정확도는 유지.",
+      "descEn": "Claude Code skill that compresses output into caveman speech to cut tokens while keeping technical accuracy.",
+      "stars": 88035,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "humanizer",
+      "repo": "blader/humanizer",
+      "author": "blader",
+      "category": "writing",
+      "name": "Humanizer",
+      "descKo": "글에서 AI 티가 나는 흔적을 제거해 자연스럽게 다듬는 Claude Code 스킬.",
+      "descEn": "Claude Code skill that removes signs of AI-generated writing from text.",
+      "stars": 28706,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "claude-skills-pack",
+      "repo": "alirezarezvani/claude-skills",
+      "author": "alirezarezvani",
+      "category": "collection",
+      "name": "Claude Skills 모음집",
+      "descKo": "에이전트·커스텀 스킬·플러그인 345개를 모은 대형 컬렉션.",
+      "descEn": "A large collection of 345 Claude Code skills, agent skills, and plugins.",
+      "stars": 22167,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "humanizer-zh",
+      "repo": "op7418/Humanizer-zh",
+      "author": "op7418",
+      "category": "writing",
+      "name": "Humanizer (중문판)",
+      "descKo": "Humanizer의 중국어판 — 텍스트의 AI 흔적을 제거하는 스킬.",
+      "descEn": "Chinese localization of Humanizer — removes AI traces from text.",
+      "stars": 12937,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "book-to-skill",
+      "repo": "virgiliojr94/book-to-skill",
+      "author": "virgiliojr94",
+      "category": "learning",
+      "name": "Book to Skill",
+      "descKo": "기술 서적 PDF를 바로 학습·활용 가능한 Claude Code 스킬로 변환.",
+      "descEn": "Turn any technical book PDF into a ready-to-use Claude Code skill.",
+      "stars": 8459,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "android-reverse-engineering",
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "author": "SimoneAvogadro",
+      "category": "security",
+      "name": "Android Reverse Engineering",
+      "descKo": "안드로이드 앱 리버스 엔지니어링을 돕는 Claude Code 스킬.",
+      "descEn": "Claude Code skill to support Android app reverse engineering.",
+      "stars": 6394,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "trailofbits-skills",
+      "repo": "trailofbits/skills",
+      "author": "trailofbits",
+      "category": "security",
+      "name": "Trail of Bits Skills",
+      "descKo": "보안 연구·취약점 분석을 위한 Trail of Bits의 Claude Code 스킬 묶음.",
+      "descEn": "Trail of Bits Claude Code skills for security research and vulnerability analysis.",
+      "stars": 6068,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "codebase-to-course",
+      "repo": "zarazhangrui/codebase-to-course",
+      "author": "zarazhangrui",
+      "category": "learning",
+      "name": "Codebase to Course",
+      "descKo": "임의의 코드베이스를 인터랙티브 학습 코스로 바꿔주는 스킬.",
+      "descEn": "A Claude Code skill that turns any codebase into an interactive course.",
+      "stars": 5206,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "pinme",
+      "repo": "glitternetwork/pinme",
+      "author": "glitternetwork",
+      "category": "devops",
+      "name": "PinMe",
+      "descKo": "명령 한 줄로 프론트엔드를 배포하는 스킬.",
+      "descEn": "Deploy your frontend in a single command; Claude Code skill supported.",
+      "stars": 3707,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "notfair",
+      "repo": "nowork-studio/NotFair",
+      "author": "nowork-studio",
+      "category": "marketing",
+      "name": "NotFair",
+      "descKo": "SEO·GEO·구글/메타 광고를 위한 오픈소스 Claude Code 스킬.",
+      "descEn": "Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads.",
+      "stars": 3105,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "claude-bughunter",
+      "repo": "elementalsouls/Claude-BugHunter",
+      "author": "elementalsouls",
+      "category": "security",
+      "name": "Claude BugHunter",
+      "descKo": "버그 헌팅·외부 레드팀 작업용 Claude Code 스킬 번들.",
+      "descEn": "A Claude Code skill bundle for bug hunting and external red-team work.",
+      "stars": 2945,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "playwright-skill",
+      "repo": "lackeyjb/playwright-skill",
+      "author": "lackeyjb",
+      "category": "automation",
+      "name": "Playwright Skill",
+      "descKo": "Playwright로 브라우저 자동화를 수행하는 모델 호출형 Claude Code 스킬.",
+      "descEn": "Claude Code skill for model-invoked browser automation with Playwright.",
+      "stars": 2891,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "nothing-design-skill",
+      "repo": "dominikmartn/nothing-design-skill",
+      "author": "dominikmartn",
+      "category": "design",
+      "name": "Nothing Design Skill",
+      "descKo": "Nothing 디자인 언어로 UI를 생성하는 Claude Code 스킬.",
+      "descEn": "A Claude Code skill for generating UI in the Nothing design language.",
+      "stars": 2621,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "videocut-skills",
+      "repo": "Agentchengfeng/chengfeng-videocut-skills",
+      "author": "Agentchengfeng",
+      "category": "media",
+      "name": "VideoCut Skills",
+      "descKo": "Claude Code Skills로 만든 영상 편집 에이전트.",
+      "descEn": "A video-editing agent built with Claude Code Skills.",
+      "stars": 2610,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "trading-skills",
+      "repo": "tradermonty/claude-trading-skills",
+      "author": "tradermonty",
+      "category": "finance",
+      "name": "Trading Skills",
+      "descKo": "주식 투자자·트레이더를 위한 시장 분석 Claude Code 스킬.",
+      "descEn": "Claude Code skills for equity investors and traders — market analysis and more.",
+      "stars": 2344,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "mcp-excalidraw",
+      "repo": "yctimlin/mcp_excalidraw",
+      "author": "yctimlin",
+      "category": "design",
+      "name": "MCP Excalidraw",
+      "descKo": "Excalidraw 캔버스를 프로그래밍적으로 다루는 MCP 서버 겸 Claude Code 스킬.",
+      "descEn": "MCP server and Claude Code skill for programmatic Excalidraw canvas control.",
+      "stars": 2153,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "reverse-skills",
+      "repo": "P4nda0s/reverse-skills",
+      "author": "P4nda0s",
+      "category": "security",
+      "name": "Reverse Skills",
+      "descKo": "리버스 엔지니어링을 위한 Claude Code 스킬 모음.",
+      "descEn": "Reverse-engineering skills for Claude Code.",
+      "stars": 1517,
+      "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "skill-codex",
+      "repo": "skills-directory/skill-codex",
+      "author": "skills-directory",
+      "category": "coding",
+      "name": "Skill Codex",
+      "descKo": "프롬프트를 Codex에 위임하는 Claude Code 스킬.",
+      "descEn": "A Claude Code skill to delegate prompts to Codex.",
+      "stars": 1364,
+      "addedAt": "2026-07-11T00:00:00Z"
+    }
+  ]
+}

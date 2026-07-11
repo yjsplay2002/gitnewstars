@@ -43,6 +43,14 @@ Keep 9-15 videos total, a mix across the three categories, at least 2-3 Korean-c
 - `addedAt`: current UTC time for entries you add this run; preserve it for kept entries.
 - Set `generatedAt` to the current UTC time.
 
+## Skills: data/skills.json
+
+Also refresh the free-skills ranking. First Read `data/skills.json` and `lib/skills.ts` (the `AgentSkill` interface) to lock the schema. These are free, open-source Claude Code / agent skills ranked by real GitHub stars.
+- **Update star counts** for every existing skill using the GitHub API (no auth needed for public repos): `curl -s https://api.github.com/repos/OWNER/REPO | node -e "let d='';process.stdin.on('data',c=>d+=c).on('end',()=>console.log(JSON.parse(d).stargazers_count))"`. Set each skill's `stars` to the real current value. Never invent a number.
+- **Discover new popular skills**: `gh search repos "claude code skill" --sort stars --limit 30 --json fullName,stargazersCount,description,owner` (also try "agent skill", "claude skill"). Add genuinely popular free/open-source skills not already listed.
+- Keep 15-20 skills total. Each: `id` (stable slug), `repo` ("owner/repo"), `author`, `category` (one of the keys in lib/skills.ts SKILL_CATEGORIES), `name`, `descKo`/`descEn` (one line each), `stars` (real), `addedAt` (now for new entries; preserve for kept ones). Drop anything that is paid/closed-source or clearly not a skill.
+- Set `generatedAt` to the current UTC time.
+
 ## Validate before finishing
 
-Run: `node -e "JSON.parse(require('fs').readFileSync('data/curated-posts.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/ai-videos.json','utf8'))"`, and `npx tsc --noEmit`. All must pass. Touch no other files.
+Run: `node -e "JSON.parse(require('fs').readFileSync('data/curated-posts.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/ai-videos.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/skills.json','utf8'))"`, and `npx tsc --noEmit`. All must pass. Touch no other files.
