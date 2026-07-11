@@ -14,6 +14,7 @@ LOG="$REPO/scripts/crawl.log"
 DATA="data/curated-posts.json"
 VIDEOS="data/ai-videos.json"
 SKILLS="data/skills.json"
+SKILLSETS="data/skillsets.json"
 PUSH_USER="yjsplay2002"
 ORIG_USER="lukeamaze"
 
@@ -43,7 +44,7 @@ CLAUDE_RC=$?
 echo "claude exit code: $CLAUDE_RC"
 
 # Nothing changed → nothing to push.
-if git diff --quiet -- "$DATA" "$VIDEOS" "$SKILLS"; then
+if git diff --quiet -- "$DATA" "$VIDEOS" "$SKILLS" "$SKILLSETS"; then
   echo "no changes to data files — done"
   exit 0
 fi
@@ -73,6 +74,14 @@ if ! git diff --quiet -- "$SKILLS"; then
   else
     echo "invalid $SKILLS — reverting"
     git checkout -- "$SKILLS"
+  fi
+fi
+if ! git diff --quiet -- "$SKILLSETS"; then
+  if node -e "const j=JSON.parse(require('fs').readFileSync('$SKILLSETS','utf8')); if(!Array.isArray(j.skillsets)||j.skillsets.length===0) throw new Error('no skillsets')"; then
+    STAGE+=("$SKILLSETS")
+  else
+    echo "invalid $SKILLSETS — reverting"
+    git checkout -- "$SKILLSETS"
   fi
 fi
 

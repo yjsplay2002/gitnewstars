@@ -5,6 +5,7 @@
  */
 import { readJson } from "./github";
 import bundled from "@/data/skills.json";
+import bundledSets from "@/data/skillsets.json";
 
 export interface AgentSkill {
   id: string; // stable slug
@@ -50,4 +51,30 @@ export async function getSkills(): Promise<SkillsSnapshot> {
     .filter((s) => s && typeof s.repo === "string" && REPO_RE.test(s.repo))
     .sort((a, b) => (b.stars ?? 0) - (a.stars ?? 0));
   return { generatedAt: snap.generatedAt, skills };
+}
+
+/** "Pro skillsets" — how notable devs / roles set up their agent skills. */
+export interface ProSkillset {
+  id: string;
+  roleKo: string;
+  roleEn: string;
+  personaKo: string;
+  personaEn: string;
+  summaryKo: string;
+  summaryEn: string;
+  stackKo: string[];
+  stackEn: string[];
+  sourceName: string;
+  sourceUrl: string;
+}
+
+export interface SkillsetsSnapshot {
+  generatedAt: string;
+  skillsets: ProSkillset[];
+}
+
+export async function getSkillsets(): Promise<SkillsetsSnapshot> {
+  const live = await readJson<SkillsetsSnapshot>("data/skillsets.json", 300);
+  const snap = live ?? (bundledSets as SkillsetsSnapshot);
+  return { generatedAt: snap.generatedAt, skillsets: snap.skillsets ?? [] };
 }

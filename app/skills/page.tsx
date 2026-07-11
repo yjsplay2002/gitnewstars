@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import SkillsShell from "@/components/SkillsShell";
-import { getSkills } from "@/lib/skills";
+import { getSkills, getSkillsets } from "@/lib/skills";
 
 // Refresh at most hourly (ISR); the daily crawl commit also redeploys.
 export const revalidate = 3600;
@@ -19,6 +19,6 @@ export const metadata: Metadata = {
 };
 
 export default async function SkillsPage() {
-  const snapshot = await getSkills();
-  return <SkillsShell snapshot={snapshot} />;
+  const [snapshot, skillsets] = await Promise.all([getSkills(), getSkillsets()]);
+  return <SkillsShell snapshot={snapshot} skillsets={skillsets.skillsets} />;
 }

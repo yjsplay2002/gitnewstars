@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import type { SkillsSnapshot } from "@/lib/skills";
+import type { SkillsSnapshot, ProSkillset } from "@/lib/skills";
 import { SKILL_CATEGORIES } from "@/lib/skills";
 import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
@@ -14,7 +14,13 @@ function fmtStars(n: number): string {
   return String(n);
 }
 
-export default function SkillsShell({ snapshot }: { snapshot: SkillsSnapshot }) {
+export default function SkillsShell({
+  snapshot,
+  skillsets = [],
+}: {
+  snapshot: SkillsSnapshot;
+  skillsets?: ProSkillset[];
+}) {
   const [lang, setLang] = useState<Lang>("ko");
   const t = translations[lang];
   const { data: session } = useSession();
@@ -22,6 +28,23 @@ export default function SkillsShell({ snapshot }: { snapshot: SkillsSnapshot }) 
   const postsHasNew = useNewPosts(false);
 
   const [activeCategory, setActiveCategory] = useState<string>("all");
+
+  // ---- copy the CLI install prompt for a skill ----
+  const [copiedId, setCopiedId] = useState<string | null>(null);
+  async function copyInstall(repo: string, id: string) {
+    const name = repo.split("/")[1] || repo;
+    const prompt =
+      lang === "ko"
+        ? `다음 Claude Code 스킬을 설치해줘: https://github.com/${repo} 를 ~/.claude/skills/${name} 에 git clone 하고, SKILL.md를 읽어 사용 가능한지 확인해줘.`
+        : `Install this Claude Code skill: git clone https://github.com/${repo} into ~/.claude/skills/${name}, then read its SKILL.md and confirm it's available.`;
+    try {
+      await navigator.clipboard.writeText(prompt);
+      setCopiedId(id);
+      setTimeout(() => setCopiedId((c) => (c === id ? null : c)), 2000);
+    } catch {
+      /* clipboard blocked — no-op */
+    }
+  }
 
   // Only categories that actually have skills, to avoid empty filters.
   const usedCategories = useMemo(() => {
@@ -135,6 +158,47 @@ export default function SkillsShell({ snapshot }: { snapshot: SkillsSnapshot }) 
           <p className="hero__subtitle">{t.skillsSubtitle}</p>
         </header>
 
+        {/* ---- pro skillsets: how notable devs set up by role ---- */}
+        {skillsets.length > 0 && (
+          <section className="skillsets">
+            <div className="skillsets__head">
+              <h2 className="skillsets__title">🎯 {t.proSkillsetsTitle}</h2>
+              <p className="skillsets__hint">{t.proSkillsetsHint}</p>
+            </div>
+            <div className="skillsets__row">
+              {skillsets.map((ss) => (
+                <article key={ss.id} className="skillset-card">
+                  <span className="skillset-card__role">
+                    {lang === "ko" ? ss.roleKo : ss.roleEn}
+                  </span>
+                  <h3 className="skillset-card__persona">
+                    {lang === "ko" ? ss.personaKo : ss.personaEn}
+                  </h3>
+                  <p className="skillset-card__summary">
+                    {lang === "ko" ? ss.summaryKo : ss.summaryEn}
+                  </p>
+                  <div className="skillset-card__stack">
+                    <span className="skillset-card__stack-label">{t.proStackLabel}</span>
+                    <ul>
+                      {(lang === "ko" ? ss.stackKo : ss.stackEn).map((item, i) => (
+                        <li key={i}>{item}</li>
+                      ))}
+                    </ul>
+                  </div>
+                  <a
+                    className="skillset-card__source"
+                    href={ss.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {ss.sourceName} ↗
+                  </a>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
+
         {visible.length === 0 ? (
           <p className="sidebar__empty">{t.skillsEmpty}</p>
         ) : (
@@ -142,13 +206,7 @@ export default function SkillsShell({ snapshot }: { snapshot: SkillsSnapshot }) 
             {visible.map((s, i) => {
               const desc = lang === "en" ? s.descEn : s.descKo;
               return (
-                <a
-                  key={s.id}
-                  className="skill-card"
-                  href={`https://github.com/${s.repo}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <article key={s.id} className="skill-card">
                   <div className="skill-card__head">
                     <span className="skill-card__rank">{i + 1}</span>
                     <span className="skill-card__stars">★ {fmtStars(s.stars)}</span>
@@ -159,9 +217,24 @@ export default function SkillsShell({ snapshot }: { snapshot: SkillsSnapshot }) 
                   <div className="skill-card__meta">
                     <span className="skill-card__cat">{catLabel(s.category)}</span>
                     <span className="skill-badge skill-badge--free">{t.freeBadge}</span>
-                    <span className="skill-card__gh">{t.viewOnGithub2} ↗</span>
                   </div>
-                </a>
+                  <div className="skill-card__actions">
+                    <button
+                      className={`btn skill-card__copy${copiedId === s.id ? " skill-card__copy--done" : ""}`}
+                      onClick={() => copyInstall(s.repo, s.id)}
+                    >
+                      {copiedId === s.id ? t.copiedInstall : t.copyInstall}
+                    </button>
+                    <a
+                      className="skill-card__gh"
+                      href={`https://github.com/${s.repo}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {t.viewOnGithub2} ↗
+                    </a>
+                  </div>
+                </article>
               );
             })}
           </section>

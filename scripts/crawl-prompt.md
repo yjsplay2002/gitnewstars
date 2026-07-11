@@ -51,6 +51,10 @@ Also refresh the free-skills ranking. First Read `data/skills.json` and `lib/ski
 - Keep 15-20 skills total. Each: `id` (stable slug), `repo` ("owner/repo"), `author`, `category` (one of the keys in lib/skills.ts SKILL_CATEGORIES), `name`, `descKo`/`descEn` (one line each), `stars` (real), `addedAt` (now for new entries; preserve for kept ones). Drop anything that is paid/closed-source or clearly not a skill.
 - Set `generatedAt` to the current UTC time.
 
+## Pro skillsets: data/skillsets.json (optional, lower priority)
+
+`data/skillsets.json` curates how notable developers / roles (frontend, backend, game, agent-engineer, …) set up their AI skills, each with a real `sourceUrl`. Read `lib/skills.ts` (`ProSkillset` interface) for the schema. You do NOT need to rewrite it every day — only update when you find a NEW, credible, well-sourced role setup (a named developer's public post, or a widely-cited role guide). When you do add one, cite a real `sourceUrl` and never fabricate that a specific person uses something without a source. If nothing new/credible surfaced, leave this file unchanged.
+
 ## Validate before finishing
 
-Run: `node -e "JSON.parse(require('fs').readFileSync('data/curated-posts.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/ai-videos.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/skills.json','utf8'))"`, and `npx tsc --noEmit`. All must pass. Touch no other files.
+Run these and ensure all pass: `node -e "JSON.parse(require('fs').readFileSync('data/curated-posts.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/ai-videos.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/skills.json','utf8'))"`, `node -e "JSON.parse(require('fs').readFileSync('data/skillsets.json','utf8'))"`, and `npx tsc --noEmit`. Touch no other files.

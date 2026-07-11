@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-07-12T00:00:00Z",
+  "skillsets": [
+    {
+      "id": "addy-osmani-frontend",
+      "roleKo": "프론트엔드 · 웹",
+      "roleEn": "Frontend · Web",
+      "personaKo": "Addy Osmani (Google Chrome 엔지니어링 리드)",
+      "personaEn": "Addy Osmani (Google Chrome engineering lead)",
+      "summaryKo": "LLM을 자율 판단자가 아닌 '강력한 페어 프로그래머'로 대하는 규율 있는 AI 보조 엔지니어링. 계획 → 작은 단위 실행 → 리뷰 루프. 자신의 웹 품질 전문성을 6개 스킬(agent-skills)로 패키징해 씀.",
+      "summaryEn": "Disciplined AI-assisted engineering that treats the LLM as a powerful pair programmer, not an autonomous judge: plan → small-step execution → review loop. Packages his web-quality expertise into 6 skills (agent-skills).",
+      "stackKo": ["addyosmani/agent-skills (웹 품질 6종)", "Frontend Design 스킬 (AI 티 안 나는 UI)", "계획 모드 + 리뷰 게이트", "커뮤니티 베스트프랙티스 축적"],
+      "stackEn": ["addyosmani/agent-skills (6 web-quality skills)", "Frontend Design skill (non-generic UI)", "Plan mode + review gate", "Community best-practice accretion"],
+      "sourceName": "addyosmani.com",
+      "sourceUrl": "https://addyosmani.com/blog/ai-coding-workflow/"
+    },
+    {
+      "id": "simon-willison-tooling",
+      "roleKo": "툴링 · 자동화",
+      "roleEn": "Tooling · Automation",
+      "personaKo": "Simon Willison (Datasette 창시자)",
+      "personaEn": "Simon Willison (creator of Datasette)",
+      "summaryKo": "'제약이 중요하면 확률적이 아니라 결정적이어야 한다'는 원칙. Claude Code에 기계적 hooks를 걸어 규칙을 강제하고, 폰에서도 코딩할 만큼 에이전트 위임이 깊음. 세션 기록을 도구로 추출·검증.",
+      "summaryEn": "Principle: if a constraint matters, it must be deterministic, not probabilistic. Enforces rules with mechanical hooks on Claude Code, delegates so deeply he codes from his phone, and extracts/verifies session transcripts with tooling.",
+      "stackKo": ["Claude Code + 결정적 hooks", "claude-code-transcripts (세션 추출)", "테스트·검증 우선", "모바일 Claude Code"],
+      "stackEn": ["Claude Code + deterministic hooks", "claude-code-transcripts (session extraction)", "Test/verify first", "Mobile Claude Code"],
+      "sourceName": "simonwillison.net",
+      "sourceUrl": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
+    },
+    {
+      "id": "game-dev-ue5",
+      "roleKo": "게임 개발",
+      "roleEn": "Game Development",
+      "personaKo": "UE5 / Godot 실무 셋업 (인디 게임 개발자 기준)",
+      "personaEn": "UE5 / Godot practitioners (indie game devs)",
+      "summaryKo": "텍스트 기반 에이전트 + 코드 우선 엔진 조합이 가장 안정적. Cursor를 UE5 C++·Build.cs 데일리 드라이버로, Copilot은 인라인 완성, Claude Code로 6~12개 파일 스캐폴딩. 루틴 시스템(인벤토리·세이브/로드)에서 첫 구현 시간 38% 단축 사례.",
+      "summaryEn": "A text-based agent paired with a code-first engine is the most reliable combo. Cursor as the UE5 C++/Build.cs daily driver, Copilot for inline completion, Claude Code to scaffold 6–12 files. Reported 38% cut in time-to-first-implementation for routine systems (inventory, save/load).",
+      "stackKo": ["Cursor (UE5 C++ 데일리)", "GitHub Copilot (인라인)", "Claude Code (스캐폴딩)", "Godot·Three.js·Phaser (프로토타입)"],
+      "stackEn": ["Cursor (UE5 C++ daily)", "GitHub Copilot (inline)", "Claude Code (scaffolding)", "Godot·Three.js·Phaser (prototypes)"],
+      "sourceName": "Medium · Chier Hu",
+      "sourceUrl": "https://chierhu.medium.com/ai-coding-tools-for-video-game-development-a-first-principles-analysis-of-what-actually-works-90dfa10edd13"
+    },
+    {
+      "id": "backend-api",
+      "roleKo": "백엔드 · API",
+      "roleEn": "Backend · API",
+      "personaKo": "백엔드 엔지니어 실전 조합",
+      "personaEn": "Backend engineer practical combo",
+      "summaryKo": "2026년 백엔드에서 많이 정착한 조합: 먼저 Grill Me로 모호함을 없애고, TDD로 테스트 우선을 강제하고, 그 사이 응답 노이즈는 Caveman으로 줄임. DB 스키마·보안 규칙은 Supabase 스킬이, 1,000+ 서비스 연동은 Connect 스킬이 담당.",
+      "summaryEn": "A combo that stuck in 2026 backend work: Grill Me to kill ambiguity first, TDD to enforce test-first, and Caveman to cut response noise in between. Supabase skill handles DB schemas/security rules; the Connect skill wires 1,000+ services.",
+      "stackKo": ["Grill Me (요구사항 확정)", "TDD 스킬 (테스트 우선)", "Caveman (토큰 절감)", "Supabase 스킬", "Connect (크로스서비스 자동화)"],
+      "stackEn": ["Grill Me (nail requirements)", "TDD skill (test-first)", "Caveman (cut tokens)", "Supabase skill", "Connect (cross-service automation)"],
+      "sourceName": "Pinggy",
+      "sourceUrl": "https://pinggy.io/blog/ai_agent_skills/"
+    },
+    {
+      "id": "agent-engineer-control-stack",
+      "roleKo": "에이전트 엔지니어",
+      "roleEn": "Agent Engineer",
+      "personaKo": "제어 스택(control stack) 패턴",
+      "personaEn": "The control-stack pattern",
+      "summaryKo": "거대한 손수 프롬프트 시대를 지나, 2026년 승리 패턴은 '제어 스택': 프로젝트 규칙 + 재사용 스킬 + 경계가 있는 서브에이전트 + 모델 주변의 결정적 도구. 시작점으로 obra/superpowers 플러그인(브레인스토밍·체계적 디버깅·TDD 번들) 설치를 권장.",
+      "summaryEn": "Past the era of giant hand-written prompts, the winning 2026 pattern is a control stack: project rules + reusable skills + bounded sub-agents + deterministic tools around the model. A recommended starting point is the obra/superpowers plugin (brainstorming, systematic-debugging, TDD).",
+      "stackKo": ["프로젝트 규칙 (CLAUDE.md)", "obra/superpowers (브레인스토밍·디버깅·TDD)", "경계형 서브에이전트", "결정적 도구·훅"],
+      "stackEn": ["Project rules (CLAUDE.md)", "obra/superpowers (brainstorm·debug·TDD)", "Bounded sub-agents", "Deterministic tools/hooks"],
+      "sourceName": "Medium · Data Science Collective",
+      "sourceUrl": "https://medium.com/data-science-collective/the-8-skills-every-claude-code-setup-needs-in-2026-eb7e72cbf91f"
+    }
+  ]
+}
