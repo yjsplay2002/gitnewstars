@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-11T00:00:00Z",
+  "generatedAt": "2026-07-12T12:00:00Z",
   "skills": [
+    {
+      "id": "superpowers",
+      "repo": "obra/superpowers",
+      "author": "obra",
+      "category": "automation",
+      "name": "Superpowers",
+      "descKo": "브레인스토밍·체계적 디버깅·TDD를 묶은 에이전트 스킬 프레임워크 겸 개발 방법론.",
+      "descEn": "An agentic skills framework & software development methodology bundling brainstorming, systematic debugging, and TDD.",
+      "stars": 252418,
+      "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "anthropic-skills",
+      "repo": "anthropics/skills",
+      "author": "anthropics",
+      "category": "collection",
+      "name": "Anthropic Agent Skills",
+      "descKo": "Anthropic이 직접 공개한 공식 Agent Skills 저장소.",
+      "descEn": "Anthropic's official public repository for Agent Skills.",
+      "stars": 160345,
+      "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "addyosmani-agent-skills",
+      "repo": "addyosmani/agent-skills",
+      "author": "addyosmani",
+      "category": "coding",
+      "name": "Agent Skills (Addy Osmani)",
+      "descKo": "Google Chrome 엔지니어링 리드 Addy Osmani가 만든 프로덕션급 코딩 에이전트 스킬 모음.",
+      "descEn": "Production-grade engineering skills for AI coding agents, by Google Chrome engineering lead Addy Osmani.",
+      "stars": 77324,
+      "addedAt": "2026-07-12T00:00:00Z"
+    },
     {
       "id": "caveman",
       "repo": "JuliusBrussee/caveman",
@@ -9,8 +42,19 @@
       "name": "Caveman",
       "descKo": "출력을 원시인 말투로 압축해 토큰을 크게 줄여주는 Claude Code 스킬. 기술 정확도는 유지.",
       "descEn": "Claude Code skill that compresses output into caveman speech to cut tokens while keeping technical accuracy.",
-      "stars": 88035,
+      "stars": 88136,
       "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "awesome-claude-skills-composio",
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "author": "ComposioHQ",
+      "category": "collection",
+      "name": "Awesome Claude Skills",
+      "descKo": "Claude AI 워크플로우 커스터마이징을 위한 스킬·리소스·도구 큐레이션 리스트.",
+      "descEn": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.",
+      "stars": 67482,
+      "addedAt": "2026-07-12T00:00:00Z"
     },
     {
       "id": "humanizer",
@@ -20,7 +64,7 @@
       "name": "Humanizer",
       "descKo": "글에서 AI 티가 나는 흔적을 제거해 자연스럽게 다듬는 Claude Code 스킬.",
       "descEn": "Claude Code skill that removes signs of AI-generated writing from text.",
-      "stars": 28706,
+      "stars": 28744,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -31,7 +75,7 @@
       "name": "Claude Skills 모음집",
       "descKo": "에이전트·커스텀 스킬·플러그인 345개를 모은 대형 컬렉션.",
       "descEn": "A large collection of 345 Claude Code skills, agent skills, and plugins.",
-      "stars": 22167,
+      "stars": 22209,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -42,7 +86,7 @@
       "name": "Humanizer (중문판)",
       "descKo": "Humanizer의 중국어판 — 텍스트의 AI 흔적을 제거하는 스킬.",
       "descEn": "Chinese localization of Humanizer — removes AI traces from text.",
-      "stars": 12937,
+      "stars": 12947,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -53,7 +97,7 @@
       "name": "Book to Skill",
       "descKo": "기술 서적 PDF를 바로 학습·활용 가능한 Claude Code 스킬로 변환.",
       "descEn": "Turn any technical book PDF into a ready-to-use Claude Code skill.",
-      "stars": 8459,
+      "stars": 8473,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -64,7 +108,7 @@
       "name": "Android Reverse Engineering",
       "descKo": "안드로이드 앱 리버스 엔지니어링을 돕는 Claude Code 스킬.",
       "descEn": "Claude Code skill to support Android app reverse engineering.",
-      "stars": 6394,
+      "stars": 6395,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -75,7 +119,7 @@
       "name": "Trail of Bits Skills",
       "descKo": "보안 연구·취약점 분석을 위한 Trail of Bits의 Claude Code 스킬 묶음.",
       "descEn": "Trail of Bits Claude Code skills for security research and vulnerability analysis.",
-      "stars": 6068,
+      "stars": 6072,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -86,7 +130,7 @@
       "name": "Codebase to Course",
       "descKo": "임의의 코드베이스를 인터랙티브 학습 코스로 바꿔주는 스킬.",
       "descEn": "A Claude Code skill that turns any codebase into an interactive course.",
-      "stars": 5206,
+      "stars": 5208,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -108,7 +152,7 @@
       "name": "NotFair",
       "descKo": "SEO·GEO·구글/메타 광고를 위한 오픈소스 Claude Code 스킬.",
       "descEn": "Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads.",
-      "stars": 3105,
+      "stars": 3107,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -119,7 +163,7 @@
       "name": "Claude BugHunter",
       "descKo": "버그 헌팅·외부 레드팀 작업용 Claude Code 스킬 번들.",
       "descEn": "A Claude Code skill bundle for bug hunting and external red-team work.",
-      "stars": 2945,
+      "stars": 2952,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -152,7 +196,7 @@
       "name": "VideoCut Skills",
       "descKo": "Claude Code Skills로 만든 영상 편집 에이전트.",
       "descEn": "A video-editing agent built with Claude Code Skills.",
-      "stars": 2610,
+      "stars": 2614,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -163,7 +207,7 @@
       "name": "Trading Skills",
       "descKo": "주식 투자자·트레이더를 위한 시장 분석 Claude Code 스킬.",
       "descEn": "Claude Code skills for equity investors and traders — market analysis and more.",
-      "stars": 2344,
+      "stars": 2348,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -174,29 +218,7 @@
       "name": "MCP Excalidraw",
       "descKo": "Excalidraw 캔버스를 프로그래밍적으로 다루는 MCP 서버 겸 Claude Code 스킬.",
       "descEn": "MCP server and Claude Code skill for programmatic Excalidraw canvas control.",
-      "stars": 2153,
-      "addedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "reverse-skills",
-      "repo": "P4nda0s/reverse-skills",
-      "author": "P4nda0s",
-      "category": "security",
-      "name": "Reverse Skills",
-      "descKo": "리버스 엔지니어링을 위한 Claude Code 스킬 모음.",
-      "descEn": "Reverse-engineering skills for Claude Code.",
-      "stars": 1517,
-      "addedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "skill-codex",
-      "repo": "skills-directory/skill-codex",
-      "author": "skills-directory",
-      "category": "coding",
-      "name": "Skill Codex",
-      "descKo": "프롬프트를 Codex에 위임하는 Claude Code 스킬.",
-      "descEn": "A Claude Code skill to delegate prompts to Codex.",
-      "stars": 1364,
+      "stars": 2154,
       "addedAt": "2026-07-11T00:00:00Z"
     }
   ]

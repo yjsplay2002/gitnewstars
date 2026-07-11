@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T00:00:00Z",
+  "generatedAt": "2026-07-12T12:00:00Z",
   "videos": [
     {
       "id": "vid-claude-code-tips-2026",
@@ -11,6 +11,28 @@
       "descEn": "10 practical Claude Code tips, including setting up your project memory file (CLAUDE.md) the right way.",
       "publishedAt": "2026-05-25T00:00:00Z",
       "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-10-claude-code-tips-change-code",
+      "youtubeId": "T5jylUte3J8",
+      "category": "tip",
+      "title": "코딩 방식을 바꿔줄 Claude Code 팁 10가지 (2026)",
+      "titleEn": "10 Claude Code Tips That Will Change How You Code (2026)",
+      "descKo": "CLAUDE.md 프로젝트 메모리 설정부터 에이전트 5개를 동시에 병렬로 돌리는 법까지 실전 팁 10가지.",
+      "descEn": "10 Claude Code tips ranging from CLAUDE.md project memory setup to running 5 agents in parallel.",
+      "publishedAt": "2026-04-02T00:00:00Z",
+      "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "vid-claude-code-23-tips-ko",
+      "youtubeId": "1_bRmkUvjHA",
+      "category": "lecture",
+      "title": "Claude Code 왕초보 입문 — 23가지 팁, 50분 완전정복 (2026)",
+      "titleEn": "Claude Code for Absolute Beginners — 23 Tips, 50-Minute Full Guide (2026)",
+      "descKo": "설치부터 실전 활용까지 23가지 팁을 50분 안에 정리한 한국어 클로드코드 완전정복 가이드.",
+      "descEn": "A 50-minute Korean walkthrough covering 23 tips from install to real-world Claude Code usage.",
+      "publishedAt": "2026-02-01T00:00:00Z",
+      "addedAt": "2026-07-12T00:00:00Z"
     },
     {
       "id": "vid-full-ai-agent-tutorial-2026",
@@ -79,6 +101,17 @@
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
+      "id": "vid-agent-orchestration-dream-team",
+      "youtubeId": "JNAqp29J854",
+      "category": "lecture",
+      "title": "에이전트 오케스트레이션 — AI 드림팀 지휘하기",
+      "titleEn": "Agent Orchestration: Directing Your AI Dream Team",
+      "descKo": "여러 전문화된 에이전트에게 작업을 위임하고 조율하는 오케스트레이션 개념과 패턴 설명.",
+      "descEn": "Explains agent orchestration concepts and patterns for delegating work across specialized agents.",
+      "publishedAt": "2026-05-14T00:00:00Z",
+      "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
       "id": "vid-how-im-using-ai-agents-2026",
       "youtubeId": "BikPUaT76i8",
       "category": "usecase",
@@ -88,6 +121,29 @@
       "descEn": "A hands-on look at how the creator deploys and uses AI agents in real work.",
       "publishedAt": "2026-05-01T00:00:00Z",
       "addedAt": "2026-07-11T00:00:00Z"
+    },
+    {
+      "id": "vid-vibe-coding-money-ko",
+      "youtubeId": "F5QfQ8ve-zs",
+      "category": "usecase",
+      "title": "바이브 코딩으로 돈 벌 수 있을까?",
+      "titleEn": "Can You Actually Make Money with Vibe Coding?",
+      "descKo": "바이브 코딩으로 실제 수익을 낼 수 있는지 현실적으로 따져보는 한국어 콘텐츠.",
+      "descEn": "A Korean-language reality check on whether vibe coding can actually generate income.",
+      "publishedAt": "2026-04-01T00:00:00Z",
+      "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "vid-claude-cowork-update-ko",
+      "youtubeId": "yWugrZo1OPA",
+      "category": "tip",
+      "title": "갑자기 업데이트된 클로드 통합 업데이트 총정리 — 새 사용법 3가지",
+      "titleEn": "Claude's Sudden Update, Fully Explained — 3 New Ways to Use It",
+      "descKo": "클로드 코워크의 모바일·웹 확장 업데이트가 왜 나왔는지와 새로 생긴 실전 사용법 3가지를 정리한 한국어 영상.",
+      "descEn": "A Korean video explaining why Claude Cowork's mobile/web expansion happened and 3 new practical usage patterns it unlocks.",
+      "channel": "리더스AI",
+      "publishedAt": "2026-07-09T00:00:00Z",
+      "addedAt": "2026-07-12T00:00:00Z"
     },
     {
       "id": "vid-n8n-first-ai-agent-2026",
