@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-07-12T12:00:00Z",
+  "generatedAt": "2026-07-13T12:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260713-systima-token-overhead",
+      "title": "Claude Code, 프롬프트 읽기도 전에 토큰 33,000개 소모 — OpenCode는 7,000개",
+      "body": "AI 개발도구 블로그 Systima가 로깅 프록시로 측정한 결과, Claude Code는 사용자 프롬프트가 도착하기 전 시스템 프롬프트·27개 도구 스키마 등으로 평균 33,000토큰을 미리 소모하는 반면 OpenCode는 7,000토큰에 그쳐 최대 4.7배 차이가 났습니다. 시스템 프롬프트 크기도 Claude Code 27,344자·도구 스키마 99,778자로 OpenCode(9,324자·20,856자)의 3배 안팎이었고, 서브에이전트 위임 시에는 토큰 비용이 4.2배(12만1천→51만3천)까지 뛰었습니다. HN 1위(378점)에 오른 실측 데이터로, 대량 반복 작업에서 하네스별 비용 차이를 가늠할 실전 근거입니다.",
+      "titleEn": "Claude Code burns 33,000 tokens before it even reads your prompt — OpenCode uses 7,000",
+      "bodyEn": "Systima measured token overhead via a logging proxy and found Claude Code front-loads ~33,000 tokens of system prompt and 27 tool schemas before the user's prompt even arrives, vs. OpenCode's ~7,000 — up to a 4.7x gap. Claude Code's system prompt runs 27,344 chars with 99,778 chars of tool schemas versus OpenCode's 9,324/20,856; subagent delegation multiplied cost 4.2x (121k to 513k tokens) in their test. The measurement hit #1 on HN with 378 points — solid data for weighing harness overhead on high-volume repeated tasks.",
+      "sourceName": "Hacker News · Systima",
+      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T00:00:00Z",
+      "curatedAt": "2026-07-13T12:00:00Z"
+    },
+    {
+      "id": "curated-20260713-geeknews-sem-semantic-vcs",
+      "title": "[한국어] sem — Git 위에 함수·클래스 단위 변경을 추적하는 시맨틱 버전관리 도구, Claude Code 훅까지 내장",
+      "body": "GeekNews에 소개된 오픈소스 sem은 줄 단위가 아니라 tree-sitter 파싱과 AST 해시로 함수·클래스 같은 코드 엔티티 단위로 diff를 잡아, 이름 변경·이동도 80% 이상 토큰 유사도로 감지합니다. sem diff·sem impact(영향받는 호출부·테스트 탐색)·sem blame·sem log(엔티티 이력·핫스팟 분석) 외에 sem context는 에이전트용으로 토큰 예산에 맞춘 컨텍스트를 직접 만들어줍니다. sem setup으로 pre-commit 훅과 Claude Code 상주형 의존성 그래프 훅을 설치하면 클로드가 매 프롬프트마다 저장소를 재스캔하지 않고 미리 구축된 컨텍스트를 받을 수 있고, sem mcp로 diff·impact·context·blame·log를 MCP 툴로 노출해 32개 언어를 지원합니다.",
+      "titleEn": "[Korean] sem — a semantic Git version-control tool that diffs by function/class, with a built-in Claude Code hook",
+      "bodyEn": "Featured on GeekNews, the open-source sem tool diffs code by entity (function/class) rather than by line, using tree-sitter parsing plus AST hashing and 80%+ token-similarity to detect renames and moves. Beyond `sem diff`, `sem impact` (finds affected callers/tests), `sem blame`, and `sem log` (entity history, hotspot/co-change analysis), `sem context` builds a token-budgeted context specifically for agents. `sem setup` installs a pre-commit hook plus a resident Claude Code dependency-graph hook so Claude gets pre-built context instead of re-scanning the repo every prompt, and `sem mcp` exposes diff/impact/context/blame/log as MCP tools across 32 supported languages.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31339",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T00:00:00Z",
+      "curatedAt": "2026-07-13T12:00:00Z"
+    },
     {
       "id": "curated-20260712-clien-velooga-codex-fullstack",
       "title": "[한국어] Codex로 인플루언서 마케팅 플랫폼 '벨루가' 풀스택 구축 후기",
@@ -15,17 +41,43 @@
       "curatedAt": "2026-07-12T12:00:00Z"
     },
     {
-      "id": "curated-20260712-who-manages-the-agents",
-      "title": "\"에이전트를 누가 관리하는가\" — 벤더에게 맡기지 말고 직원 한 명 한 명에게 에이전트를 줘라",
-      "body": "off-policy.com에 실린 Gavriel Cohen의 주장: 팀이 직접 에이전트를 관리하지 않으면 결국 벤더가 관리하게 되고, 회사는 대체 가능한 존재가 된다는 것입니다. 구체적 제안은 직원 각자에게 개인용 에이전트를 맡겨 관리 감각을 기르게 한 뒤, 점차 팀 단위 에이전트로 확장하라는 것 — 인력 감축이 아니라 '에이전트 매니저'로 성장시키는 접근입니다.",
-      "titleEn": "\"Who manages the agents?\" — don't outsource to a vendor, give every employee their own agent",
-      "bodyEn": "Gavriel Cohen argues on off-policy.com that if your team doesn't manage its own agents, your vendor ends up managing them instead — and your company becomes replaceable. His concrete proposal: give each employee a personal agent to manage first, building real management skill, then scale up to team-level agents — growing people into 'agent managers' rather than cutting headcount.",
-      "sourceName": "off-policy.com",
-      "sourceUrl": "https://www.off-policy.com/dont-go-quietly-into-the-ai-night/",
+      "id": "curated-20260713-terry-tao-coding-agents",
+      "title": "필즈상 수상자 테렌스 타오, 코딩 에이전트로 1999년 자바 애플릿 24개를 하루 만에 이식",
+      "body": "수학자 테렌스 타오가 자신의 블로그에 코딩 에이전트로 1999년산 Java 1.0 애플릿 약 24개를 각각 몇 시간 만에 JavaScript로 이식한 경험을 공개했습니다. 이식 과정에서 발생한 버그는 딱 하나였고, 오히려 에이전트가 원본 코드의 버그 2개를 찾아내기도 했습니다. 특수상대성 시공간 다이어그램 시각화 도구, 길브레이스 추측 시각화 도구 같은 신규 도구도 함께 제작했으며, 핵심 통찰은 '고수준 설계 판단은 여전히 사람 몫이고, 저수준 문법·구현만 자동화됐다'는 것 — 도메인 전문성이 에이전트를 지휘하는 데 여전히 필요하다는 실증입니다. HN 390점.",
+      "titleEn": "Fields Medalist Terence Tao ports 24 vintage 1999 Java applets in a day using coding agents",
+      "bodyEn": "Mathematician Terence Tao wrote on his blog about porting roughly 24 legacy Java 1.0 applets from 1999 to JavaScript, each taking just hours, using modern coding agents. Only one new bug surfaced during porting — the agent even caught two pre-existing bugs in the original code. He also built new tools this way, including a spacetime-diagram visualizer for special relativity and a Gilbreath-conjecture visualizer; his key takeaway is that 'high-level design decisions still remain human work — it's the low-level syntax and implementation that's been automated away,' underscoring that domain expertise still steers the agent. 390 points on HN.",
+      "sourceName": "Hacker News · Terence Tao",
+      "sourceUrl": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-11T18:02:33Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
+      "createdAt": "2026-07-11T00:00:00Z",
+      "curatedAt": "2026-07-13T12:00:00Z"
+    },
+    {
+      "id": "curated-20260713-geeknews-fenic-semantic-dataframes",
+      "title": "[한국어] fenic — 사람과 에이전트가 함께 쓰는 시맨틱 데이터프레임, LLM 연산을 쿼리 플랜에 통합",
+      "body": "GeekNews에 올라온 fenic은 PySpark·SQL 스타일의 select·filter·join·group_by 연산과 extract·classify·summarize·embed·semantic join 같은 'LLM 기반 시맨틱 연산자'를 하나의 쿼리 플랜으로 묶은 데이터프레임 엔진입니다. 일반 필터를 시맨틱 필터보다 먼저 실행하고 자동 배치·속도제한·캐싱으로 LLM 호출을 줄이며, 파이프라인을 이름 붙은 테이블·뷰·MCP 툴로 승격시켜 무거운 배치 추론을 에이전트 런타임에서 분리할 수 있습니다. fenic skill install·fenic check 명령으로 코딩 에이전트에 바로 연결되며 Apache-2.0 라이선스입니다.",
+      "titleEn": "[Korean] fenic — semantic DataFrames for humans and agents, folding LLM ops into the query plan",
+      "bodyEn": "Shared on GeekNews, fenic is a DataFrame query engine that combines PySpark/SQL-style operations (select, filter, join, group_by) with LLM-backed 'semantic operators' (extract, classify, summarize, embed, semantic join) in a single query plan. It runs plain filters before semantic filters and uses auto-batching, rate-limiting, and caching to cut LLM calls, and pipelines can be promoted into named tables/views/MCP tools — decoupling heavy batch inference from the agent runtime. Ships with `fenic skill install` and `fenic check` for coding agents; Apache-2.0 licensed.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31315",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-11T00:00:00Z",
+      "curatedAt": "2026-07-13T12:00:00Z"
+    },
+    {
+      "id": "curated-20260711-clien-appintoss-vibecoding",
+      "title": "밤 10시에만 열리는 괴담 라디오 — 토스 '앱인토스 바이브코딩 챌린지' 참가작",
+      "body": "토스 미니앱 플랫폼이 7월 한 달간 여는 '앱인토스 바이브코딩 챌린지' 참가 후기입니다. 개발자는 Claude Code로 코드 대부분을 생성하고 본인은 방향성과 콘텐츠만 감수해, 밤 10시에만 열리는 괴담 라디오 미니앱 '밤열시 괴담'을 만들었습니다. FM 102.2 컨셉에 정적·발소리·빗소리 같은 분위기 오디오를 입히고, 15세 이상 등급과 일본어판 5화 묶음 1,100원 판매까지 구성한 디테일이 눈에 띕니다. 논코더도 바이브 코딩 해커톤에 참가할 수 있다는 실증 사례입니다.",
+      "titleEn": "A ghost-story radio that only opens at 10pm — an entry in Toss's 'AppInToss Vibe Coding Challenge'",
+      "bodyEn": "A Clien post recaps an entry in Toss's month-long 'AppInToss Vibe Coding Challenge' mini-app hackathon. The developer generated most of the code with Claude Code, personally overseeing only direction and content, to build 'Bam-yeolsi Goedam' — a ghost-story radio mini-app that only unlocks at 10pm. Details include an FM 102.2 concept, ambient audio (static, footsteps, rain), a 15+ rating, and a bundled 5-episode Japanese version priced at ₩1,100. A concrete proof that non-coders can enter vibe-coding hackathons too.",
+      "sourceName": "클리앙",
+      "sourceUrl": "https://www.clien.net/service/board/park/19224747",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-10T15:02:00Z",
+      "curatedAt": "2026-07-11T00:00:00Z"
     },
     {
       "id": "curated-20260712-clien-gitbap-ai-recipe",
@@ -38,19 +90,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-09T00:00:00Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
-      "id": "curated-20260712-contextdev-agent-web-data",
-      "title": "Context.dev(YC S26) — AI 에이전트용 웹 데이터 추출 API, 크레딧 1개로 페이지 1장",
-      "body": "Context.dev는 에이전트가 직접 브라우저·프록시를 관리하지 않고도 웹을 스크래핑·크롤링·구조화할 수 있게 해주는 통합 API입니다. REST·SDK(TypeScript·Python·Ruby·Go·PHP)·MCP 서버로 붙일 수 있고, JS 렌더링이나 안티봇 우회에도 추가 요금 없이 페이지당 크레딧 1개만 소모합니다. 실사용 예로 경쟁사 웹사이트를 통째로 지식베이스에 흡수하거나 제품 카탈로그를 JSON으로 뽑아내는 작업을 무료 500크레딧부터 시작할 수 있습니다.",
-      "titleEn": "Context.dev (YC S26) — a web-data extraction API for AI agents, one credit per page",
-      "bodyEn": "Context.dev is a unified API letting agents scrape, crawl, and structure web data without managing their own browsers or proxies. It's usable via REST, SDKs (TypeScript, Python, Ruby, Go, PHP), or an MCP server, charging one credit per successfully scraped page with no surcharge for JS rendering or anti-bot bypass. Example use case: an agent ingesting a competitor's entire site into a knowledge base or pulling product catalogs as structured JSON, starting from a free 500-credit tier.",
-      "sourceName": "Hacker News · Context.dev (YC S26)",
-      "sourceUrl": "https://www.context.dev",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-09T15:28:39Z",
       "curatedAt": "2026-07-12T12:00:00Z"
     },
     {
@@ -67,58 +106,6 @@
       "curatedAt": "2026-07-12T12:00:00Z"
     },
     {
-      "id": "curated-20260712-gitlost-github-agent-leak",
-      "title": "GitLost — GitHub AI 에이전트를 속여 비공개 저장소를 유출시킨 프롬프트 인젝션 공격",
-      "body": "보안업체 Noma Security가 GitHub의 Agentic Workflows에서 프롬프트 인젝션 취약점을 발견했습니다. 공개 저장소에 'Additionally'라는 단어로 가드레일을 우회하는 악성 GitHub 이슈를 올리면, Claude나 Copilot 기반 에이전트가 이를 신뢰된 지시로 착각해 비공개 저장소의 README를 읽어 공개적으로 게시해버립니다. 대응책은 사용자 입력을 절대 신뢰된 지시로 취급하지 말고, 에이전트 권한을 최소화하며, 공개 게시 능력을 제한하는 것입니다.",
-      "titleEn": "GitLost — a prompt injection attack that tricks GitHub's AI agent into leaking private repos",
-      "bodyEn": "Security firm Noma Security found a prompt injection flaw in GitHub's Agentic Workflows: posting a malicious GitHub issue in a public repo, using the word 'Additionally' to bypass guardrails, tricks Claude- or Copilot-powered agents into treating it as a trusted instruction, fetching private repo README files and posting them publicly. Mitigations: never trust user-controlled content as instructions, minimize agent permissions, and restrict public-posting capability.",
-      "sourceName": "Hacker News · Noma Security",
-      "sourceUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T05:25:35Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
-      "id": "curated-20260712-ddaily-xai-cursor-coding-agent",
-      "title": "[한국어] xAI·커서 합작 코딩 에이전트, 이르면 8일 출시 — 클로드 코드·코덱스와 3파전",
-      "body": "디지털데일리 보도로, xAI가 Cursor 제작사와 함께 만든 코딩 에이전트 모델이 이르면 곧 출시되어 클로드 코드·코덱스와 3파전을 벌일 전망입니다. 스페이스X의 앤스피어(Cursor 모회사) 6백억 달러 인수로 컴퓨팅 인프라를 확보한 점이 배경이며, 기업 채택은 토큰 비용·응답 속도·보안·개발환경 통합 여부로 갈릴 것이라는 분석입니다.",
-      "titleEn": "[Korean] xAI+Cursor's joint coding agent launches as soon as this week — a three-way fight with Claude Code and Codex",
-      "bodyEn": "Digital Daily reports that the coding-agent model xAI built jointly with Cursor's maker is set to launch imminently, setting up a three-way fight with Claude Code and Codex. The backdrop: SpaceX's $60B acquisition of Anysphere (Cursor's parent) gives it compute infrastructure; the report argues enterprise adoption will hinge on token cost, response speed, security, and dev-environment integration.",
-      "sourceName": "디지털데일리",
-      "sourceUrl": "https://www.ddaily.co.kr/page/view/2026070809323325033",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T09:32:00Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
-      "id": "curated-20260712-officecli-agent-office-suite",
-      "title": "OfficeCLI — AI 에이전트를 위한 오피스 스위트, 명령줄로 Word·Excel·PPT 직접 편집",
-      "body": "OfficeCLI는 '에이전트를 위한 첫 오피스 스위트'를 표방하는 Apache 2.0 오픈소스 도구로, .docx·.xlsx·.pptx 파일을 명령줄에서 생성·수정·검증합니다. 내장 HTML 렌더링 엔진으로 에이전트가 PNG·HTML로 결과를 직접 보고 스스로 고칠 수 있고, 엑셀 함수 350개 이상과 피벗 테이블을 자동 계산해 오피스 프로그램을 왕복하지 않아도 됩니다. 결정적 JSON 출력과 경로 기반 요소 지정, 템플릿 병합까지 지원해 문서 자동화 배치 작업에 바로 쓸 수 있습니다.",
-      "titleEn": "OfficeCLI — an office suite for AI agents, editing Word/Excel/PPT straight from the command line",
-      "bodyEn": "OfficeCLI bills itself as 'the first Office suite for AI agents,' an Apache-2.0 open-source CLI that creates, edits, and validates .docx/.xlsx/.pptx files. Its built-in HTML rendering engine lets an agent see rendered output as PNG/HTML and self-correct, and it auto-evaluates 350+ Excel functions plus native pivot tables so agents never round-trip through Office. Deterministic JSON output, path-based element addressing, and template merging make it a drop-in for document-automation batch jobs.",
-      "sourceName": "GitHub · iOfficeAI",
-      "sourceUrl": "https://github.com/iOfficeAI/OfficeCLI",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-06T16:47:44Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
-      "id": "curated-20260711-clien-appintoss-vibecoding",
-      "title": "밤 10시에만 열리는 괴담 라디오 — 토스 '앱인토스 바이브코딩 챌린지' 참가작",
-      "body": "토스 미니앱 플랫폼이 7월 한 달간 여는 '앱인토스 바이브코딩 챌린지' 참가 후기입니다. 개발자는 Claude Code로 코드 대부분을 생성하고 본인은 방향성과 콘텐츠만 감수해, 밤 10시에만 열리는 괴담 라디오 미니앱 '밤열시 괴담'을 만들었습니다. FM 102.2 컨셉에 정적·발소리·빗소리 같은 분위기 오디오를 입히고, 15세 이상 등급과 일본어판 5화 묶음 1,100원 판매까지 구성한 디테일이 눈에 띕니다. 논코더도 바이브 코딩 해커톤에 참가할 수 있다는 실증 사례입니다.",
-      "titleEn": "A ghost-story radio that only opens at 10pm — an entry in Toss's 'AppInToss Vibe Coding Challenge'",
-      "bodyEn": "A Clien post recaps an entry in Toss's month-long 'AppInToss Vibe Coding Challenge' mini-app hackathon. The developer generated most of the code with Claude Code, personally overseeing only direction and content, to build 'Bam-yeolsi Goedam' — a ghost-story radio mini-app that only unlocks at 10pm. Details include an FM 102.2 concept, ambient audio (static, footsteps, rain), a 15+ rating, and a bundled 5-episode Japanese version priced at ₩1,100. A concrete proof that non-coders can enter vibe-coding hackathons too.",
-      "sourceName": "클리앙",
-      "sourceUrl": "https://www.clien.net/service/board/park/19224747",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-10T15:02:00Z",
-      "curatedAt": "2026-07-11T00:00:00Z"
-    },
-    {
       "id": "curated-20260711-clien-claudecode-antigravity",
       "title": "클로드 코드로 바이브 코딩하면서 느낀 점 — \"모델보다 부리는 사람 실력\"",
       "body": "Claude Code와 구글 Antigravity를 나란히 써본 클리앙 후기로 댓글 17개가 붙었습니다. 핵심 주장은 모델 성능 차이보다 '얼마나 잘 부리느냐'가 결과물 품질을 가른다는 것 — 좋은 시니어 개발자가 지시해야 AI도 제대로 일한다는 취지입니다. Antigravity는 세부 작업 단위 관리 측면에서 더 직관적이었다는 평가와 함께, 주니어가 바이브 코딩만으로 시작하면 시니어로 성장하기 어려울 수 있다는 우려도 나왔습니다.",
@@ -132,6 +119,19 @@
       "curatedAt": "2026-07-11T00:00:00Z"
     },
     {
+      "id": "curated-20260713-geeknews-weave-router",
+      "title": "[한국어] Weave Router — 프롬프트마다 최적 모델로 50ms 만에 라우팅, 비용 40~70% 절감 주장",
+      "body": "GeekNews에 소개된 Weave Router는 Anthropic·OpenAI·Gemini에 OpenRouter 경유 오픈소스 모델까지 하나의 엔드포인트로 묶고, 로컬 임베더 기반 분류기로 프롬프트마다 최적 모델을 약 50ms 만에 골라주는 프록시입니다. npx @workweave/router 한 줄로 설치되고 Claude Code(make install-cc, /router-off·/router-on·/router-status 슬래시 명령), Codex(~/.codex/config.toml 자동 패치), opencode, Cursor(베타)에 바로 연결되며, BYOK 방식으로 키는 로컬에 암호화 저장되고 OTLP 트레이싱이 내장돼 있습니다. 제작자는 엔드포인트만 바꿔도 비용을 40~70% 줄일 수 있다고 주장하지만, 댓글에서는 프로바이더를 넘나들며 라우팅할 때 캐시 미스로 인한 비용 증가 위험이 지적됐습니다.",
+      "titleEn": "[Korean] Weave Router — routes every prompt to the best model in ~50ms, claims 40-70% cost cuts",
+      "bodyEn": "Featured on GeekNews, Weave Router is a drop-in proxy unifying Anthropic, OpenAI, Gemini, and OSS models (via OpenRouter) behind one endpoint, picking the best model per prompt in about 50ms using a local embedder-based classifier. It installs with one line (`npx @workweave/router`) and wires directly into Claude Code (`make install-cc`, plus `/router-off`/`/router-on`/`/router-status` slash commands), Codex (patches `~/.codex/config.toml`), opencode, and Cursor (beta), with BYOK keys stored encrypted locally and built-in OTLP tracing. The maker claims a 40-70% cost cut just from switching endpoints, though commenters flagged the risk of cache-miss cost spikes when routing across providers.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31251",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-09T00:00:00Z",
+      "curatedAt": "2026-07-13T12:00:00Z"
+    },
+    {
       "id": "curated-20260710-gpt56-sol-benchmarks",
       "title": "OpenAI GPT-5.6 Sol·Terra·Luna 정식 출시 — 에이전트 코딩 벤치마크 새 SOTA",
       "body": "OpenAI가 7월 9일 GPT-5.6를 ChatGPT·Codex·API에 정식 출시했습니다. 플래그십 Sol, 균형형 Terra, 저가·고속 Luna 3단 구성입니다. 벤치마크: 명령줄 에이전트 작업을 재는 Terminal-Bench 2.1에서 Sol 88.8%, Sol Ultra 91.9%로 Claude Mythos 5(88.0%)·Fable 5(83.4%)를 앞섰고, Artificial Analysis 코딩 에이전트 지수에서 Sol(max) 80점으로 선두입니다. 유즈케이스: 장기 호흡 코딩, 에이전트 워크플로우, 보안, 컴퓨터 유즈 등 '가장 어려운 작업'에 포지셔닝됐습니다. 가격은 입력 $5/출력 $30(1M)로 Grok 4.5보다 출력 기준 약 5배 비쌉니다.",
@@ -143,6 +143,32 @@
       "mediaUrl": "",
       "createdAt": "2026-07-09T00:00:00Z",
       "curatedAt": "2026-07-10T09:00:00Z"
+    },
+    {
+      "id": "curated-20260712-gitlost-github-agent-leak",
+      "title": "GitLost — GitHub AI 에이전트를 속여 비공개 저장소를 유출시킨 프롬프트 인젝션 공격",
+      "body": "보안업체 Noma Security가 GitHub의 Agentic Workflows에서 프롬프트 인젝션 취약점을 발견했습니다. 공개 저장소에 'Additionally'라는 단어로 가드레일을 우회하는 악성 GitHub 이슈를 올리면, Claude나 Copilot 기반 에이전트가 이를 신뢰된 지시로 착각해 비공개 저장소의 README를 읽어 공개적으로 게시해버립니다. 대응책은 사용자 입력을 절대 신뢰된 지시로 취급하지 말고, 에이전트 권한을 최소화하며, 공개 게시 능력을 제한하는 것입니다.",
+      "titleEn": "GitLost — a prompt injection attack that tricks GitHub's AI agent into leaking private repos",
+      "bodyEn": "Security firm Noma Security found a prompt injection flaw in GitHub's Agentic Workflows: posting a malicious GitHub issue in a public repo, using the word 'Additionally' to bypass guardrails, tricks Claude- or Copilot-powered agents into treating it as a trusted instruction, fetching private repo README files and posting them publicly. Mitigations: never trust user-controlled content as instructions, minimize agent permissions, and restrict public-posting capability.",
+      "sourceName": "Hacker News · Noma Security",
+      "sourceUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T05:25:35Z",
+      "curatedAt": "2026-07-12T12:00:00Z"
+    },
+    {
+      "id": "curated-20260713-geeknews-no-mistakes-git-guard",
+      "title": "[한국어] no-mistakes — git push 전에 AI가 리뷰·테스트·린트까지 자동으로 돌려주는 로컬 프록시 리모트",
+      "body": "GeekNews에 공유된 no-mistakes는 origin 대신 no-mistakes라는 이름의 git 리모트에 푸시하면 디스포저블 워크트리를 띄워 리뷰→테스트→문서화→린트→푸시→PR→CI 파이프라인을 논블로킹으로 돌린 뒤 깨끗한 브랜치와 PR을 만들어주는 로컬 git 프록시입니다. claude·codex·opencode·pi·copilot 등 어떤 에이전트든 폴백 순서를 정해 붙일 수 있고, 에이전트 스스로 /no-mistakes 슬래시 명령으로 자기 작업을 게이트에 제출할 수도 있습니다. 기계적으로 고칠 수 있는 문제는 자동 수정되고 애매한 발견 사항은 승인·수정·건너뛰기로 사람에게 에스컬레이션되며, MIT 라이선스입니다.",
+      "titleEn": "[Korean] no-mistakes — a local git proxy remote that runs AI review/test/lint before your push lands",
+      "bodyEn": "Shared on GeekNews, no-mistakes is a local git proxy remote: push to a remote named `no-mistakes` instead of `origin` and it spins up a disposable worktree to run a non-blocking review → test → docs → lint → push → PR → CI pipeline before forwarding a clean branch and opening a PR. It's agent-agnostic with a configurable fallback order across claude, codex, opencode, pi, and copilot, and agent-native — an agent can submit its own work to the gate via a `/no-mistakes` slash command. Mechanically fixable issues auto-apply, while ambiguous findings escalate to an approve/fix/skip decision; MIT licensed.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31223",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-08T00:00:00Z",
+      "curatedAt": "2026-07-13T12:00:00Z"
     },
     {
       "id": "curated-20260708-grok45-coding-benchmarks",
@@ -184,19 +210,6 @@
       "curatedAt": "2026-07-10T00:00:00Z"
     },
     {
-      "id": "curated-20260710-code-cleanliness-coding-agents-study",
-      "title": "코드가 깔끔하면 에이전트가 더 싸게, 더 빨리 끝낸다 — 660회 통제 실험 결과",
-      "body": "같은 아키텍처·동작을 가진 저장소 쌍을 코드 품질만 다르게 만들어 Claude Code에게 33개 작업, 총 660회 시행을 돌린 통제 연구입니다. 작업 성공률 자체는 코드 품질과 무관했지만, 깔끔한 코드에서 작업할 때 토큰 사용량이 7~8% 줄고 같은 파일을 다시 열어보는 재방문 횟수가 34% 감소했습니다. AI 시대에도 코드 정리·리팩터링이 실질적인 비용 절감으로 이어진다는 근거입니다.",
-      "titleEn": "Clean code makes coding agents cheaper and faster — a 660-trial controlled study",
-      "bodyEn": "Researchers built matched repo pairs with identical architecture and behavior but differing code quality, then ran Claude Code on 33 tasks across six pairs (660 trials total). Task success rate was unaffected by code cleanliness, but agents working on cleaner code used 7-8% fewer tokens and revisited files 34% less often. Concrete evidence that code cleanup still pays for itself in the agent era — just as lower operational cost, not higher success rate.",
-      "sourceName": "Hacker News · arXiv",
-      "sourceUrl": "https://arxiv.org/abs/2605.20049",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-05T23:03:55Z",
-      "curatedAt": "2026-07-10T00:00:00Z"
-    },
-    {
       "id": "curated-20260710-jaehong-claude-vs-codex-ko",
       "title": "[한국어] Claude Code 100시간 vs Codex 20시간 — 14년차 엔지니어의 실전 비교, \"속도의 클로드, 장인의 코덱스\"",
       "body": "8만 줄 규모 Python/TypeScript 데이터 분석 앱(테스트 2,800개)에 Claude Code(Opus 4.6)와 Codex(GPT-5.4)를 실제로 붙여본 시니어 엔지니어의 비교 글입니다. Claude Code는 빠르고 대화하듯 쓸 수 있지만 지시를 무시하거나 작업을 절반만 끝내는 경우가 있어 경험 많은 개발자의 적극적 감독이 필요했고, Codex는 3~4배 느린 대신 가이드라인을 충실히 따르고 자발적으로 리팩터링까지 해냈습니다. 커뮤니티에서 가장 인기 있는 전략은 Claude로 초안을 빠르게 뽑고 Codex로 검토·교차검증하는 조합 — 두 모델이 서로 다른 방식으로 실수하기 때문에 상호 보완이 잘 된다는 실전 팁입니다.",
@@ -208,19 +221,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-08T00:00:00Z",
       "curatedAt": "2026-07-10T00:00:00Z"
-    },
-    {
-      "id": "curated-20260708-cowork-mobile-web-ko",
-      "title": "클로드 코워크, 모바일·웹으로 확장 — 노트북 꺼도 백그라운드에서 작업 계속",
-      "body": "앤트로픽이 Claude Cowork를 모바일·웹으로 확장했습니다(맥스 구독자 대상 베타). 노트북을 끄거나 앱을 닫아도 서버에서 작업이 이어지고, 예약된 작업도 기기가 꺼져 있는 상태에서 자동 실행됩니다. 앤트로픽이 실사용 데이터를 들여다본 결과 코워크 사용의 90% 이상이 코딩이 아닌 업무였고, 그중 경영지원 업무(33.4%)와 콘텐츠 제작이 가장 큰 비중을 차지했습니다. 외근 중에도 폰으로 진행 상황을 확인하고 이어갈 수 있어, 비개발자의 에이전트 자동화 진입장벽을 한층 낮췄습니다.",
-      "titleEn": "Claude Cowork expands to mobile and web — work keeps running in the background even with your laptop closed",
-      "bodyEn": "Anthropic rolled out a mobile and web beta of Claude Cowork for Max subscribers: work keeps running on Anthropic's servers even after you close your laptop or the app, and scheduled tasks fire without any device being on. Anthropic's own usage data shows over 90% of Cowork sessions aren't coding — business-ops tasks (33.4%) and content creation lead the pack. You can check progress and keep steering a session from your phone while out of the office, lowering the barrier for non-engineers to run agent automation.",
-      "sourceName": "AI타임스",
-      "sourceUrl": "https://www.aitimes.com/news/articleView.html?idxno=212530",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T00:00:00Z",
-      "curatedAt": "2026-07-08T00:00:00Z"
     },
     {
       "id": "curated-20260708-geosql-map-in-loop-agent",

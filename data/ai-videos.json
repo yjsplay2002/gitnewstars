@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T12:00:00Z",
+  "generatedAt": "2026-07-13T12:00:00Z",
   "videos": [
     {
       "id": "vid-claude-code-tips-2026",
@@ -22,6 +22,17 @@
       "descEn": "10 Claude Code tips ranging from CLAUDE.md project memory setup to running 5 agents in parallel.",
       "publishedAt": "2026-04-02T00:00:00Z",
       "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "vid-meta-swe-claude-code-tips",
+      "youtubeId": "mZzhfPle9QU",
+      "category": "tip",
+      "title": "메타 시니어 엔지니어가 6개월간 매일 써보고 뽑은 클로드 코드 팁 50가지",
+      "titleEn": "How I Use Claude Code (Meta Staff Engineer Tips)",
+      "descKo": "메타 스태프 엔지니어가 6개월간 매일 사용하며 정리한 클로드 코드 실전 팁 50가지.",
+      "descEn": "A Meta Staff Engineer's 50 practical Claude Code tips from 6 months of daily use.",
+      "publishedAt": "2026-02-07T00:00:00Z",
+      "addedAt": "2026-07-13T12:00:00Z"
     },
     {
       "id": "vid-claude-code-23-tips-ko",
@@ -57,15 +68,15 @@
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
-      "id": "vid-ai-workflow-claude-cursor",
-      "youtubeId": "mu-KIRt4igc",
-      "category": "tip",
-      "title": "아무도 얘기 안 하는 AI 워크플로우 (Claude Code + Cursor)",
-      "titleEn": "The AI Workflow Nobody's Talking About (Claude Code + Cursor)",
-      "descKo": "가드레일을 갖춘 견고한 시스템으로서의 AI 워크플로우 — Claude Code와 Cursor를 함께 쓰는 법.",
-      "descEn": "AI as a robust system with guardrails — how to combine Claude Code and Cursor.",
-      "publishedAt": "2026-01-30T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
+      "id": "vid-boris-cherny-workflow",
+      "youtubeId": "aqtseECSdtY",
+      "category": "usecase",
+      "title": "클로드 코드 창시자 보리스 체르니의 실제 워크플로우 셋업",
+      "titleEn": "How the Creator of Claude Code Sets Up His Workflow",
+      "descKo": "클로드 코드를 만든 보리스 체르니가 자신의 실제 일상 워크플로우를 직접 설명합니다.",
+      "descEn": "Boris Cherny, creator of Claude Code, walks through his real daily workflow setup.",
+      "publishedAt": "2026-01-03T00:00:00Z",
+      "addedAt": "2026-07-13T12:00:00Z"
     },
     {
       "id": "vid-my-claude-code-workflow-2026",
@@ -90,15 +101,15 @@
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
-      "id": "vid-complete-guide-ai-agents-2026",
-      "youtubeId": "LNkAW4SSgdY",
+      "id": "vid-vibe-coding-20-concepts-ko",
+      "youtubeId": "ohYhCpOzLLE",
       "category": "lecture",
-      "title": "2026 AI 에이전트 완전 가이드 (그리고 실제로 쓰는 법)",
-      "titleEn": "The Complete Guide to AI Agents in 2026 (And How to Actually Use Them)",
-      "descKo": "에이전트 개념부터 실제 업무에 적용하는 법까지 한 편으로 정리한 강의형 영상.",
-      "descEn": "A lecture-style overview from agent concepts to actually using them in real work.",
-      "publishedAt": "2026-03-15T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
+      "title": "바이브코딩 핵심 개념 20개 총정리 — 멀티 에이전트·스킬·훅·MCP·API",
+      "titleEn": "20 Core Vibe Coding Concepts, Fully Explained (2026)",
+      "descKo": "IDE·컨텍스트 윈도우·멀티 에이전트·MCP 등 바이브 코딩 핵심 개념 20가지를 정리한 강의.",
+      "descEn": "A lecture covering 20 core vibe-coding concepts: IDE, context window, multi-agent, MCP, and more.",
+      "publishedAt": "2026-02-19T00:00:00Z",
+      "addedAt": "2026-07-13T12:00:00Z"
     },
     {
       "id": "vid-agent-orchestration-dream-team",
@@ -146,15 +157,15 @@
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
-      "id": "vid-n8n-first-ai-agent-2026",
-      "youtubeId": "GuaKeDS6UKU",
-      "category": "usecase",
-      "title": "n8n 퀵스타트 — 첫 AI 에이전트 만들기 (2026)",
-      "titleEn": "n8n Quick Start Tutorial: Build Your First AI Agent [2026]",
-      "descKo": "노코드 자동화 n8n으로 첫 AI 에이전트를 빠르게 조립하는 튜토리얼.",
-      "descEn": "Assemble your first AI agent fast with the no-code automation tool n8n.",
-      "publishedAt": "2026-04-01T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
+      "id": "vid-claude-code-13min-ko",
+      "youtubeId": "xtvynO05AoA",
+      "category": "tip",
+      "title": "클로드 코드 사용법 — 주요 기능 13분 만에 마스터하기",
+      "titleEn": "Claude Code Usage Guide — Master the Core Features in 13 Minutes",
+      "descKo": "IDE 연동·파일 첨부·모델 선택·CLI·MCP 서버 등 클로드 코드 핵심 기능을 13분 안에 압축 설명.",
+      "descEn": "A 13-minute rundown of Claude Code's core features: IDE integration, file attach, model select, CLI, MCP server.",
+      "publishedAt": "2025-07-17T00:00:00Z",
+      "addedAt": "2026-07-13T12:00:00Z"
     }
   ]
 }
