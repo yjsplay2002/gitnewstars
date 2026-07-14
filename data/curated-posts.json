@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-07-13T12:00:00Z",
+  "generatedAt": "2026-07-15T09:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260715-coding-agents-think-ahead",
+      "title": "논문: 코딩 에이전트는 실제로 편집하기 최대 25단계 전부터 결과를 '미리 안다'",
+      "body": "최신 연구에 따르면 코딩 에이전트로 쓰이는 언어모델은 디스크에 실제로 기록되기 전 미래 편집 결과를 내부 표현에 이미 담고 있습니다. 미래 편집이 파싱에 성공할지, 테스트를 통과할지, 버그를 만들지를 예측하도록 훈련한 프로브가 실제 편집이 일어나기까지 최대 약 25스텝 전부터 우연보다 유의미하게 높은 정확도로 예측에 성공했습니다. 연구진은 이를 에이전트의 '잠재적 프로그래밍 지평(latent programming horizon)'이라 부르며, 이 내부 표현을 활용하면 에이전트의 계획 결정에 개입할 여지가 생긴다고 봅니다.",
+      "titleEn": "Paper: coding agents already 'know' the outcome of an edit up to 25 steps before making it",
+      "bodyEn": "New research finds that LLMs used as coding agents encode future edit outcomes in their internal representations before those edits are ever written to disk. Probes trained to predict whether a future edit will parse, pass tests, or introduce a bug succeed above chance up to roughly 25 steps ahead of when the edit is actually made. The authors call this the agent's 'latent programming horizon' and suggest it opens room to intervene in an agent's planning decisions using that internal signal.",
+      "sourceName": "Hacker News · arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2607.05188",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-14T12:28:09Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "curated-20260715-microsoft-claude-code-copilot-study",
+      "title": "MS 엔지니어 수만 명 실측 — 클로드 코드·코파일럿 CLI 도입 후 PR 병합 24% 증가, 확산은 '동료 효과'",
+      "body": "마이크로소프트 엔지니어 수만 명을 대상으로 한 2026년 초 클로드 코드·깃허브 코파일럿 CLI 도입 연구에 따르면, 하향식 지시보다 동료의 실제 사용 모습(사회적 네트워크)이 초기 도입을 견인했고, 지속 사용 여부는 인구통계보다 '얼마나 활발히 코딩하는 엔지니어인가'와 더 관련이 깊었습니다. 도입자는 그렇지 않았을 경우보다 PR을 약 24% 더 많이 병합했고, 이 효과는 4개월 관찰 기간 내내 유지돼 일시적 신기함 효과가 아님을 시사합니다. 다만 연구진은 '병합된 PR이 곧 전달된 가치는 아니다'라고 선을 그으며, 조직이 롤아웃 전략을 짤 때 '눈에 보이는 동료 사용'을 핵심에 둬야 한다고 조언합니다.",
+      "titleEn": "A study of tens of thousands of Microsoft engineers: Claude Code/Copilot CLI adoption raised merged PRs 24%, driven by peer visibility",
+      "bodyEn": "A study tracking tens of thousands of Microsoft engineers through the early-2026 rollout of Claude Code and GitHub Copilot CLI found that peer visibility — seeing colleagues actually use the tools — drove adoption more than top-down mandates, and that retention correlated more with how actively an engineer already coded than with demographics. Adopters merged roughly 24% more pull requests than they otherwise would have, an effect that held steady across the full 4-month window rather than fading as novelty wore off. The authors caution that a merged PR isn't the same as delivered value, and recommend organizations center 'visible peer use' in their rollout strategy.",
+      "sourceName": "Hacker News · arXiv",
+      "sourceUrl": "https://arxiv.org/abs/2607.01418",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T21:43:51Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "curated-20260715-jacquard-ai-lang",
+      "title": "Jacquard — AI가 짜고 사람이 검토하는 코드를 위한 실험적 프로그래밍 언어, HN 96점",
+      "body": "Jacquard는 함수 시그니처에 (text) ->{net} text 처럼 외부 접근 권한을 명시하는 '효과 투명성', 같은 코드를 실제 네트워크·스크립트 가짜·확률 모델 등 다른 실행 환경에 그대로 꽂아 넣는 '월드 시뮬레이션', 실패 후에도 유효한 코드 패치를 정확한 확률로 골라내는 '확률적 명확성' 세 가지로 AI가 작성한 코드를 사람이 한눈에 검증하게 설계된 v0.1 연구용 언어입니다. 27종 커널 AST, 대수적 효과와 멀티샷 핸들러, 포맷·주석이 바뀌어도 하위 의존성에 영향 없는 콘텐츠 주소 지정 방식, C로의 네이티브 AOT 컴파일을 지원합니다.",
+      "titleEn": "Jacquard — an experimental language for AI-written, human-reviewed code, 96 pts on HN",
+      "bodyEn": "Jacquard (v0.1, a research prototype) is designed so humans can verify AI-written code at a glance via three mechanisms: effect transparency (a signature like `(text) ->{net} text` shows exactly what a function can touch), world simulation (the same code runs against a real network, a scripted fake, or a probability model without rewriting tests), and probabilistic clarity (tools enumerate exact probabilities for which patches remain viable after a failure). It ships a 27-form kernel AST, algebraic effects with multi-shot handlers, content-addressed identity (formatting/comments don't affect downstream deps), and native AOT compilation to C.",
+      "sourceName": "Hacker News · Jacquard",
+      "sourceUrl": "https://github.com/jbwinters/jacquard-lang",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T15:56:02Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "curated-20260715-clawk-disposable-vm",
+      "title": "Clawk — 코딩 에이전트를 노트북 대신 일회용 VM에서 돌리는 오픈소스 샌드박스, HN 215점",
+      "body": "오픈소스 Clawk는 Claude·Codex 등 코딩 에이전트를 호스트 파일·자격증명에 전혀 접근하지 못하는 일회용 macOS 가상머신 안에서 실행합니다. Apple Virtualization.framework 기반이며, 커널 수준 아웃바운드 방화벽이 게스트 안 root 권한으로도 우회 불가능하게 네트워크를 통제합니다. clawk, clawk run codex, clawk snapshot/resume, clawk work [티켓] 같은 명령으로 스냅샷 저장·복원과 다중 저장소 티켓 모드까지 지원하며 Docker나 sudo 없이 동작합니다. Go 1.26+ 소스 설치, Apache-2.0 라이선스.",
+      "titleEn": "Clawk — an open-source sandbox that runs coding agents in disposable VMs instead of your laptop, 215 pts on HN",
+      "bodyEn": "Open-source Clawk runs agents like Claude and Codex inside disposable macOS VMs (via Apple's Virtualization.framework) with zero access to host files or credentials. A kernel-level outbound network filter enforces allow-lists that even root inside the guest can't bypass. Commands like `clawk`, `clawk run codex`, `clawk snapshot/resume`, and `clawk work [ticket]` cover snapshotting and multi-repo ticket-mode workflows, with no Docker daemon or sudo required. Builds from source with Go 1.26+; Apache-2.0 licensed.",
+      "sourceName": "Hacker News · Clawk",
+      "sourceUrl": "https://github.com/clawkwork/clawk",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T14:02:03Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "curated-20260715-ploy-gpt56-migration",
+      "title": "프로덕션 AI 에이전트를 GPT-5.6로 옮긴 실전기 — 속도 2.2배, 비용 27% 절감, 그리고 3가지 함정",
+      "body": "AI 코딩 스타트업 Ploy가 프로덕션 에이전트를 Claude Opus 4.8에서 GPT-5.6 Sol로 옮긴 후기입니다. 빌드 시간이 8분에서 3분 42초로 2.2배 빨라지고 빌드당 비용은 $3.06에서 $2.22로 27% 줄었지만, 이행 과정에서 세 가지 함정을 만났습니다: GPT-5.6이 선택적 매개변수 25개를 전부 기본값으로 채워 파일 읽기의 52~64%가 빈 결과를 반환한 문제(스키마를 'nullable 필수'로 변환해 해결), 부분 프리픽스 매칭이 사라진 프롬프트 캐싱 구조 차이(3단 캐시 브레이크포인트 재설계로 캐시 적중률을 0%에서 83.7%로 개선), 서버 측 추론 참조로 인한 간헐적 실패(store: false 설정으로 해결). 핵심 교훈은 '모델 벤치마크보다 평가 하네스 자체의 프로바이더별 차이부터 고쳐야 한다'는 것입니다.",
+      "titleEn": "Migrating a production AI agent to GPT-5.6 — 2.2x faster, 27% cheaper, and 3 gotchas",
+      "bodyEn": "AI coding startup Ploy documented moving a production agent from Claude Opus 4.8 to GPT-5.6 Sol: build time dropped from 8m00s to 3m42s (2.2x faster) and cost per build fell 27% ($3.06 to $2.22). Getting there required fixing three gotchas: GPT-5.6 fills all 25 optional tool parameters with defaults, causing 52-64% of file reads to return empty (fixed via a schema transform to 'required but nullable'); OpenAI's caching dropped partial-prefix matching, requiring a 3-tier cache-breakpoint redesign that raised cache hits from ~0% to 83.7%; and server-side reasoning references caused intermittent failures, fixed with `store: false`. Their key lesson: fix provider-specific harness differences before trusting any cross-model benchmark.",
+      "sourceName": "Hacker News · Ploy",
+      "sourceUrl": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T17:13:07Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "curated-20260715-mindwalk-3d-agent-replay",
+      "title": "Mindwalk — 코딩 에이전트 세션을 코드베이스 3D 지도 위에서 재생해 리뷰하는 오픈소스 도구",
+      "body": "Mindwalk는 클로드 코드 같은 에이전트의 세션 로그를 저장소 파일 구조를 본뜬 3D '나이트맵'으로 시각화합니다. 조회한 파일은 짙은 녹색, 읽은 파일은 흰색, 수정한 파일은 호박색으로 빛나고, 스페이스바·방향키로 세션을 스크러빙하며 컨텍스트 압축·서브에이전트 실행·사용자 턴 지점을 타임라인에서 클릭해 이동할 수 있습니다. 로컬 LLM으로 탐색 범위·검증 품질을 평가하는 기능도 있고, 평가 시에도 데이터가 외부로 나가지 않습니다. Go 서버 + React/Three.js 프론트엔드, MIT 라이선스.",
+      "titleEn": "Mindwalk — an open-source tool that replays coding-agent sessions on a 3D map of your codebase",
+      "bodyEn": "Mindwalk turns an agent session log (e.g. from Claude Code) into a 3D 'night map' shaped like your repo's file tree — viewed files glow dark green, read files white, edited files amber. Scrub sessions with space/arrow keys and jump to marked context-compaction, subagent-launch, or user-turn events on a timeline. It can also run local-LLM judges to score exploration scope and verification quality, with nothing leaving your machine even during evaluation. Go server + React/Three.js frontend, MIT licensed.",
+      "sourceName": "Hacker News · Mindwalk",
+      "sourceUrl": "https://github.com/cosmtrek/mindwalk",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T05:51:32Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
     {
       "id": "curated-20260713-systima-token-overhead",
       "title": "Claude Code, 프롬프트 읽기도 전에 토큰 33,000개 소모 — OpenCode는 7,000개",
@@ -48,19 +126,6 @@
       "bodyEn": "Mathematician Terence Tao wrote on his blog about porting roughly 24 legacy Java 1.0 applets from 1999 to JavaScript, each taking just hours, using modern coding agents. Only one new bug surfaced during porting — the agent even caught two pre-existing bugs in the original code. He also built new tools this way, including a spacetime-diagram visualizer for special relativity and a Gilbreath-conjecture visualizer; his key takeaway is that 'high-level design decisions still remain human work — it's the low-level syntax and implementation that's been automated away,' underscoring that domain expertise still steers the agent. 390 points on HN.",
       "sourceName": "Hacker News · Terence Tao",
       "sourceUrl": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-11T00:00:00Z",
-      "curatedAt": "2026-07-13T12:00:00Z"
-    },
-    {
-      "id": "curated-20260713-geeknews-fenic-semantic-dataframes",
-      "title": "[한국어] fenic — 사람과 에이전트가 함께 쓰는 시맨틱 데이터프레임, LLM 연산을 쿼리 플랜에 통합",
-      "body": "GeekNews에 올라온 fenic은 PySpark·SQL 스타일의 select·filter·join·group_by 연산과 extract·classify·summarize·embed·semantic join 같은 'LLM 기반 시맨틱 연산자'를 하나의 쿼리 플랜으로 묶은 데이터프레임 엔진입니다. 일반 필터를 시맨틱 필터보다 먼저 실행하고 자동 배치·속도제한·캐싱으로 LLM 호출을 줄이며, 파이프라인을 이름 붙은 테이블·뷰·MCP 툴로 승격시켜 무거운 배치 추론을 에이전트 런타임에서 분리할 수 있습니다. fenic skill install·fenic check 명령으로 코딩 에이전트에 바로 연결되며 Apache-2.0 라이선스입니다.",
-      "titleEn": "[Korean] fenic — semantic DataFrames for humans and agents, folding LLM ops into the query plan",
-      "bodyEn": "Shared on GeekNews, fenic is a DataFrame query engine that combines PySpark/SQL-style operations (select, filter, join, group_by) with LLM-backed 'semantic operators' (extract, classify, summarize, embed, semantic join) in a single query plan. It runs plain filters before semantic filters and uses auto-batching, rate-limiting, and caching to cut LLM calls, and pipelines can be promoted into named tables/views/MCP tools — decoupling heavy batch inference from the agent runtime. Ships with `fenic skill install` and `fenic check` for coding agents; Apache-2.0 licensed.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31315",
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-11T00:00:00Z",
@@ -132,19 +197,6 @@
       "curatedAt": "2026-07-13T12:00:00Z"
     },
     {
-      "id": "curated-20260710-gpt56-sol-benchmarks",
-      "title": "OpenAI GPT-5.6 Sol·Terra·Luna 정식 출시 — 에이전트 코딩 벤치마크 새 SOTA",
-      "body": "OpenAI가 7월 9일 GPT-5.6를 ChatGPT·Codex·API에 정식 출시했습니다. 플래그십 Sol, 균형형 Terra, 저가·고속 Luna 3단 구성입니다. 벤치마크: 명령줄 에이전트 작업을 재는 Terminal-Bench 2.1에서 Sol 88.8%, Sol Ultra 91.9%로 Claude Mythos 5(88.0%)·Fable 5(83.4%)를 앞섰고, Artificial Analysis 코딩 에이전트 지수에서 Sol(max) 80점으로 선두입니다. 유즈케이스: 장기 호흡 코딩, 에이전트 워크플로우, 보안, 컴퓨터 유즈 등 '가장 어려운 작업'에 포지셔닝됐습니다. 가격은 입력 $5/출력 $30(1M)로 Grok 4.5보다 출력 기준 약 5배 비쌉니다.",
-      "titleEn": "OpenAI ships GPT-5.6 Sol/Terra/Luna — new SOTA on agentic coding benchmarks",
-      "bodyEn": "OpenAI made GPT-5.6 generally available on July 9 across ChatGPT, Codex, and the API, in three tiers: flagship Sol, balanced Terra, fast/cheap Luna. Benchmarks: on Terminal-Bench 2.1 (command-line agent tasks) Sol scores 88.8% and Sol Ultra 91.9%, beating Claude Mythos 5 (88.0%) and Fable 5 (83.4%); Sol (max) tops the Artificial Analysis Coding Agent Index at 80. Use cases: positioned for the 'hardest work' — long-horizon coding, agentic workflows, cybersecurity, computer use. Priced at $5 in / $30 out per 1M, ~5x Grok 4.5's output cost.",
-      "sourceName": "Artificial Analysis",
-      "sourceUrl": "https://artificialanalysis.ai/articles/gpt-5-6-has-landed",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-09T00:00:00Z",
-      "curatedAt": "2026-07-10T09:00:00Z"
-    },
-    {
       "id": "curated-20260712-gitlost-github-agent-leak",
       "title": "GitLost — GitHub AI 에이전트를 속여 비공개 저장소를 유출시킨 프롬프트 인젝션 공격",
       "body": "보안업체 Noma Security가 GitHub의 Agentic Workflows에서 프롬프트 인젝션 취약점을 발견했습니다. 공개 저장소에 'Additionally'라는 단어로 가드레일을 우회하는 악성 GitHub 이슈를 올리면, Claude나 Copilot 기반 에이전트가 이를 신뢰된 지시로 착각해 비공개 저장소의 README를 읽어 공개적으로 게시해버립니다. 대응책은 사용자 입력을 절대 신뢰된 지시로 취급하지 말고, 에이전트 권한을 최소화하며, 공개 게시 능력을 제한하는 것입니다.",
@@ -171,19 +223,6 @@
       "curatedAt": "2026-07-13T12:00:00Z"
     },
     {
-      "id": "curated-20260708-grok45-coding-benchmarks",
-      "title": "xAI Grok 4.5 출시 — Cursor와 함께 학습한 코딩·에이전트 모델, 토큰 효율이 무기",
-      "body": "xAI가 7월 8일 Grok 4.5를 공개했습니다. Cursor와 함께 학습한 첫 코딩·에이전트 전용 모델로, Elon은 'Opus급'이라 표현했습니다. 벤치마크: SWE Marathon 29.0%로 Claude Opus 4.8을 제치고 1위, Terminal-Bench 2.1 83.3%(GPT-5.5 83.4%와 거의 동률), 단 DeepSWE 1.1은 53%로 Fable 5(70%)에 뒤집니다. 진짜 강점은 효율: SWE-Bench Pro 작업당 평균 출력 15,954토큰으로 Opus 4.8(max) 67,020토큰의 약 1/4, 가격도 입력 $2/출력 $6(1M)로 Fable 5($10/$50)·GPT-5.6($5/$30)보다 크게 쌉니다. 코딩 에이전트 지수 작업당 비용 $2.49 대 Fable 5 $11.80. 저비용으로 긴 에이전트 작업을 돌리는 유즈케이스에 적합합니다.",
-      "titleEn": "xAI ships Grok 4.5 — a Cursor-trained coding/agent model whose edge is token efficiency",
-      "bodyEn": "xAI released Grok 4.5 on July 8 — its first model trained specifically for coding and agents, alongside Cursor; Elon called it 'Opus-class.' Benchmarks: tops SWE Marathon at 29.0% (ahead of Claude Opus 4.8), Terminal-Bench 2.1 at 83.3% (nearly tying GPT-5.5's 83.4%), but DeepSWE 1.1 only 53% vs Fable 5's 70%. The real edge is efficiency: ~15,954 output tokens per SWE-Bench Pro task vs Opus 4.8 (max) at 67,020 (~4.2x fewer), priced at $2 in / $6 out per 1M — far under Fable 5 ($10/$50) and GPT-5.6 ($5/$30). Coding Agent Index cost of $2.49/task vs Fable 5's $11.80. A fit for running long agent jobs cheaply.",
-      "sourceName": "MarkTechPost · SpaceXAI",
-      "sourceUrl": "https://www.marktechpost.com/2026/07/08/spacexai-releases-grok-4-5/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T00:00:00Z",
-      "curatedAt": "2026-07-10T09:00:00Z"
-    },
-    {
       "id": "curated-20260710-flint-ai-viz-language",
       "title": "마이크로소프트 Flint — AI 에이전트가 예쁜 차트를 실패 없이 그리게 하는 시각화 언어, HN 337점",
       "body": "마이크로소프트가 공개한 Flint는 에이전트가 축·간격·라벨 같은 세부 설정을 일일이 조정하지 않아도, 데이터와 의미 타입만 넘기면 컴파일러가 알아서 보기 좋은 차트 설정을 도출해주는 중간 시각화 언어입니다. 라이브러리로 직접 호출하거나 MCP 서버로 붙여 대화 중에 차트를 생성·검증·렌더링할 수 있고, 같은 스펙이 Vega-Lite·ECharts·Chart.js 어디로든 컴파일됩니다. 대시보드나 리포트를 자동 생성하는 에이전트 워크플로우에 바로 끼워 넣을 만합니다.",
@@ -194,19 +233,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-08T17:46:12Z",
-      "curatedAt": "2026-07-10T00:00:00Z"
-    },
-    {
-      "id": "curated-20260710-databricks-coding-agent-benchmark",
-      "title": "Databricks가 수백만 줄 코드베이스에서 코딩 에이전트 벤치마크 — 토큰 단가보다 하네스 선택이 비용 좌우",
-      "body": "Databricks가 자사의 수백만 줄 규모 코드베이스에서 GPT-5.4 Mini, Opus 4.8, Sonnet 5, GLM 5.2 등 여러 모델과 Claude Code·Codex·Pi 등 실행 하네스를 실전 벤치마크했습니다. 상위권 모델은 작업당 $1.28~$1.94, 완료율 81~87%로 갈렸고, GLM 5.2는 Opus 4.8과 품질은 통계적으로 동률이면서 비용은 약 34% 저렴했습니다. 특히 Sonnet 5는 토큰 단가가 Opus 4.8보다 1.7배 싸지만 토큰을 1.9배 더 써서 작업당 비용은 오히려 더 비쌌고, 같은 모델도 하네스에 따라 비용이 2배 넘게 벌어져 — 토큰 가격만 보고 모델을 고르지 말라는 실전 데이터입니다.",
-      "titleEn": "Databricks benchmarked coding agents on its multi-million-line codebase — harness choice matters more than token price",
-      "bodyEn": "Databricks ran a real-world benchmark of coding agent models (GPT-5.4 Mini, Opus 4.8, Sonnet 5, GLM 5.2) and harnesses (Claude Code, Codex, Pi) against its own multi-million-line codebase. Top-tier models landed at $1.28-$1.94 per task with 81-87% completion rates; GLM 5.2 statistically tied Opus 4.8 on quality at ~34% lower cost. Sonnet 5, despite 1.7x cheaper tokens than Opus 4.8, cost more per task because it burned 1.9x more tokens — and the same model's cost varied over 2x across harnesses. Hard data against picking a model on token price alone.",
-      "sourceName": "Databricks Blog",
-      "sourceUrl": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T21:30:09Z",
       "curatedAt": "2026-07-10T00:00:00Z"
     },
     {
@@ -221,32 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-08T00:00:00Z",
       "curatedAt": "2026-07-10T00:00:00Z"
-    },
-    {
-      "id": "curated-20260708-geosql-map-in-loop-agent",
-      "title": "Geosql — 지도로 자기 실수를 고치는 Claude/Codex 지리공간 분석 에이전트, HN 137점",
-      "body": "오픈소스 Geosql은 Claude·Codex·Copilot에 '스킬'로 붙여 PostGIS·BigQuery·Snowflake·Wherobots에 ST_INTERSECTS·H3·bbox 프루닝 같은 공간 SQL을 짜게 해주는 도구입니다. BigQuery는 10GiB 상한으로 드라이런 비용을 먼저 검사하고, 핵심은 렌더링된 지도를 루프 안에 넣어 에이전트가 자기 지오메트리 실수를 시각적으로 스스로 고치게 한 것 — 텍스트만 쓸 때보다 정확도가 4배 올랐다고 주장합니다. 도메인 특화 Claude Code 스킬을 설계할 때 참고할 만한 패턴입니다.",
-      "titleEn": "Geosql — a Claude/Codex geospatial agent that fixes its own mistakes by looking at a map, 137 pts on HN",
-      "bodyEn": "Geosql is an open-source 'skill' for Claude, Codex, and Copilot that writes spatial SQL (ST_INTERSECTS, H3, bbox pruning) against PostGIS, BigQuery, Snowflake, and Wherobots. It dry-runs BigQuery cost with a 10GiB cap, and its key trick is putting a rendered map in the loop so the agent visually corrects its own geometry errors — claiming a 4x accuracy jump over text-only feedback. A concrete pattern for building domain-specific Claude Code skills.",
-      "sourceName": "GitHub · dekart-xyz",
-      "sourceUrl": "https://github.com/dekart-xyz/geosql",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T00:00:00Z",
-      "curatedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "curated-20260430-codex-proven-patterns",
-      "title": "OpenAI Codex 검증된 패턴 5가지 — 프롬프트, 검증, 거버넌스",
-      "body": "Codex를 팀에서 지속 가능하게 쓰기 위한 패턴 정리: (1) 목표·컨텍스트·제약·완료 조건을 갖춘 구조화 프롬프트, (2) 빌드 명령·아키텍처 규칙을 담은 AGENTS.md를 '가장 중요한 설정 파일'로 관리, (3) 복잡한 작업은 plan 모드로 탐색 후 실행, (4) 테스트를 먼저 쓰고 구현 중 테스트 수정 금지 — 에이전트에게 외부 진실 소스를 제공, (5) 게이트웨이로 예산·감사 로그·멀티 프로바이더 라우팅 통제. Claude Code의 CLAUDE.md 운영법과 그대로 대응되는 내용이라 비교해 읽기 좋습니다.",
-      "titleEn": "5 proven patterns for OpenAI Codex — prompts, validation, governance",
-      "bodyEn": "Patterns for sustainable team use of Codex: (1) structured prompts with goal/context/constraints/done-when, (2) AGENTS.md as 'the single most important configuration file' for build commands and architecture rules, (3) plan mode first for complex tasks, (4) write tests first and forbid test edits during implementation — give the agent an external truth source, (5) gateway-level budgets, audit logs, and multi-provider routing. Maps one-to-one onto CLAUDE.md practice in Claude Code — worth reading side by side.",
-      "sourceName": "DEV Community",
-      "sourceUrl": "https://dev.to/kuldeep_paul/proven-patterns-for-openai-codex-in-2026-prompts-validation-and-gateway-governance-1jhm",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-04-30T09:00:00Z",
-      "curatedAt": "2026-04-30T00:00:00Z"
     },
     {
       "id": "curated-20250722-clien-vibe-coding-launch",

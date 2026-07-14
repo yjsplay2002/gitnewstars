@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T12:00:00Z",
+  "generatedAt": "2026-07-15T09:00:00Z",
   "videos": [
     {
       "id": "vid-claude-code-tips-2026",
@@ -35,6 +35,18 @@
       "addedAt": "2026-07-13T12:00:00Z"
     },
     {
+      "id": "vid-bibl-claude-code-youtube-tips-ko",
+      "youtubeId": "WSqJY7VISoM",
+      "category": "tip",
+      "title": "답답하게 안되던 유튜브를 살리는 클로드 코드 활용법 9가지",
+      "titleEn": "9 Claude Code Tricks to Unblock a Stalling YouTube Channel",
+      "descKo": "유튜브 운영이 막힐 때 클로드 코드로 돌파하는 9가지 실전 활용법.",
+      "descEn": "Nine Claude Code workflow tricks a Korean creator used to break through a stalling YouTube channel.",
+      "channel": "비블 bibl",
+      "publishedAt": "2026-06-23T00:00:00Z",
+      "addedAt": "2026-07-15T09:00:00Z"
+    },
+    {
       "id": "vid-claude-code-23-tips-ko",
       "youtubeId": "1_bRmkUvjHA",
       "category": "lecture",
@@ -46,28 +58,6 @@
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
-      "id": "vid-full-ai-agent-tutorial-2026",
-      "youtubeId": "OfEcMXLOAtE",
-      "category": "usecase",
-      "title": "초보자를 위한 AI 에이전트 완전 튜토리얼 (2026)",
-      "titleEn": "Full AI Agent Tutorial for Beginners 2026",
-      "descKo": "Toolhouse로 몇 분 만에 실전 AI 에이전트를 만드는 법을 처음부터 끝까지.",
-      "descEn": "Build a working AI agent in minutes with Toolhouse — from zero to a real agent.",
-      "publishedAt": "2026-04-19T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "vid-build-first-ai-agent-2026",
-      "youtubeId": "GY7Suc-oONc",
-      "category": "usecase",
-      "title": "첫 AI 에이전트 만들기 — 완전 초보 가이드 (2026)",
-      "titleEn": "Build Your First AI Agent — Complete Beginner Guide 2026",
-      "descKo": "사전 지식 없이 10분 만에 ReAct 루프를 이해하고 실제 에이전트를 만들어 봅니다.",
-      "descEn": "No prior AI experience — grasp the ReAct loop and build a real agent in 10 minutes.",
-      "publishedAt": "2026-04-09T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
-    },
-    {
       "id": "vid-boris-cherny-workflow",
       "youtubeId": "aqtseECSdtY",
       "category": "usecase",
@@ -77,6 +67,30 @@
       "descEn": "Boris Cherny, creator of Claude Code, walks through his real daily workflow setup.",
       "publishedAt": "2026-01-03T00:00:00Z",
       "addedAt": "2026-07-13T12:00:00Z"
+    },
+    {
+      "id": "vid-mikey-nocode-claude-money",
+      "youtubeId": "qF0-bXhRrTQ",
+      "category": "usecase",
+      "title": "2026년, 클로드 코드만으로 온라인 수익 만들기",
+      "titleEn": "How I'm ONLY Using Claude Code to Make Money Online in 2026",
+      "descKo": "코딩 지식 없이 클로드 코드만으로 온라인 수익을 만드는 실제 워크플로우.",
+      "descEn": "A real, hands-on workflow for making money online using only Claude Code, no traditional coding.",
+      "channel": "Mikey No Code",
+      "publishedAt": "2026-07-10T00:00:00Z",
+      "addedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "vid-matthew-berman-codex-usecase",
+      "youtubeId": "etduwo9Lu3M",
+      "category": "usecase",
+      "title": "남들과 다른 방식으로 Codex 쓰는 법",
+      "titleEn": "You Aren't Using Codex Like Me...",
+      "descKo": "일반적인 사용법과 다른, 실전에서 통하는 Codex 활용 워크플로우 공개.",
+      "descEn": "An unconventional, real-world Codex usage workflow most people aren't trying yet.",
+      "channel": "Matthew Berman",
+      "publishedAt": "2026-07-14T00:00:00Z",
+      "addedAt": "2026-07-15T09:00:00Z"
     },
     {
       "id": "vid-my-claude-code-workflow-2026",
@@ -101,6 +115,18 @@
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
+      "id": "vid-techwithtim-codex-course",
+      "youtubeId": "ZXkeWiWB4xg",
+      "category": "lecture",
+      "title": "Codex 초보자 완전 강좌",
+      "titleEn": "Codex - Full Course for Beginners",
+      "descKo": "설치부터 실전까지 다루는 OpenAI Codex 초보자용 완전 강좌.",
+      "descEn": "A structured full beginner course covering OpenAI Codex from install to real-world use.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-07-14T00:00:00Z",
+      "addedAt": "2026-07-15T09:00:00Z"
+    },
+    {
       "id": "vid-vibe-coding-20-concepts-ko",
       "youtubeId": "ohYhCpOzLLE",
       "category": "lecture",
@@ -121,17 +147,6 @@
       "descEn": "Explains agent orchestration concepts and patterns for delegating work across specialized agents.",
       "publishedAt": "2026-05-14T00:00:00Z",
       "addedAt": "2026-07-12T00:00:00Z"
-    },
-    {
-      "id": "vid-how-im-using-ai-agents-2026",
-      "youtubeId": "BikPUaT76i8",
-      "category": "usecase",
-      "title": "내가 2026년에 AI 에이전트를 쓰는 방식",
-      "titleEn": "How I'm Using AI Agents in 2026",
-      "descKo": "실제 업무에서 AI 에이전트를 어떻게 배치하고 활용하는지 보여주는 실전 사례.",
-      "descEn": "A hands-on look at how the creator deploys and uses AI agents in real work.",
-      "publishedAt": "2026-05-01T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
     },
     {
       "id": "vid-vibe-coding-money-ko",
@@ -155,17 +170,6 @@
       "channel": "리더스AI",
       "publishedAt": "2026-07-09T00:00:00Z",
       "addedAt": "2026-07-12T00:00:00Z"
-    },
-    {
-      "id": "vid-claude-code-13min-ko",
-      "youtubeId": "xtvynO05AoA",
-      "category": "tip",
-      "title": "클로드 코드 사용법 — 주요 기능 13분 만에 마스터하기",
-      "titleEn": "Claude Code Usage Guide — Master the Core Features in 13 Minutes",
-      "descKo": "IDE 연동·파일 첨부·모델 선택·CLI·MCP 서버 등 클로드 코드 핵심 기능을 13분 안에 압축 설명.",
-      "descEn": "A 13-minute rundown of Claude Code's core features: IDE integration, file attach, model select, CLI, MCP server.",
-      "publishedAt": "2025-07-17T00:00:00Z",
-      "addedAt": "2026-07-13T12:00:00Z"
     }
   ]
 }
