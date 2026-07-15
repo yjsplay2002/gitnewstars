@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-07-15T09:00:00Z",
+  "generatedAt": "2026-07-16T09:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260716-geeknews-180-agent-bughunt",
+      "title": "AI 에이전트 180개로 하루 만에 iOS 앱 버그 55개 잡은 검증 파이프라인",
+      "body": "13만 줄 규모, 21개 언어로 운영 중인 iOS SNS 앱을 감사하기 위해 LLM 에이전트 파이프라인을 만든 사례입니다. 버그를 찾는 '파인더'와 판정하는 '검증자' 역할을 분리하고, 판정 기준을 다수결이 아니라 '반박 실패'로 잡아 오탐률을 0%로 만들었습니다. 발견 보고는 JSON 스키마 강제 출력으로 받아 환각 보고를 구조적으로 차단하고, 이미 아는 버그 목록을 프롬프트에 주입해 중복 발견을 막았습니다. 6라운드 동안 에이전트 약 180개를 fan-out해 확정 버그 55건을 수리했고, 검증 단계가 잡아낸 반쪽짜리 수정도 3건 있었습니다.",
+      "titleEn": "A verification pipeline that used 180 AI agents to fix 55 iOS app bugs in one day",
+      "bodyEn": "A developer built an LLM-agent audit pipeline for a 130,000-line, 21-language iOS social app, splitting roles into 'finder' agents that hunt bugs and 'verifier' agents that judge them — using 'failed to refute' rather than majority vote as the pass bar, which drove false positives to zero. Findings had to come back as schema-enforced JSON to structurally block hallucinated reports, and known bugs were injected into the prompt to prevent duplicate rediscovery. Over 6 rounds and roughly 180 fanned-out agents, the pipeline confirmed and fixed 55 bugs, with the verification step also catching 3 half-finished patches before merge.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31393",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "curated-20260716-geeknews-agentsview",
+      "title": "AgentsView — 클로드 코드·Codex·Cursor 세션을 한곳에서 검색·비용 추적하는 오픈소스 도구",
+      "body": "GeekNews에 소개된 AgentsView는 Claude Code, Codex, Cursor, Gemini CLI, OpenCode 등 여러 코딩 에이전트의 세션을 자동 수집해 로컬 SQLite에 색인하는 Go 단일 바이너리 도구입니다. SQLite FTS5 전체 텍스트 검색과 OpenAI 호환 임베딩 기반 의미 검색을 지원하고, LiteLLM 가격표와 프롬프트 캐시 토큰까지 반영해 에이전트·날짜·모델별 비용을 집계합니다. 이미 색인된 데이터를 조회하는 방식이라 매번 세션을 다시 파싱하는 것보다 100배 이상 빠르고, 세션을 자동화·짧은 작업·표준·깊은 작업·장시간 작업으로 자동 분류해 시간·메시지 수·캐시 효율을 대시보드로 보여줍니다. Svelte 5 웹 UI와 Tauri 데스크톱 앱을 포함하며 MIT 라이선스로 공개됐습니다.",
+      "titleEn": "AgentsView — an open-source tool that searches and tracks cost across Claude Code, Codex, and Cursor sessions in one place",
+      "bodyEn": "Featured on GeekNews, AgentsView is a single Go binary that auto-collects sessions from multiple coding agents (Claude Code, Codex, Cursor, Gemini CLI, OpenCode, and more) and indexes them into a local SQLite database. It supports SQLite FTS5 full-text search plus semantic/hybrid search via OpenAI-compatible embeddings, and computes per-agent/per-date/per-model cost using LiteLLM's pricing table while accounting for prompt-cache write/read tokens. Because it queries pre-indexed SQLite instead of re-parsing raw session logs every time, it runs over 100x faster, and it auto-classifies sessions (automation/short/standard/deep/long-running) with dashboards for duration, message count, and cache efficiency. Ships with a Svelte 5 web UI and Tauri desktop app; MIT licensed.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31370",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "curated-20260716-starfleet-erdos-codex-parallel",
+      "title": "코덱스 계정 20개를 병렬로 돌려 에르되시 미해결 문제 20개에 도전한 실험",
+      "body": "starfleetmath.com에 공개된 실험으로, 서로 다른 Codex 인스턴스 20개를 동시에 띄워 각각 다른 에르되시(Erdős) 미해결 수학 문제를 맡기는 팬아웃 방식으로 진행했습니다. 코딩 에이전트를 순수 코딩이 아니라 정리 증명·반례 탐색 같은 연구형 작업에 병렬 오케스트레이션하는 실전 사례로, HN에서 162점을 받았습니다. 여러 독립적 문제를 에이전트별로 격리해 동시에 진행하는 팬아웃 패턴은 코딩 작업에도 그대로 응용할 수 있습니다.",
+      "titleEn": "Running 20 Codex accounts in parallel to tackle 20 unsolved Erdős problems",
+      "bodyEn": "An experiment published on starfleetmath.com spun up 20 separate Codex instances in parallel, each assigned a different unsolved Erdős math problem — a fan-out orchestration pattern applied to research-style work (theorem proving, counterexample search) rather than plain coding. It hit 162 points on HN as a concrete demonstration of running many isolated agent instances concurrently on independent sub-problems, a pattern directly reusable for parallel coding-agent workflows.",
+      "sourceName": "Hacker News · starfleetmath",
+      "sourceUrl": "https://www.starfleetmath.com/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-15T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "curated-20260716-deja-vu-agent-memory",
+      "title": "deja-vu — SSH로 동기화되는 오픈소스 코딩 에이전트 영구 메모리 레이어",
+      "body": "HN에 소개된 오픈소스 deja-vu는 Claude Code 같은 코딩 에이전트가 세션이 끝나면 맥락을 잊어버리는 문제를 SSH 동기화 기반의 가벼운 자체 호스팅 메모리 레이어로 해결합니다. 벤더 종속 없이 여러 머신·여러 세션에 걸쳐 학습한 내용을 이어받을 수 있도록 설계됐고, HN에서 103점을 받았습니다. 세션 간 컨텍스트 이월이 필요한 장기 프로젝트에서 바로 시도해볼 만한 경량 대안입니다.",
+      "titleEn": "deja-vu — an open-source, SSH-synced persistent memory layer for coding agents",
+      "bodyEn": "Featured on HN with 103 points, the open-source deja-vu tackles the problem of coding agents like Claude Code forgetting everything between sessions, via a lightweight, self-hosted memory layer synced over SSH. It's vendor-agnostic by design, letting learned context carry across machines and sessions without relying on a specific provider's built-in memory feature — a practical option to try for long-running projects that need context to persist.",
+      "sourceName": "Hacker News · deja-vu",
+      "sourceUrl": "https://github.com/vshulcz/deja-vu/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-15T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "curated-20260716-truefoundry-claude-workflow-guide",
+      "title": "클로드 코드를 '한 번 쓰고 마는 프롬프트'가 아니라 '반복 가능한 파이프라인'으로 만드는 법",
+      "body": "TrueFoundry 블로그에 실린 실전 가이드로, 클로드 코드를 읽기→분석→생성→테스트→커밋의 구조화된 작업 체인으로 설계해 프로덕션에서 반복 사용 가능한 워크플로로 만드는 방법을 정리했습니다. 일회성 프롬프트 나열 대신 각 단계를 명시적으로 나누고 검증 지점을 두어, 같은 작업을 팀 전체가 신뢰성 있게 재현할 수 있도록 하는 데 초점을 맞춥니다. 에이전트 워크플로 설계를 막 시작하는 팀이 참고할 만한 구체적인 단계별 템플릿을 제공합니다.",
+      "titleEn": "Turning Claude Code from one-off prompts into a repeatable production pipeline",
+      "bodyEn": "A practical guide from the TrueFoundry blog on designing Claude Code usage as a structured task chain — read, analyze, generate, test, commit — instead of ad-hoc prompting, so the same workflow can be reliably reproduced across a team in production. It focuses on explicitly separating each stage and inserting verification checkpoints rather than stringing together one-off prompts, and offers a concrete step-by-step template useful for teams just starting to formalize agent workflow design.",
+      "sourceName": "TrueFoundry",
+      "sourceUrl": "https://www.truefoundry.com/blog/claude-code-workflow-guide",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-14T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "curated-20260716-juggler-gui-agent",
+      "title": "Juggler — JUCE 창시자가 만든 오픈소스 GUI 코딩 에이전트, HN 272점",
+      "body": "오디오 소프트웨어 프레임워크 JUCE를 만든 개발자가 공개한 오픈소스 Juggler는 터미널 전용이 아니라 GUI 기반으로 코딩 에이전트를 다루는 도구입니다. 터미널에 익숙하지 않은 개발자나 여러 작업을 동시에 시각적으로 확인하고 싶은 사용자를 겨냥했고, HN에서 272점을 받아 GUI형 에이전트 UX에 대한 관심을 보여줬습니다. 터미널 중심 워크플로 외에 대안을 찾는 팀이라면 살펴볼 만합니다.",
+      "titleEn": "Juggler — an open-source GUI coding agent from the creator of JUCE, 272 points on HN",
+      "bodyEn": "Juggler is an open-source coding agent built by the developer behind the JUCE audio framework, aimed at giving coding agents a GUI instead of a terminal-only interface. It targets developers less comfortable in a terminal, or anyone who wants to visually track multiple concurrent agent tasks at once, and its 272 points on HN signal real interest in GUI-first agent UX as an alternative to CLI-centric workflows.",
+      "sourceName": "Hacker News · Juggler",
+      "sourceUrl": "https://github.com/juggler-ai/juggler",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
     {
       "id": "curated-20260715-coding-agents-think-ahead",
       "title": "논문: 코딩 에이전트는 실제로 편집하기 최대 25단계 전부터 결과를 '미리 안다'",
@@ -158,19 +236,6 @@
       "curatedAt": "2026-07-12T12:00:00Z"
     },
     {
-      "id": "curated-20260712-clien-china-claude-code-warning",
-      "title": "[한국어] 중국 국가보안기관, \"클로드 코드가 위치·신원정보 무단 전송\" 경고 — 알리바바 사용 금지",
-      "body": "중국 국가 산하 CNVDB가 4~6월 배포된 클로드 코드 버전이 사용자 동의 없이 위치·신원 정보 등 민감 정보를 원격 서버로 전송한다고 경고했습니다. 앤트로픽은 애초에 중국 기업의 클로드 코드 사용이 허가되지 않았다고 반박했고, 이 여파로 알리바바는 7월 10일부터 직원의 클로드 코드 사용을 금지했습니다. 에이전트 도구의 데이터 전송 범위를 점검할 때 참고할 사례입니다.",
-      "titleEn": "[Korean] China's state security body warns Claude Code leaks location/identity data — Alibaba bans internal use",
-      "bodyEn": "China's state-run CNVDB warned that Claude Code versions from April-June transmit sensitive information (location, identity data) to remote servers without user consent. Anthropic pushed back, saying Chinese firms were never authorized to use Claude Code in the first place; Alibaba subsequently banned employee use starting July 10. A useful case study when auditing what data an agent tool actually phones home.",
-      "sourceName": "클리앙",
-      "sourceUrl": "https://www.clien.net/service/board/news/19223735",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-09T00:00:00Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
       "id": "curated-20260711-clien-claudecode-antigravity",
       "title": "클로드 코드로 바이브 코딩하면서 느낀 점 — \"모델보다 부리는 사람 실력\"",
       "body": "Claude Code와 구글 Antigravity를 나란히 써본 클리앙 후기로 댓글 17개가 붙었습니다. 핵심 주장은 모델 성능 차이보다 '얼마나 잘 부리느냐'가 결과물 품질을 가른다는 것 — 좋은 시니어 개발자가 지시해야 AI도 제대로 일한다는 취지입니다. Antigravity는 세부 작업 단위 관리 측면에서 더 직관적이었다는 평가와 함께, 주니어가 바이브 코딩만으로 시작하면 시니어로 성장하기 어려울 수 있다는 우려도 나왔습니다.",
@@ -195,71 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-09T00:00:00Z",
       "curatedAt": "2026-07-13T12:00:00Z"
-    },
-    {
-      "id": "curated-20260712-gitlost-github-agent-leak",
-      "title": "GitLost — GitHub AI 에이전트를 속여 비공개 저장소를 유출시킨 프롬프트 인젝션 공격",
-      "body": "보안업체 Noma Security가 GitHub의 Agentic Workflows에서 프롬프트 인젝션 취약점을 발견했습니다. 공개 저장소에 'Additionally'라는 단어로 가드레일을 우회하는 악성 GitHub 이슈를 올리면, Claude나 Copilot 기반 에이전트가 이를 신뢰된 지시로 착각해 비공개 저장소의 README를 읽어 공개적으로 게시해버립니다. 대응책은 사용자 입력을 절대 신뢰된 지시로 취급하지 말고, 에이전트 권한을 최소화하며, 공개 게시 능력을 제한하는 것입니다.",
-      "titleEn": "GitLost — a prompt injection attack that tricks GitHub's AI agent into leaking private repos",
-      "bodyEn": "Security firm Noma Security found a prompt injection flaw in GitHub's Agentic Workflows: posting a malicious GitHub issue in a public repo, using the word 'Additionally' to bypass guardrails, tricks Claude- or Copilot-powered agents into treating it as a trusted instruction, fetching private repo README files and posting them publicly. Mitigations: never trust user-controlled content as instructions, minimize agent permissions, and restrict public-posting capability.",
-      "sourceName": "Hacker News · Noma Security",
-      "sourceUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T05:25:35Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
-      "id": "curated-20260713-geeknews-no-mistakes-git-guard",
-      "title": "[한국어] no-mistakes — git push 전에 AI가 리뷰·테스트·린트까지 자동으로 돌려주는 로컬 프록시 리모트",
-      "body": "GeekNews에 공유된 no-mistakes는 origin 대신 no-mistakes라는 이름의 git 리모트에 푸시하면 디스포저블 워크트리를 띄워 리뷰→테스트→문서화→린트→푸시→PR→CI 파이프라인을 논블로킹으로 돌린 뒤 깨끗한 브랜치와 PR을 만들어주는 로컬 git 프록시입니다. claude·codex·opencode·pi·copilot 등 어떤 에이전트든 폴백 순서를 정해 붙일 수 있고, 에이전트 스스로 /no-mistakes 슬래시 명령으로 자기 작업을 게이트에 제출할 수도 있습니다. 기계적으로 고칠 수 있는 문제는 자동 수정되고 애매한 발견 사항은 승인·수정·건너뛰기로 사람에게 에스컬레이션되며, MIT 라이선스입니다.",
-      "titleEn": "[Korean] no-mistakes — a local git proxy remote that runs AI review/test/lint before your push lands",
-      "bodyEn": "Shared on GeekNews, no-mistakes is a local git proxy remote: push to a remote named `no-mistakes` instead of `origin` and it spins up a disposable worktree to run a non-blocking review → test → docs → lint → push → PR → CI pipeline before forwarding a clean branch and opening a PR. It's agent-agnostic with a configurable fallback order across claude, codex, opencode, pi, and copilot, and agent-native — an agent can submit its own work to the gate via a `/no-mistakes` slash command. Mechanically fixable issues auto-apply, while ambiguous findings escalate to an approve/fix/skip decision; MIT licensed.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31223",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T00:00:00Z",
-      "curatedAt": "2026-07-13T12:00:00Z"
-    },
-    {
-      "id": "curated-20260710-flint-ai-viz-language",
-      "title": "마이크로소프트 Flint — AI 에이전트가 예쁜 차트를 실패 없이 그리게 하는 시각화 언어, HN 337점",
-      "body": "마이크로소프트가 공개한 Flint는 에이전트가 축·간격·라벨 같은 세부 설정을 일일이 조정하지 않아도, 데이터와 의미 타입만 넘기면 컴파일러가 알아서 보기 좋은 차트 설정을 도출해주는 중간 시각화 언어입니다. 라이브러리로 직접 호출하거나 MCP 서버로 붙여 대화 중에 차트를 생성·검증·렌더링할 수 있고, 같은 스펙이 Vega-Lite·ECharts·Chart.js 어디로든 컴파일됩니다. 대시보드나 리포트를 자동 생성하는 에이전트 워크플로우에 바로 끼워 넣을 만합니다.",
-      "titleEn": "Microsoft's Flint — a visualization language that lets AI agents draw good-looking charts reliably, 337 points on HN",
-      "bodyEn": "Microsoft's Flint is a visualization intermediate language: agents just pass data and semantic types, and Flint's compiler derives sensible scales, axes, spacing, and labels instead of the agent hand-tuning them. It's usable as a library or via an MCP server that lets an agent create, validate, and render charts mid-conversation, and the same spec compiles down to Vega-Lite, ECharts, or Chart.js. A drop-in for any agent workflow that auto-generates dashboards or reports.",
-      "sourceName": "Hacker News · Microsoft",
-      "sourceUrl": "https://microsoft.github.io/flint-chart/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T17:46:12Z",
-      "curatedAt": "2026-07-10T00:00:00Z"
-    },
-    {
-      "id": "curated-20260710-jaehong-claude-vs-codex-ko",
-      "title": "[한국어] Claude Code 100시간 vs Codex 20시간 — 14년차 엔지니어의 실전 비교, \"속도의 클로드, 장인의 코덱스\"",
-      "body": "8만 줄 규모 Python/TypeScript 데이터 분석 앱(테스트 2,800개)에 Claude Code(Opus 4.6)와 Codex(GPT-5.4)를 실제로 붙여본 시니어 엔지니어의 비교 글입니다. Claude Code는 빠르고 대화하듯 쓸 수 있지만 지시를 무시하거나 작업을 절반만 끝내는 경우가 있어 경험 많은 개발자의 적극적 감독이 필요했고, Codex는 3~4배 느린 대신 가이드라인을 충실히 따르고 자발적으로 리팩터링까지 해냈습니다. 커뮤니티에서 가장 인기 있는 전략은 Claude로 초안을 빠르게 뽑고 Codex로 검토·교차검증하는 조합 — 두 모델이 서로 다른 방식으로 실수하기 때문에 상호 보완이 잘 된다는 실전 팁입니다.",
-      "titleEn": "[Korean] Claude Code for 100 hours vs. Codex for 20 hours — a 14-year engineer's verdict: \"Claude for speed, Codex for craftsmanship\"",
-      "bodyEn": "A senior engineer's real-world comparison of Claude Code (Opus 4.6) and Codex (GPT-5.4) on an 80,000-line Python/TypeScript data-analysis app with 2,800 tests. Claude Code was fast and conversational but sometimes ignored instructions or left work half-done, requiring active supervision from an experienced developer; Codex ran 3-4x slower but faithfully followed guidelines and even did voluntary refactoring. The most popular community strategy: draft fast with Claude, then cross-check and review with Codex, since the two rarely hallucinate the same way.",
-      "sourceName": "박재홍의 실리콘밸리",
-      "sourceUrl": "https://wikidocs.net/blog/@jaehong/11879/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-08T00:00:00Z",
-      "curatedAt": "2026-07-10T00:00:00Z"
-    },
-    {
-      "id": "curated-20250722-clien-vibe-coding-launch",
-      "title": "[한국어] 바이브 코딩으로 앱 출시까지 — 40일 1인 개발 후기와 팁 5가지",
-      "body": "Flutter + PocketBase로 iOS/Android 앱 '아보행'을 40일 만에 1인 출시한 클리앙 후기입니다. 실전 팁: (1) 수정할 파일과 메서드까지 지정하는 구체적 지시, (2) 프로젝트 구조·컨벤션을 담은 rules 문서로 컨텍스트 관리, (3) UI 수정 전 ASCII 와이어프레임으로 합의, (4) AI가 임베딩으로 검색하므로 주석을 코드와 동기화, (5) 규모가 커지면 '지시자'에서 여러 AI 작업을 병렬 관리하는 'PM'으로 역할 전환. 오래됐지만 여전히 유효한 한국어 바이브 코딩 실전 가이드입니다.",
-      "titleEn": "[Korean] Vibe coding to app launch — a 40-day solo dev retrospective with 5 tips",
-      "bodyEn": "A Clien retrospective on solo-shipping the iOS/Android app 'Abohaeng' in 40 days with Flutter + PocketBase. Tips: (1) specify exact files and methods in instructions, (2) manage context with a rules doc of project structure/conventions, (3) agree on ASCII wireframes before UI changes, (4) keep comments synced since AI searches via embeddings, (5) shift from commander to PM managing parallel AI tasks as scale grows. Still one of the best hands-on Korean vibe-coding guides.",
-      "sourceName": "클리앙",
-      "sourceUrl": "https://www.clien.net/service/board/lecture/19029086",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2025-07-22T23:42:56Z",
-      "curatedAt": "2025-07-22T00:00:00Z"
     }
   ]
 }
