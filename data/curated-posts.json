@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-07-16T09:00:00Z",
+  "generatedAt": "2026-07-17T09:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260717-codex-encrypt-subagent-prompts",
+      "title": "코덱스, 서브에이전트 프롬프트를 암호화하기 시작 — 오케스트레이션 디버깅에 미치는 영향",
+      "body": "OpenAI가 Codex의 서브에이전트 간 위임 프롬프트를 암호화하기 시작하면서 HN에서 424점을 받으며 논쟁이 붙었습니다. 멀티 에이전트 오케스트레이션을 직접 구성하는 개발자 입장에서는 서브에이전트가 실제로 어떤 지시를 받는지 로그로 확인할 수 없게 돼, 팬아웃 파이프라인 디버깅이 어려워진다는 반발이 큽니다. 반대로 프롬프트 인젝션이나 유출 방지 관점에서는 타당하다는 의견도 있어, 에이전트 오케스트레이션 도구를 설계할 때 투명성과 보안 사이의 트레이드오프를 보여주는 사례입니다.",
+      "titleEn": "Codex starts encrypting sub-agent prompts — what it means for debugging orchestration",
+      "bodyEn": "OpenAI began encrypting the delegation prompts Codex sends to its sub-agents, sparking a 424-point HN debate. Developers who build multi-agent orchestration pipelines pushed back because they can no longer inspect exactly what instructions a sub-agent received, making fan-out pipelines harder to debug; others argued it's justified as a defense against prompt injection and instruction leakage. A concrete case study in the transparency-vs-security tradeoff anyone designing agent-orchestration tooling will hit.",
+      "sourceName": "Hacker News · GitHub",
+      "sourceUrl": "https://github.com/openai/codex/issues/28058",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-14T11:21:32Z",
+      "curatedAt": "2026-07-17T09:00:00Z"
+    },
+    {
+      "id": "curated-20260717-databricks-coding-agent-benchmark",
+      "title": "Databricks, 수백만 줄 규모 실제 코드베이스로 코딩 에이전트 자체 벤치마크 — 하네스 차이가 비용 2배 좌우",
+      "body": "Databricks 엔지니어링 블로그가 SWE-Bench 같은 표준 벤치마크 대신 자사의 수백만 줄 규모 실제 코드베이스와 실제 병합된 PR을 기준으로 코딩 에이전트를 평가한 결과를 공개했습니다. 같은 모델이라도 감싸는 하네스(에이전트 프레임워크) 구성에 따라 비용이 2배 이상 갈렸고, GLM 5.2가 품질에서 Opus 4.8과 통계적으로 동률을 이루면서도 비용은 더 낮았다고 밝혔습니다. 모델 선택보다 하네스·프롬프트 구조가 실전 비용을 좌우한다는, 실제 프로덕션 규모에서 나온 구체적 수치입니다.",
+      "titleEn": "Databricks built its own coding-agent benchmark on a real multi-million-line codebase — harness choice swings cost 2x",
+      "bodyEn": "Databricks' engineering blog published results from benchmarking coding agents against real merged PRs on its own multi-million-line production codebase, instead of a standard benchmark like SWE-Bench. It found the harness (agent framework) wrapping a model swings cost by more than 2x even with the same underlying model, and that GLM 5.2 statistically tied Opus 4.8 on quality while costing less. Concrete production-scale numbers showing harness and prompt structure matter as much as model choice for real-world cost.",
+      "sourceName": "Databricks Engineering Blog",
+      "sourceUrl": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-16T00:00:00Z",
+      "curatedAt": "2026-07-17T09:00:00Z"
+    },
+    {
+      "id": "curated-20260717-devto-ghostapproval-symlink-vuln",
+      "title": "[한국어] 2026년 7월 14일 AI·LLM 이슈 다이제스트 — 클로드 코드 등 6개 코딩 어시스턴트 노린 심링크 취약점 'GhostApproval'",
+      "body": "dev.to에 올라온 한국어 주간 AI·LLM 이슈 다이제스트로, 보안 업체 Wiz가 발견한 'GhostApproval' 심링크 취약점을 다룹니다. 클로드 코드·Cursor를 포함한 코딩 어시스턴트 6종이 파일 경로 승인 시 심볼릭 링크를 제대로 검증하지 않아, 승인된 것처럼 보이는 경로가 실제로는 다른 위험한 파일을 가리킬 수 있는 문제입니다. 같은 글에서 Gemini 3.5 Pro 출시 시점과 GPT-5.6 작업당 과금 정책에 대한 반발도 함께 정리해, 에이전트를 다루는 개발자가 이번 주 챙겨야 할 보안·정책 이슈를 한 번에 훑을 수 있습니다.",
+      "titleEn": "[Korean] July 14, 2026 AI/LLM issue digest — 'GhostApproval' symlink vulnerability hits Claude Code and 5 other coding assistants",
+      "bodyEn": "A Korean-language weekly AI/LLM issue digest on dev.to covers 'GhostApproval,' a symlink vulnerability found by security firm Wiz. Six coding assistants, including Claude Code and Cursor, failed to properly validate symbolic links during file-path approval, meaning a path that looks approved could actually point to a different, unsafe file. The same post rounds up Gemini 3.5 Pro's release timing and backlash over GPT-5.6's per-task pricing, giving agent-using developers a quick sweep of this week's security and policy issues.",
+      "sourceName": "dev.to",
+      "sourceUrl": "https://dev.to/hyeong/2026nyeon-7weol-14il-aillm-isyu-daijeseuteu-eijeonteuga-samusilro-deuleooneunde-mundansogeun-nuga-hana-5do",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-14T00:00:00Z",
+      "curatedAt": "2026-07-17T09:00:00Z"
+    },
+    {
+      "id": "curated-20260717-lmstudio-bionic-open-models",
+      "title": "LM Studio Bionic — 오픈소스 모델을 위한 로컬 AI 에이전트, HN 94점",
+      "body": "LM Studio가 공개한 'Bionic'은 로컬에서 돌리는 오픈 가중치 모델을 대상으로 한 에이전트 실행 환경으로, 클라우드 API 없이도 파일 조작·도구 호출 같은 에이전틱 작업을 로컬 모델로 수행할 수 있게 설계됐습니다. 클라우드 코딩 에이전트 비용·데이터 유출을 우려하는 팀이 로컬 모델 기반 에이전트 워크플로를 검토할 때 참고할 만한 구체적 대안입니다.",
+      "titleEn": "LM Studio Bionic — a local AI agent runtime for open-weight models, 94 pts on HN",
+      "bodyEn": "LM Studio released 'Bionic,' an agent runtime built for locally-run open-weight models, letting agentic work like file edits and tool calls run entirely on a local model without a cloud API. A concrete option for teams weighing local-model agent workflows against the cost and data-exposure concerns of cloud coding agents.",
+      "sourceName": "Hacker News · LM Studio",
+      "sourceUrl": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-16T20:18:15Z",
+      "curatedAt": "2026-07-17T09:00:00Z"
+    },
+    {
+      "id": "curated-20260717-sx-dropbox-skill-server",
+      "title": "Sx 2.0 — 드롭박스 폴더 하나로 팀에 AI 스킬을 배포하는 도구, HN 44점",
+      "body": "Show HN에 올라온 Sx 2.0은 Claude Code 같은 에이전트용 스킬을 공유 드롭박스 폴더에 넣기만 하면 팀 전체에 동기화·배포되도록 만든 경량 도구입니다. 별도 서버나 패키지 레지스트리 없이도 팀이 프롬프트·스킬 파일을 표준화된 방식으로 공유할 수 있어, 스킬 배포 파이프라인을 아직 갖추지 못한 소규모 팀이 바로 시도해볼 만합니다.",
+      "titleEn": "Sx 2.0 — turn a shared Dropbox folder into a skill server for your team, 44 pts on HN",
+      "bodyEn": "A Show HN post introduces Sx 2.0, a lightweight tool that syncs and distributes agent skills (for tools like Claude Code) to a whole team just by dropping files into a shared Dropbox folder — no dedicated server or package registry required. A quick option for small teams that don't yet have a skill-distribution pipeline in place.",
+      "sourceName": "Hacker News · Sx",
+      "sourceUrl": "https://sleuth-io.github.io/sx/2026/07/10/your-dropbox-is-now-a-skill-server.html",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T23:26:52Z",
+      "curatedAt": "2026-07-17T09:00:00Z"
+    },
     {
       "id": "curated-20260716-geeknews-180-agent-bughunt",
       "title": "AI 에이전트 180개로 하루 만에 iOS 앱 버그 55개 잡은 검증 파이프라인",
@@ -54,32 +119,6 @@
       "curatedAt": "2026-07-16T09:00:00Z"
     },
     {
-      "id": "curated-20260716-truefoundry-claude-workflow-guide",
-      "title": "클로드 코드를 '한 번 쓰고 마는 프롬프트'가 아니라 '반복 가능한 파이프라인'으로 만드는 법",
-      "body": "TrueFoundry 블로그에 실린 실전 가이드로, 클로드 코드를 읽기→분석→생성→테스트→커밋의 구조화된 작업 체인으로 설계해 프로덕션에서 반복 사용 가능한 워크플로로 만드는 방법을 정리했습니다. 일회성 프롬프트 나열 대신 각 단계를 명시적으로 나누고 검증 지점을 두어, 같은 작업을 팀 전체가 신뢰성 있게 재현할 수 있도록 하는 데 초점을 맞춥니다. 에이전트 워크플로 설계를 막 시작하는 팀이 참고할 만한 구체적인 단계별 템플릿을 제공합니다.",
-      "titleEn": "Turning Claude Code from one-off prompts into a repeatable production pipeline",
-      "bodyEn": "A practical guide from the TrueFoundry blog on designing Claude Code usage as a structured task chain — read, analyze, generate, test, commit — instead of ad-hoc prompting, so the same workflow can be reliably reproduced across a team in production. It focuses on explicitly separating each stage and inserting verification checkpoints rather than stringing together one-off prompts, and offers a concrete step-by-step template useful for teams just starting to formalize agent workflow design.",
-      "sourceName": "TrueFoundry",
-      "sourceUrl": "https://www.truefoundry.com/blog/claude-code-workflow-guide",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-14T00:00:00Z",
-      "curatedAt": "2026-07-16T09:00:00Z"
-    },
-    {
-      "id": "curated-20260716-juggler-gui-agent",
-      "title": "Juggler — JUCE 창시자가 만든 오픈소스 GUI 코딩 에이전트, HN 272점",
-      "body": "오디오 소프트웨어 프레임워크 JUCE를 만든 개발자가 공개한 오픈소스 Juggler는 터미널 전용이 아니라 GUI 기반으로 코딩 에이전트를 다루는 도구입니다. 터미널에 익숙하지 않은 개발자나 여러 작업을 동시에 시각적으로 확인하고 싶은 사용자를 겨냥했고, HN에서 272점을 받아 GUI형 에이전트 UX에 대한 관심을 보여줬습니다. 터미널 중심 워크플로 외에 대안을 찾는 팀이라면 살펴볼 만합니다.",
-      "titleEn": "Juggler — an open-source GUI coding agent from the creator of JUCE, 272 points on HN",
-      "bodyEn": "Juggler is an open-source coding agent built by the developer behind the JUCE audio framework, aimed at giving coding agents a GUI instead of a terminal-only interface. It targets developers less comfortable in a terminal, or anyone who wants to visually track multiple concurrent agent tasks at once, and its 272 points on HN signal real interest in GUI-first agent UX as an alternative to CLI-centric workflows.",
-      "sourceName": "Hacker News · Juggler",
-      "sourceUrl": "https://github.com/juggler-ai/juggler",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-12T00:00:00Z",
-      "curatedAt": "2026-07-16T09:00:00Z"
-    },
-    {
       "id": "curated-20260715-coding-agents-think-ahead",
       "title": "논문: 코딩 에이전트는 실제로 편집하기 최대 25단계 전부터 결과를 '미리 안다'",
       "body": "최신 연구에 따르면 코딩 에이전트로 쓰이는 언어모델은 디스크에 실제로 기록되기 전 미래 편집 결과를 내부 표현에 이미 담고 있습니다. 미래 편집이 파싱에 성공할지, 테스트를 통과할지, 버그를 만들지를 예측하도록 훈련한 프로브가 실제 편집이 일어나기까지 최대 약 25스텝 전부터 우연보다 유의미하게 높은 정확도로 예측에 성공했습니다. 연구진은 이를 에이전트의 '잠재적 프로그래밍 지평(latent programming horizon)'이라 부르며, 이 내부 표현을 활용하면 에이전트의 계획 결정에 개입할 여지가 생긴다고 봅니다.",
@@ -106,32 +145,6 @@
       "curatedAt": "2026-07-15T09:00:00Z"
     },
     {
-      "id": "curated-20260715-jacquard-ai-lang",
-      "title": "Jacquard — AI가 짜고 사람이 검토하는 코드를 위한 실험적 프로그래밍 언어, HN 96점",
-      "body": "Jacquard는 함수 시그니처에 (text) ->{net} text 처럼 외부 접근 권한을 명시하는 '효과 투명성', 같은 코드를 실제 네트워크·스크립트 가짜·확률 모델 등 다른 실행 환경에 그대로 꽂아 넣는 '월드 시뮬레이션', 실패 후에도 유효한 코드 패치를 정확한 확률로 골라내는 '확률적 명확성' 세 가지로 AI가 작성한 코드를 사람이 한눈에 검증하게 설계된 v0.1 연구용 언어입니다. 27종 커널 AST, 대수적 효과와 멀티샷 핸들러, 포맷·주석이 바뀌어도 하위 의존성에 영향 없는 콘텐츠 주소 지정 방식, C로의 네이티브 AOT 컴파일을 지원합니다.",
-      "titleEn": "Jacquard — an experimental language for AI-written, human-reviewed code, 96 pts on HN",
-      "bodyEn": "Jacquard (v0.1, a research prototype) is designed so humans can verify AI-written code at a glance via three mechanisms: effect transparency (a signature like `(text) ->{net} text` shows exactly what a function can touch), world simulation (the same code runs against a real network, a scripted fake, or a probability model without rewriting tests), and probabilistic clarity (tools enumerate exact probabilities for which patches remain viable after a failure). It ships a 27-form kernel AST, algebraic effects with multi-shot handlers, content-addressed identity (formatting/comments don't affect downstream deps), and native AOT compilation to C.",
-      "sourceName": "Hacker News · Jacquard",
-      "sourceUrl": "https://github.com/jbwinters/jacquard-lang",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-13T15:56:02Z",
-      "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "curated-20260715-clawk-disposable-vm",
-      "title": "Clawk — 코딩 에이전트를 노트북 대신 일회용 VM에서 돌리는 오픈소스 샌드박스, HN 215점",
-      "body": "오픈소스 Clawk는 Claude·Codex 등 코딩 에이전트를 호스트 파일·자격증명에 전혀 접근하지 못하는 일회용 macOS 가상머신 안에서 실행합니다. Apple Virtualization.framework 기반이며, 커널 수준 아웃바운드 방화벽이 게스트 안 root 권한으로도 우회 불가능하게 네트워크를 통제합니다. clawk, clawk run codex, clawk snapshot/resume, clawk work [티켓] 같은 명령으로 스냅샷 저장·복원과 다중 저장소 티켓 모드까지 지원하며 Docker나 sudo 없이 동작합니다. Go 1.26+ 소스 설치, Apache-2.0 라이선스.",
-      "titleEn": "Clawk — an open-source sandbox that runs coding agents in disposable VMs instead of your laptop, 215 pts on HN",
-      "bodyEn": "Open-source Clawk runs agents like Claude and Codex inside disposable macOS VMs (via Apple's Virtualization.framework) with zero access to host files or credentials. A kernel-level outbound network filter enforces allow-lists that even root inside the guest can't bypass. Commands like `clawk`, `clawk run codex`, `clawk snapshot/resume`, and `clawk work [ticket]` cover snapshotting and multi-repo ticket-mode workflows, with no Docker daemon or sudo required. Builds from source with Go 1.26+; Apache-2.0 licensed.",
-      "sourceName": "Hacker News · Clawk",
-      "sourceUrl": "https://github.com/clawkwork/clawk",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-13T14:02:03Z",
-      "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
       "id": "curated-20260715-ploy-gpt56-migration",
       "title": "프로덕션 AI 에이전트를 GPT-5.6로 옮긴 실전기 — 속도 2.2배, 비용 27% 절감, 그리고 3가지 함정",
       "body": "AI 코딩 스타트업 Ploy가 프로덕션 에이전트를 Claude Opus 4.8에서 GPT-5.6 Sol로 옮긴 후기입니다. 빌드 시간이 8분에서 3분 42초로 2.2배 빨라지고 빌드당 비용은 $3.06에서 $2.22로 27% 줄었지만, 이행 과정에서 세 가지 함정을 만났습니다: GPT-5.6이 선택적 매개변수 25개를 전부 기본값으로 채워 파일 읽기의 52~64%가 빈 결과를 반환한 문제(스키마를 'nullable 필수'로 변환해 해결), 부분 프리픽스 매칭이 사라진 프롬프트 캐싱 구조 차이(3단 캐시 브레이크포인트 재설계로 캐시 적중률을 0%에서 83.7%로 개선), 서버 측 추론 참조로 인한 간헐적 실패(store: false 설정으로 해결). 핵심 교훈은 '모델 벤치마크보다 평가 하네스 자체의 프로바이더별 차이부터 고쳐야 한다'는 것입니다.",
@@ -142,6 +155,32 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-12T17:13:07Z",
+      "curatedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "curated-20260716-juggler-gui-agent",
+      "title": "Juggler — JUCE 창시자가 만든 오픈소스 GUI 코딩 에이전트, HN 276점",
+      "body": "오디오 소프트웨어 프레임워크 JUCE를 만든 개발자가 공개한 오픈소스 Juggler는 터미널 전용이 아니라 GUI 기반으로 코딩 에이전트를 다루는 도구입니다. 터미널에 익숙하지 않은 개발자나 여러 작업을 동시에 시각적으로 확인하고 싶은 사용자를 겨냥했고, HN에서 276점을 받아 GUI형 에이전트 UX에 대한 관심을 보여줬습니다. 터미널 중심 워크플로 외에 대안을 찾는 팀이라면 살펴볼 만합니다.",
+      "titleEn": "Juggler — an open-source GUI coding agent from the creator of JUCE, 276 points on HN",
+      "bodyEn": "Juggler is an open-source coding agent built by the developer behind the JUCE audio framework, aimed at giving coding agents a GUI instead of a terminal-only interface. It targets developers less comfortable in a terminal, or anyone who wants to visually track multiple concurrent agent tasks at once, and its 276 points on HN signal real interest in GUI-first agent UX as an alternative to CLI-centric workflows.",
+      "sourceName": "Hacker News · Juggler",
+      "sourceUrl": "https://github.com/juggler-ai/juggler",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T00:00:00Z",
+      "curatedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "curated-20260715-clawk-disposable-vm",
+      "title": "Clawk — 코딩 에이전트를 노트북 대신 일회용 VM에서 돌리는 오픈소스 샌드박스, HN 222점",
+      "body": "오픈소스 Clawk는 Claude·Codex 등 코딩 에이전트를 호스트 파일·자격증명에 전혀 접근하지 못하는 일회용 macOS 가상머신 안에서 실행합니다. Apple Virtualization.framework 기반이며, 커널 수준 아웃바운드 방화벽이 게스트 안 root 권한으로도 우회 불가능하게 네트워크를 통제합니다. clawk, clawk run codex, clawk snapshot/resume, clawk work [티켓] 같은 명령으로 스냅샷 저장·복원과 다중 저장소 티켓 모드까지 지원하며 Docker나 sudo 없이 동작합니다. Go 1.26+ 소스 설치, Apache-2.0 라이선스.",
+      "titleEn": "Clawk — an open-source sandbox that runs coding agents in disposable VMs instead of your laptop, 222 pts on HN",
+      "bodyEn": "Open-source Clawk runs agents like Claude and Codex inside disposable macOS VMs (via Apple's Virtualization.framework) with zero access to host files or credentials. A kernel-level outbound network filter enforces allow-lists that even root inside the guest can't bypass. Commands like `clawk`, `clawk run codex`, `clawk snapshot/resume`, and `clawk work [ticket]` cover snapshotting and multi-repo ticket-mode workflows, with no Docker daemon or sudo required. Builds from source with Go 1.26+; Apache-2.0 licensed.",
+      "sourceName": "Hacker News · Clawk",
+      "sourceUrl": "https://github.com/clawkwork/clawk",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-13T14:02:03Z",
       "curatedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -156,19 +195,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-12T05:51:32Z",
       "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "curated-20260713-systima-token-overhead",
-      "title": "Claude Code, 프롬프트 읽기도 전에 토큰 33,000개 소모 — OpenCode는 7,000개",
-      "body": "AI 개발도구 블로그 Systima가 로깅 프록시로 측정한 결과, Claude Code는 사용자 프롬프트가 도착하기 전 시스템 프롬프트·27개 도구 스키마 등으로 평균 33,000토큰을 미리 소모하는 반면 OpenCode는 7,000토큰에 그쳐 최대 4.7배 차이가 났습니다. 시스템 프롬프트 크기도 Claude Code 27,344자·도구 스키마 99,778자로 OpenCode(9,324자·20,856자)의 3배 안팎이었고, 서브에이전트 위임 시에는 토큰 비용이 4.2배(12만1천→51만3천)까지 뛰었습니다. HN 1위(378점)에 오른 실측 데이터로, 대량 반복 작업에서 하네스별 비용 차이를 가늠할 실전 근거입니다.",
-      "titleEn": "Claude Code burns 33,000 tokens before it even reads your prompt — OpenCode uses 7,000",
-      "bodyEn": "Systima measured token overhead via a logging proxy and found Claude Code front-loads ~33,000 tokens of system prompt and 27 tool schemas before the user's prompt even arrives, vs. OpenCode's ~7,000 — up to a 4.7x gap. Claude Code's system prompt runs 27,344 chars with 99,778 chars of tool schemas versus OpenCode's 9,324/20,856; subagent delegation multiplied cost 4.2x (121k to 513k tokens) in their test. The measurement hit #1 on HN with 378 points — solid data for weighing harness overhead on high-volume repeated tasks.",
-      "sourceName": "Hacker News · Systima",
-      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-12T00:00:00Z",
-      "curatedAt": "2026-07-13T12:00:00Z"
     },
     {
       "id": "curated-20260713-geeknews-sem-semantic-vcs",
@@ -197,19 +223,6 @@
       "curatedAt": "2026-07-12T12:00:00Z"
     },
     {
-      "id": "curated-20260713-terry-tao-coding-agents",
-      "title": "필즈상 수상자 테렌스 타오, 코딩 에이전트로 1999년 자바 애플릿 24개를 하루 만에 이식",
-      "body": "수학자 테렌스 타오가 자신의 블로그에 코딩 에이전트로 1999년산 Java 1.0 애플릿 약 24개를 각각 몇 시간 만에 JavaScript로 이식한 경험을 공개했습니다. 이식 과정에서 발생한 버그는 딱 하나였고, 오히려 에이전트가 원본 코드의 버그 2개를 찾아내기도 했습니다. 특수상대성 시공간 다이어그램 시각화 도구, 길브레이스 추측 시각화 도구 같은 신규 도구도 함께 제작했으며, 핵심 통찰은 '고수준 설계 판단은 여전히 사람 몫이고, 저수준 문법·구현만 자동화됐다'는 것 — 도메인 전문성이 에이전트를 지휘하는 데 여전히 필요하다는 실증입니다. HN 390점.",
-      "titleEn": "Fields Medalist Terence Tao ports 24 vintage 1999 Java applets in a day using coding agents",
-      "bodyEn": "Mathematician Terence Tao wrote on his blog about porting roughly 24 legacy Java 1.0 applets from 1999 to JavaScript, each taking just hours, using modern coding agents. Only one new bug surfaced during porting — the agent even caught two pre-existing bugs in the original code. He also built new tools this way, including a spacetime-diagram visualizer for special relativity and a Gilbreath-conjecture visualizer; his key takeaway is that 'high-level design decisions still remain human work — it's the low-level syntax and implementation that's been automated away,' underscoring that domain expertise still steers the agent. 390 points on HN.",
-      "sourceName": "Hacker News · Terence Tao",
-      "sourceUrl": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-11T00:00:00Z",
-      "curatedAt": "2026-07-13T12:00:00Z"
-    },
-    {
       "id": "curated-20260711-clien-appintoss-vibecoding",
       "title": "밤 10시에만 열리는 괴담 라디오 — 토스 '앱인토스 바이브코딩 챌린지' 참가작",
       "body": "토스 미니앱 플랫폼이 7월 한 달간 여는 '앱인토스 바이브코딩 챌린지' 참가 후기입니다. 개발자는 Claude Code로 코드 대부분을 생성하고 본인은 방향성과 콘텐츠만 감수해, 밤 10시에만 열리는 괴담 라디오 미니앱 '밤열시 괴담'을 만들었습니다. FM 102.2 컨셉에 정적·발소리·빗소리 같은 분위기 오디오를 입히고, 15세 이상 등급과 일본어판 5화 묶음 1,100원 판매까지 구성한 디테일이 눈에 띕니다. 논코더도 바이브 코딩 해커톤에 참가할 수 있다는 실증 사례입니다.",
@@ -234,32 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-09T00:00:00Z",
       "curatedAt": "2026-07-12T12:00:00Z"
-    },
-    {
-      "id": "curated-20260711-clien-claudecode-antigravity",
-      "title": "클로드 코드로 바이브 코딩하면서 느낀 점 — \"모델보다 부리는 사람 실력\"",
-      "body": "Claude Code와 구글 Antigravity를 나란히 써본 클리앙 후기로 댓글 17개가 붙었습니다. 핵심 주장은 모델 성능 차이보다 '얼마나 잘 부리느냐'가 결과물 품질을 가른다는 것 — 좋은 시니어 개발자가 지시해야 AI도 제대로 일한다는 취지입니다. Antigravity는 세부 작업 단위 관리 측면에서 더 직관적이었다는 평가와 함께, 주니어가 바이브 코딩만으로 시작하면 시니어로 성장하기 어려울 수 있다는 우려도 나왔습니다.",
-      "titleEn": "\"What I learned vibe-coding with Claude Code\" — it's the operator's skill, not the model",
-      "bodyEn": "A Clien post comparing Claude Code and Google Antigravity side-by-side drew 17 comments. Its core claim: the gap between outcomes comes down to how well the human directs the AI, not raw model quality — a good senior developer gets good results out of any of them. The author found Antigravity more intuitive for managing fine-grained task breakdowns, and comments raised a concern that juniors who start with vibe coding alone may struggle to grow into seniors.",
-      "sourceName": "클리앙",
-      "sourceUrl": "https://www.clien.net/service/board/park/19223562",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-09T01:03:00Z",
-      "curatedAt": "2026-07-11T00:00:00Z"
-    },
-    {
-      "id": "curated-20260713-geeknews-weave-router",
-      "title": "[한국어] Weave Router — 프롬프트마다 최적 모델로 50ms 만에 라우팅, 비용 40~70% 절감 주장",
-      "body": "GeekNews에 소개된 Weave Router는 Anthropic·OpenAI·Gemini에 OpenRouter 경유 오픈소스 모델까지 하나의 엔드포인트로 묶고, 로컬 임베더 기반 분류기로 프롬프트마다 최적 모델을 약 50ms 만에 골라주는 프록시입니다. npx @workweave/router 한 줄로 설치되고 Claude Code(make install-cc, /router-off·/router-on·/router-status 슬래시 명령), Codex(~/.codex/config.toml 자동 패치), opencode, Cursor(베타)에 바로 연결되며, BYOK 방식으로 키는 로컬에 암호화 저장되고 OTLP 트레이싱이 내장돼 있습니다. 제작자는 엔드포인트만 바꿔도 비용을 40~70% 줄일 수 있다고 주장하지만, 댓글에서는 프로바이더를 넘나들며 라우팅할 때 캐시 미스로 인한 비용 증가 위험이 지적됐습니다.",
-      "titleEn": "[Korean] Weave Router — routes every prompt to the best model in ~50ms, claims 40-70% cost cuts",
-      "bodyEn": "Featured on GeekNews, Weave Router is a drop-in proxy unifying Anthropic, OpenAI, Gemini, and OSS models (via OpenRouter) behind one endpoint, picking the best model per prompt in about 50ms using a local embedder-based classifier. It installs with one line (`npx @workweave/router`) and wires directly into Claude Code (`make install-cc`, plus `/router-off`/`/router-on`/`/router-status` slash commands), Codex (patches `~/.codex/config.toml`), opencode, and Cursor (beta), with BYOK keys stored encrypted locally and built-in OTLP tracing. The maker claims a 40-70% cost cut just from switching endpoints, though commenters flagged the risk of cache-miss cost spikes when routing across providers.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31251",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-09T00:00:00Z",
-      "curatedAt": "2026-07-13T12:00:00Z"
     }
   ]
 }

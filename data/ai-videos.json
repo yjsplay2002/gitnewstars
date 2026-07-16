@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T09:00:00Z",
+  "generatedAt": "2026-07-17T09:00:00Z",
   "videos": [
     {
       "id": "vid-1000-agents-spawn",
@@ -11,6 +11,30 @@
       "descEn": "Explains Claude Code's Dynamic Workflows feature for fanning out large numbers of parallel subagents.",
       "publishedAt": "2026-05-29T00:00:00Z",
       "addedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "vid-claude-2026-changes-tips",
+      "youtubeId": "bj04doEDOY4",
+      "category": "tip",
+      "title": "2026년 클로드 대격변 총정리 — 달라진 사용법 실전 팁",
+      "titleEn": "Claude Just Changed Completely: Here's How It Works (In 2026)",
+      "descKo": "2026년 들어 크게 바뀐 클로드의 동작 방식과 이에 맞춘 실전 활용 팁을 정리한 영상.",
+      "descEn": "Walks through recent changes to how Claude behaves in 2026 and practical usage tips adapted to them.",
+      "channel": "Paul J Lipsky",
+      "publishedAt": "2026-07-15T00:00:00Z",
+      "addedAt": "2026-07-17T09:00:00Z"
+    },
+    {
+      "id": "vid-multiagent-orchestration-skill-2026",
+      "youtubeId": "GCd4Ft4tcMA",
+      "category": "tip",
+      "title": "2026년 AI 엔지니어에게 꼭 필요한 1순위 스킬 — 멀티 에이전트 오케스트레이션",
+      "titleEn": "Multi-Agent Orchestration: The #1 Skill AI Engineers NEED in 2026",
+      "descKo": "여러 AI 에이전트를 동시에 조율해 작업을 분담시키는 오케스트레이션의 핵심 개념과 실전 팁.",
+      "descEn": "Practical framing and tips on why and how to orchestrate multiple AI agents working together.",
+      "channel": "AI Side Hustle",
+      "publishedAt": "2026-07-05T00:00:00Z",
+      "addedAt": "2026-07-17T09:00:00Z"
     },
     {
       "id": "vid-bibl-claude-code-youtube-tips-ko",
@@ -59,6 +83,18 @@
       "addedAt": "2026-07-13T12:00:00Z"
     },
     {
+      "id": "vid-codex-build-anything-beginner",
+      "youtubeId": "GaYbwONmjSE",
+      "category": "usecase",
+      "title": "Codex로 뭐든 만드는 법 (초보자용 실전 빌드)",
+      "titleEn": "How To Use Codex To Build Anything (for beginners)",
+      "descKo": "Codex를 이용해 실제 프로젝트를 처음부터 끝까지 만들어보는 초보자용 실전 빌드 영상.",
+      "descEn": "A real, start-to-finish build walkthrough using Codex as the coding agent, aimed at beginners.",
+      "channel": "corbin",
+      "publishedAt": "2026-07-05T00:00:00Z",
+      "addedAt": "2026-07-17T09:00:00Z"
+    },
+    {
       "id": "vid-mikey-nocode-claude-money",
       "youtubeId": "qF0-bXhRrTQ",
       "category": "usecase",
@@ -83,17 +119,6 @@
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
-      "id": "vid-vibe-coding-money-ko",
-      "youtubeId": "F5QfQ8ve-zs",
-      "category": "usecase",
-      "title": "바이브 코딩으로 돈 벌 수 있을까?",
-      "titleEn": "Can You Actually Make Money with Vibe Coding?",
-      "descKo": "바이브 코딩으로 실제 수익을 낼 수 있는지 현실적으로 따져보는 한국어 콘텐츠.",
-      "descEn": "A Korean-language reality check on whether vibe coding can actually generate income.",
-      "publishedAt": "2026-04-01T00:00:00Z",
-      "addedAt": "2026-07-12T00:00:00Z"
-    },
-    {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -104,6 +129,18 @@
       "channel": "시현의 모험 Sihyun Adventure",
       "publishedAt": "2026-05-20T07:02:49Z",
       "addedAt": "2026-07-16T09:00:00Z"
+    },
+    {
+      "id": "vid-mcp-crash-course",
+      "youtubeId": "rwOYK8hk7yo",
+      "category": "lecture",
+      "title": "MCP 한 영상으로 끝내기 — 모델 컨텍스트 프로토콜 완전 정복",
+      "titleEn": "Learn MCP in ONE Video | Model Context Protocol Crash Course",
+      "descKo": "MCP(Model Context Protocol) 개념부터 실전 구성까지 한 영상으로 정리한 크래시 코스.",
+      "descEn": "A single-video crash course covering MCP concepts end-to-end, from fundamentals to real setup.",
+      "channel": "DSwithBappy",
+      "publishedAt": "2026-07-14T00:00:00Z",
+      "addedAt": "2026-07-17T09:00:00Z"
     },
     {
       "id": "vid-first-ai-agent-guide",
@@ -128,17 +165,6 @@
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
-      "id": "vid-claude-beginner-guide-ko-2026",
-      "youtubeId": "O6Lw_4Hh0mQ",
-      "category": "lecture",
-      "title": "클로드 초보자 가이드 2026 — 이 영상 하나로 끝",
-      "titleEn": "Claude Beginner's Guide 2026 (Korean)",
-      "descKo": "ChatGPT·Gemini 사용자도 갈아타게 만드는 클로드 입문 강의. 한국어.",
-      "descEn": "A Korean beginner course on Claude that makes ChatGPT/Gemini users reconsider.",
-      "publishedAt": "2026-02-01T00:00:00Z",
-      "addedAt": "2026-07-11T00:00:00Z"
-    },
-    {
       "id": "vid-techwithtim-codex-course",
       "youtubeId": "ZXkeWiWB4xg",
       "category": "lecture",
@@ -149,28 +175,6 @@
       "channel": "Tech With Tim",
       "publishedAt": "2026-07-14T00:00:00Z",
       "addedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "vid-vibe-coding-20-concepts-ko",
-      "youtubeId": "ohYhCpOzLLE",
-      "category": "lecture",
-      "title": "바이브코딩 핵심 개념 20개 총정리 — 멀티 에이전트·스킬·훅·MCP·API",
-      "titleEn": "20 Core Vibe Coding Concepts, Fully Explained (2026)",
-      "descKo": "IDE·컨텍스트 윈도우·멀티 에이전트·MCP 등 바이브 코딩 핵심 개념 20가지를 정리한 강의.",
-      "descEn": "A lecture covering 20 core vibe-coding concepts: IDE, context window, multi-agent, MCP, and more.",
-      "publishedAt": "2026-02-19T00:00:00Z",
-      "addedAt": "2026-07-13T12:00:00Z"
-    },
-    {
-      "id": "vid-agent-orchestration-dream-team",
-      "youtubeId": "JNAqp29J854",
-      "category": "lecture",
-      "title": "에이전트 오케스트레이션 — AI 드림팀 지휘하기",
-      "titleEn": "Agent Orchestration: Directing Your AI Dream Team",
-      "descKo": "여러 전문화된 에이전트에게 작업을 위임하고 조율하는 오케스트레이션 개념과 패턴 설명.",
-      "descEn": "Explains agent orchestration concepts and patterns for delegating work across specialized agents.",
-      "publishedAt": "2026-05-14T00:00:00Z",
-      "addedAt": "2026-07-12T00:00:00Z"
     }
   ]
 }
