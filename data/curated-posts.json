@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-07-17T09:00:00Z",
+  "generatedAt": "2026-07-17T23:05:30Z",
   "posts": [
+    {
+      "id": "curated-20260718-mobius-claude-account-switch",
+      "title": "Mobius — 클로드 코드 한도 차면 자동으로 다음 계정으로 갈아타는 macOS 메뉴바 앱",
+      "body": "GeekNews Show 코너에 올라온 Mobius는 개인·업무용 등 여러 Claude Code 계정을 쓰는 사람을 위해, 사용량 한도에 걸리면 브라우저 재인증 없이 메뉴바 클릭 한 번으로 다음 계정으로 전환하고 한도가 풀리면 원래 계정으로 자동 복귀시켜 주는 macOS 앱입니다. 커뮤니티 기여로 Codex CLI도 지원하며, 토큰은 Claude Code 본체와 동일하게 로컬에 0600 권한으로 저장됩니다. 다만 macOS 14+ 전용이고 구독 계정만 지원하며 API 키·Bedrock·Vertex 인증 방식은 아직 지원하지 않습니다.",
+      "titleEn": "Mobius — a macOS menu-bar app that auto-switches Claude Code accounts when you hit the usage limit",
+      "bodyEn": "Posted in GeekNews's Show section, Mobius targets people juggling multiple Claude Code accounts (personal/work): when one hits its usage limit, a single menu-bar click switches to the next account with no browser re-authentication, then auto-reverts to the original account once limits reset. It supports Codex CLI via a community contribution, and stores tokens locally with 0600 permissions — the same security model as Claude Code itself. Limitations: macOS 14+ only, subscription accounts only, no support yet for API keys, Bedrock, or Vertex auth.",
+      "sourceName": "GeekNews · Mobius",
+      "sourceUrl": "https://news.hada.io/topic?id=31526",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-17T16:00:00Z",
+      "curatedAt": "2026-07-17T23:05:30Z"
+    },
+    {
+      "id": "curated-20260718-browser-rs-mcp-multiagent",
+      "title": "browser-rs-mcp — 크롬 하나로 멀티 에이전트를 동시에 돌리는 6MB 러스트 MCP 브라우저 컨트롤러",
+      "body": "GeekNews Show 코너의 browser-rs-mcp는 에이전트마다 크롬 인스턴스를 따로 띄우면 5개만 돌려도 브라우저만으로 2.5~5GB RAM이 드는 문제를, 순수 Chrome DevTools Protocol(CDP)로 크롬 하나를 여러 에이전트가 탭 단위로 격리 공유하게 만들어 해결한 도구입니다. 서버 바이너리가 6MB에 불과하고, 접근성 트리·네트워크 제어·쿠키·스토리지·PDF·WebAuthn까지 62개 CDP 기반 도구를 제공하며 stdio·HTTP·SSE 인터페이스를 모두 지원합니다. 패치된 브라우저 대신 진짜 크롬과 영구 프로필을 쓰기 때문에 스텔스 탐지 회피에도 유리합니다.",
+      "titleEn": "browser-rs-mcp — a 6MB Rust MCP browser controller sharing one Chrome across multiple agents",
+      "bodyEn": "Also posted in GeekNews's Show section, browser-rs-mcp tackles the memory blowup of running one Chrome instance per agent (2.5-5GB RAM for just five agents) by having multiple agents share a single Chrome instance via raw Chrome DevTools Protocol (CDP), with enforced per-tab isolation. The server binary is just 6MB and exposes 62 CDP-based tools covering accessibility trees, network control, cookies, storage, PDF handling, and WebAuthn, over stdio, HTTP, or SSE. It uses a genuine Chrome build with persistent profiles rather than a patched browser, which also helps avoid stealth-detection flags.",
+      "sourceName": "GeekNews · browser-rs-mcp",
+      "sourceUrl": "https://news.hada.io/topic?id=31524",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-17T15:00:00Z",
+      "curatedAt": "2026-07-17T23:05:30Z"
+    },
+    {
+      "id": "curated-20260718-grok-build-opensource",
+      "title": "xAI, 터미널 코딩 에이전트 'Grok Build' 러스트 소스 오픈소스로 공개",
+      "body": "GeekNews에 소개된 대로 xAI가 자사 터미널 코딩 에이전트 Grok Build를 Apache 2.0 라이선스로 오픈소스 공개했습니다. 러스트로 짠 풀스크린 TUI 위에서 코드베이스 이해·파일 수정·셸 명령 실행·웹 검색·장시간 작업 관리를 수행하며, 인터랙티브·헤드리스·Agent Client Protocol 세 가지 모드를 지원합니다. macOS·리눅스는 공식 지원, 윈도우는 best-effort이며, xAI 모노레포에서 정기적으로 동기화되지만 외부 기여는 받지 않습니다. Claude Code·Codex 외 대안 에이전트 아키텍처를 참고하려는 개발자에게 코드 구조 자체가 좋은 레퍼런스입니다.",
+      "titleEn": "xAI open-sources its terminal coding agent 'Grok Build' in Rust",
+      "bodyEn": "As covered on GeekNews, xAI has open-sourced its terminal-based coding agent, Grok Build, under Apache 2.0. Built in Rust with a full-screen TUI, it handles codebase understanding, file modification, shell command execution, web search, and long-running task management, with interactive, headless, and Agent Client Protocol modes. macOS and Linux are officially supported, Windows is best-effort, and the repo syncs regularly from xAI's internal monorepo — though external contributions aren't accepted. A useful reference for developers curious about an alternative coding-agent architecture beyond Claude Code or Codex.",
+      "sourceName": "GeekNews · xAI",
+      "sourceUrl": "https://github.com/xai-org/grok-build",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-16T00:00:00Z",
+      "curatedAt": "2026-07-17T23:05:30Z"
+    },
+    {
+      "id": "curated-20260718-claude-code-misfeature-autoupdate",
+      "title": "클로드 코드가 몰래 넣은 '60초 뒤 자동 진행' — 안전 게이트를 타임아웃으로 바꾼 미확인 패치",
+      "body": "블로그 글에 따르면 2026년 7월 1일 배포된 Claude Code 2.1.198에서 AskUserQuestion 도구가 60초간 응답이 없으면 자동으로 다음 단계로 넘어가도록 바뀌었는데, 이는 릴리스 노트에도 공식 문서에도 없던 미확인 변경이었습니다. 사람이 승인해야 멈추는 블로킹 게이트가 조용히 60초 타임아웃 게이트로 바뀐 셈이라, 자리를 비운 사이 에이전트가 단독으로 결정을 내릴 수 있게 된 것이 문제로 지적됐고 이틀 만에 수정됐습니다. 저자는 `~/.claude/settings.json`에 `DISABLE_AUTOUPDATER=1`(플러그인 업데이트는 유지하려면 `FORCE_AUTOUPDATE_PLUGINS=1`도 함께)을 설정해 조용한 동작 변경을 막고, `/doctor`로 업데이트 채널을 확인하라고 권합니다.",
+      "titleEn": "Claude Code quietly shipped a '60-second auto-continue' — turning a safety gate into a timeout",
+      "bodyEn": "A blog post details how Claude Code 2.1.198 (shipped July 1, 2026) silently changed the AskUserQuestion tool to auto-continue after 60 seconds of no response — a change absent from both the changelog and official docs. A blocking gate that required human approval to proceed quietly became a 60-second timeout gate, letting the agent make unilateral decisions if a user stepped away; it was fixed within two days once flagged. The author's concrete fix: set `DISABLE_AUTOUPDATER=1` in `~/.claude/settings.json` (plus `FORCE_AUTOUPDATE_PLUGINS=1` to keep plugin updates flowing) to avoid silent behavior changes, and check your update channel with `/doctor`.",
+      "sourceName": "olafalders.com",
+      "sourceUrl": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-17T00:00:00Z",
+      "curatedAt": "2026-07-17T23:05:30Z"
+    },
+    {
+      "id": "curated-20260718-hook-word-replace-tip",
+      "title": "클로드가 'load-bearing' 그만 남발하게 만드는 훅 — MessageDisplay 정규식 치환 스크립트, HN 604점",
+      "body": "HN에서 604점을 받은 글로, 클로드가 반복적으로 남발하는 표현('load-bearing', 'honest take' 등)을 MessageDisplay 훅으로 가로채 정규식 기반 대소문자 무관 치환을 적용해 없애거나 우스꽝스럽게 바꿔버리는 방법을 소개합니다. 스크립트를 `~/.claude/hooks/wordswap.sh`에 저장하고 `~/.claude/settings.json`의 hooks 설정 블록에 등록한 뒤 재시작하면 적용되며, 치환 쌍은 사용자가 원하는 대로 바꿀 수 있어 말투 교정용으로도, 재미용으로도 바로 써볼 수 있는 실전 훅 예제입니다.",
+      "titleEn": "A hook that stops Claude from overusing 'load-bearing' — a regex-swap MessageDisplay script, 604 pts on HN",
+      "bodyEn": "A 604-point HN post introduces a MessageDisplay hook that intercepts Claude's output and swaps out overused phrases ('load-bearing,' 'honest take,' etc.) via case-insensitive regex replacement — either fixing the vocabulary tic or making it deliberately absurd. Save the script to `~/.claude/hooks/wordswap.sh`, register it in the hooks block of `~/.claude/settings.json`, and restart; the replacement pairs are fully customizable, making this a copy-pasteable hook example whether your goal is cleaner output or just comic relief.",
+      "sourceName": "Hacker News · jola.dev",
+      "sourceUrl": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-14T11:46:02Z",
+      "curatedAt": "2026-07-17T23:05:30Z"
+    },
+    {
+      "id": "curated-20260718-agent-talk-cross-session",
+      "title": "agent-talk — 서로 다른 세션·머신·조직의 코딩 에이전트끼리 암호화 메시지로 직접 조율하는 플러그인",
+      "body": "HN에 소개된 오픈소스 agent-talk은 Claude Code, Codex, Antigravity, pi, opencode, GitHub Copilot CLI 등 서로 다른 에이전트가 사람의 중계 없이 직접 메시지를 주고받게 해주는 플러그인입니다. 신뢰할 수 없는 릴레이를 거치더라도 종단간 암호화로 통신 내용을 보호하고, Claude Code·pi·opencode에서는 수신 메시지가 실시간으로 자동 표시됩니다. 단일 리더 없는 P2P 구조라 각 에이전트가 독립적으로 재개 가능하며, 오케스트레이션이나 태스크 관리를 강제하지 않고 순수 통신 프리미티브만 제공해 사용자가 원하는 협업 패턴을 직접 설계할 수 있습니다.",
+      "titleEn": "agent-talk — a plugin letting coding agents across sessions, machines, and orgs coordinate via encrypted messages",
+      "bodyEn": "Featured on HN, the open-source agent-talk plugin lets independent coding agents (Claude Code, Codex, Antigravity, pi, opencode, GitHub Copilot CLI) exchange messages directly instead of routing everything through a human. Communications stay end-to-end encrypted even over an untrusted relay, and Claude Code, pi, and opencode surface incoming messages automatically in real time. It's peer-to-peer with no single leader, so each agent stays independently resumable, and it deliberately provides only messaging primitives — no built-in orchestration or task management — leaving the coordination pattern up to the user.",
+      "sourceName": "Hacker News · agent-talk",
+      "sourceUrl": "https://github.com/xhluca/agent-talk",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-16T16:14:20Z",
+      "curatedAt": "2026-07-17T23:05:30Z"
+    },
     {
       "id": "curated-20260717-codex-encrypt-subagent-prompts",
       "title": "코덱스, 서브에이전트 프롬프트를 암호화하기 시작 — 오케스트레이션 디버깅에 미치는 영향",
@@ -25,19 +103,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-16T00:00:00Z",
-      "curatedAt": "2026-07-17T09:00:00Z"
-    },
-    {
-      "id": "curated-20260717-devto-ghostapproval-symlink-vuln",
-      "title": "[한국어] 2026년 7월 14일 AI·LLM 이슈 다이제스트 — 클로드 코드 등 6개 코딩 어시스턴트 노린 심링크 취약점 'GhostApproval'",
-      "body": "dev.to에 올라온 한국어 주간 AI·LLM 이슈 다이제스트로, 보안 업체 Wiz가 발견한 'GhostApproval' 심링크 취약점을 다룹니다. 클로드 코드·Cursor를 포함한 코딩 어시스턴트 6종이 파일 경로 승인 시 심볼릭 링크를 제대로 검증하지 않아, 승인된 것처럼 보이는 경로가 실제로는 다른 위험한 파일을 가리킬 수 있는 문제입니다. 같은 글에서 Gemini 3.5 Pro 출시 시점과 GPT-5.6 작업당 과금 정책에 대한 반발도 함께 정리해, 에이전트를 다루는 개발자가 이번 주 챙겨야 할 보안·정책 이슈를 한 번에 훑을 수 있습니다.",
-      "titleEn": "[Korean] July 14, 2026 AI/LLM issue digest — 'GhostApproval' symlink vulnerability hits Claude Code and 5 other coding assistants",
-      "bodyEn": "A Korean-language weekly AI/LLM issue digest on dev.to covers 'GhostApproval,' a symlink vulnerability found by security firm Wiz. Six coding assistants, including Claude Code and Cursor, failed to properly validate symbolic links during file-path approval, meaning a path that looks approved could actually point to a different, unsafe file. The same post rounds up Gemini 3.5 Pro's release timing and backlash over GPT-5.6's per-task pricing, giving agent-using developers a quick sweep of this week's security and policy issues.",
-      "sourceName": "dev.to",
-      "sourceUrl": "https://dev.to/hyeong/2026nyeon-7weol-14il-aillm-isyu-daijeseuteu-eijeonteuga-samusilro-deuleooneunde-mundansogeun-nuga-hana-5do",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-14T00:00:00Z",
       "curatedAt": "2026-07-17T09:00:00Z"
     },
     {
@@ -93,19 +158,6 @@
       "curatedAt": "2026-07-16T09:00:00Z"
     },
     {
-      "id": "curated-20260716-starfleet-erdos-codex-parallel",
-      "title": "코덱스 계정 20개를 병렬로 돌려 에르되시 미해결 문제 20개에 도전한 실험",
-      "body": "starfleetmath.com에 공개된 실험으로, 서로 다른 Codex 인스턴스 20개를 동시에 띄워 각각 다른 에르되시(Erdős) 미해결 수학 문제를 맡기는 팬아웃 방식으로 진행했습니다. 코딩 에이전트를 순수 코딩이 아니라 정리 증명·반례 탐색 같은 연구형 작업에 병렬 오케스트레이션하는 실전 사례로, HN에서 162점을 받았습니다. 여러 독립적 문제를 에이전트별로 격리해 동시에 진행하는 팬아웃 패턴은 코딩 작업에도 그대로 응용할 수 있습니다.",
-      "titleEn": "Running 20 Codex accounts in parallel to tackle 20 unsolved Erdős problems",
-      "bodyEn": "An experiment published on starfleetmath.com spun up 20 separate Codex instances in parallel, each assigned a different unsolved Erdős math problem — a fan-out orchestration pattern applied to research-style work (theorem proving, counterexample search) rather than plain coding. It hit 162 points on HN as a concrete demonstration of running many isolated agent instances concurrently on independent sub-problems, a pattern directly reusable for parallel coding-agent workflows.",
-      "sourceName": "Hacker News · starfleetmath",
-      "sourceUrl": "https://www.starfleetmath.com/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-15T00:00:00Z",
-      "curatedAt": "2026-07-16T09:00:00Z"
-    },
-    {
       "id": "curated-20260716-deja-vu-agent-memory",
       "title": "deja-vu — SSH로 동기화되는 오픈소스 코딩 에이전트 영구 메모리 레이어",
       "body": "HN에 소개된 오픈소스 deja-vu는 Claude Code 같은 코딩 에이전트가 세션이 끝나면 맥락을 잊어버리는 문제를 SSH 동기화 기반의 가벼운 자체 호스팅 메모리 레이어로 해결합니다. 벤더 종속 없이 여러 머신·여러 세션에 걸쳐 학습한 내용을 이어받을 수 있도록 설계됐고, HN에서 103점을 받았습니다. 세션 간 컨텍스트 이월이 필요한 장기 프로젝트에서 바로 시도해볼 만한 경량 대안입니다.",
@@ -155,45 +207,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-12T17:13:07Z",
-      "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "curated-20260716-juggler-gui-agent",
-      "title": "Juggler — JUCE 창시자가 만든 오픈소스 GUI 코딩 에이전트, HN 276점",
-      "body": "오디오 소프트웨어 프레임워크 JUCE를 만든 개발자가 공개한 오픈소스 Juggler는 터미널 전용이 아니라 GUI 기반으로 코딩 에이전트를 다루는 도구입니다. 터미널에 익숙하지 않은 개발자나 여러 작업을 동시에 시각적으로 확인하고 싶은 사용자를 겨냥했고, HN에서 276점을 받아 GUI형 에이전트 UX에 대한 관심을 보여줬습니다. 터미널 중심 워크플로 외에 대안을 찾는 팀이라면 살펴볼 만합니다.",
-      "titleEn": "Juggler — an open-source GUI coding agent from the creator of JUCE, 276 points on HN",
-      "bodyEn": "Juggler is an open-source coding agent built by the developer behind the JUCE audio framework, aimed at giving coding agents a GUI instead of a terminal-only interface. It targets developers less comfortable in a terminal, or anyone who wants to visually track multiple concurrent agent tasks at once, and its 276 points on HN signal real interest in GUI-first agent UX as an alternative to CLI-centric workflows.",
-      "sourceName": "Hacker News · Juggler",
-      "sourceUrl": "https://github.com/juggler-ai/juggler",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-12T00:00:00Z",
-      "curatedAt": "2026-07-16T09:00:00Z"
-    },
-    {
-      "id": "curated-20260715-clawk-disposable-vm",
-      "title": "Clawk — 코딩 에이전트를 노트북 대신 일회용 VM에서 돌리는 오픈소스 샌드박스, HN 222점",
-      "body": "오픈소스 Clawk는 Claude·Codex 등 코딩 에이전트를 호스트 파일·자격증명에 전혀 접근하지 못하는 일회용 macOS 가상머신 안에서 실행합니다. Apple Virtualization.framework 기반이며, 커널 수준 아웃바운드 방화벽이 게스트 안 root 권한으로도 우회 불가능하게 네트워크를 통제합니다. clawk, clawk run codex, clawk snapshot/resume, clawk work [티켓] 같은 명령으로 스냅샷 저장·복원과 다중 저장소 티켓 모드까지 지원하며 Docker나 sudo 없이 동작합니다. Go 1.26+ 소스 설치, Apache-2.0 라이선스.",
-      "titleEn": "Clawk — an open-source sandbox that runs coding agents in disposable VMs instead of your laptop, 222 pts on HN",
-      "bodyEn": "Open-source Clawk runs agents like Claude and Codex inside disposable macOS VMs (via Apple's Virtualization.framework) with zero access to host files or credentials. A kernel-level outbound network filter enforces allow-lists that even root inside the guest can't bypass. Commands like `clawk`, `clawk run codex`, `clawk snapshot/resume`, and `clawk work [ticket]` cover snapshotting and multi-repo ticket-mode workflows, with no Docker daemon or sudo required. Builds from source with Go 1.26+; Apache-2.0 licensed.",
-      "sourceName": "Hacker News · Clawk",
-      "sourceUrl": "https://github.com/clawkwork/clawk",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-13T14:02:03Z",
-      "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "curated-20260715-mindwalk-3d-agent-replay",
-      "title": "Mindwalk — 코딩 에이전트 세션을 코드베이스 3D 지도 위에서 재생해 리뷰하는 오픈소스 도구",
-      "body": "Mindwalk는 클로드 코드 같은 에이전트의 세션 로그를 저장소 파일 구조를 본뜬 3D '나이트맵'으로 시각화합니다. 조회한 파일은 짙은 녹색, 읽은 파일은 흰색, 수정한 파일은 호박색으로 빛나고, 스페이스바·방향키로 세션을 스크러빙하며 컨텍스트 압축·서브에이전트 실행·사용자 턴 지점을 타임라인에서 클릭해 이동할 수 있습니다. 로컬 LLM으로 탐색 범위·검증 품질을 평가하는 기능도 있고, 평가 시에도 데이터가 외부로 나가지 않습니다. Go 서버 + React/Three.js 프론트엔드, MIT 라이선스.",
-      "titleEn": "Mindwalk — an open-source tool that replays coding-agent sessions on a 3D map of your codebase",
-      "bodyEn": "Mindwalk turns an agent session log (e.g. from Claude Code) into a 3D 'night map' shaped like your repo's file tree — viewed files glow dark green, read files white, edited files amber. Scrub sessions with space/arrow keys and jump to marked context-compaction, subagent-launch, or user-turn events on a timeline. It can also run local-LLM judges to score exploration scope and verification quality, with nothing leaving your machine even during evaluation. Go server + React/Three.js frontend, MIT licensed.",
-      "sourceName": "Hacker News · Mindwalk",
-      "sourceUrl": "https://github.com/cosmtrek/mindwalk",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-12T05:51:32Z",
       "curatedAt": "2026-07-15T09:00:00Z"
     },
     {
