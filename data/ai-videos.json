@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-07-17T23:05:30Z",
+  "generatedAt": "2026-07-19T09:00:00Z",
   "videos": [
-    {
-      "id": "vid-1000-agents-spawn",
-      "youtubeId": "iJHJaTOwggs",
-      "category": "tip",
-      "title": "클로드 코드로 에이전트 1,000개 동시에 띄우는 법",
-      "titleEn": "Claude Code Can Spawn 1,000 Agents (Here's How)",
-      "descKo": "다이내믹 워크플로 기능으로 대규모 서브에이전트를 팬아웃하는 방법을 설명합니다.",
-      "descEn": "Explains Claude Code's Dynamic Workflows feature for fanning out large numbers of parallel subagents.",
-      "publishedAt": "2026-05-29T00:00:00Z",
-      "addedAt": "2026-07-16T09:00:00Z"
-    },
     {
       "id": "vid-claude-2026-changes-tips",
       "youtubeId": "bj04doEDOY4",
@@ -72,15 +61,16 @@
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
-      "id": "vid-boris-cherny-workflow",
-      "youtubeId": "aqtseECSdtY",
-      "category": "usecase",
-      "title": "클로드 코드 창시자 보리스 체르니의 실제 워크플로우 셋업",
-      "titleEn": "How the Creator of Claude Code Sets Up His Workflow",
-      "descKo": "클로드 코드를 만든 보리스 체르니가 자신의 실제 일상 워크플로우를 직접 설명합니다.",
-      "descEn": "Boris Cherny, creator of Claude Code, walks through his real daily workflow setup.",
-      "publishedAt": "2026-01-03T00:00:00Z",
-      "addedAt": "2026-07-13T12:00:00Z"
+      "id": "vid-standarity-cc-best-practices",
+      "youtubeId": "73sxvoRCmVc",
+      "category": "tip",
+      "title": "클로드 코드 베스트 프랙티스 — 앤스로픽 엔지니어링 가이드 하이라이트",
+      "titleEn": "Claude Code Best Practices: Anthropic's Engineering Guide, Read and Highlighted",
+      "descKo": "앤스로픽 공식 클로드 코드 엔지니어링 가이드를 한 줄씩 짚어가며 컨텍스트 관리·검증 루프·탐색-계획-코드 흐름을 설명.",
+      "descEn": "Walks through Anthropic's official Claude Code engineering guide line by line — context management, verification loops, explore-plan-code flow.",
+      "channel": "Standarity",
+      "publishedAt": "2026-07-16T00:00:00Z",
+      "addedAt": "2026-07-19T09:00:00Z"
     },
     {
       "id": "vid-codex-build-anything-beginner",
@@ -119,6 +109,18 @@
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
+      "id": "vid-amit-qoder-free-agent",
+      "youtubeId": "YIF5b5YHhLA",
+      "category": "usecase",
+      "title": "무료 AI 코딩 에이전트 Qoder, 커서보다 나은가 — 실전 빌드 3종",
+      "titleEn": "This FREE AI Coding Agent Just Surprised Me (Better Than Cursor?)",
+      "descKo": "무료 에이전틱 코딩 툴 Qoder로 태양계 탐색기·분해도 시계뷰 등 사이트 3개를 프롬프트 하나로 만들어보는 실전 영상.",
+      "descEn": "Builds three full sites (solar-system explorer, exploded watch view, self-directed site) from single prompts using the free agentic coding tool Qoder.",
+      "channel": "Amit Explains Tech",
+      "publishedAt": "2026-07-16T00:00:00Z",
+      "addedAt": "2026-07-19T09:00:00Z"
+    },
+    {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -154,17 +156,6 @@
       "addedAt": "2026-07-16T09:00:00Z"
     },
     {
-      "id": "vid-claude-code-23-tips-ko",
-      "youtubeId": "1_bRmkUvjHA",
-      "category": "lecture",
-      "title": "Claude Code 왕초보 입문 — 23가지 팁, 50분 완전정복 (2026)",
-      "titleEn": "Claude Code for Absolute Beginners — 23 Tips, 50-Minute Full Guide (2026)",
-      "descKo": "설치부터 실전 활용까지 23가지 팁을 50분 안에 정리한 한국어 클로드코드 완전정복 가이드.",
-      "descEn": "A 50-minute Korean walkthrough covering 23 tips from install to real-world Claude Code usage.",
-      "publishedAt": "2026-02-01T00:00:00Z",
-      "addedAt": "2026-07-12T00:00:00Z"
-    },
-    {
       "id": "vid-techwithtim-codex-course",
       "youtubeId": "ZXkeWiWB4xg",
       "category": "lecture",
@@ -175,6 +166,18 @@
       "channel": "Tech With Tim",
       "publishedAt": "2026-07-14T00:00:00Z",
       "addedAt": "2026-07-15T09:00:00Z"
+    },
+    {
+      "id": "vid-jsmastery-ai-engineering-2026",
+      "youtubeId": "tz-CPq3WgeA",
+      "category": "lecture",
+      "title": "2026년 AI 엔지니어링 배우기 — 에이전트로 풀스택 AI 웹사이트 구축",
+      "titleEn": "Learn AI Engineering in 2026 | Build a Full Stack AI Websites with Agents",
+      "descKo": "Next.js·Supabase·pgvector·Clerk로 프로덕션급 AI 뉴스 플랫폼을 만들며, 에이전트가 직접 구현 계획을 작성하고 사람이 승인하는 '바이브 엔지니어링' 워크플로우를 가르치는 강의.",
+      "descEn": "A full course building a production-style AI news platform (Next.js/Supabase/pgvector/Clerk) around a 'vibe engineering' workflow where the agent drafts its own implementation plan for human approval.",
+      "channel": "JavaScript Mastery",
+      "publishedAt": "2026-07-17T00:00:00Z",
+      "addedAt": "2026-07-19T09:00:00Z"
     }
   ]
 }

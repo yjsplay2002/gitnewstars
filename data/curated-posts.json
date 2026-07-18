@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-07-17T23:05:30Z",
+  "generatedAt": "2026-07-19T09:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260719-claude-opencode-token-overhead",
+      "title": "클로드 코드, 프롬프트 읽기 전 토큰 3만3천 개 먼저 씀 — OpenCode는 7천 개, HN 702점",
+      "body": "systima.ai가 시스템 프롬프트·툴 정의 등 클로드 코드의 시작 오버헤드를 실측한 결과, 사용자가 첫 프롬프트를 입력하기도 전에 이미 약 33,000토큰이 소모되는 것으로 나타났습니다. 반면 오픈소스 대안인 OpenCode는 동일 기준으로 약 7,000토큰에 그쳐, 컨텍스트 예산이 빠듯한 장시간 세션에서는 이 차이가 누적 비용과 컨텍스트 소진 속도에 직접 영향을 줍니다. HN에서 702점을 받으며 에이전트 하네스 선택 시 툴 개수·시스템 프롬프트 길이도 함께 따져봐야 한다는 논쟁으로 이어졌습니다.",
+      "titleEn": "Claude Code burns 33k tokens before reading your prompt — OpenCode only 7k, 702 pts on HN",
+      "bodyEn": "systima.ai measured the startup overhead (system prompt + tool definitions) of Claude Code and found it consumes roughly 33,000 tokens before a user even types a first prompt, versus about 7,000 tokens for the open-source alternative OpenCode under the same measurement. In long sessions with a tight context budget, that gap directly affects accumulated cost and how fast context gets exhausted. The 702-point HN discussion turned into a broader debate about weighing tool count and system-prompt length when picking an agent harness.",
+      "sourceName": "Hacker News · systima.ai",
+      "sourceUrl": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-12T00:00:00Z",
+      "curatedAt": "2026-07-19T09:00:00Z"
+    },
+    {
+      "id": "curated-20260719-spare-mac-claude-code",
+      "title": "예비용 맥 하나로 클로드 코드 전담 서버 만들기 — 단계별 셋업 가이드, HN 156점",
+      "body": "개발자 ykdojo가 자신의 블로그에 안 쓰는 맥을 클로드 코드 전용 상시 구동 서버로 세팅하는 전 과정을 공개했습니다. 원격 SSH 접속, 화면 잠금 방지, 자동 재시작 설정까지 다뤄 노트북을 점유하지 않고도 장시간 에이전틱 작업을 백그라운드에서 돌릴 수 있게 합니다. HN에서 156점을 받았고, 여분의 맥이나 미니PC가 있는 개발자가 그대로 따라 할 수 있는 실전 셋업 문서입니다.",
+      "titleEn": "Turn a spare Mac into a dedicated Claude Code server — step-by-step setup guide, 156 pts on HN",
+      "bodyEn": "Developer ykdojo published a full walkthrough for turning an unused Mac into an always-on machine dedicated to running Claude Code, covering remote SSH access, preventing sleep/screen-lock, and auto-restart configuration — letting long agentic tasks run in the background without tying up your daily laptop. It picked up 156 points on HN and is a concrete, copy-pasteable setup guide for anyone with a spare Mac or mini PC.",
+      "sourceName": "Hacker News · ykdojo.github.io",
+      "sourceUrl": "https://ykdojo.github.io/claude-controls-mac/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-18T00:00:00Z",
+      "curatedAt": "2026-07-19T09:00:00Z"
+    },
+    {
+      "id": "curated-20260719-mac-mini-247-agents",
+      "title": "599달러 맥미니로 AI 에이전트 24/7 자동화 — 라우터+전문 에이전트+텔레그램 요약 구조",
+      "body": "개발자 samhartley가 DEV Community에 공개한 구성으로, 599달러 맥미니(유휴 전력 15W)에 요청을 분류하는 '라우터 에이전트'와 코드·글쓰기 등 역할별 '전문 에이전트'를 두고 매일 텔레그램으로 요약을 받는 워크플로우를 만들었습니다. 라우팅에는 1~3초, 코드 생성에는 8~15초가 걸린다고 실측치를 공개해, 저전력 상시 서버로 개인 AI 에이전트 파이프라인을 굴리려는 사람에게 구체적 참고가 됩니다.",
+      "titleEn": "Running AI agents 24/7 on a $599 Mac Mini — router + specialist agents + Telegram daily summary",
+      "bodyEn": "Developer samhartley documented on DEV Community a setup using a $599 Mac Mini (15W idle power) with a 'router agent' classifying incoming requests and role-specific 'specialist agents' for coding/writing tasks, feeding a daily Telegram summary. Measured latencies: 1-3s for routing, 8-15s for code generation — concrete numbers for anyone wanting to run a personal AI agent pipeline on a low-power always-on box.",
+      "sourceName": "DEV Community",
+      "sourceUrl": "https://dev.to/samhartley_dev/i-automated-my-entire-dev-workflow-with-ai-agents-running-247-on-a-mac-mini-1ikc",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-17T00:00:00Z",
+      "curatedAt": "2026-07-19T09:00:00Z"
+    },
+    {
+      "id": "curated-20260719-ai-music-video-arena",
+      "title": "100달러로 AI 뮤직비디오 끝까지 — 클로드 페이블5 vs GPT-5.6 Sol 실전 비교",
+      "body": "tryai.dev가 기획부터 렌더링까지 전 과정을 100달러 예산으로 진행하며 클로드 Fable 5와 GPT-5.6 Sol을 정면 비교한 실전 사례입니다. 대본·스토리보드·음악 프롬프트 설계는 두 모델이 비슷했지만, 최종 비용과 결과물 품질에서 뚜렷한 차이가 났다고 밝혀 실제 프로덕션에 AI를 투입할 때 모델 선택 기준을 구체적으로 보여줍니다. HN에서 394점을 받았습니다.",
+      "titleEn": "A $100 AI music video, start to finish — Claude Fable 5 vs GPT-5.6 Sol head-to-head",
+      "bodyEn": "tryai.dev ran a full concept-to-render AI music video production on a $100 budget, directly comparing Claude Fable 5 against GPT-5.6 Sol. Script, storyboard, and music-prompt design came out similar between the two models, but final cost and output quality diverged clearly — a concrete data point for choosing a model for real production work. It picked up 394 points on HN.",
+      "sourceName": "Hacker News · tryai.dev",
+      "sourceUrl": "https://www.tryai.dev/blog/ai-music-video-arena-claude-vs-gpt-5.6",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-16T00:00:00Z",
+      "curatedAt": "2026-07-19T09:00:00Z"
+    },
+    {
+      "id": "curated-20260719-rgte-framework-ko",
+      "title": "클로드4 에이전트 모드로 업무 완전 자동화 — R-G-T-E(역할-목표-도구-평가) 프롬프트 설계법",
+      "body": "blogging.kr에 소개된 실전 가이드로, 클로드 에이전트 모드(컴퓨터 사용 자동화)를 위한 구조화 프롬프트 프레임워크 'R-G-T-E'(Role-Goal-Tool-Evaluation)를 제안합니다. 고객 지원 티켓 자동 분류·라우팅 예시를 통해 역할 정의, 목표 명시, 사용 가능 도구 제한, 완료 기준(평가) 설정을 각각 어떻게 프롬프트에 녹이는지 구체적으로 보여줍니다. 제로터치 자동화를 시도하는 팀이 바로 적용해볼 수 있는 템플릿입니다.",
+      "titleEn": "Zero-touch automation with Claude 4 agent mode — the R-G-T-E (Role-Goal-Tool-Evaluation) prompt framework",
+      "bodyEn": "A practical guide on blogging.kr proposes 'R-G-T-E' (Role-Goal-Tool-Evaluation), a structured prompt framework for Claude's agent/computer-use mode. Using a customer-support ticket auto-routing example, it shows concretely how to encode role definition, explicit goals, restricted tool access, and completion criteria (evaluation) into a single prompt — a template teams can apply directly when attempting zero-touch automation.",
+      "sourceName": "blogging.kr",
+      "sourceUrl": "https://www.blogging.kr/2026/07/claude-4.html",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-10T00:00:00Z",
+      "curatedAt": "2026-07-19T09:00:00Z"
+    },
+    {
+      "id": "curated-20260719-workflow-pipeline-ko",
+      "title": "채팅 그만, '워크플로우'로 — 입력→처리→출력 3단계 AI 업무 자동화 설계",
+      "body": "blogging.kr이 소개한 설계 패턴으로, 단발성 채팅 대신 [입력 표준화 → 사고과정 모듈화 → 출력 형식 지정]의 3단계 파이프라인으로 AI 업무 자동화를 구성하라고 제안합니다. 실제 예시로 매일 아침 시장 리포트를 자동 생성해 슬랙에 올리되, 사람이 승인해야 최종 발송되는 휴먼인더루프 검토 게이트를 끼워 넣는 구조를 보여줍니다. 반복 업무를 일회성 프롬프트가 아니라 재사용 가능한 시스템으로 만들고 싶은 실무자에게 구체적인 설계 템플릿입니다.",
+      "titleEn": "Stop chatting, build a 'workflow' — a 3-stage input→process→output AI automation design",
+      "bodyEn": "blogging.kr lays out a design pattern for AI work automation as a 3-stage pipeline — standardize input, modularize the reasoning/chain-of-thought step, specify output format — instead of one-off chat prompts. As a worked example, it shows an automated daily-morning market-report generator that posts to Slack behind a human-in-the-loop approval gate before final send. A concrete design template for turning a repeated task into a reusable system rather than a one-off prompt.",
+      "sourceName": "blogging.kr",
+      "sourceUrl": "https://www.blogging.kr/2026/07/ai_01086721903.html",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-17T00:00:00Z",
+      "curatedAt": "2026-07-19T09:00:00Z"
+    },
     {
       "id": "curated-20260718-mobius-claude-account-switch",
       "title": "Mobius — 클로드 코드 한도 차면 자동으로 다음 계정으로 갈아타는 macOS 메뉴바 앱",
@@ -80,45 +158,6 @@
       "curatedAt": "2026-07-17T23:05:30Z"
     },
     {
-      "id": "curated-20260717-codex-encrypt-subagent-prompts",
-      "title": "코덱스, 서브에이전트 프롬프트를 암호화하기 시작 — 오케스트레이션 디버깅에 미치는 영향",
-      "body": "OpenAI가 Codex의 서브에이전트 간 위임 프롬프트를 암호화하기 시작하면서 HN에서 424점을 받으며 논쟁이 붙었습니다. 멀티 에이전트 오케스트레이션을 직접 구성하는 개발자 입장에서는 서브에이전트가 실제로 어떤 지시를 받는지 로그로 확인할 수 없게 돼, 팬아웃 파이프라인 디버깅이 어려워진다는 반발이 큽니다. 반대로 프롬프트 인젝션이나 유출 방지 관점에서는 타당하다는 의견도 있어, 에이전트 오케스트레이션 도구를 설계할 때 투명성과 보안 사이의 트레이드오프를 보여주는 사례입니다.",
-      "titleEn": "Codex starts encrypting sub-agent prompts — what it means for debugging orchestration",
-      "bodyEn": "OpenAI began encrypting the delegation prompts Codex sends to its sub-agents, sparking a 424-point HN debate. Developers who build multi-agent orchestration pipelines pushed back because they can no longer inspect exactly what instructions a sub-agent received, making fan-out pipelines harder to debug; others argued it's justified as a defense against prompt injection and instruction leakage. A concrete case study in the transparency-vs-security tradeoff anyone designing agent-orchestration tooling will hit.",
-      "sourceName": "Hacker News · GitHub",
-      "sourceUrl": "https://github.com/openai/codex/issues/28058",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-14T11:21:32Z",
-      "curatedAt": "2026-07-17T09:00:00Z"
-    },
-    {
-      "id": "curated-20260717-databricks-coding-agent-benchmark",
-      "title": "Databricks, 수백만 줄 규모 실제 코드베이스로 코딩 에이전트 자체 벤치마크 — 하네스 차이가 비용 2배 좌우",
-      "body": "Databricks 엔지니어링 블로그가 SWE-Bench 같은 표준 벤치마크 대신 자사의 수백만 줄 규모 실제 코드베이스와 실제 병합된 PR을 기준으로 코딩 에이전트를 평가한 결과를 공개했습니다. 같은 모델이라도 감싸는 하네스(에이전트 프레임워크) 구성에 따라 비용이 2배 이상 갈렸고, GLM 5.2가 품질에서 Opus 4.8과 통계적으로 동률을 이루면서도 비용은 더 낮았다고 밝혔습니다. 모델 선택보다 하네스·프롬프트 구조가 실전 비용을 좌우한다는, 실제 프로덕션 규모에서 나온 구체적 수치입니다.",
-      "titleEn": "Databricks built its own coding-agent benchmark on a real multi-million-line codebase — harness choice swings cost 2x",
-      "bodyEn": "Databricks' engineering blog published results from benchmarking coding agents against real merged PRs on its own multi-million-line production codebase, instead of a standard benchmark like SWE-Bench. It found the harness (agent framework) wrapping a model swings cost by more than 2x even with the same underlying model, and that GLM 5.2 statistically tied Opus 4.8 on quality while costing less. Concrete production-scale numbers showing harness and prompt structure matter as much as model choice for real-world cost.",
-      "sourceName": "Databricks Engineering Blog",
-      "sourceUrl": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-16T00:00:00Z",
-      "curatedAt": "2026-07-17T09:00:00Z"
-    },
-    {
-      "id": "curated-20260717-lmstudio-bionic-open-models",
-      "title": "LM Studio Bionic — 오픈소스 모델을 위한 로컬 AI 에이전트, HN 94점",
-      "body": "LM Studio가 공개한 'Bionic'은 로컬에서 돌리는 오픈 가중치 모델을 대상으로 한 에이전트 실행 환경으로, 클라우드 API 없이도 파일 조작·도구 호출 같은 에이전틱 작업을 로컬 모델로 수행할 수 있게 설계됐습니다. 클라우드 코딩 에이전트 비용·데이터 유출을 우려하는 팀이 로컬 모델 기반 에이전트 워크플로를 검토할 때 참고할 만한 구체적 대안입니다.",
-      "titleEn": "LM Studio Bionic — a local AI agent runtime for open-weight models, 94 pts on HN",
-      "bodyEn": "LM Studio released 'Bionic,' an agent runtime built for locally-run open-weight models, letting agentic work like file edits and tool calls run entirely on a local model without a cloud API. A concrete option for teams weighing local-model agent workflows against the cost and data-exposure concerns of cloud coding agents.",
-      "sourceName": "Hacker News · LM Studio",
-      "sourceUrl": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-16T20:18:15Z",
-      "curatedAt": "2026-07-17T09:00:00Z"
-    },
-    {
       "id": "curated-20260717-sx-dropbox-skill-server",
       "title": "Sx 2.0 — 드롭박스 폴더 하나로 팀에 AI 스킬을 배포하는 도구, HN 44점",
       "body": "Show HN에 올라온 Sx 2.0은 Claude Code 같은 에이전트용 스킬을 공유 드롭박스 폴더에 넣기만 하면 팀 전체에 동기화·배포되도록 만든 경량 도구입니다. 별도 서버나 패키지 레지스트리 없이도 팀이 프롬프트·스킬 파일을 표준화된 방식으로 공유할 수 있어, 스킬 배포 파이프라인을 아직 갖추지 못한 소규모 팀이 바로 시도해볼 만합니다.",
@@ -171,32 +210,6 @@
       "curatedAt": "2026-07-16T09:00:00Z"
     },
     {
-      "id": "curated-20260715-coding-agents-think-ahead",
-      "title": "논문: 코딩 에이전트는 실제로 편집하기 최대 25단계 전부터 결과를 '미리 안다'",
-      "body": "최신 연구에 따르면 코딩 에이전트로 쓰이는 언어모델은 디스크에 실제로 기록되기 전 미래 편집 결과를 내부 표현에 이미 담고 있습니다. 미래 편집이 파싱에 성공할지, 테스트를 통과할지, 버그를 만들지를 예측하도록 훈련한 프로브가 실제 편집이 일어나기까지 최대 약 25스텝 전부터 우연보다 유의미하게 높은 정확도로 예측에 성공했습니다. 연구진은 이를 에이전트의 '잠재적 프로그래밍 지평(latent programming horizon)'이라 부르며, 이 내부 표현을 활용하면 에이전트의 계획 결정에 개입할 여지가 생긴다고 봅니다.",
-      "titleEn": "Paper: coding agents already 'know' the outcome of an edit up to 25 steps before making it",
-      "bodyEn": "New research finds that LLMs used as coding agents encode future edit outcomes in their internal representations before those edits are ever written to disk. Probes trained to predict whether a future edit will parse, pass tests, or introduce a bug succeed above chance up to roughly 25 steps ahead of when the edit is actually made. The authors call this the agent's 'latent programming horizon' and suggest it opens room to intervene in an agent's planning decisions using that internal signal.",
-      "sourceName": "Hacker News · arXiv",
-      "sourceUrl": "https://arxiv.org/abs/2607.05188",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-14T12:28:09Z",
-      "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "curated-20260715-microsoft-claude-code-copilot-study",
-      "title": "MS 엔지니어 수만 명 실측 — 클로드 코드·코파일럿 CLI 도입 후 PR 병합 24% 증가, 확산은 '동료 효과'",
-      "body": "마이크로소프트 엔지니어 수만 명을 대상으로 한 2026년 초 클로드 코드·깃허브 코파일럿 CLI 도입 연구에 따르면, 하향식 지시보다 동료의 실제 사용 모습(사회적 네트워크)이 초기 도입을 견인했고, 지속 사용 여부는 인구통계보다 '얼마나 활발히 코딩하는 엔지니어인가'와 더 관련이 깊었습니다. 도입자는 그렇지 않았을 경우보다 PR을 약 24% 더 많이 병합했고, 이 효과는 4개월 관찰 기간 내내 유지돼 일시적 신기함 효과가 아님을 시사합니다. 다만 연구진은 '병합된 PR이 곧 전달된 가치는 아니다'라고 선을 그으며, 조직이 롤아웃 전략을 짤 때 '눈에 보이는 동료 사용'을 핵심에 둬야 한다고 조언합니다.",
-      "titleEn": "A study of tens of thousands of Microsoft engineers: Claude Code/Copilot CLI adoption raised merged PRs 24%, driven by peer visibility",
-      "bodyEn": "A study tracking tens of thousands of Microsoft engineers through the early-2026 rollout of Claude Code and GitHub Copilot CLI found that peer visibility — seeing colleagues actually use the tools — drove adoption more than top-down mandates, and that retention correlated more with how actively an engineer already coded than with demographics. Adopters merged roughly 24% more pull requests than they otherwise would have, an effect that held steady across the full 4-month window rather than fading as novelty wore off. The authors caution that a merged PR isn't the same as delivered value, and recommend organizations center 'visible peer use' in their rollout strategy.",
-      "sourceName": "Hacker News · arXiv",
-      "sourceUrl": "https://arxiv.org/abs/2607.01418",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-13T21:43:51Z",
-      "curatedAt": "2026-07-15T09:00:00Z"
-    },
-    {
       "id": "curated-20260715-ploy-gpt56-migration",
       "title": "프로덕션 AI 에이전트를 GPT-5.6로 옮긴 실전기 — 속도 2.2배, 비용 27% 절감, 그리고 3가지 함정",
       "body": "AI 코딩 스타트업 Ploy가 프로덕션 에이전트를 Claude Opus 4.8에서 GPT-5.6 Sol로 옮긴 후기입니다. 빌드 시간이 8분에서 3분 42초로 2.2배 빨라지고 빌드당 비용은 $3.06에서 $2.22로 27% 줄었지만, 이행 과정에서 세 가지 함정을 만났습니다: GPT-5.6이 선택적 매개변수 25개를 전부 기본값으로 채워 파일 읽기의 52~64%가 빈 결과를 반환한 문제(스키마를 'nullable 필수'로 변환해 해결), 부분 프리픽스 매칭이 사라진 프롬프트 캐싱 구조 차이(3단 캐시 브레이크포인트 재설계로 캐시 적중률을 0%에서 83.7%로 개선), 서버 측 추론 참조로 인한 간헐적 실패(store: false 설정으로 해결). 핵심 교훈은 '모델 벤치마크보다 평가 하네스 자체의 프로바이더별 차이부터 고쳐야 한다'는 것입니다.",
@@ -221,19 +234,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-12T00:00:00Z",
       "curatedAt": "2026-07-13T12:00:00Z"
-    },
-    {
-      "id": "curated-20260712-clien-velooga-codex-fullstack",
-      "title": "[한국어] Codex로 인플루언서 마케팅 플랫폼 '벨루가' 풀스택 구축 후기",
-      "body": "클리앙 후기로, VSCode+Codex로 개발하고 프론트는 Cloudflare Pages, API는 Fly.io, 백엔드는 Supabase로 배포한 인플루언서 매칭 플랫폼 '벨루가(Velooga)' 제작기입니다. 실제 서비스 규모의 풀스택을 Codex 중심으로 완성한 구체적 스택 구성이 참고할 만합니다.",
-      "titleEn": "[Korean] Building 'Velooga,' a full-stack influencer-marketing platform with Codex",
-      "bodyEn": "A Clien post detailing 'Velooga,' an influencer-matching platform built with VSCode+Codex for development, deployed on Cloudflare Pages (frontend), Fly.io (API), and Supabase (backend). A concrete real-scale full-stack reference for Codex-centric vibe coding.",
-      "sourceName": "클리앙",
-      "sourceUrl": "https://www.clien.net/service/board/cm_app/19225186",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-11T00:00:00Z",
-      "curatedAt": "2026-07-12T12:00:00Z"
     },
     {
       "id": "curated-20260711-clien-appintoss-vibecoding",
