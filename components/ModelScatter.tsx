@@ -3,15 +3,26 @@
 // Intelligence-vs-price scatter (artificialanalysis.ai style):
 // x = blended price (3:1 input:output) on a log scale, y = SWE-bench %.
 // Upper-left quadrant = best value.
-import type { Dict } from "@/lib/i18n";
+import { useState } from "react";
+import type { Dict, Lang } from "@/lib/i18n";
+
+export type EffortInfo = {
+  bench: string;
+  levels: { lv: string; score: number }[];
+};
 
 type Point = {
   id: string;
   name: string;
+  vendor: string;
   priceIn: number;
   priceOut: number;
   swe: number;
+  sweApprox: boolean;
   openWeight: boolean;
+  noteKo: string;
+  noteEn: string;
+  effort?: EffortInfo;
 };
 
 // Greedy label placement: for each point (drawn top-score first), try the
@@ -72,7 +83,17 @@ function y(score: number): number {
   return M.top + ((S_MAX - score) / (S_MAX - S_MIN)) * IH;
 }
 
-export default function ModelScatter({ models, t }: { models: Point[]; t: Dict }) {
+export default function ModelScatter({
+  models,
+  t,
+  lang,
+}: {
+  models: Point[];
+  t: Dict;
+  lang: Lang;
+}) {
+  const [hover, setHover] = useState<{ m: Point; cx: number; cy: number } | null>(null);
+
   // Quadrant split at the chart midpoints (AA convention), not medians.
   const midX = M.left + IW / 2;
   const midY = M.top + IH / 2;
@@ -191,31 +212,36 @@ export default function ModelScatter({ models, t }: { models: Point[]; t: Dict }
           </text>
 
           {/* points + labels */}
-          {labels.map(({ m, cx, cy, pos }) => {
-            const price = blended(m);
-            return (
-              <g key={m.id}>
-                <circle
-                  cx={cx}
-                  cy={cy}
-                  r={DOT_R}
-                  className={m.openWeight ? "chart-dot chart-dot--open" : "chart-dot"}
+          {labels.map(({ m, cx, cy, pos }) => (
+            <g key={m.id}>
+              {/* invisible enlarged hit area for easier hover */}
+              <circle
+                cx={cx}
+                cy={cy}
+                r={DOT_R + 6}
+                fill="transparent"
+                onMouseEnter={() => setHover({ m, cx, cy })}
+                onMouseLeave={() => setHover(null)}
+              />
+              <circle
+                cx={cx}
+                cy={cy}
+                r={DOT_R}
+                className={m.openWeight ? "chart-dot chart-dot--open" : "chart-dot"}
+                pointerEvents="none"
+              />
+              {pos && (
+                <text
+                  x={cx + pos.dx}
+                  y={cy + pos.dy}
+                  className="chart-point-label"
+                  textAnchor={pos.anchor}
                 >
-                  <title>{`${m.name} — SWE-bench ~${m.swe}% · $${price.toFixed(2)}/1M (blended)${m.openWeight ? ` · ${t.openWeightBadge}` : ""}`}</title>
-                </circle>
-                {pos && (
-                  <text
-                    x={cx + pos.dx}
-                    y={cy + pos.dy}
-                    className="chart-point-label"
-                    textAnchor={pos.anchor}
-                  >
-                    {m.name}
-                  </text>
-                )}
-              </g>
-            );
-          })}
+                  {m.name}
+                </text>
+              )}
+            </g>
+          ))}
 
           {/* legend */}
           <g>
@@ -229,6 +255,47 @@ export default function ModelScatter({ models, t }: { models: Point[]; t: Dict }
             </text>
           </g>
         </svg>
+
+        {/* rich hover tooltip (HTML overlay, positioned in viewBox %) */}
+        {hover && (
+          <div
+            className={`chart-tooltip${hover.cx > W / 2 ? " chart-tooltip--left" : ""}${hover.cy > H * 0.55 ? " chart-tooltip--up" : ""}`}
+            style={{
+              left: `${(hover.cx / W) * 100}%`,
+              top: `${(hover.cy / H) * 100}%`,
+            }}
+          >
+            <p className="chart-tooltip__name">
+              {hover.m.name}
+              <span className="chart-tooltip__vendor"> · {hover.m.vendor}</span>
+              {hover.m.openWeight && (
+                <span className="model-badge">{t.openWeightBadge}</span>
+              )}
+            </p>
+            <p className="chart-tooltip__row">
+              SWE-bench: {hover.m.sweApprox ? "~" : ""}
+              {hover.m.swe}% · {t.ttBlended}: ${blended(hover.m).toFixed(2)}/1M
+            </p>
+            <p className="chart-tooltip__note">
+              {lang === "ko" ? hover.m.noteKo : hover.m.noteEn}
+            </p>
+            {hover.m.effort && (
+              <div className="chart-tooltip__effort">
+                <p className="chart-tooltip__effort-title">
+                  {t.ttEffortTitle} ({hover.m.effort.bench})
+                </p>
+                <ul>
+                  {hover.m.effort.levels.map((e) => (
+                    <li key={e.lv}>
+                      <span className="chart-tooltip__lv">{e.lv}</span>
+                      <span>{e.score}%</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
       </div>
       <p className="model-chart__hint">{t.chartHint}</p>
     </figure>

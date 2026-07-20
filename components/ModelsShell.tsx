@@ -5,7 +5,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import comparison from "@/data/model-comparison.json";
 import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
-import ModelScatter from "./ModelScatter";
+import ModelScatter, { type EffortInfo } from "./ModelScatter";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
 
@@ -21,6 +21,7 @@ type ModelRow = {
   openWeight: boolean;
   noteKo: string;
   noteEn: string;
+  effort?: EffortInfo;
 };
 
 type Source = {
@@ -122,7 +123,7 @@ export default function ModelsShell() {
           <p className="hero__subtitle">{t.modelsSubtitle}</p>
         </header>
 
-        <ModelScatter models={scored} t={t} />
+        <ModelScatter models={scored} t={t} lang={lang} />
 
         <div className="model-table-wrap">
           <table className="model-table">

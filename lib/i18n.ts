@@ -70,6 +70,8 @@ export const translations = {
     chartZone: "가성비 존",
     chartHint:
       "왼쪽 위일수록 가성비가 좋습니다. 점에 마우스를 올리면 상세 값이 표시됩니다. artificialanalysis.ai 방식 참고.",
+    ttBlended: "블렌디드 가격",
+    ttEffortTitle: "Reasoning 레벨별 점수",
     modelSourcesTitle: "출처 · 라이브 리더보드",
     modelsDisclaimer:
       "가격·점수는 수동 큐레이션이며 변동될 수 있습니다. 최신값은 위 출처 링크에서 확인하세요. 실전 선택은 자기 워크로드로 2-3개 모델을 직접 A/B 테스트하는 것이 가장 정확합니다.",
@@ -254,6 +256,8 @@ export const translations = {
     chartZone: "Best value",
     chartHint:
       "Upper-left = better value. Hover a point for details. Methodology inspired by artificialanalysis.ai.",
+    ttBlended: "Blended price",
+    ttEffortTitle: "Score by reasoning level",
     modelSourcesTitle: "Sources · Live leaderboards",
     modelsDisclaimer:
       "Prices and scores are manually curated and may change. Check the source links above for the latest. For real decisions, A/B test 2-3 models on your own workload.",

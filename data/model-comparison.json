@@ -58,7 +58,16 @@
       "sweApprox": false,
       "openWeight": false,
       "noteKo": "SWE-bench Verified 1위. 최상급 코딩",
-      "noteEn": "SWE-bench Verified #1. Top-tier coding"
+      "noteEn": "SWE-bench Verified #1. Top-tier coding",
+      "effort": {
+        "bench": "DeepSWE",
+        "levels": [
+          {
+            "lv": "max",
+            "score": 72.7
+          }
+        ]
+      }
     },
     {
       "id": "claude-fable-5",
@@ -72,7 +81,24 @@
       "sweApprox": false,
       "openWeight": false,
       "noteKo": "장기 자율 작업 최강. SWE-bench Pro 80%로 독보적",
-      "noteEn": "Best long-horizon autonomy. Leads SWE-bench Pro at 80%"
+      "noteEn": "Best long-horizon autonomy. Leads SWE-bench Pro at 80%",
+      "effort": {
+        "bench": "SWE-bench Pro",
+        "levels": [
+          {
+            "lv": "medium",
+            "score": 78.2
+          },
+          {
+            "lv": "high",
+            "score": 79.6
+          },
+          {
+            "lv": "xhigh",
+            "score": 80.4
+          }
+        ]
+      }
     },
     {
       "id": "kimi-k3",
@@ -100,7 +126,16 @@
       "sweApprox": false,
       "openWeight": false,
       "noteKo": "경량 티어인데 93% — 가성비 주목",
-      "noteEn": "Light tier yet 93% — standout value"
+      "noteEn": "Light tier yet 93% — standout value",
+      "effort": {
+        "bench": "DeepSWE",
+        "levels": [
+          {
+            "lv": "max",
+            "score": 67.2
+          }
+        ]
+      }
     },
     {
       "id": "claude-opus-4-8",
@@ -114,7 +149,24 @@
       "sweApprox": false,
       "openWeight": false,
       "noteKo": "SWE-bench Pro Active 1위(69.2%). 실전형",
-      "noteEn": "Leads SWE-bench Pro Active (69.2%). Practical workhorse"
+      "noteEn": "Leads SWE-bench Pro Active (69.2%). Practical workhorse",
+      "effort": {
+        "bench": "SWE-bench Pro",
+        "levels": [
+          {
+            "lv": "medium",
+            "score": 65.2
+          },
+          {
+            "lv": "high",
+            "score": 67.5
+          },
+          {
+            "lv": "xhigh",
+            "score": 68.6
+          }
+        ]
+      }
     },
     {
       "id": "grok-4-5",
@@ -142,7 +194,16 @@
       "sweApprox": true,
       "openWeight": false,
       "noteKo": "인트로 가격($2/$10) 8월까지. 속도·품질 균형",
-      "noteEn": "Intro pricing ($2/$10) until Aug. Speed-quality balance"
+      "noteEn": "Intro pricing ($2/$10) until Aug. Speed-quality balance",
+      "effort": {
+        "bench": "SWE-bench Pro",
+        "levels": [
+          {
+            "lv": "max",
+            "score": 63.2
+          }
+        ]
+      }
     },
     {
       "id": "gemini-3-1-pro",
@@ -213,7 +274,16 @@
       "openWeight": false,
       "noteKo": "신규 출시 — 점수 집계 전",
       "noteEn": "New release — score pending",
-      "auto": true
+      "auto": true,
+      "effort": {
+        "bench": "DeepSWE",
+        "levels": [
+          {
+            "lv": "max",
+            "score": 69.6
+          }
+        ]
+      }
     },
     {
       "id": "kimi-k2-7-code",
@@ -408,7 +478,16 @@
       "openWeight": false,
       "noteKo": "신규 출시 — 점수 집계 전",
       "noteEn": "New release — score pending",
-      "auto": true
+      "auto": true,
+      "effort": {
+        "bench": "DeepSWE",
+        "levels": [
+          {
+            "lv": "xhigh",
+            "score": 67
+          }
+        ]
+      }
     },
     {
       "id": "kimi-k2-6",
