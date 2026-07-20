@@ -50,6 +50,24 @@ export const translations = {
     visitorsOnline: "현재 접속자",
     visitorsToday: "오늘 방문자",
     visitorsTotal: "총 방문자",
+    // model comparison tab
+    tabModels: "모델 비교",
+    modelsBadge: "AI 코딩 모델 비교",
+    modelsTitle: "API 코딩 모델 객관 비교",
+    modelsSubtitle:
+      "주요 벤더의 코딩 모델을 SWE-bench 점수·가격·컨텍스트로 한눈에 비교합니다. 점수는 벤더 발표 기준이며 하네스에 따라 달라질 수 있습니다.",
+    thModel: "모델",
+    thVendor: "벤더",
+    thSwe: "SWE-bench",
+    thPriceIn: "입력 $/1M",
+    thPriceOut: "출력 $/1M",
+    thContext: "컨텍스트",
+    thNote: "비고",
+    openWeightBadge: "오픈 웨이트",
+    modelSourcesTitle: "출처 · 라이브 리더보드",
+    modelsDisclaimer:
+      "가격·점수는 수동 큐레이션이며 변동될 수 있습니다. 최신값은 위 출처 링크에서 확인하세요. 실전 선택은 자기 워크로드로 2-3개 모델을 직접 A/B 테스트하는 것이 가장 정확합니다.",
+    modelsUpdatedPrefix: "데이터 기준일",
     // AI tools tab
     tabGithub: "GitHub 트렌딩",
     tabAiTools: "AI 툴",
@@ -211,6 +229,23 @@ export const translations = {
     visitorsToday: "Today",
     visitorsTotal: "Total visitors",
     // AI tools tab
+    tabModels: "Model Compare",
+    modelsBadge: "AI Coding Model Comparison",
+    modelsTitle: "API Coding Models — Objective Comparison",
+    modelsSubtitle:
+      "Compare major vendors' coding models at a glance: SWE-bench score, price, and context window. Scores are vendor-reported and vary by harness.",
+    thModel: "Model",
+    thVendor: "Vendor",
+    thSwe: "SWE-bench",
+    thPriceIn: "Input $/1M",
+    thPriceOut: "Output $/1M",
+    thContext: "Context",
+    thNote: "Notes",
+    openWeightBadge: "Open weight",
+    modelSourcesTitle: "Sources · Live leaderboards",
+    modelsDisclaimer:
+      "Prices and scores are manually curated and may change. Check the source links above for the latest. For real decisions, A/B test 2-3 models on your own workload.",
+    modelsUpdatedPrefix: "Data as of",
     tabGithub: "GitHub Trending",
     tabAiTools: "AI Tools",
     aiToolsBadge: "AI Tool Popularity Rankings",

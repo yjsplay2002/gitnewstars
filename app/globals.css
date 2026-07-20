@@ -1844,3 +1844,103 @@ a.btn {
   border-color: var(--green);
   color: #ffffff;
 }
+
+/* ---------- model comparison table ---------- */
+.model-table-wrap {
+  overflow-x: auto;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+.model-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  min-width: 720px;
+}
+.model-table th {
+  text-align: left;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-soft);
+  white-space: nowrap;
+}
+.model-table td {
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.model-table tr:last-child td {
+  border-bottom: none;
+}
+.model-table .num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.model-table__model {
+  font-weight: 700;
+  white-space: nowrap;
+}
+.model-table__vendor {
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.model-table__note {
+  color: var(--text-muted);
+  font-size: 12.5px;
+  line-height: 1.45;
+}
+.model-swe-bar {
+  display: inline-block;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--accent);
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.model-badge {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--green);
+  color: var(--green);
+  margin-left: 6px;
+  white-space: nowrap;
+}
+.model-sources {
+  margin-top: 22px;
+}
+.model-sources__title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: var(--font-serif);
+}
+.model-sources ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+}
+.model-sources a {
+  font-weight: 600;
+  color: var(--accent-2);
+}
+.model-sources a:hover {
+  text-decoration: underline;
+}
+.model-disclaimer {
+  margin-top: 14px;
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.55;
+}

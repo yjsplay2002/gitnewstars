@@ -1,0 +1,155 @@
+{
+  "lastUpdated": "2026-07-20",
+  "note": "SWE-bench Verified 점수는 벤더 발표 기준(하네스에 따라 ±수 % 변동). 가격은 API 기준 $/1M 토큰. 수동 큐레이션 — sources 링크에서 최신값 확인.",
+  "models": [
+    {
+      "id": "claude-opus-4-8",
+      "vendor": "Anthropic",
+      "name": "Claude Opus 4.8",
+      "priceIn": 5,
+      "priceOut": 25,
+      "context": "1M",
+      "swe": 80,
+      "sweApprox": true,
+      "openWeight": false,
+      "noteKo": "코딩·에이전트 최상급. 장기 자율 작업 강함",
+      "noteEn": "Top-tier coding/agentic. Strong long-horizon autonomy"
+    },
+    {
+      "id": "claude-sonnet-5",
+      "vendor": "Anthropic",
+      "name": "Claude Sonnet 5",
+      "priceIn": 3,
+      "priceOut": 15,
+      "context": "1M",
+      "swe": 77,
+      "sweApprox": true,
+      "openWeight": false,
+      "noteKo": "Opus급 코딩을 Sonnet 가격에. 8월까지 $2/$10 프로모션",
+      "noteEn": "Near-Opus coding at Sonnet price. $2/$10 intro until Aug"
+    },
+    {
+      "id": "gpt-5-1",
+      "vendor": "OpenAI",
+      "name": "GPT-5.1",
+      "priceIn": 1.25,
+      "priceOut": 10,
+      "context": "400K",
+      "swe": 76,
+      "sweApprox": true,
+      "openWeight": false,
+      "noteKo": "저렴한 입력 단가. Codex CLI 연동 강점",
+      "noteEn": "Cheap input price. Strong Codex CLI integration"
+    },
+    {
+      "id": "gemini-3-pro",
+      "vendor": "Google",
+      "name": "Gemini 3 Pro",
+      "priceIn": 2,
+      "priceOut": 12,
+      "context": "1M",
+      "swe": 76,
+      "sweApprox": true,
+      "openWeight": false,
+      "noteKo": "멀티모달·긴 컨텍스트 강점",
+      "noteEn": "Strong multimodal + long context"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "vendor": "Anthropic",
+      "name": "Claude Haiku 4.5",
+      "priceIn": 1,
+      "priceOut": 5,
+      "context": "200K",
+      "swe": 73,
+      "sweApprox": false,
+      "openWeight": false,
+      "noteKo": "속도·비용 최적. 단순 코딩·서브에이전트용",
+      "noteEn": "Fast & cheap. Simple coding / subagents"
+    },
+    {
+      "id": "grok-code-fast",
+      "vendor": "xAI",
+      "name": "Grok Code Fast 1",
+      "priceIn": 0.2,
+      "priceOut": 1.5,
+      "context": "256K",
+      "swe": 70,
+      "sweApprox": true,
+      "openWeight": false,
+      "noteKo": "초저가·고속. 반복 작업용",
+      "noteEn": "Ultra-cheap & fast. Good for iteration loops"
+    },
+    {
+      "id": "deepseek-v3-2",
+      "vendor": "DeepSeek",
+      "name": "DeepSeek V3.2",
+      "priceIn": 0.28,
+      "priceOut": 0.42,
+      "context": "128K",
+      "swe": 67,
+      "sweApprox": true,
+      "openWeight": true,
+      "noteKo": "오픈 웨이트. 가성비 최강급",
+      "noteEn": "Open weight. Best-in-class cost efficiency"
+    },
+    {
+      "id": "kimi-k2",
+      "vendor": "Moonshot",
+      "name": "Kimi K2",
+      "priceIn": 0.6,
+      "priceOut": 2.5,
+      "context": "256K",
+      "swe": 66,
+      "sweApprox": true,
+      "openWeight": true,
+      "noteKo": "오픈 웨이트 MoE. 에이전트 튜닝",
+      "noteEn": "Open-weight MoE, agentic-tuned"
+    },
+    {
+      "id": "claude-fable-5",
+      "vendor": "Anthropic",
+      "name": "Claude Fable 5",
+      "priceIn": 10,
+      "priceOut": 50,
+      "context": "1M",
+      "swe": 82,
+      "sweApprox": true,
+      "openWeight": false,
+      "noteKo": "최고 난도 장기 작업 전용. 고가",
+      "noteEn": "For hardest long-horizon work only. Premium price"
+    }
+  ],
+  "sources": [
+    {
+      "name": "SWE-bench Verified",
+      "url": "https://www.swebench.com/",
+      "descKo": "실제 GitHub 이슈 해결율 — 코딩 표준 벤치마크",
+      "descEn": "Real GitHub issue resolution rate — the standard coding benchmark"
+    },
+    {
+      "name": "Aider LLM Leaderboard",
+      "url": "https://aider.chat/docs/leaderboards/",
+      "descKo": "실전 코드 편집 성능 리더보드",
+      "descEn": "Practical code-editing performance leaderboard"
+    },
+    {
+      "name": "LMArena",
+      "url": "https://lmarena.ai/",
+      "descKo": "블라인드 사용자 선호 투표 순위",
+      "descEn": "Blind user-preference voting rankings"
+    },
+    {
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/",
+      "descKo": "가격·속도·품질 통합 비교",
+      "descEn": "Combined price / speed / quality comparison"
+    },
+    {
+      "name": "Anthropic Pricing",
+      "url": "https://platform.claude.com/docs/en/pricing",
+      "descKo": "Claude 모델 공식 가격",
+      "descEn": "Official Claude model pricing"
+    }
+  ]
+}

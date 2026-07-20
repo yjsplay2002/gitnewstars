@@ -26,6 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: SITE_URL, lastModified: now, changeFrequency: "hourly", priority: 1 },
     {
+      url: `${SITE_URL}/models`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
       url: `${SITE_URL}/posts`,
       lastModified: now,
       changeFrequency: "daily",
