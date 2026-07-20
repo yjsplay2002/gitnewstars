@@ -64,6 +64,12 @@ export const translations = {
     thContext: "컨텍스트",
     thNote: "비고",
     openWeightBadge: "오픈 웨이트",
+    chartTitle: "성능 대 가격 — 가성비 사분면",
+    chartX: "블렌디드 가격 $/1M 토큰 (입력3:출력1, 로그 스케일)",
+    chartY: "SWE-bench (%)",
+    chartZone: "가성비 존",
+    chartHint:
+      "왼쪽 위일수록 가성비가 좋습니다. 점에 마우스를 올리면 상세 값이 표시됩니다. artificialanalysis.ai 방식 참고.",
     modelSourcesTitle: "출처 · 라이브 리더보드",
     modelsDisclaimer:
       "가격·점수는 수동 큐레이션이며 변동될 수 있습니다. 최신값은 위 출처 링크에서 확인하세요. 실전 선택은 자기 워크로드로 2-3개 모델을 직접 A/B 테스트하는 것이 가장 정확합니다.",
@@ -242,6 +248,12 @@ export const translations = {
     thContext: "Context",
     thNote: "Notes",
     openWeightBadge: "Open weight",
+    chartTitle: "Intelligence vs Price — Value Quadrant",
+    chartX: "Blended price $/1M tokens (3:1 input:output, log scale)",
+    chartY: "SWE-bench (%)",
+    chartZone: "Best value",
+    chartHint:
+      "Upper-left = better value. Hover a point for details. Methodology inspired by artificialanalysis.ai.",
     modelSourcesTitle: "Sources · Live leaderboards",
     modelsDisclaimer:
       "Prices and scores are manually curated and may change. Check the source links above for the latest. For real decisions, A/B test 2-3 models on your own workload.",

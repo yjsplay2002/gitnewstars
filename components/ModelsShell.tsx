@@ -5,6 +5,7 @@ import { useSession, signIn, signOut } from "next-auth/react";
 import comparison from "@/data/model-comparison.json";
 import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
+import ModelScatter from "./ModelScatter";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
 
@@ -114,6 +115,8 @@ export default function ModelsShell() {
           <h1 className="hero__title">{t.modelsTitle}</h1>
           <p className="hero__subtitle">{t.modelsSubtitle}</p>
         </header>
+
+        <ModelScatter models={rows} t={t} />
 
         <div className="model-table-wrap">
           <table className="model-table">
