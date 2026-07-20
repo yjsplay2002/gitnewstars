@@ -30,11 +30,11 @@ const IH = H - M.top - M.bottom;
 
 const P_MIN = 0.25;
 const P_MAX = 32;
-const S_MIN = 70;
+const S_MIN = 65;
 const S_MAX = 100;
 
 const PRICE_TICKS = [0.5, 1, 2, 5, 10, 20];
-const SCORE_TICKS = [70, 75, 80, 85, 90, 95, 100];
+const SCORE_TICKS = [65, 70, 75, 80, 85, 90, 95, 100];
 
 function blended(p: Point): number {
   return (3 * p.priceIn + p.priceOut) / 4;

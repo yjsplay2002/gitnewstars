@@ -36,11 +36,16 @@ const FRONTIER_VENDORS = {
 // Note: one-off duplicates (e.g. OpenAI's "-pro" effort variants of the same
 // tier) go into data JSON's "ignoredIds" instead of this pattern, so genuine
 // future flagships like "gemini-4-pro" are still picked up.
-const EXCLUDE = /(image|audio|video|lite|flash|mini|nano|fast|distill|exp$|preview.*customtools|chat-latest|build|-\d{8}$|:free)/i;
+// Non-text and non-model variants — always excluded.
+const HARD_EXCLUDE = /(image|audio|video|distill|exp$|preview.*customtools|chat-latest|-\d{4}-\d{2}-\d{2}$|-\d{8}$|:free)/i;
+// Sub-flagship tiers — excluded from the daily frontier watch, but included
+// when BACKFILL=1 (comprehensive sweep).
+const TIER_EXCLUDE = /(lite|flash|mini|nano|fast|build)/i;
 
+const BACKFILL = process.env.BACKFILL === "1";
 // A "frontier" release: expensive enough to be a flagship tier.
-const MIN_OUT_PRICE = 3; // $/1M output tokens
-const RECENT_DAYS = 60;
+const MIN_OUT_PRICE = Number(process.env.MIN_OUT_PRICE ?? 3); // $/1M output
+const RECENT_DAYS = Number(process.env.RECENT_DAYS ?? 60);
 
 /** Known open-weight vendors/id patterns for auto-added rows. */
 const OPEN_WEIGHT = /^(deepseek|moonshotai|z-ai|qwen|meta-llama|minimax|mistralai)\//;
@@ -102,7 +107,8 @@ for (const or of orModels) {
   if (!vendor) continue;
   if (tracked.has(or.id) || ignored.has(or.id)) continue;
   if ((or.created ?? 0) < cutoff) continue;
-  if (EXCLUDE.test(or.id)) continue;
+  if (HARD_EXCLUDE.test(or.id)) continue;
+  if (!BACKFILL && TIER_EXCLUDE.test(or.id)) continue;
   const priceOut = Number(or.pricing?.completion ?? 0) * 1e6;
   if (priceOut < MIN_OUT_PRICE) continue;
 
