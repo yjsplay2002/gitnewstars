@@ -14,13 +14,38 @@ type Point = {
   openWeight: boolean;
 };
 
-// Per-point label placement, tuned to avoid collisions.
-// anchor: SVG text-anchor; dx/dy relative to the dot center.
-const LABEL_POS: Record<string, { dx: number; dy: number; anchor: "start" | "middle" | "end" }> = {
-  "gemini-3-1-pro": { dx: 0, dy: 22, anchor: "middle" },
-  "claude-fable-5": { dx: -12, dy: 4, anchor: "end" },
-};
-const DEFAULT_POS = { dx: 0, dy: -14, anchor: "middle" as const };
+// Greedy label placement: for each point (drawn top-score first), try the
+// candidate offsets in order and keep the first whose text box overlaps no
+// dot and no already-placed label. Points that find no free slot get no
+// label (tooltip still shows the name).
+type Anchor = "start" | "middle" | "end";
+const CANDIDATES: { dx: number; dy: number; anchor: Anchor }[] = [
+  { dx: 0, dy: -13, anchor: "middle" },
+  { dx: 11, dy: 4, anchor: "start" },
+  { dx: -11, dy: 4, anchor: "end" },
+  { dx: 0, dy: 21, anchor: "middle" },
+  { dx: 9, dy: -9, anchor: "start" },
+  { dx: -9, dy: -9, anchor: "end" },
+  { dx: 9, dy: 16, anchor: "start" },
+  { dx: -9, dy: 16, anchor: "end" },
+];
+const CHAR_W = 6.4; // approx label glyph width at 11.5px
+const LABEL_H = 12;
+const DOT_R = 7;
+
+type Box = { x1: number; y1: number; x2: number; y2: number };
+
+function labelBox(cx: number, cy: number, text: string, c: (typeof CANDIDATES)[number]): Box {
+  const w = text.length * CHAR_W;
+  const tx = cx + c.dx;
+  const ty = cy + c.dy; // baseline
+  const x1 = c.anchor === "start" ? tx : c.anchor === "end" ? tx - w : tx - w / 2;
+  return { x1, y1: ty - LABEL_H + 2, x2: x1 + w, y2: ty + 2 };
+}
+
+function overlaps(a: Box, b: Box): boolean {
+  return a.x1 < b.x2 && a.x2 > b.x1 && a.y1 < b.y2 && a.y2 > b.y1;
+}
 
 const W = 720;
 const H = 420;
@@ -51,6 +76,35 @@ export default function ModelScatter({ models, t }: { models: Point[]; t: Dict }
   // Quadrant split at the chart midpoints (AA convention), not medians.
   const midX = M.left + IW / 2;
   const midY = M.top + IH / 2;
+
+  // Higher-score points get label priority (drawn first, claim space first).
+  const ordered = [...models].sort((a, b) => b.swe - a.swe);
+  const dotBoxes: Box[] = ordered.map((m) => {
+    const cx = x(blended(m));
+    const cy = y(m.swe);
+    return { x1: cx - DOT_R, y1: cy - DOT_R, x2: cx + DOT_R, y2: cy + DOT_R };
+  });
+  const placedBoxes: Box[] = [];
+  const chartArea: Box = { x1: M.left, y1: M.top, x2: M.left + IW, y2: M.top + IH };
+  const labels = ordered.map((m) => {
+    const cx = x(blended(m));
+    const cy = y(m.swe);
+    for (const c of CANDIDATES) {
+      const box = labelBox(cx, cy, m.name, c);
+      if (
+        box.x1 >= chartArea.x1 &&
+        box.x2 <= chartArea.x2 &&
+        box.y1 >= chartArea.y1 &&
+        box.y2 <= chartArea.y2 &&
+        !placedBoxes.some((p) => overlaps(box, p)) &&
+        !dotBoxes.some((d) => overlaps(box, d))
+      ) {
+        placedBoxes.push(box);
+        return { m, cx, cy, pos: c };
+      }
+    }
+    return { m, cx, cy, pos: null };
+  });
 
   return (
     <figure className="model-chart">
@@ -137,27 +191,43 @@ export default function ModelScatter({ models, t }: { models: Point[]; t: Dict }
           </text>
 
           {/* points + labels */}
-          {models.map((m) => {
+          {labels.map(({ m, cx, cy, pos }) => {
             const price = blended(m);
-            const cx = x(price);
-            const cy = y(m.swe);
-            const pos = LABEL_POS[m.id] ?? DEFAULT_POS;
             return (
               <g key={m.id}>
-                <circle cx={cx} cy={cy} r={7} className="chart-dot">
-                  <title>{`${m.name} — SWE-bench ~${m.swe}% · $${price.toFixed(2)}/1M (blended)`}</title>
-                </circle>
-                <text
-                  x={cx + pos.dx}
-                  y={cy + pos.dy}
-                  className="chart-point-label"
-                  textAnchor={pos.anchor}
+                <circle
+                  cx={cx}
+                  cy={cy}
+                  r={DOT_R}
+                  className={m.openWeight ? "chart-dot chart-dot--open" : "chart-dot"}
                 >
-                  {m.name}
-                </text>
+                  <title>{`${m.name} — SWE-bench ~${m.swe}% · $${price.toFixed(2)}/1M (blended)${m.openWeight ? ` · ${t.openWeightBadge}` : ""}`}</title>
+                </circle>
+                {pos && (
+                  <text
+                    x={cx + pos.dx}
+                    y={cy + pos.dy}
+                    className="chart-point-label"
+                    textAnchor={pos.anchor}
+                  >
+                    {m.name}
+                  </text>
+                )}
               </g>
             );
           })}
+
+          {/* legend */}
+          <g>
+            <circle cx={M.left + IW - 150} cy={M.top + 14} r={6} className="chart-dot" />
+            <text x={M.left + IW - 140} y={M.top + 18} className="chart-tick">
+              API
+            </text>
+            <circle cx={M.left + IW - 100} cy={M.top + 14} r={6} className="chart-dot chart-dot--open" />
+            <text x={M.left + IW - 90} y={M.top + 18} className="chart-tick">
+              {t.openWeightBadge}
+            </text>
+          </g>
         </svg>
       </div>
       <p className="model-chart__hint">{t.chartHint}</p>
