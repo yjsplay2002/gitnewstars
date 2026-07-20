@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:09:40Z",
+  "generatedAt": "2026-07-21T09:00:00Z",
   "videos": [
     {
       "id": "vid-bibl-claude-code-youtube-tips-ko",
@@ -38,28 +38,15 @@
       "addedAt": "2026-07-19T09:00:00Z"
     },
     {
-      "id": "vid-philosophy-agent-orchestration-ko",
-      "youtubeId": "DvSAD90VWM0",
+      "id": "vid-cc-complete-guide-10x-ko",
+      "youtubeId": "CFqDOldk4T8",
       "category": "tip",
-      "title": "클로드 코드 에이전트, 내 마음대로 지휘하기 — 오케스트레이션 실전",
-      "titleEn": "Directing Claude Code Agents at Will — Hands-On Orchestration",
-      "descKo": "여러 클로드 코드 에이전트를 동시에 띄워 역할을 나눠 지휘하는 실전 오케스트레이션 튜토리얼.",
-      "descEn": "A hands-on tutorial on running multiple Claude Code agents at once and directing their roles — practical orchestration.",
-      "channel": "필로소피 AI 교육",
-      "publishedAt": "2026-01-11T00:00:00Z",
-      "addedAt": "2026-07-19T23:09:40Z"
-    },
-    {
-      "id": "vid-jaychoi-800hours-claude-tips-ko",
-      "youtubeId": "hXlB1QstQ-Y",
-      "category": "tip",
-      "title": "클로드 코드 800시간 쓰고 깨달은 실전 꿀팁 9가지",
-      "titleEn": "9 Practical Tips After 800 Hours Using Claude Code",
-      "descKo": "인디해커가 클로드 코드를 800시간 실사용하며 얻은 실전 꿀팁 9가지를 정리.",
-      "descEn": "An indie hacker's 9 hard-won practical tips from 800 hours of real-world Claude Code use.",
-      "channel": "Jay Choi 인디해커 라이프",
-      "publishedAt": "2026-04-23T00:00:00Z",
-      "addedAt": "2026-07-19T23:09:40Z"
+      "title": "클로드 코드 완벽 가이드 — 설정부터 자동화까지 10배 빠른 AI 코딩 비법",
+      "titleEn": "Claude Code Complete Guide: Setup to Automation for 10x Faster AI Coding",
+      "descKo": "환경 설정부터 자동화 워크플로우까지, 클로드 코드로 코딩 속도를 10배 끌어올리는 실전 비법 모음.",
+      "descEn": "A setup-to-automation walkthrough of practical tricks for making Claude Code coding roughly 10x faster.",
+      "channel": "미상",
+      "addedAt": "2026-07-21T09:00:00Z"
     },
     {
       "id": "vid-matthew-berman-codex-usecase",
@@ -110,6 +97,17 @@
       "addedAt": "2026-07-19T23:09:40Z"
     },
     {
+      "id": "vid-ai-agents-complete-guide-usecase",
+      "youtubeId": "LNkAW4SSgdY",
+      "category": "usecase",
+      "title": "AI 에이전트 완전 정복 — 개념부터 실전 활용까지",
+      "titleEn": "The Complete Guide to AI Agents in 2026 (And How to Actually Use Them)",
+      "descKo": "AI 에이전트가 무엇인지부터 실제로 어떻게 활용하는지까지, 실전 유즈케이스 위주로 정리한 가이드.",
+      "descEn": "A structured guide covering what AI agents are and, more importantly, real-world patterns for actually using them.",
+      "publishedAt": "2026-05-21T00:00:00Z",
+      "addedAt": "2026-07-21T09:00:00Z"
+    },
+    {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -132,17 +130,6 @@
       "channel": "DSwithBappy",
       "publishedAt": "2026-07-14T00:00:00Z",
       "addedAt": "2026-07-17T09:00:00Z"
-    },
-    {
-      "id": "vid-first-ai-agent-guide",
-      "youtubeId": "Bm84BAtOfQw",
-      "category": "lecture",
-      "title": "지금 시작해도 안 늦었다 — 첫 AI 에이전트 만들기 완전 가이드",
-      "titleEn": "You're Not Behind (Yet): How to Build Your First AI Agent (Full Guide)",
-      "descKo": "처음부터 AI 에이전트를 직접 구축하는 과정을 초심자 눈높이로 설명하는 가이드.",
-      "descEn": "A full beginner-to-build guide walking through constructing a first AI agent from scratch.",
-      "publishedAt": "2026-07-15T23:00:00Z",
-      "addedAt": "2026-07-16T09:00:00Z"
     },
     {
       "id": "vid-techwithtim-codex-course",
@@ -179,6 +166,17 @@
       "channel": "혼잡스",
       "publishedAt": "2026-07-16T00:00:00Z",
       "addedAt": "2026-07-19T23:09:40Z"
+    },
+    {
+      "id": "vid-gemini-cli-walkthrough",
+      "youtubeId": "Q9qWsRd9yGM",
+      "category": "lecture",
+      "title": "Gemini CLI 완전 워크스루 — 터미널용 무료 AI 코딩 에이전트",
+      "titleEn": "Google Gemini CLI Full Walkthrough 2026 | The Best Free AI Coding Agent for Your Terminal",
+      "descKo": "터미널 기반 코딩 에이전트로서 Gemini CLI를 처음부터 끝까지 다루는 전체 워크스루 강의.",
+      "descEn": "A full walkthrough of Gemini CLI as a terminal-based coding agent, start to finish.",
+      "publishedAt": "2026-05-13T00:00:00Z",
+      "addedAt": "2026-07-21T09:00:00Z"
     }
   ]
 }
