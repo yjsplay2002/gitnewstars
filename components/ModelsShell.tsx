@@ -16,7 +16,7 @@ type ModelRow = {
   priceIn: number;
   priceOut: number;
   context: string;
-  swe: number;
+  swe: number | null;
   sweApprox: boolean;
   openWeight: boolean;
   noteKo: string;
@@ -44,8 +44,14 @@ export default function ModelsShell() {
   const isAdmin = Boolean(session?.user?.isAdmin);
   const postsHasNew = useNewPosts(false);
 
-  const rows = [...MODELS].sort((a, b) => b.swe - a.swe);
-  const maxSwe = Math.max(...rows.map((m) => m.swe));
+  // Scored models first (desc); score-pending models at the bottom.
+  const rows = [...MODELS].sort(
+    (a, b) => (b.swe ?? -1) - (a.swe ?? -1)
+  );
+  const scored = rows.filter(
+    (m): m is ModelRow & { swe: number } => m.swe != null
+  );
+  const maxSwe = Math.max(...scored.map((m) => m.swe));
 
   return (
     <div className="layout">
@@ -116,7 +122,7 @@ export default function ModelsShell() {
           <p className="hero__subtitle">{t.modelsSubtitle}</p>
         </header>
 
-        <ModelScatter models={rows} t={t} />
+        <ModelScatter models={scored} t={t} />
 
         <div className="model-table-wrap">
           <table className="model-table">
@@ -142,13 +148,19 @@ export default function ModelsShell() {
                   </td>
                   <td className="model-table__vendor">{m.vendor}</td>
                   <td className="num">
-                    <span
-                      className="model-swe-bar"
-                      style={{ width: `${(m.swe / maxSwe) * 60}px` }}
-                      aria-hidden
-                    />
-                    {m.sweApprox ? "~" : ""}
-                    {m.swe}%
+                    {m.swe == null ? (
+                      "—"
+                    ) : (
+                      <>
+                        <span
+                          className="model-swe-bar"
+                          style={{ width: `${(m.swe / maxSwe) * 60}px` }}
+                          aria-hidden
+                        />
+                        {m.sweApprox ? "~" : ""}
+                        {m.swe}%
+                      </>
+                    )}
                   </td>
                   <td className="num">{fmtPrice(m.priceIn)}</td>
                   <td className="num">{fmtPrice(m.priceOut)}</td>

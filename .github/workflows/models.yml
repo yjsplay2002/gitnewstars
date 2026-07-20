@@ -1,0 +1,37 @@
+name: Daily Model Comparison Refresh
+
+# Runs daily at 00:00 UTC (09:00 KST). Refreshes model pricing/context from
+# OpenRouter and appends newly released frontier models (score pending).
+# Committing data/model-comparison.json triggers an automatic Vercel redeploy.
+on:
+  schedule:
+    - cron: "0 0 * * *" # 00:00 UTC = 09:00 KST
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Update model comparison data
+        run: node scripts/update-models.mjs
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/model-comparison.json
+          if git diff --staged --quiet; then
+            echo "No model data changes to commit."
+          else
+            git commit -m "chore(data): daily model comparison refresh"
+            git push
+          fi

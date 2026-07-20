@@ -17,9 +17,7 @@ type Point = {
 // Per-point label placement, tuned to avoid collisions.
 // anchor: SVG text-anchor; dx/dy relative to the dot center.
 const LABEL_POS: Record<string, { dx: number; dy: number; anchor: "start" | "middle" | "end" }> = {
-  "gpt-5-1": { dx: -4, dy: -14, anchor: "end" },
-  "gemini-3-pro": { dx: 4, dy: 22, anchor: "start" },
-  "claude-sonnet-5": { dx: 0, dy: -14, anchor: "middle" },
+  "gemini-3-1-pro": { dx: 0, dy: 22, anchor: "middle" },
   "claude-fable-5": { dx: -12, dy: 4, anchor: "end" },
 };
 const DEFAULT_POS = { dx: 0, dy: -14, anchor: "middle" as const };
@@ -32,11 +30,11 @@ const IH = H - M.top - M.bottom;
 
 const P_MIN = 0.25;
 const P_MAX = 32;
-const S_MIN = 60;
-const S_MAX = 85;
+const S_MIN = 70;
+const S_MAX = 100;
 
 const PRICE_TICKS = [0.5, 1, 2, 5, 10, 20];
-const SCORE_TICKS = [60, 65, 70, 75, 80, 85];
+const SCORE_TICKS = [70, 75, 80, 85, 90, 95, 100];
 
 function blended(p: Point): number {
   return (3 * p.priceIn + p.priceOut) / 4;
