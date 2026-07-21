@@ -50,6 +50,11 @@ export const translations = {
     visitorsOnline: "현재 접속자",
     visitorsToday: "오늘 방문자",
     visitorsTotal: "총 방문자",
+    // nav
+    navHome: "홈",
+    navRankings: "랭킹",
+    navContent: "콘텐츠",
+    navMenu: "메뉴",
     // blog tab
     tabBlog: "블로그",
     blogBadge: "기술 블로그",
@@ -265,6 +270,10 @@ export const translations = {
     visitorsToday: "Today",
     visitorsTotal: "Total visitors",
     // AI tools tab
+    navHome: "Home",
+    navRankings: "Rankings",
+    navContent: "Content",
+    navMenu: "Menu",
     tabBlog: "Blog",
     blogBadge: "Tech Blog",
     blogTitle: "GitNewStars Blog",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getCuratedPosts } from "@/lib/posts";
 import { listTopics, postMatchesTopic } from "@/lib/topics";
+import TopNav from "@/components/TopNav";
 
 export const revalidate = 3600;
 
@@ -31,32 +32,7 @@ export default async function TopicsIndexPage() {
     <div className="layout">
       <main className="main">
         <div className="topbar">
-          <nav className="tabs">
-            <Link className="tab" href="/">
-              GitHub 트렌딩
-            </Link>
-            <Link className="tab" href="/blog">
-              블로그
-            </Link>
-            <Link className="tab" href="/models">
-              모델 비교
-            </Link>
-            <Link className="tab" href="/tools">
-              AI 툴
-            </Link>
-            <Link className="tab" href="/posts">
-              활용 & 팁
-            </Link>
-            <Link className="tab" href="/videos">
-              영상
-            </Link>
-            <Link className="tab" href="/skills">
-              스킬
-            </Link>
-            <Link className="tab tab--active" href="/topics">
-              토픽
-            </Link>
-          </nav>
+          <TopNav active="topics" />
         </div>
 
         <header className="hero">

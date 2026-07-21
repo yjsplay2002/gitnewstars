@@ -8,6 +8,7 @@ import {
   type AiTool,
 } from "@/lib/aiTools";
 import { topicsMatchingText } from "@/lib/topics";
+import TopNav from "@/components/TopNav";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -74,26 +75,7 @@ export default async function ToolDetailPage({
     <div className="layout">
       <main className="main">
         <div className="topbar">
-          <nav className="tabs">
-            <Link className="tab" href="/">
-              GitHub 트렌딩
-            </Link>
-            <Link className="tab" href="/blog">
-              블로그
-            </Link>
-            <Link className="tab" href="/models">
-              모델 비교
-            </Link>
-            <Link className="tab tab--active" href="/tools">
-              AI 툴
-            </Link>
-            <Link className="tab" href="/posts">
-              활용 & 팁
-            </Link>
-            <Link className="tab" href="/topics">
-              토픽
-            </Link>
-          </nav>
+          <TopNav active="tools" />
         </div>
 
         <p className="post-detail__back">

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getBlogPost, listBundledBlogSlugs } from "@/lib/blog";
 import { renderMarkdown, markdownExcerpt } from "@/lib/markdown";
 import BlogAdminActions from "@/components/BlogAdminActions";
+import TopNav from "@/components/TopNav";
 
 export const revalidate = 300;
 
@@ -62,26 +63,7 @@ export default async function BlogArticlePage({
     <div className="layout">
       <main className="main main--blog">
         <div className="topbar">
-          <nav className="tabs">
-            <Link className="tab" href="/">
-              GitHub 트렌딩
-            </Link>
-            <Link className="tab tab--active" href="/blog">
-              블로그
-            </Link>
-            <Link className="tab" href="/models">
-              모델 비교
-            </Link>
-            <Link className="tab" href="/tools">
-              AI 툴
-            </Link>
-            <Link className="tab" href="/posts">
-              활용 & 팁
-            </Link>
-            <Link className="tab" href="/topics">
-              토픽
-            </Link>
-          </nav>
+          <TopNav active="blog" />
         </div>
 
         <p className="post-detail__back">

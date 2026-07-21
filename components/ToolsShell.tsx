@@ -9,6 +9,7 @@ import BottomNav from "./BottomNav";
 import ToolCard from "./ToolCard";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
+import TopNav from "./TopNav";
 
 /** Coding vertical first; everything else demoted under "기타 도구". */
 const PRIMARY_CATEGORY_KEYS = ["coding", "agents"] as const;
@@ -165,33 +166,7 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
       {/* ---- main content ---- */}
       <main className="main">
         <div className="topbar">
-          <nav className="tabs">
-            <a className="tab" href="/">
-              {t.tabGithub}
-            </a>
-            <a className="tab" href="/blog">
-              {t.tabBlog}
-            </a>
-            <a className="tab" href="/models">
-              {t.tabModels}
-            </a>
-            <a className="tab tab--active" href="/tools">
-              {t.tabAiTools}
-            </a>
-            <a className="tab" href="/posts">
-              {t.tabPosts}
-              {postsHasNew && <span className="nav-dot" aria-label={t.newContent} />}
-            </a>
-            <a className="tab" href="/videos">
-              {t.tabVideos}
-            </a>
-            <a className="tab" href="/skills">
-              {t.tabSkills}
-            </a>
-            <a className="tab" href="/topics">
-              {t.tabTopics}
-            </a>
-          </nav>
+          <TopNav active="tools" t={t} postsHasNew={postsHasNew} />
           {session?.user ? (
             <span className="user">
               {session.user.image && (

@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getPostById, listBundledCuratedIds } from "@/lib/posts";
 import TrackMetric from "@/components/TrackMetric";
 import SourceLink from "@/components/SourceLink";
+import TopNav from "@/components/TopNav";
 
 export const revalidate = 3600;
 export const dynamicParams = true;
@@ -64,26 +65,7 @@ export default async function PostDetailPage({
       <TrackMetric kind="detail" id={post.id} />
       <main className="main">
         <div className="topbar">
-          <nav className="tabs">
-            <Link className="tab" href="/">
-              GitHub 트렌딩
-            </Link>
-            <Link className="tab" href="/blog">
-              블로그
-            </Link>
-            <Link className="tab" href="/models">
-              모델 비교
-            </Link>
-            <Link className="tab" href="/tools">
-              AI 툴
-            </Link>
-            <Link className="tab tab--active" href="/posts">
-              활용 & 팁
-            </Link>
-            <Link className="tab" href="/topics">
-              토픽
-            </Link>
-          </nav>
+          <TopNav active="posts" />
         </div>
 
         <p className="post-detail__back">

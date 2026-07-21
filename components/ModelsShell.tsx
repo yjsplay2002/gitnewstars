@@ -8,6 +8,7 @@ import BottomNav from "./BottomNav";
 import ModelScatter, { type EffortInfo } from "./ModelScatter";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
+import TopNav from "./TopNav";
 
 type ModelRow = {
   id: string;
@@ -58,33 +59,7 @@ export default function ModelsShell() {
     <div className="layout">
       <main className="main">
         <div className="topbar">
-          <nav className="tabs">
-            <a className="tab" href="/">
-              {t.tabGithub}
-            </a>
-            <a className="tab" href="/blog">
-              {t.tabBlog}
-            </a>
-            <a className="tab tab--active" href="/models">
-              {t.tabModels}
-            </a>
-            <a className="tab" href="/tools">
-              {t.tabAiTools}
-            </a>
-            <a className="tab" href="/posts">
-              {t.tabPosts}
-              {postsHasNew && <span className="nav-dot" aria-label={t.newContent} />}
-            </a>
-            <a className="tab" href="/videos">
-              {t.tabVideos}
-            </a>
-            <a className="tab" href="/skills">
-              {t.tabSkills}
-            </a>
-            <a className="tab" href="/topics">
-              {t.tabTopics}
-            </a>
-          </nav>
+          <TopNav active="models" t={t} postsHasNew={postsHasNew} />
           {session?.user ? (
             <span className="user">
               {session.user.image && (
