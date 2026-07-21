@@ -100,6 +100,9 @@ export default function SkillsShell({
             <a className="tab" href="/">
               {t.tabGithub}
             </a>
+            <a className="tab" href="/blog">
+              {t.tabBlog}
+            </a>
             <a className="tab" href="/models">
               {t.tabModels}
             </a>

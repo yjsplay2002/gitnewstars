@@ -50,6 +50,9 @@ export default async function ToolsSharePage() {
             <Link className="tab" href="/">
               GitHub 트렌딩
             </Link>
+            <Link className="tab" href="/blog">
+              블로그
+            </Link>
             <Link className="tab" href="/models">
               모델 비교
             </Link>

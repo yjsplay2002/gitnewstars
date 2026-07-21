@@ -66,6 +66,9 @@ export default function VideosShell({ snapshot }: { snapshot: AiVideosSnapshot }
             <a className="tab" href="/">
               {t.tabGithub}
             </a>
+            <a className="tab" href="/blog">
+              {t.tabBlog}
+            </a>
             <a className="tab" href="/models">
               {t.tabModels}
             </a>

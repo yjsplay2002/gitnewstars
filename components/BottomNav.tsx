@@ -2,10 +2,18 @@
 // Client component by inheritance: imported from the "use client" shells.
 import type { Dict } from "@/lib/i18n";
 
-export type TabKey = "github" | "models" | "tools" | "posts" | "videos" | "skills";
+export type TabKey =
+  | "github"
+  | "blog"
+  | "models"
+  | "tools"
+  | "posts"
+  | "videos"
+  | "skills";
 
 const TABS: { key: TabKey; href: string; label: (t: Dict) => string }[] = [
   { key: "github", href: "/", label: (t) => t.tabGithub },
+  { key: "blog", href: "/blog", label: (t) => t.tabBlog },
   { key: "models", href: "/models", label: (t) => t.tabModels },
   { key: "tools", href: "/tools", label: (t) => t.tabAiTools },
   { key: "posts", href: "/posts", label: (t) => t.tabPosts },

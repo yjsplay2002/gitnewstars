@@ -103,6 +103,9 @@ export default function AppShell({
             <a className="tab tab--active" href="/">
               {t.tabGithub}
             </a>
+            <a className="tab" href="/blog">
+              {t.tabBlog}
+            </a>
             <a className="tab" href="/models">
               {t.tabModels}
             </a>

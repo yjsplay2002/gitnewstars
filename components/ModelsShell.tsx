@@ -62,6 +62,9 @@ export default function ModelsShell() {
             <a className="tab" href="/">
               {t.tabGithub}
             </a>
+            <a className="tab" href="/blog">
+              {t.tabBlog}
+            </a>
             <a className="tab tab--active" href="/models">
               {t.tabModels}
             </a>

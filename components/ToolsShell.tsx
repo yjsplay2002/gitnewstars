@@ -169,6 +169,9 @@ export default function ToolsShell({ snapshot }: { snapshot: AiToolsSnapshot }) 
             <a className="tab" href="/">
               {t.tabGithub}
             </a>
+            <a className="tab" href="/blog">
+              {t.tabBlog}
+            </a>
             <a className="tab" href="/models">
               {t.tabModels}
             </a>

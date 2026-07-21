@@ -1,4 +1,6 @@
 import { getCuratedPosts } from "@/lib/posts";
+import { listBlogPosts } from "@/lib/blog";
+import { markdownExcerpt } from "@/lib/markdown";
 
 const SITE_URL = "https://gitnewstars.vercel.app";
 const FEED_LIMIT = 20;
@@ -27,7 +29,10 @@ function rfc822(iso: string): string {
 }
 
 export async function GET() {
-  const snapshot = await getCuratedPosts();
+  const [snapshot, blogPosts] = await Promise.all([
+    getCuratedPosts(),
+    listBlogPosts(),
+  ]);
   const posts = [...snapshot.posts]
     .sort((a, b) => {
       const aAt = a.curatedAt || a.createdAt;
@@ -36,22 +41,42 @@ export async function GET() {
     })
     .slice(0, FEED_LIMIT);
 
-  const lastBuild =
-    posts[0]?.curatedAt || posts[0]?.createdAt || new Date().toISOString();
+  // Merge blog articles and curated posts into one entry list, newest first.
+  type Entry = { title: string; link: string; desc: string; pub: string; src?: { url: string; name: string } };
+  const entries: Entry[] = [
+    ...blogPosts.map((p) => ({
+      title: p.title,
+      link: `${SITE_URL}/blog/${p.slug}`,
+      desc: markdownExcerpt(p.body, 280),
+      pub: p.createdAt,
+    })),
+    ...posts.map((p) => ({
+      title: p.title,
+      link: `${SITE_URL}/posts/${p.id}`,
+      desc: excerpt(p.body),
+      pub: p.curatedAt || p.createdAt,
+      src: { url: p.sourceUrl, name: p.sourceName },
+    })),
+  ]
+    .sort((a, b) => b.pub.localeCompare(a.pub))
+    .slice(0, FEED_LIMIT);
 
-  const items = posts
-    .map((p) => {
-      const link = `${SITE_URL}/posts/${p.id}`;
-      const pub = p.curatedAt || p.createdAt;
-      return `    <item>
-      <title>${escapeXml(p.title)}</title>
-      <link>${escapeXml(link)}</link>
-      <guid isPermaLink="true">${escapeXml(link)}</guid>
-      <description>${escapeXml(excerpt(p.body))}</description>
-      <pubDate>${rfc822(pub)}</pubDate>
-      <source url="${escapeXml(p.sourceUrl)}">${escapeXml(p.sourceName)}</source>
-    </item>`;
-    })
+  const lastBuild = entries[0]?.pub || new Date().toISOString();
+
+  const items = entries
+    .map(
+      (e) => `    <item>
+      <title>${escapeXml(e.title)}</title>
+      <link>${escapeXml(e.link)}</link>
+      <guid isPermaLink="true">${escapeXml(e.link)}</guid>
+      <description>${escapeXml(e.desc)}</description>
+      <pubDate>${rfc822(e.pub)}</pubDate>${
+        e.src
+          ? `\n      <source url="${escapeXml(e.src.url)}">${escapeXml(e.src.name)}</source>`
+          : ""
+      }
+    </item>`
+    )
     .join("\n");
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
 import { listToolSlugs } from "@/lib/aiTools";
+import { listBundledBlogSlugs } from "@/lib/blog";
 import { listBundledCuratedIds } from "@/lib/posts";
 import { listTopics } from "@/lib/topics";
 
@@ -25,6 +26,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: SITE_URL, lastModified: now, changeFrequency: "hourly", priority: 1 },
+    {
+      url: `${SITE_URL}/blog`,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 0.9,
+    },
     {
       url: `${SITE_URL}/models`,
       lastModified: now,
@@ -57,6 +64,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  const blogRoutes: MetadataRoute.Sitemap = listBundledBlogSlugs().map((slug) => ({
+    url: `${SITE_URL}/blog/${slug}`,
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+
   const postRoutes: MetadataRoute.Sitemap = listBundledCuratedIds().map((id) => ({
     url: `${SITE_URL}/posts/${id}`,
     lastModified: now,
@@ -85,5 +99,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticRoutes, ...postRoutes, ...topicRoutes, ...toolRoutes, ...weekRoutes];
+  return [
+    ...staticRoutes,
+    ...blogRoutes,
+    ...postRoutes,
+    ...topicRoutes,
+    ...toolRoutes,
+    ...weekRoutes,
+  ];
 }
