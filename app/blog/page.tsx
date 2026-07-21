@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import BlogShell from "@/components/BlogShell";
 import { listBlogPosts } from "@/lib/blog";
+import { getChannelVideos } from "@/lib/youtube";
 
 export const revalidate = 300;
 
@@ -19,6 +20,6 @@ export const metadata: Metadata = {
 };
 
 export default async function BlogPage() {
-  const posts = await listBlogPosts();
-  return <BlogShell posts={posts} />;
+  const [posts, videos] = await Promise.all([listBlogPosts(), getChannelVideos()]);
+  return <BlogShell posts={posts} videos={videos} />;
 }

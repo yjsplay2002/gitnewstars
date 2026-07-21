@@ -76,6 +76,8 @@ export const translations = {
     blogSaved: "저장됨!",
     blogSaveError: "저장 실패. 잠시 후 다시 시도해 주세요.",
     blogAdminOnly: "블로그 글쓰기는 관리자 전용입니다.",
+    blogVideosTitle: "📺 새 영상",
+    blogVideosChannel: "채널 보기",
     // model comparison tab
     tabModels: "모델 비교",
     modelsBadge: "AI 코딩 모델 비교",
@@ -290,6 +292,8 @@ export const translations = {
     blogSaved: "Saved!",
     blogSaveError: "Save failed. Please try again.",
     blogAdminOnly: "Blog writing is admin-only.",
+    blogVideosTitle: "📺 New Videos",
+    blogVideosChannel: "View channel",
     tabModels: "Model Compare",
     modelsBadge: "AI Coding Model Comparison",
     modelsTitle: "API Coding Models — Objective Comparison",

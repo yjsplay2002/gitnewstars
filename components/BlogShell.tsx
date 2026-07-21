@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import type { BlogPost } from "@/lib/blog";
+import { CHANNEL_URL, type ChannelVideo } from "@/lib/youtube";
 import { markdownExcerpt } from "@/lib/markdown";
 import { translations, type Lang } from "@/lib/i18n";
 import BottomNav from "./BottomNav";
@@ -19,7 +20,13 @@ function fmtDate(iso: string, lang: Lang): string {
   });
 }
 
-export default function BlogShell({ posts }: { posts: BlogPost[] }) {
+export default function BlogShell({
+  posts,
+  videos = [],
+}: {
+  posts: BlogPost[];
+  videos?: ChannelVideo[];
+}) {
   const [lang, setLang] = useState<Lang>("ko");
   const t = translations[lang];
   const { data: session } = useSession();
@@ -104,6 +111,43 @@ export default function BlogShell({ posts }: { posts: BlogPost[] }) {
             </p>
           )}
         </header>
+
+        {videos.length > 0 && (
+          <section className="blog-videos">
+            <div className="blog-videos__head">
+              <h2 className="blog-videos__title">{t.blogVideosTitle}</h2>
+              <a
+                className="blog-videos__channel"
+                href={CHANNEL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                AI Native — {t.blogVideosChannel} ↗
+              </a>
+            </div>
+            <div className="blog-videos__row">
+              {videos.map((v) => (
+                <a
+                  key={v.id}
+                  className="blog-video-card"
+                  href={v.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    className="blog-video-card__thumb"
+                    src={v.thumbnail}
+                    alt=""
+                    loading="lazy"
+                  />
+                  <p className="blog-video-card__title">{v.title}</p>
+                  <p className="blog-video-card__date">{fmtDate(v.publishedAt, lang)}</p>
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
 
         {posts.length === 0 ? (
           <p className="sidebar__empty">{t.blogEmpty}</p>
