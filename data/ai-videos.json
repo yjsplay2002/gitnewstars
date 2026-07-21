@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T09:00:00Z",
+  "generatedAt": "2026-07-22T09:00:00Z",
   "videos": [
     {
       "id": "vid-bibl-claude-code-youtube-tips-ko",
@@ -38,15 +38,28 @@
       "addedAt": "2026-07-19T09:00:00Z"
     },
     {
-      "id": "vid-cc-complete-guide-10x-ko",
-      "youtubeId": "CFqDOldk4T8",
+      "id": "vid-zerocho-vibecoding-team-tip-ko",
+      "youtubeId": "OvNn-ynclzA",
       "category": "tip",
-      "title": "클로드 코드 완벽 가이드 — 설정부터 자동화까지 10배 빠른 AI 코딩 비법",
-      "titleEn": "Claude Code Complete Guide: Setup to Automation for 10x Faster AI Coding",
-      "descKo": "환경 설정부터 자동화 워크플로우까지, 클로드 코드로 코딩 속도를 10배 끌어올리는 실전 비법 모음.",
-      "descEn": "A setup-to-automation walkthrough of practical tricks for making Claude Code coding roughly 10x faster.",
-      "channel": "미상",
-      "addedAt": "2026-07-21T09:00:00Z"
+      "title": "팀에서 바이브 코딩 도입이 어려운 이유와 해결법",
+      "titleEn": "Why Vibe Coding Is Hard to Adopt on a Team — and How to Fix It",
+      "descKo": "팀 리더를 위한 회사 내 바이브 코딩 도입 장벽과 실무 해결 팁 정리.",
+      "descEn": "Practical tips for team leads on why vibe coding is hard to adopt at work and how to overcome it.",
+      "channel": "ZeroCho TV",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "addedAt": "2026-07-22T09:00:00Z"
+    },
+    {
+      "id": "vid-zzikbot-claude-hidden-tools-ko",
+      "youtubeId": "yxqVX2dYCvM",
+      "category": "tip",
+      "title": "사용자 99%는 모르는 클로드 숨은 도구 7가지",
+      "titleEn": "7 Hidden Claude Tools 99% of Users Don't Know About",
+      "descKo": "대부분의 사용자가 놓치는 클로드의 숨겨진 기능·도구 7가지를 소개.",
+      "descEn": "Highlights 7 lesser-known Claude tools and features most users overlook.",
+      "channel": "ZZIK BOT",
+      "publishedAt": "2026-07-15T00:00:00Z",
+      "addedAt": "2026-07-22T09:00:00Z"
     },
     {
       "id": "vid-matthew-berman-codex-usecase",
@@ -85,27 +98,28 @@
       "addedAt": "2026-07-19T23:09:40Z"
     },
     {
-      "id": "vid-bnk-vibecoding-revenue-ko",
-      "youtubeId": "5GqQsqtG_2k",
+      "id": "vid-agrici-claude-code-second-brain",
+      "youtubeId": "LGKOa_-XWAc",
       "category": "usecase",
-      "title": "바이브 코딩 앱으로 6개월 만에 매출 50억 찍은 사례",
-      "titleEn": "A Vibe-Coded App Hit ~5B KRW Revenue in 6 Months",
-      "descKo": "코딩 지식 없이 바이브 코딩으로 만든 앱이 출시 6개월 만에 매출 50억 원을 기록한 실제 창업 사례.",
-      "descEn": "A real founder case study: an app built with vibe coding, with no traditional coding background, reached roughly 5 billion KRW in revenue within 6 months of launch.",
-      "channel": "BNK금융그룹",
-      "publishedAt": "2026-07-08T00:00:00Z",
-      "addedAt": "2026-07-19T23:09:40Z"
+      "title": "클로드 코드로 '세컨드 브레인' 클라이언트 풀 빌드",
+      "titleEn": "Claude Code Second Brain: The Full Client Build",
+      "descKo": "클로드 코드만으로 개인 지식관리용 '세컨드 브레인' 앱을 처음부터 끝까지 빌드하는 실전 영상.",
+      "descEn": "A full build video creating a personal-knowledge-management 'second brain' client app end-to-end using Claude Code.",
+      "channel": "Agrici Daniel",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "addedAt": "2026-07-22T09:00:00Z"
     },
     {
-      "id": "vid-ai-agents-complete-guide-usecase",
-      "youtubeId": "LNkAW4SSgdY",
+      "id": "vid-openai-codex-developer-update",
+      "youtubeId": "eiQgljOrkWU",
       "category": "usecase",
-      "title": "AI 에이전트 완전 정복 — 개념부터 실전 활용까지",
-      "titleEn": "The Complete Guide to AI Agents in 2026 (And How to Actually Use Them)",
-      "descKo": "AI 에이전트가 무엇인지부터 실제로 어떻게 활용하는지까지, 실전 유즈케이스 위주로 정리한 가이드.",
-      "descEn": "A structured guide covering what AI agents are and, more importantly, real-world patterns for actually using them.",
-      "publishedAt": "2026-05-21T00:00:00Z",
-      "addedAt": "2026-07-21T09:00:00Z"
+      "title": "코덱스, 개발자를 위해 더 좋아졌다 — OpenAI 공식 소개",
+      "titleEn": "Codex Just Got Better for Developers",
+      "descKo": "OpenAI 공식 채널이 소개하는 코덱스의 새 개발자용 기능과 실제 활용 방식.",
+      "descEn": "OpenAI's official channel walks through new Codex capabilities for developers and how to use them.",
+      "channel": "OpenAI",
+      "publishedAt": "2026-07-14T00:00:00Z",
+      "addedAt": "2026-07-22T09:00:00Z"
     },
     {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
@@ -166,17 +180,6 @@
       "channel": "혼잡스",
       "publishedAt": "2026-07-16T00:00:00Z",
       "addedAt": "2026-07-19T23:09:40Z"
-    },
-    {
-      "id": "vid-gemini-cli-walkthrough",
-      "youtubeId": "Q9qWsRd9yGM",
-      "category": "lecture",
-      "title": "Gemini CLI 완전 워크스루 — 터미널용 무료 AI 코딩 에이전트",
-      "titleEn": "Google Gemini CLI Full Walkthrough 2026 | The Best Free AI Coding Agent for Your Terminal",
-      "descKo": "터미널 기반 코딩 에이전트로서 Gemini CLI를 처음부터 끝까지 다루는 전체 워크스루 강의.",
-      "descEn": "A full walkthrough of Gemini CLI as a terminal-based coding agent, start to finish.",
-      "publishedAt": "2026-05-13T00:00:00Z",
-      "addedAt": "2026-07-21T09:00:00Z"
     }
   ]
 }
