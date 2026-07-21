@@ -36,5 +36,8 @@ jobs:
             echo "No new snapshot to commit."
           else
             git commit -m "chore: weekly trending snapshot"
+            # Rebase onto latest main first — the checkout SHA is pinned at
+            # trigger time, so any push landing meanwhile rejects ours.
+            git pull --rebase origin main
             git push
           fi

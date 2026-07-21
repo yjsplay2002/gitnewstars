@@ -33,5 +33,8 @@ jobs:
             echo "No model data changes to commit."
           else
             git commit -m "chore(data): daily model comparison refresh"
+            # Rebase onto latest main first — the checkout SHA is pinned at
+            # trigger time, so any push landing meanwhile rejects ours.
+            git pull --rebase origin main
             git push
           fi
