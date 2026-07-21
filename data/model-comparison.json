@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-21",
   "note": "SWE-bench Verified 점수는 vals.ai 리더보드(2026-07-17) + 벤더 발표 기준. 가격·컨텍스트는 OpenRouter API에서 매일 자동 갱신($/1M 토큰). 점수가 없는 신규 모델은 표에만 표시.",
   "ignoredIds": [
     "anthropic/claude-opus-4.7-fast",
@@ -253,7 +253,7 @@
       "vendor": "Z.ai",
       "name": "GLM-5.2",
       "priceIn": 0.97,
-      "priceOut": 3.04,
+      "priceOut": 3.06,
       "context": "1M",
       "swe": null,
       "sweApprox": false,
@@ -290,8 +290,8 @@
       "or": "moonshotai/kimi-k2.7-code",
       "vendor": "Moonshot",
       "name": "Kimi K2.7 Code",
-      "priceIn": 0.85,
-      "priceOut": 3.8,
+      "priceIn": 0.82,
+      "priceOut": 3.75,
       "context": "262K",
       "swe": null,
       "sweApprox": false,
