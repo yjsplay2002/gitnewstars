@@ -4,9 +4,25 @@
       "slug": "hello-blog",
       "title": "GitNewStars 블로그를 시작합니다",
       "body": "GitHub 트렌딩 큐레이션으로 시작한 GitNewStars에 **기술 블로그**를 엽니다.\n\n## 여기서 다룰 것\n\n- AI 코딩 도구 실전 사용기\n- 모델 선택과 가성비 분석\n- 자동화 파이프라인 구축기 (이 사이트 자체가 실험장입니다)\n\n사이트의 다른 탭들 — 주간 트렌딩, 모델 비교, 스킬 랭킹 — 은 매일 자동으로 갱신되고, 이 블로그에는 그 데이터를 만들며 배운 것들을 기록합니다.\n\n```bash\n# 이 사이트의 데이터베이스는 git 저장소입니다\ngit log --oneline data/\n```\n\n앞으로의 글을 [RSS](/feed.xml)로 받아보실 수 있습니다.",
-      "tags": ["공지"],
+      "tags": [
+        "공지"
+      ],
       "createdAt": "2026-07-21T09:00:00.000Z",
       "updatedAt": "2026-07-21T09:00:00.000Z",
+      "published": true
+    },
+    {
+      "slug": "claude-code-statusline-hot-usecase",
+      "title": "Claude Code 상태 바에 구독 사용량 + 실시간 인기 유즈케이스 띄우기",
+      "body": "Claude Code 상태 바에 **구독 사용량 게이지**와 **실시간 인기 유즈케이스**를 함께 띄우는 도구를 만들었습니다. 코딩하는 내내 상태 바 한 줄에서 \"지금 얼마나 썼는지\"와 \"지금 커뮤니티에서 뭐가 뜨는지\"를 동시에 보는 구성입니다.\n\n## 완성 화면\n\n```\n[Opus 4.8] 📁 myrepo   🧠 ctx ██░░░░░░░░ 18% (180K/1000K)   ⏳ 5h ██░░░░░░░░ 24% →16:16   📅 7d ████░░░░░░ 41% →7/13 09:00\n🔥 Show HN: Vibe Kanban – Kanban board to manage your\n   AI coding agents [hn]\n🔗 https://github.com/BloopAI/vibe-kanban\n```\n\n첫 줄은 세 가지 독립 게이지입니다.\n\n- **🧠 ctx** — 이 대화의 컨텍스트 윈도우가 얼마나 찼는지\n- **⏳ 5h / 📅 7d** — 구독 쿼터(5시간 블록·7일 윈도우) 소진율과 리셋 시각\n- 색상은 70% 미만 초록, 70–89 노랑, 90 이상 빨강\n\n아래 두 줄은 HN·Reddit·GitHub에서 긁어온 인기 유즈케이스가 20초마다 회전합니다. 제목 3줄 워드랩 + 복사 가능한 URL.\n\n## 아키텍처 — 쓰기는 데몬 하나만\n\n```\ndaemon.js (백그라운드 프로세스)\n  ├─ 15분마다: scrapeAll() → normalizeItems() → cache.json\n  └─ 20초마다: rotateIndex() → history.jsonl 기록\n\nstatusline.js / watch.js / list.js  ← cache.json 읽기 전용\n```\n\n핵심 설계 규칙 하나: **cache.json을 쓰는 프로세스는 데몬뿐**입니다. Claude Code는 statusLine 명령을 10초마다 다시 실행하는데, 렌더러가 캐시를 건드리면 그 틱마다 쓰기 경합이 생깁니다. 렌더러를 순수 리더로 만들면 경합 자체가 없습니다.\n\n## 데이터 수집 — API 키 없이\n\n세 공개 소스를 `Promise.allSettled`로 병렬 수집합니다. 하나가 죽어도 나머지는 삽니다.\n\n| 소스 | 엔드포인트 | 인증 |\n|---|---|---|\n| Hacker News | hn.algolia.com 검색 API | 불필요 |\n| Reddit | r/서브레딧/hot.json | 불필요 |\n| GitHub | 저장소 검색 API | 불필요 |\n\n배운 것: \"인기\"의 정의를 정직하게 적어둘 것. 이 랭킹은 HN 관련도·Reddit hot·GitHub 최근 업데이트 순이라 **키워드 매칭된 최신 글**이지, 진짜 업보트 리더보드가 아닙니다. 나중에 헷갈리지 않게 문서에 캐비앳으로 박아뒀습니다.\n\n## Windows에서 원자적 파일 쓰기\n\n캐시 쓰기는 `*.tmp`에 쓰고 `rename`하는 고전 패턴인데, Windows는 기존 파일 위로 rename이 실패할 수 있습니다. 그래서 rename 실패 시 copy+unlink로 폴백합니다. 크로스 플랫폼 파일 쓰기에서 항상 걸리는 함정.\n\n## Claude Code statusLine 연동\n\n`~/.claude/settings.json`:\n\n```json\n{\n  \"statusLine\": {\n    \"command\": \"node src/statusline.js\",\n    \"refreshInterval\": 10\n  }\n}\n```\n\nClaude가 stdin으로 JSON을 파이프해줍니다. 여기서 두 가지를 읽습니다.\n\n1. `context_window` — 컨텍스트 사용률 (없으면 트랜스크립트 마지막 메시지의 토큰 합산으로 폴백, 200K/1M 윈도우 자동 판별)\n2. `rate_limits.five_hour` / `.seven_day` — 구독 사용률 (Pro/Max에서 첫 API 응답 후 제공)\n\nstdin 읽기엔 **80ms 타임아웃**을 걸었습니다. 파이프가 비어있을 때 렌더러가 영원히 기다리면 상태 바 전체가 멈춥니다. 그리고 어떤 에러가 나든 안전한 한 줄을 찍고 exit 0 — 상태 바는 절대 실패하면 안 됩니다.\n\nCodex CLI와 Grok CLI는 아직 커스텀 상태 바 명령을 지원하지 않아서, 같은 데이터를 별도 터미널 페인(`watch.js`)으로 보여줍니다.\n\n## 배운 것 요약\n\n- **단일 작성자 원칙**: 짧은 주기로 재실행되는 렌더러가 있으면 상태 파일 쓰기는 한 프로세스로 모아라\n- **stdin 타임아웃**: 파이프 기반 연동은 idle 파이프 대비 타임아웃 필수\n- **절대 실패하지 않는 출력**: 상태 바·프롬프트류 도구는 에러도 정상 출력으로 변환\n- **히스토리 로그**: 화면에 스쳐간 항목은 `history.jsonl`에 append — 다음 스크랩에서 사라진 항목도 복구 가능",
+      "tags": [
+        "Claude Code",
+        "CLI",
+        "자동화",
+        "사용기"
+      ],
+      "createdAt": "2026-07-21T07:11:59.912Z",
+      "updatedAt": "2026-07-21T07:11:59.913Z",
       "published": true
     }
   ]
