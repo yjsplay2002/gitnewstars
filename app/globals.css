@@ -2397,6 +2397,34 @@ a.btn {
   border-top: 1px solid var(--border);
   margin: 2em 0;
 }
+.blog-prose .table-wrap {
+  overflow-x: auto;
+  margin: 1.1em 0;
+}
+.blog-prose table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.blog-prose th,
+.blog-prose td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+.blog-prose th {
+  background: var(--bg-soft);
+  font-weight: 600;
+  white-space: nowrap;
+}
+.blog-prose tbody tr:nth-child(even) {
+  background: color-mix(in srgb, var(--bg-soft) 45%, transparent);
+}
+.blog-prose td a {
+  word-break: break-all;
+}
 
 /* editor */
 .blog-editor {
