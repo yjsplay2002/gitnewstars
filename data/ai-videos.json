@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-22T09:00:00Z",
+  "generatedAt": "2026-07-22T23:10:00Z",
   "videos": [
     {
-      "id": "vid-bibl-claude-code-youtube-tips-ko",
-      "youtubeId": "WSqJY7VISoM",
+      "id": "vid-codexteam-9-tips",
+      "youtubeId": "dB-Kbylgrdk",
       "category": "tip",
-      "title": "답답하게 안되던 유튜브를 살리는 클로드 코드 활용법 9가지",
-      "titleEn": "9 Claude Code Tricks to Unblock a Stalling YouTube Channel",
-      "descKo": "유튜브 운영이 막힐 때 클로드 코드로 돌파하는 9가지 실전 활용법.",
-      "descEn": "Nine Claude Code workflow tricks a Korean creator used to break through a stalling YouTube channel.",
-      "channel": "비블 bibl",
-      "publishedAt": "2026-06-23T00:00:00Z",
-      "addedAt": "2026-07-15T09:00:00Z"
+      "title": "코덱스 팀이 직접 전하는 코덱스 활용 팁 9가지",
+      "titleEn": "9 Codex Tips from the Codex Team",
+      "descKo": "OpenAI 코덱스 팀이 직접 소개하는 실전 사용 팁 9가지.",
+      "descEn": "Nine practical Codex usage tips straight from the OpenAI Codex team.",
+      "channel": "OpenAI",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "addedAt": "2026-07-22T23:10:00Z"
     },
     {
       "id": "vid-claude-cowork-update-ko",
@@ -62,6 +62,18 @@
       "addedAt": "2026-07-22T09:00:00Z"
     },
     {
+      "id": "vid-tristen-claude-agents-2026",
+      "youtubeId": "_aY_EDaC_dA",
+      "category": "usecase",
+      "title": "2026년 클로드 AI 에이전트 마스터하기 — 10분, 실전 예시 5개",
+      "titleEn": "Master Claude AI Agents in 2026 (5 Real Examples in 10 min)",
+      "descKo": "클로드 AI 에이전트를 실무에 바로 적용하는 실전 예시 5개를 10분 안에 압축 설명.",
+      "descEn": "Five real-world Claude AI agent examples you can apply directly, compressed into a 10-minute walkthrough.",
+      "channel": "Tristen O'Brien",
+      "publishedAt": "2026-06-21T00:00:00Z",
+      "addedAt": "2026-07-22T23:10:00Z"
+    },
+    {
       "id": "vid-matthew-berman-codex-usecase",
       "youtubeId": "etduwo9Lu3M",
       "category": "usecase",
@@ -110,18 +122,6 @@
       "addedAt": "2026-07-22T09:00:00Z"
     },
     {
-      "id": "vid-openai-codex-developer-update",
-      "youtubeId": "eiQgljOrkWU",
-      "category": "usecase",
-      "title": "코덱스, 개발자를 위해 더 좋아졌다 — OpenAI 공식 소개",
-      "titleEn": "Codex Just Got Better for Developers",
-      "descKo": "OpenAI 공식 채널이 소개하는 코덱스의 새 개발자용 기능과 실제 활용 방식.",
-      "descEn": "OpenAI's official channel walks through new Codex capabilities for developers and how to use them.",
-      "channel": "OpenAI",
-      "publishedAt": "2026-07-14T00:00:00Z",
-      "addedAt": "2026-07-22T09:00:00Z"
-    },
-    {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -134,16 +134,15 @@
       "addedAt": "2026-07-16T09:00:00Z"
     },
     {
-      "id": "vid-mcp-crash-course",
-      "youtubeId": "rwOYK8hk7yo",
+      "id": "vid-mcp-korean-guide-ko",
+      "youtubeId": "zVSZ2gXvhVE",
       "category": "lecture",
-      "title": "MCP 한 영상으로 끝내기 — 모델 컨텍스트 프로토콜 완전 정복",
-      "titleEn": "Learn MCP in ONE Video | Model Context Protocol Crash Course",
-      "descKo": "MCP(Model Context Protocol) 개념부터 실전 구성까지 한 영상으로 정리한 크래시 코스.",
-      "descEn": "A single-video crash course covering MCP concepts end-to-end, from fundamentals to real setup.",
-      "channel": "DSwithBappy",
-      "publishedAt": "2026-07-14T00:00:00Z",
-      "addedAt": "2026-07-17T09:00:00Z"
+      "title": "MCP 이제 모르면 안 됩니다 — MCP 서버 개발 및 연동 방법",
+      "titleEn": "You Need to Know MCP Now — Building and Connecting an MCP Server",
+      "descKo": "MCP(Model Context Protocol) 서버를 처음부터 직접 개발하고 클로드 등 에이전트와 연동하는 방법을 다루는 한국어 강의.",
+      "descEn": "A Korean-language course covering how to build an MCP (Model Context Protocol) server from scratch and connect it to agents like Claude.",
+      "channel": "개발동생",
+      "addedAt": "2026-07-22T23:10:00Z"
     },
     {
       "id": "vid-techwithtim-codex-course",
