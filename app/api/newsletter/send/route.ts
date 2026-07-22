@@ -1,49 +1,28 @@
 import { NextResponse } from "next/server";
+import { auth, ADMIN_EMAIL } from "@/auth";
 import { getRedis } from "@/lib/redis";
-import {
-  composeDigest,
-  personalize,
-  newsletterSecret,
-  kstDateKey,
-} from "@/lib/newsletter";
+import { composeDigest, personalize } from "@/lib/newsletter";
+import { sendViaGmail, gmailConfigured } from "@/lib/mailer";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
 
-function cleanEnv(value: string | undefined): string {
-  if (!value) return "";
-  let out = "";
-  for (const ch of value) {
-    const code = ch.codePointAt(0) ?? 0;
-    if (code >= 0x21 && code <= 0x7e) out += ch;
-  }
-  return out;
-}
-
-const RESEND_BATCH_URL = "https://api.resend.com/emails/batch";
-const BATCH_SIZE = 100;
-
 /**
- * POST /api/newsletter/send — send today's digest to every subscriber.
- * Called by the daily GitHub Actions cron (09:30 KST) with
- * `Authorization: Bearer $NEWSLETTER_CRON_SECRET`.
- *
- * Guards: shared-secret auth, one send per KST calendar day (Redis NX lock,
- * bypass with ?force=1 for manual re-runs).
+ * POST /api/newsletter/send — admin pressed "발송" on /admin/newsletter.
+ * Composes today's digest and sends it to every subscriber via the
+ * operator's own Gmail (App Password SMTP). No auto-cron: every send is an
+ * explicit human approval.
  */
-export async function POST(req: Request) {
-  const secret = newsletterSecret();
-  const auth = req.headers.get("authorization") ?? "";
-  if (!secret || auth !== `Bearer ${secret}`) {
+export async function POST() {
+  const session = await auth();
+  const email = session?.user?.email?.toLowerCase();
+  if (!email || email !== ADMIN_EMAIL.toLowerCase()) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const apiKey = cleanEnv(process.env.RESEND_API_KEY);
-  const from =
-    cleanEnv(process.env.NEWSLETTER_FROM) || "GitNewStars <onboarding@resend.dev>";
-  if (!apiKey) {
+  if (!gmailConfigured()) {
     return NextResponse.json(
-      { error: "RESEND_API_KEY is not configured" },
+      { error: "GMAIL_USER / GMAIL_APP_PASSWORD가 설정되지 않았습니다." },
       { status: 500 }
     );
   }
@@ -51,67 +30,30 @@ export async function POST(req: Request) {
   const redis = getRedis();
   if (!redis) {
     return NextResponse.json(
-      { error: "Redis is not configured" },
+      { error: "Redis가 설정되지 않아 구독자 목록을 읽을 수 없습니다." },
       { status: 500 }
     );
   }
 
-  const force = new URL(req.url).searchParams.get("force") === "1";
-  const dateKey = kstDateKey(new Date());
-  if (!force) {
-    const locked = await redis.set(`newsletter:sent:${dateKey}`, "1", {
-      nx: true,
-      ex: 2 * 86400,
-    });
-    if (locked === null) {
-      return NextResponse.json({ ok: true, skipped: "already sent today" });
-    }
-  }
-
   const subscribers = (await redis.smembers("newsletter:subscribers")) as string[];
   if (!subscribers.length) {
-    return NextResponse.json({ ok: true, sent: 0, note: "no subscribers" });
+    return NextResponse.json({ ok: true, sent: 0, note: "구독자가 없습니다." });
   }
 
   const digest = await composeDigest();
-  let sent = 0;
-  const failed: string[] = [];
-
-  for (let i = 0; i < subscribers.length; i += BATCH_SIZE) {
-    const chunk = subscribers.slice(i, i + BATCH_SIZE);
-    const payload = chunk.map((email) => ({
-      from,
-      to: [email],
+  const { sent, failed } = await sendViaGmail(
+    subscribers.map((to) => ({
+      to,
       subject: digest.subject,
-      html: personalize(digest.html, email),
-      text: personalize(digest.text, email),
-    }));
-
-    try {
-      const res = await fetch(RESEND_BATCH_URL, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${apiKey}`,
-        },
-        body: JSON.stringify(payload),
-      });
-      if (res.ok) {
-        sent += chunk.length;
-      } else {
-        failed.push(...chunk);
-        console.error("resend batch failed", res.status, await res.text());
-      }
-    } catch (e) {
-      failed.push(...chunk);
-      console.error("resend batch error", e);
-    }
-  }
+      html: personalize(digest.html, to),
+      text: personalize(digest.text, to),
+    }))
+  );
 
   return NextResponse.json({
     ok: failed.length === 0,
     sent,
-    failed: failed.length,
+    failed,
     subject: digest.subject,
   });
 }
