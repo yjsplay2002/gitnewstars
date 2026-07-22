@@ -5,6 +5,8 @@ import { getBlogPost, listBundledBlogSlugs } from "@/lib/blog";
 import { renderMarkdown, markdownExcerpt } from "@/lib/markdown";
 import BlogAdminActions from "@/components/BlogAdminActions";
 import TopNav from "@/components/TopNav";
+import BottomNav from "@/components/BottomNav";
+import { translations } from "@/lib/i18n";
 
 export const revalidate = 300;
 
@@ -100,6 +102,7 @@ export default async function BlogArticlePage({
           </p>
         </footer>
       </main>
+      <BottomNav active="blog" t={translations.ko} />
     </div>
   );
 }

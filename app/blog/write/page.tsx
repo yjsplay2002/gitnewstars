@@ -4,6 +4,8 @@ import Link from "next/link";
 import BlogEditor from "@/components/BlogEditor";
 import { getBlog } from "@/lib/blog";
 import TopNav from "@/components/TopNav";
+import BottomNav from "@/components/BottomNav";
+import { translations } from "@/lib/i18n";
 
 // Always fresh — the editor must see drafts and the latest content.
 export const dynamic = "force-dynamic";
@@ -32,6 +34,7 @@ export default async function BlogWritePage() {
           <BlogEditor posts={snapshot.posts} />
         </Suspense>
       </main>
+      <BottomNav active="blog" t={translations.ko} />
     </div>
   );
 }
