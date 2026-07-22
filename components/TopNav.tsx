@@ -7,6 +7,7 @@
  * reader always knows where they are.
  */
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { translations, type Dict } from "@/lib/i18n";
 
 export type NavKey =
@@ -99,7 +100,11 @@ export default function TopNav({
         )}
       </nav>
 
-      {open && (
+      {/* Portal to <body>: the mobile topbar's backdrop-filter makes it the
+          containing block for fixed descendants, which would trap the
+          fixed-position drawer inside the 54px-tall bar. */}
+      {open &&
+        createPortal(
         <div className="drawer-root">
           <div className="drawer-overlay" onClick={() => setOpen(false)} />
           <aside className="drawer" aria-label={t.navMenu}>
@@ -131,7 +136,8 @@ export default function TopNav({
               </div>
             ))}
           </aside>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
