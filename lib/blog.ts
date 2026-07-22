@@ -16,6 +16,11 @@ export interface BlogPost {
   slug: string;
   title: string;
   body: string; // markdown
+  /** Optional English edition (a re-write, not a literal translation).
+   *  When present the post is also served at /blog/<slug>/en with
+   *  reciprocal hreflang — one post, two citable language versions (GEO). */
+  titleEn?: string;
+  bodyEn?: string;
   tags: string[];
   createdAt: string; // ISO
   updatedAt: string; // ISO
@@ -62,4 +67,15 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
 /** Bundled slugs — for generateStaticParams / sitemap. */
 export function listBundledBlogSlugs(): string[] {
   return (bundled as BlogSnapshot).posts.filter((p) => p.published).map((p) => p.slug);
+}
+
+/** Bundled slugs that ship an English edition — for /blog/<slug>/en. */
+export function listBundledBlogSlugsEn(): string[] {
+  return (bundled as BlogSnapshot).posts
+    .filter((p) => p.published && p.titleEn && p.bodyEn)
+    .map((p) => p.slug);
+}
+
+export function hasEnglish(post: BlogPost): boolean {
+  return Boolean(post.titleEn && post.bodyEn);
 }

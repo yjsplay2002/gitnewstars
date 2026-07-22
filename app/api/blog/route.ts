@@ -43,6 +43,8 @@ export async function POST(req: Request) {
     slug?: string;
     title?: string;
     body?: string;
+    titleEn?: string;
+    bodyEn?: string;
     tags?: string[];
     published?: boolean;
   };
@@ -54,6 +56,9 @@ export async function POST(req: Request) {
 
   const title = (body.title ?? "").trim();
   const markdown = (body.body ?? "").trim();
+  // Optional English edition — both fields or neither.
+  const titleEn = (body.titleEn ?? "").trim();
+  const bodyEn = (body.bodyEn ?? "").trim();
   const published = body.published !== false;
   const tags = (body.tags ?? [])
     .map((t) => String(t).trim())
@@ -65,6 +70,16 @@ export async function POST(req: Request) {
   }
   if (!markdown || markdown.length > BLOG_BODY_MAX) {
     return NextResponse.json({ error: "Invalid body" }, { status: 400 });
+  }
+  if (
+    Boolean(titleEn) !== Boolean(bodyEn) ||
+    titleEn.length > BLOG_TITLE_MAX ||
+    bodyEn.length > BLOG_BODY_MAX
+  ) {
+    return NextResponse.json(
+      { error: "English edition needs both titleEn and bodyEn" },
+      { status: 400 }
+    );
   }
   const slug = (body.slug ?? "").trim() || slugify(title);
   if (!BLOG_SLUG_RE.test(slug)) {
@@ -82,6 +97,13 @@ export async function POST(req: Request) {
   if (existing) {
     existing.title = title;
     existing.body = markdown;
+    if (titleEn) {
+      existing.titleEn = titleEn;
+      existing.bodyEn = bodyEn;
+    } else {
+      delete existing.titleEn;
+      delete existing.bodyEn;
+    }
     existing.tags = tags;
     existing.published = published;
     existing.updatedAt = now;
@@ -90,6 +112,7 @@ export async function POST(req: Request) {
       slug,
       title,
       body: markdown,
+      ...(titleEn && { titleEn, bodyEn }),
       tags,
       createdAt: now,
       updatedAt: now,

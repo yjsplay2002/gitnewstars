@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { readdirSync } from "node:fs";
 import { join } from "node:path";
 import { listToolSlugs } from "@/lib/aiTools";
-import { listBundledBlogSlugs } from "@/lib/blog";
+import { listBundledBlogSlugs, listBundledBlogSlugsEn } from "@/lib/blog";
 import { listBundledCuratedIds } from "@/lib/posts";
 import { listTopics } from "@/lib/topics";
 
@@ -71,6 +71,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const blogEnRoutes: MetadataRoute.Sitemap = listBundledBlogSlugsEn().map(
+    (slug) => ({
+      url: `${SITE_URL}/blog/${slug}/en`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.75,
+    })
+  );
+
   const postRoutes: MetadataRoute.Sitemap = listBundledCuratedIds().map((id) => ({
     url: `${SITE_URL}/posts/${id}`,
     lastModified: now,
@@ -102,6 +111,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticRoutes,
     ...blogRoutes,
+    ...blogEnRoutes,
     ...postRoutes,
     ...topicRoutes,
     ...toolRoutes,

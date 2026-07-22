@@ -15,10 +15,12 @@ export async function GET() {
   try {
     const posts = await listBlogPosts();
     postLines = posts
-      .map(
-        (p) =>
-          `- [${p.title}](${SITE_URL}/blog/${p.slug}): ${markdownExcerpt(p.body, 110)}`
-      )
+      .map((p) => {
+        const ko = `- [${p.title}](${SITE_URL}/blog/${p.slug}): ${markdownExcerpt(p.body, 110)}`;
+        return p.titleEn && p.bodyEn
+          ? `${ko}\n- [${p.titleEn}](${SITE_URL}/blog/${p.slug}/en) (English edition): ${markdownExcerpt(p.bodyEn, 110)}`
+          : ko;
+      })
       .join("\n");
   } catch {
     postLines = `- [블로그](${SITE_URL}/blog)`;

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getBlogPost, listBundledBlogSlugs } from "@/lib/blog";
+import { getBlogPost, listBundledBlogSlugs, hasEnglish } from "@/lib/blog";
 import { renderMarkdown, markdownExcerpt } from "@/lib/markdown";
 import BlogAdminActions from "@/components/BlogAdminActions";
 import TopNav from "@/components/TopNav";
@@ -26,10 +26,18 @@ export async function generateMetadata({
   const post = await getBlogPost(slug);
   if (!post) return { title: "글을 찾을 수 없습니다 | GitNewStars" };
   const description = markdownExcerpt(post.body, 160);
+  const url = `${SITE_URL}/blog/${post.slug}`;
   return {
     title: `${post.title} | GitNewStars 블로그`,
     description,
-    alternates: { canonical: `${SITE_URL}/blog/${post.slug}` },
+    alternates: {
+      canonical: url,
+      // hreflang pair — crawlers see both language editions even though the
+      // UI only surfaces the reader's configured language (GEO).
+      ...(hasEnglish(post) && {
+        languages: { ko: url, en: `${url}/en` },
+      }),
+    },
     openGraph: {
       title: post.title,
       description,
@@ -128,6 +136,11 @@ export default async function BlogArticlePage({
 
         <p className="post-detail__back">
           <Link href="/blog">← 블로그로 돌아가기</Link>
+          {hasEnglish(post) && (
+            <Link className="blog-lang-link" href={`/blog/${post.slug}/en`}>
+              Read in English →
+            </Link>
+          )}
         </p>
 
         <article className="blog-article">

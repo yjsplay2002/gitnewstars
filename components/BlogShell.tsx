@@ -129,12 +129,21 @@ export default function BlogShell({
           <p className="sidebar__empty">{t.blogEmpty}</p>
         ) : (
           <section className="blog-list">
-            {posts.map((p) => (
+            {posts.map((p) => {
+              // English UI links to the English edition when one exists;
+              // crawlers still see both URLs via sitemap + hreflang.
+              const en = lang === "en" && p.titleEn && p.bodyEn;
+              return (
               <article key={p.slug} className="blog-card">
-                <a className="blog-card__link" href={`/blog/${p.slug}`}>
+                <a
+                  className="blog-card__link"
+                  href={en ? `/blog/${p.slug}/en` : `/blog/${p.slug}`}
+                >
                   <p className="blog-card__date">{fmtDate(p.createdAt, lang)}</p>
-                  <h2 className="blog-card__title">{p.title}</h2>
-                  <p className="blog-card__excerpt">{markdownExcerpt(p.body, 220)}</p>
+                  <h2 className="blog-card__title">{en ? p.titleEn : p.title}</h2>
+                  <p className="blog-card__excerpt">
+                    {markdownExcerpt(en ? p.bodyEn! : p.body, 220)}
+                  </p>
                   {p.tags.length > 0 && (
                     <p className="blog-card__tags">
                       {p.tags.map((tag) => (
@@ -146,7 +155,8 @@ export default function BlogShell({
                   )}
                 </a>
               </article>
-            ))}
+              );
+            })}
           </section>
         )}
 

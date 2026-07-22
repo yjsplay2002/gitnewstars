@@ -2163,6 +2163,15 @@ a.btn {
   max-width: 860px;
   margin: 0 auto;
 }
+.blog-lang-link {
+  float: right;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+.blog-lang-link:hover {
+  text-decoration: underline;
+}
 .hero--blog {
   text-align: left;
 }
