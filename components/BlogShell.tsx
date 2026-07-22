@@ -10,6 +10,7 @@ import BottomNav from "./BottomNav";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
 import TopNav from "./TopNav";
+import SubscribeForm from "./SubscribeForm";
 
 function fmtDate(iso: string, lang: Lang): string {
   const d = new Date(iso);
@@ -150,6 +151,7 @@ export default function BlogShell({
         )}
 
         <footer className="footer">
+          <SubscribeForm t={t} />
           <p className="footer__credit">{t.footer}</p>
         </footer>
       </main>

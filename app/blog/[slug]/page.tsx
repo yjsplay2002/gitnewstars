@@ -6,6 +6,7 @@ import { renderMarkdown, markdownExcerpt } from "@/lib/markdown";
 import BlogAdminActions from "@/components/BlogAdminActions";
 import TopNav from "@/components/TopNav";
 import BottomNav from "@/components/BottomNav";
+import SubscribeForm from "@/components/SubscribeForm";
 import { translations } from "@/lib/i18n";
 
 export const revalidate = 300;
@@ -97,6 +98,7 @@ export default async function BlogArticlePage({
         </article>
 
         <footer className="footer">
+          <SubscribeForm t={translations.ko} />
           <p className="footer__credit">
             GitHub Trending 데이터를 기반으로 제작 · Vercel에 배포됨
           </p>

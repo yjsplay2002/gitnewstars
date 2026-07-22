@@ -1,0 +1,20 @@
+name: Daily Morning Newsletter
+
+# Fires the digest send endpoint every morning at 09:30 KST (00:30 UTC) —
+# after the 08:03 KST local crawl has refreshed curated posts/videos/skills
+# and Vercel has redeployed with the fresh data. The endpoint itself
+# dedupes to one send per KST day, so manual re-runs are safe.
+on:
+  schedule:
+    - cron: "30 0 * * *" # 00:30 UTC = 09:30 KST
+  workflow_dispatch: {}
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger digest send
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${{ secrets.NEWSLETTER_CRON_SECRET }}" \
+            "https://gitnewstars.vercel.app/api/newsletter/send"

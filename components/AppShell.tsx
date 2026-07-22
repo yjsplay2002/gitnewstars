@@ -12,6 +12,7 @@ import ShareButton from "./ShareButton";
 import VisitorCounter from "./VisitorCounter";
 import { useNewPosts } from "./useNewPosts";
 import TopNav from "./TopNav";
+import SubscribeForm from "./SubscribeForm";
 
 export default function AppShell({
   repos,
@@ -171,6 +172,7 @@ export default function AppShell({
         </section>
 
         <footer className="footer">
+          <SubscribeForm t={t} />
           <p>{isArchive ? t.archivedNote : t.updatedNote}</p>
           <p className="footer__credit">{t.footer}</p>
         </footer>

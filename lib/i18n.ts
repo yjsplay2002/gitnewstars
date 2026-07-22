@@ -211,8 +211,9 @@ export const translations = {
     postError: "등록에 실패했습니다.",
     tooFast: "너무 빠릅니다. 잠시 후 다시 시도해 주세요.",
     // newsletter
-    newsletterTitle: "주간 브리핑 구독",
-    newsletterHint: "새 큐레이션·트렌딩 요약을 이메일로 받아보세요.",
+    newsletterTitle: "☀️ 매일 아침 브리핑 구독",
+    newsletterHint:
+      "AI 뉴스·유즈케이스, 추천 유튜브, 에이전트 스킬, GitHub 트렌딩을 매일 아침 메일 한 통으로 받아보세요.",
     newsletterEmailPlaceholder: "you@example.com",
     newsletterSubmit: "구독하기",
     newsletterSubmitting: "등록 중…",
@@ -429,8 +430,9 @@ export const translations = {
     postError: "Failed to post.",
     tooFast: "Too fast — please try again in a moment.",
     // newsletter
-    newsletterTitle: "Weekly briefing",
-    newsletterHint: "Get curated posts and trending digests by email.",
+    newsletterTitle: "☀️ Daily morning briefing",
+    newsletterHint:
+      "AI news & use cases, YouTube picks, agent skills, and GitHub trending — one email every morning.",
     newsletterEmailPlaceholder: "you@example.com",
     newsletterSubmit: "Subscribe",
     newsletterSubmitting: "Subscribing…",
