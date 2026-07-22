@@ -29,6 +29,7 @@ export async function generateMetadata({
   return {
     title: `${post.title} | GitNewStars 블로그`,
     description,
+    alternates: { canonical: `${SITE_URL}/blog/${post.slug}` },
     openGraph: {
       title: post.title,
       description,
@@ -37,6 +38,58 @@ export async function generateMetadata({
       publishedTime: post.createdAt,
       modifiedTime: post.updatedAt,
     },
+  };
+}
+
+/** BlogPosting + BreadcrumbList JSON-LD — the machine-readable article card
+ *  AI answer engines use to attribute author/date/publisher. */
+function articleJsonLd(post: {
+  slug: string;
+  title: string;
+  body: string;
+  tags: string[];
+  createdAt: string;
+  updatedAt: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BlogPosting",
+        "@id": `${SITE_URL}/blog/${post.slug}`,
+        mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
+        headline: post.title,
+        description: markdownExcerpt(post.body, 160),
+        inLanguage: "ko",
+        keywords: post.tags.join(", "),
+        datePublished: post.createdAt,
+        dateModified: post.updatedAt,
+        author: {
+          "@type": "Person",
+          name: "GitNewStars 운영자",
+          url: SITE_URL,
+          sameAs: ["https://github.com/yjsplay2002"],
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "GitNewStars",
+          url: SITE_URL,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "홈", item: SITE_URL },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: "블로그",
+            item: `${SITE_URL}/blog`,
+          },
+          { "@type": "ListItem", position: 3, name: post.title },
+        ],
+      },
+    ],
   };
 }
 
@@ -64,6 +117,10 @@ export default async function BlogArticlePage({
 
   return (
     <div className="layout">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd(post)) }}
+      />
       <main className="main main--blog">
         <div className="topbar">
           <TopNav active="blog" />
@@ -76,7 +133,7 @@ export default async function BlogArticlePage({
         <article className="blog-article">
           <header className="blog-article__head">
             <p className="blog-card__date">
-              {fmtDate(post.createdAt)}
+              GitNewStars 운영자 · {fmtDate(post.createdAt)}
               {edited && ` · 수정됨 ${fmtDate(post.updatedAt)}`}
             </p>
             <h1 className="blog-article__title">{post.title}</h1>
