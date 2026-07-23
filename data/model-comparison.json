@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22",
+  "lastUpdated": "2026-07-23",
   "note": "SWE-bench Verified 점수는 vals.ai 리더보드(2026-07-17) + 벤더 발표 기준. 가격·컨텍스트는 OpenRouter API에서 매일 자동 갱신($/1M 토큰). 점수가 없는 신규 모델은 표에만 표시.",
   "ignoredIds": [
     "anthropic/claude-opus-4.7-fast",
@@ -252,8 +252,8 @@
       "or": "z-ai/glm-5.2",
       "vendor": "Z.ai",
       "name": "GLM-5.2",
-      "priceIn": 0.82,
-      "priceOut": 2.59,
+      "priceIn": 0.77,
+      "priceOut": 2.41,
       "context": "1M",
       "swe": null,
       "sweApprox": false,
