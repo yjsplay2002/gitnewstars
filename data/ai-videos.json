@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-22T23:10:00Z",
+  "generatedAt": "2026-07-24T02:00:00Z",
   "videos": [
     {
-      "id": "vid-codexteam-9-tips",
-      "youtubeId": "dB-Kbylgrdk",
+      "id": "vid-honjapsu-vibecoding-terms-ko",
+      "youtubeId": "N3st1ZrB_zc",
       "category": "tip",
-      "title": "코덱스 팀이 직접 전하는 코덱스 활용 팁 9가지",
-      "titleEn": "9 Codex Tips from the Codex Team",
-      "descKo": "OpenAI 코덱스 팀이 직접 소개하는 실전 사용 팁 9가지.",
-      "descEn": "Nine practical Codex usage tips straight from the OpenAI Codex team.",
-      "channel": "OpenAI",
-      "publishedAt": "2026-05-20T00:00:00Z",
-      "addedAt": "2026-07-22T23:10:00Z"
+      "title": "10분 안에 끝내는 바이브 코딩 필수 용어 12개",
+      "titleEn": "12 Vibe-Coding Terms You Need to Know, Explained in 10 Minutes",
+      "descKo": "초보자가 헷갈리는 바이브 코딩 용어 12개를 10분 안에 속시원하게 정리.",
+      "descEn": "A quick 10-minute explainer clearing up 12 confusing vibe-coding terms for beginners.",
+      "channel": "혼잡스",
+      "publishedAt": "2026-07-22T00:00:00Z",
+      "addedAt": "2026-07-24T02:00:00Z"
     },
     {
       "id": "vid-claude-cowork-update-ko",
@@ -62,16 +62,16 @@
       "addedAt": "2026-07-22T09:00:00Z"
     },
     {
-      "id": "vid-tristen-claude-agents-2026",
-      "youtubeId": "_aY_EDaC_dA",
+      "id": "vid-rileybrown-codex-runs-company",
+      "youtubeId": "gOx37on-iA8",
       "category": "usecase",
-      "title": "2026년 클로드 AI 에이전트 마스터하기 — 10분, 실전 예시 5개",
-      "titleEn": "Master Claude AI Agents in 2026 (5 Real Examples in 10 min)",
-      "descKo": "클로드 AI 에이전트를 실무에 바로 적용하는 실전 예시 5개를 10분 안에 압축 설명.",
-      "descEn": "Five real-world Claude AI agent examples you can apply directly, compressed into a 10-minute walkthrough.",
-      "channel": "Tristen O'Brien",
-      "publishedAt": "2026-06-21T00:00:00Z",
-      "addedAt": "2026-07-22T23:10:00Z"
+      "title": "이제 코덱스가 사실상 내 회사를 운영하고 있다",
+      "titleEn": "Codex Is Basically Running My Company Now",
+      "descKo": "실제 회사 운영·자동화 업무에 코덱스를 적용한 실전 사용기.",
+      "descEn": "A real-world case of using Codex to run day-to-day company operations and automation.",
+      "channel": "Riley Brown",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "addedAt": "2026-07-24T02:00:00Z"
     },
     {
       "id": "vid-matthew-berman-codex-usecase",
@@ -122,6 +122,18 @@
       "addedAt": "2026-07-22T09:00:00Z"
     },
     {
+      "id": "vid-kevinstratvert-claude-code-noncoders",
+      "youtubeId": "inxAjCRHe2o",
+      "category": "lecture",
+      "title": "비개발자를 위한 클로드 코드 튜토리얼",
+      "titleEn": "Claude Code Tutorial for Non-Coders",
+      "descKo": "코딩 경험이 없는 사람도 따라 할 수 있는 클로드 코드 입문 강의.",
+      "descEn": "A beginner-friendly Claude Code course for people with no coding background.",
+      "channel": "Kevin Stratvert",
+      "publishedAt": "2026-07-23T00:00:00Z",
+      "addedAt": "2026-07-24T02:00:00Z"
+    },
+    {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -132,17 +144,6 @@
       "channel": "시현의 모험 Sihyun Adventure",
       "publishedAt": "2026-05-20T07:02:49Z",
       "addedAt": "2026-07-16T09:00:00Z"
-    },
-    {
-      "id": "vid-mcp-korean-guide-ko",
-      "youtubeId": "zVSZ2gXvhVE",
-      "category": "lecture",
-      "title": "MCP 이제 모르면 안 됩니다 — MCP 서버 개발 및 연동 방법",
-      "titleEn": "You Need to Know MCP Now — Building and Connecting an MCP Server",
-      "descKo": "MCP(Model Context Protocol) 서버를 처음부터 직접 개발하고 클로드 등 에이전트와 연동하는 방법을 다루는 한국어 강의.",
-      "descEn": "A Korean-language course covering how to build an MCP (Model Context Protocol) server from scratch and connect it to agents like Claude.",
-      "channel": "개발동생",
-      "addedAt": "2026-07-22T23:10:00Z"
     },
     {
       "id": "vid-techwithtim-codex-course",
