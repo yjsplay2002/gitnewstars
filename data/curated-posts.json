@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-07-24T02:00:00Z",
+  "generatedAt": "2026-07-25T02:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260725-claude-opus-5-launch",
+      "title": "앤스로픽, '클로드 오퍼스 5' 출시 — Fable 5에 근접한 지능, HN 1167점(이번 주 최고점)",
+      "body": "앤스로픽이 오퍼스 티어를 세대 교체하는 '클로드 오퍼스 5'를 공개했습니다. 기존 오퍼스 4.8 대비 큰 폭의 지능 향상을 앞세우며, 벤치마크상 최상위 모델인 Fable 5에 근접한 수준까지 올라왔다고 설명합니다. HN에서 1167점을 받아 이번 주 전체 게시물 중 최고 점수를 기록했으며, 에이전트 파이프라인에서 최종 판단·복잡한 추론을 맡길 상위 모델을 고르는 개발자에게 바로 참고할 만한 신규 옵션입니다.",
+      "titleEn": "Anthropic launches Claude Opus 5 — intelligence approaching Fable 5, top HN post of the week at 1167 pts",
+      "bodyEn": "Anthropic unveiled Claude Opus 5, a generational upgrade to the Opus tier. It claims a large intelligence jump over Opus 4.8, closing in on flagship Fable 5 on benchmarks. It topped Hacker News this week with 1167 points — a new top-tier model option worth evaluating for the final-judgment/complex-reasoning step of an agent pipeline.",
+      "sourceName": "Hacker News · anthropic.com",
+      "sourceUrl": "https://www.anthropic.com/news/claude-opus-5",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-24T16:57:41Z",
+      "curatedAt": "2026-07-25T02:00:00Z"
+    },
+    {
+      "id": "curated-20260725-echo-open-weight-router",
+      "title": "Echo — GLM-5.2·Kimi K2.7 등 오픈 웨이트 모델 풀을 문제별로 라우팅해 Fable급 성능을 1/3 비용에, Show HN 450점",
+      "body": "Show HN에 공개된 Echo(echo.tracerml.ai)는 단일 모델을 고정해서 쓰는 대신 GLM-5.2, Kimi K2.7 등 여러 오픈 웨이트 모델을 하나의 풀로 묶고, 문제마다 어떤 모델이 가장 잘 맞을지 예측해 라우팅하는 실험입니다. 같은 평가셋에서 각 모델을 개별 실행한 결과를 비교해 '문제별 최적 모델을 미리 알았다면'이라는 상한선에 가까운 성능을 뽑아냈다고 설명하며, Fable 수준 결과를 1/3 비용으로 낸다고 주장합니다. 오픈 모델 여러 개를 라우팅해 비용을 낮추려는 팀에게 구체적인 벤치마크·설계 참고 자료입니다. Show HN에서 450점을 받았습니다.",
+      "titleEn": "Echo — routes a pool of open-weight models (GLM-5.2, Kimi K2.7, …) per-problem for Fable-level results at 1/3 cost, 450 pts on Show HN",
+      "bodyEn": "Posted on Show HN, Echo (echo.tracerml.ai) is an experiment in building one AI system out of a pool of open-weight models instead of committing to a single one. It ran a group of models — GLM-5.2, Kimi K2.7, and others — on the same evaluations, then measured how close routing to the best model per-problem gets to the theoretical ceiling of always knowing the right model in advance. The result: Fable-level output at roughly 1/3 the cost. A concrete benchmark and design reference for teams trying to cut costs by routing across multiple open models. 450 points on Show HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://echo.tracerml.ai/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-23T19:26:01Z",
+      "curatedAt": "2026-07-25T02:00:00Z"
+    },
+    {
+      "id": "curated-20260725-gemini-flash-sampling-deprecated",
+      "title": "제미나이 3.6 플래시부터 temperature·top_p·top_k 무력화 — 프롬프트로 대체해야, HN 134점",
+      "body": "구글 공식 문서에 따르면 제미나이 3.6 플래시, 3.5 플래시-라이트, 3.5 플래시 사이버부터 temperature·top_p·top_k 파라미터가 무시되며, 이후 모델 세대에서는 값을 넣으면 HTTP 400 에러가 난다고 명시했습니다. 구글은 이 파라미터들을 요청에서 완전히 제거하고 대신 system_instruction을 더 구체적으로 작성해 출력 결정성을 조절하라고 권고합니다. 제미나이 플래시 라인업을 에이전트 라우터나 대량 병렬 처리에 쓰는 개발자라면 지금 요청 코드에서 해당 파라미터를 걷어내야 하는 실전 마이그레이션 이슈입니다. HN에서 134점을 받았습니다.",
+      "titleEn": "Gemini 3.6 Flash and later ignore temperature/top_p/top_k — steer output via prompts instead, 134 pts on HN",
+      "bodyEn": "Google's official docs confirm that Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber now ignore the temperature, top_p, and top_k parameters, and future model generations will return an HTTP 400 error if you pass them at all. Google's guidance: strip the parameters from requests entirely and steer determinism through a more specific system_instruction instead. A concrete migration issue for anyone using the Gemini Flash lineup as an agent router or for high-volume parallel tasks — worth auditing request code now. 134 points on HN.",
+      "sourceName": "Hacker News · ai.google.dev",
+      "sourceUrl": "https://ai.google.dev/gemini-api/docs/latest-model",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-21T21:27:54Z",
+      "curatedAt": "2026-07-25T02:00:00Z"
+    },
+    {
+      "id": "curated-20260725-screenpipe-work-to-agents",
+      "title": "Screenpipe(YC S26) — 내가 일하는 화면을 녹화해 그대로 에이전트로 바꿔주는 툴, Launch HN 82점",
+      "body": "Launch HN에 공개된 Screenpipe는 사용자의 화면·마이크를 로컬에서 24시간 녹화해 실제 업무 패턴(어떤 앱을 어떤 순서로 오가며 무슨 작업을 반복하는지)을 캡처하고, 이 기록을 그대로 반복 가능한 AI 에이전트로 변환해주는 도구입니다. 매번 프롬프트로 워크플로우를 설명하는 대신 실제 작업 화면 기록에서 에이전트를 뽑아낸다는 점이 핵심으로, 반복 업무를 에이전트로 옮기려는 팀에게 실전 아이디어를 제공합니다. YC S26 배치 소속이며 HN에서 82점을 받았습니다.",
+      "titleEn": "Screenpipe (YC S26) — records how you work on screen and turns that directly into an agent, 82 pts on Launch HN",
+      "bodyEn": "Launched on HN, Screenpipe records a user's screen and mic locally around the clock, capturing real work patterns — which apps get used in what order, what tasks repeat — and converts that recording directly into a repeatable AI agent. Instead of describing a workflow in a prompt every time, the agent gets extracted from an actual recording of the work itself, a concrete idea for teams trying to turn repetitive work into agents. Part of the YC S26 batch; 82 points on HN.",
+      "sourceName": "Hacker News · Launch HN",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49024620",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-23T16:48:38Z",
+      "curatedAt": "2026-07-25T02:00:00Z"
+    },
+    {
+      "id": "curated-20260725-geeknews-omp-terminal-agent",
+      "title": "omp — 오픈소스 Pi를 IDE 수준으로 확장한 터미널 AI 코딩 에이전트, GeekNews",
+      "body": "GeekNews에 소개된 omp는 Mario Zechner의 오픈소스 터미널 코딩 에이전트 Pi를 기반으로, IDE에서나 볼 법한 개발 도구와 실전 기능을 터미널 환경에 그대로 이식한 프로젝트입니다. 클로드 코드·코덱스 같은 CLI 에이전트에 익숙한 개발자가 별도 IDE 없이도 코드 탐색·편집·검증까지 터미널 하나로 끝내고 싶을 때 참고할 만한 대안으로 소개됐습니다.",
+      "titleEn": "omp — a terminal AI coding agent that extends the open-source Pi to IDE-level tooling, via GeekNews",
+      "bodyEn": "Featured on GeekNews, omp builds on Mario Zechner's open-source terminal coding agent Pi, porting IDE-level development tooling and practical features straight into the terminal. Presented as an option for developers already comfortable with CLI agents like Claude Code and Codex who want to handle code exploration, editing, and verification entirely from the terminal without a separate IDE.",
+      "sourceName": "GeekNews · omp.sh",
+      "sourceUrl": "https://news.hada.io/topic?id=31744",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-24T10:00:00Z",
+      "curatedAt": "2026-07-25T02:00:00Z"
+    },
+    {
+      "id": "curated-20260725-geeknews-graphify-knowledge-graph",
+      "title": "graphify — 코드베이스·문서·PDF·이미지·영상을 질의 가능한 지식 그래프로 바꾸는 도구, GeekNews",
+      "body": "GeekNews에 소개된 오픈소스 graphify는 코드베이스뿐 아니라 문서·PDF·이미지·영상까지 함께 훑어 하나의 질의 가능한 지식 그래프로 매핑해주는 도구입니다. AI 코딩 어시스턴트가 자연어 질문으로 이 그래프를 탐색하며 코드와 관련 문서·자료 사이의 연관관계를 한 번에 찾아낼 수 있게 해, 대형 저장소의 맥락을 에이전트에게 효율적으로 넘기려는 팀이 참고할 만한 아키텍처입니다.",
+      "titleEn": "graphify — turns a codebase plus docs/PDFs/images/video into a queryable knowledge graph, via GeekNews",
+      "bodyEn": "Featured on GeekNews, the open-source graphify scans not just a codebase but also docs, PDFs, images, and video, mapping all of it into a single queryable knowledge graph. AI coding assistants can then explore that graph with natural-language questions, surfacing connections between code and related documents/assets in one pass — a useful architecture reference for teams trying to hand large-repo context to an agent efficiently.",
+      "sourceName": "GeekNews · github.com/Graphify-Labs/graphify",
+      "sourceUrl": "https://news.hada.io/topic?id=31743",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-24T09:00:00Z",
+      "curatedAt": "2026-07-25T02:00:00Z"
+    },
     {
       "id": "curated-20260724-cursor-agent-swarm-economics",
       "title": "Cursor, '에이전트 스웜' 시대의 새로운 모델 경제학 공개 — HN 275점",
@@ -93,19 +171,6 @@
       "curatedAt": "2026-07-22T23:10:00Z"
     },
     {
-      "id": "curated-20260723-dorsey-buzz-platform",
-      "title": "잭 도시, 팀 채팅+AI 에이전트+Git 호스팅을 한데 묶은 'Buzz' 출시 — HN 367점",
-      "body": "Block(구 Square) 창업자 잭 도시가 팀 채팅, AI 에이전트, Git 저장소 호스팅을 하나의 플랫폼으로 묶은 신제품 'Buzz'를 공개했습니다. 개발팀이 커뮤니케이션·버전관리·에이전트 위임을 위해 각각 다른 툴을 오가며 겪는 컨텍스트 스위칭을 줄이는 것이 목표로, 채팅 안에서 바로 AI 에이전트를 호출해 코드 작업을 맡기고 결과를 같은 스레드에서 리뷰·머지까지 이어갈 수 있게 설계됐습니다. HN에서 367점을 받았고, 별도 오케스트레이션 툴 없이 팀 협업과 에이전트 워크플로우를 한 곳에서 관리하고 싶은 팀에게 참고할 만합니다.",
-      "titleEn": "Jack Dorsey launches Buzz, combining team chat + AI agents + Git hosting — 367 pts on HN",
-      "bodyEn": "Block (formerly Square) founder Jack Dorsey unveiled Buzz, a platform bundling team chat, AI agents, and Git repository hosting into one product. The goal is cutting the context-switching dev teams face juggling separate tools for communication, version control, and agent delegation — you can call an AI agent directly inside a chat thread to handle code work, then review and merge the result in the same thread. It picked up 367 points on HN, worth a look for teams wanting to manage collaboration and agent workflows without a separate orchestration tool.",
-      "sourceName": "Hacker News · runtimewire.com",
-      "sourceUrl": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-21T17:14:06Z",
-      "curatedAt": "2026-07-22T23:10:00Z"
-    },
-    {
       "id": "curated-20260723-kimi-k3-vs-fable",
       "title": "'Kimi K3, 클로드 Fable과 맞먹는다' — 오픈 모델 에이전트 벤치마크 공개, HN 849점",
       "body": "Fireworks AI가 공개한 벤치마크에 따르면 오픈 모델 Kimi K3는 AA-Briefcase 에이전트 벤치마크에서 Elo 1543으로 클로드 Fable 5(1574)에 이어 2위를 기록했고, SWE 벤치마크에서는 92.4%로 Fable(92.6%)과 거의 차이가 없었습니다. 프론트엔드 코딩 아레나에서는 7개 영역 중 6개에서 Fable을 앞질러 1위를 차지했으며, 약 1,000개 에이전트 작업에서 K3와 Fable을 함께 라우팅했을 때 정확도 93%, 비용은 Fable 단독 대비 최대 50배 저렴했다는 결과도 함께 소개됐습니다. 코딩 에이전트 파이프라인에서 비용을 낮추면서도 품질을 유지하려는 개발자에게 구체적인 라우팅 참고 자료입니다. HN에서 849점을 받았습니다.",
@@ -116,19 +181,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-21T22:35:24Z",
-      "curatedAt": "2026-07-22T23:10:00Z"
-    },
-    {
-      "id": "curated-20260723-codeberg-vibe-code-ban",
-      "title": "코드베르크, 회원 투표로 '바이브 코딩' 프로젝트 전면 금지 — 찬성 70% 이상",
-      "body": "깃허브의 비영리 대안인 코드베르크(Codeberg)가 총회 투표를 통해 'LLM-추출물(LLM-extrusion)', 즉 사람이 제대로 검토하지 않은 AI 생성 코드 위주 프로젝트를 이용약관으로 전면 금지하는 안건을 통과시켰습니다. 찬성 358표, 반대 144표, 기권 14표로 70% 넘는 찬성률을 기록했으며, 표면적 명분은 '바이브 코딩 반대'보다 AI 생성 코드의 저작권 소유권이 업계에서 아직 답이 없는 문제라 비영리 저장소 운영자로서 법적 리스크를 미리 차단하려는 목적입니다. 다만 '대부분(mostly)'이라는 기준이 정량화되지 않아 이사회가 세부 문구를 추가로 다듬을 예정이라, 오픈소스에 AI로 생성한 코드를 올리는 개발자라면 각 플랫폼의 약관 변화를 지켜볼 만합니다.",
-      "titleEn": "Codeberg bans vibe-coded projects after a member vote — over 70% in favor",
-      "bodyEn": "Codeberg, the nonprofit GitHub alternative built on Forgejo, passed a general-assembly vote amending its Terms of Use to ban 'LLM-extrusions' — projects consisting mostly of AI-generated code nobody meaningfully reviewed. The vote passed 358-144 with 14 abstentions, over 70% in favor. The stated motivation is less anti-vibe-coding sentiment than protecting a nonprofit git host from an unresolved industry question: who owns the copyright on LLM-generated code. The wording still leaves 'mostly' unquantified, and the board has signaled minor edits are coming — worth watching if you're pushing AI-generated code to open-source repos on any platform.",
-      "sourceName": "Hacker News · Codeberg.org",
-      "sourceUrl": "https://codeberg.org/Codeberg/org/pulls/1253",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-22T08:17:26Z",
       "curatedAt": "2026-07-22T23:10:00Z"
     },
     {
@@ -155,19 +207,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-21T17:12:01Z",
-      "curatedAt": "2026-07-22T09:00:00Z"
-    },
-    {
-      "id": "curated-20260722-gemini-3-6-flash",
-      "title": "구글, 제미나이 3.6 플래시·3.5 플래시-라이트·3.5 플래시 사이버 공개 — HN 749점",
-      "body": "구글이 제미나이 3.6 플래시와 경량 모델 3.5 플래시-라이트, 보안 특화 3.5 플래시 사이버 세 종을 새로 공개했습니다. 저지연·저비용을 앞세운 플래시 라인업 갱신으로, 에이전트 파이프라인에서 라우터나 대량 병렬 처리 같은 비용 민감 작업에 바로 투입해볼 만한 선택지입니다. HN에서 749점을 받았습니다.",
-      "titleEn": "Google ships Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber — 749 pts on HN",
-      "bodyEn": "Google released three new models — Gemini 3.6 Flash, a lighter 3.5 Flash-Lite, and a security-focused 3.5 Flash Cyber — refreshing its low-latency, low-cost Flash lineup. A concrete option to drop into cost-sensitive parts of an agent pipeline, like routing or high-volume parallel tasks. It picked up 749 points on HN.",
-      "sourceName": "Hacker News · blog.google",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-21T15:17:16Z",
       "curatedAt": "2026-07-22T09:00:00Z"
     },
     {
@@ -208,32 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-21T00:00:00Z",
       "curatedAt": "2026-07-22T09:00:00Z"
-    },
-    {
-      "id": "curated-20260721-geeknews-langgraph-failure",
-      "title": "'LangGraph 도입 후 오히려 코드가 더 복잡해졌다' — 8,700줄 중복 실행기까지 만든 실패담, GeekNews",
-      "body": "GeekNews에 소개된 글로, 한 팀이 상태 관리를 깔끔하게 하려고 LangGraph를 도입했다가 8,700줄이 넘는 실행기(executor)를 세 벌이나 중복으로 만들고 MemorySaver와 커스텀 Postgres 체크포인터 간 동기화 오류까지 겪은 실패 경험을 공유합니다. 저자는 세션마다 독립된 토폴로지를 쓰고 thread_id로 완전히 분리할 것, 본문 페이로드는 State가 아니라 Store에 저장하고 State에는 메타데이터만 둘 것, 정규식으로 출력을 파싱하는 대신 네이티브 tool-use를 쓸 것을 구체적 해법으로 제시합니다. LangGraph로 에이전트 워크플로우를 설계하기 전에 체크리스트로 참고할 만합니다.",
-      "titleEn": "'LangGraph made our code more complex, not less' — a failure story with three duplicated 8,700-line executors, on GeekNews",
-      "bodyEn": "Featured on GeekNews, this post recounts a team adopting LangGraph for cleaner state management and ending up instead with three duplicated 8,700+ line executors and sync failures between MemorySaver and a custom Postgres checkpointer. The author's concrete fixes: isolate sessions with independent topologies separated strictly by thread_id, move content payloads into the Store (keeping only metadata in State), and replace regex-based output parsing with native tool-use. A useful checklist to review before adopting LangGraph for an agent workflow.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31628",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-21T00:00:00Z",
-      "curatedAt": "2026-07-21T09:00:00Z"
-    },
-    {
-      "id": "curated-20260721-geeknews-codex-subagent-logs",
-      "title": "코덱스 CLI, 서브에이전트 세션 로그가 731GB까지 쌓여 디스크 소진 — GitHub 이슈 실측치 공개",
-      "body": "GeekNews에 소개된 GitHub 이슈(#34061)에 따르면, 오래 이어서 재개(resume)한 코덱스 CLI 부모 세션 하나가 서브에이전트 JSONL 파일 2,393개, 총 731.5GiB를 만들어낸 사례가 보고됐습니다. 그중 3분 19초짜리 서브에이전트 하나만으로도 483.7MB, 35만 3,255줄짜리 로그가 쌓였다고 합니다. Codex CLI 0.144.6에서 확인된 문제로, 저자는 장시간 재개 세션을 피하고 서브에이전트 생성 수를 제한하며, 큰 명령 출력은 컨텍스트 대신 파일로 덤프하고 ~/.codex/sessions 용량을 주기적으로 점검하라고 권합니다. 코덱스로 장시간 자동화 파이프라인을 돌리는 개발자라면 디스크 모니터링에 바로 반영해볼 만한 경고입니다.",
-      "titleEn": "Codex CLI's subagent session logs ballooned to 731GB — real numbers from a GitHub issue",
-      "bodyEn": "A GitHub issue (#34061) covered on GeekNews reports that a single long-running, resumed Codex CLI parent session spawned 2,393 subagent JSONL files totaling 731.5GiB — one subagent alone, running just 3 minutes 19 seconds, produced a 483.7MB log with 353,255 records. Confirmed on Codex CLI 0.144.6, the fix suggestions are concrete: avoid long-running resumed sessions, cap how many subagents spawn, dump large command output to files instead of context, and periodically check the size of ~/.codex/sessions. A disk-monitoring warning worth acting on for anyone running long automation pipelines through Codex.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31618",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-20T00:00:00Z",
-      "curatedAt": "2026-07-21T09:00:00Z"
     },
     {
       "id": "curated-20260712-clien-gitbap-ai-recipe",

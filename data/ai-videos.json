@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-07-24T02:00:00Z",
+  "generatedAt": "2026-07-25T02:00:00Z",
   "videos": [
+    {
+      "id": "vid-opus5-vs-fable5-comparison",
+      "youtubeId": "yKu03nBC9yY",
+      "category": "usecase",
+      "title": "클로드 오퍼스 5 vs 페이블 5, 실전 작업으로 정면 비교 테스트",
+      "titleEn": "I Tested Claude Opus 5 Against Fable 5 Head-to-Head",
+      "descKo": "오퍼스 5 출시 당일, 같은 실전 작업을 오퍼스 5와 페이블 5에 똑같이 시켜 결과를 직접 비교한 리뷰 영상.",
+      "descEn": "A same-day hands-on comparison running identical real tasks through newly launched Claude Opus 5 and Fable 5 to see how they differ.",
+      "publishedAt": "2026-07-24T19:00:00Z",
+      "addedAt": "2026-07-25T02:00:00Z"
+    },
     {
       "id": "vid-honjapsu-vibecoding-terms-ko",
       "youtubeId": "N3st1ZrB_zc",
@@ -12,18 +23,6 @@
       "channel": "혼잡스",
       "publishedAt": "2026-07-22T00:00:00Z",
       "addedAt": "2026-07-24T02:00:00Z"
-    },
-    {
-      "id": "vid-claude-cowork-update-ko",
-      "youtubeId": "yWugrZo1OPA",
-      "category": "tip",
-      "title": "갑자기 업데이트된 클로드 통합 업데이트 총정리 — 새 사용법 3가지",
-      "titleEn": "Claude's Sudden Update, Fully Explained — 3 New Ways to Use It",
-      "descKo": "클로드 코워크의 모바일·웹 확장 업데이트가 왜 나왔는지와 새로 생긴 실전 사용법 3가지를 정리한 한국어 영상.",
-      "descEn": "A Korean video explaining why Claude Cowork's mobile/web expansion happened and 3 new practical usage patterns it unlocks.",
-      "channel": "리더스AI",
-      "publishedAt": "2026-07-09T00:00:00Z",
-      "addedAt": "2026-07-12T00:00:00Z"
     },
     {
       "id": "vid-standarity-cc-best-practices",
