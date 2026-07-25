@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T02:00:00Z",
+  "generatedAt": "2026-07-26T02:00:00Z",
   "videos": [
     {
       "id": "vid-opus5-vs-fable5-comparison",
@@ -13,16 +13,28 @@
       "addedAt": "2026-07-25T02:00:00Z"
     },
     {
-      "id": "vid-honjapsu-vibecoding-terms-ko",
-      "youtubeId": "N3st1ZrB_zc",
+      "id": "vid-jocoding-gpt56-codex-tips-ko",
+      "youtubeId": "le-jtop9tLk",
       "category": "tip",
-      "title": "10분 안에 끝내는 바이브 코딩 필수 용어 12개",
-      "titleEn": "12 Vibe-Coding Terms You Need to Know, Explained in 10 Minutes",
-      "descKo": "초보자가 헷갈리는 바이브 코딩 용어 12개를 10분 안에 속시원하게 정리.",
-      "descEn": "A quick 10-minute explainer clearing up 12 confusing vibe-coding terms for beginners.",
-      "channel": "혼잡스",
-      "publishedAt": "2026-07-22T00:00:00Z",
-      "addedAt": "2026-07-24T02:00:00Z"
+      "title": "OpenAI 내부자가 알려주는 GPT-5.6·코덱스 실전 활용법",
+      "titleEn": "An OpenAI Insider's Real-World Guide to GPT-5.6 and Codex",
+      "descKo": "GPT-5.6과 코덱스를 실무에서 바로 써먹는 법을 다루는 인사이더 관점 실전 가이드.",
+      "descEn": "An insider-perspective, hands-on guide to practically using GPT-5.6 and Codex in real work.",
+      "channel": "조코딩 JoCoding",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "addedAt": "2026-07-26T02:00:00Z"
+    },
+    {
+      "id": "vid-z2zlife-multiagent-mcp-ko",
+      "youtubeId": "ugC57E5fgdA",
+      "category": "tip",
+      "title": "[오픈소스] 멀티 에이전트 오케스트레이션과 MCP 실전 가이드",
+      "titleEn": "[Open Source] A Practical Guide to Multi-Agent Orchestration and MCP",
+      "descKo": "여러 에이전트가 스스로 코딩하고 협업하는 멀티 에이전트 오케스트레이션·MCP 활용법을 오픈소스 기준으로 정리.",
+      "descEn": "A practical, open-source-focused walkthrough of multi-agent orchestration and MCP, covering agents that code and hand off work to each other.",
+      "channel": "z2zlife",
+      "publishedAt": "2026-07-23T00:00:00Z",
+      "addedAt": "2026-07-26T02:00:00Z"
     },
     {
       "id": "vid-standarity-cc-best-practices",
@@ -49,6 +61,18 @@
       "addedAt": "2026-07-22T09:00:00Z"
     },
     {
+      "id": "vid-successknowledge-gemini36-coding-ko",
+      "youtubeId": "5tf_2Mbguhg",
+      "category": "tip",
+      "title": "아쉬운 제미나이 3.6 플래시, 코딩만 빼고 다 좋다",
+      "titleEn": "Gemini 3.6 Flash Is Great — Except for Coding",
+      "descKo": "제미나이 3.6 플래시를 코딩 작업에 실제로 써보고 다른 용도 대비 코딩에서만 약점을 보인다고 짚은 실사용 리뷰.",
+      "descEn": "A hands-on review putting Gemini 3.6 Flash through real coding tasks, concluding it underperforms specifically at coding compared to other uses.",
+      "channel": "성공지식백과",
+      "publishedAt": "2026-07-22T00:00:00Z",
+      "addedAt": "2026-07-26T02:00:00Z"
+    },
+    {
       "id": "vid-zzikbot-claude-hidden-tools-ko",
       "youtubeId": "yxqVX2dYCvM",
       "category": "tip",
@@ -73,28 +97,16 @@
       "addedAt": "2026-07-24T02:00:00Z"
     },
     {
-      "id": "vid-matthew-berman-codex-usecase",
-      "youtubeId": "etduwo9Lu3M",
+      "id": "vid-techyoo-orca-multiagent-ko",
+      "youtubeId": "hcDz6yGT59M",
       "category": "usecase",
-      "title": "남들과 다른 방식으로 Codex 쓰는 법",
-      "titleEn": "You Aren't Using Codex Like Me...",
-      "descKo": "일반적인 사용법과 다른, 실전에서 통하는 Codex 활용 워크플로우 공개.",
-      "descEn": "An unconventional, real-world Codex usage workflow most people aren't trying yet.",
-      "channel": "Matthew Berman",
-      "publishedAt": "2026-07-14T00:00:00Z",
-      "addedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "vid-amit-qoder-free-agent",
-      "youtubeId": "YIF5b5YHhLA",
-      "category": "usecase",
-      "title": "무료 AI 코딩 에이전트 Qoder, 커서보다 나은가 — 실전 빌드 3종",
-      "titleEn": "This FREE AI Coding Agent Just Surprised Me (Better Than Cursor?)",
-      "descKo": "무료 에이전틱 코딩 툴 Qoder로 태양계 탐색기·분해도 시계뷰 등 사이트 3개를 프롬프트 하나로 만들어보는 실전 영상.",
-      "descEn": "Builds three full sites (solar-system explorer, exploded watch view, self-directed site) from single prompts using the free agentic coding tool Qoder.",
-      "channel": "Amit Explains Tech",
-      "publishedAt": "2026-07-16T00:00:00Z",
-      "addedAt": "2026-07-19T09:00:00Z"
+      "title": "ORCA로 클로드·코덱스 에이전트 동시에 제어하기",
+      "titleEn": "Controlling Claude and Codex Agents Simultaneously with ORCA",
+      "descKo": "ORCA라는 툴로 클로드 코드와 코덱스 에이전트를 동시에 띄워 제어하는 멀티 에이전트 실전 워크플로우.",
+      "descEn": "A concrete multi-agent workflow using a tool called ORCA to drive Claude Code and Codex agents at the same time.",
+      "channel": "techyoo",
+      "publishedAt": "2026-07-21T00:00:00Z",
+      "addedAt": "2026-07-26T02:00:00Z"
     },
     {
       "id": "vid-bigboxswe-vibe-code-limits",
@@ -143,18 +155,6 @@
       "channel": "시현의 모험 Sihyun Adventure",
       "publishedAt": "2026-05-20T07:02:49Z",
       "addedAt": "2026-07-16T09:00:00Z"
-    },
-    {
-      "id": "vid-techwithtim-codex-course",
-      "youtubeId": "ZXkeWiWB4xg",
-      "category": "lecture",
-      "title": "Codex 초보자 완전 강좌",
-      "titleEn": "Codex - Full Course for Beginners",
-      "descKo": "설치부터 실전까지 다루는 OpenAI Codex 초보자용 완전 강좌.",
-      "descEn": "A structured full beginner course covering OpenAI Codex from install to real-world use.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-07-14T00:00:00Z",
-      "addedAt": "2026-07-15T09:00:00Z"
     },
     {
       "id": "vid-jsmastery-ai-engineering-2026",
