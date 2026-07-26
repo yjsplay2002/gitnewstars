@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-07-26T02:00:00Z",
+  "generatedAt": "2026-07-27T02:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260727-telepty-agent-control-plane",
+      "title": "telepty — 여러 대 머신에 흩어진 클로드 코드·코덱스 세션을 하나의 이름으로 제어하는 컨트롤 플레인, GeekNews",
+      "body": "GeekNews에 오늘 소개된 오픈소스 telepty(dmsdc-ai/aigentry-telepty, MIT, v0.7.1)는 Tailscale·WireGuard 네트워크 위에서 여러 머신에 흩어진 클로드 코드·코덱스·제미나이 터미널 에이전트 세션을 session@host 형태의 이름으로 주소를 매겨 하나의 컨트롤 플레인에서 다룰 수 있게 해줍니다. inject·read-screen·attach·send-key·broadcast·list 6개 명령과 에이전트가 직접 호출 가능한 9개 스킬을 제공해, 여러 대의 컴퓨터에서 동시에 돌아가는 에이전트를 한 사람이 조율할 때 생기는 병목을 없애줍니다. 멀티 머신 에이전트 오케스트레이션을 실제로 운용하려는 팀이 바로 시도해볼 만한 도구입니다.",
+      "titleEn": "telepty — a control plane that addresses Claude Code/Codex sessions scattered across machines by name, via GeekNews",
+      "bodyEn": "Featured on GeekNews today, the open-source telepty (dmsdc-ai/aigentry-telepty, MIT, v0.7.1) runs over a Tailscale/WireGuard network and lets you address terminal agent sessions (Claude Code, Codex, Gemini) scattered across multiple machines by a session@host name, all from one control plane. It ships 6 commands (inject, read-screen, attach, send-key, broadcast, list) plus 9 skills agents can call directly, removing the bottleneck of one person manually juggling agents running on several computers at once. A concrete tool for teams actually running multi-machine agent orchestration in practice.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31842",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-27T00:00:00Z",
+      "curatedAt": "2026-07-27T02:00:00Z"
+    },
+    {
+      "id": "curated-20260727-ai-news-wiki-72days",
+      "title": "72일간 무인 운영된 AI 뉴스 링크 위키 — LLM 에이전트가 매일 수집·정리하는 실전 워크플로우, GeekNews",
+      "body": "GeekNews에 오늘 소개된 1인 프로젝트는 Karpathy의 LLM 위키 패턴을 응용해, arXiv·허깅페이스·랩 블로그·X·중국 랩·연방관보를 매일 자동으로 훑어 사실마다 출처를 붙이는 방식으로 107개 위키 페이지·371개 링크를 쌓아온 72일 무인 운영 기록입니다. 처음엔 검색 기반으로 뉴스를 감지해 최대 6일까지 지연이 발생했지만, RSS 직접 폴링과 GitHub Actions 시간별 크론으로 바꾸면서 지연을 1~4일로 줄인 구체적 개선 과정이 공개돼, 에이전트 기반 자동 수집 파이프라인을 설계하려는 개발자에게 실전 참고 자료가 됩니다.",
+      "titleEn": "A 72-day, unmanned AI-news link wiki — an LLM agent's daily collect-and-organize workflow, via GeekNews",
+      "bodyEn": "Featured on GeekNews today, this solo project applies Karpathy's \"LLM wiki\" pattern to automatically scan arXiv, Hugging Face, lab blogs, X, Chinese labs, and the US Federal Register every day, building up 107 wiki pages and 371 sourced links over 72 days of unmanned operation. It started with search-based news detection that lagged up to 6 days, then cut that to 1-4 days by switching to direct RSS polling plus hourly GitHub Actions crons — a concrete example for anyone designing an agent-based auto-collection pipeline.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31829",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-27T00:00:00Z",
+      "curatedAt": "2026-07-27T02:00:00Z"
+    },
+    {
+      "id": "curated-20260727-gemini36-flash-launch",
+      "title": "구글, 제미나이 3.6 플래시·3.5 플래시-라이트·3.5 플래시 사이버 동시 출시 — 에이전트용 비용/지연시간 티어 세분화, HN 756점",
+      "body": "구글이 공식 블로그를 통해 제미나이 3.6 플래시와 함께 3.5 플래시-라이트, 3.5 플래시 사이버 세 가지 모델을 한꺼번에 공개했습니다. 세 모델은 각각 비용·지연시간·정확도 트레이드오프가 다르게 설계되어, 에이전트 파이프라인에서 탐색·검증처럼 대량 병렬 호출이 필요한 구간에는 저렴한 플래시-라이트를, 실시간 상호작용에는 지연시간이 짧은 사이버를 쓰는 식으로 구분해 쓸 수 있습니다. 앞서 화제가 된 'temperature·top_p 무력화' 이슈도 이 세 모델부터 적용되므로, 마이그레이션 시 두 이슈를 함께 검토해야 합니다. HN에서 756점을 받았습니다.",
+      "titleEn": "Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber together — finer cost/latency tiers for agents, 756 pts on HN",
+      "bodyEn": "Google's official blog announced three new Gemini models at once: 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, each tuned for a different cost/latency/accuracy tradeoff. That lets an agent pipeline route cheap high-volume calls (exploration, verification) to Flash-Lite while reserving low-latency Cyber for real-time interaction. The previously reported \"temperature/top_p ignored\" change also starts with these three models, so anyone migrating should check both issues together. 756 points on HN.",
+      "sourceName": "Hacker News · blog.google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-21T00:00:00Z",
+      "curatedAt": "2026-07-27T02:00:00Z"
+    },
+    {
+      "id": "curated-20260727-stop-vibe-coding",
+      "title": "'바이브 코딩을 어떻게 멈출 것인가' — 스펙 우선·테스트 게이트로 되돌아가야 하는 이유, HN 61점",
+      "body": "alexklos.ca에 올라온 이 글은 프롬프트만으로 기능을 밀어붙이는 '바이브 코딩'이 언제 위험해지는지 구체적 체크리스트로 짚습니다. 필자는 요구사항을 스펙 문서로 먼저 확정하고, 에이전트 출력을 테스트·타입체크 게이트로 강제 검증한 뒤에만 병합하는 흐름으로 되돌아가야 한다고 주장하며, 실제로 프로덕션 장애로 이어진 사례들을 근거로 듭니다. '언제까지는 바이브 코딩이 괜찮고, 언제부터는 안 되는지' 기준을 팀에 도입하려는 리더에게 참고할 만한 글로, HN에서 61점을 받았습니다.",
+      "titleEn": "'How do we stop vibe coding?' — the case for going back to spec-first, test-gated workflows, 61 pts on HN",
+      "bodyEn": "This alexklos.ca post lays out a concrete checklist for when prompt-only \"vibe coding\" becomes dangerous, citing real production incidents it caused. The author argues for locking requirements into a spec document first, then gating every agent output behind tests/type-checks before merge — a middle ground between full manual review and unchecked agent output. A useful reference for leads trying to draw the line between when vibe coding is fine and when it isn't. 61 points on HN.",
+      "sourceName": "Hacker News · alexklos.ca",
+      "sourceUrl": "https://alexklos.ca/blog/how-do-we-stop-vibe-coding",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-24T00:00:00Z",
+      "curatedAt": "2026-07-27T02:00:00Z"
+    },
     {
       "id": "curated-20260726-context-engineering-claude5",
       "title": "클로드 오퍼스 5 위해 시스템 프롬프트 80% 걷어냈다 — 앤스로픽의 새 컨텍스트 엔지니어링 규칙, HN 99점",
@@ -51,32 +103,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-25T09:00:00Z",
-      "curatedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "curated-20260726-openwiki-agent-docs",
-      "title": "OpenWiki — AGENTS.md·CLAUDE.md에 자동으로 쌓이는 에이전트 전용 위키 CLI, GeekNews",
-      "body": "GeekNews에 소개된 오픈소스 OpenWiki는 npm install -g openwiki 한 줄로 설치해, 저장소 루트의 AGENTS.md·CLAUDE.md에 코딩 에이전트가 컨텍스트 탐색 때 바로 참조할 위키를 자동으로 쌓아주는 CLI입니다. 개인 지식용 Personal 모드는 Git·Notion·Gmail·웹검색·X·HN까지 연동해 지식베이스를 만들고, Code 모드는 저장소 문서를 생성하며, GitHub Actions·GitLab CI로 자동 갱신까지 지원합니다. OpenAI·앤스로픽·제미나이·AWS 베드록 등 다양한 LLM 제공자와 호환되고, 파일 내용·크레덴셜·프롬프트는 수집하지 않는 최소 텔레메트리 정책도 명시했습니다. 여러 소스에 흩어진 프로젝트 지식을 에이전트가 바로 찾아 쓰게 만들고 싶은 팀에게 참고할 도구로, GeekNews에서 17점을 받았습니다.",
-      "titleEn": "OpenWiki — a CLI that auto-builds an agent-native wiki into AGENTS.md/CLAUDE.md, via GeekNews",
-      "bodyEn": "Featured on GeekNews, the open-source OpenWiki installs with a single npm install -g openwiki and automatically accumulates a wiki inside a repo's AGENTS.md/CLAUDE.md so coding agents pull it during context search. Personal mode builds a knowledge base from Git, Notion, Gmail, web search, X, and HN; Code mode generates repo documentation; both support auto-refresh via GitHub Actions/GitLab CI. It's compatible with multiple LLM providers (OpenAI, Anthropic, Gemini, AWS Bedrock) and states a minimal-telemetry policy that excludes file contents, credentials, and prompts. A useful reference for teams trying to make scattered project knowledge directly queryable by an agent. 17 points on GeekNews.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31594",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-20T00:00:00Z",
-      "curatedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "curated-20260726-mindwalk-session-viz",
-      "title": "Mindwalk — 에이전트가 건드린 파일을 3D 지도로 재생하는 세션 시각화 도구, GeekNews",
-      "body": "GeekNews에 소개된 오픈소스 Mindwalk는 Go 바이너리 하나로 클로드 코드·코덱스의 세션 로그를 읽어, 에이전트가 탐색·읽기·편집한 파일을 코드베이스 3D 지도 위에 밝기로 표시해줍니다. 본 적 없음(어두움)·확인함(초록)·읽음(파랑)·편집함(호박색)으로 색을 구분하고, 삭제된 파일은 와이어프레임 유령으로 남아 로그만 봐서는 알 수 없던 '에이전트가 작업을 어떻게 이해했는지'를 한눈에 보여줍니다. 히스토그램으로 세션을 스크러빙하며 컨텍스트 압축·서브에이전트 실행·사용자 턴 지점으로 바로 점프할 수 있고, 서브에이전트 궤적만 따로 리플레이하는 '에이전트 렌즈' 기능도 있습니다. 자율 실행된 에이전트 세션을 로그 대신 시각적으로 감사하고 싶은 개발자에게 바로 써볼 만한 도구로, GeekNews에서 15점을 받았습니다.",
-      "titleEn": "Mindwalk — replays which files an agent touched on a 3D map of the codebase, via GeekNews",
-      "bodyEn": "Featured on GeekNews, the open-source Mindwalk is a single Go binary that reads Claude Code/Codex session logs and lights up a 3D map of the codebase showing which files an agent searched, read, or edited. Color-coding (unvisited=dark, seen=green, read=blue, edited=amber, deleted=wireframe ghost) surfaces something raw logs can't — how the agent actually understood the task, not just what it did. A playback deck lets you scrub sessions via histograms and jump straight to context-compression points, sub-agent runs, or user turns, and an 'agent lens' feature replays sub-agent traces separately. A concrete way to audit an autonomous agent session visually instead of reading logs. 15 points on GeekNews.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31569",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-19T00:00:00Z",
       "curatedAt": "2026-07-26T02:00:00Z"
     },
     {
@@ -181,32 +207,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-23T15:18:48Z",
-      "curatedAt": "2026-07-24T02:00:00Z"
-    },
-    {
-      "id": "curated-20260724-code-mode-cost-reduction",
-      "title": "에이전트에게 '코드 모드'로 도구 호출시켰더니 토큰 비용 99.2% 절감 — HN 61점",
-      "body": "agent-swarm.dev 블로그가 공개한 사례로, 에이전트가 도구를 하나씩 JSON으로 호출하는 대신 여러 도구 호출을 코드(스크립트)로 한 번에 작성해 실행하게 바꾼 결과 토큰 소모가 99.2% 줄었다고 보고합니다. 도구 결과를 매번 컨텍스트로 돌려받는 대신 코드 안에서 루프·필터링을 처리해 최종 요약만 컨텍스트에 남기는 방식이 핵심으로, 대량 도구 호출이 필요한 에이전트 워크플로우에 바로 적용해볼 만한 구체적 패턴입니다. HN에서 61점을 받았습니다.",
-      "titleEn": "Switching agents to 'code mode' tool-calling cut token costs 99.2% — 61 pts on HN",
-      "bodyEn": "A case study from the agent-swarm.dev blog reports a 99.2% drop in token usage after switching agents from calling tools one-by-one via JSON to writing a single script that batches multiple tool calls in code. The core trick: handle loops and filtering inside the generated code instead of round-tripping every tool result back through context, leaving only the final summary in context. A concrete pattern worth applying to any agent workflow with high tool-call volume. 61 points on HN.",
-      "sourceName": "Hacker News · agent-swarm.dev",
-      "sourceUrl": "https://www.agent-swarm.dev/blog/code-mode-token-savings",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-23T10:17:36Z",
-      "curatedAt": "2026-07-24T02:00:00Z"
-    },
-    {
-      "id": "curated-20260724-onecli-credential-gateway",
-      "title": "OneCLI — AI 에이전트에게 비밀정보를 직접 안 보여주는 오픈소스 크리덴셜 게이트웨이, Show HN 68점",
-      "body": "Show HN에 공개된 오픈소스 OneCLI는 AI 코딩 에이전트가 API 키·토큰 같은 비밀정보를 직접 다루지 않도록 중간에 로컬 게이트웨이를 두는 도구입니다. 에이전트는 환경변수나 설정 파일 안 실제 값 대신 참조 이름만 보고 요청하고, 게이트웨이가 실제 크리덴셜을 주입·프록시해 로그나 세션 기록에 비밀값이 노출되지 않게 막습니다. 에이전트에게 프로덕션 자격증명 접근을 맡겨야 하는 팀이 보안 설계에 바로 참고할 만한 도구로, Show HN에서 68점을 받았습니다.",
-      "titleEn": "OneCLI — an open-source credential gateway that keeps secrets out of AI agents' hands, 68 pts on Show HN",
-      "bodyEn": "Posted on Show HN, the open-source OneCLI sits between AI coding agents and secrets management, so agents never see raw API keys or tokens. Agents request by reference name only, and the local gateway injects/proxies the real credential — keeping secrets out of logs and session transcripts. A concrete security pattern for teams that need to give agents access to production credentials. 68 points on Show HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/onecli/onecli",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-23T15:42:40Z",
       "curatedAt": "2026-07-24T02:00:00Z"
     },
     {

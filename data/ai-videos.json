@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T02:00:00Z",
+  "generatedAt": "2026-07-27T02:00:00Z",
   "videos": [
     {
       "id": "vid-opus5-vs-fable5-comparison",
@@ -11,6 +11,30 @@
       "descEn": "A same-day hands-on comparison running identical real tasks through newly launched Claude Opus 5 and Fable 5 to see how they differ.",
       "publishedAt": "2026-07-24T19:00:00Z",
       "addedAt": "2026-07-25T02:00:00Z"
+    },
+    {
+      "id": "vid-nateherk-claude-code-top2percent",
+      "youtubeId": "RzLV8sfFdMM",
+      "category": "tip",
+      "title": "상위 2%만 아는 클로드 코드 활용법",
+      "titleEn": "How to Use Claude Code Better Than 98% of People",
+      "descKo": "대부분의 사용자가 놓치는 고급 클로드 코드 활용 패턴을 정리한 실전 팁 영상.",
+      "descEn": "A practical walkthrough of advanced Claude Code usage patterns most users miss.",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-06-18T00:00:00Z",
+      "addedAt": "2026-07-27T02:00:00Z"
+    },
+    {
+      "id": "vid-bnk-vibecoding-revenue-ko",
+      "youtubeId": "5GqQsqtG_2k",
+      "category": "usecase",
+      "title": "바이브 코딩으로 만든 앱, 6개월 만에 50억 매출 찍었다",
+      "titleEn": "A Vibe-Coded App Hit ~$3.6M in Revenue in 6 Months",
+      "descKo": "바이브 코딩만으로 만든 앱이 6개월 만에 50억원 매출을 낸 실제 사례를 다룬 인터뷰.",
+      "descEn": "A real case study of a vibe-coded app reaching roughly $3.6M in revenue within 6 months.",
+      "channel": "BNK금융그룹",
+      "publishedAt": "2026-07-08T00:00:00Z",
+      "addedAt": "2026-07-27T02:00:00Z"
     },
     {
       "id": "vid-jocoding-gpt56-codex-tips-ko",
@@ -35,18 +59,6 @@
       "channel": "z2zlife",
       "publishedAt": "2026-07-23T00:00:00Z",
       "addedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "vid-standarity-cc-best-practices",
-      "youtubeId": "73sxvoRCmVc",
-      "category": "tip",
-      "title": "클로드 코드 베스트 프랙티스 — 앤스로픽 엔지니어링 가이드 하이라이트",
-      "titleEn": "Claude Code Best Practices: Anthropic's Engineering Guide, Read and Highlighted",
-      "descKo": "앤스로픽 공식 클로드 코드 엔지니어링 가이드를 한 줄씩 짚어가며 컨텍스트 관리·검증 루프·탐색-계획-코드 흐름을 설명.",
-      "descEn": "Walks through Anthropic's official Claude Code engineering guide line by line — context management, verification loops, explore-plan-code flow.",
-      "channel": "Standarity",
-      "publishedAt": "2026-07-16T00:00:00Z",
-      "addedAt": "2026-07-19T09:00:00Z"
     },
     {
       "id": "vid-zerocho-vibecoding-team-tip-ko",
@@ -97,6 +109,18 @@
       "addedAt": "2026-07-24T02:00:00Z"
     },
     {
+      "id": "vid-kimyongsung-codex-free-guide-ko",
+      "youtubeId": "SuQGDb9U3Rc",
+      "category": "usecase",
+      "title": "챗GPT만 쓰면 손해 — 무료 코덱스 2026 초보자 완벽 가이드",
+      "titleEn": "Beyond ChatGPT — a Free Codex 2026 Beginner's Guide",
+      "descKo": "코딩뿐 아니라 PPT·워드 문서 작성·업무 자동화까지 코덱스를 무료로 활용하는 법을 다루는 실전 가이드.",
+      "descEn": "A practical guide to using Codex for free beyond coding — including PPT/Word document creation and task automation.",
+      "channel": "김용성 교수의 AI 클래스",
+      "publishedAt": "2026-06-21T00:00:00Z",
+      "addedAt": "2026-07-27T02:00:00Z"
+    },
+    {
       "id": "vid-techyoo-orca-multiagent-ko",
       "youtubeId": "hcDz6yGT59M",
       "category": "usecase",
@@ -107,30 +131,6 @@
       "channel": "techyoo",
       "publishedAt": "2026-07-21T00:00:00Z",
       "addedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "vid-bigboxswe-vibe-code-limits",
-      "youtubeId": "cSbfRspRu2E",
-      "category": "usecase",
-      "title": "진짜 서비스는 바이브 코딩만으론 못 만드는 이유",
-      "titleEn": "Why You Can't Vibe Code Real Software",
-      "descKo": "실제 프로덕션 서비스를 바이브 코딩만으로 만들어보며 부딪힌 한계와 실패 지점을 정리한 실전 경험담.",
-      "descEn": "A real-world account of the limits and failure points hit while trying to build production software purely through vibe coding.",
-      "channel": "bigboxSWE",
-      "publishedAt": "2026-07-17T00:00:00Z",
-      "addedAt": "2026-07-19T23:09:40Z"
-    },
-    {
-      "id": "vid-agrici-claude-code-second-brain",
-      "youtubeId": "LGKOa_-XWAc",
-      "category": "usecase",
-      "title": "클로드 코드로 '세컨드 브레인' 클라이언트 풀 빌드",
-      "titleEn": "Claude Code Second Brain: The Full Client Build",
-      "descKo": "클로드 코드만으로 개인 지식관리용 '세컨드 브레인' 앱을 처음부터 끝까지 빌드하는 실전 영상.",
-      "descEn": "A full build video creating a personal-knowledge-management 'second brain' client app end-to-end using Claude Code.",
-      "channel": "Agrici Daniel",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "addedAt": "2026-07-22T09:00:00Z"
     },
     {
       "id": "vid-kevinstratvert-claude-code-noncoders",
@@ -145,6 +145,18 @@
       "addedAt": "2026-07-24T02:00:00Z"
     },
     {
+      "id": "vid-ndc-claude-code-untried",
+      "youtubeId": "zaDbZt40kRg",
+      "category": "lecture",
+      "title": "당신이 아직 안 써본 클로드 코드 기능들 — NDC AI 2026 강연",
+      "titleEn": "What Claude Code Can Do That You Haven't Tried — NDC AI 2026",
+      "descKo": "잘 알려지지 않은 클로드 코드의 고급 기능들을 소개하는 컨퍼런스 강연.",
+      "descEn": "A conference talk covering underused, advanced Claude Code capabilities.",
+      "channel": "NDC Conferences",
+      "publishedAt": "2026-07-01T00:00:00Z",
+      "addedAt": "2026-07-27T02:00:00Z"
+    },
+    {
       "id": "vid-sihyun-claude-code-fullcourse-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -155,18 +167,6 @@
       "channel": "시현의 모험 Sihyun Adventure",
       "publishedAt": "2026-05-20T07:02:49Z",
       "addedAt": "2026-07-16T09:00:00Z"
-    },
-    {
-      "id": "vid-jsmastery-ai-engineering-2026",
-      "youtubeId": "tz-CPq3WgeA",
-      "category": "lecture",
-      "title": "2026년 AI 엔지니어링 배우기 — 에이전트로 풀스택 AI 웹사이트 구축",
-      "titleEn": "Learn AI Engineering in 2026 | Build a Full Stack AI Websites with Agents",
-      "descKo": "Next.js·Supabase·pgvector·Clerk로 프로덕션급 AI 뉴스 플랫폼을 만들며, 에이전트가 직접 구현 계획을 작성하고 사람이 승인하는 '바이브 엔지니어링' 워크플로우를 가르치는 강의.",
-      "descEn": "A full course building a production-style AI news platform (Next.js/Supabase/pgvector/Clerk) around a 'vibe engineering' workflow where the agent drafts its own implementation plan for human approval.",
-      "channel": "JavaScript Mastery",
-      "publishedAt": "2026-07-17T00:00:00Z",
-      "addedAt": "2026-07-19T09:00:00Z"
     },
     {
       "id": "vid-honjapsu-vibecoding-roadmap-ko",
