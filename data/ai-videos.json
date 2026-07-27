@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-27T02:00:00Z",
+  "generatedAt": "2026-07-28T02:00:00Z",
   "videos": [
+    {
+      "id": "vid-jack-claude-code-7skills-ko",
+      "youtubeId": "u23ZCPtkYjU",
+      "category": "tip",
+      "title": "클로드 코드 10분 안에 레벨업 시키는 필수 스킬 7개",
+      "titleEn": "7 Essential Skills to Level Up Claude Code in 10 Minutes",
+      "descKo": "하루 7시간, 1년 넘게 클로드 코드를 써본 경험을 바탕으로 필수 스킬 7개를 짧게 정리한 실전 팁 영상.",
+      "descEn": "A practical tips video distilling 7 essential Claude Code skills from over a year of daily, hands-on use.",
+      "channel": "잭피디의 바이브코딩 아카데미",
+      "addedAt": "2026-07-28T02:00:00Z"
+    },
+    {
+      "id": "vid-routeai-codex2026-guide-ko",
+      "youtubeId": "iupJvraoVow",
+      "category": "lecture",
+      "title": "코덱스 2026 기초 가이드 — 핵심 기능부터 실습까지",
+      "titleEn": "Codex 2026 Basics Guide — Core Features Through Hands-On Practice",
+      "descKo": "코덱스 2026의 핵심 기능을 설명하고 바로 따라 할 수 있는 실습까지 이어지는 입문 강의.",
+      "descEn": "A beginner course explaining Codex 2026's core features and walking through hands-on practice you can follow along with.",
+      "channel": "이동훈의 루트AI",
+      "addedAt": "2026-07-28T02:00:00Z"
+    },
+    {
+      "id": "vid-alinn-claude-10min-master-ko",
+      "youtubeId": "bM9QBgd8ePY",
+      "category": "tip",
+      "title": "왕초보도 10분 만에 클로드 마스터하는 방법",
+      "titleEn": "How Even a Total Beginner Can Master Claude in 10 Minutes",
+      "descKo": "요즘 화제인 클로드를 왕초보 기준으로 10분 만에 실전 활용할 수 있게 정리한 속성 팁 영상.",
+      "descEn": "A quick-start tips video aimed at total beginners, showing how to get productive with Claude in just 10 minutes.",
+      "channel": "알린 ALINN",
+      "addedAt": "2026-07-28T02:00:00Z"
+    },
     {
       "id": "vid-opus5-vs-fable5-comparison",
       "youtubeId": "yKu03nBC9yY",
@@ -73,30 +106,6 @@
       "addedAt": "2026-07-22T09:00:00Z"
     },
     {
-      "id": "vid-successknowledge-gemini36-coding-ko",
-      "youtubeId": "5tf_2Mbguhg",
-      "category": "tip",
-      "title": "아쉬운 제미나이 3.6 플래시, 코딩만 빼고 다 좋다",
-      "titleEn": "Gemini 3.6 Flash Is Great — Except for Coding",
-      "descKo": "제미나이 3.6 플래시를 코딩 작업에 실제로 써보고 다른 용도 대비 코딩에서만 약점을 보인다고 짚은 실사용 리뷰.",
-      "descEn": "A hands-on review putting Gemini 3.6 Flash through real coding tasks, concluding it underperforms specifically at coding compared to other uses.",
-      "channel": "성공지식백과",
-      "publishedAt": "2026-07-22T00:00:00Z",
-      "addedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "vid-zzikbot-claude-hidden-tools-ko",
-      "youtubeId": "yxqVX2dYCvM",
-      "category": "tip",
-      "title": "사용자 99%는 모르는 클로드 숨은 도구 7가지",
-      "titleEn": "7 Hidden Claude Tools 99% of Users Don't Know About",
-      "descKo": "대부분의 사용자가 놓치는 클로드의 숨겨진 기능·도구 7가지를 소개.",
-      "descEn": "Highlights 7 lesser-known Claude tools and features most users overlook.",
-      "channel": "ZZIK BOT",
-      "publishedAt": "2026-07-15T00:00:00Z",
-      "addedAt": "2026-07-22T09:00:00Z"
-    },
-    {
       "id": "vid-rileybrown-codex-runs-company",
       "youtubeId": "gOx37on-iA8",
       "category": "usecase",
@@ -107,18 +116,6 @@
       "channel": "Riley Brown",
       "publishedAt": "2026-07-21T00:00:00Z",
       "addedAt": "2026-07-24T02:00:00Z"
-    },
-    {
-      "id": "vid-kimyongsung-codex-free-guide-ko",
-      "youtubeId": "SuQGDb9U3Rc",
-      "category": "usecase",
-      "title": "챗GPT만 쓰면 손해 — 무료 코덱스 2026 초보자 완벽 가이드",
-      "titleEn": "Beyond ChatGPT — a Free Codex 2026 Beginner's Guide",
-      "descKo": "코딩뿐 아니라 PPT·워드 문서 작성·업무 자동화까지 코덱스를 무료로 활용하는 법을 다루는 실전 가이드.",
-      "descEn": "A practical guide to using Codex for free beyond coding — including PPT/Word document creation and task automation.",
-      "channel": "김용성 교수의 AI 클래스",
-      "publishedAt": "2026-06-21T00:00:00Z",
-      "addedAt": "2026-07-27T02:00:00Z"
     },
     {
       "id": "vid-techyoo-orca-multiagent-ko",

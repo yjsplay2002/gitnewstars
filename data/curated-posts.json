@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-07-27T02:00:00Z",
+  "generatedAt": "2026-07-28T02:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260728-claude-code-migration",
+      "title": "앤스로픽 엔지니어들, 클로드로 100만 줄·16.5만 줄 코드 마이그레이션 완료 — '개별 파일이 아닌 프로세스를 고쳐라', GeekNews",
+      "body": "GeekNews에 오늘 소개된 앤스로픽 공식 블로그 글은 Bun의 Jarred Sumner가 2주 안에 100만 줄 이상을 Zig에서 Rust로 포팅하고, Mike Krieger가 주말 동안 파이썬 코드베이스를 16만 5천 줄 타입스크립트로 전환한 실제 사례를 공개합니다. Bun 마이그레이션은 59억 개 입력 토큰·6.9억 개 출력 토큰(약 1억 6,500만 원 상당 비용)을 써서 병합 전 테스트 100% 통과, 병합 후 회귀 19건은 모두 수정, 리눅스·윈도우 바이너리는 19% 작아지고 메모리는 6,745MB에서 609MB로 줄었습니다. 핵심 교훈은 '틀린 파일 하나하나가 아니라 그 코드를 만들어낸 루프(프로세스)를 고쳐라'로, 규칙서·스트레스 테스트에 사람이 먼저 공을 들이고, 컴파일러·테스트·diff로 기계적 검증을 강제하며, 저렴한 모델엔 구현을, 비싼 모델엔 적대적 리뷰를 맡기라고 권합니다.",
+      "titleEn": "Anthropic engineers ship 1M+ and 165K-line code migrations with Claude — 'fix the loop, not the files', via GeekNews",
+      "bodyEn": "Featured on GeekNews today, Anthropic's official blog details two real migrations: Bun's Jarred Sumner ported over 1 million lines from Zig to Rust in under two weeks, and Mike Krieger converted a Python codebase to 165,000 lines of TypeScript over a weekend. The Bun migration burned 5.9B uncached input tokens and 690M output tokens (~$165,000), passed 100% of tests before merge, fixed all 19 post-merge regressions, shipped a 19% smaller binary on Linux/Windows, and cut memory from 6,745MB to 609MB in one benchmark. The core lesson: 'you fix the process (loop) that produced the code,' not individual files — front-load human effort on the rulebook and stress-testing, make verification mechanical via compilers/tests/diffs, and route implementation to cheap models while reserving expensive models for adversarial review.",
+      "sourceName": "GeekNews · claude.com",
+      "sourceUrl": "https://claude.com/blog/ai-code-migration",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-27T09:00:00Z",
+      "curatedAt": "2026-07-28T02:00:00Z"
+    },
+    {
+      "id": "curated-20260728-codealmanac-wiki",
+      "title": "CodeAlmanac — AI 코딩 에이전트가 스스로 유지보수하는 코드베이스 위키, GeekNews",
+      "body": "GeekNews에 소개된 오픈소스 CodeAlmanac은 코드만으로는 담을 수 없는 설계 배경·과거 실패 사례·서비스 간 워크플로우를 저장소 안 마크다운 문서(almanac/)로 남겨 AI 코딩 에이전트에게 넘겨주는 '살아있는 위키'입니다. Build(구조 초기화)·Ingest(파일·PR·이슈·URL을 위키 페이지로 변환)·Garden(오래된 문서·중복 지식 정리) 3개 라이프사이클 에이전트로 구성되며, codealmanac setup --yes → init → ingest README.md → serve 명령 몇 줄로 바로 써볼 수 있습니다. 처리는 전량 로컬에서 이뤄지고 기존 코덱스·클로드 세션으로 인증하며, launchd 백그라운드 작업이 5시간마다 에이전트 대화 기록을 동기화합니다.",
+      "titleEn": "CodeAlmanac — a codebase wiki that AI coding agents maintain themselves, via GeekNews",
+      "bodyEn": "Featured on GeekNews, the open-source CodeAlmanac is a 'living wiki' that captures what code alone can't express — architectural decisions, past failures, cross-service workflows — as markdown files (under almanac/) inside the repo, for AI coding agents to read. It runs on three lifecycle agents: Build (initializes wiki structure), Ingest (turns files/PRs/issues/URLs into wiki pages), and Garden (cleans up stale or duplicate pages); a few commands get it running — codealmanac setup --yes, init, ingest README.md, serve. All processing runs locally, authenticating through existing Codex or Claude sessions, with a background launchd job syncing agent transcripts every 5 hours.",
+      "sourceName": "GeekNews · github.com/AlmanacCode",
+      "sourceUrl": "https://github.com/AlmanacCode/codealmanac",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-27T06:00:00Z",
+      "curatedAt": "2026-07-28T02:00:00Z"
+    },
+    {
+      "id": "curated-20260728-mcp-spec-2026-07-28",
+      "title": "MCP 2026-07-28 스펙 확정 — 세션·초기화 핸드셰이크 없애고 완전 무상태로, Model Context Protocol 공식 블로그",
+      "body": "Model Context Protocol 공식 블로그가 오늘 발표한 2026-07-28 스펙은 프로토콜 출시 후 최대 규모 개편으로, initialize 핸드셰이크와 Mcp-Session-Id를 완전히 없애 요청마다 메타데이터를 담아 아무 서버 인스턴스로나 라우팅할 수 있게 만들었습니다. 이제 세션 스토어나 고정 라우팅 없이 평범한 라운드로빈 로드밸런서 뒤에 MCP 서버를 그대로 배치할 수 있고, OAuth·OIDC 정합성을 강화한 6건의 SEP(예: RFC 9207 iss 파라미터 검증 의무화)도 함께 들어갔습니다. Roots·Sampling·Logging 3개 핵심 기능은 12개월 유예 기간을 두고 폐기 예정이라 각각 도구 파라미터·LLM 직접 연동·OpenTelemetry로 옮겨야 하며, 샌드박스 iframe UI를 제공하는 MCP Apps와 tasks/get·update·cancel로 클라이언트가 수명주기를 직접 관리하는 Tasks 2개 확장이 정식 기능으로 승격됐습니다. MCP 서버를 운영 중인 개발자라면 지금 바로 마이그레이션 가이드를 확인해야 할 이슈입니다.",
+      "titleEn": "MCP 2026-07-28 spec finalized — drops sessions and the init handshake, goes fully stateless, via the Model Context Protocol blog",
+      "bodyEn": "The Model Context Protocol's official blog shipped its 2026-07-28 spec today, the largest revision since launch: it eliminates the initialize handshake and Mcp-Session-Id entirely, so requests carry metadata inline and can route to any server instance. That means an MCP server that used to need sticky sessions, a shared session store, and gateway packet inspection can now sit behind a plain round-robin load balancer. Six SEPs harden OAuth/OIDC alignment (e.g., mandatory RFC 9207 `iss` validation), while three core features — Roots, Sampling, and Logging — enter a 12-month deprecation window in favor of tool parameters, direct LLM integration, and OpenTelemetry respectively. Two extensions were promoted to first-class status: MCP Apps (sandboxed-iframe server UIs) and a redesigned, client-driven Tasks lifecycle (tasks/get/update/cancel). A concrete must-read for anyone running or building MCP servers today.",
+      "sourceName": "Model Context Protocol Blog",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-28T00:00:00Z",
+      "curatedAt": "2026-07-28T02:00:00Z"
+    },
+    {
+      "id": "curated-20260728-world-model-optimizer",
+      "title": "에이전트 실행 로그를 학습해 모델 라우팅·증류로 비용 40%+ 절감 — World Model Optimizer, Show HN 43점",
+      "body": "Show HN에 공개된 오픈소스 World Model Optimizer(WMO)는 실제 에이전트 실행 트레이스를 분석해 어떤 작업에 어떤 모델을 붙일지 자동으로 결정하는 라우팅 정책을 만들고, 프론티어 모델을 더 저렴한 모델로 증류까지 해주는 도구입니다. OpenRouter 등에서 후보 모델 풀을 구성한 뒤 실제 프로덕션 트레이스에서 뽑은 홀드아웃 작업으로 각 모델을 채점(k-최근접 이웃 등 활용)해 라우팅 정책을 세우고, 월드 모델로 에이전트 환경을 시뮬레이션하며 프롬프트·도구·런타임 코드까지 함께 최적화합니다. 베이스라인 프론티어 모델 대비 40% 이상 비용 절감을 유지하면서 품질은 새 '챔피언' 하니스를 배포하기 전 베이스라인과 직접 비교해 검증한다고 설명하며, 로컬 CLI와 E2B 샌드박스 클라우드 실행을 모두 지원합니다. 에이전트 파이프라인 비용을 줄이려는 팀에게 바로 시도해볼 만한 도구로, HN에서 43점을 받았습니다.",
+      "titleEn": "World Model Optimizer — learns from agent execution traces to cut cost 40%+ via model routing and distillation, 43 pts on Show HN",
+      "bodyEn": "Posted on Show HN, the open-source World Model Optimizer (WMO) analyzes real agent execution traces to automatically build routing policies deciding which model handles which task, and can also distill frontier models into cheaper ones. It scores candidate models (pulled from providers like OpenRouter) on held-out tasks from production traces using techniques like k-nearest neighbors, then uses world-model simulation of agent environments to jointly optimize prompts, tools, and runtime code. It claims 40%+ lower cost versus a baseline frontier model while preserving quality, verified by measuring each new 'champion' harness against the baseline before promotion; it supports both a local CLI and cloud execution via E2B sandboxes. A concrete tool for teams trying to cut agent-pipeline costs. 43 points on Show HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://github.com/experientiallabs/world-model-optimizer",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-26T23:35:15Z",
+      "curatedAt": "2026-07-28T02:00:00Z"
+    },
     {
       "id": "curated-20260727-telepty-agent-control-plane",
       "title": "telepty — 여러 대 머신에 흩어진 클로드 코드·코덱스 세션을 하나의 이름으로 제어하는 컨트롤 플레인, GeekNews",
@@ -132,32 +184,6 @@
       "curatedAt": "2026-07-25T02:00:00Z"
     },
     {
-      "id": "curated-20260725-gemini-flash-sampling-deprecated",
-      "title": "제미나이 3.6 플래시부터 temperature·top_p·top_k 무력화 — 프롬프트로 대체해야, HN 134점",
-      "body": "구글 공식 문서에 따르면 제미나이 3.6 플래시, 3.5 플래시-라이트, 3.5 플래시 사이버부터 temperature·top_p·top_k 파라미터가 무시되며, 이후 모델 세대에서는 값을 넣으면 HTTP 400 에러가 난다고 명시했습니다. 구글은 이 파라미터들을 요청에서 완전히 제거하고 대신 system_instruction을 더 구체적으로 작성해 출력 결정성을 조절하라고 권고합니다. 제미나이 플래시 라인업을 에이전트 라우터나 대량 병렬 처리에 쓰는 개발자라면 지금 요청 코드에서 해당 파라미터를 걷어내야 하는 실전 마이그레이션 이슈입니다. HN에서 134점을 받았습니다.",
-      "titleEn": "Gemini 3.6 Flash and later ignore temperature/top_p/top_k — steer output via prompts instead, 134 pts on HN",
-      "bodyEn": "Google's official docs confirm that Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber now ignore the temperature, top_p, and top_k parameters, and future model generations will return an HTTP 400 error if you pass them at all. Google's guidance: strip the parameters from requests entirely and steer determinism through a more specific system_instruction instead. A concrete migration issue for anyone using the Gemini Flash lineup as an agent router or for high-volume parallel tasks — worth auditing request code now. 134 points on HN.",
-      "sourceName": "Hacker News · ai.google.dev",
-      "sourceUrl": "https://ai.google.dev/gemini-api/docs/latest-model",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-21T21:27:54Z",
-      "curatedAt": "2026-07-25T02:00:00Z"
-    },
-    {
-      "id": "curated-20260725-screenpipe-work-to-agents",
-      "title": "Screenpipe(YC S26) — 내가 일하는 화면을 녹화해 그대로 에이전트로 바꿔주는 툴, Launch HN 82점",
-      "body": "Launch HN에 공개된 Screenpipe는 사용자의 화면·마이크를 로컬에서 24시간 녹화해 실제 업무 패턴(어떤 앱을 어떤 순서로 오가며 무슨 작업을 반복하는지)을 캡처하고, 이 기록을 그대로 반복 가능한 AI 에이전트로 변환해주는 도구입니다. 매번 프롬프트로 워크플로우를 설명하는 대신 실제 작업 화면 기록에서 에이전트를 뽑아낸다는 점이 핵심으로, 반복 업무를 에이전트로 옮기려는 팀에게 실전 아이디어를 제공합니다. YC S26 배치 소속이며 HN에서 82점을 받았습니다.",
-      "titleEn": "Screenpipe (YC S26) — records how you work on screen and turns that directly into an agent, 82 pts on Launch HN",
-      "bodyEn": "Launched on HN, Screenpipe records a user's screen and mic locally around the clock, capturing real work patterns — which apps get used in what order, what tasks repeat — and converts that recording directly into a repeatable AI agent. Instead of describing a workflow in a prompt every time, the agent gets extracted from an actual recording of the work itself, a concrete idea for teams trying to turn repetitive work into agents. Part of the YC S26 batch; 82 points on HN.",
-      "sourceName": "Hacker News · Launch HN",
-      "sourceUrl": "https://news.ycombinator.com/item?id=49024620",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-23T16:48:38Z",
-      "curatedAt": "2026-07-25T02:00:00Z"
-    },
-    {
       "id": "curated-20260725-geeknews-omp-terminal-agent",
       "title": "omp — 오픈소스 Pi를 IDE 수준으로 확장한 터미널 AI 코딩 에이전트, GeekNews",
       "body": "GeekNews에 소개된 omp는 Mario Zechner의 오픈소스 터미널 코딩 에이전트 Pi를 기반으로, IDE에서나 볼 법한 개발 도구와 실전 기능을 터미널 환경에 그대로 이식한 프로젝트입니다. 클로드 코드·코덱스 같은 CLI 에이전트에 익숙한 개발자가 별도 IDE 없이도 코드 탐색·편집·검증까지 터미널 하나로 끝내고 싶을 때 참고할 만한 대안으로 소개됐습니다.",
@@ -184,19 +210,6 @@
       "curatedAt": "2026-07-25T02:00:00Z"
     },
     {
-      "id": "curated-20260724-cursor-agent-swarm-economics",
-      "title": "Cursor, '에이전트 스웜' 시대의 새로운 모델 경제학 공개 — HN 275점",
-      "body": "Cursor 블로그가 공개한 분석으로, 코딩 에이전트 여러 개를 동시에 병렬로 돌리는 '에이전트 스웜' 운용이 늘면서 토큰 소모·모델 선택 전략이 단일 에이전트 시절과 완전히 달라졌다고 설명합니다. 저렴한 모델로 다수 에이전트를 병렬 실행해 탐색·검증을 맡기고, 비싼 모델은 최종 판단에만 투입하는 라우팅 전략이 핵심으로, 실제 비용 곡선과 함께 구체적인 모델 조합 예시를 제시합니다. 여러 에이전트를 동시에 굴리며 비용을 통제하려는 팀에게 바로 참고할 만한 자료로, HN에서 275점을 받았습니다.",
-      "titleEn": "Cursor lays out the new model economics of the 'agent swarm' era — 275 pts on HN",
-      "bodyEn": "A Cursor blog analysis argues that as teams run multiple coding agents in parallel ('agent swarms'), token spend and model-selection strategy diverge sharply from the single-agent era. The core idea: route cheap models to parallel exploration/verification work and reserve expensive models for final judgment calls, illustrated with real cost curves and concrete model-combination examples. A directly applicable reference for teams running many agents at once while trying to keep costs in check. 275 points on HN.",
-      "sourceName": "Hacker News · cursor.com",
-      "sourceUrl": "https://cursor.com/blog/agent-swarm-model-economics",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-20T18:06:13Z",
-      "curatedAt": "2026-07-24T02:00:00Z"
-    },
-    {
       "id": "curated-20260724-wsff-harness-engineering",
       "title": "'소프트웨어 팩토리는 왜 실패하는가' — 하니스 엔지니어링만으론 부족한 이유, HN 136점",
       "body": "humanlayer의 GitHub 문서로 공개된 이 글은 코딩 에이전트를 위한 아키텍처 제약·품질 게이트('하니스 엔지니어링')만으로는 대규모 자동화가 실패하는 이유를 구체적 실패 사례와 함께 짚습니다. 게이트를 통과하기 위한 형식적 코드 생성, 컨텍스트 손실로 인한 반복적 재작업, 검증 루프가 오히려 병목이 되는 상황 등을 실제 사례로 들며, 하니스 위에 사람의 판단과 지속적 피드백 구조를 추가로 설계해야 한다고 제안합니다. 에이전트 자동화 파이프라인을 설계 중인 팀에게 구체적인 실패 패턴 체크리스트로 참고할 만합니다. HN에서 136점을 받았습니다.",
@@ -208,19 +221,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-23T15:18:48Z",
       "curatedAt": "2026-07-24T02:00:00Z"
-    },
-    {
-      "id": "curated-20260723-rhwp-ai-session-memory",
-      "title": "AI 코딩 세션의 휘발성 맥락, 문서로 영구 보존하는 'RHWP' 방법론 — GeekNews 소개",
-      "body": "GeekNews에 소개된 RHWP(Hyper-Waterfall) 방법론은 클로드 코드·코덱스 같은 에이전트 세션의 '한 번 쓰고 사라지는' 맥락을 저장소 안 문서로 영구 보존하는 3단계 구조를 제안합니다. mydocs/manual·mydocs/tech 같은 매크로 문서에는 여러 작업에 걸쳐 재사용할 장기 지식을, 작업 단위 마이크로 문서에는 구현 계획과 판단·검증 결과·성공과 실패 이유까지 기록하고, 이 모든 문서를 코드와 함께 커밋해 다른 기여자·세션·에이전트·모델이 같은 맥락을 이어받게 합니다. 5개월 전 작성된 설계 문서를 새 작업에서 재발견해 원래 담당자의 결정 배경을 그대로 활용한 실제 사례도 함께 소개됐습니다.",
-      "titleEn": "RHWP — a methodology for turning volatile AI coding-session context into permanent project docs, via GeekNews",
-      "bodyEn": "Featured on GeekNews, the RHWP ('Hyper-Waterfall') methodology proposes a 3-tier structure for permanently capturing the context that Claude Code/Codex agent sessions normally discard. Macro-level docs (mydocs/manual, mydocs/tech) hold long-term knowledge reused across tasks; per-task micro docs record the implementation plan, step-by-step reports, and final reasoning/verification results including why something succeeded or failed; all of it commits alongside the code so other contributors, sessions, agents, and models can pick up the same context. A concrete example: a 5-month-old design doc was rediscovered during new work, letting a new contributor and AI reuse the original maintainer's decisions directly.",
-      "sourceName": "GeekNews · github.com/edwardkim/rhwp",
-      "sourceUrl": "https://news.hada.io/topic?id=31684",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-22T02:00:00Z",
-      "curatedAt": "2026-07-22T23:10:00Z"
     },
     {
       "id": "curated-20260723-kimi-k3-vs-fable",
