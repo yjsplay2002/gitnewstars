@@ -1,6 +1,26 @@
 {
-  "generatedAt": "2026-07-28T02:00:00Z",
+  "generatedAt": "2026-07-29T02:00:00Z",
   "videos": [
+    {
+      "id": "vid-hyunsu-claude-code-creator-tips13-ko",
+      "youtubeId": "DTZOmJQKpNQ",
+      "category": "tip",
+      "title": "클로드 코드 창시자가 직접 알려주는 꿀팁 13가지",
+      "titleEn": "13 Claude Code Tips, Straight From a Claude Code Insider",
+      "descKo": "클로드 코드 개발에 관여한 인사이더 관점에서 정리한 실전 꿀팁 13가지를 빠르게 훑는 영상.",
+      "descEn": "A fast-paced rundown of 13 practical Claude Code tips from an insider's perspective on its development.",
+      "addedAt": "2026-07-29T02:00:00Z"
+    },
+    {
+      "id": "vid-realfeature-claude-code-buildstep",
+      "youtubeId": "hX7yG1KVYhI",
+      "category": "usecase",
+      "title": "클로드 코드로 실제 기능 만들기 — 전 과정 설명",
+      "titleEn": "Building a REAL Feature With Claude Code: Every Step Explained",
+      "descKo": "브레인스토밍부터 PRD 작성, 자율 구현까지 클로드 코드로 실제 기능 하나를 처음부터 끝까지 만드는 전 과정을 보여주는 실전 영상.",
+      "descEn": "A full walkthrough building one real feature end-to-end with Claude Code — brainstorm, PRD, then autonomous implementation.",
+      "addedAt": "2026-07-29T02:00:00Z"
+    },
     {
       "id": "vid-jack-claude-code-7skills-ko",
       "youtubeId": "u23ZCPtkYjU",
@@ -21,17 +41,6 @@
       "descKo": "코덱스 2026의 핵심 기능을 설명하고 바로 따라 할 수 있는 실습까지 이어지는 입문 강의.",
       "descEn": "A beginner course explaining Codex 2026's core features and walking through hands-on practice you can follow along with.",
       "channel": "이동훈의 루트AI",
-      "addedAt": "2026-07-28T02:00:00Z"
-    },
-    {
-      "id": "vid-alinn-claude-10min-master-ko",
-      "youtubeId": "bM9QBgd8ePY",
-      "category": "tip",
-      "title": "왕초보도 10분 만에 클로드 마스터하는 방법",
-      "titleEn": "How Even a Total Beginner Can Master Claude in 10 Minutes",
-      "descKo": "요즘 화제인 클로드를 왕초보 기준으로 10분 만에 실전 활용할 수 있게 정리한 속성 팁 영상.",
-      "descEn": "A quick-start tips video aimed at total beginners, showing how to get productive with Claude in just 10 minutes.",
-      "channel": "알린 ALINN",
       "addedAt": "2026-07-28T02:00:00Z"
     },
     {
@@ -128,18 +137,6 @@
       "channel": "techyoo",
       "publishedAt": "2026-07-21T00:00:00Z",
       "addedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "vid-kevinstratvert-claude-code-noncoders",
-      "youtubeId": "inxAjCRHe2o",
-      "category": "lecture",
-      "title": "비개발자를 위한 클로드 코드 튜토리얼",
-      "titleEn": "Claude Code Tutorial for Non-Coders",
-      "descKo": "코딩 경험이 없는 사람도 따라 할 수 있는 클로드 코드 입문 강의.",
-      "descEn": "A beginner-friendly Claude Code course for people with no coding background.",
-      "channel": "Kevin Stratvert",
-      "publishedAt": "2026-07-23T00:00:00Z",
-      "addedAt": "2026-07-24T02:00:00Z"
     },
     {
       "id": "vid-ndc-claude-code-untried",
