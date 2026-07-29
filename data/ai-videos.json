@@ -1,6 +1,29 @@
 {
-  "generatedAt": "2026-07-29T02:00:00Z",
+  "generatedAt": "2026-07-30T02:00:00Z",
   "videos": [
+    {
+      "id": "vid-makerevan-boris-cherny-tips-ko",
+      "youtubeId": "2WJzwwvzbBQ",
+      "category": "tip",
+      "title": "클로드 코드 창시자 보리스 체르니의 실전 사용법 10가지",
+      "titleEn": "10 Real-World Claude Code Tips From Creator Boris Cherny",
+      "descKo": "클로드 코드를 만든 앤스로픽 보리스 체르니가 실제로 어떻게 쓰는지 공개한 내용을 분석한 영상. 5개 창 동시 실행, 계획 우선, 클로드 전용 메모장 등 핵심 팁을 다룹니다.",
+      "descEn": "A breakdown of how Claude Code creator Boris Cherny actually uses the tool day to day — running 5 windows in parallel, planning before building, and keeping a dedicated Claude memo file.",
+      "channel": "메이커 에반 | Maker Evan",
+      "publishedAt": "2026-02-26T08:45:00Z",
+      "addedAt": "2026-07-30T02:00:00Z"
+    },
+    {
+      "id": "vid-lifehacks-claude-code-2026",
+      "youtubeId": "WLHTvgAkpGc",
+      "category": "tip",
+      "title": "클로드 코드 라이프핵 2026",
+      "titleEn": "Life Hacks for Claude Code 2026",
+      "descKo": "2026년 기준 클로드 코드를 더 빠르고 편하게 쓰는 실전 라이프핵을 모은 팁 영상.",
+      "descEn": "A collection of practical, up-to-date life hacks for using Claude Code faster and more comfortably in 2026.",
+      "publishedAt": "2026-07-25T17:36:35Z",
+      "addedAt": "2026-07-30T02:00:00Z"
+    },
     {
       "id": "vid-hyunsu-claude-code-creator-tips13-ko",
       "youtubeId": "DTZOmJQKpNQ",
@@ -53,18 +76,6 @@
       "descEn": "A same-day hands-on comparison running identical real tasks through newly launched Claude Opus 5 and Fable 5 to see how they differ.",
       "publishedAt": "2026-07-24T19:00:00Z",
       "addedAt": "2026-07-25T02:00:00Z"
-    },
-    {
-      "id": "vid-nateherk-claude-code-top2percent",
-      "youtubeId": "RzLV8sfFdMM",
-      "category": "tip",
-      "title": "상위 2%만 아는 클로드 코드 활용법",
-      "titleEn": "How to Use Claude Code Better Than 98% of People",
-      "descKo": "대부분의 사용자가 놓치는 고급 클로드 코드 활용 패턴을 정리한 실전 팁 영상.",
-      "descEn": "A practical walkthrough of advanced Claude Code usage patterns most users miss.",
-      "channel": "Nate Herk | AI Automation",
-      "publishedAt": "2026-06-18T00:00:00Z",
-      "addedAt": "2026-07-27T02:00:00Z"
     },
     {
       "id": "vid-bnk-vibecoding-revenue-ko",
@@ -137,18 +148,6 @@
       "channel": "techyoo",
       "publishedAt": "2026-07-21T00:00:00Z",
       "addedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "vid-ndc-claude-code-untried",
-      "youtubeId": "zaDbZt40kRg",
-      "category": "lecture",
-      "title": "당신이 아직 안 써본 클로드 코드 기능들 — NDC AI 2026 강연",
-      "titleEn": "What Claude Code Can Do That You Haven't Tried — NDC AI 2026",
-      "descKo": "잘 알려지지 않은 클로드 코드의 고급 기능들을 소개하는 컨퍼런스 강연.",
-      "descEn": "A conference talk covering underused, advanced Claude Code capabilities.",
-      "channel": "NDC Conferences",
-      "publishedAt": "2026-07-01T00:00:00Z",
-      "addedAt": "2026-07-27T02:00:00Z"
     },
     {
       "id": "vid-sihyun-claude-code-fullcourse-ko",

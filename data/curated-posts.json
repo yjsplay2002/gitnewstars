@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-07-29T02:00:00Z",
+  "generatedAt": "2026-07-30T02:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260730-skill-bridge",
+      "title": "Skill Bridge — 클로드·코덱스·제미나이 스킬을 VS Code에서 한 화면에 관리하는 확장, GeekNews",
+      "body": "GeekNews에 오늘 소개된 오픈소스 VS Code 확장 Skill Bridge(sungreong/skill-bridge)는 클로드·코덱스·제미나이·Cursor·Antigravity 등 여러 에이전트에 흩어진 스킬을 프로젝트별로 찾아 헤매는 문제를 해결합니다. 워크스페이스와 중앙 저장소의 스킬을 한 화면에서 비교하고 변경된 파일·diff를 리뷰한 뒤 선택적으로 가져오기·내보내기할 수 있으며, 스킬을 그룹으로 묶고 프로젝트 프리셋으로 저장해 새 프로젝트에 원클릭 적용할 수 있습니다. 실행이나 병합을 자동화하지 않고 관리 계층으로만 동작해, 여러 도구를 오가며 컨텍스트를 잃는 문제를 줄입니다.",
+      "titleEn": "Skill Bridge — a VS Code extension that manages Claude/Codex/Gemini skills across projects in one screen, via GeekNews",
+      "bodyEn": "Featured on GeekNews today, the open-source VS Code extension Skill Bridge (sungreong/skill-bridge) solves the problem of skills scattered across Claude, Codex, Gemini, Cursor, and Antigravity projects being hard to track down. It lets you compare workspace and central skills side by side, review changed files and diffs, then selectively import or export them — plus group skills and save project presets for one-click application to new projects. It's deliberately a management layer, not an execution or merge automator, cutting the context-switching cost of juggling multiple AI coding tools.",
+      "sourceName": "GeekNews · github.com/sungreong",
+      "sourceUrl": "https://github.com/sungreong/skill-bridge",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-29T06:00:00Z",
+      "curatedAt": "2026-07-30T02:00:00Z"
+    },
+    {
+      "id": "curated-20260730-apt-insights-solo-100days",
+      "title": "AI 에이전트로 100일 만에 만든 아파트 가격 시뮬레이터 — 16개 거시변수·몬테카를로로 24개월 예측, GeekNews",
+      "body": "GeekNews에 소개된 APT Insights는 1인 개발자가 백엔드 인프라·비동기 큐·시계열 예측처럼 낯선 영역을 AI 에이전트의 도움으로 뚫고 100일 만에 완성한 아파트 시세 분석·시뮬레이션 서비스입니다. 금리·환율·가계부채·건설비 등 16개 거시·구조·지역 변수와 VECM 잔차 보정, 몬테카를로 시뮬레이션으로 단일 예측값 대신 24개월치 P25~P75 확률 구간을 제시하며, 12개월 아웃오브샘플 백테스트 MAPE 6.32%·검증 R² 0.610을 홈페이지에 공개해 신뢰도를 검증할 수 있게 했습니다. Next.js·Neon Postgres·Cloudflare Workers·Upstash Redis로 짠 서버리스 구조로 고정 인프라 비용을 최소화했으며, 웹·PWA·iOS·안드로이드 전 플랫폼에 무료로 제공됩니다.",
+      "titleEn": "A solo dev built a 100-day, AI-agent-assisted apartment price simulator — 16 macro factors + Monte Carlo forecasting 24 months out, via GeekNews",
+      "bodyEn": "Featured on GeekNews, APT Insights is an apartment-price analysis and simulation service a solo engineer completed in 100 days, using AI agents to push through unfamiliar domains like backend infrastructure, async queues, and time-series forecasting. It generates scenario-based 24-month P25-P75 probability ranges — not single-point predictions — from 16 macro/structural/regional factors (interest rates, FX, household debt, construction costs) plus VECM residual correction and Monte Carlo simulation, publishing its own 12-month out-of-sample backtest (6.32% MAPE, R² 0.610) right on the homepage for anyone to check. It runs on a serverless stack (Next.js, Neon Postgres, Cloudflare Workers, Upstash Redis) to keep fixed infra costs low, and ships free across web, PWA, iOS, and Android.",
+      "sourceName": "GeekNews · apt-insights.com",
+      "sourceUrl": "https://apt-insights.com",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-29T05:00:00Z",
+      "curatedAt": "2026-07-30T02:00:00Z"
+    },
+    {
+      "id": "curated-20260730-kimi-code-k3-256k",
+      "title": "Kimi Code, K3-256k 모델로 컨텍스트 비용 낮춘 코딩 에이전트 CLI 공개, HN 290점",
+      "body": "Kimi가 공개한 Kimi Code는 CLI·VS Code 확장·API로 구성된 코딩 에이전트 툴킷으로, 새로 추가된 K3-256k는 풀 버전 K3(최대 100만 토큰)와 비슷한 성능을 유지하면서 컨텍스트를 25만6천 토큰으로 줄여 토큰 소비를 낮춘 버전입니다. 추론 강도를 low·high·max로 조절할 수 있고 이미지·비디오 입력을 지원하는 멀티모달 모드도 있으며, HighSpeed 변형은 쿼터를 3배 쓰는 대신 출력 속도를 5~6배 끌어올립니다. 클로드 코드·코덱스 외에 저비용 코딩 에이전트 백엔드를 찾는 개발자가 바로 비교해볼 만한 옵션으로, HN에서 290점을 받았습니다.",
+      "titleEn": "Kimi Code launches K3-256k — a lower-cost-context coding agent CLI, docs published, 290 pts on HN",
+      "bodyEn": "Kimi's own coding-agent toolkit, Kimi Code (CLI, VS Code extension, and API), now offers K3-256k: a trimmed-context version of its flagship K3 model that keeps performance close to the full 1M-token K3 while cutting the context window to 256k tokens to reduce consumption. It supports low/high/max reasoning-effort levels and multimodal image/video input, and a HighSpeed variant trades 3x quota usage for 5-6x faster output. A concrete new option for developers comparing lower-cost coding-agent backends against Claude Code or Codex. 290 points on HN.",
+      "sourceName": "Hacker News · kimi.com",
+      "sourceUrl": "https://www.kimi.com/code/docs/en/kimi-code/models",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-29T00:00:00Z",
+      "curatedAt": "2026-07-30T02:00:00Z"
+    },
+    {
+      "id": "curated-20260730-onecli-credential-gateway",
+      "title": "OneCLI — AI 에이전트에게 진짜 API 키를 절대 보여주지 않는 크리덴셜 게이트웨이, Show HN 110점",
+      "body": "Show HN에 공개된 오픈소스 OneCLI는 에이전트가 FAKE_KEY 같은 가짜 키로 요청을 보내면 게이트웨이가 이를 실제 API 키로 바꿔치기해 전달하는 방식으로, 에이전트 코드에 시크릿을 절대 노출하지 않고도 여러 AI 에이전트의 API 접근을 한곳에서 관리·회전·감사할 수 있게 해줍니다. Rust로 만든 게이트웨이가 호스트·경로 패턴으로 시크릿을 라우팅하고 AES-256-GCM으로 저장하며, 에이전트별로 범위가 제한된 개별 토큰을 발급하고 Bitwarden 같은 비밀번호 관리자와도 연동됩니다. 여러 에이전트에 API 키를 흩뿌려 쓰고 있는 팀이라면 바로 도입해볼 만한 보안 인프라로, HN에서 110점을 받았습니다.",
+      "titleEn": "OneCLI — a credential gateway that never lets AI agents see the real API key, 110 pts on Show HN",
+      "bodyEn": "Posted on Show HN, the open-source OneCLI lets agents call APIs using placeholder keys like FAKE_KEY, then swaps in the real credential at the gateway — so agent code never touches a real secret, while a team gets one place to manage, rotate, and audit access across every agent. Its Rust gateway routes secrets by host/path pattern, stores them with AES-256-GCM encryption, issues scoped per-agent tokens, and can pull from password managers like Bitwarden. A concrete piece of security infrastructure for any team that has API keys scattered across multiple agents. 110 points on Show HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://github.com/onecli/onecli",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-23T00:00:00Z",
+      "curatedAt": "2026-07-30T02:00:00Z"
+    },
+    {
+      "id": "curated-20260730-screenpipe-work-to-agents",
+      "title": "Screenpipe — 화면·음성 녹화를 에이전트의 사적 기억으로 바꾸는 오픈소스, Launch HN 87점",
+      "body": "Launch HN에 소개된 Screenpipe는 화면과 음성을 로컬에 계속 녹화해 클로드 같은 에이전트가 검색할 수 있는 로컬 DB로 저장하고, 이를 근거로 에이전트가 자동으로 행동하게 만드는 캡처-메모리-액션 3단계 구조의 오픈소스 도구입니다. 예를 들어 회의가 끝나면 녹화된 내용을 바탕으로 회의록·액션 아이템을 자동 생성해 노트 앱에 바로 밀어넣을 수 있고, Linear·Slack·Notion·GitHub 연동과 함께 에이전트가 무엇을 트리거로, 어떤 컨텍스트를 근거로 행동했는지 투명하게 확인할 수 있습니다. 데이터는 기본적으로 클라우드에 올리지 않고 로컬에만 저장되며 민감한 앱은 제외하거나 필드를 마스킹할 수 있어, 매번 컨텍스트를 손으로 챙겨주지 않아도 되는 에이전트 워크플로우를 만들려는 개발자가 바로 시도해볼 만합니다. HN에서 87점을 받았습니다.",
+      "titleEn": "Screenpipe — open-source software that turns your screen/audio recordings into an agent's private memory, 87 pts on Launch HN",
+      "bodyEn": "Featured on Launch HN, Screenpipe continuously records your screen and audio locally, storing it in a local database agents like Claude can search, then lets agents act on that context — a capture-memory-action pipeline. For example, when a meeting ends an agent can auto-generate meeting notes and action items from the recording and push them straight to your notes app; it also integrates with Linear, Slack, Notion, and GitHub, with full transparency into what triggered an agent and what context it used. Data stays local by default (no cloud upload), with the option to exclude sensitive apps or redact fields — a concrete tool for building agent workflows that don't require manually feeding context every time. 87 points on Launch HN.",
+      "sourceName": "Hacker News · Launch HN",
+      "sourceUrl": "https://screenpipe.com/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-23T00:00:00Z",
+      "curatedAt": "2026-07-30T02:00:00Z"
+    },
+    {
+      "id": "curated-20260730-tokenless-model-routing",
+      "title": "Tokenless — 여러 모델에 동시에 물어보고 이긴 모델 값만 청구하는 추론 라우터, Launch HN 46점",
+      "body": "Launch HN에 공개된 Tokenless는 OpenAI·Anthropic 호환 엔드포인트를 그대로 대체해 붙일 수 있는 추론 라우터로, 요청 하나를 여러 모델에 동시에 보내 진행 상황을 지켜보다가 한 모델이 문제를 제대로 풀고 있다는 게 분명해지는 순간 그 모델만 남기고 나머지는 중단해, 이긴 모델의 추론 비용만 청구합니다. 모든 요청에 프론티어 모델을 기본으로 쓰는 관행을 겨냥해, 월 4만 달러 인프라 지출에서 약 1만 4천 달러를 절감할 수 있다는 예시와 함께 공개 벤치마크로 결과를 검증한다고 설명합니다. Google DeepMind·프린스턴·UC버클리 출신 연구자들이 만들었으며, 코딩 에이전트 파이프라인의 모델 비용을 줄이려는 팀이 바로 시도해볼 만한 인프라입니다. HN에서 46점을 받았습니다.",
+      "titleEn": "Tokenless — an inference router that queries multiple models at once and bills only for the one that wins, 46 pts on Launch HN",
+      "bodyEn": "Launched on HN, Tokenless is a drop-in replacement for OpenAI/Anthropic-compatible API endpoints that speculatively sends each request to multiple models at once, watches their progress, and once one model is clearly solving the problem correctly it kills the rest and bills only for the winner's inference. Aimed at the default habit of routing every request to a frontier model, it claims roughly half the inference bill — one example shows ~$14,000/month saved on $40,000 of spend — verified against public benchmarks rather than marketing claims alone. Built by researchers out of Google DeepMind, Princeton, and UC Berkeley, it's a concrete piece of infrastructure for teams trying to cut model costs in a coding-agent pipeline. 46 points on Launch HN.",
+      "sourceName": "Hacker News · Launch HN",
+      "sourceUrl": "https://usetokenless.com/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-29T00:00:00Z",
+      "curatedAt": "2026-07-30T02:00:00Z"
+    },
     {
       "id": "curated-20260729-codex-security-oss",
       "title": "OpenAI, 코덱스 보안 툴킷 'Codex Security' 오픈소스 공개 — 자율 코딩 에이전트용 가드레일, HN 240점",
@@ -25,58 +103,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-27T00:00:00Z",
-      "curatedAt": "2026-07-29T02:00:00Z"
-    },
-    {
-      "id": "curated-20260729-kimi-k3-telnyx",
-      "title": "오픈 모델 Kimi K3, Telnyx 추론 API로 바로 붙여 쓸 수 있게 출시, HN 129점",
-      "body": "Telnyx가 릴리스 노트로 공개한 소식에 따르면 오픈 웨이트 모델 Kimi K3가 Telnyx 추론 API에 정식 추가돼, 별도 인프라 없이 API 호출 한 번으로 에이전트 백엔드에 바로 붙일 수 있게 됐습니다. 앞서 Fireworks AI 벤치마크에서 Kimi K3가 클로드 Fable 5와 거의 맞먹는 에이전트 성능을 보였다고 소개된 바 있어, 이번 발표는 그 모델을 실제 프로덕션에 쉽게 채택할 수 있는 경로가 늘었다는 의미입니다. 코딩 에이전트 파이프라인에서 모델·프로바이더 선택지를 넓히려는 개발자에게 바로 참고할 소식으로, HN에서 129점을 받았습니다.",
-      "titleEn": "Open-weight Kimi K3 now available via Telnyx's Inference API — a plug-in path to production, 129 pts on HN",
-      "bodyEn": "Telnyx's release notes announce that the open-weight Kimi K3 model is now live on its Inference API, so teams can wire it into an agent backend with a single API call instead of standing up their own infrastructure. Kimi K3 was previously shown in a Fireworks AI benchmark to be nearly competitive with Claude Fable 5 on agentic tasks, so this release adds an easy production-adoption path for that model. Useful for developers looking to widen their model/provider options in a coding-agent pipeline. 129 points on HN.",
-      "sourceName": "Hacker News · telnyx.com",
-      "sourceUrl": "https://telnyx.com/release-notes/kimi-k3-telnyx-inference",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-27T00:00:00Z",
-      "curatedAt": "2026-07-29T02:00:00Z"
-    },
-    {
-      "id": "curated-20260729-omniroute-gateway",
-      "title": "OmniRoute — 프로바이더 290개·모델 500개를 하나의 엔드포인트로 묶는 무료 AI 게이트웨이, GeekNews",
-      "body": "GeekNews에 소개된 오픈소스 OmniRoute(MIT 라이선스)는 흩어진 무료·저가 AI 티어를 하나의 API 엔드포인트로 묶어주는 게이트웨이입니다. 290개 이상 프로바이더(그중 90개 이상 무료 티어)와 클로드·GPT·제미나이·Kimi·GLM·DeepSeek·MiniMax 등 500개 이상 모델을 지원하며, 클로드 코드·코덱스·Cursor·OpenCode·Cline·Copilot에 바로 붙일 수 있고 쿼터 소진 시 자동으로 다음 프로바이더로 넘어가는 폴백과 MCP·A2A 연동까지 갖췄습니다. 여러 AI 백엔드를 저비용으로 조합해 쓰려는 개발자에게 바로 시도해볼 만한 인프라입니다.",
-      "titleEn": "OmniRoute — a free gateway unifying 290+ providers and 500+ models behind one endpoint, via GeekNews",
-      "bodyEn": "Featured on GeekNews, the open-source OmniRoute (MIT licensed) is a gateway that unifies scattered free/cheap AI tiers behind a single API endpoint. It supports 290+ providers (90+ with free tiers) and 500+ models — Claude, GPT, Gemini, Kimi, GLM, DeepSeek, MiniMax — and plugs directly into Claude Code, Codex, Cursor, OpenCode, Cline, and Copilot, with quota-aware auto-fallback to the next provider plus MCP/A2A support. A concrete piece of infrastructure for developers trying to combine multiple AI backends cheaply.",
-      "sourceName": "GeekNews · github.com/diegosouzapw",
-      "sourceUrl": "https://github.com/diegosouzapw/OmniRoute",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-23T00:00:00Z",
-      "curatedAt": "2026-07-29T02:00:00Z"
-    },
-    {
-      "id": "curated-20260729-knowledge-factory-harness",
-      "title": "'지식 공장' — 하니스 엔지니어링을 지식 생산 루프에 그대로 적용하기, GeekNews",
-      "body": "GeekNews에 소개된 이 글은 코딩 에이전트용 '소프트웨어 팩토리' 3단계 루프(작업 분해→생성→검증) 개념을 지식 생산에도 그대로 적용할 수 있다고 제안하며, 여기에 네 번째 루프인 '편집(editorial)'을 추가해야 한다고 주장합니다. 에이전트가 위키 문서를 직접 작성하고, 사람은 개별 문장이 아니라 전체 편집 구조(무엇을 남기고 무엇을 병합할지)를 설계하는 역할로 옮겨가야 한다는 구체적 워크플로우 설계 제안이 핵심입니다. 에이전트로 지식베이스·문서를 자동 생산하는 파이프라인을 설계하려는 팀에게 참고할 아키텍처입니다.",
-      "titleEn": "'Knowledge Factory' — applying harness engineering to the knowledge-production loop, via GeekNews",
-      "bodyEn": "Featured on GeekNews, this piece proposes applying the standard 3-loop 'software factory' pattern for coding agents (decompose → generate → verify) to knowledge production, adding a 4th 'editorial' loop on top. The core proposal: agents write the wiki pages directly, while humans shift from editing individual sentences to designing the overall editorial structure — deciding what to keep and what to merge. A concrete workflow-design reference for teams building agent-driven knowledge-base or documentation pipelines.",
-      "sourceName": "GeekNews · alfadur7.github.io",
-      "sourceUrl": "https://alfadur7.github.io/llm-wiki-newsroom/ko/knowledge-factory/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-22T00:00:00Z",
-      "curatedAt": "2026-07-29T02:00:00Z"
-    },
-    {
-      "id": "curated-20260729-rhwp-project-memory",
-      "title": "3개월 163커밋·79PR — 휘발되는 AI 코딩 세션 맥락을 프로젝트 기억으로 남기는 'rhwp' 실전 사례, GeekNews",
-      "body": "GeekNews에 소개된 이 GitHub 디스커션은 '하이퍼 워터폴을 통한 문서 증류'라는 기법으로, AI 코딩 세션에서 매번 사라지는 맥락(왜 이렇게 짰는지, 뭘 시도했다 버렸는지)을 저장소 안 지속적인 프로젝트 기억으로 남기는 실전 워크플로우를 다룹니다. 필자는 3개월 동안 163개 커밋, 79개 PR, 76개 이슈, 16건의 PR 리뷰를 진행하며 이 방식을 실제로 적용한 과정을 구체적으로 공개해, 세션이 끝나면 컨텍스트가 날아가는 문제를 겪는 개발자에게 바로 참고할 만한 실전 사례입니다.",
-      "titleEn": "163 commits, 79 PRs over 3 months — the 'rhwp' case study on turning volatile AI-coding-session context into project memory, via GeekNews",
-      "bodyEn": "Featured on GeekNews, this GitHub Discussion covers a technique called 'document distillation via hyper-waterfall' — a practical workflow for capturing the context that normally evaporates after an AI coding session (why something was built a certain way, what was tried and discarded) as persistent, in-repo project memory. The author documents applying this over 3 months: 163 commits, 79 PRs, 76 issues, and 16 PR reviews — a concrete case study for developers frustrated by losing context every time a session ends.",
-      "sourceName": "GeekNews · GitHub Discussions",
-      "sourceUrl": "https://github.com/edwardkim/rhwp/discussions/2252",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-22T00:00:00Z",
       "curatedAt": "2026-07-29T02:00:00Z"
     },
     {
@@ -145,19 +171,6 @@
       "curatedAt": "2026-07-27T02:00:00Z"
     },
     {
-      "id": "curated-20260727-ai-news-wiki-72days",
-      "title": "72일간 무인 운영된 AI 뉴스 링크 위키 — LLM 에이전트가 매일 수집·정리하는 실전 워크플로우, GeekNews",
-      "body": "GeekNews에 오늘 소개된 1인 프로젝트는 Karpathy의 LLM 위키 패턴을 응용해, arXiv·허깅페이스·랩 블로그·X·중국 랩·연방관보를 매일 자동으로 훑어 사실마다 출처를 붙이는 방식으로 107개 위키 페이지·371개 링크를 쌓아온 72일 무인 운영 기록입니다. 처음엔 검색 기반으로 뉴스를 감지해 최대 6일까지 지연이 발생했지만, RSS 직접 폴링과 GitHub Actions 시간별 크론으로 바꾸면서 지연을 1~4일로 줄인 구체적 개선 과정이 공개돼, 에이전트 기반 자동 수집 파이프라인을 설계하려는 개발자에게 실전 참고 자료가 됩니다.",
-      "titleEn": "A 72-day, unmanned AI-news link wiki — an LLM agent's daily collect-and-organize workflow, via GeekNews",
-      "bodyEn": "Featured on GeekNews today, this solo project applies Karpathy's \"LLM wiki\" pattern to automatically scan arXiv, Hugging Face, lab blogs, X, Chinese labs, and the US Federal Register every day, building up 107 wiki pages and 371 sourced links over 72 days of unmanned operation. It started with search-based news detection that lagged up to 6 days, then cut that to 1-4 days by switching to direct RSS polling plus hourly GitHub Actions crons — a concrete example for anyone designing an agent-based auto-collection pipeline.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31829",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-27T00:00:00Z",
-      "curatedAt": "2026-07-27T02:00:00Z"
-    },
-    {
       "id": "curated-20260727-stop-vibe-coding",
       "title": "'바이브 코딩을 어떻게 멈출 것인가' — 스펙 우선·테스트 게이트로 되돌아가야 하는 이유, HN 61점",
       "body": "alexklos.ca에 올라온 이 글은 프롬프트만으로 기능을 밀어붙이는 '바이브 코딩'이 언제 위험해지는지 구체적 체크리스트로 짚습니다. 필자는 요구사항을 스펙 문서로 먼저 확정하고, 에이전트 출력을 테스트·타입체크 게이트로 강제 검증한 뒤에만 병합하는 흐름으로 되돌아가야 한다고 주장하며, 실제로 프로덕션 장애로 이어진 사례들을 근거로 듭니다. '언제까지는 바이브 코딩이 괜찮고, 언제부터는 안 되는지' 기준을 팀에 도입하려는 리더에게 참고할 만한 글로, HN에서 61점을 받았습니다.",
@@ -181,19 +194,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-25T20:42:35Z",
-      "curatedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "curated-20260726-engineering-mgmt-cost-collapse",
-      "title": "'코드 생성 비용이 무너진 후' 엔지니어링 매니지먼트는 뭘 바꿔야 하나 — HN 104점",
-      "body": "karimjedda.com에 올라온 이 글은 LLM이 코드 작성 비용을 크게 낮춘 지금, 매니저가 관리 관행을 '오래돼서'가 아니라 '무엇을 전제하는지' 기준으로 재점검해야 한다고 주장합니다. 벨로시티·PR 개수 같은 물량 지표는 AI로 쉽게 부풀릴 수 있어 오히려 오도하므로 비즈니스 성과·시스템 건강도로 대체하고, 기계로 검증 가능한 스펙을 만드는 것이 지금 가장 레버리지 높은 인프라 작업이라고 짚습니다. 되돌릴 수 있는 결정은 빠르게, 되돌릴 수 없는 결정만 신중한 합의로 나누라는 조언과 함께, AI가 주니어의 실전 학습(디버깅·보일러플레이트) 기회를 없애버리는 문제는 아직 해법이 없다고 인정합니다. 팀 관리 방식을 AI 시대에 맞게 감사하려는 리더에게 참고할 체크리스트입니다. HN에서 104점을 받았습니다.",
-      "titleEn": "'After the cost of code collapsed' — what engineering management needs to change, 104 pts on HN",
-      "bodyEn": "This karimjedda.com post argues that now that LLMs have sharply cut the cost of writing code, managers should audit their practices by what they assume, not by how old they are. Volume metrics like velocity and PR counts become actively misleading since AI makes them trivial to inflate, so replace them with business outcomes and system-health measures; investing in machine-checkable specs is called out as the highest-leverage infrastructure work available right now. Its advice: make reversible decisions fast, reserve slow consensus for irreversible ones — while admitting there's no proven fix yet for AI eating the hands-on debugging/boilerplate work that used to train junior engineers into seniors. A useful checklist for leaders auditing their management playbook for the AI era. 104 points on HN.",
-      "sourceName": "Hacker News · karimjedda.com",
-      "sourceUrl": "https://karimjedda.com/engineering-management-after-cost-of-code-collapse/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-25T15:10:51Z",
       "curatedAt": "2026-07-26T02:00:00Z"
     },
     {
