@@ -1,6 +1,39 @@
 {
-  "generatedAt": "2026-07-30T02:00:00Z",
+  "generatedAt": "2026-07-31T02:00:00Z",
   "videos": [
+    {
+      "id": "vid-gemini35-top1percent-tips-ko",
+      "youtubeId": "OXOXIcmIhT0",
+      "category": "tip",
+      "title": "상위 1%의 제미나이 활용법 12가지 — 2026 최신 업데이트 기능 포함",
+      "titleEn": "The Top 1%'s 12 Gemini Usage Tips — Including 2026's Latest Features",
+      "descKo": "실제 업무와 콘텐츠 제작에 바로 쓸 수 있는 제미나이 활용법 12가지를 정리한 영상. 보고서 자동 작성, PDF·엑셀·워드 파일 생성, PPT 제작 등을 다룹니다.",
+      "descEn": "A rundown of 12 practical Gemini usage tips for real work and content creation — auto-drafting reports, generating PDF/Excel/Word files, and building slide decks.",
+      "publishedAt": "2026-06-18T00:00:00Z",
+      "addedAt": "2026-07-31T02:00:00Z"
+    },
+    {
+      "id": "vid-codex-org-workflow-ko",
+      "youtubeId": "paklphOK9uM",
+      "category": "tip",
+      "title": "대부분 모르는 코덱스 신규 기능 — 일하는 방식이 바뀝니다",
+      "titleEn": "Codex's New Features Most People Don't Know About — A Different Way of Working",
+      "descKo": "코덱스를 단순 코딩 도구가 아니라 팀장이 있는 AI 조직처럼 운영하는 법을 다루는 실전 팁 영상.",
+      "descEn": "A practical tips video on running Codex less like a coding tool and more like an AI organization with a team lead.",
+      "channel": "잭피디의 바이브코딩 아카데미",
+      "publishedAt": "2026-06-06T00:00:00Z",
+      "addedAt": "2026-07-31T02:00:00Z"
+    },
+    {
+      "id": "vid-27-claude-code-tips-en",
+      "youtubeId": "-IozMG9x0dI",
+      "category": "tip",
+      "title": "12분 만에 훑는 클로드 코드 몰랐던 팁 27가지",
+      "titleEn": "27 Claude Code Tips You Didn't Know About (in 12 Minutes)",
+      "descKo": "잘 알려지지 않은 클로드 코드 팁 27가지를 12분 안에 빠르게 훑어주는 영상.",
+      "descEn": "A fast, 12-minute rundown of 27 lesser-known Claude Code tips and tricks.",
+      "addedAt": "2026-07-31T02:00:00Z"
+    },
     {
       "id": "vid-makerevan-boris-cherny-tips-ko",
       "youtubeId": "2WJzwwvzbBQ",
@@ -11,17 +44,6 @@
       "descEn": "A breakdown of how Claude Code creator Boris Cherny actually uses the tool day to day — running 5 windows in parallel, planning before building, and keeping a dedicated Claude memo file.",
       "channel": "메이커 에반 | Maker Evan",
       "publishedAt": "2026-02-26T08:45:00Z",
-      "addedAt": "2026-07-30T02:00:00Z"
-    },
-    {
-      "id": "vid-lifehacks-claude-code-2026",
-      "youtubeId": "WLHTvgAkpGc",
-      "category": "tip",
-      "title": "클로드 코드 라이프핵 2026",
-      "titleEn": "Life Hacks for Claude Code 2026",
-      "descKo": "2026년 기준 클로드 코드를 더 빠르고 편하게 쓰는 실전 라이프핵을 모은 팁 영상.",
-      "descEn": "A collection of practical, up-to-date life hacks for using Claude Code faster and more comfortably in 2026.",
-      "publishedAt": "2026-07-25T17:36:35Z",
       "addedAt": "2026-07-30T02:00:00Z"
     },
     {
@@ -76,18 +98,6 @@
       "descEn": "A same-day hands-on comparison running identical real tasks through newly launched Claude Opus 5 and Fable 5 to see how they differ.",
       "publishedAt": "2026-07-24T19:00:00Z",
       "addedAt": "2026-07-25T02:00:00Z"
-    },
-    {
-      "id": "vid-bnk-vibecoding-revenue-ko",
-      "youtubeId": "5GqQsqtG_2k",
-      "category": "usecase",
-      "title": "바이브 코딩으로 만든 앱, 6개월 만에 50억 매출 찍었다",
-      "titleEn": "A Vibe-Coded App Hit ~$3.6M in Revenue in 6 Months",
-      "descKo": "바이브 코딩만으로 만든 앱이 6개월 만에 50억원 매출을 낸 실제 사례를 다룬 인터뷰.",
-      "descEn": "A real case study of a vibe-coded app reaching roughly $3.6M in revenue within 6 months.",
-      "channel": "BNK금융그룹",
-      "publishedAt": "2026-07-08T00:00:00Z",
-      "addedAt": "2026-07-27T02:00:00Z"
     },
     {
       "id": "vid-jocoding-gpt56-codex-tips-ko",
@@ -160,18 +170,6 @@
       "channel": "시현의 모험 Sihyun Adventure",
       "publishedAt": "2026-05-20T07:02:49Z",
       "addedAt": "2026-07-16T09:00:00Z"
-    },
-    {
-      "id": "vid-honjapsu-vibecoding-roadmap-ko",
-      "youtubeId": "HNtS6WGGhNU",
-      "category": "lecture",
-      "title": "바이브코딩 지도 한 장으로 끝내기 (1부)",
-      "titleEn": "The Whole Vibe-Coding Roadmap in One Map (Part 1)",
-      "descKo": "완전 비개발자를 대상으로 바이브 코딩 학습 로드맵 전체를 지도 한 장으로 정리한 강의 1부.",
-      "descEn": "Part 1 of a structured, roadmap-style course laying out the entire vibe-coding learning path for complete non-coders.",
-      "channel": "혼잡스",
-      "publishedAt": "2026-07-16T00:00:00Z",
-      "addedAt": "2026-07-19T23:09:40Z"
     }
   ]
 }

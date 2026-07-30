@@ -1,31 +1,70 @@
 {
-  "generatedAt": "2026-07-30T02:00:00Z",
+  "generatedAt": "2026-07-31T02:00:00Z",
   "posts": [
     {
-      "id": "curated-20260730-skill-bridge",
-      "title": "Skill Bridge — 클로드·코덱스·제미나이 스킬을 VS Code에서 한 화면에 관리하는 확장, GeekNews",
-      "body": "GeekNews에 오늘 소개된 오픈소스 VS Code 확장 Skill Bridge(sungreong/skill-bridge)는 클로드·코덱스·제미나이·Cursor·Antigravity 등 여러 에이전트에 흩어진 스킬을 프로젝트별로 찾아 헤매는 문제를 해결합니다. 워크스페이스와 중앙 저장소의 스킬을 한 화면에서 비교하고 변경된 파일·diff를 리뷰한 뒤 선택적으로 가져오기·내보내기할 수 있으며, 스킬을 그룹으로 묶고 프로젝트 프리셋으로 저장해 새 프로젝트에 원클릭 적용할 수 있습니다. 실행이나 병합을 자동화하지 않고 관리 계층으로만 동작해, 여러 도구를 오가며 컨텍스트를 잃는 문제를 줄입니다.",
-      "titleEn": "Skill Bridge — a VS Code extension that manages Claude/Codex/Gemini skills across projects in one screen, via GeekNews",
-      "bodyEn": "Featured on GeekNews today, the open-source VS Code extension Skill Bridge (sungreong/skill-bridge) solves the problem of skills scattered across Claude, Codex, Gemini, Cursor, and Antigravity projects being hard to track down. It lets you compare workspace and central skills side by side, review changed files and diffs, then selectively import or export them — plus group skills and save project presets for one-click application to new projects. It's deliberately a management layer, not an execution or merge automator, cutting the context-switching cost of juggling multiple AI coding tools.",
-      "sourceName": "GeekNews · github.com/sungreong",
-      "sourceUrl": "https://github.com/sungreong/skill-bridge",
+      "id": "curated-20260731-agent-manager-tmux-tui",
+      "title": "Agent Manager — 클로드 코드·코덱스·OpenCode 세션을 tmux 하나로 관리하는 TUI, Show HN 90점",
+      "body": "Show HN에 공개된 오픈소스 Agent Manager는 클로드 코드·코덱스·OpenCode·Grok Build 등 여러 AI 코딩 에이전트 세션을 tmux 위에서 하나의 터미널 UI로 통합 관리하는 도구입니다. 세션을 붙이지 않고도 작업 중·대기·완료·오류 상태를 실시간으로 보여주고, Ctrl+R로 파일별 diff를 문법 강조와 함께 리뷰하며 줄 단위 코멘트를 에이전트에 바로 되먹임할 수 있습니다. 죽은 세션도 대화 기록을 그대로 복원해 되살릴 수 있고, brew install yoanwai/tap/agent-manager 한 줄로 설치해 바로 써볼 수 있습니다. HN에서 90점을 받았습니다.",
+      "titleEn": "Agent Manager — a tmux TUI that manages Claude Code, Codex, and OpenCode sessions in one screen, 90 pts on Show HN",
+      "bodyEn": "Posted on Show HN, the open-source Agent Manager runs on top of tmux and gives you one terminal UI to manage multiple AI coding agent sessions at once — Claude Code, Codex, OpenCode, Grok Build. It shows live status (working, waiting, finished, errored) without attaching to a session, lets you review syntax-highlighted per-file diffs and feed line comments straight back to the agent with Ctrl+R, and can revive a dead session with its full conversation history intact. Install with one line — brew install yoanwai/tap/agent-manager. 90 points on Show HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://github.com/YoanWai/agent-manager",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-29T06:00:00Z",
-      "curatedAt": "2026-07-30T02:00:00Z"
+      "createdAt": "2026-07-30T09:34:27Z",
+      "curatedAt": "2026-07-31T02:00:00Z"
     },
     {
-      "id": "curated-20260730-apt-insights-solo-100days",
-      "title": "AI 에이전트로 100일 만에 만든 아파트 가격 시뮬레이터 — 16개 거시변수·몬테카를로로 24개월 예측, GeekNews",
-      "body": "GeekNews에 소개된 APT Insights는 1인 개발자가 백엔드 인프라·비동기 큐·시계열 예측처럼 낯선 영역을 AI 에이전트의 도움으로 뚫고 100일 만에 완성한 아파트 시세 분석·시뮬레이션 서비스입니다. 금리·환율·가계부채·건설비 등 16개 거시·구조·지역 변수와 VECM 잔차 보정, 몬테카를로 시뮬레이션으로 단일 예측값 대신 24개월치 P25~P75 확률 구간을 제시하며, 12개월 아웃오브샘플 백테스트 MAPE 6.32%·검증 R² 0.610을 홈페이지에 공개해 신뢰도를 검증할 수 있게 했습니다. Next.js·Neon Postgres·Cloudflare Workers·Upstash Redis로 짠 서버리스 구조로 고정 인프라 비용을 최소화했으며, 웹·PWA·iOS·안드로이드 전 플랫폼에 무료로 제공됩니다.",
-      "titleEn": "A solo dev built a 100-day, AI-agent-assisted apartment price simulator — 16 macro factors + Monte Carlo forecasting 24 months out, via GeekNews",
-      "bodyEn": "Featured on GeekNews, APT Insights is an apartment-price analysis and simulation service a solo engineer completed in 100 days, using AI agents to push through unfamiliar domains like backend infrastructure, async queues, and time-series forecasting. It generates scenario-based 24-month P25-P75 probability ranges — not single-point predictions — from 16 macro/structural/regional factors (interest rates, FX, household debt, construction costs) plus VECM residual correction and Monte Carlo simulation, publishing its own 12-month out-of-sample backtest (6.32% MAPE, R² 0.610) right on the homepage for anyone to check. It runs on a serverless stack (Next.js, Neon Postgres, Cloudflare Workers, Upstash Redis) to keep fixed infra costs low, and ships free across web, PWA, iOS, and Android.",
-      "sourceName": "GeekNews · apt-insights.com",
-      "sourceUrl": "https://apt-insights.com",
+      "id": "curated-20260731-claude-code-merge-queue",
+      "title": "로컬 머지 큐로 병렬 클로드 코드 에이전트 충돌 막기 — claude-code-merge-queue, Show HN 41점",
+      "body": "Show HN에 공개된 오픈소스 claude-code-merge-queue는 여러 클로드 코드 에이전트를 동시에 돌릴 때 생기는 푸시 경합·중복 빌드·공유 자원 테스트 흔들림을 막는 로컬 전용 도구입니다. 에이전트마다 git worktree로 번호가 매겨진 독립 '레인'을 만들어 작업시키고, land 명령을 실행하면 FIFO 큐에 줄을 세워 테스트를 통과한 순서대로만 리베이스·푸시가 되도록 강제합니다. npx claude-code-merge-queue init 한 줄로 설정·헬퍼 스크립트가 생성되며, 클라우드 비용 없이 로컬에서 무료로 동작하고 필요하면 환경변수로 사람이 직접 우회 푸시도 가능합니다. 여러 에이전트를 병렬로 굴리는 팀에게 바로 적용해볼 만한 도구로, HN에서 41점을 받았습니다.",
+      "titleEn": "claude-code-merge-queue — a local merge queue that stops parallel Claude Code agents from colliding, 41 pts on Show HN",
+      "bodyEn": "Posted on Show HN, the open-source claude-code-merge-queue is a local-only tool that prevents push races, redundant heavy builds, and shared-resource test flakiness when running multiple Claude Code agents in parallel. Each agent works in its own numbered git-worktree 'lane,' and running the land command queues the merge in FIFO order, running your test suite and only then rebasing/pushing — so merges land tested and sequential. One line — npx claude-code-merge-queue init — generates the config and helper scripts; it runs free on your own machine with no cloud cost, and a human can still push directly via an emergency-override environment variable. A concrete tool for any team running multiple parallel coding agents. 41 points on Show HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://github.com/funador/claude-code-merge-queue",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-07-29T05:00:00Z",
-      "curatedAt": "2026-07-30T02:00:00Z"
+      "createdAt": "2026-07-30T00:20:16Z",
+      "curatedAt": "2026-07-31T02:00:00Z"
+    },
+    {
+      "id": "curated-20260731-mcp-duplicate-tool-calls",
+      "title": "MCP 도구 여러 개 붙였더니 중복 실행 발생 — 6,780개 세션 실측, GeekNews",
+      "body": "GeekNews Ask GN 게시글은 공개 벤치마크 트레이스를 직접 분석해 MCP 도구를 여러 개 연결한 에이전트에서 중복 실행이 실제로 얼마나 일어나는지 실측한 결과를 공유합니다. 6,780개 세션을 뜯어본 결과 같은 인자로 같은 도구를 두 번 호출한 사례가 8,042건이었고, 그중 159건은 제목이 똑같은 문서 2개, 동일한 스프레드시트 4개처럼 실제로 중복 엔티티를 만들어낸 심각한 경우였습니다. 댓글에서는 skills를 활용하거나 세션 내에서 로컬 멱등성 키(idempotency key)를 직접 관리하는 방식을 해법으로 제시했으며, 여러 MCP 서버를 동시에 붙여 쓰는 팀이라면 자신의 파이프라인에도 같은 문제가 있는지 점검해볼 만한 글입니다.",
+      "titleEn": "Agents with multiple MCP tools attached actually duplicate calls — a 6,780-session measurement, via GeekNews",
+      "bodyEn": "An Ask GN post analyzes public benchmark traces to measure how often agents with multiple MCP tools attached actually produce duplicate tool calls. Across 6,780 sessions, the same tool was called twice with identical arguments 8,042 times — and 159 of those were serious cases that created real duplicate entities, like two documents with identical titles or four identical spreadsheets. Commenters suggested fixes: leaning on skills, or maintaining local idempotency keys within a session. A concrete prompt for any team running multiple MCP servers to check whether their own pipeline has the same silent problem.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31946",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-29T00:00:00Z",
+      "curatedAt": "2026-07-31T02:00:00Z"
+    },
+    {
+      "id": "curated-20260731-gemini35-flash-coding-agent-cost",
+      "title": "제미나이 3.5 플래시 코딩 에이전트 비용 실측 — 캐싱으로 90% 절감, 하이브리드 라우팅 팁",
+      "body": "evolink.ai에 올라온 실전 가이드는 제미나이 3.5 플래시를 코딩 에이전트에 붙일 때 실제 세션 단위 비용을 실측해 공개합니다. 간단한 버그 수정(3단계 세션)은 건당 약 0.14달러로 하루 100세션이면 월 420달러, 복잡한 기능 구현(8단계 세션)은 건당 약 2.21달러로 하루 20세션이면 월 1,323달러가 든다는 구체적 수치를 제시합니다. 핵심 팁은 단순 작업은 클로드 하이쿠 4.5(세션당 0.09달러)로 보내고 복잡한 고컨텍스트 작업만 제미나이 3.5 플래시에 맡기는 하이브리드 라우팅, 그리고 재사용되는 코드베이스 컨텍스트는 캐싱해 100만 토큰당 1.5달러에서 0.15달러로 90% 절감하는 것입니다. 토큰이 아니라 '성공한 세션당 비용'을 기준으로 추적하라는 조언도 곁들여, 에이전트 파이프라인 비용을 최적화하려는 팀에게 바로 적용해볼 만합니다.",
+      "titleEn": "Measuring Gemini 3.5 Flash coding-agent costs — 90% savings from caching, hybrid-routing tips",
+      "bodyEn": "A hands-on guide from evolink.ai publishes real per-session cost numbers for running Gemini 3.5 Flash as a coding agent. A simple 3-step bug-fix session costs about $0.14 (~$420/month at 100 sessions/day); a complex 8-step feature session costs about $2.21 (~$1,323/month at 20 sessions/day). The core tips: route simple tasks to Claude Haiku 4.5 ($0.09/session) and reserve Gemini 3.5 Flash for complex, high-context work (hybrid routing), and cache reused codebase context to cut it from $1.50 to $0.15 per 1M tokens — a 90% saving. It also advises tracking cost per successful session rather than per token. Directly actionable for any team trying to optimize an agent pipeline's spend.",
+      "sourceName": "evolink.ai",
+      "sourceUrl": "https://evolink.ai/blog/gemini-3-5-flash-for-coding-agents",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-22T00:00:00Z",
+      "curatedAt": "2026-07-31T02:00:00Z"
+    },
+    {
+      "id": "curated-20260731-opus5-update-guide-ko",
+      "title": "클로드 오퍼스 5 업데이트·사용법 정리 — Effort 5단계, 에이전틱 코딩 43.3% 벤치마크",
+      "body": "준이아빠블로그가 정리한 실전 가이드는 클로드 오퍼스 5로 업데이트하는 절차와 플랜별 사용 조건을 구체적으로 짚습니다. claude --version으로 v2.1.219 이상인지 확인한 뒤 claude update(Homebrew는 brew upgrade claude-code) 실행, /model opus로 전환하는 3단계이며, Max·팀 프리미엄 플랜은 오퍼스 5가 기본값이지만 Pro·팀 스탠다드는 기본이 여전히 소네트 5라 직접 바꿔야 합니다. 요금은 입력 100만 토큰당 5달러·출력 25달러로 오퍼스 4.8과 동일하지만 에이전틱 코딩 벤치마크는 43.3%로 오퍼스 4.8의 21.1%를 두 배 이상 앞섰고, low부터 max까지 5단계 Effort는 기본값 high를 유지하다 복잡한 작업에만 올리라고 권합니다. API로 xhigh·max effort를 쓸 때 추론을 끄면 400 오류가 난다는 실무 주의사항도 담겨 있어, 오퍼스 5로 막 넘어간 개발자에게 바로 참고할 체크리스트입니다.",
+      "titleEn": "Updating to and using Claude Opus 5 — 5 effort levels, 43.3% agentic-coding benchmark",
+      "bodyEn": "A practical guide from a Korean blog (준이아빠블로그) walks through updating to Claude Opus 5 and plan-by-plan usage conditions. The steps: check claude --version is v2.1.219+, run claude update (brew upgrade claude-code for Homebrew users), then switch with /model opus — Max/Team Premium plans default to Opus 5, while Pro/Team Standard still default to Sonnet 5 and require a manual switch. Pricing is unchanged from Opus 4.8 ($5/1M input, $25/1M output), but its agentic-coding benchmark score more than doubled, from 21.1% to 43.3%. It also flags a real gotcha: reasoning is on by default, and disabling it while using xhigh/max effort via the API throws a 400 error. A concrete checklist for anyone who just switched to Opus 5.",
+      "sourceName": "준이아빠블로그",
+      "sourceUrl": "https://www.digitalmarketer.co.kr/insights/claude-opus-5-update-and-usage",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-25T00:00:00Z",
+      "curatedAt": "2026-07-31T02:00:00Z"
     },
     {
       "id": "curated-20260730-kimi-code-k3-256k",
@@ -38,19 +77,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-29T00:00:00Z",
-      "curatedAt": "2026-07-30T02:00:00Z"
-    },
-    {
-      "id": "curated-20260730-onecli-credential-gateway",
-      "title": "OneCLI — AI 에이전트에게 진짜 API 키를 절대 보여주지 않는 크리덴셜 게이트웨이, Show HN 110점",
-      "body": "Show HN에 공개된 오픈소스 OneCLI는 에이전트가 FAKE_KEY 같은 가짜 키로 요청을 보내면 게이트웨이가 이를 실제 API 키로 바꿔치기해 전달하는 방식으로, 에이전트 코드에 시크릿을 절대 노출하지 않고도 여러 AI 에이전트의 API 접근을 한곳에서 관리·회전·감사할 수 있게 해줍니다. Rust로 만든 게이트웨이가 호스트·경로 패턴으로 시크릿을 라우팅하고 AES-256-GCM으로 저장하며, 에이전트별로 범위가 제한된 개별 토큰을 발급하고 Bitwarden 같은 비밀번호 관리자와도 연동됩니다. 여러 에이전트에 API 키를 흩뿌려 쓰고 있는 팀이라면 바로 도입해볼 만한 보안 인프라로, HN에서 110점을 받았습니다.",
-      "titleEn": "OneCLI — a credential gateway that never lets AI agents see the real API key, 110 pts on Show HN",
-      "bodyEn": "Posted on Show HN, the open-source OneCLI lets agents call APIs using placeholder keys like FAKE_KEY, then swaps in the real credential at the gateway — so agent code never touches a real secret, while a team gets one place to manage, rotate, and audit access across every agent. Its Rust gateway routes secrets by host/path pattern, stores them with AES-256-GCM encryption, issues scoped per-agent tokens, and can pull from password managers like Bitwarden. A concrete piece of security infrastructure for any team that has API keys scattered across multiple agents. 110 points on Show HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/onecli/onecli",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-23T00:00:00Z",
       "curatedAt": "2026-07-30T02:00:00Z"
     },
     {
@@ -145,32 +171,6 @@
       "curatedAt": "2026-07-28T02:00:00Z"
     },
     {
-      "id": "curated-20260728-world-model-optimizer",
-      "title": "에이전트 실행 로그를 학습해 모델 라우팅·증류로 비용 40%+ 절감 — World Model Optimizer, Show HN 43점",
-      "body": "Show HN에 공개된 오픈소스 World Model Optimizer(WMO)는 실제 에이전트 실행 트레이스를 분석해 어떤 작업에 어떤 모델을 붙일지 자동으로 결정하는 라우팅 정책을 만들고, 프론티어 모델을 더 저렴한 모델로 증류까지 해주는 도구입니다. OpenRouter 등에서 후보 모델 풀을 구성한 뒤 실제 프로덕션 트레이스에서 뽑은 홀드아웃 작업으로 각 모델을 채점(k-최근접 이웃 등 활용)해 라우팅 정책을 세우고, 월드 모델로 에이전트 환경을 시뮬레이션하며 프롬프트·도구·런타임 코드까지 함께 최적화합니다. 베이스라인 프론티어 모델 대비 40% 이상 비용 절감을 유지하면서 품질은 새 '챔피언' 하니스를 배포하기 전 베이스라인과 직접 비교해 검증한다고 설명하며, 로컬 CLI와 E2B 샌드박스 클라우드 실행을 모두 지원합니다. 에이전트 파이프라인 비용을 줄이려는 팀에게 바로 시도해볼 만한 도구로, HN에서 43점을 받았습니다.",
-      "titleEn": "World Model Optimizer — learns from agent execution traces to cut cost 40%+ via model routing and distillation, 43 pts on Show HN",
-      "bodyEn": "Posted on Show HN, the open-source World Model Optimizer (WMO) analyzes real agent execution traces to automatically build routing policies deciding which model handles which task, and can also distill frontier models into cheaper ones. It scores candidate models (pulled from providers like OpenRouter) on held-out tasks from production traces using techniques like k-nearest neighbors, then uses world-model simulation of agent environments to jointly optimize prompts, tools, and runtime code. It claims 40%+ lower cost versus a baseline frontier model while preserving quality, verified by measuring each new 'champion' harness against the baseline before promotion; it supports both a local CLI and cloud execution via E2B sandboxes. A concrete tool for teams trying to cut agent-pipeline costs. 43 points on Show HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/experientiallabs/world-model-optimizer",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-26T23:35:15Z",
-      "curatedAt": "2026-07-28T02:00:00Z"
-    },
-    {
-      "id": "curated-20260727-telepty-agent-control-plane",
-      "title": "telepty — 여러 대 머신에 흩어진 클로드 코드·코덱스 세션을 하나의 이름으로 제어하는 컨트롤 플레인, GeekNews",
-      "body": "GeekNews에 오늘 소개된 오픈소스 telepty(dmsdc-ai/aigentry-telepty, MIT, v0.7.1)는 Tailscale·WireGuard 네트워크 위에서 여러 머신에 흩어진 클로드 코드·코덱스·제미나이 터미널 에이전트 세션을 session@host 형태의 이름으로 주소를 매겨 하나의 컨트롤 플레인에서 다룰 수 있게 해줍니다. inject·read-screen·attach·send-key·broadcast·list 6개 명령과 에이전트가 직접 호출 가능한 9개 스킬을 제공해, 여러 대의 컴퓨터에서 동시에 돌아가는 에이전트를 한 사람이 조율할 때 생기는 병목을 없애줍니다. 멀티 머신 에이전트 오케스트레이션을 실제로 운용하려는 팀이 바로 시도해볼 만한 도구입니다.",
-      "titleEn": "telepty — a control plane that addresses Claude Code/Codex sessions scattered across machines by name, via GeekNews",
-      "bodyEn": "Featured on GeekNews today, the open-source telepty (dmsdc-ai/aigentry-telepty, MIT, v0.7.1) runs over a Tailscale/WireGuard network and lets you address terminal agent sessions (Claude Code, Codex, Gemini) scattered across multiple machines by a session@host name, all from one control plane. It ships 6 commands (inject, read-screen, attach, send-key, broadcast, list) plus 9 skills agents can call directly, removing the bottleneck of one person manually juggling agents running on several computers at once. A concrete tool for teams actually running multi-machine agent orchestration in practice.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31842",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-27T00:00:00Z",
-      "curatedAt": "2026-07-27T02:00:00Z"
-    },
-    {
       "id": "curated-20260727-stop-vibe-coding",
       "title": "'바이브 코딩을 어떻게 멈출 것인가' — 스펙 우선·테스트 게이트로 되돌아가야 하는 이유, HN 61점",
       "body": "alexklos.ca에 올라온 이 글은 프롬프트만으로 기능을 밀어붙이는 '바이브 코딩'이 언제 위험해지는지 구체적 체크리스트로 짚습니다. 필자는 요구사항을 스펙 문서로 먼저 확정하고, 에이전트 출력을 테스트·타입체크 게이트로 강제 검증한 뒤에만 병합하는 흐름으로 되돌아가야 한다고 주장하며, 실제로 프로덕션 장애로 이어진 사례들을 근거로 듭니다. '언제까지는 바이브 코딩이 괜찮고, 언제부터는 안 되는지' 기준을 팀에 도입하려는 리더에게 참고할 만한 글로, HN에서 61점을 받았습니다.",
@@ -207,19 +207,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-24T05:09:15Z",
-      "curatedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "curated-20260726-clew-token-waste-cli",
-      "title": "Clew — 클로드 코드 세션에서 도구 호출 낭비를 SHA256으로 잡아내는 CLI, GeekNews",
-      "body": "GeekNews에 소개된 오픈소스 Clew(clew-custos)는 완료된 클로드 코드 세션 로그를 분석해 같은 파일을 두 번 읽거나 동일 입출력을 반복하는 '낭비된 도구 호출'을 찾아냅니다. 구조적 매칭 후 SHA256으로 출력값을 비교하는 2단계 결정적 방식(LLM 판단 없이)으로 에러 반복·부작용·멱등 읽기 등 4가지 유형으로 분류하며, pip install \"clew-custos[detect]\" 후 python -m clew analyze로 바로 실행됩니다. 실제로 Toolathlon 벤치마크 세션 6,780개(17만 6,270개 도구 호출)를 분석해 8,042건의 중복 호출을 발견했고, 그중 진짜 낭비로 분류된 건수는 4,251건(전체의 2.41%)이었다고 밝혔습니다. 에이전트 파이프라인의 숨은 토큰 낭비를 정량적으로 잡아내고 싶은 개발자에게 바로 써볼 만한 도구입니다.",
-      "titleEn": "Clew — a CLI that catches wasted tool calls in Claude Code sessions via SHA256 comparison, via GeekNews",
-      "bodyEn": "Featured on GeekNews, the open-source Clew (clew-custos) analyzes completed Claude Code session logs to find 'wasted' tool calls — the same file read twice, identical retries, repeated invocations. It uses a deterministic two-stage check (no LLM judgment): structural matching followed by SHA256 output comparison, classifying waste into four categories (error repeats, side effects, idempotent reads, unclassified). Install with pip install \"clew-custos[detect]\" then run python -m clew analyze directly on a session file. Running it against 6,780 Toolathlon benchmark sessions (176,270 tool spans) found 8,042 duplicate calls, of which 4,251 (2.41% of all spans) were classified as genuine waste. A concrete way to quantify hidden token waste in an agent pipeline.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31802",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-25T09:00:00Z",
       "curatedAt": "2026-07-26T02:00:00Z"
     },
     {
