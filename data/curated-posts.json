@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-03T02:00:00Z",
+  "generatedAt": "2026-08-04T00:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260804-cognitive-debt-retyping-llm-code",
+      "title": "\"LLM 코드는 손으로 다시 타이핑하라\" — 역설적인 '인지 부채' 방지법, HN 354점",
+      "body": "개발자 Ankur Sethi가 블로그에 올린 이 글은 AI가 생성한 코드를 그대로 복붙하지 않고 직접 손으로 다시 타이핑해보는 습관이 '인지 부채'를 막는다고 주장합니다. 눈으로 훑고 넘어가면 코드가 왜 그렇게 짜였는지 이해하지 못한 채 넘어가지만, 한 줄씩 타이핑하면 변수명·분기 조건·엣지 케이스를 손이 먼저 알아채면서 버그를 미리 잡아내고 나중에 직접 디버깅할 수 있는 실력이 쌓인다는 것입니다. HN에서 354점을 받으며 AI 코딩 시대에 실력을 잃지 않는 법으로 큰 공감을 얻었습니다.",
+      "titleEn": "\"Retype LLM-generated code by hand\" — a paradoxical fix for cognitive debt, 354 pts on HN",
+      "bodyEn": "In this blog post, developer Ankur Sethi argues that manually retyping AI-generated code instead of copy-pasting it prevents what he calls 'cognitive debt.' Skimming code you didn't write lets you accept it without understanding why it's structured that way, but retyping it line by line forces your hands to notice variable names, branch conditions, and edge cases — catching bugs early and building the skill to debug it yourself later. The post struck a chord as a way to keep real engineering skill in the age of AI coding, landing 354 points on HN.",
+      "sourceName": "ankursethi.com · Hacker News",
+      "sourceUrl": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-03T09:32:07Z",
+      "curatedAt": "2026-08-04T00:00:00Z"
+    },
+    {
+      "id": "curated-20260804-boris-cherny-claude-app-swift",
+      "title": "클로드 코드 창시자 보리스 체르니, 클로드 앱을 스위프트로 통째로 다시 써보다",
+      "body": "Daring Fireball이 오늘 소개한 글에서, 클로드 코드를 만든 보리스 체르니가 클로드 데스크톱 앱을 클로드 코드에게 시켜 스위프트(SwiftUI)로 완전히 새로 작성해보는 실험을 공개했습니다. 기존 크로스플랫폼 웹 기반 앱을 네이티브로 리라이트하는 대규모 작업을 에이전트에게 얼마나 맡길 수 있는지, 그 과정에서 어떤 결정과 개입이 필요했는지를 실제 사례로 보여줍니다. 대규모 리라이트에 코딩 에이전트를 실전 투입해보려는 개발자에게 참고할 만한 사례입니다.",
+      "titleEn": "Claude Code creator Boris Cherny tries rewriting the Claude app entirely in Swift",
+      "bodyEn": "Featured today via Daring Fireball, Claude Code creator Boris Cherny shares an experiment having Claude Code rewrite the Claude desktop app from scratch in SwiftUI. It's a real case study of how much of a large-scale native rewrite you can hand to a coding agent, and what decisions and interventions were still needed along the way — useful reading for anyone considering putting a coding agent on a big rewrite for real.",
+      "sourceName": "Daring Fireball",
+      "sourceUrl": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-02T00:00:00Z",
+      "curatedAt": "2026-08-04T00:00:00Z"
+    },
+    {
+      "id": "curated-20260804-agent-control-flow-patterns",
+      "title": "데모용 에이전트를 프로덕션급으로 — 7가지 제어 흐름 패턴, 재시도부터 휴먼인더루프까지",
+      "body": "Kunal Ganglani가 오늘 올린 글은 워크플로우 엔진에서 빌려온 신뢰성 원칙을 에이전트에 적용하는 7가지 제어 흐름 패턴을 정리합니다. 명시적 상태·제한된 재시도·내구성 있는 체크포인트를 갖춰야 크래시 후 재개가 가능하고, 재시도는 도구가 멱등성을 가질 때만 안전하며 체크포인트에 도구 실행 영수증을 저장해야 한다고 강조합니다. 사람 승인이 필요한 단계는 타임아웃·SLA·감사 추적을 갖춘 1급 상태로 모델링해야 한다는 조언도 담아, 화려한 데모를 페이저(당직 알림) 뒤에 둘 수 있는 실전 신뢰성으로 바꾸는 법을 다룹니다.",
+      "titleEn": "Turn a demo agent into something you can put behind a pager — 7 control flow patterns, from retries to human-in-the-loop",
+      "bodyEn": "Published today, this piece by Kunal Ganglani lays out seven control-flow patterns that borrow reliability principles from workflow engines and apply them to agents. It argues you need explicit states, bounded retries, and durable checkpoints to resume safely after a crash — retrying is only safe when tools are idempotent, and checkpoints should store tool-call receipts. Human-approval steps should be modeled as first-class states with timeouts, SLAs, and an audit trail, not an afterthought. A concrete guide for turning a flashy agent demo into something reliable enough to run in production.",
+      "sourceName": "kunalganglani.com",
+      "sourceUrl": "https://www.kunalganglani.com/blog/ai-agent-control-flow-patterns",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-02T01:55:40Z",
+      "curatedAt": "2026-08-04T00:00:00Z"
+    },
+    {
+      "id": "curated-20260804-codex-review-2026",
+      "title": "코덱스 실전 활용 가이드 — 로컬 CLI 루프부터 워크트리 클라우드 위임, GitHub PR 리뷰까지 (2026년 8월 검증판)",
+      "body": "Omid Saffari가 오늘 공개한 코덱스 리뷰는 실사용 기준으로 네 가지 핵심 기능을 짚습니다. 로컬에서는 '결제 웹훅 중복 전송 추적, 멱등성 가드 추가, 결제 테스트 실행'처럼 관찰 가능한 목표를 줘야 진짜 엔지니어링 루프가 되고, AGENTS.md에 불변 규칙을 적어두고 프롬프트엔 작업별 제약만 담으라고 권합니다. 워크트리로 결제 SDK 업그레이드는 로컬에서, 깨지는 브라우저 테스트는 격리 워크트리로, 감사 로깅은 클라우드로 나눠 맡기는 3단계 릴리스 예시와, GitHub PR에서 @codex review·@codex fix로 P0·P1 이슈만 골라 잡는 리뷰 루프도 구체적으로 설명합니다.",
+      "titleEn": "A practical Codex guide — local CLI loops, worktree/cloud delegation, and GitHub PR review (verified August 2026)",
+      "bodyEn": "Published today, Omid Saffari's Codex review breaks down four core capabilities from hands-on use. Locally, Codex needs an observable goal like 'trace duplicate payment-webhook delivery, add an idempotency guard, run the payment tests' to become a real engineering loop — durable rules belong in AGENTS.md, task-specific constraints in the prompt. It walks through a concrete three-part release split across surfaces: the payments SDK upgrade stays local, a flaky browser test gets an isolated worktree, and audit logging goes to Codex cloud — plus the GitHub PR review loop, using @codex review and @codex fix to focus only on P0/P1 findings.",
+      "sourceName": "omidsaffari.com",
+      "sourceUrl": "https://omidsaffari.com/blog/codex-review",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-02T12:20:06Z",
+      "curatedAt": "2026-08-04T00:00:00Z"
+    },
+    {
+      "id": "curated-20260804-kbank-agentic-ai-dev-ko",
+      "title": "케이뱅크, 개발 전 과정에 에이전틱 AI 도입 — 개발자 50명이 40억 토큰 써봤다",
+      "body": "머니투데이가 오늘 보도한 바에 따르면, 케이뱅크가 코드 생성부터 시스템 분석, 사내 지식 검색까지 개발 전 과정을 지원하는 자율형 '에이전틱 AI'를 도입했습니다. 개발자가 '소상공인 대출 신청 절차를 간소화하는 서비스를 만들어줘'라고 요청하면 필요한 기능을 설계해 코드를 작성하고, 기존 서비스의 개선점을 물으면 시스템 구조를 분석해 방향을 제시합니다. 사내망에 구축돼 담당자 정보·내부 규정·개발 표준 등과 연계되며, 시범운영 기간 50명의 개발자가 40억 토큰을 사용해 1인당 하루 평균 책 10권 분량의 텍스트를 처리한 것으로 나타났습니다.",
+      "titleEn": "K bank rolls out agentic AI across its whole development process — 50 developers burned through 4 billion tokens",
+      "bodyEn": "Reported today by Money Today, Korean digital bank K bank has adopted an autonomous 'agentic AI' that supports the entire development process — from code generation to system analysis to internal knowledge search. Ask it to build a service simplifying small-business loan applications, and it designs the needed features and writes the code; ask what could be improved in an existing service, and it analyzes the system architecture and proposes a direction. Deployed inside the internal network and linked to staff info, internal regulations, and dev standards, the pilot had 50 developers burn through 4 billion tokens — equivalent to each developer processing roughly ten 300-page books' worth of text per day.",
+      "sourceName": "머니투데이",
+      "sourceUrl": "https://www.mt.co.kr/finance/2026/08/03/2026080309112858822",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-03T00:18:06Z",
+      "curatedAt": "2026-08-04T00:00:00Z"
+    },
+    {
+      "id": "curated-20260804-shinhan-ai-branch-agent-ko",
+      "title": "\"예금 만기 고객엔 오후 3시에 전화하세요\" — AI 에이전트가 시킨 대로 했더니 법인대출 6건, 신한은행 AI 특화 지점",
+      "body": "서울신문이 오늘 보도한 신한은행 서울 서소문 AI 특화 지점 현장 취재에 따르면, 고객이 '이사 전에 단기간 굴릴 상품'을 묻자 자산관리 AI 에이전트가 2초 만에 초단기채 50~60%·MMF 20%·파킹통장 20% 배분안을 제시했습니다. AI는 투자 상담뿐 아니라 예금 만기를 앞둔 고객에게 언제 어떤 말로 연락할지도 알려주는데, 실제로 새 지점에 발령받은 한 직원이 AI가 추천한 고객과 영업 방식을 그대로 활용해 한 달 만에 법인대출 계약 6건을 따냈습니다. 금융지주들은 AI 에이전트로 업무 시간을 약 30% 절감할 것으로 기대하며, 5대 금융지주가 연말까지 계획한 AI 에이전트는 총 2,530개에 달합니다.",
+      "titleEn": "\"Call the maturing-deposit customer around 3pm\" — following the AI agent's advice landed 6 corporate loan deals, at Shinhan Bank's AI-specialized branch",
+      "bodyEn": "Reported today by The Seoul Shinmun from Shinhan Bank's AI-specialized branch in Seosomun, Seoul, when a customer asked for a short-term product before an upcoming move, a wealth-management AI agent proposed an allocation — 50-60% ultra-short bonds, 20% MMF, 20% a parking account — in 2 seconds. The AI doesn't just advise on investments; it also tells staff when and how to reach out to customers with maturing deposits. One employee newly assigned to the branch used the AI's recommended customers and pitch and closed six corporate loan deals within a month. Financial groups expect roughly 30% time savings from AI agents, and Korea's five major financial groups plan roughly 2,530 AI agents by year-end.",
+      "sourceName": "서울신문",
+      "sourceUrl": "https://www.seoul.co.kr/news/economy/finance/2026/08/04/20260804029003",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-03T15:05:33Z",
+      "curatedAt": "2026-08-04T00:00:00Z"
+    },
     {
       "id": "curated-20260803-sprocket-hw-sw-agent",
       "title": "AI 에이전트, 이제 하드웨어 회로까지 설계한다 — Sprocket, Show HN 117점",
@@ -38,19 +116,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-30T00:00:00Z",
-      "curatedAt": "2026-08-03T02:00:00Z"
-    },
-    {
-      "id": "curated-20260803-verified-3d-csg-spec-vs-ai-code",
-      "title": "\"AI가 쓴 1000줄 코드 대신 93줄 스펙만 읽어라\" — Lean 4로 형식 검증한 3D 메시 교차 커널",
-      "body": "Show HN에 공개된 이 프로젝트는 두 3D 메시가 겹치는 영역을 계산하는 CSG(구성적 입체 기하) 커널을 Lean 4로 형식 검증해, 리뷰어가 AI가 작성한 1,000줄 넘는 구현 코드 대신 93줄짜리 스펙만 읽고 Lean 체커를 돌리면 정확성을 인증할 수 있다고 주장합니다. AI가 만든 6만 줄 넘는 증명 코드는 사람이 검토할 필요가 없고, 7만 개 삼각형짜리 메시 두 개를 교차시키는 데 24초가 걸리며, 같은 알고리즘을 클로드가 비형식적으로 C++로 짰을 때는 독립 리뷰에서 버그 3개가 발견됐다는 비교 결과도 함께 제시합니다. AI 생성 코드의 신뢰성을 사람이 직접 읽지 않고도 확보하는 실전 사례로, HN에서 115점을 받았습니다.",
-      "titleEn": "\"Read 93 lines of spec, not 1,000 lines of AI code\" — a formally verified 3D mesh-intersection kernel in Lean 4",
-      "bodyEn": "Posted on Show HN, this project formally verifies a CSG (constructive solid geometry) kernel that computes where two 3D meshes intersect, using Lean 4 — arguing a reviewer only needs to read 93 lines of formal spec and run the Lean checker to certify correctness, skipping over 1,000 lines of AI-written implementation. The AI also generated 60,000+ lines of formal proof that never need human inspection, the kernel intersects two 70,000-triangle meshes in 24 seconds, and — as a comparison point — when Claude wrote the same algorithm informally in C++, independent review found 3 distinct bugs that formal verification would have caught. A concrete example of establishing trust in AI-generated code without a human reading it line by line. 115 points on HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/schildep/verified-3d-mesh-intersection",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-28T13:07:14Z",
       "curatedAt": "2026-08-03T02:00:00Z"
     },
     {
@@ -103,19 +168,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-07-29T00:00:00Z",
-      "curatedAt": "2026-08-01T02:00:00Z"
-    },
-    {
-      "id": "curated-20260801-claude-account-switcher",
-      "title": "리눅스 클로드 코드 계정, 로그인 없이 전환 — claude-account, Show HN 54점",
-      "body": "Show HN에 공개된 오픈소스 claude-account는 리눅스에서 클로드 코드를 한 번에 계정 하나만 쓸 수 있던 제약을 풀어주는 래퍼 도구입니다. claude account add work로 새 프로필을 만들고 claude account use work로 전환, claude account list로 전체 목록을 확인하는 식으로, 계정별 설정 디렉터리를 분리 관리해 회사·개인·조직 계정을 오갈 때마다 로그아웃·재로그인할 필요가 없습니다. 자격증명에는 직접 접근하지 않고 인증은 전부 클로드 코드 자체에 맡기는 구조이며, 앤스로픽 공식 도구는 아닌 커뮤니티 프로젝트입니다. 여러 클로드 코드 계정을 오가며 작업하는 개발자가 바로 설치해볼 만한 도구로, HN에서 54점을 받았습니다.",
-      "titleEn": "claude-account — switch Claude Code accounts on Linux without logging in again, 54 pts on Show HN",
-      "bodyEn": "Posted on Show HN, the open-source claude-account is a wrapper tool that removes Claude Code's Linux limitation of only running one account at a time. Create a profile with claude account add work, switch with claude account use work, and list them with claude account list — each account keeps its own isolated config directory, so switching between work, personal, and org accounts no longer means logging out and back in. It never touches credentials directly, leaving all authentication to Claude Code itself, and is an independent community project, not an official Anthropic tool. A concrete install for any developer juggling multiple Claude Code accounts. 54 points on Show HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/hamzarehmandeveloper/claude-account",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-30T14:58:59Z",
       "curatedAt": "2026-08-01T02:00:00Z"
     },
     {
@@ -195,32 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-07-29T00:00:00Z",
       "curatedAt": "2026-07-31T02:00:00Z"
-    },
-    {
-      "id": "curated-20260730-kimi-code-k3-256k",
-      "title": "Kimi Code, K3-256k 모델로 컨텍스트 비용 낮춘 코딩 에이전트 CLI 공개, HN 290점",
-      "body": "Kimi가 공개한 Kimi Code는 CLI·VS Code 확장·API로 구성된 코딩 에이전트 툴킷으로, 새로 추가된 K3-256k는 풀 버전 K3(최대 100만 토큰)와 비슷한 성능을 유지하면서 컨텍스트를 25만6천 토큰으로 줄여 토큰 소비를 낮춘 버전입니다. 추론 강도를 low·high·max로 조절할 수 있고 이미지·비디오 입력을 지원하는 멀티모달 모드도 있으며, HighSpeed 변형은 쿼터를 3배 쓰는 대신 출력 속도를 5~6배 끌어올립니다. 클로드 코드·코덱스 외에 저비용 코딩 에이전트 백엔드를 찾는 개발자가 바로 비교해볼 만한 옵션으로, HN에서 290점을 받았습니다.",
-      "titleEn": "Kimi Code launches K3-256k — a lower-cost-context coding agent CLI, docs published, 290 pts on HN",
-      "bodyEn": "Kimi's own coding-agent toolkit, Kimi Code (CLI, VS Code extension, and API), now offers K3-256k: a trimmed-context version of its flagship K3 model that keeps performance close to the full 1M-token K3 while cutting the context window to 256k tokens to reduce consumption. It supports low/high/max reasoning-effort levels and multimodal image/video input, and a HighSpeed variant trades 3x quota usage for 5-6x faster output. A concrete new option for developers comparing lower-cost coding-agent backends against Claude Code or Codex. 290 points on HN.",
-      "sourceName": "Hacker News · kimi.com",
-      "sourceUrl": "https://www.kimi.com/code/docs/en/kimi-code/models",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-29T00:00:00Z",
-      "curatedAt": "2026-07-30T02:00:00Z"
-    },
-    {
-      "id": "curated-20260730-tokenless-model-routing",
-      "title": "Tokenless — 여러 모델에 동시에 물어보고 이긴 모델 값만 청구하는 추론 라우터, Launch HN 46점",
-      "body": "Launch HN에 공개된 Tokenless는 OpenAI·Anthropic 호환 엔드포인트를 그대로 대체해 붙일 수 있는 추론 라우터로, 요청 하나를 여러 모델에 동시에 보내 진행 상황을 지켜보다가 한 모델이 문제를 제대로 풀고 있다는 게 분명해지는 순간 그 모델만 남기고 나머지는 중단해, 이긴 모델의 추론 비용만 청구합니다. 모든 요청에 프론티어 모델을 기본으로 쓰는 관행을 겨냥해, 월 4만 달러 인프라 지출에서 약 1만 4천 달러를 절감할 수 있다는 예시와 함께 공개 벤치마크로 결과를 검증한다고 설명합니다. Google DeepMind·프린스턴·UC버클리 출신 연구자들이 만들었으며, 코딩 에이전트 파이프라인의 모델 비용을 줄이려는 팀이 바로 시도해볼 만한 인프라입니다. HN에서 46점을 받았습니다.",
-      "titleEn": "Tokenless — an inference router that queries multiple models at once and bills only for the one that wins, 46 pts on Launch HN",
-      "bodyEn": "Launched on HN, Tokenless is a drop-in replacement for OpenAI/Anthropic-compatible API endpoints that speculatively sends each request to multiple models at once, watches their progress, and once one model is clearly solving the problem correctly it kills the rest and bills only for the winner's inference. Aimed at the default habit of routing every request to a frontier model, it claims roughly half the inference bill — one example shows ~$14,000/month saved on $40,000 of spend — verified against public benchmarks rather than marketing claims alone. Built by researchers out of Google DeepMind, Princeton, and UC Berkeley, it's a concrete piece of infrastructure for teams trying to cut model costs in a coding-agent pipeline. 46 points on Launch HN.",
-      "sourceName": "Hacker News · Launch HN",
-      "sourceUrl": "https://usetokenless.com/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-29T00:00:00Z",
-      "curatedAt": "2026-07-30T02:00:00Z"
     },
     {
       "id": "curated-20260723-kurly-ai-agent-orchestration",
