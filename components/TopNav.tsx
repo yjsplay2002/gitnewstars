@@ -6,8 +6,9 @@
  * live in the drawer; the active section shows as a third chip so the
  * reader always knows where they are.
  */
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import Link from "next/link";
 import { translations, type Dict } from "@/lib/i18n";
 
 export type NavKey =
@@ -47,18 +48,49 @@ export default function TopNav({
   postsHasNew?: boolean;
 }) {
   const [open, setOpen] = useState(false);
+  const burgerRef = useRef<HTMLButtonElement>(null);
+  const drawerRef = useRef<HTMLElement>(null);
 
-  // Escape closes; lock body scroll while open.
+  // Escape closes, body scroll locks, and Tab stays inside the drawer — a
+  // keyboard reader can never land on the page hidden behind the overlay.
   useEffect(() => {
     if (!open) return;
+
+    const focusables = () =>
+      Array.from(
+        drawerRef.current?.querySelectorAll<HTMLElement>(
+          'a[href], button:not([disabled])'
+        ) ?? []
+      );
+
+    focusables()[0]?.focus();
+
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setOpen(false);
+      if (e.key === "Escape") {
+        setOpen(false);
+        return;
+      }
+      if (e.key !== "Tab") return;
+      const items = focusables();
+      if (items.length === 0) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      const active = document.activeElement;
+      if (e.shiftKey && (active === first || !drawerRef.current?.contains(active))) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && active === last) {
+        e.preventDefault();
+        first.focus();
+      }
     };
+
     document.addEventListener("keydown", onKey);
     document.body.style.overflow = "hidden";
     return () => {
       document.removeEventListener("keydown", onKey);
       document.body.style.overflow = "";
+      burgerRef.current?.focus();
     };
   }, [open]);
 
@@ -68,6 +100,7 @@ export default function TopNav({
     <>
       <button
         className="nav-burger"
+        ref={burgerRef}
         aria-label={t.navMenu}
         aria-expanded={open}
         onClick={() => setOpen(true)}
@@ -77,26 +110,28 @@ export default function TopNav({
         <span />
       </button>
 
-      <nav className="tabs">
-        <a
+      <nav className="tabs" aria-label={t.mainNavLabel}>
+        <Link
           className={`tab${active === "github" ? " tab--active" : ""}`}
           href="/"
+          aria-current={active === "github" ? "page" : undefined}
         >
           {t.navHome}
-        </a>
-        <a
+        </Link>
+        <Link
           className={`tab${active === "blog" ? " tab--active" : ""}`}
           href="/blog"
+          aria-current={active === "blog" ? "page" : undefined}
         >
           {t.tabBlog}
-        </a>
+        </Link>
         {showSectionChip && (
-          <a className="tab tab--active" href={PAGES[active].href}>
+          <Link className="tab tab--active" href={PAGES[active].href} aria-current="page">
             {PAGES[active].label(t)}
             {active === "posts" && postsHasNew && (
               <span className="nav-dot" aria-label={t.newContent} />
             )}
-          </a>
+          </Link>
         )}
       </nav>
 
@@ -107,7 +142,7 @@ export default function TopNav({
         createPortal(
         <div className="drawer-root">
           <div className="drawer-overlay" onClick={() => setOpen(false)} />
-          <aside className="drawer" aria-label={t.navMenu}>
+          <aside className="drawer" ref={drawerRef} aria-label={t.navMenu}>
             <div className="drawer__head">
               <span className="sidebar__logo">GitNewStars</span>
               <button
@@ -122,16 +157,18 @@ export default function TopNav({
               <div key={g.title(t)} className="drawer__group">
                 <p className="drawer__group-title">{g.title(t)}</p>
                 {g.keys.map((key) => (
-                  <a
+                  <Link
                     key={key}
                     className={`drawer__link${active === key ? " drawer__link--active" : ""}`}
                     href={PAGES[key].href}
+                    aria-current={active === key ? "page" : undefined}
+                    onClick={() => setOpen(false)}
                   >
                     {PAGES[key].label(t)}
                     {key === "posts" && postsHasNew && (
                       <span className="nav-dot" aria-label={t.newContent} />
                     )}
-                  </a>
+                  </Link>
                 ))}
               </div>
             ))}

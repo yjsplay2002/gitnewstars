@@ -8,6 +8,9 @@ export const viewport: Viewport = {
   // viewport-fit=cover so the bottom nav can extend into the home-indicator area.
   viewportFit: "cover",
   themeColor: "#faf9f5",
+  // The palette is a single warm-ivory light world; say so instead of letting
+  // the browser paint dark form controls over it.
+  colorScheme: "light",
 };
 
 export const metadata: Metadata = {
@@ -16,6 +19,11 @@ export const metadata: Metadata = {
   description:
     "이번 주 뜨는 GitHub 프로젝트와 AI 코딩 도구 실전 팁을 한국어로. 왜 떴는지까지 5분 안에.",
   alternates: {
+    canonical: "/",
+    languages: {
+      ko: "/",
+      en: "/en",
+    },
     types: {
       "application/rss+xml": "https://gitnewstars.vercel.app/feed.xml",
     },

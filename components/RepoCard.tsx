@@ -6,8 +6,8 @@ import type { TopReviewView } from "@/lib/reviews";
 import type { Lang, Dict } from "@/lib/i18n";
 import ReviewSection from "./ReviewSection";
 
-function formatNumber(n: number): string {
-  return n.toLocaleString("en-US");
+function formatNumber(n: number, lang: Lang = "en"): string {
+  return n.toLocaleString(lang === "ko" ? "ko-KR" : "en-US");
 }
 
 function fmtDate(iso: string, lang: Lang): string {
@@ -89,7 +89,7 @@ export default function RepoCard({
       <img
         className="avatar"
         src={repo.avatarUrl}
-        alt={`${repo.owner} avatar`}
+        alt=""
         loading="lazy"
         width={56}
         height={56}
@@ -140,12 +140,23 @@ export default function RepoCard({
               >
                 {t.cancel}
               </button>
-              {error && <span className="edit__error">{error}</span>}
+              {error && (
+                <span className="edit__error" role="status">
+                  {error}
+                </span>
+              )}
             </div>
           </div>
         ) : (
           <div className="card__body-text">
-            <p className="card__desc">
+            {/* The hand-written line leads; the machine description is context below it. */}
+            {whyKo && (
+              <p className="card__why">
+                <span className="card__why-label">{t.whyLabel}</span>
+                {whyKo}
+              </p>
+            )}
+            <p className={`card__desc${whyKo ? " card__desc--secondary" : ""}`}>
               {description}
               {lang === "ko" && edited && (
                 <span className="edited" title={t.editedBadge}>
@@ -153,12 +164,6 @@ export default function RepoCard({
                 </span>
               )}
             </p>
-            {whyKo && (
-              <div className="card__why">
-                <span className="card__why-label">{t.whyLabel} —</span>
-                {whyKo}
-              </div>
-            )}
           </div>
         )}
 
@@ -172,8 +177,10 @@ export default function RepoCard({
               {repo.language}
             </span>
           )}
-          <span className="meta__item">★ {formatNumber(repo.totalStars)}</span>
-          <span className="meta__item">{t.forks} {formatNumber(repo.forks)}</span>
+          <span className="meta__item">★ {formatNumber(repo.totalStars, lang)}</span>
+          <span className="meta__item">
+            {t.forks} {formatNumber(repo.forks, lang)}
+          </span>
           {isAdmin && editable && !editing && (
             <button
               className="meta__edit"
@@ -188,8 +195,12 @@ export default function RepoCard({
           )}
         </div>
 
+      {/* The sort key and the reason this product exists: loudest thing on the card. */}
       <div className="weekly">
-        <div className="weekly__num">+{formatNumber(repo.starsThisWeek)}</div>
+        <div className="weekly__num">
+          <span className="weekly__sign">+</span>
+          {formatNumber(repo.starsThisWeek, lang)}
+        </div>
         <div className="weekly__label">{t.starsThisWeek}</div>
       </div>
 

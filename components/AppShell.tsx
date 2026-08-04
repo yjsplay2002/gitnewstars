@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { useSession, signIn, signOut } from "next-auth/react";
 import type { RepoView } from "@/lib/types";
 import type { TopReviewView } from "@/lib/reviews";
@@ -14,84 +15,107 @@ import { useNewPosts } from "./useNewPosts";
 import TopNav from "./TopNav";
 import SubscribeForm from "./SubscribeForm";
 
+/** Weeks shown inline; the rest live on /archive so the rail stays scannable. */
+const INLINE_WEEKS = 8;
+
 export default function AppShell({
   repos,
   weekIds,
   activeWeekId,
+  currentWeekId,
   isArchive,
+  initialLang = "ko",
+  langHref,
+  reviewCounts = {},
+  topReviews = {},
 }: {
   repos: RepoView[];
   weekIds: string[];
   activeWeekId: string | null; // null = current week
+  currentWeekId?: string;
   isArchive: boolean;
+  initialLang?: Lang;
+  /** When set, the language control is a real route swap (server-rendered, indexable). */
+  langHref?: string;
+  reviewCounts?: Record<string, number>;
+  topReviews?: Record<string, TopReviewView[]>;
 }) {
-  const [lang, setLang] = useState<Lang>("ko");
+  const [lang, setLang] = useState<Lang>(initialLang);
   const t = translations[lang];
   const { data: session } = useSession();
   const isAdmin = Boolean(session?.user?.isAdmin);
   const postsHasNew = useNewPosts(false);
 
-  // One batched fetch for the "💬 review count" badges on all cards.
-  const [reviewCounts, setReviewCounts] = useState<Record<string, number>>({});
+  // Routes that carry their own language (/, /en) win; elsewhere the reader's
+  // last choice is restored so the toggle survives navigation.
   useEffect(() => {
-    const names = repos.map((r) => r.fullName).join(",");
-    if (!names) return;
-    let cancelled = false;
-    fetch(`/api/reviews?counts=${encodeURIComponent(names)}`)
-      .then((res) => (res.ok ? res.json() : { counts: {} }))
-      .then((data: { counts: Record<string, number> }) => {
-        if (!cancelled) setReviewCounts(data.counts ?? {});
-      })
-      .catch(() => {});
-    return () => {
-      cancelled = true;
-    };
-  }, [repos]);
+    if (langHref) return;
+    try {
+      const saved = window.localStorage.getItem("gns-lang");
+      if (saved === "ko" || saved === "en") setLang(saved);
+    } catch {
+      /* storage blocked — keep the server default */
+    }
+  }, [langHref]);
 
-  // One batched fetch for each card's top-3 starred reviews (shown even collapsed).
-  const [topReviews, setTopReviews] = useState<Record<string, TopReviewView[]>>({});
+  // Keep assistive tech in sync with what is actually on screen.
   useEffect(() => {
-    const names = repos.map((r) => r.fullName).join(",");
-    if (!names) return;
-    let cancelled = false;
-    fetch(`/api/reviews?topFor=${encodeURIComponent(names)}`)
-      .then((res) => (res.ok ? res.json() : { top: {} }))
-      .then((data: { top: Record<string, TopReviewView[]> }) => {
-        if (!cancelled) setTopReviews(data.top ?? {});
-      })
-      .catch(() => {});
-    return () => {
-      cancelled = true;
-    };
-  }, [repos]);
+    document.documentElement.lang = lang;
+  }, [lang]);
+
+  function toggleLang() {
+    setLang((l) => {
+      const next: Lang = l === "ko" ? "en" : "ko";
+      try {
+        window.localStorage.setItem("gns-lang", next);
+      } catch {
+        /* ignore */
+      }
+      return next;
+    });
+  }
+
+  const inlineWeeks = weekIds.slice(0, INLINE_WEEKS);
+  const hasMoreWeeks = weekIds.length > INLINE_WEEKS;
 
   return (
     <div className="layout">
+      <a className="skip-link" href="#main-content">
+        {t.skipToContent}
+      </a>
+
       {/* ---- left history sidebar ---- */}
-      <aside className="sidebar">
+      <aside className="sidebar" aria-label={t.historyTitle}>
         <div className="sidebar__head">
           <span className="sidebar__logo">GitNewStars</span>
-          <h2 className="sidebar__title">{t.historyTitle}</h2>
+          <p className="sidebar__title">{t.historyTitle}</p>
         </div>
-        <nav className="sidebar__nav">
-          <a
+        <nav className="sidebar__nav" aria-label={t.sidebarNavLabel}>
+          <Link
             className={`week-link${!isArchive ? " week-link--active" : ""}`}
             href="/"
+            aria-current={!isArchive ? "page" : undefined}
           >
             <span className="week-link__dot" />
             {t.currentWeek}
-          </a>
-          {weekIds.map((id) => (
-            <a
+          </Link>
+          {inlineWeeks.map((id) => (
+            <Link
               key={id}
               className={`week-link${
                 activeWeekId === id ? " week-link--active" : ""
               }`}
               href={`/week/${id}`}
+              aria-current={activeWeekId === id ? "page" : undefined}
             >
               {weekLabel(id, lang)}
-            </a>
+            </Link>
           ))}
+          {hasMoreWeeks && (
+            <Link className="week-link week-link--all" href="/archive">
+              {t.seeAllWeeks} →
+            </Link>
+          )}
           {weekIds.length === 0 && (
             <p className="sidebar__empty">{t.noHistory}</p>
           )}
@@ -99,7 +123,7 @@ export default function AppShell({
       </aside>
 
       {/* ---- main content ---- */}
-      <main className="main">
+      <main className="main" id="main-content">
         <div className="topbar">
           <TopNav active="github" t={t} postsHasNew={postsHasNew} />
           {session?.user ? (
@@ -128,20 +152,28 @@ export default function AppShell({
               {t.signIn}
             </button>
           )}
-          <button
-            className="lang-btn"
-            onClick={() => setLang((l) => (l === "ko" ? "en" : "ko"))}
-            aria-label="Toggle language"
-          >
-            {t.langToggle}
-          </button>
+          {langHref ? (
+            <a className="lang-btn" href={langHref} hrefLang={lang === "ko" ? "en" : "ko"}>
+              {t.langToggle}
+            </a>
+          ) : (
+            <button
+              className="lang-btn"
+              onClick={toggleLang}
+              aria-label="Toggle language"
+            >
+              {t.langToggle}
+            </button>
+          )}
         </div>
 
         <header className="hero">
           <span className="hero__badge">
-            {isArchive && activeWeekId
-              ? weekLabel(activeWeekId, lang)
-              : t.badge}
+            {isArchive
+              ? t.archivedNote
+              : currentWeekId
+                ? weekLabel(currentWeekId, lang)
+                : t.badge}
           </span>
           <h1 className="hero__title">
             {isArchive && activeWeekId
@@ -151,6 +183,11 @@ export default function AppShell({
           <p className="hero__subtitle">
             {isArchive ? t.archiveSubtitle : t.subtitle}
           </p>
+          {!isArchive && (
+            <Link className="hero__method" href="/methodology">
+              {t.methodology} →
+            </Link>
+          )}
           {isAdmin && !isArchive && (
             <p className="hero__hint">{t.editHint}</p>
           )}

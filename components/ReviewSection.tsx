@@ -177,7 +177,8 @@ export default function ReviewSection({
     <div className="reviews">
       <button className="reviews__toggle" onClick={toggle} aria-expanded={open}>
         {t.reviewsToggle}
-        <span className="reviews__count">{shownCount ?? 0}</span>
+        {/* zero is not social proof — an empty toggle invites, a "0" discourages */}
+        {shownCount ? <span className="reviews__count">{shownCount}</span> : null}
         <span className="reviews__chev">{open ? "▴" : "▾"}</span>
       </button>
 
@@ -201,7 +202,11 @@ export default function ReviewSection({
                 >
                   {posting ? t.posting : t.post}
                 </button>
-                {error && <span className="edit__error">{error}</span>}
+                {error && (
+                  <span className="edit__error" role="status">
+                    {error}
+                  </span>
+                )}
               </div>
             </div>
           ) : (

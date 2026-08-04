@@ -72,8 +72,10 @@ export default function SubscribeForm({ t }: { t: Dict }) {
           {submitting ? t.newsletterSubmitting : t.newsletterSubmit}
         </button>
       </form>
-      {message && <p className="newsletter__ok">{message}</p>}
-      {error && <p className="newsletter__err">{error}</p>}
+      <div aria-live="polite">
+        {message && <p className="newsletter__ok">{message}</p>}
+        {error && <p className="newsletter__err">{error}</p>}
+      </div>
     </section>
   );
 }

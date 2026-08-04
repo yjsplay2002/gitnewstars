@@ -1,5 +1,6 @@
 // Mobile-only fixed bottom tab bar (hidden on desktop via CSS).
 // Client component by inheritance: imported from the "use client" shells.
+import Link from "next/link";
 import type { Dict } from "@/lib/i18n";
 
 export type TabKey =
@@ -32,7 +33,7 @@ export default function BottomNav({
   return (
     <nav className="bottom-nav" aria-label="Primary">
       {TABS.map(({ key, href, label }) => (
-        <a
+        <Link
           key={key}
           className={`bottom-nav__item${active === key ? " bottom-nav__item--active" : ""}`}
           href={href}
@@ -44,7 +45,7 @@ export default function BottomNav({
               <span className="nav-dot" aria-label={t.newContent} />
             )}
           </span>
-        </a>
+        </Link>
       ))}
     </nav>
   );

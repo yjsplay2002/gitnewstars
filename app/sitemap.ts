@@ -57,6 +57,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
     },
     {
+      url: `${SITE_URL}/en`,
+      lastModified: now,
+      changeFrequency: "hourly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/archive`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.6,
+    },
+    {
+      url: `${SITE_URL}/methodology`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.5,
+    },
+    {
       url: `${SITE_URL}/feed.xml`,
       lastModified: now,
       changeFrequency: "hourly",

@@ -3,17 +3,50 @@ export type Lang = "ko" | "en";
 export const translations = {
   ko: {
     badge: "한국어 AI 코딩 브리핑",
-    title: "이번 주 뜨는 GitHub 프로젝트\nTOP 20",
+    title: "이번 주 뜨는 GitHub 프로젝트 TOP 20",
     subtitle:
-      "이번 주 뜨는 GitHub 프로젝트와 AI 코딩 도구 실전 팁을 한국어로. 왜 떴는지까지 5분 안에.",
+      "GitHub API에 없는 주간 신규 스타 증가분 · 왜 떴는지는 사람이 씁니다 · 매주 스냅샷 영구 보관.",
+    methodology: "집계 방법",
     archiveSubtitle: "해당 주차에 가장 많은 신규 스타를 받은 프로젝트 기록입니다.",
     starsThisWeek: "이번 주 신규 스타",
     totalStars: "전체 스타",
     forks: "포크",
     viewOnGithub: "GitHub에서 보기",
     noDescription: "설명이 제공되지 않았습니다.",
-    updatedNote: "데이터는 1시간마다 자동으로 갱신됩니다 · 출처: GitHub Trending",
+    updatedNote:
+      "순위는 주간 신규 스타 기준 · 페이지는 1시간마다 다시 만들어집니다 · 출처: GitHub Trending",
     archivedNote: "보관된 스냅샷",
+    skipToContent: "본문으로 건너뛰기",
+    sidebarNavLabel: "주간 기록 목록",
+    mainNavLabel: "주요 메뉴",
+    seeAllWeeks: "전체 기록",
+    // archive index
+    archiveBadge: "주간 스냅샷 아카이브",
+    archiveTitle: "주간 기록 전체",
+    archiveSubtitleIndex:
+      "매주 월요일 그 주의 순위와 한국어 설명을 그대로 커밋해 보관합니다. 지나간 주차는 그때 모습 그대로 남습니다.",
+    archiveEmpty: "아직 보관된 주차가 없습니다. 매주 자동으로 쌓입니다.",
+    archiveTopLabel: "1위",
+    archiveSumLabel: "주간 신규 스타 합계",
+    archiveWeekCount: "보관된 주차",
+    // methodology
+    methodologyBadge: "집계 방법",
+    methodologyTitle: "이 순위는 어떻게 만들어지나",
+    methodologySubtitle:
+      "숫자의 출처와 한계를 그대로 밝힙니다. 확인되지 않은 값은 싣지 않습니다.",
+    methodSourceTitle: "1. 데이터 출처",
+    methodSourceBody:
+      "GitHub 공식 API는 '이 주에 늘어난 스타' 값을 제공하지 않습니다. 그래서 github.com/trending?since=weekly 페이지를 직접 파싱해 주간 증가분을 가져옵니다. GitHub이 해당 페이지 구조를 바꾸면 파서를 갱신해야 하며, 그동안 값이 비어 보일 수 있습니다.",
+    methodRankTitle: "2. 순위 기준",
+    methodRankBody:
+      "정렬 기준은 누적 스타가 아니라 그 주의 신규 스타 증가분입니다. 카드에 크게 표시된 +숫자가 정렬 기준이고, ★ 숫자는 참고용 누적값입니다. 상위 20개만 싣습니다.",
+    methodKoTitle: "3. 한국어 설명",
+    methodKoBody:
+      "한국어 설명은 자동 번역 초안으로 시작하고, 관리자가 직접 다듬습니다. '왜 떴나'는 자동 생성이 아니라 사람이 쓴 문장입니다. 편집한 항목은 카드에 편집됨 표시가 붙습니다.",
+    methodArchiveTitle: "4. 아카이브",
+    methodArchiveBody:
+      "매주 월요일 GitHub Actions가 지난 주 스냅샷을 저장소에 커밋합니다. 과거 주차 페이지는 그 시점의 순위와 설명을 그대로 보존하며, 나중에 값이 바뀌어도 소급 수정하지 않습니다.",
+    methodBack: "← 이번 주 순위로",
     rankSuffix: "위",
     langToggle: "EN",
     footer: "GitHub Trending 데이터를 기반으로 제작 · Vercel에 배포됨",
@@ -224,9 +257,10 @@ export const translations = {
   },
   en: {
     badge: "Korean AI-coding briefing",
-    title: "Trending GitHub Projects\nTOP 20 This Week",
+    title: "Trending GitHub Projects — TOP 20 This Week",
     subtitle:
-      "Korean AI-coding briefing — trending GitHub repos & daily agent-tool tips. Why it rose, in under 5 minutes.",
+      "Weekly new-star gains GitHub's API doesn't expose · why each one rose, written by a human · every week archived for good.",
+    methodology: "How it's measured",
     archiveSubtitle:
       "Projects that gained the most new stars during this week.",
     starsThisWeek: "New stars this week",
@@ -234,8 +268,38 @@ export const translations = {
     forks: "Forks",
     viewOnGithub: "View on GitHub",
     noDescription: "No description provided.",
-    updatedNote: "Data refreshes automatically every hour · Source: GitHub Trending",
+    updatedNote:
+      "Ranked by new stars gained this week · page rebuilt hourly · Source: GitHub Trending",
     archivedNote: "Archived snapshot",
+    skipToContent: "Skip to content",
+    sidebarNavLabel: "Weekly archive list",
+    mainNavLabel: "Primary navigation",
+    seeAllWeeks: "All weeks",
+    archiveBadge: "Weekly snapshot archive",
+    archiveTitle: "Every archived week",
+    archiveSubtitleIndex:
+      "Each Monday the week's ranking and its Korean write-ups are committed as-is. Past weeks stay exactly as they were.",
+    archiveEmpty: "No archived weeks yet. They accumulate automatically.",
+    archiveTopLabel: "#1",
+    archiveSumLabel: "new stars that week",
+    archiveWeekCount: "weeks archived",
+    methodologyBadge: "Methodology",
+    methodologyTitle: "How this ranking is built",
+    methodologySubtitle:
+      "Where the numbers come from, and where they stop. Nothing unverified is published.",
+    methodSourceTitle: "1. Data source",
+    methodSourceBody:
+      "GitHub's public API does not expose \"stars gained this week\". We parse github.com/trending?since=weekly directly to get the weekly delta. If GitHub changes that page, the parser needs an update and values may go blank until it lands.",
+    methodRankTitle: "2. What the ranking sorts on",
+    methodRankBody:
+      "Sorting is by new stars gained this week, not total stars. The large + number on each card is the sort key; the ★ figure is cumulative context. Only the top 20 are listed.",
+    methodKoTitle: "3. The Korean write-ups",
+    methodKoBody:
+      "Korean descriptions start as a machine-translated draft and are edited by hand. \"Why it trended\" is written by a person, not generated. Edited entries carry an edited marker on the card.",
+    methodArchiveTitle: "4. The archive",
+    methodArchiveBody:
+      "Every Monday a GitHub Action commits the previous week's snapshot to the repository. Past week pages preserve the ranking and text as they stood, and are never rewritten later.",
+    methodBack: "← Back to this week",
     rankSuffix: "",
     langToggle: "한국어",
     footer: "Built on GitHub Trending data · Deployed on Vercel",

@@ -5,17 +5,23 @@ import { listArchivedWeeks } from "@/lib/history";
 import { getServerReviewData } from "@/lib/reviewsServer";
 import { isoWeekId } from "@/lib/week";
 
-// Re-generate at most once per hour (ISR) — free-tier friendly.
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
+  title: "GitNewStars — weekly new-star ranking, explained in Korean",
+  description:
+    "Weekly new-star gains GitHub's API doesn't expose, why each repo rose, and a permanent weekly archive.",
   alternates: {
-    canonical: "/",
+    canonical: "/en",
     languages: { ko: "/", en: "/en" },
   },
 };
 
-export default async function Home() {
+/**
+ * English twin of the homepage. It exists as a real route so the English copy
+ * is server-rendered and indexable — a client-only toggle never reaches search.
+ */
+export default async function HomeEn() {
   let repos: Awaited<ReturnType<typeof getCurrentWeek>> = [];
   let weekIds: string[] = [];
 
@@ -30,21 +36,15 @@ export default async function Home() {
 
   if (repos.length === 0) {
     return (
-      <main className="page page--error">
-        <h1>데이터를 불러오지 못했습니다</h1>
-        <p>
-          GitHub 트렌딩 응답을 받지 못했습니다. 잠시 후 다시 시도해 주세요.
-          <br />
-          <span lang="en">
-            Could not load GitHub trending data. Please try again in a moment.
-          </span>
-        </p>
+      <main className="page page--error" lang="en">
+        <h1>Could not load trending data</h1>
+        <p>GitHub trending did not respond. Please try again in a moment.</p>
         <div className="page__actions">
-          <a className="btn btn--primary" href="/">
-            다시 시도
+          <a className="btn btn--primary" href="/en">
+            Try again
           </a>
           <a className="btn" href="/archive">
-            지난 주차 보기
+            Browse past weeks
           </a>
         </div>
       </main>
@@ -60,8 +60,8 @@ export default async function Home() {
       activeWeekId={null}
       currentWeekId={isoWeekId()}
       isArchive={false}
-      initialLang="ko"
-      langHref="/en"
+      initialLang="en"
+      langHref="/"
       reviewCounts={counts}
       topReviews={top}
     />
