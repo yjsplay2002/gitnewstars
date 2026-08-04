@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T00:00:00Z",
+  "generatedAt": "2026-08-04T23:14:04Z",
   "videos": [
     {
       "id": "vid-thetips4you-10-claude-code-tips",
@@ -92,18 +92,6 @@
       "addedAt": "2026-08-01T02:00:00Z"
     },
     {
-      "id": "vid-castlestudio-vibecoding-app-fail-ko",
-      "youtubeId": "OuYqEJd6c5E",
-      "category": "usecase",
-      "title": "바이브 코딩으로 만든 앱이 망하는 이유",
-      "titleEn": "Why Apps Built With Vibe Coding Fail",
-      "descKo": "바이브 코딩으로 앱을 만들었다가 실제로 실패하는 사례를 통해, 어디서 무너지는지 실전 관점으로 짚는 영상.",
-      "descEn": "A real-world look at why vibe-coded apps fail in practice, breaking down where things actually go wrong.",
-      "channel": "castlestudio",
-      "publishedAt": "2026-07-28T00:00:00Z",
-      "addedAt": "2026-08-01T02:00:00Z"
-    },
-    {
       "id": "vid-routeai-codex2026-guide-ko",
       "youtubeId": "iupJvraoVow",
       "category": "lecture",
@@ -150,28 +138,40 @@
       "addedAt": "2026-07-26T02:00:00Z"
     },
     {
-      "id": "vid-zerocho-vibecoding-team-tip-ko",
-      "youtubeId": "OvNn-ynclzA",
-      "category": "tip",
-      "title": "팀에서 바이브 코딩 도입이 어려운 이유와 해결법",
-      "titleEn": "Why Vibe Coding Is Hard to Adopt on a Team — and How to Fix It",
-      "descKo": "팀 리더를 위한 회사 내 바이브 코딩 도입 장벽과 실무 해결 팁 정리.",
-      "descEn": "Practical tips for team leads on why vibe coding is hard to adopt at work and how to overcome it.",
-      "channel": "ZeroCho TV",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "addedAt": "2026-07-22T09:00:00Z"
+      "id": "vid-bridgemind-vibecoding-day216-million",
+      "youtubeId": "fswrsxfLMpk",
+      "category": "usecase",
+      "title": "바이브 코딩으로 100만 달러 벌 때까지 216일째 — 실시간 빌드 일지",
+      "titleEn": "Day 216 — Vibe Coding an App Until I Make $1,000,000",
+      "descKo": "바이브 코딩으로 만든 앱의 매출을 216일째 실시간으로 추적하며 공개하는 빌드 인 퍼블릭 시리즈.",
+      "descEn": "An ongoing build-in-public series tracking real revenue, day 216 of vibe-coding an app toward $1M.",
+      "channel": "BridgeMind",
+      "publishedAt": "2026-08-04T00:00:00Z",
+      "addedAt": "2026-08-04T23:14:04Z"
     },
     {
-      "id": "vid-rileybrown-codex-runs-company",
-      "youtubeId": "gOx37on-iA8",
-      "category": "usecase",
-      "title": "이제 코덱스가 사실상 내 회사를 운영하고 있다",
-      "titleEn": "Codex Is Basically Running My Company Now",
-      "descKo": "실제 회사 운영·자동화 업무에 코덱스를 적용한 실전 사용기.",
-      "descEn": "A real-world case of using Codex to run day-to-day company operations and automation.",
-      "channel": "Riley Brown",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "addedAt": "2026-07-24T02:00:00Z"
+      "id": "vid-bibl-claude-code-youtube-workflow-ko",
+      "youtubeId": "WSqJY7VISoM",
+      "category": "tip",
+      "title": "답답하게 안되던 유튜브를 살리는 클로드 코드 활용법 9가지",
+      "titleEn": "9 Claude Code Tricks That Turned My Struggling YouTube Channel Around",
+      "descKo": "유튜브 채널 운영이 막혀 있던 문제를 클로드 코드로 뚫어낸 구체적인 활용법 9가지를 정리한 영상.",
+      "descEn": "Nine concrete Claude Code tricks applied to unblock and revive a struggling YouTube channel workflow.",
+      "channel": "비블 bibl",
+      "publishedAt": "2026-06-23T00:00:00Z",
+      "addedAt": "2026-08-04T23:14:04Z"
+    },
+    {
+      "id": "vid-freecodecamp-gemini-cli-course",
+      "youtubeId": "XKOR4h3CrwE",
+      "category": "lecture",
+      "title": "Gemini CLI 완전 정복 — 풀코스",
+      "titleEn": "Gemini CLI Essentials – Full Course",
+      "descKo": "Gemini CLI의 핵심 기능을 처음부터 끝까지 다루는 구조화된 풀코스 강의.",
+      "descEn": "A full structured course covering Gemini CLI's core features from start to finish.",
+      "channel": "freeCodeCamp.org",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "addedAt": "2026-08-04T23:14:04Z"
     }
   ]
 }
