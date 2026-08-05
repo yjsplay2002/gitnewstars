@@ -1,6 +1,18 @@
 {
-  "generatedAt": "2026-08-04T23:14:04Z",
+  "generatedAt": "2026-08-05T23:12:00Z",
   "videos": [
+    {
+      "id": "vid-natehark-32-claude-code-tricks",
+      "youtubeId": "jqoFP9QapXI",
+      "category": "tip",
+      "title": "16분 만에 클로드 코드 실력 올리는 32가지 트릭",
+      "titleEn": "32 Tricks to Level Up Claude Code in 16 Mins",
+      "descKo": "짧은 시간 안에 클로드 코드 활용도를 높이는 32가지 실전 트릭을 빠르게 훑는 영상.",
+      "descEn": "A fast-paced rundown of 32 practical tricks to level up your Claude Code usage in just 16 minutes.",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-04-27T00:00:00Z",
+      "addedAt": "2026-08-05T23:12:00Z"
+    },
     {
       "id": "vid-thetips4you-10-claude-code-tips",
       "youtubeId": "T5jylUte3J8",
@@ -65,17 +77,6 @@
       "descKo": "LangGraph로 여러 에이전트가 역할을 나눠 협업하는 멀티 에이전트 시스템을 처음부터 구축하는 구조화된 강의.",
       "descEn": "A structured tutorial building multi-agent AI systems with LangGraph from scratch, covering agent roles and collaboration.",
       "channel": "Edureka",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-02T02:00:00Z"
-    },
-    {
-      "id": "vid-codex-heygen-language-companion",
-      "youtubeId": "TrJrWNyDzv8",
-      "category": "usecase",
-      "title": "코딩 경험 없이 코덱스·HeyGen으로 AI 언어 학습 도우미 만들기",
-      "titleEn": "I Built an AI Language Companion with OpenAI Codex & HeyGen (No Coding Experience)",
-      "descKo": "코딩 경험이 전혀 없는 사람이 코덱스와 HeyGen만으로 AI 언어 학습 도우미를 실제로 만들어보는 과정을 담은 실전 영상.",
-      "descEn": "A real build log of someone with zero coding experience creating an AI language-learning companion using only OpenAI Codex and HeyGen.",
       "publishedAt": "2026-07-31T00:00:00Z",
       "addedAt": "2026-08-02T02:00:00Z"
     },
