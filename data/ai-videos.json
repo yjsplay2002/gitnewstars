@@ -1,6 +1,36 @@
 {
-  "generatedAt": "2026-08-05T23:12:00Z",
+  "generatedAt": "2026-08-06T23:09:21Z",
   "videos": [
+    {
+      "id": "vid-2hun-engineers-coding-agents-2026",
+      "youtubeId": "2HtqFVLgjLI",
+      "category": "usecase",
+      "title": "소프트웨어 엔지니어들이 2026년 실제로 코딩 에이전트를 쓰는 법",
+      "titleEn": "How Software Engineers Actually Use Coding Agents in 2026",
+      "descKo": "현업 엔지니어들이 실제 업무에서 AI 코딩 에이전트를 활용하는 방식을 다룬 영상.",
+      "descEn": "A look at how working software engineers actually integrate AI coding agents into their real workflows.",
+      "addedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "vid-codex-complete-guide-2026-ko",
+      "youtubeId": "Z3z93bKMh_I",
+      "category": "usecase",
+      "title": "코덱스 완벽 가이드 2026 — 지금은 코덱스가 최강",
+      "titleEn": "Codex Complete Guide 2026 - Codex seems strongest right now",
+      "descKo": "OpenAI 코덱스(Codex)의 강점과 실제 활용법을 다루는 한국어 가이드 영상.",
+      "descEn": "A Korean-language guide covering OpenAI Codex's strengths and practical usage.",
+      "addedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "vid-codex-daily-life-10x-ko",
+      "youtubeId": "RDwfJ_LCgEM",
+      "category": "usecase",
+      "title": "\"미쳤어요\" 일상생활을 10배 업그레이드 시켜주는 코덱스 AI",
+      "titleEn": "\"Insane\" — Codex AI That Upgrades Your Daily Life 10x",
+      "descKo": "코덱스를 코딩 외 일상 업무 자동화에 활용하는 실제 사용 사례 영상.",
+      "descEn": "Real-world examples of using Codex for everyday task automation beyond coding.",
+      "addedAt": "2026-08-06T23:09:21Z"
+    },
     {
       "id": "vid-natehark-32-claude-code-tricks",
       "youtubeId": "jqoFP9QapXI",
@@ -12,17 +42,6 @@
       "channel": "Nate Herk | AI Automation",
       "publishedAt": "2026-04-27T00:00:00Z",
       "addedAt": "2026-08-05T23:12:00Z"
-    },
-    {
-      "id": "vid-thetips4you-10-claude-code-tips",
-      "youtubeId": "T5jylUte3J8",
-      "category": "tip",
-      "title": "2026년판 클로드 코드를 바꾸는 10가지 팁",
-      "titleEn": "10 Claude Code Tips That Will Change How You Code (2026)",
-      "descKo": "2026년 기준으로 업데이트된 클로드 코드 활용 팁 10가지를 빠르게 훑는 영상.",
-      "descEn": "A fast rundown of 10 Claude Code tips updated for 2026.",
-      "channel": "Thetips4you",
-      "addedAt": "2026-08-03T02:00:00Z"
     },
     {
       "id": "vid-shahwali-claude-code-tutorial-beginners",
@@ -104,17 +123,6 @@
       "addedAt": "2026-07-28T02:00:00Z"
     },
     {
-      "id": "vid-opus5-vs-fable5-comparison",
-      "youtubeId": "yKu03nBC9yY",
-      "category": "usecase",
-      "title": "클로드 오퍼스 5 vs 페이블 5, 실전 작업으로 정면 비교 테스트",
-      "titleEn": "I Tested Claude Opus 5 Against Fable 5 Head-to-Head",
-      "descKo": "오퍼스 5 출시 당일, 같은 실전 작업을 오퍼스 5와 페이블 5에 똑같이 시켜 결과를 직접 비교한 리뷰 영상.",
-      "descEn": "A same-day hands-on comparison running identical real tasks through newly launched Claude Opus 5 and Fable 5 to see how they differ.",
-      "publishedAt": "2026-07-24T19:00:00Z",
-      "addedAt": "2026-07-25T02:00:00Z"
-    },
-    {
       "id": "vid-jocoding-gpt56-codex-tips-ko",
       "youtubeId": "le-jtop9tLk",
       "category": "tip",
@@ -124,18 +132,6 @@
       "descEn": "An insider-perspective, hands-on guide to practically using GPT-5.6 and Codex in real work.",
       "channel": "조코딩 JoCoding",
       "publishedAt": "2026-07-21T00:00:00Z",
-      "addedAt": "2026-07-26T02:00:00Z"
-    },
-    {
-      "id": "vid-z2zlife-multiagent-mcp-ko",
-      "youtubeId": "ugC57E5fgdA",
-      "category": "tip",
-      "title": "[오픈소스] 멀티 에이전트 오케스트레이션과 MCP 실전 가이드",
-      "titleEn": "[Open Source] A Practical Guide to Multi-Agent Orchestration and MCP",
-      "descKo": "여러 에이전트가 스스로 코딩하고 협업하는 멀티 에이전트 오케스트레이션·MCP 활용법을 오픈소스 기준으로 정리.",
-      "descEn": "A practical, open-source-focused walkthrough of multi-agent orchestration and MCP, covering agents that code and hand off work to each other.",
-      "channel": "z2zlife",
-      "publishedAt": "2026-07-23T00:00:00Z",
       "addedAt": "2026-07-26T02:00:00Z"
     },
     {

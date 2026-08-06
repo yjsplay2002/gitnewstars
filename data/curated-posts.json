@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-05T23:12:00Z",
+  "generatedAt": "2026-08-06T23:09:21Z",
   "posts": [
+    {
+      "id": "curated-20260807-hn-agent-permission-misses-ko",
+      "title": "AI 에이전트 명령 승인, 사람이 3건 중 1건은 위험 신호 놓쳤다 — 4만 건 게임 시뮬레이션, HN 231점",
+      "body": "보안 스타트업 ScaleX가 공개한 실험은 사람이 AI 에이전트의 명령 실행을 '승인/거부'로 검토하는 휴먼인더루프 방식이 실제로 얼마나 안전한지 4만 건의 게임형 시뮬레이션으로 측정했습니다. 결과는 참가자들이 위험한 명령 3건 중 1건을 그대로 승인해버렸다는 것으로, 승인 UI를 잘 만드는 것만으로는 에이전트 안전을 보장할 수 없다는 근거를 제시합니다. 에이전트에 승인 게이트를 설계하는 팀이라면 승인 절차 자체를 재검토할 근거로 삼을 만한 자료로, HN에서 231점을 받았습니다.",
+      "titleEn": "Humans missed 1 in 3 risky AI agent commands when approving them — 40K game-run study, 231 pts on HN",
+      "bodyEn": "Security startup ScaleX ran a game-style simulation across 40,000 rounds to measure how safe human-in-the-loop approval of AI agent commands actually is in practice. The finding: participants approved roughly one in three genuinely dangerous commands anyway — evidence that a well-designed approval UI alone doesn't guarantee agent safety. Useful data for any team designing approval gates for agentic workflows to rethink the approval step itself. 231 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-06T11:58:07Z",
+      "curatedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "curated-20260807-bun-zig-to-rust-64-agents",
+      "title": "Bun, AI 에이전트 64개 병렬 투입해 53만 줄 Zig 코드를 11일 만에 Rust로 재작성 — GeekNews",
+      "body": "GeekNews에 소개된 Pragmatic Engineer 원문에 따르면, JS 런타임 Bun 팀은 메모리 안전성 문제를 해결하려 535,496줄에 달하는 Zig 코드베이스를 AI 에이전트 64개를 병렬로 돌려 단 11일 만에 Rust로 전환했습니다. API 비용은 입력 590억·출력 6.9억 토큰, 약 16만 5천 달러였고 숙련 엔지니어 3명이 1년 걸릴 작업을 대체한 셈입니다. 성공 비결로 600줄짜리 PORTING.md 가이드 문서, 체계적인 컴파일 에러 해소 루프, '적대적 리뷰 2라운드' 체계를 꼽아, 대규모 리라이트에 에이전트를 투입하려는 팀에게 바로 참고할 실전 사례입니다.",
+      "titleEn": "Bun rewrote 535K lines of Zig to Rust in 11 days using 64 parallel AI agents — via GeekNews",
+      "bodyEn": "Per the Pragmatic Engineer piece featured on GeekNews, the Bun JS-runtime team tackled memory-safety issues by converting 535,496 lines of Zig to Rust using 64 parallel AI agents in just 11 days. API cost ran to roughly $165,000 (59B input tokens, 690M output tokens), replacing what would've taken three experienced engineers a year. The keys to success: a 600-line PORTING.md guide, a systematic compile-error-resolution loop, and two rounds of adversarial review — a concrete blueprint for any team considering agent-driven large-scale rewrites.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31890",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-27T00:00:00Z",
+      "curatedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "curated-20260807-comux-multiplexer-ko",
+      "title": "클로드 코드·코덱스 여러 세션 동시에 굴릴 때 알림 놓치는 문제, comux로 해결 — GeekNews",
+      "body": "GeekNews에 소개된 오픈소스 comux는 AI 코딩 에이전트를 여러 개 동시에 돌릴 때 자주 겪는 '완료 알림 놓침', '사용량 한도 초과 알아채지 못함' 문제를 해결하는 tmux 스타일 멀티플렉서입니다. 사이드바에 각 에이전트의 작업 중·대기·막힘 상태를 실시간으로 보여주고, 완료되거나 입력을 기다릴 때 데스크톱 알림을 보내며 재시작 후에도 세션이 유지됩니다. 의존성 없는 단일 바이너리라 curl 한 줄로 설치되고 SSH 헤드리스 서버에서도 그대로 쓸 수 있어, 여러 에이전트 세션을 동시에 관리하는 개발자에게 바로 시도해볼 만한 도구입니다.",
+      "titleEn": "comux — a tmux replacement that fixes missed notifications when running multiple Claude Code/Codex sessions — via GeekNews",
+      "bodyEn": "Featured on GeekNews, the open-source comux is a tmux-style multiplexer built specifically to fix two problems common when running several AI coding agents in parallel: missed completion notifications and unnoticed usage-limit hits. It shows each agent's live status — working, ready, or blocked — in a sidebar, sends desktop notifications on completion or input-wait, and persists sessions across restarts. It ships as a single zero-dependency binary installable via one curl command and works on headless SSH servers, making it an easy pickup for anyone juggling multiple agent sessions.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31859",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-27T00:00:00Z",
+      "curatedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "curated-20260807-song-jaekyung-ai-staff-ko",
+      "title": "리니지 창시자 송재경 \"AI 시대엔 코드를 짜는 게 아니라 AI 직원을 관리한다\" — 인벤",
+      "body": "인벤 보도에 따르면, 리니지·아키에이지 창시자 송재경은 사람과 AI 에이전트가 동일한 WebSocket 프로토콜로 접속하는 실험적 MMORPG '오픈 MMO'를 바이브 코딩 방식으로 개발 중입니다. AI가 코드를 쓰고 사람이 리뷰하며 최근엔 서로 다른 LLM이 코드 리뷰까지 맡는 구조로, 그는 자신의 역할이 직접 코딩하던 데서 'AI 직원을 관리하는' 쪽으로 옮겨갔다고 밝혔습니다. 3D 공간 추론 같은 AI의 한계는 여전하지만 생산성은 크게 늘었다는 현업 개발자의 1인칭 증언으로, GeekNews를 통해 확산됐습니다.",
+      "titleEn": "Lineage creator Song Jae-kyung: \"In the AI era you manage AI staff, not write code\" — via Inven",
+      "bodyEn": "Reported by Inven, Song Jae-kyung — creator of Lineage and ArcheAge — is building an experimental MMORPG called 'Open MMO' where human and AI-agent players connect through the identical WebSocket protocol, developed via vibe coding. AI writes the code and humans review it, and recently different LLMs have even started handling code review for each other. He says his own role has shifted from writing code directly to 'managing AI staff' — and despite AI's persistent weaknesses in 3D spatial reasoning, productivity has risen sharply. A first-person account from a veteran developer, spread via GeekNews.",
+      "sourceName": "인벤 (Inven)",
+      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=318963",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-07-29T00:00:00Z",
+      "curatedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "curated-20260807-ai-tool-by-task-guide-ko",
+      "title": "업무별로 골라 쓰는 AI 도구 가이드 — 클로드냐 챗GPT냐, 클라우드냐 로컬이냐 — GeekNews",
+      "body": "GeekNews에 소개된 Ethan Mollick(One Useful Thing)의 글은 업무 성격별로 AI 도구를 고르는 실전 기준을 제시합니다. 일반 업무엔 클로드·챗GPT가 강세지만 의료·법률처럼 고난도 추론이 필요한 중요한 업무엔 Claude Opus·Fable이나 ChatGPT GPT-5.6 Sol을 추천하고, 이메일·드라이브 연동이 필요한 장시간 작업엔 ChatGPT Work·Claude Cowork 같은 클라우드형이, 파일 접근·컴퓨터 제어가 필요하면 로컬형인 코덱스·클로드 코드가 낫다고 정리합니다. 월 20달러 구독 기준으로 짜인 가이드이며, '프롬프트 인젝션은 아직 미해결'이니 에이전트 결과를 위임한 업무처럼 검토하라는 조언도 담겨 있습니다.",
+      "titleEn": "An opinionated guide to picking AI tools by task — Claude vs ChatGPT, cloud vs local — via GeekNews",
+      "bodyEn": "Featured on GeekNews, this piece by Ethan Mollick (One Useful Thing) lays out practical criteria for choosing AI tools by task type. Claude and ChatGPT lead for general work, but high-stakes reasoning tasks like medical or legal work call for Claude Opus/Fable or ChatGPT GPT-5.6 Sol; long-running tasks needing email/Drive integration favor cloud tools like ChatGPT Work or Claude Cowork, while tasks needing file access or computer control favor local tools like Codex or Claude Code. Priced around a $20/month tier, it also warns that prompt injection remains unsolved — treat agent output like delegated work that still needs review.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=31966",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-01T00:00:00Z",
+      "curatedAt": "2026-08-06T23:09:21Z"
+    },
+    {
+      "id": "curated-20260807-hyperprobe-prod-debug-agent",
+      "title": "프로덕션에서 읽기 전용으로 디버깅하는 에이전트 — HyperProbe, YC 데뷔 HN 66점",
+      "body": "YC 2026 서머 배치 스타트업 HyperProbe가 Launch HN으로 공개한 제품은 프로덕션 환경에 읽기 전용으로 접속해 장애를 분석·디버깅하는 AI 에이전트입니다. 로그·메트릭·트레이스를 뒤져 근본 원인을 찾아내되 실제 시스템에 쓰기 작업은 일절 하지 않도록 권한을 제한해, 온콜 엔지니어가 사고 대응 중 에이전트를 안심하고 붙일 수 있게 설계했습니다. 프로덕션 디버깅에 에이전트를 투입하고 싶지만 쓰기 권한 리스크가 부담스러운 팀에게 바로 참고할 사례로, HN에서 66점을 받았습니다.",
+      "titleEn": "Launch HN: HyperProbe — agents that do read-only debugging in prod, 66 pts on HN",
+      "bodyEn": "HyperProbe, a YC Summer 2026 startup, launched on Show HN with an AI agent that connects to production environments in read-only mode to analyze and debug incidents. It digs through logs, metrics, and traces to find root causes while its permissions are scoped to block any write access to the live system — designed so on-call engineers can safely attach it during an incident. A concrete option for teams that want an agent debugging production without the risk of write-access. 66 points on HN.",
+      "sourceName": "Hacker News · Launch HN",
+      "sourceUrl": "https://www.hyperprobe.co",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-05T16:47:15Z",
+      "curatedAt": "2026-08-06T23:09:21Z"
+    },
     {
       "id": "curated-20260806-usingclaude-mcp-servers-ko",
       "title": "클로드 코드에 붙일 MCP 서버, 뭐부터 연결할까 — 실전 추천 정리, GeekNews",
@@ -25,19 +103,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-02T05:13:32Z",
-      "curatedAt": "2026-08-05T23:12:00Z"
-    },
-    {
-      "id": "curated-20260806-simon-willison-stateless-mcp",
-      "title": "사이먼 윌리슨 \"Stateless MCP, 다시 흥미로워졌다\" — 세션 없는 MCP 실전 분석, HN 373점",
-      "body": "Datasette 창시자 사이먼 윌리슨이 공개한 글은 MCP가 세션과 초기화 핸드셰이크 의존을 줄이는 '무상태(stateless)' 방향으로 개편되는 과정을 실제로 테스트해본 기록입니다. 서버가 이전 연결 상태를 기억하지 않고도 요청을 처리할 수 있게 되면서, 로드밸런서 뒤에 평범한 HTTP 서비스처럼 배치할 수 있다는 실질적 이점을 코드 레벨 예시와 함께 짚습니다. MCP 아키텍처가 실제로 어떻게 바뀌고 있는지 원저자 시각에서 확인할 수 있는 글로, HN에서 373점을 받았습니다.",
-      "titleEn": "Simon Willison: \"Stateless MCP has recaptured my interest\" — a hands-on look at session-free MCP, 373 pts on HN",
-      "bodyEn": "Published by Datasette creator Simon Willison, this post is a hands-on account of testing MCP's shift toward a 'stateless' design that drops reliance on sessions and the initialization handshake. With code-level examples, he shows the practical upside: since a server no longer needs to remember prior connection state, it can be deployed behind an ordinary load balancer like any HTTP service. A first-person look at how MCP's architecture is actually changing, from one of its most-followed independent observers. 373 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-31T00:00:00Z",
       "curatedAt": "2026-08-05T23:12:00Z"
     },
     {
@@ -132,32 +197,6 @@
       "curatedAt": "2026-08-04T23:14:04Z"
     },
     {
-      "id": "curated-20260804-boris-cherny-claude-app-swift",
-      "title": "클로드 코드 창시자 보리스 체르니, 클로드 앱을 스위프트로 통째로 다시 써보다",
-      "body": "Daring Fireball이 오늘 소개한 글에서, 클로드 코드를 만든 보리스 체르니가 클로드 데스크톱 앱을 클로드 코드에게 시켜 스위프트(SwiftUI)로 완전히 새로 작성해보는 실험을 공개했습니다. 기존 크로스플랫폼 웹 기반 앱을 네이티브로 리라이트하는 대규모 작업을 에이전트에게 얼마나 맡길 수 있는지, 그 과정에서 어떤 결정과 개입이 필요했는지를 실제 사례로 보여줍니다. 대규모 리라이트에 코딩 에이전트를 실전 투입해보려는 개발자에게 참고할 만한 사례입니다.",
-      "titleEn": "Claude Code creator Boris Cherny tries rewriting the Claude app entirely in Swift",
-      "bodyEn": "Featured today via Daring Fireball, Claude Code creator Boris Cherny shares an experiment having Claude Code rewrite the Claude desktop app from scratch in SwiftUI. It's a real case study of how much of a large-scale native rewrite you can hand to a coding agent, and what decisions and interventions were still needed along the way — useful reading for anyone considering putting a coding agent on a big rewrite for real.",
-      "sourceName": "Daring Fireball",
-      "sourceUrl": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-02T00:00:00Z",
-      "curatedAt": "2026-08-04T00:00:00Z"
-    },
-    {
-      "id": "curated-20260804-agent-control-flow-patterns",
-      "title": "데모용 에이전트를 프로덕션급으로 — 7가지 제어 흐름 패턴, 재시도부터 휴먼인더루프까지",
-      "body": "Kunal Ganglani가 오늘 올린 글은 워크플로우 엔진에서 빌려온 신뢰성 원칙을 에이전트에 적용하는 7가지 제어 흐름 패턴을 정리합니다. 명시적 상태·제한된 재시도·내구성 있는 체크포인트를 갖춰야 크래시 후 재개가 가능하고, 재시도는 도구가 멱등성을 가질 때만 안전하며 체크포인트에 도구 실행 영수증을 저장해야 한다고 강조합니다. 사람 승인이 필요한 단계는 타임아웃·SLA·감사 추적을 갖춘 1급 상태로 모델링해야 한다는 조언도 담아, 화려한 데모를 페이저(당직 알림) 뒤에 둘 수 있는 실전 신뢰성으로 바꾸는 법을 다룹니다.",
-      "titleEn": "Turn a demo agent into something you can put behind a pager — 7 control flow patterns, from retries to human-in-the-loop",
-      "bodyEn": "Published today, this piece by Kunal Ganglani lays out seven control-flow patterns that borrow reliability principles from workflow engines and apply them to agents. It argues you need explicit states, bounded retries, and durable checkpoints to resume safely after a crash — retrying is only safe when tools are idempotent, and checkpoints should store tool-call receipts. Human-approval steps should be modeled as first-class states with timeouts, SLAs, and an audit trail, not an afterthought. A concrete guide for turning a flashy agent demo into something reliable enough to run in production.",
-      "sourceName": "kunalganglani.com",
-      "sourceUrl": "https://www.kunalganglani.com/blog/ai-agent-control-flow-patterns",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-02T01:55:40Z",
-      "curatedAt": "2026-08-04T00:00:00Z"
-    },
-    {
       "id": "curated-20260804-codex-review-2026",
       "title": "코덱스 실전 활용 가이드 — 로컬 CLI 루프부터 워크트리 클라우드 위임, GitHub PR 리뷰까지 (2026년 8월 검증판)",
       "body": "Omid Saffari가 오늘 공개한 코덱스 리뷰는 실사용 기준으로 네 가지 핵심 기능을 짚습니다. 로컬에서는 '결제 웹훅 중복 전송 추적, 멱등성 가드 추가, 결제 테스트 실행'처럼 관찰 가능한 목표를 줘야 진짜 엔지니어링 루프가 되고, AGENTS.md에 불변 규칙을 적어두고 프롬프트엔 작업별 제약만 담으라고 권합니다. 워크트리로 결제 SDK 업그레이드는 로컬에서, 깨지는 브라우저 테스트는 격리 워크트리로, 감사 로깅은 클라우드로 나눠 맡기는 3단계 릴리스 예시와, GitHub PR에서 @codex review·@codex fix로 P0·P1 이슈만 골라 잡는 리뷰 루프도 구체적으로 설명합니다.",
@@ -208,45 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-02T00:00:04Z",
       "curatedAt": "2026-08-03T02:00:00Z"
-    },
-    {
-      "id": "curated-20260801-qm-multiplayer-agent-harness-ko",
-      "title": "여러 사람이 AI 에이전트 하나를 함께 쓰는 법 — 멀티플레이어 에이전트 하네스 'qm' 오픈소스, GeekNews",
-      "body": "GeekNews에 소개된 오픈소스 qm은 팀 전체가 Pi·OpenCode·Codex·클로드 코드 같은 여러 에이전트 하네스를 슬랙·웹 UI로 함께 쓰면서도, 사람마다 파일·메모리·자격증명·권한이 완전히 격리된 개인 스코프를 갖도록 설계한 프레임워크입니다. TypeScript·Node·Fastify로 만든 헤드리스 코어가 PostgreSQL에 세션·메모리·큐를 저장하고, Fly나 AWS에 배포할 수 있으며 MIT 라이선스로 공개돼 있습니다. 개인 비서형 에이전트를 넘어 조직 전체가 공유 채널·프로젝트를 통해 협업하는 구조를 원하는 팀이라면 바로 살펴볼 만합니다.",
-      "titleEn": "A multiplayer harness for sharing one AI agent across a team — open-source 'qm', via GeekNews",
-      "bodyEn": "Featured on GeekNews, the open-source qm is a framework for running AI agent harnesses (Pi, OpenCode, Codex, Claude Code) across an entire team via Slack and a web UI, while keeping each person's files, memory, credentials, and permissions in a fully isolated personal scope. A headless TypeScript/Node/Fastify core persists sessions, memory, and queues in PostgreSQL, deploys to Fly or AWS, and ships under the MIT license. A concrete option for teams that want organization-wide agent collaboration through shared channels and projects, not just a single-user assistant.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=32023",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-01T00:00:00Z",
-      "curatedAt": "2026-08-02T02:00:00Z"
-    },
-    {
-      "id": "curated-20260802-claude-code-cli-tricks",
-      "title": "클로드 코드 CLI, 처음부터 알았으면 좋았을 5가지 팁 — 헤드리스 모드부터 모델 선택까지",
-      "body": "DEV.to에 오늘 올라온 글은 클로드 코드 CLI를 실무에서 더 잘 쓰는 5가지 구체적 팁을 정리합니다. claude -p \"<프롬프트>\"로 비대화형 헤드리스 모드를 돌리고 --output-format json으로 결과를 다른 도구에 그대로 넘기는 법, .claude/commands/에 마크다운 파일을 넣어 $ARGUMENTS로 인자를 받는 커스텀 슬래시 커맨드 만드는 법을 다룹니다. 또한 .claude/settings.json에 \"Bash(git status)\"·\"Read(*)\" 같은 허용 목록을 등록해 승인 피로를 줄이고, claude --continue·--resume으로 여러 날에 걸쳐 대화를 이어가며, 기계적인 수정엔 --model haiku를, 복잡한 판단엔 --model opus를 작업 단위로 골라 쓰라고 권합니다.",
-      "titleEn": "5 Claude Code CLI tricks I wish I'd known from day one — headless mode to per-task model selection",
-      "bodyEn": "Published today on DEV.to, this post rounds up five concrete Claude Code CLI tricks for daily use: run non-interactive headless mode with claude -p \"<prompt>\" and pipe structured results elsewhere with --output-format json, and build custom slash commands by dropping markdown files in .claude/commands/ with $ARGUMENTS substitution. It also covers registering permission allowlists like \"Bash(git status)\" and \"Read(*)\" in .claude/settings.json to cut approval fatigue, resuming work across days with claude --continue / --resume, and picking the model per task — --model haiku for mechanical fixes, --model opus for complex judgment calls — instead of locking a whole session to one model.",
-      "sourceName": "DEV Community",
-      "sourceUrl": "https://dev.to/yureki_lab/5-claude-code-cli-tricks-i-wish-id-known-from-day-one-44mg",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-01T00:00:00Z",
-      "curatedAt": "2026-08-02T02:00:00Z"
-    },
-    {
-      "id": "curated-20260801-deep-agents-production-ko",
-      "title": "Deep Agents 프로덕션 배포 5원칙 — 클로드 코드 50만 줄 중 대부분은 '하니스', AI Trends",
-      "body": "AI Trends에 오늘 올라온 글은 LLM 모델에 시스템 프롬프트·메모리·도구·MCP·서브에이전트를 결합한 'Deep Agents'를 실제 프로덕션에 배포할 때 놓치기 쉬운 다섯 가지 요건을 짚습니다. 클로드 코드 코드베이스 약 50만 줄 중 대부분이 모델 자체가 아니라 이를 감싸는 하니스 인프라라는 점을 예로 들며, 체크포인트 기반으로 실패 지점부터 재개하는 '내구성 있는 실행', 단기 체크포인트와 장기 저장을 결합한 메모리 관리, 에이전트가 사용자를 대신해 행동하는 데 필요한 새로운 인증·RBAC 체계, 사람이 실시간으로 진행 상황을 보며 일시정지·승인·수정할 수 있는 휴먼인더루프 인터페이스, 오토스케일링·병렬 처리·세션 간 상태 유지가 필요한 확장성을 핵심으로 제시합니다. 기존 도구 호출 에이전트를 Deep Agent로 전환하거나 LangGraph 워크플로우 안에 노드로 끼워 넣는 실전 전환 방법도 함께 다룹니다.",
-      "titleEn": "Five production rules for Deep Agents — most of Claude Code's 500K lines are 'harness', not model, via AI Trends",
-      "bodyEn": "Published today on AI Trends, this piece breaks down five requirements teams miss when deploying 'Deep Agents' — LLMs combined with system prompts, memory, tools, MCP, and sub-agents — to production. It notes that most of Claude Code's ~500,000 lines of code are harness infrastructure, not the model itself, and lists the essentials: durable execution that resumes from checkpoints rather than restarting, memory management combining short-term checkpoints with long-term storage, new auth/RBAC schemes since agents act on a user's behalf, human-in-the-loop interfaces with real-time progress streaming for pause/approve/modify, and scalability via autoscaling, parallelism, and cross-session state. It also covers practical migration paths — converting existing tool-calling agents into Deep Agents, or embedding them as nodes inside a LangGraph workflow.",
-      "sourceName": "AI Trends",
-      "sourceUrl": "https://aitrends.kr/articles/88999",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-01T00:00:00Z",
-      "curatedAt": "2026-08-01T02:00:00Z"
     },
     {
       "id": "curated-20260723-kurly-ai-agent-orchestration",
