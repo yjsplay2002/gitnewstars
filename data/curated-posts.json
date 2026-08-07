@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-06T23:09:21Z",
+  "generatedAt": "2026-08-07T23:11:03Z",
   "posts": [
+    {
+      "id": "curated-20260808-databricks-ai-coding-cost-cut",
+      "title": "AI 코딩 비용 70% 줄인 데이터브릭스 — 모델 전환·라우팅·캐싱 4가지 전술",
+      "body": "데이터브릭스 공식 블로그에 오늘 올라온 글은 사내 AI 코딩 에이전트 비용을 대규모로 낮춘 실전 전술 4가지를 공개합니다. 더 저렴한 모델로 전환해 30% 이상을 아끼고, 요청을 난이도별로 다른 모델에 자동 분배하는 지능형 라우팅을 붙이고, 딱딱한 예산 제한 대신 사용량 대시보드와 '점진적 마찰'로 절제를 유도하며, 프롬프트 캐싱과 컨텍스트 정리로 토큰을 절반가량 줄였습니다. 사내 게이트웨이 'Unity AI Gateway'와 메타 하니스 'Omnigent' 같은 실제 인프라 이름도 함께 공개해, 여러 팀의 AI 코딩 비용을 관제하려는 조직에게 바로 참고할 사례입니다.",
+      "titleEn": "Databricks cut AI coding spend 70% — 4 tactics: model swaps, routing, caching",
+      "bodyEn": "Published today on the Databricks engineering blog, this post details four concrete tactics that drove down internal AI-coding-agent spend at scale. Switching to cheaper capable models saved 30%+; intelligent request routing auto-distributes tasks to the right model by difficulty; hard budget caps were replaced with usage dashboards plus 'progressive friction' instead of blunt cutoffs; and prompt caching combined with context trimming cut token usage roughly in half. The post names real internal infrastructure — the Unity AI Gateway and a meta-harness called Omnigent — making it a concrete blueprint for any org trying to get AI coding costs under control across teams.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.databricks.com/blog/managing-ai-coding-costs-scale",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-07T00:00:00Z",
+      "curatedAt": "2026-08-07T23:11:03Z"
+    },
+    {
+      "id": "curated-20260808-cloudflare-kitesurf-agent-browser",
+      "title": "에이전트 전용 브라우저 'Kitesurf', V8 아이솔레이트로 격리 — Cloudflare, HN 143점",
+      "body": "Cloudflare가 오늘 공개한 Kitesurf는 사람이 아니라 AI 에이전트의 웹 브라우징·자동화 작업을 위해 처음부터 설계한 브라우저입니다. 각 에이전트 세션을 V8 아이솔레이트 단위로 격리해 서로 다른 에이전트가 상태를 공유하지 못하게 막고, 동시에 대량의 에이전트 브라우징 워크로드를 엣지에서 병렬 처리하도록 만들어졌습니다. 에이전트에게 웹 브라우저 도구를 안전하게 붙이려는 팀이라면 격리 설계 방식을 참고할 만한 사례로, HN에서 143점을 받았습니다.",
+      "titleEn": "Kitesurf — an agent-first browser isolated via V8 isolates, from Cloudflare, 143 pts on HN",
+      "bodyEn": "Published today by Cloudflare, Kitesurf is a browser built from the ground up for AI-agent web browsing and automation rather than human use. Each agent session runs isolated inside its own V8 isolate so separate agents can't share state, while the design lets Cloudflare's edge run large numbers of agent browsing workloads in parallel. A useful reference for any team wiring browser tool-use into agents safely and wants a concrete isolation pattern. 143 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://blog.cloudflare.com/kitesurf/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-07T00:00:00Z",
+      "curatedAt": "2026-08-07T23:11:03Z"
+    },
+    {
+      "id": "curated-20260808-channels-sdk-agent-to-slack",
+      "title": "에이전트 하나로 슬랙·팀즈 다 붙이기 — Channels SDK 오픈소스, HN 114점",
+      "body": "Show HN으로 공개된 오픈소스 Channels SDK는 이미 만들어둔 AI 에이전트를 슬랙·마이크로소프트 팀즈 같은 채팅 채널에 플랫폼별로 다시 만들지 않고 그대로 연결해주는 도구입니다. 채널마다 달랐던 메시지 포맷·스레드·인증 처리를 하나의 어댑터 계층으로 추상화해, 에이전트 로직은 그대로 두고 채널 연결부만 갈아 끼울 수 있게 설계했습니다. 여러 협업 툴에 같은 에이전트를 배포해야 하는 팀에게 바로 시도해볼 만한 오픈소스로, HN에서 114점을 받았습니다.",
+      "titleEn": "Bring one agent to Slack and Teams alike — open-source Channels SDK, 114 pts on HN",
+      "bodyEn": "Shown on Show HN, the open-source Channels SDK lets you wire an existing AI agent into chat channels like Slack or Microsoft Teams without rebuilding it per platform. It abstracts away each channel's different message formats, threading, and auth handling behind one adapter layer, so the agent's core logic stays untouched while only the channel connector gets swapped. A ready-to-try open-source pick for any team that needs to deploy the same agent across multiple collaboration tools. 114 points on HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://github.com/CopilotKit/channels-sdk",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-06T00:00:00Z",
+      "curatedAt": "2026-08-07T23:11:03Z"
+    },
+    {
+      "id": "curated-20260808-mcp-tool-contract-frozen-ko",
+      "title": "MCP 서버 배포해도 툴 설명은 안 바뀐다 — 연결 시점에 캐시되는 함정, GeekNews",
+      "body": "GeekNews에 소개된 opula.io 글은 MCP 서버의 툴 설명(tool description)이 클라이언트가 처음 접속한 시점에 캐시돼, 서버를 새로 배포해 설명을 고쳐도 이미 연결된 클라이언트에는 반영되지 않는 함정을 짚습니다. 그래서 비즈니스 규칙이 바뀌면 프롬프트성 설명 문구가 아니라 코드 레벨의 검증·거부 로직에 규칙을 넣어야 하고, 문제를 디버깅할 땐 연결 시각을 먼저 확인하며, 계약이 크게 바뀌면 재연결을 유도하는 안내를 넣으라고 권합니다. MCP 서버를 직접 운영하는 개발자라면 바로 걸릴 수 있는 함정이라 실전 체크리스트로 참고할 만합니다.",
+      "titleEn": "Deploying an MCP server doesn't refresh the tool contract for already-connected clients — via GeekNews",
+      "bodyEn": "Featured on GeekNews, this opula.io post flags a gotcha in MCP: tool descriptions get cached at the moment a client first connects, so redeploying a server with updated descriptions has zero effect on clients that connected earlier. The fix is to push business-rule changes into code-level validation/rejection logic rather than prose tool descriptions, check connection timestamps first when debugging weird behavior, and prompt clients to reconnect after a major contract change. A concrete pitfall any team running their own MCP server is likely to hit.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://opula.io/ko/blog/mcp-tool-contract-frozen-at-connect",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-06T00:00:00Z",
+      "curatedAt": "2026-08-07T23:11:03Z"
+    },
+    {
+      "id": "curated-20260808-llm-eval-validator-ko",
+      "title": "AI한테 시험 냈더니 출제자가 5번 틀렸다 — LLM 파이프라인 검증기 만든 후기",
+      "body": "velog에 오늘 올라온 글에서 개발자 ramses203은 주문 파싱 LLM 파이프라인을 검증하려 29문항짜리 정답지를 만들어 자동 채점을 돌렸는데, 정작 AI가 아니라 자신이 만든 정답지 쪽에 5개의 오류가 숨어 있었다는 경험을 공유합니다. 애매한 스펙·오해하기 쉬운 포맷 같은 엣지 케이스를 넣어 자동 테스트를 만들되, 검증기 자체도 감사해야 한다는 실전 교훈과 함께 실제 사용한 테스트 케이스·평가 스크립트를 깃허브에 공개했습니다. LLM 파이프라인에 자동 평가 체계를 붙이려는 개발자에게 바로 참고할 실전 사례입니다.",
+      "titleEn": "\"I tested the AI — but the test-writer (me) was wrong 5 times\" — building an LLM pipeline validator",
+      "bodyEn": "Published today on velog, developer ramses203 shares an experience building a 29-question answer key to auto-grade an order-parsing LLM pipeline — only to find 5 errors hidden in their own answer key, not the AI's output. The lesson: build automated evals with edge cases like ambiguous specs and misleading formats, but audit the validator itself just as hard, and the author published the actual test cases and eval script on GitHub. A concrete, humbling case study for anyone wiring automated evaluation into an LLM pipeline.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://velog.io/@ramses203/ai-exam-author-wrong-5-times",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-07T00:00:00Z",
+      "curatedAt": "2026-08-07T23:11:03Z"
+    },
+    {
+      "id": "curated-20260808-boris-cherny-claude-code-swift-rewrite",
+      "title": "클로드 코드에 \"다 될 때까지 멈추지 마\" 시켰더니 — 앱 전체를 스위프트로 재작성한 2주",
+      "body": "Daring Fireball이 오늘 다룬 글에 따르면, 클로드 코드 개발을 이끈 Boris Cherny는 일렉트론으로 만들어진 클로드 데스크톱 앱을 클로드 코드에게 맡겨 2주 동안 네이티브 스위프트로 통째로 옮기는 실험을 했습니다. 그가 준 지시는 '스위프트 버전과 비교해보고, 다 끝날 때까지 멈추지 마'라는 단순한 목표뿐이었고, 에이전트는 그 사이 자율적으로 계속 작업을 이어갔습니다. 다만 저자는 UI의 진짜 문제는 프레임워크가 아니라 디자인에 있다고 지적해, 장시간 자율 에이전트 루프를 실전에 투입하려는 팀이 성과와 한계를 함께 가늠할 실전 사례입니다.",
+      "titleEn": "Told Claude Code \"don't stop until you're done\" — 2 weeks to rewrite a whole app in Swift",
+      "bodyEn": "Covered today by Daring Fireball, Claude Code lead Boris Cherny ran a two-week experiment directing Claude Code to autonomously port the Electron-based Claude desktop app to native Swift. His instruction was a single open-ended goal — \"compare it to the Swift version, don't stop until you're done\" — and the agent kept working through the loop on its own. The author's caveat: a UI's real problems are usually about design, not framework, a useful reality check for teams considering long-horizon autonomous agent loops for real production rewrites.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-02T00:00:00Z",
+      "curatedAt": "2026-08-07T23:11:03Z"
+    },
     {
       "id": "curated-20260807-hn-agent-permission-misses-ko",
       "title": "AI 에이전트 명령 승인, 사람이 3건 중 1건은 위험 신호 놓쳤다 — 4만 건 게임 시뮬레이션, HN 231점",
@@ -12,58 +90,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-06T11:58:07Z",
-      "curatedAt": "2026-08-06T23:09:21Z"
-    },
-    {
-      "id": "curated-20260807-bun-zig-to-rust-64-agents",
-      "title": "Bun, AI 에이전트 64개 병렬 투입해 53만 줄 Zig 코드를 11일 만에 Rust로 재작성 — GeekNews",
-      "body": "GeekNews에 소개된 Pragmatic Engineer 원문에 따르면, JS 런타임 Bun 팀은 메모리 안전성 문제를 해결하려 535,496줄에 달하는 Zig 코드베이스를 AI 에이전트 64개를 병렬로 돌려 단 11일 만에 Rust로 전환했습니다. API 비용은 입력 590억·출력 6.9억 토큰, 약 16만 5천 달러였고 숙련 엔지니어 3명이 1년 걸릴 작업을 대체한 셈입니다. 성공 비결로 600줄짜리 PORTING.md 가이드 문서, 체계적인 컴파일 에러 해소 루프, '적대적 리뷰 2라운드' 체계를 꼽아, 대규모 리라이트에 에이전트를 투입하려는 팀에게 바로 참고할 실전 사례입니다.",
-      "titleEn": "Bun rewrote 535K lines of Zig to Rust in 11 days using 64 parallel AI agents — via GeekNews",
-      "bodyEn": "Per the Pragmatic Engineer piece featured on GeekNews, the Bun JS-runtime team tackled memory-safety issues by converting 535,496 lines of Zig to Rust using 64 parallel AI agents in just 11 days. API cost ran to roughly $165,000 (59B input tokens, 690M output tokens), replacing what would've taken three experienced engineers a year. The keys to success: a 600-line PORTING.md guide, a systematic compile-error-resolution loop, and two rounds of adversarial review — a concrete blueprint for any team considering agent-driven large-scale rewrites.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31890",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-27T00:00:00Z",
-      "curatedAt": "2026-08-06T23:09:21Z"
-    },
-    {
-      "id": "curated-20260807-comux-multiplexer-ko",
-      "title": "클로드 코드·코덱스 여러 세션 동시에 굴릴 때 알림 놓치는 문제, comux로 해결 — GeekNews",
-      "body": "GeekNews에 소개된 오픈소스 comux는 AI 코딩 에이전트를 여러 개 동시에 돌릴 때 자주 겪는 '완료 알림 놓침', '사용량 한도 초과 알아채지 못함' 문제를 해결하는 tmux 스타일 멀티플렉서입니다. 사이드바에 각 에이전트의 작업 중·대기·막힘 상태를 실시간으로 보여주고, 완료되거나 입력을 기다릴 때 데스크톱 알림을 보내며 재시작 후에도 세션이 유지됩니다. 의존성 없는 단일 바이너리라 curl 한 줄로 설치되고 SSH 헤드리스 서버에서도 그대로 쓸 수 있어, 여러 에이전트 세션을 동시에 관리하는 개발자에게 바로 시도해볼 만한 도구입니다.",
-      "titleEn": "comux — a tmux replacement that fixes missed notifications when running multiple Claude Code/Codex sessions — via GeekNews",
-      "bodyEn": "Featured on GeekNews, the open-source comux is a tmux-style multiplexer built specifically to fix two problems common when running several AI coding agents in parallel: missed completion notifications and unnoticed usage-limit hits. It shows each agent's live status — working, ready, or blocked — in a sidebar, sends desktop notifications on completion or input-wait, and persists sessions across restarts. It ships as a single zero-dependency binary installable via one curl command and works on headless SSH servers, making it an easy pickup for anyone juggling multiple agent sessions.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31859",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-27T00:00:00Z",
-      "curatedAt": "2026-08-06T23:09:21Z"
-    },
-    {
-      "id": "curated-20260807-song-jaekyung-ai-staff-ko",
-      "title": "리니지 창시자 송재경 \"AI 시대엔 코드를 짜는 게 아니라 AI 직원을 관리한다\" — 인벤",
-      "body": "인벤 보도에 따르면, 리니지·아키에이지 창시자 송재경은 사람과 AI 에이전트가 동일한 WebSocket 프로토콜로 접속하는 실험적 MMORPG '오픈 MMO'를 바이브 코딩 방식으로 개발 중입니다. AI가 코드를 쓰고 사람이 리뷰하며 최근엔 서로 다른 LLM이 코드 리뷰까지 맡는 구조로, 그는 자신의 역할이 직접 코딩하던 데서 'AI 직원을 관리하는' 쪽으로 옮겨갔다고 밝혔습니다. 3D 공간 추론 같은 AI의 한계는 여전하지만 생산성은 크게 늘었다는 현업 개발자의 1인칭 증언으로, GeekNews를 통해 확산됐습니다.",
-      "titleEn": "Lineage creator Song Jae-kyung: \"In the AI era you manage AI staff, not write code\" — via Inven",
-      "bodyEn": "Reported by Inven, Song Jae-kyung — creator of Lineage and ArcheAge — is building an experimental MMORPG called 'Open MMO' where human and AI-agent players connect through the identical WebSocket protocol, developed via vibe coding. AI writes the code and humans review it, and recently different LLMs have even started handling code review for each other. He says his own role has shifted from writing code directly to 'managing AI staff' — and despite AI's persistent weaknesses in 3D spatial reasoning, productivity has risen sharply. A first-person account from a veteran developer, spread via GeekNews.",
-      "sourceName": "인벤 (Inven)",
-      "sourceUrl": "https://www.inven.co.kr/webzine/news/?news=318963",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-07-29T00:00:00Z",
-      "curatedAt": "2026-08-06T23:09:21Z"
-    },
-    {
-      "id": "curated-20260807-ai-tool-by-task-guide-ko",
-      "title": "업무별로 골라 쓰는 AI 도구 가이드 — 클로드냐 챗GPT냐, 클라우드냐 로컬이냐 — GeekNews",
-      "body": "GeekNews에 소개된 Ethan Mollick(One Useful Thing)의 글은 업무 성격별로 AI 도구를 고르는 실전 기준을 제시합니다. 일반 업무엔 클로드·챗GPT가 강세지만 의료·법률처럼 고난도 추론이 필요한 중요한 업무엔 Claude Opus·Fable이나 ChatGPT GPT-5.6 Sol을 추천하고, 이메일·드라이브 연동이 필요한 장시간 작업엔 ChatGPT Work·Claude Cowork 같은 클라우드형이, 파일 접근·컴퓨터 제어가 필요하면 로컬형인 코덱스·클로드 코드가 낫다고 정리합니다. 월 20달러 구독 기준으로 짜인 가이드이며, '프롬프트 인젝션은 아직 미해결'이니 에이전트 결과를 위임한 업무처럼 검토하라는 조언도 담겨 있습니다.",
-      "titleEn": "An opinionated guide to picking AI tools by task — Claude vs ChatGPT, cloud vs local — via GeekNews",
-      "bodyEn": "Featured on GeekNews, this piece by Ethan Mollick (One Useful Thing) lays out practical criteria for choosing AI tools by task type. Claude and ChatGPT lead for general work, but high-stakes reasoning tasks like medical or legal work call for Claude Opus/Fable or ChatGPT GPT-5.6 Sol; long-running tasks needing email/Drive integration favor cloud tools like ChatGPT Work or Claude Cowork, while tasks needing file access or computer control favor local tools like Codex or Claude Code. Priced around a $20/month tier, it also warns that prompt injection remains unsolved — treat agent output like delegated work that still needs review.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=31966",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-01T00:00:00Z",
       "curatedAt": "2026-08-06T23:09:21Z"
     },
     {
@@ -197,19 +223,6 @@
       "curatedAt": "2026-08-04T23:14:04Z"
     },
     {
-      "id": "curated-20260804-codex-review-2026",
-      "title": "코덱스 실전 활용 가이드 — 로컬 CLI 루프부터 워크트리 클라우드 위임, GitHub PR 리뷰까지 (2026년 8월 검증판)",
-      "body": "Omid Saffari가 오늘 공개한 코덱스 리뷰는 실사용 기준으로 네 가지 핵심 기능을 짚습니다. 로컬에서는 '결제 웹훅 중복 전송 추적, 멱등성 가드 추가, 결제 테스트 실행'처럼 관찰 가능한 목표를 줘야 진짜 엔지니어링 루프가 되고, AGENTS.md에 불변 규칙을 적어두고 프롬프트엔 작업별 제약만 담으라고 권합니다. 워크트리로 결제 SDK 업그레이드는 로컬에서, 깨지는 브라우저 테스트는 격리 워크트리로, 감사 로깅은 클라우드로 나눠 맡기는 3단계 릴리스 예시와, GitHub PR에서 @codex review·@codex fix로 P0·P1 이슈만 골라 잡는 리뷰 루프도 구체적으로 설명합니다.",
-      "titleEn": "A practical Codex guide — local CLI loops, worktree/cloud delegation, and GitHub PR review (verified August 2026)",
-      "bodyEn": "Published today, Omid Saffari's Codex review breaks down four core capabilities from hands-on use. Locally, Codex needs an observable goal like 'trace duplicate payment-webhook delivery, add an idempotency guard, run the payment tests' to become a real engineering loop — durable rules belong in AGENTS.md, task-specific constraints in the prompt. It walks through a concrete three-part release split across surfaces: the payments SDK upgrade stays local, a flaky browser test gets an isolated worktree, and audit logging goes to Codex cloud — plus the GitHub PR review loop, using @codex review and @codex fix to focus only on P0/P1 findings.",
-      "sourceName": "omidsaffari.com",
-      "sourceUrl": "https://omidsaffari.com/blog/codex-review",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-02T12:20:06Z",
-      "curatedAt": "2026-08-04T00:00:00Z"
-    },
-    {
       "id": "curated-20260804-kbank-agentic-ai-dev-ko",
       "title": "케이뱅크, 개발 전 과정에 에이전틱 AI 도입 — 개발자 50명이 40억 토큰 써봤다",
       "body": "머니투데이가 오늘 보도한 바에 따르면, 케이뱅크가 코드 생성부터 시스템 분석, 사내 지식 검색까지 개발 전 과정을 지원하는 자율형 '에이전틱 AI'를 도입했습니다. 개발자가 '소상공인 대출 신청 절차를 간소화하는 서비스를 만들어줘'라고 요청하면 필요한 기능을 설계해 코드를 작성하고, 기존 서비스의 개선점을 물으면 시스템 구조를 분석해 방향을 제시합니다. 사내망에 구축돼 담당자 정보·내부 규정·개발 표준 등과 연계되며, 시범운영 기간 50명의 개발자가 40억 토큰을 사용해 1인당 하루 평균 책 10권 분량의 텍스트를 처리한 것으로 나타났습니다.",
@@ -234,19 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-03T15:05:33Z",
       "curatedAt": "2026-08-04T00:00:00Z"
-    },
-    {
-      "id": "curated-20260803-mcp-stateless-overhaul-ko",
-      "title": "MCP, 세션·초기화 핸드셰이크 없애고 기업용 인프라로 전면 개편 — ZDNet Korea",
-      "body": "ZDNet Korea가 오늘 보도한 바에 따르면, AI를 사내 시스템·외부 서비스와 연결하는 표준 규격 MCP가 대대적인 개편에 들어갔습니다. 데이비드 소리아 파라 MCP 리드 유지관리자가 공식 블로그로 공개한 로드맵의 핵심은 세션과 초기 연결 확인 절차 의존을 낮춰, 서버가 이전 연결 상태를 기억하지 않고도 요청을 처리하게 만든 것입니다. 이 덕분에 기업은 MCP 서버를 평범한 HTTP 서비스처럼 로드밸런서 뒤에 두고 수평 확장할 수 있게 돼, MCP가 개발자 실험용 규격을 넘어 본격적인 기업형 AI 연동 인프라로 진화하는 신호탄이라는 평가가 나옵니다.",
-      "titleEn": "MCP drops sessions and the init handshake, overhauled into enterprise-grade infrastructure — via ZDNet Korea",
-      "bodyEn": "Published today by ZDNet Korea, MCP — the standard protocol connecting AI to internal systems and external services — is undergoing a major overhaul. Per the roadmap published by MCP lead maintainer David Soria Parra on the official blog, the core change reduces reliance on sessions and the initial-connection handshake, so servers can process requests without remembering prior connection state. That lets enterprises put MCP servers behind an ordinary load balancer and scale horizontally like any HTTP service — a signal, per industry commentary, that MCP is evolving from a developer experiment into real enterprise AI-integration infrastructure.",
-      "sourceName": "ZDNet Korea",
-      "sourceUrl": "https://zdnet.co.kr/view/?no=20260801122235",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-02T00:00:04Z",
-      "curatedAt": "2026-08-03T02:00:00Z"
     },
     {
       "id": "curated-20260723-kurly-ai-agent-orchestration",
