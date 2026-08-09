@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T23:15:00Z",
+  "generatedAt": "2026-08-09T23:05:42Z",
   "videos": [
     {
       "id": "vid-claude-code-full-course-goals-mcp-2026",
@@ -13,82 +13,28 @@
       "addedAt": "2026-08-08T23:15:00Z"
     },
     {
-      "id": "vid-2hun-engineers-coding-agents-2026",
-      "youtubeId": "2HtqFVLgjLI",
-      "category": "usecase",
-      "title": "소프트웨어 엔지니어들이 2026년 실제로 코딩 에이전트를 쓰는 법",
-      "titleEn": "How Software Engineers Actually Use Coding Agents in 2026",
-      "descKo": "현업 엔지니어들이 실제 업무에서 AI 코딩 에이전트를 활용하는 방식을 다룬 영상.",
-      "descEn": "A look at how working software engineers actually integrate AI coding agents into their real workflows.",
-      "addedAt": "2026-08-06T23:09:21Z"
-    },
-    {
-      "id": "vid-codex-complete-guide-2026-ko",
-      "youtubeId": "Z3z93bKMh_I",
-      "category": "usecase",
-      "title": "코덱스 완벽 가이드 2026 — 지금은 코덱스가 최강",
-      "titleEn": "Codex Complete Guide 2026 - Codex seems strongest right now",
-      "descKo": "OpenAI 코덱스(Codex)의 강점과 실제 활용법을 다루는 한국어 가이드 영상.",
-      "descEn": "A Korean-language guide covering OpenAI Codex's strengths and practical usage.",
-      "addedAt": "2026-08-06T23:09:21Z"
-    },
-    {
-      "id": "vid-natehark-32-claude-code-tricks",
-      "youtubeId": "jqoFP9QapXI",
+      "id": "vid-claudelab-5-tricks",
+      "youtubeId": "jFNpskGzX4U",
       "category": "tip",
-      "title": "16분 만에 클로드 코드 실력 올리는 32가지 트릭",
-      "titleEn": "32 Tricks to Level Up Claude Code in 16 Mins",
-      "descKo": "짧은 시간 안에 클로드 코드 활용도를 높이는 32가지 실전 트릭을 빠르게 훑는 영상.",
-      "descEn": "A fast-paced rundown of 32 practical tricks to level up your Claude Code usage in just 16 minutes.",
-      "channel": "Nate Herk | AI Automation",
-      "publishedAt": "2026-04-27T00:00:00Z",
-      "addedAt": "2026-08-05T23:12:00Z"
+      "title": "클로드 코드 실전 트릭 5가지",
+      "titleEn": "5 Claude Code Tricks",
+      "descKo": "클로드 코드 실전 활용도를 높여주는 5가지 실용 트릭을 짧게 소개하는 영상.",
+      "descEn": "Five practical Claude Code tricks to sharpen your daily workflow.",
+      "channel": "ClaudeLab",
+      "publishedAt": "2026-08-01T00:00:00Z",
+      "addedAt": "2026-08-09T23:05:42Z"
     },
     {
-      "id": "vid-shahwali-claude-code-tutorial-beginners",
-      "youtubeId": "sX-FmJL7Wd0",
-      "category": "lecture",
-      "title": "클로드 코드 입문 튜토리얼 — 1시간 만에 스킬·서브에이전트·훅·MCP 마스터하기",
-      "titleEn": "Claude Code Tutorial for Beginners (2026) - Master It in 1 Hour | Skills, Subagents, Hooks & MCP",
-      "descKo": "스킬·서브에이전트·훅·MCP까지 클로드 코드의 핵심 기능을 1시간 안에 훑는 입문 강의.",
-      "descEn": "A 1-hour beginner course covering Claude Code's core features — skills, subagents, hooks, and MCP.",
-      "channel": "Shah Wali",
-      "addedAt": "2026-08-03T02:00:00Z"
-    },
-    {
-      "id": "vid-sihyun-vibecoding-100h-guide-ko",
-      "youtubeId": "km3aogD7wtI",
-      "category": "lecture",
-      "title": "[2026 튜토리얼] 100시간 아끼는 바이브코딩 입문 가이드 — 클로드코드 + 안티그래비티",
-      "titleEn": "[2026 Tutorial] A Vibe Coding Starter Guide That Saves You 100 Hours (Claude Code + Antigravity)",
-      "descKo": "클로드 코드와 안티그래비티를 함께 써서 바이브 코딩 입문 시행착오를 100시간 단축하는 가이드.",
-      "descEn": "A starter guide combining Claude Code and Antigravity to cut roughly 100 hours of trial-and-error out of learning vibe coding.",
-      "channel": "시현의 모험 Sihyun Adventure",
-      "addedAt": "2026-08-03T02:00:00Z"
-    },
-    {
-      "id": "vid-edureka-langgraph-multiagent",
-      "youtubeId": "ZXjfm8NEuIs",
-      "category": "lecture",
-      "title": "LangGraph로 멀티 에이전트 AI 시스템 구축하기 — 완전 정복 강의",
-      "titleEn": "Build Multi-Agent AI Systems using LangGraph | Complete Agentic AI Tutorial",
-      "descKo": "LangGraph로 여러 에이전트가 역할을 나눠 협업하는 멀티 에이전트 시스템을 처음부터 구축하는 구조화된 강의.",
-      "descEn": "A structured tutorial building multi-agent AI systems with LangGraph from scratch, covering agent roles and collaboration.",
-      "channel": "Edureka",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-02T02:00:00Z"
-    },
-    {
-      "id": "vid-ailabs-claude-code-creator-tip-2026",
-      "youtubeId": "pGro_uKt-_M",
+      "id": "vid-editorp-codex-orca-setup-ko",
+      "youtubeId": "Eg5LBD_tzD8",
       "category": "tip",
-      "title": "클로드 코드 창시자가 꼽은 AI 에이전트 최고의 활용 팁",
-      "titleEn": "Claude Code Creator's Greatest Tip For Using AI Agents",
-      "descKo": "클로드 코드를 만든 사람이 직접 꼽은, AI 에이전트를 다룰 때 가장 중요한 실전 팁 하나를 짧게 짚는 영상.",
-      "descEn": "A short video distilling the single most important tip for working with AI agents, straight from a Claude Code creator.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-01T02:00:00Z"
+      "title": "[시즌 3] 코덱스 CLI 설치 + 세팅 가이드 with Orca",
+      "titleEn": "[Season 3] Codex CLI Install + Setup Guide with Orca",
+      "descKo": "오르카(Orca) IDE와 함께 코덱스 CLI를 설치부터 세팅까지 다루는 실전 가이드.",
+      "descEn": "A hands-on Codex CLI install-and-setup guide paired with the Orca IDE.",
+      "channel": "편집자P",
+      "publishedAt": "2026-07-19T00:00:00Z",
+      "addedAt": "2026-08-09T23:05:42Z"
     },
     {
       "id": "vid-jocoding-gpt56-codex-tips-ko",
@@ -103,6 +49,42 @@
       "addedAt": "2026-07-26T02:00:00Z"
     },
     {
+      "id": "vid-ailabs-claude-code-creator-tip-2026",
+      "youtubeId": "pGro_uKt-_M",
+      "category": "tip",
+      "title": "클로드 코드 창시자가 꼽은 AI 에이전트 최고의 활용 팁",
+      "titleEn": "Claude Code Creator's Greatest Tip For Using AI Agents",
+      "descKo": "클로드 코드를 만든 사람이 직접 꼽은, AI 에이전트를 다룰 때 가장 중요한 실전 팁 하나를 짧게 짚는 영상.",
+      "descEn": "A short video distilling the single most important tip for working with AI agents, straight from a Claude Code creator.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "addedAt": "2026-08-01T02:00:00Z"
+    },
+    {
+      "id": "vid-bibl-claude-youtube-growth-ko",
+      "youtubeId": "WwNAPcGjYnc",
+      "category": "usecase",
+      "title": "클로드로 유튜브 채널을 가장 빠르게 키우는 방법 — 완벽 가이드",
+      "titleEn": "The Fastest Way to Grow a YouTube Channel Using Claude — Full Guide",
+      "descKo": "클로드를 실제 채널 운영에 활용해 유튜브 채널을 빠르게 성장시킨 실전 사례를 다루는 풀영상 가이드.",
+      "descEn": "A real use case showing how to grow a YouTube channel fast using Claude, in a full walkthrough guide.",
+      "channel": "비블 bibl",
+      "publishedAt": "2026-08-09T00:00:00Z",
+      "addedAt": "2026-08-09T23:05:42Z"
+    },
+    {
+      "id": "vid-vibelabs-kimi-code-reality-ko",
+      "youtubeId": "AmePj1SI6Z4",
+      "category": "usecase",
+      "title": "AI가 앱은 뚝딱 만들었는데... 회사에서는 왜 못 쓸까? Kimi Code 실전",
+      "titleEn": "AI Built the App in No Time — So Why Can't the Company Actually Use It? A Kimi Code Case Study",
+      "descKo": "Kimi Code로 앱을 빠르게 만들었지만 실제 회사 업무에 적용하는 과정에서 부딪힌 현실적인 문제들을 짚는 실전 사례.",
+      "descEn": "A real-world case on why an app quickly built with Kimi Code struggles to fit actual company use in practice.",
+      "channel": "바이브랩스",
+      "publishedAt": "2026-08-09T00:00:00Z",
+      "addedAt": "2026-08-09T23:05:42Z"
+    },
+    {
       "id": "vid-bridgemind-vibecoding-day216-million",
       "youtubeId": "fswrsxfLMpk",
       "category": "usecase",
@@ -112,18 +94,6 @@
       "descEn": "An ongoing build-in-public series tracking real revenue, day 216 of vibe-coding an app toward $1M.",
       "channel": "BridgeMind",
       "publishedAt": "2026-08-04T00:00:00Z",
-      "addedAt": "2026-08-04T23:14:04Z"
-    },
-    {
-      "id": "vid-freecodecamp-gemini-cli-course",
-      "youtubeId": "XKOR4h3CrwE",
-      "category": "lecture",
-      "title": "Gemini CLI 완전 정복 — 풀코스",
-      "titleEn": "Gemini CLI Essentials – Full Course",
-      "descKo": "Gemini CLI의 핵심 기능을 처음부터 끝까지 다루는 구조화된 풀코스 강의.",
-      "descEn": "A full structured course covering Gemini CLI's core features from start to finish.",
-      "channel": "freeCodeCamp.org",
-      "publishedAt": "2026-04-24T00:00:00Z",
       "addedAt": "2026-08-04T23:14:04Z"
     },
     {
@@ -173,6 +143,41 @@
       "channel": "Mikey No Code",
       "publishedAt": "2026-07-27T00:00:00Z",
       "addedAt": "2026-08-07T23:11:03Z"
+    },
+    {
+      "id": "vid-sihyun-vibecoding-100h-guide-ko",
+      "youtubeId": "km3aogD7wtI",
+      "category": "lecture",
+      "title": "[2026 튜토리얼] 100시간 아끼는 바이브코딩 입문 가이드 — 클로드코드 + 안티그래비티",
+      "titleEn": "[2026 Tutorial] A Vibe Coding Starter Guide That Saves You 100 Hours (Claude Code + Antigravity)",
+      "descKo": "클로드 코드와 안티그래비티를 함께 써서 바이브 코딩 입문 시행착오를 100시간 단축하는 가이드.",
+      "descEn": "A starter guide combining Claude Code and Antigravity to cut roughly 100 hours of trial-and-error out of learning vibe coding.",
+      "channel": "시현의 모험 Sihyun Adventure",
+      "addedAt": "2026-08-03T02:00:00Z"
+    },
+    {
+      "id": "vid-edureka-langgraph-multiagent",
+      "youtubeId": "ZXjfm8NEuIs",
+      "category": "lecture",
+      "title": "LangGraph로 멀티 에이전트 AI 시스템 구축하기 — 완전 정복 강의",
+      "titleEn": "Build Multi-Agent AI Systems using LangGraph | Complete Agentic AI Tutorial",
+      "descKo": "LangGraph로 여러 에이전트가 역할을 나눠 협업하는 멀티 에이전트 시스템을 처음부터 구축하는 구조화된 강의.",
+      "descEn": "A structured tutorial building multi-agent AI systems with LangGraph from scratch, covering agent roles and collaboration.",
+      "channel": "Edureka",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "addedAt": "2026-08-02T02:00:00Z"
+    },
+    {
+      "id": "vid-nicksaraev-claude-code-marketing-course",
+      "youtubeId": "yulWjh3rq28",
+      "category": "lecture",
+      "title": "클로드 코드 마케팅 완전 정복 — 6시간 풀코스",
+      "titleEn": "Claude Code Marketing Full Course (6 Hours)",
+      "descKo": "클로드 코드를 마케팅 업무 전반에 활용하는 법을 처음부터 끝까지 다루는 6시간짜리 풀코스 강의.",
+      "descEn": "A 6-hour structured course on applying Claude Code across marketing workflows, start to finish.",
+      "channel": "Nick Saraev",
+      "publishedAt": "2026-08-08T00:00:00Z",
+      "addedAt": "2026-08-09T23:05:42Z"
     }
   ]
 }
