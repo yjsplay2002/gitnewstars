@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T23:09:49Z",
+  "generatedAt": "2026-08-11T23:20:00Z",
   "videos": [
     {
       "id": "vid-ibm-agent-skills-best-practices",
@@ -49,28 +49,15 @@
       "addedAt": "2026-08-09T23:05:42Z"
     },
     {
-      "id": "vid-editorp-codex-orca-setup-ko",
-      "youtubeId": "Eg5LBD_tzD8",
+      "id": "vid-citizendev9c-mcp-tutorial-ko",
+      "youtubeId": "fkqXQOjj8cA",
       "category": "tip",
-      "title": "[시즌 3] 코덱스 CLI 설치 + 세팅 가이드 with Orca",
-      "titleEn": "[Season 3] Codex CLI Install + Setup Guide with Orca",
-      "descKo": "오르카(Orca) IDE와 함께 코덱스 CLI를 설치부터 세팅까지 다루는 실전 가이드.",
-      "descEn": "A hands-on Codex CLI install-and-setup guide paired with the Orca IDE.",
-      "channel": "편집자P",
-      "publishedAt": "2026-07-19T00:00:00Z",
-      "addedAt": "2026-08-09T23:05:42Z"
-    },
-    {
-      "id": "vid-jocoding-gpt56-codex-tips-ko",
-      "youtubeId": "le-jtop9tLk",
-      "category": "tip",
-      "title": "OpenAI 내부자가 알려주는 GPT-5.6·코덱스 실전 활용법",
-      "titleEn": "An OpenAI Insider's Real-World Guide to GPT-5.6 and Codex",
-      "descKo": "GPT-5.6과 코덱스를 실무에서 바로 써먹는 법을 다루는 인사이더 관점 실전 가이드.",
-      "descEn": "An insider-perspective, hands-on guide to practically using GPT-5.6 and Codex in real work.",
-      "channel": "조코딩 JoCoding",
-      "publishedAt": "2026-07-21T00:00:00Z",
-      "addedAt": "2026-07-26T02:00:00Z"
+      "title": "MCP 써야 진짜 클로드다! 500% 활용 튜토리얼 (개념부터 활용까지)",
+      "titleEn": "You're Not Using Real Claude Without MCP — a 500% Utilization Tutorial",
+      "descKo": "MCP 개념부터 실제 연결·활용까지 클로드를 제대로 쓰는 법을 다루는 실전 튜토리얼.",
+      "descEn": "A practical tutorial covering MCP from core concepts to real setup and usage, to get far more out of Claude.",
+      "channel": "시민개발자 구써",
+      "addedAt": "2026-08-11T23:20:00Z"
     },
     {
       "id": "vid-ailabs-claude-code-creator-tip-2026",
@@ -133,16 +120,15 @@
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
-      "id": "vid-mikeynocode-ai-agent-14min-beginner",
-      "youtubeId": "UyoVmQLekBc",
-      "category": "usecase",
-      "title": "완전 초보가 14분 만에 AI 에이전트 만들기 (2026)",
-      "titleEn": "How I Built an AI Agent in 14 Minutes as a Beginner (2026)",
-      "descKo": "코딩 경험이 거의 없는 초보자가 14분 만에 실제로 동작하는 AI 에이전트를 만들어보는 실습 영상.",
-      "descEn": "A near-beginner builds a working AI agent from scratch in just 14 minutes, step by step.",
-      "channel": "Mikey No Code",
-      "publishedAt": "2026-07-27T00:00:00Z",
-      "addedAt": "2026-08-07T23:11:03Z"
+      "id": "vid-mahlerlab-ai-agent-intro-ko",
+      "youtubeId": "tZ9KFQOA6NM",
+      "category": "lecture",
+      "title": "연구자를 위한 AI 에이전트 입문 강의 (2026.4)",
+      "titleEn": "An Intro to AI Agents for Researchers (2026.4)",
+      "descKo": "클로드 코드·MCP·Agent.md·스킬까지, 연구자 관점에서 AI 에이전트를 처음부터 다루는 입문 강의.",
+      "descEn": "An introductory course on AI agents aimed at researchers, covering Claude Code, MCP, Agent.md, and Skills from the ground up.",
+      "channel": "MahlerLab",
+      "addedAt": "2026-08-11T23:20:00Z"
     },
     {
       "id": "vid-sihyun-vibecoding-100h-guide-ko",
@@ -156,16 +142,26 @@
       "addedAt": "2026-08-03T02:00:00Z"
     },
     {
-      "id": "vid-edureka-langgraph-multiagent",
-      "youtubeId": "ZXjfm8NEuIs",
+      "id": "vid-svdeveloper-claude-code-2h-master-ko",
+      "youtubeId": "vxEvo2BLM6A",
       "category": "lecture",
-      "title": "LangGraph로 멀티 에이전트 AI 시스템 구축하기 — 완전 정복 강의",
-      "titleEn": "Build Multi-Agent AI Systems using LangGraph | Complete Agentic AI Tutorial",
-      "descKo": "LangGraph로 여러 에이전트가 역할을 나눠 협업하는 멀티 에이전트 시스템을 처음부터 구축하는 구조화된 강의.",
-      "descEn": "A structured tutorial building multi-agent AI systems with LangGraph from scratch, covering agent roles and collaboration.",
-      "channel": "Edureka",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-02T02:00:00Z"
+      "title": "[전체강의 통합본] 클로드 코드 2시간 안에 마스터하기 — 입문·실전·심화 완전 정복",
+      "titleEn": "Master Claude Code in 2 Hours (Full Course) — Basics to Advanced",
+      "descKo": "입문부터 실전, 심화까지 클로드 코드를 2시간 안에 정복하도록 설계한 통합 강의.",
+      "descEn": "A single combined course designed to take you from Claude Code basics through practical use to advanced techniques in under 2 hours.",
+      "channel": "실버개발자",
+      "addedAt": "2026-08-11T23:20:00Z"
+    },
+    {
+      "id": "vid-aetherlink-multiagent-orchestration",
+      "youtubeId": "m_pB9RhJ8jU",
+      "category": "lecture",
+      "title": "AI 에이전트 & 멀티 에이전트 시스템 — 엔터프라이즈 오케스트레이션 2026",
+      "titleEn": "AI Agents & Multi-Agent Systems: Enterprise Orchestration 2026",
+      "descKo": "기업 환경에서 멀티 에이전트 오케스트레이션 전략과 ROI, 실제 사례를 구조적으로 다루는 강의.",
+      "descEn": "A structured overview of multi-agent orchestration strategy, ROI, and case studies for enterprise deployments.",
+      "channel": "Aetherlink",
+      "addedAt": "2026-08-11T23:20:00Z"
     },
     {
       "id": "vid-nicksaraev-claude-code-marketing-course",
