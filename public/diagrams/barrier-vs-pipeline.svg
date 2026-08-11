@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-labelledby="t3">
+  <title id="t3">Timeline comparison: with a barrier every item waits for the slowest before the next stage starts; with a pipeline each item flows through stages independently and finishes sooner</title>
+  <style>
+    .s1 { fill:#fff; stroke:#141413; stroke-width:1.2 }
+    .s2 { fill:#f1efe7; stroke:#141413; stroke-width:1.2 }
+    .s3 { fill:#eef1e9; stroke:#4d6b36; stroke-width:1.2 }
+    .idle { fill:#faf9f5; stroke:#ddd8c9; stroke-width:1.2; stroke-dasharray:3 3 }
+    .lb { font:500 12px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#141413 }
+    .sm { font:500 11px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#5f5d57 }
+    .cap { font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#5f5d57; letter-spacing:.12em }
+    .fin { font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#c15f3c; letter-spacing:.06em }
+    .axis { stroke:#ddd8c9; stroke-width:1 }
+    .bar { stroke:#c15f3c; stroke-width:1.4; stroke-dasharray:4 3 }
+  </style>
+
+  <text class="cap" x="8" y="18">BARRIER</text>
+  <line class="axis" x1="70" y1="30" x2="660" y2="30"/>
+  <text class="lb" x="8" y="52">item A</text>
+  <rect class="s1" x="70" y="38" width="120" height="20" rx="2"/>
+  <rect class="idle" x="190" y="38" width="150" height="20" rx="2"/>
+  <rect class="s2" x="340" y="38" width="120" height="20" rx="2"/>
+  <rect class="idle" x="460" y="38" width="80" height="20" rx="2"/>
+  <rect class="s3" x="540" y="38" width="100" height="20" rx="2"/>
+
+  <text class="lb" x="8" y="80">item B</text>
+  <rect class="s1" x="70" y="66" width="270" height="20" rx="2"/>
+  <rect class="s2" x="340" y="66" width="200" height="20" rx="2"/>
+  <rect class="s3" x="540" y="66" width="100" height="20" rx="2"/>
+
+  <line class="bar" x1="340" y1="32" x2="340" y2="96"/>
+  <line class="bar" x1="540" y1="32" x2="540" y2="96"/>
+  <text class="sm" x="344" y="106">barrier</text>
+  <text class="sm" x="544" y="106">barrier</text>
+  <text class="fin" x="648" y="52">done</text>
+  <text class="fin" x="648" y="80">done</text>
+
+  <line class="axis" x1="8" y1="140" x2="712" y2="140"/>
+
+  <text class="cap" x="8" y="172">PIPELINE</text>
+  <line class="axis" x1="70" y1="184" x2="660" y2="184"/>
+  <text class="lb" x="8" y="206">item A</text>
+  <rect class="s1" x="70" y="192" width="120" height="20" rx="2"/>
+  <rect class="s2" x="190" y="192" width="120" height="20" rx="2"/>
+  <rect class="s3" x="310" y="192" width="100" height="20" rx="2"/>
+  <text class="fin" x="418" y="206">done</text>
+
+  <text class="lb" x="8" y="234">item B</text>
+  <rect class="s1" x="70" y="220" width="270" height="20" rx="2"/>
+  <rect class="s2" x="340" y="220" width="200" height="20" rx="2"/>
+  <rect class="s3" x="540" y="220" width="100" height="20" rx="2"/>
+  <text class="fin" x="648" y="234">done</text>
+
+  <text class="sm" x="70" y="264">stage 1</text>
+  <text class="sm" x="200" y="264">stage 2</text>
+  <text class="sm" x="330" y="264">stage 3</text>
+  <text class="sm" x="430" y="264">dashed = waiting, not working</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 250" width="720" height="250" role="img" aria-labelledby="t1">
+  <title id="t1">A four-step chain redrawn as a graph: two arrows carry no data, so the chain opens into parallel work that merges</title>
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#141413"/>
+    </marker>
+    <marker id="a1c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c15f3c"/>
+    </marker>
+  </defs>
+  <style>
+    .n { fill:#fff; stroke:#141413; stroke-width:1.4 }
+    .n-hi { fill:#f6efe9; stroke:#c15f3c; stroke-width:1.4 }
+    .e { stroke:#141413; stroke-width:1.4; fill:none; marker-end:url(#a1) }
+    .e-dead { stroke:#c15f3c; stroke-width:1.4; fill:none; stroke-dasharray:4 4; marker-end:url(#a1c) }
+    .lb { font:600 13px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#141413 }
+    .cap { font:500 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#5f5d57; letter-spacing:.1em }
+    .warn { font:500 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#c15f3c; letter-spacing:.08em }
+  </style>
+
+  <text class="cap" x="8" y="20">CHAIN</text>
+  <g>
+    <rect class="n" x="8" y="34" width="120" height="40" rx="3"/><text class="lb" x="68" y="59" text-anchor="middle">A</text>
+    <rect class="n" x="200" y="34" width="120" height="40" rx="3"/><text class="lb" x="260" y="59" text-anchor="middle">B</text>
+    <rect class="n" x="392" y="34" width="120" height="40" rx="3"/><text class="lb" x="452" y="59" text-anchor="middle">C</text>
+    <rect class="n" x="584" y="34" width="120" height="40" rx="3"/><text class="lb" x="644" y="59" text-anchor="middle">D</text>
+    <path class="e-dead" d="M128 54 H194"/>
+    <path class="e" d="M320 54 H386"/>
+    <path class="e-dead" d="M512 54 H578"/>
+    <text class="warn" x="161" y="90" text-anchor="middle">NO DATA</text>
+    <text class="warn" x="545" y="90" text-anchor="middle">NO DATA</text>
+  </g>
+
+  <line x1="8" y1="120" x2="712" y2="120" stroke="#ddd8c9" stroke-width="1"/>
+
+  <text class="cap" x="8" y="146">GRAPH</text>
+  <g>
+    <rect class="n" x="8" y="180" width="104" height="40" rx="3"/><text class="lb" x="60" y="205" text-anchor="middle">A</text>
+    <rect class="n" x="260" y="156" width="140" height="34" rx="3"/><text class="lb" x="330" y="178" text-anchor="middle">B</text>
+    <rect class="n" x="260" y="210" width="140" height="34" rx="3"/><text class="lb" x="330" y="232" text-anchor="middle">C</text>
+    <rect class="n-hi" x="560" y="180" width="144" height="40" rx="3"/><text class="lb" x="632" y="205" text-anchor="middle">D</text>
+    <path class="e" d="M112 200 C186 200 186 173 254 173"/>
+    <path class="e" d="M112 200 C186 200 186 227 254 227"/>
+    <path class="e" d="M400 173 C480 173 480 200 554 200"/>
+    <path class="e" d="M400 227 C480 227 480 200 554 200"/>
+  </g>
+</svg>

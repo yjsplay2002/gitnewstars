@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" width="720" height="230" role="img" aria-labelledby="t2">
+  <title id="t2">One node splits work to four parallel nodes, which merge back into a single node</title>
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#141413"/>
+    </marker>
+  </defs>
+  <style>
+    .n { fill:#fff; stroke:#141413; stroke-width:1.4 }
+    .n-hi { fill:#eef1e9; stroke:#4d6b36; stroke-width:1.4 }
+    .e { stroke:#141413; stroke-width:1.4; fill:none; marker-end:url(#a2) }
+    .lb { font:600 13px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#141413 }
+    .sm { font:500 12px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#5f5d57 }
+    .cap { font:500 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#5f5d57; letter-spacing:.12em }
+  </style>
+
+  <text class="cap" x="8" y="20">SPLIT</text>
+  <text class="cap" x="300" y="20">PARALLEL</text>
+  <text class="cap" x="612" y="20">MERGE</text>
+
+  <path class="e" d="M116 115 C180 115 190 44 250 44"/>
+  <path class="e" d="M116 115 C180 115 190 91 250 91"/>
+  <path class="e" d="M116 115 C180 115 190 139 250 139"/>
+  <path class="e" d="M116 115 C180 115 190 186 250 186"/>
+  <path class="e" d="M438 44 C520 44 540 115 596 115"/>
+  <path class="e" d="M438 91 C520 91 540 115 596 115"/>
+  <path class="e" d="M438 139 C520 139 540 115 596 115"/>
+  <path class="e" d="M438 186 C520 186 540 115 596 115"/>
+
+  <rect class="n" x="8" y="93" width="108" height="44" rx="3"/>
+  <text class="lb" x="62" y="120" text-anchor="middle">scope</text>
+
+  <rect class="n" x="250" y="28" width="188" height="32" rx="3"/><text class="sm" x="344" y="49" text-anchor="middle">agent 1</text>
+  <rect class="n" x="250" y="75" width="188" height="32" rx="3"/><text class="sm" x="344" y="96" text-anchor="middle">agent 2</text>
+  <rect class="n" x="250" y="123" width="188" height="32" rx="3"/><text class="sm" x="344" y="144" text-anchor="middle">agent 3</text>
+  <rect class="n" x="250" y="170" width="188" height="32" rx="3"/><text class="sm" x="344" y="191" text-anchor="middle">agent 4</text>
+
+  <rect class="n-hi" x="596" y="93" width="116" height="44" rx="3"/>
+  <text class="lb" x="654" y="120" text-anchor="middle">synthesize</text>
+</svg>

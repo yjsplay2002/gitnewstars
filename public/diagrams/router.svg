@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" width="720" height="190" role="img" aria-labelledby="t4">
+  <title id="t4">A router node classifies input, then the code takes one branch: the heavy parallel audit or the light single review</title>
+  <defs>
+    <marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#141413"/>
+    </marker>
+    <marker id="a4m" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#a9a69c"/>
+    </marker>
+  </defs>
+  <style>
+    .n { fill:#fff; stroke:#141413; stroke-width:1.4 }
+    .n-hi { fill:#f6efe9; stroke:#c15f3c; stroke-width:1.4 }
+    .n-mute { fill:#faf9f5; stroke:#c9c5b8; stroke-width:1.2 }
+    .e { stroke:#141413; stroke-width:1.4; fill:none; marker-end:url(#a4) }
+    .e-mute { stroke:#a9a69c; stroke-width:1.2; fill:none; stroke-dasharray:4 4; marker-end:url(#a4m) }
+    .lb { font:600 13px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#141413 }
+    .sm { font:500 12px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#5f5d57 }
+    .mut { font:500 12px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#8a877e }
+    .tag { font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#c15f3c; letter-spacing:.06em }
+    .tagm { font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#8a877e; letter-spacing:.06em }
+  </style>
+
+  <rect class="n" x="8" y="70" width="150" height="46" rx="3"/>
+  <text class="lb" x="83" y="90" text-anchor="middle">classify</text>
+  <text class="sm" x="83" y="107" text-anchor="middle">agent + schema</text>
+
+  <path class="e" d="M158 93 C230 93 240 42 316 42"/>
+  <path class="e-mute" d="M158 93 C230 93 240 148 316 148"/>
+  <text class="tag" x="238" y="36" text-anchor="middle">severity = high</text>
+  <text class="tagm" x="238" y="172" text-anchor="middle">severity = low</text>
+
+  <rect class="n-hi" x="316" y="22" width="180" height="40" rx="3"/>
+  <text class="sm" x="406" y="47" text-anchor="middle">parallel audit</text>
+  <path class="e" d="M496 42 H560"/>
+  <rect class="n" x="560" y="22" width="152" height="40" rx="3"/>
+  <text class="sm" x="636" y="47" text-anchor="middle">judge panel</text>
+
+  <rect class="n-mute" x="316" y="128" width="180" height="40" rx="3"/>
+  <text class="mut" x="406" y="153" text-anchor="middle">quick review</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 210" width="720" height="210" role="img" aria-labelledby="t6">
+  <title id="t6">A loop: finders run, fresh results are filtered against everything seen so far, survivors are verified, and the loop stops after two empty rounds</title>
+  <defs>
+    <marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#141413"/>
+    </marker>
+    <marker id="a6c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#c15f3c"/>
+    </marker>
+  </defs>
+  <style>
+    .n { fill:#fff; stroke:#141413; stroke-width:1.4 }
+    .n-seen { fill:#f6efe9; stroke:#c15f3c; stroke-width:1.4 }
+    .n-ok { fill:#eef1e9; stroke:#4d6b36; stroke-width:1.4 }
+    .e { stroke:#141413; stroke-width:1.4; fill:none; marker-end:url(#a6) }
+    .e-back { stroke:#c15f3c; stroke-width:1.4; fill:none; marker-end:url(#a6c) }
+    .lb { font:600 13px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#141413 }
+    .sm { font:500 12px system-ui,-apple-system,'Segoe UI',sans-serif; fill:#5f5d57 }
+    .tag { font:600 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#c15f3c; letter-spacing:.06em }
+    .cap { font:500 11px ui-monospace,SFMono-Regular,Menlo,monospace; fill:#5f5d57; letter-spacing:.12em }
+  </style>
+
+  <text class="cap" x="8" y="20">ROUND</text>
+
+  <rect class="n" x="8" y="76" width="150" height="46" rx="3"/>
+  <text class="lb" x="83" y="96" text-anchor="middle">finders</text>
+  <text class="sm" x="83" y="113" text-anchor="middle">in parallel</text>
+
+  <path class="e" d="M158 99 H228"/>
+
+  <rect class="n-seen" x="228" y="76" width="176" height="46" rx="3"/>
+  <text class="lb" x="316" y="96" text-anchor="middle">filter vs seen</text>
+  <text class="sm" x="316" y="113" text-anchor="middle">everything, not just kept</text>
+
+  <path class="e" d="M404 99 H474"/>
+
+  <rect class="n" x="474" y="76" width="150" height="46" rx="3"/>
+  <text class="lb" x="549" y="103" text-anchor="middle">verify</text>
+
+  <path class="e" d="M624 99 H690"/>
+  <rect class="n-ok" x="690" y="79" width="22" height="40" rx="3"/>
+
+  <path class="e-back" d="M549 122 C549 178 316 186 83 186 L83 128"/>
+  <text class="tag" x="316" y="176" text-anchor="middle">fresh found: go again</text>
+  <text class="tag" x="640" y="150" text-anchor="middle">2 empty rounds: stop</text>
+</svg>
