@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-08-12T23:09:19Z",
+  "generatedAt": "2026-08-14T23:15:00Z",
   "videos": [
+    {
+      "id": "vid-zinho-3-levels-vibe-coding-claude-code",
+      "youtubeId": "PySsRphFaHA",
+      "category": "usecase",
+      "title": "클로드 코드로 앱을 만드는 바이브 코딩 3단계",
+      "titleEn": "The 3 Levels of Vibe Coding AI Apps with Claude Code",
+      "descKo": "클로드 코드로 앱을 만드는 과정을 난이도별 3단계로 나눠 실제 빌드 과정을 보여주는 영상.",
+      "descEn": "Walks through building an app with Claude Code across three escalating levels of vibe coding complexity.",
+      "channel": "Zinho Automates",
+      "publishedAt": "2026-08-13T00:00:00Z",
+      "addedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "vid-shinyoungsun-claude-code-7-tips-ko",
+      "youtubeId": "NerIz23un3k",
+      "category": "tip",
+      "title": "클로드코드 7가지 꿀팁 총정리 — 해커톤 우승자와 클로드코드 총괄자의 공통점",
+      "titleEn": "7 Claude Code Tips — What a Hackathon Winner and Claude Code's Product Lead Have in Common",
+      "descKo": "해커톤 우승자와 클로드 코드 총괄자의 공통점을 짚으며 클로드 코드 활용 꿀팁 7가지를 정리하는 영상.",
+      "descEn": "Draws parallels between a hackathon winner and Claude Code's product lead while summarizing seven practical Claude Code tips.",
+      "channel": "신영선의 AI탐구",
+      "publishedAt": "2026-03-29T00:00:00Z",
+      "addedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "vid-freecodecamp-gemini-cli-full-course",
+      "youtubeId": "XKOR4h3CrwE",
+      "category": "lecture",
+      "title": "제미나이 CLI 에센셜 — 풀코스",
+      "titleEn": "Gemini CLI Essentials – Full Course",
+      "descKo": "freeCodeCamp이 제공하는 제미나이 CLI 에이전틱 코딩 정식 풀코스 강의.",
+      "descEn": "A full freeCodeCamp course teaching agentic coding with the Gemini CLI from the ground up.",
+      "channel": "freeCodeCamp.org",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "addedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "vid-pookie-codex-cli-beginner-guide",
+      "youtubeId": "sTE0G95uEIw",
+      "category": "lecture",
+      "title": "코덱스 CLI 사용법 — 완전 초보자 가이드",
+      "titleEn": "How To Use Codex CLI: Complete Beginner Guide & Tips",
+      "descKo": "OpenAI 코덱스 CLI를 처음부터 제대로 활용하는 법을 초보자 대상으로 상세히 설명하는 강의형 영상.",
+      "descEn": "A beginner-focused, in-depth guide covering how to use OpenAI's Codex CLI to its full potential.",
+      "channel": "pookie",
+      "publishedAt": "2025-11-24T00:00:00Z",
+      "addedAt": "2026-08-14T23:15:00Z"
+    },
     {
       "id": "vid-ibm-agent-skills-best-practices",
       "youtubeId": "qYNs80FKIVc",
@@ -120,17 +168,6 @@
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
-      "id": "vid-mahlerlab-ai-agent-intro-ko",
-      "youtubeId": "tZ9KFQOA6NM",
-      "category": "lecture",
-      "title": "연구자를 위한 AI 에이전트 입문 강의 (2026.4)",
-      "titleEn": "An Intro to AI Agents for Researchers (2026.4)",
-      "descKo": "클로드 코드·MCP·Agent.md·스킬까지, 연구자 관점에서 AI 에이전트를 처음부터 다루는 입문 강의.",
-      "descEn": "An introductory course on AI agents aimed at researchers, covering Claude Code, MCP, Agent.md, and Skills from the ground up.",
-      "channel": "MahlerLab",
-      "addedAt": "2026-08-11T23:20:00Z"
-    },
-    {
       "id": "vid-sihyun-vibecoding-100h-guide-ko",
       "youtubeId": "km3aogD7wtI",
       "category": "lecture",
@@ -140,40 +177,6 @@
       "descEn": "A starter guide combining Claude Code and Antigravity to cut roughly 100 hours of trial-and-error out of learning vibe coding.",
       "channel": "시현의 모험 Sihyun Adventure",
       "addedAt": "2026-08-03T02:00:00Z"
-    },
-    {
-      "id": "vid-svdeveloper-claude-code-2h-master-ko",
-      "youtubeId": "vxEvo2BLM6A",
-      "category": "lecture",
-      "title": "[전체강의 통합본] 클로드 코드 2시간 안에 마스터하기 — 입문·실전·심화 완전 정복",
-      "titleEn": "Master Claude Code in 2 Hours (Full Course) — Basics to Advanced",
-      "descKo": "입문부터 실전, 심화까지 클로드 코드를 2시간 안에 정복하도록 설계한 통합 강의.",
-      "descEn": "A single combined course designed to take you from Claude Code basics through practical use to advanced techniques in under 2 hours.",
-      "channel": "실버개발자",
-      "addedAt": "2026-08-11T23:20:00Z"
-    },
-    {
-      "id": "vid-aetherlink-multiagent-orchestration",
-      "youtubeId": "m_pB9RhJ8jU",
-      "category": "lecture",
-      "title": "AI 에이전트 & 멀티 에이전트 시스템 — 엔터프라이즈 오케스트레이션 2026",
-      "titleEn": "AI Agents & Multi-Agent Systems: Enterprise Orchestration 2026",
-      "descKo": "기업 환경에서 멀티 에이전트 오케스트레이션 전략과 ROI, 실제 사례를 구조적으로 다루는 강의.",
-      "descEn": "A structured overview of multi-agent orchestration strategy, ROI, and case studies for enterprise deployments.",
-      "channel": "Aetherlink",
-      "addedAt": "2026-08-11T23:20:00Z"
-    },
-    {
-      "id": "vid-nicksaraev-claude-code-marketing-course",
-      "youtubeId": "yulWjh3rq28",
-      "category": "lecture",
-      "title": "클로드 코드 마케팅 완전 정복 — 6시간 풀코스",
-      "titleEn": "Claude Code Marketing Full Course (6 Hours)",
-      "descKo": "클로드 코드를 마케팅 업무 전반에 활용하는 법을 처음부터 끝까지 다루는 6시간짜리 풀코스 강의.",
-      "descEn": "A 6-hour structured course on applying Claude Code across marketing workflows, start to finish.",
-      "channel": "Nick Saraev",
-      "publishedAt": "2026-08-08T00:00:00Z",
-      "addedAt": "2026-08-09T23:05:42Z"
     }
   ]
 }

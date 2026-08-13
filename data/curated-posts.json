@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-12T23:09:19Z",
+  "generatedAt": "2026-08-14T23:15:00Z",
   "posts": [
+    {
+      "id": "curated-20260814-labor0-dependency-graph-orchestration-ko",
+      "title": "SWC 창시자가 만든 'Labor0' — 코딩 에이전트 작업을 의존성 그래프로 조율",
+      "body": "GeekNews에 오늘 소개된 Labor0는 SWC 창시자 강동윤이 Zephyr Cloud에서 만든 Show GN 프로젝트로, 개발 요청을 작은 작업 단위로 쪼개 의존성 그래프로 구성한 뒤 선행 작업이 끝날 때마다 실행 가능한 작업을 계산해 독립적인 작업들을 자동으로 병렬 실행합니다. 자체 에이전트를 새로 만드는 대신 Codex·클로드 코드·OpenCode를 그대로 구동하는 오케스트레이션 레이어로 동작하며, Plan Mode에서 사용자 판단이 필요한 지점마다 웹 푸시 알림을 보내 모바일에서 바로 승인·수정할 수 있게 설계됐습니다. 여러 에이전트를 병렬로 굴리며 작업 순서를 수동 관리하던 팀이라면 바로 참고할 만한 오케스트레이션 패턴입니다.",
+      "titleEn": "Labor0, by SWC's creator, orchestrates coding-agent tasks via a dependency graph",
+      "bodyEn": "Featured today on GeekNews, Labor0 is a Show GN project by Kang Dong-yoon (creator of SWC), built at Zephyr Cloud. It splits a dev request into small tasks arranged as a dependency graph, computing which tasks become runnable as prerequisites finish and auto-running independent ones in parallel. Rather than building a new agent from scratch, it acts as an orchestration layer that drives Codex, Claude Code, and OpenCode directly, and sends web-push notifications whenever Plan Mode needs human judgment — letting you approve or edit from your phone. A concrete orchestration pattern for any team manually managing task order across parallel agents.",
+      "sourceName": "GeekNews · Show GN",
+      "sourceUrl": "https://news.hada.io/topic?id=32446",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-13T00:00:00Z",
+      "curatedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "curated-20260814-ssh-image-drop-raycast-ko",
+      "title": "원격 클로드 코드에 스크린샷 바로 넘기는 Raycast 확장 'SSH Image Drop'",
+      "body": "GeekNews에 오늘 소개된 SSH Image Drop은 SSH로 원격 Mac에서 클로드 코드를 돌릴 때 로컬 클립보드 이미지를 원격 세션에 넘길 방법이 없던 문제를 해결한 Raycast 확장입니다. 단축키 한 번으로 클립보드 이미지를 원격 서버에 업로드하고 경로를 클립보드로 돌려주며, Auto-Paste를 켜두면 Cmd+V 없이도 경로가 자동으로 삽입됩니다. macOS Keychain·Windows DPAPI로 인증 정보를 암호화하고 ~/.ssh/config에 등록된 서버로만 전송을 제한해, 원격 개발 환경에서 스크린샷 공유가 잦은 개발자에게 바로 써볼 만한 도구입니다.",
+      "titleEn": "SSH Image Drop — a Raycast extension for passing screenshots into a remote Claude Code session",
+      "bodyEn": "Featured today on GeekNews, SSH Image Drop is a Raycast extension solving a concrete pain point: there was no way to move a clipboard screenshot into a remote Claude Code session running over SSH. One hotkey uploads the clipboard image to the remote server and returns its path to the clipboard, and with Auto-Paste on, the path gets inserted without even pressing Cmd+V. Credentials are encrypted via macOS Keychain / Windows DPAPI, with transfers restricted to hosts registered in ~/.ssh/config. A ready-to-use tool for anyone doing remote development who shares screenshots often.",
+      "sourceName": "GeekNews · Show GN",
+      "sourceUrl": "https://news.hada.io/topic?id=32462",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-13T00:00:00Z",
+      "curatedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "curated-20260814-orca-parallel-agent-ade-ko",
+      "title": "구독 그대로 여러 에이전트를 병렬로 굴리는 오픈소스 개발환경 'Orca' 공개",
+      "body": "GeekNews에 소개된 오픈소스 Orca는 자신이 이미 구독 중인 Codex·클로드 코드·OpenCode·Pi 등 터미널 CLI 에이전트를 그대로 구동하는 에이전트 개발환경(ADE)입니다. Parallel Worktrees 기능으로 프롬프트 하나를 최대 5개 에이전트에 동시에 분산 실행한 뒤 결과를 비교해 우승본을 병합할 수 있고, 모바일 앱으로 원격 모니터링·후속 지시가 가능하며, Chromium 안에서 UI 요소를 클릭하면 HTML·CSS·스크린샷을 에이전트에 바로 전달하는 Design Mode도 갖췄습니다. MIT 라이선스로 macOS·Windows·Linux·모바일·VPS를 지원해, 여러 코딩 에이전트를 병렬로 비교하며 쓰고 싶은 개발자가 바로 시도해볼 만한 오픈소스입니다.",
+      "titleEn": "Orca — an open-source dev environment for running multiple coding agents in parallel on your own subscriptions",
+      "bodyEn": "Featured on GeekNews, the open-source Orca is an agent development environment (ADE) that drives your existing terminal CLI agents — Codex, Claude Code, OpenCode, Pi — directly on subscriptions you already have. Its Parallel Worktrees feature fans one prompt out to up to 5 agents at once and lets you compare and merge the winning result, a mobile app enables remote monitoring and follow-up instructions, and a Design Mode sends HTML/CSS/screenshots straight to the agent when you click a UI element inside Chromium. MIT-licensed with macOS/Windows/Linux/mobile/VPS support — a ready-to-try pick for anyone who wants to run and compare multiple coding agents in parallel.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/stablyai/orca",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-08T00:00:00Z",
+      "curatedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "curated-20260814-deepseek-harness-agent-framework",
+      "title": "딥시크, 모든 기능을 플러그인으로 뜯어낸 에이전트 프레임워크 'Harness' 개발자 프리뷰 공개 — HN 521점",
+      "body": "오늘 공개된 DeepSeek Harness는 도구·메모리·오케스트레이션까지 에이전트의 모든 기능을 교체 가능한 모듈로 설계한 플러그인 기반 에이전트 프레임워크의 개발자 프리뷰입니다. 모든 도구 호출과 추론 과정을 그대로 추적할 수 있는 완전한 투명성을 갖춰, 자신만의 코딩 에이전트를 밑바닥부터 만들려는 개발자를 겨냥했다고 소개됩니다. HN에서 521점을 받으며 이번 주 최고 화제 중 하나가 됐습니다.",
+      "titleEn": "DeepSeek Harness — a plugin-based agent framework developer preview, 521 pts on HN",
+      "bodyEn": "Published today, DeepSeek Harness is a developer preview of a plugin-based agent framework where every capability — tools, memory, orchestration — is built as a swappable module. It offers full tool-call and reasoning traceability, aimed squarely at developers who want to build their own coding agent from the ground up. 521 points on HN, one of this week's top stories.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://deepseek.com/harness/en/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-13T12:58:02Z",
+      "curatedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "curated-20260814-mcp-memory-sqlite-fts5",
+      "title": "SQLite FTS5 기반 초경량 MCP 메모리 서버 'MCP Memory' 공개, HN 53점",
+      "body": "Show HN에 오늘 공개된 오픈소스 MCP Memory는 구글의 OKF(Open Knowledge Format)와 SQLite FTS5 전문 검색을 결합해 AI 에이전트에게 빠르고 영속적인 메모리를 붙여주는 MCP 서버입니다. 별도 벡터 DB나 무거운 인프라 없이도 과거 대화·작업 맥락을 전문 검색으로 즉시 찾아낼 수 있어, MCP로 에이전트에 장기 기억을 붙이고 싶은 개발자가 가볍게 시도해볼 만한 오픈소스입니다. HN에서 53점을 받았습니다.",
+      "titleEn": "MCP Memory — a lightweight MCP server for fast agent memory using SQLite FTS5, 53 pts on HN",
+      "bodyEn": "Shown on Show HN today, the open-source MCP Memory is an MCP server combining Google's OKF (Open Knowledge Format) with SQLite FTS5 full-text search to give AI agents fast, persistent memory. No vector DB or heavy infrastructure required — past conversations and task context are instantly retrievable via full-text search. A lightweight, ready-to-try pick for anyone wiring long-term memory into an MCP-connected agent. 53 points on HN.",
+      "sourceName": "Hacker News · Show HN",
+      "sourceUrl": "https://github.com/fellowgeek/mcp-memory",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-13T13:57:47Z",
+      "curatedAt": "2026-08-14T23:15:00Z"
+    },
+    {
+      "id": "curated-20260814-copilot-mitm-proxy-context",
+      "title": "깃허브 코파일럿을 MITM 프록시로 들여다보니 — 진짜 제품은 '컨텍스트'였다, HN 194점",
+      "body": "오늘 HN에서 화제가 된 이 글은 깃허브 코파일럿 트래픽을 MitM 프록시로 가로채 분석한 결과를 공개하며, 코파일럿이 워크스페이스 컨텍스트·편집 이력·로컬 SQLite 세션 저장소를 기반으로 동작하는 상태 유지형(stateful) 시스템이라는 점을 드러냅니다. 세션 저장소 안에 암호화되지 않은 메시지·비밀 정보가 그대로 남아있다는 사실도 지적되며, 결국 AI 코딩 도구의 진짜 경쟁력은 모델 자체가 아니라 '컨텍스트를 어떻게 관리하느냐'에 있다는 점을 실측으로 보여줍니다. 자신의 코딩 에이전트나 도구가 컨텍스트를 어떻게 쌓고 있는지 점검하고 싶은 개발자에게 흥미로운 참고 자료로, HN에서 194점을 받았습니다.",
+      "titleEn": "What a MitM proxy on GitHub Copilot reveals — context is the real product, 194 pts on HN",
+      "bodyEn": "Trending on HN today, this post intercepts GitHub Copilot's own traffic via a MitM proxy and finds it's a stateful system built on workspace context, edit history, and a local SQLite session store — with unencrypted messages and secrets sitting inside that store. The finding drives home a concrete point: the real competitive edge in AI coding tools isn't the model itself, it's how context gets managed. Worth a look for anyone curious what their own coding agent or tool is quietly accumulating in local state. 194 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-11T10:40:49Z",
+      "curatedAt": "2026-08-14T23:15:00Z"
+    },
     {
       "id": "curated-20260813-hax-terminal-coding-agent-c",
       "title": "터미널 하나로 끝내는 코딩 에이전트 'Hax' 공개 — C로 짠 미니멀 바이너리, HN 76점",
@@ -28,19 +106,6 @@
       "curatedAt": "2026-08-12T23:09:19Z"
     },
     {
-      "id": "curated-20260813-go-ideal-language-ai-engineering",
-      "title": "구글 공식 블로그 'Go가 AI 협업 코딩에 이상적인 이유' — gofmt·타입 시스템이 AI 환각 잡는다",
-      "body": "구글 개발자 블로그가 어제(8/11) 공개한 글은 AI가 코드를 대량 생성하는 시대에 병목이 '작성'에서 '리뷰·검증'으로 옮겨가면서, 가독성과 신뢰성이 언어 선택의 핵심 기준이 됐다고 짚습니다. Go는 gofmt로 포맷을 강제해 스타일 논쟁을 없애고, 정적 타입 시스템이 컴파일 시점에 AI의 환각성 오류를 잡아내며, 하위 호환성 보장 덕분에 AI가 생성한 코드도 수년간 유지보수가 가능하다는 점을 근거로 듭니다. AI와 사람이 프로덕션 시스템을 안전하게 함께 다루려면 '강한 가드레일'이 필요하다는 것이 결론으로, 팀의 언어 선택 기준을 다시 점검하게 만드는 자료입니다.",
-      "titleEn": "Google's dev blog: why Go is ideal for AI-assisted engineering — gofmt and static types catch hallucinations",
-      "bodyEn": "Published yesterday (Aug 11) on the Google Developers blog, this post argues that as AI generates code at scale, the bottleneck shifts from writing to reviewing and verifying — making readability and reliability the key criteria for language choice. It credits Go's enforced formatting via gofmt for eliminating style debates, its static type system for catching AI hallucinations at compile time, and its strong backward-compatibility guarantees for keeping AI-generated code maintainable for years. The conclusion: humans and AI need \"strong guardrails\" to safely collaborate on production systems — worth a read for any team reconsidering its language choice for AI-heavy codebases.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-11T00:00:00Z",
-      "curatedAt": "2026-08-12T23:09:19Z"
-    },
-    {
       "id": "curated-20260813-xirp-spotify-org-context-agent",
       "title": "스포티파이가 만든 '조직 맥락' AI 코딩 환경 'Xirp' 공개",
       "body": "오늘 GeekNews에 소개된 Xirp는 스포티파이가 만든 에이전틱 개발 환경으로, AI 코딩 에이전트가 '기술적으로는 맞지만 운영상으로는 틀린' 판단을 내리는 문제 — 즉 시스템 소유권·의존성·아키텍처 결정을 모른 채 코드를 고치는 문제 — 를 정면으로 겨냥합니다. 사내 서비스·문서·Spotify Portal에 직접 연결해 에이전트에게 조직의 '집단 기억'을 실시간으로 공급하며, 데스크톱 에이전트와 Workspace 플러그인, 자동 문서화 기능까지 갖추고 특정 모델에 종속되지 않고 여러 AI 모델을 지원합니다. 대규모 조직에서 코딩 에이전트를 굴리며 온보딩·컨텍스트 부족 문제를 겪는 팀이라면 참고할 만한 사례입니다.",
@@ -65,32 +130,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-12T13:37:31Z",
       "curatedAt": "2026-08-12T23:09:19Z"
-    },
-    {
-      "id": "curated-20260813-ai-agent-permission-blind-spots",
-      "title": "AI 에이전트 명령 승인, 사람은 위협 3개 중 1개를 놓쳤다 — 4만 회 게임 실험, HN 339점",
-      "body": "scalex.dev가 공개한 브라우저 게임형 실험은 AI 에이전트가 실행하려는 명령을 사람이 승인·거부하게 해 4만 건의 승인 기록을 분석했는데, 정확도는 66.3%에 그쳐 위협 3개 중 1개꼴로 놓쳤습니다. 자격 증명(credential) 접근형 명령은 파괴적 명령보다 3배 더 자주 놓쳤고, 악성 페이로드가 버젓이 보이는 상황에서도 npm run 스크립트는 64.7%나 그대로 승인되는 사각지대가 확인됐습니다. 결론은 사람의 즉석 검토에만 의존하지 말고 샌드박싱·엄격한 권한 제한·컨텍스트 격리 같은 구조적 장치를 앞세우라는 것으로, 에이전트에게 셸 명령 실행 권한을 주는 모든 팀에 실전 경고가 되는 자료입니다.",
-      "titleEn": "Humans missed 1 in 3 threats approving AI agent commands — a 40k-run study, 339 pts on HN",
-      "bodyEn": "A browser-based game from scalex.dev had humans approve or reject commands an AI agent wanted to run, collecting 40,000 approval decisions — accuracy came out to just 66.3%, meaning roughly 1 in 3 real threats got waved through. Credential-access commands were missed three times more often than destructive ones, and npm run scripts slipped past a blind spot with a 64.7% approval rate even when the malicious payload was plainly visible. The takeaway: don't rely on ad-hoc human review alone — build in sandboxing, strict permission limits, and context isolation instead. A concrete warning for any team giving an agent shell-command execution rights. 339 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://scalex.dev/blog/ai-agent-permissions-stats/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-06T11:58:07Z",
-      "curatedAt": "2026-08-12T23:09:19Z"
-    },
-    {
-      "id": "curated-20260812-gpters-single-canonical-output-ko",
-      "title": "정본은 한 개여야 한다 — AI 에이전트 파이프라인이 두 번째 정본을 만들 뻔한 이야기",
-      "body": "gpters.org에 오늘 올라온 글은 AI 에이전트 파이프라인을 반복 실행할 때 결과물이 여러 버전으로 흩어지는 사고를 막는 3가지 실전 안전장치를 소개합니다. 파일명을 고정하고 '중복 생성 금지'를 명시적으로 지시에 박아두는 것, 스크립트 시작 시점에 의존성을 미리 검증해 불완전한 빌드를 막는 것, 그리고 산출물 안에 신뢰도·검증 메타데이터를 직접 심어 파일을 복사해도 경고가 사라지지 않게 하는 것이 핵심입니다. 지시와 실제 시스템 상태가 어긋날 때는 '현실이 이긴다'는 원칙으로 중복 산출물 대신 문서를 갱신하라는 조언까지 담아, 반복 실행되는 에이전트 파이프라인을 운영하는 개발자에게 바로 적용할 만한 체크리스트입니다.",
-      "titleEn": "\"There must be only one canonical file\" — how a stale instruction almost created a second one",
-      "bodyEn": "Published today on gpters.org, this post covers three concrete safeguards against AI agent pipelines scattering results across multiple output versions on repeated runs: pin the filename and explicitly bake a \"don't duplicate\" instruction into the prompt, validate dependencies at script startup to catch incomplete builds early, and embed trust/verification metadata directly inside the deliverable so warnings survive a file copy. The core rule when instructions conflict with actual system state: \"reality wins\" — update the doc rather than spawn a redundant, disputed-authority output. A practical checklist for anyone running an agent pipeline repeatedly.",
-      "sourceName": "gpters.org",
-      "sourceUrl": "https://www.gpters.org/nocode/post/there-must-only-one-oSuB7XkpopnFCag",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-11T20:00:00Z",
-      "curatedAt": "2026-08-11T23:20:00Z"
     },
     {
       "id": "curated-20260812-gpters-agent-session-handoff-ko",
@@ -132,32 +171,6 @@
       "curatedAt": "2026-08-11T23:20:00Z"
     },
     {
-      "id": "curated-20260812-apple-silicon-macos-vm-llamacpp-gpu",
-      "title": "macOS 가상머신 안에서도 GPU 그대로 쓴다 — llama.cpp 로컬 추론 가속 사례, HN 272점",
-      "body": "오늘 공개된 trycua 팀의 글은 macOS 가상머신에 GPU 패스스루를 붙여 Apple Silicon의 GPU 성능을 가상화 오버헤드 없이 llama.cpp 로컬 추론에 그대로 활용하는 방법을 다룹니다. 로컬 에이전트나 코딩 어시스턴트를 VM 안에 격리해 돌리면서도 온디바이스 LLM 추론 속도를 떨어뜨리고 싶지 않은 팀에게 실제 구성법과 벤치마크를 함께 제시하는 실전 자료로, HN에서 272점을 받았습니다.",
-      "titleEn": "GPU passthrough for macOS VMs — keeping llama.cpp inference fast inside an isolated VM",
-      "bodyEn": "Published today by the trycua team, this post covers wiring GPU passthrough into macOS virtual machines so Apple Silicon's GPU can drive llama.cpp local inference without the usual virtualization overhead. A concrete setup guide plus benchmarks for teams that want to isolate local agents or coding assistants inside a VM without giving up on-device LLM inference speed. 272 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-11T14:50:33Z",
-      "curatedAt": "2026-08-11T23:20:00Z"
-    },
-    {
-      "id": "curated-20260812-needle2-tiny-agent-model",
-      "title": "14MB짜리 초소형 에이전틱 LLM 'Needle 2' 공개 — 라즈베리파이서 500토큰/초, HN 505점",
-      "body": "오늘 공개된 Needle 2는 4500만 파라미터, 14MB 바이너리로 라즈베리파이5·저가 스마트폰·스마트워치·IoT 기기 등 RAM 28MB 수준의 초저사양 환경에서도 돌아가는 초소형 에이전틱 언어모델입니다. 라즈베리파이5에서 초당 500토큰 이상을 처리하며 5~70배 큰 모델과 맞먹는 툴 호출 성능을 낸다고 소개되며, 클라우드 API 없이 기기 안에서 바로 실행되는 프라이빗·저지연 에이전트를 만들려는 개발자에게 바로 참고할 사례입니다. HN에서 505점을 받았습니다.",
-      "titleEn": "Needle 2 — a 14MB agentic LLM that hits 500 tok/s on a Raspberry Pi, 505 pts on HN",
-      "bodyEn": "Published today, Needle 2 is a 45M-parameter, 14MB agentic language model that runs on severely resource-constrained hardware — Raspberry Pi 5s, budget smartphones, smartwatches, IoT devices with as little as 28MB RAM. It hits 500+ tokens/second on a Pi 5 while matching tool-calling performance of models 5-70x larger, making it a concrete option for developers building private, low-latency on-device agents without cloud API calls. 505 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://cactuscompute.com/needle",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-10T17:22:07Z",
-      "curatedAt": "2026-08-11T23:20:00Z"
-    },
-    {
       "id": "curated-20260812-danluu-coding-agent-language-tokens",
       "title": "코딩 에이전트엔 동적 언어가 유리하다는 통념, 실측해보니 아니었다 — danluu.com, HN 244점",
       "body": "danluu.com에 오늘 공개된 실측 글은 러스트 같은 정적 언어가 파이썬 등 동적 언어보다 LLM 코딩 에이전트에서 토큰을 2~3배 더 쓴다는 기존 통념을, zstd 디코더·Pandoc 재구현 같은 실제 복잡한 과제로 직접 검증합니다. 결과는 '섞인 결과'로 노력 수준을 높이면 정적 언어도 충분히 경쟁력 있는 성능을 냈고, 언어 인기도와 에이전트 성능 사이의 상관관계도 약했습니다. 어떤 언어로 에이전트 작업을 시켜야 할지 고민하는 개발자에게 통념을 재검토하게 만드는 실측 자료입니다.",
@@ -168,19 +181,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-10T16:28:58Z",
-      "curatedAt": "2026-08-11T23:20:00Z"
-    },
-    {
-      "id": "curated-20260812-ante-offline-coding-agent",
-      "title": "15MB 단일 바이너리로 돌아가는 오프라인 코딩 에이전트 'Ante' 공개 — 클로드 코드보다 메모리 7~9배 적게, HN 158점",
-      "body": "Show HN에 오늘 공개된 오픈소스 Ante는 Rust로 만든 완전 오프라인 코딩 에이전트로, 외부 의존성 없이 약 15MB 단일 바이너리 안에 llama.cpp 기반 로컬 추론과 Git·Grep 같은 도구까지 내장했습니다. 클로드 코드 대비 메모리·CPU 사용량이 7~9배 적다고 소개되며, 여러 모델 제공자를 자유롭게 바꿔 쓸 수 있어 벤더 종속 없이 로컬이나 컨테이너 어디에나 배포할 수 있습니다. 오프라인·경량 코딩 에이전트가 필요한 개발자라면 바로 시도해볼 만한 오픈소스로, HN에서 158점을 받았습니다.",
-      "titleEn": "Ante — a fully offline coding agent in a single 15MB binary, 7-9x lighter than Claude Code, 158 pts on HN",
-      "bodyEn": "Shown on Show HN today, the open-source Ante is a Rust-built, fully offline coding agent — a ~15MB single binary with no external dependencies, bundling llama.cpp-based local inference plus tools like Git and Grep directly inside it. It reportedly uses 7-9x less memory and CPU than Claude Code, and supports multiple model providers with zero vendor lock-in, deployable anywhere from a laptop to a container. A ready-to-try open-source pick for anyone who needs a lightweight, fully offline coding agent. 158 points on HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/AntigmaLabs/ante",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-10T15:59:23Z",
       "curatedAt": "2026-08-11T23:20:00Z"
     },
     {
