@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-14T23:15:00Z",
+  "generatedAt": "2026-08-15T08:30:00Z",
   "videos": [
+    {
+      "id": "vid-chaseai-1000-hours-claude-code-guide",
+      "youtubeId": "U6k4MeVks_Y",
+      "category": "lecture",
+      "title": "50분 안에 클로드 코드 1000시간 압축 가이드 — 권한·이펙트·플랜 모드까지",
+      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours of Claude Code",
+      "descKo": "폴더 설정, 권한 모드(수동~바이패스), 모델·이펙트 레벨 선택, 플랜 모드 활용법까지 클로드 코드 기초를 처음부터 촘촘하게 다지는 실전 가이드.",
+      "descEn": "A dense practical walkthrough covering folder setup, permission modes (manual to bypass), model/effort level choices, and how to use plan mode to lock in Claude Code fundamentals.",
+      "channel": "Chase AI",
+      "publishedAt": "2026-08-11T23:04:20Z",
+      "addedAt": "2026-08-15T08:30:00Z"
+    },
+    {
+      "id": "vid-aicheatkey-multi-agent-orchestration-ko",
+      "youtubeId": "iNCOuMCzzDg",
+      "category": "usecase",
+      "title": "클로드 코드 + 코덱스 + 제미나이 동시에 굴리는 멀티 에이전트 시스템",
+      "titleEn": "A Multi-Agent System Running Claude Code, Codex, and Gemini Together",
+      "descKo": "클로드 코드가 코덱스·제미나이를 워커로 부리는 멀티 에이전트 오케스트레이션 시스템을 실제로 구축하고, 버그 수정·썸네일 제작·PDF 변환 시연까지 담은 실전 영상.",
+      "descEn": "Builds a real multi-agent orchestration system where Claude Code directs Codex and Gemini as workers, demoed on bug fixes, thumbnail generation, and PDF conversion tasks.",
+      "channel": "AI 치트키",
+      "publishedAt": "2026-05-19T00:00:00Z",
+      "addedAt": "2026-08-15T08:30:00Z"
+    },
     {
       "id": "vid-zinho-3-levels-vibe-coding-claude-code",
       "youtubeId": "PySsRphFaHA",
@@ -85,18 +109,6 @@
       "addedAt": "2026-08-08T23:15:00Z"
     },
     {
-      "id": "vid-claudelab-5-tricks",
-      "youtubeId": "jFNpskGzX4U",
-      "category": "tip",
-      "title": "클로드 코드 실전 트릭 5가지",
-      "titleEn": "5 Claude Code Tricks",
-      "descKo": "클로드 코드 실전 활용도를 높여주는 5가지 실용 트릭을 짧게 소개하는 영상.",
-      "descEn": "Five practical Claude Code tricks to sharpen your daily workflow.",
-      "channel": "ClaudeLab",
-      "publishedAt": "2026-08-01T00:00:00Z",
-      "addedAt": "2026-08-09T23:05:42Z"
-    },
-    {
       "id": "vid-citizendev9c-mcp-tutorial-ko",
       "youtubeId": "fkqXQOjj8cA",
       "category": "tip",
@@ -106,18 +118,6 @@
       "descEn": "A practical tutorial covering MCP from core concepts to real setup and usage, to get far more out of Claude.",
       "channel": "시민개발자 구써",
       "addedAt": "2026-08-11T23:20:00Z"
-    },
-    {
-      "id": "vid-ailabs-claude-code-creator-tip-2026",
-      "youtubeId": "pGro_uKt-_M",
-      "category": "tip",
-      "title": "클로드 코드 창시자가 꼽은 AI 에이전트 최고의 활용 팁",
-      "titleEn": "Claude Code Creator's Greatest Tip For Using AI Agents",
-      "descKo": "클로드 코드를 만든 사람이 직접 꼽은, AI 에이전트를 다룰 때 가장 중요한 실전 팁 하나를 짧게 짚는 영상.",
-      "descEn": "A short video distilling the single most important tip for working with AI agents, straight from a Claude Code creator.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-01T02:00:00Z"
     },
     {
       "id": "vid-bibl-claude-youtube-growth-ko",
