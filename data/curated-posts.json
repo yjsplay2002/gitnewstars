@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-15T08:30:00Z",
+  "generatedAt": "2026-08-15T23:12:33Z",
   "posts": [
+    {
+      "id": "curated-20260816-claude-code-auto-mode-default",
+      "title": "클로드 코드, '오토 모드'가 기본값으로 — HN 291점",
+      "body": "Anthropic이 오늘 클로드 코드의 '오토 모드' — 작업 난이도에 맞춰 모델과 이펙트(effort) 레벨을 자동으로 골라주는 기능 — 를 신규 세션의 기본값으로 전환했다고 발표했습니다. 특정 모델이나 이펙트 레벨을 수동으로 고정하는 기존 방식도 그대로 쓸 수 있지만, 별도 설정이 없으면 이제 오토 모드가 켜진 채로 세션이 시작됩니다. HN에서 291점을 받으며 오토 모드를 끄는 방법과 비용에 미치는 영향을 두고 실사용자들의 활발한 토론이 이어졌습니다.",
+      "titleEn": "Auto mode is now the default in Claude Code — 291 pts on HN",
+      "bodyEn": "Announced today by Anthropic, Claude Code's 'auto mode' — which automatically picks a model and effort level based on task difficulty — is now the default for new sessions. Manually pinning a specific model or effort level still works, but without extra configuration, sessions now start with auto mode on. 291 points on HN, with active discussion among real users about how to disable it and what it does to cost.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-10T03:50:00Z",
+      "curatedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "curated-20260816-toast-search-agent-mixedbread",
+      "title": "믹스드브레드 'Toast 1' 공개 — 검색 특화 에이전트, 오퍼스5급 성능을 10분의 1 비용에, HN 216점",
+      "body": "오늘 공개된 Mixedbread의 Toast 1은 웹·문서 검색에 특화된 에이전트 모델로, 벤치마크에서 클로드 오퍼스 5·GPT-5.6 Sol과 맞먹거나 앞서는 성능을 내면서도 비용은 약 10분의 1, 속도는 약 12배 빠르다고 소개됩니다. 검색 위주 에이전트 워크플로우를 돌리며 범용 모델 비용에 부담을 느끼던 개발자라면 눈여겨볼 만한 소식으로, HN에서 216점을 받았습니다.",
+      "titleEn": "Mixedbread's Toast 1 — a search-focused agent claiming Opus-5-level results at ~10x lower cost, 216 pts on HN",
+      "bodyEn": "Published today, Mixedbread's Toast 1 is an agent model specialized for web and document search, claiming benchmark results that match or beat Claude Opus 5 and GPT-5.6 Sol while costing roughly 10x less and running about 12x faster. Worth a look for anyone running search-heavy agent workflows who's felt the cost of routing everything through a general-purpose model. 216 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.mixedbread.com/blog/toast-1",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-14T15:07:57Z",
+      "curatedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "curated-20260816-yozm-claude-code-6-case-studies-ko",
+      "title": "클로드 코드 길들이기 — 프리랜서부터 CTO까지 6인의 실전 적용기, 요즘IT",
+      "body": "요즘IT에 오늘 올라온 글은 프리랜서 개발자·PM·1인 빌더·기획자·CTO·BizOps 리드 등 6명이 실무에서 클로드 코드를 적용한 사례를 정리합니다. 1인 빌더 김상욱은 CLAUDE.md로 13개 프로젝트의 맥락을 관리하고 세션이 끝나도 '핸드오프' 문서로 전환 비용을 사실상 0으로 줄여, MVP 개발 기간을 1~2주에서 몇 시간으로 단축했다고 밝힙니다. 이현은 30개 캠퍼스의 정산 시스템을 5일 만에 런칭하면서 로그인 속도를 80% 개선한 사례를 공유합니다.",
+      "titleEn": "Taming Claude Code — 6 real-world case studies from freelancer to CTO, via 요즘IT",
+      "bodyEn": "Published today on 요즘IT, this piece rounds up how six people — a freelance developer, a PM, a solo builder, a planner, a CTO, and a BizOps lead — actually use Claude Code at work. Solo builder Kim Sang-wook manages context across 13 projects with CLAUDE.md and cuts session-switch cost to near zero with a 'handoff' doc, shrinking MVP dev time from 1-2 weeks down to a few hours. Lee Hyun shares launching a settlement system for 30 campuses in 5 days while improving login speed by 80%.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3901",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-15T00:00:00Z",
+      "curatedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "curated-20260816-yozm-istqb-ai-qa-agent-ko",
+      "title": "10년 전 자격증 교재가 AI QA 에이전트를 살렸다, 요즘IT",
+      "body": "요즘IT에 오늘 소개된 글은 AI QA 에이전트에게 막연히 '테스트해줘'라고만 시켰더니 핵심 로직 검증을 놓치고도 '모든 테스트 통과'라고만 보고하던 문제를, 1인 개발자가 10년 전 공부했던 ISTQB 자격증 교재를 참고 문서로 던져주는 방법으로 해결한 경험담을 다룹니다. 테스트의 목적(Why)·범위(What)·목표(Goal)를 명문화된 표준 문서로 제시하면 에이전트가 스스로 우선순위를 판단하게 되며, 참고 자료가 많을 땐 검증 전에 구조화 작업부터 먼저 시키라는 구체적 방법론도 함께 제시합니다.",
+      "titleEn": "A decade-old certification textbook saved an AI QA agent, via 요즘IT",
+      "bodyEn": "Featured today on 요즘IT, this post shares how a solo developer fixed a common failure mode — an AI QA agent told simply to 'test this' missing core logic checks while still reporting 'all tests passed' — by feeding it an ISTQB certification textbook studied a decade earlier as a reference document. Giving the agent a formalized standard defining the why, what, and goal of testing lets it prioritize on its own, and the post offers a concrete methodology: when reference material is large, have the agent structure it before verification, not after.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3897",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-14T00:00:00Z",
+      "curatedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "curated-20260816-yozm-top5-agent-skills-ko",
+      "title": "지금 전 세계에서 가장 인기 있는 에이전트 스킬 Top5, 요즘IT",
+      "body": "요즘IT이 오늘 GitHub 스타 수 기준으로 정리한 인기 에이전트 스킬 저장소 톱5는 obra/superpowers(약 27만 스타, 7단계 강제 개발 절차)·affaan-m/ECC(약 24만 스타, 284개 스킬 배포판)·mattpocock/skills(약 21만 스타)·multica-ai/andrej-karpathy-skills(약 20만 스타, 65줄짜리 원칙 문서)·anthropics/skills(약 17만 스타, 공식 레퍼런스) 순입니다. 다섯 저장소 모두 '무엇을 해야 하는가'보다 '무엇을 하지 말아야 하는가'를 명시하는 통제형 접근과, 저자의 사고방식을 스킬 파일로 이식하는 패턴을 공통으로 쓴다고 분석합니다.",
+      "titleEn": "The 5 most popular agent skills in the world right now, via 요즘IT",
+      "bodyEn": "Ranked by GitHub star count and published today on 요즘IT, the top 5 agent-skill repos are obra/superpowers (~270k stars, a mandatory 7-step dev process), affaan-m/ECC (~239k, a 284-skill distribution), mattpocock/skills (~211k), multica-ai/andrej-karpathy-skills (~201k, a 65-line principles doc), and anthropics/skills (~167k, the official reference). The analysis finds a shared pattern across all five: a controlling approach that specifies what NOT to do rather than what to do, transplanting the author's own thinking into the skill file.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3895",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-13T00:00:00Z",
+      "curatedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "curated-20260816-danluu-best-pl-for-coding-agents",
+      "title": "코딩 에이전트에 가장 좋은 프로그래밍 언어는? — danluu의 토큰 효율 분석, HN 261점",
+      "body": "오늘 화제가 된 danluu의 글은 코딩 에이전트가 같은 로직을 여러 언어로 작성할 때 소비하는 토큰 수를 직접 비교해, 언어별 구문 장황함이 에이전트의 속도·비용에 실질적 영향을 준다는 점을 데이터로 보여줍니다. 정적 타입·표준 라이브러리 유무 같은 요인이 토큰 효율과 어떻게 얽히는지도 짚어, 새 프로젝트의 언어를 고를 때 'AI 친화적인가'를 기준에 넣어야 한다는 실용적 논의로 이어졌습니다. HN에서 261점을 받았습니다.",
+      "titleEn": "What's the best programming language for coding agents? — danluu's token-efficiency analysis, 261 pts on HN",
+      "bodyEn": "Trending today, this post by danluu directly measures how many tokens a coding agent burns writing the same logic across different languages, showing with data that per-language verbosity has a real effect on agent speed and cost. It also digs into how static typing and standard-library coverage interact with token efficiency, feeding into a practical discussion about whether 'AI-friendliness' should be a factor when picking a language for a new project. 261 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "http://danluu.com/pl-tokens/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-10T16:28:58Z",
+      "curatedAt": "2026-08-15T23:12:33Z"
+    },
     {
       "id": "curated-20260815-glm-5-3-frontier-coding",
       "title": "지화 'GLM-5.3' 공개 — 코딩 벤치마크 50% 향상, 사이버 보안 능력은 '예상 밖으로' 급성장 — HN 1016점",
@@ -93,19 +171,6 @@
       "curatedAt": "2026-08-14T23:15:00Z"
     },
     {
-      "id": "curated-20260814-ssh-image-drop-raycast-ko",
-      "title": "원격 클로드 코드에 스크린샷 바로 넘기는 Raycast 확장 'SSH Image Drop'",
-      "body": "GeekNews에 오늘 소개된 SSH Image Drop은 SSH로 원격 Mac에서 클로드 코드를 돌릴 때 로컬 클립보드 이미지를 원격 세션에 넘길 방법이 없던 문제를 해결한 Raycast 확장입니다. 단축키 한 번으로 클립보드 이미지를 원격 서버에 업로드하고 경로를 클립보드로 돌려주며, Auto-Paste를 켜두면 Cmd+V 없이도 경로가 자동으로 삽입됩니다. macOS Keychain·Windows DPAPI로 인증 정보를 암호화하고 ~/.ssh/config에 등록된 서버로만 전송을 제한해, 원격 개발 환경에서 스크린샷 공유가 잦은 개발자에게 바로 써볼 만한 도구입니다.",
-      "titleEn": "SSH Image Drop — a Raycast extension for passing screenshots into a remote Claude Code session",
-      "bodyEn": "Featured today on GeekNews, SSH Image Drop is a Raycast extension solving a concrete pain point: there was no way to move a clipboard screenshot into a remote Claude Code session running over SSH. One hotkey uploads the clipboard image to the remote server and returns its path to the clipboard, and with Auto-Paste on, the path gets inserted without even pressing Cmd+V. Credentials are encrypted via macOS Keychain / Windows DPAPI, with transfers restricted to hosts registered in ~/.ssh/config. A ready-to-use tool for anyone doing remote development who shares screenshots often.",
-      "sourceName": "GeekNews · Show GN",
-      "sourceUrl": "https://news.hada.io/topic?id=32462",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-13T00:00:00Z",
-      "curatedAt": "2026-08-14T23:15:00Z"
-    },
-    {
       "id": "curated-20260814-deepseek-harness-agent-framework",
       "title": "딥시크, 모든 기능을 플러그인으로 뜯어낸 에이전트 프레임워크 'Harness' 개발자 프리뷰 공개 — HN 521점",
       "body": "오늘 공개된 DeepSeek Harness는 도구·메모리·오케스트레이션까지 에이전트의 모든 기능을 교체 가능한 모듈로 설계한 플러그인 기반 에이전트 프레임워크의 개발자 프리뷰입니다. 모든 도구 호출과 추론 과정을 그대로 추적할 수 있는 완전한 투명성을 갖춰, 자신만의 코딩 에이전트를 밑바닥부터 만들려는 개발자를 겨냥했다고 소개됩니다. HN에서 521점을 받으며 이번 주 최고 화제 중 하나가 됐습니다.",
@@ -116,32 +181,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-13T12:58:02Z",
-      "curatedAt": "2026-08-14T23:15:00Z"
-    },
-    {
-      "id": "curated-20260814-mcp-memory-sqlite-fts5",
-      "title": "SQLite FTS5 기반 초경량 MCP 메모리 서버 'MCP Memory' 공개, HN 53점",
-      "body": "Show HN에 오늘 공개된 오픈소스 MCP Memory는 구글의 OKF(Open Knowledge Format)와 SQLite FTS5 전문 검색을 결합해 AI 에이전트에게 빠르고 영속적인 메모리를 붙여주는 MCP 서버입니다. 별도 벡터 DB나 무거운 인프라 없이도 과거 대화·작업 맥락을 전문 검색으로 즉시 찾아낼 수 있어, MCP로 에이전트에 장기 기억을 붙이고 싶은 개발자가 가볍게 시도해볼 만한 오픈소스입니다. HN에서 53점을 받았습니다.",
-      "titleEn": "MCP Memory — a lightweight MCP server for fast agent memory using SQLite FTS5, 53 pts on HN",
-      "bodyEn": "Shown on Show HN today, the open-source MCP Memory is an MCP server combining Google's OKF (Open Knowledge Format) with SQLite FTS5 full-text search to give AI agents fast, persistent memory. No vector DB or heavy infrastructure required — past conversations and task context are instantly retrievable via full-text search. A lightweight, ready-to-try pick for anyone wiring long-term memory into an MCP-connected agent. 53 points on HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/fellowgeek/mcp-memory",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-13T13:57:47Z",
-      "curatedAt": "2026-08-14T23:15:00Z"
-    },
-    {
-      "id": "curated-20260814-copilot-mitm-proxy-context",
-      "title": "깃허브 코파일럿을 MITM 프록시로 들여다보니 — 진짜 제품은 '컨텍스트'였다, HN 194점",
-      "body": "오늘 HN에서 화제가 된 이 글은 깃허브 코파일럿 트래픽을 MitM 프록시로 가로채 분석한 결과를 공개하며, 코파일럿이 워크스페이스 컨텍스트·편집 이력·로컬 SQLite 세션 저장소를 기반으로 동작하는 상태 유지형(stateful) 시스템이라는 점을 드러냅니다. 세션 저장소 안에 암호화되지 않은 메시지·비밀 정보가 그대로 남아있다는 사실도 지적되며, 결국 AI 코딩 도구의 진짜 경쟁력은 모델 자체가 아니라 '컨텍스트를 어떻게 관리하느냐'에 있다는 점을 실측으로 보여줍니다. 자신의 코딩 에이전트나 도구가 컨텍스트를 어떻게 쌓고 있는지 점검하고 싶은 개발자에게 흥미로운 참고 자료로, HN에서 194점을 받았습니다.",
-      "titleEn": "What a MitM proxy on GitHub Copilot reveals — context is the real product, 194 pts on HN",
-      "bodyEn": "Trending on HN today, this post intercepts GitHub Copilot's own traffic via a MitM proxy and finds it's a stateful system built on workspace context, edit history, and a local SQLite session store — with unencrypted messages and secrets sitting inside that store. The finding drives home a concrete point: the real competitive edge in AI coding tools isn't the model itself, it's how context gets managed. Worth a look for anyone curious what their own coding agent or tool is quietly accumulating in local state. 194 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-11T10:40:49Z",
       "curatedAt": "2026-08-14T23:15:00Z"
     },
     {
@@ -171,32 +210,6 @@
       "curatedAt": "2026-08-12T23:09:19Z"
     },
     {
-      "id": "curated-20260813-xirp-spotify-org-context-agent",
-      "title": "스포티파이가 만든 '조직 맥락' AI 코딩 환경 'Xirp' 공개",
-      "body": "오늘 GeekNews에 소개된 Xirp는 스포티파이가 만든 에이전틱 개발 환경으로, AI 코딩 에이전트가 '기술적으로는 맞지만 운영상으로는 틀린' 판단을 내리는 문제 — 즉 시스템 소유권·의존성·아키텍처 결정을 모른 채 코드를 고치는 문제 — 를 정면으로 겨냥합니다. 사내 서비스·문서·Spotify Portal에 직접 연결해 에이전트에게 조직의 '집단 기억'을 실시간으로 공급하며, 데스크톱 에이전트와 Workspace 플러그인, 자동 문서화 기능까지 갖추고 특정 모델에 종속되지 않고 여러 AI 모델을 지원합니다. 대규모 조직에서 코딩 에이전트를 굴리며 온보딩·컨텍스트 부족 문제를 겪는 팀이라면 참고할 만한 사례입니다.",
-      "titleEn": "Xirp — Spotify's organizational-context AI coding environment",
-      "bodyEn": "Featured today on GeekNews, Xirp is an agentic development environment built by Spotify to tackle a specific failure mode: AI coding agents making decisions that are \"technically correct and operationally wrong\" because they don't understand system ownership, dependencies, or past architectural decisions. It connects directly to internal services, docs, and the Spotify Portal to feed agents real-time organizational memory, and ships a desktop agent, a Workspace plugin for shared context, and automatic documentation generation — all while staying model-agnostic. A concrete reference point for any large org whose coding agents keep tripping over missing institutional context.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://xirp.spotify.com/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-12T00:00:00Z",
-      "curatedAt": "2026-08-12T23:09:19Z"
-    },
-    {
-      "id": "curated-20260813-litedeck-ssh-claude-codex-gui",
-      "title": "SSH 포트 하나로 클로드·코덱스와 원격 서버 개발 — 'LiteDeck' 공개, GeekNews",
-      "body": "GeekNews가 오늘 소개한 오픈소스 LiteDeck은 서버에 별도 에이전트나 데몬을 설치하지 않고 기존 SSH 연결만으로 파일 관리·코드 편집·서비스 제어·프로세스 모니터링·Docker 컨테이너 관리·터미널까지 한 화면에서 다루는 경량 네이티브 데스크톱 앱입니다. MCP로 클로드 코드·클로드 데스크톱과 연동해 동일한 인증된 SSH 연결로 원격 서버를 조회·수정하게 해주되, 변경 작업마다 명시적 승인을 거치게 설계했습니다. 다운로드 용량 5~10MB, 설치 후 13~16MB, 시작 1초 이내이며 macOS·Windows·Linux를 지원하고 로그인·데이터 수집이 전혀 없는 완전 오픈소스(Apache 2.0)로, 서버 2~6대를 관리하는 소규모 팀에게 CLI 수준의 제어력을 GUI로 제공합니다.",
-      "titleEn": "LiteDeck — manage remote servers over one SSH port with Claude and Codex, via GeekNews",
-      "bodyEn": "Featured today on GeekNews, the open-source LiteDeck is a lightweight native desktop app that handles file management, code editing, service control, process monitoring, Docker container management, and a terminal — all through an existing SSH connection, with zero server-side agents or daemons to install. It integrates with Claude Code and Claude Desktop via MCP, letting Claude query and modify remote servers over the same authenticated SSH connection, with explicit approval required for every change. At 5-10MB to download (13-16MB installed), sub-1-second startup, support for macOS/Windows/Linux, and fully open source under Apache 2.0 with no login or data collection, it's built for small teams managing 2-6 servers who want CLI-level control in a GUI.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://github.com/cpprhtn/LiteDeck",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-12T13:37:31Z",
-      "curatedAt": "2026-08-12T23:09:19Z"
-    },
-    {
       "id": "curated-20260812-gpters-agent-session-handoff-ko",
       "title": "다음 세션이 30초 만에 이어받았다 — 완료를 반복하지 않는 인수인계법",
       "body": "gpters.org에 오늘 올라온 글은 AI 에이전트 세션이 끝나고 다음 세션으로 작업을 넘길 때, 이미 끝난 작업을 처음부터 다시 반복하거나 오래된 문서를 무작정 믿는 실수를 막는 인수인계 방법을 소개합니다. 핵심은 '완료했다'는 서술 대신 실제로 재검증할 수 있는 명령어 3개를 인수인계 문서에 그대로 박아 넣어, 다음 세션이 30초 안에 상태를 직접 확인하고 이어받게 만드는 것입니다. 인수인계 문서를 자동 정리 도구의 손이 닿지 않는 위치에 보관하고, '디스크가 문서보다 우선한다'는 원칙을 명시해 문서와 실제 상태가 어긋났을 때 바로 잡아낼 수 있게 설계했습니다. 여러 세션을 이어가며 작업하는 에이전트 워크플로우에 바로 적용할 만한 패턴입니다.",
@@ -223,24 +236,11 @@
       "curatedAt": "2026-08-11T23:20:00Z"
     },
     {
-      "id": "curated-20260812-mcptoon-token-efficient-mcp-cli",
-      "title": "MCP 툴 하나 부를 때마다 토큰 4만~7만 개? 97% 줄이는 CLI 'Mcptoon' 공개, HN 67점",
-      "body": "Show HN에 오늘 공개된 오픈소스 Mcptoon은 MCP 서버에 접속해 도구 목록·실행 결과를 JSON 대신 TOON(Token-Optimized Object Notation)이라는 압축 포맷으로 바꿔 돌려주는 CLI 클라이언트입니다. 대화 하나에서 실제 작업을 시작하기도 전에 MCP 툴 탐색만으로 4만~7만 토큰이 소모되는 문제를 겨냥해, 툴 탐색 토큰을 97% 줄이고 실행 결과도 JSON 대비 40~60% 줄인다고 소개됩니다. MCP를 붙인 에이전트의 컨텍스트 낭비를 줄이려는 개발자에게 바로 시도해볼 만한 오픈소스로, HN에서 67점을 받았습니다.",
-      "titleEn": "Mcptoon — a CLI that cuts MCP tool-discovery tokens by 97%, 67 pts on HN",
-      "bodyEn": "Shown on Show HN today, the open-source Mcptoon is a CLI client that connects to MCP servers and returns tool listings and results in a compressed format called TOON (Token-Optimized Object Notation) instead of raw JSON. It targets the common problem of MCP tool discovery alone burning 40,000-70,000 tokens before any real work starts, claiming a 97% cut in discovery tokens and a 40-60% cut in result tokens versus JSON. A ready-to-try pick for anyone wiring MCP into an agent and watching context get eaten by tool overhead. 67 points on HN.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://github.com/activeing123/mcptoon",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-11T05:26:58Z",
-      "curatedAt": "2026-08-11T23:20:00Z"
-    },
-    {
       "id": "curated-20260811-claude-code-commands-rules-skills-hooks-ko",
       "title": "클로드 코드 1년 실전기 — Commands·Rules·Skills·Hooks 4장치로 정리, velog",
-      "body": "velog에 오늘 올라온 글에서 개발자 s_soo100은 1년간 클로드 코드를 실사용하며 쌓은 노하우를 Commands·Rules·Skills·Hooks 네 가지 장치로 정리합니다. 특히 반복되는 실수 패턴을 그때그때 지적하는 대신 donts.md 같은 규칙 파일로 승격시키고, 세션이 끝나도 남는 feedback 메모리 파일에 '왜 이 방식을 쓰면 안 되는지'까지 기록해 다음 세션에서 같은 실수를 반복하지 않게 만드는 방법론이 핵심입니다. 클로드 코드를 팀 전체가 일관되게 쓰도록 환경을 다듬고 싶은 개발자에게 바로 참고할 실전 가이드입니다.",
+      "body": "velog에 올라온 글에서 개발자 s_soo100은 1년간 클로드 코드를 실사용하며 쌓은 노하우를 Commands·Rules·Skills·Hooks 네 가지 장치로 정리합니다. 특히 반복되는 실수 패턴을 그때그때 지적하는 대신 donts.md 같은 규칙 파일로 승격시키고, 세션이 끝나도 남는 feedback 메모리 파일에 '왜 이 방식을 쓰면 안 되는지'까지 기록해 다음 세션에서 같은 실수를 반복하지 않게 만드는 방법론이 핵심입니다. 클로드 코드를 팀 전체가 일관되게 쓰도록 환경을 다듬고 싶은 개발자에게 시간이 지나도 바로 참고할 실전 가이드입니다.",
       "titleEn": "A year of real-world Claude Code use — organized into Commands, Rules, Skills, and Hooks, via velog",
-      "bodyEn": "Published today on velog, developer s_soo100 distills a year of hands-on Claude Code use into four devices: Commands, Rules, Skills, and Hooks. The core method: instead of correcting the same mistake pattern over and over in conversation, promote it into a rule file like donts.md, and keep a persistent feedback-memory file that records *why* a given approach is wrong — so the next session doesn't repeat it. A practical guide for anyone trying to make Claude Code usage consistent across a whole team.",
+      "bodyEn": "Published on velog, developer s_soo100 distills a year of hands-on Claude Code use into four devices: Commands, Rules, Skills, and Hooks. The core method: instead of correcting the same mistake pattern over and over in conversation, promote it into a rule file like donts.md, and keep a persistent feedback-memory file that records *why* a given approach is wrong — so the next session doesn't repeat it. An evergreen, practical guide for anyone trying to make Claude Code usage consistent across a whole team.",
       "sourceName": "velog",
       "sourceUrl": "https://velog.io/@s_soo100/Claude-Code-%EC%8B%A4%EC%A0%84-%ED%99%9C%EC%9A%A9-%ED%8C%81-%ED%99%98%EA%B2%BD-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81",
       "mediaType": "none",
@@ -251,9 +251,9 @@
     {
       "id": "curated-20260811-hallmark-ai-tell-design-skill-ko",
       "title": "'AI 티' 나는 디자인 없애는 스킬 'hallmark' 공개, GeekNews",
-      "body": "GeekNews에 오늘 소개된 오픈소스 hallmark는 바이브 코딩으로 뽑아낸 UI가 흔히 갖는 '딱 봐도 AI가 만든' 느낌 — 과도한 그라데이션, 뻔한 아이콘 배치, 정형화된 카드 레이아웃 — 을 잡아내고 고쳐주는 에이전트 스킬입니다. 코딩 에이전트에 스킬로 붙여두면 컴포넌트를 생성할 때마다 자동으로 디자인 품질을 점검하도록 만들어, 디자이너 없이 바이브 코딩만으로 결과물을 내는 개발자에게 바로 시도해볼 만한 도구입니다.",
+      "body": "GeekNews에 소개된 오픈소스 hallmark는 바이브 코딩으로 뽑아낸 UI가 흔히 갖는 '딱 봐도 AI가 만든' 느낌 — 과도한 그라데이션, 뻔한 아이콘 배치, 정형화된 카드 레이아웃 — 을 잡아내고 고쳐주는 에이전트 스킬입니다. 코딩 에이전트에 스킬로 붙여두면 컴포넌트를 생성할 때마다 자동으로 디자인 품질을 점검하도록 만들어, 디자이너 없이 바이브 코딩만으로 결과물을 내는 개발자에게 바로 시도해볼 만한 도구입니다.",
       "titleEn": "hallmark — an open-source skill that strips the 'obviously AI-made' look from vibe-coded UI, via GeekNews",
-      "bodyEn": "Featured today on GeekNews, the open-source hallmark is an agent skill that catches and fixes the tell-tale 'obviously AI-generated' look common in vibe-coded UI — over-used gradients, generic icon placement, cookie-cutter card layouts. Wired in as a skill, it auto-checks design quality every time a coding agent generates a component. A ready-to-try tool for developers shipping UI purely through vibe coding, without a designer in the loop.",
+      "bodyEn": "Featured on GeekNews, the open-source hallmark is an agent skill that catches and fixes the tell-tale 'obviously AI-generated' look common in vibe-coded UI — over-used gradients, generic icon placement, cookie-cutter card layouts. Wired in as a skill, it auto-checks design quality every time a coding agent generates a component. A ready-to-try tool for developers shipping UI purely through vibe coding, without a designer in the loop.",
       "sourceName": "GeekNews",
       "sourceUrl": "https://github.com/Nutlope/hallmark",
       "mediaType": "none",

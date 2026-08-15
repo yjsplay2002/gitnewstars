@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-08-15T08:30:00Z",
+  "generatedAt": "2026-08-15T23:12:33Z",
   "videos": [
+    {
+      "id": "vid-bri-git-worktrees-parallel-agents",
+      "youtubeId": "n35KalqEwJc",
+      "category": "tip",
+      "title": "git worktree로 클로드 코드 여러 개 동시에 돌리기",
+      "titleEn": "Git Worktrees Explained — Run Multiple AI Agents in Parallel (Claude Code Tutorial)",
+      "descKo": "git worktree로 하나의 저장소에서 여러 클로드 코드 세션을 각자 다른 브랜치로 동시에 실행하는 법을 설명하는 영상. 충돌 없이 독립적인 작업을 진짜 병렬로 처리할 수 있다.",
+      "descEn": "Explains how to use git worktrees to run several isolated Claude Code sessions on one repo at the same time, each on its own branch, with zero conflicts — turning independent tasks into true parallel agent runs.",
+      "channel": "bri",
+      "publishedAt": "2026-06-14T00:00:00Z",
+      "addedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "vid-rootai-codex-2026-beginner-guide-ko",
+      "youtubeId": "iupJvraoVow",
+      "category": "lecture",
+      "title": "코덱스 2026 기초 가이드 — 핵심 기능 설명부터 실습까지",
+      "titleEn": "Codex 2026 Basics Guide — Core Features and Hands-On Practice",
+      "descKo": "OpenAI 코덱스 설치·플러그인·자동화·목표 설정 모드·앱샷 기능까지 챕터별로 다루는 초급자용 구조화 강의.",
+      "descEn": "A structured beginner course on OpenAI Codex with timestamped chapters covering installation, plugins, automation, goal-setting mode, and the app-shot feature.",
+      "channel": "이동훈의 루트AI",
+      "publishedAt": "2026-06-05T00:00:00Z",
+      "addedAt": "2026-08-15T23:12:33Z"
+    },
+    {
+      "id": "vid-bnk-vibe-coding-5b-revenue-ko",
+      "youtubeId": "5GqQsqtG_2k",
+      "category": "usecase",
+      "title": "바이브 코딩으로 만든 앱, 6개월 만에 50억 매출 찍었다",
+      "titleEn": "The App Built with Vibe Coding Hit ₩5 Billion in Revenue in 6 Months",
+      "descKo": "바이브 코딩으로 만든 앱이 6개월 만에 50억 매출을 낸 실제 사례를 저널리스트와 유튜버 조코딩이 토크쇼 형식으로 짚어보는 영상.",
+      "descEn": "A talk-show-style episode where a journalist and YouTuber discuss a real vibe-coded app that reportedly reached ₩5 billion in revenue within six months.",
+      "channel": "BNK금융그룹",
+      "publishedAt": "2026-07-08T00:00:00Z",
+      "addedAt": "2026-08-15T23:12:33Z"
+    },
     {
       "id": "vid-chaseai-1000-hours-claude-code-guide",
       "youtubeId": "U6k4MeVks_Y",
@@ -86,29 +122,6 @@
       "addedAt": "2026-08-10T23:09:49Z"
     },
     {
-      "id": "vid-aimaster-gemini-ecosystem-tutorial",
-      "youtubeId": "JWL0uiLjyIE",
-      "category": "lecture",
-      "title": "제미나이 튜토리얼 — 구글 AI 생태계 2026년 활용법 완전 정복",
-      "titleEn": "Gemini Tutorial: How to Use the Google AI Ecosystem in 2026",
-      "descKo": "제미나이를 중심으로 구글 AI 생태계 전체를 활용하는 법을 처음부터 구조적으로 다루는 강의.",
-      "descEn": "A structured course covering how to use the whole Google AI ecosystem centered on Gemini, from the ground up.",
-      "channel": "AI Master",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-10T23:09:49Z"
-    },
-    {
-      "id": "vid-claude-code-full-course-goals-mcp-2026",
-      "youtubeId": "7l6bXLAKyEI",
-      "category": "lecture",
-      "title": "클로드 코드 풀코스 — 자율 목표(/goal), MCP 연결, VS Code 설정까지",
-      "titleEn": "Claude Code Full Course – Autonomous Goals, MCP, and VS Code Setup",
-      "descKo": "/goal 명령으로 자율 작업을 실행하고 MCP로 원격 도구·API를 연결하며, VS Code에서 깃허브 기반 변경 관리까지 다루는 실습형 풀코스 강의.",
-      "descEn": "A full walkthrough of the /goal command for autonomous task execution, connecting remote tools and APIs via MCP, and GitHub-based change management inside VS Code.",
-      "publishedAt": "2026-08-05T00:00:00Z",
-      "addedAt": "2026-08-08T23:15:00Z"
-    },
-    {
       "id": "vid-citizendev9c-mcp-tutorial-ko",
       "youtubeId": "fkqXQOjj8cA",
       "category": "tip",
@@ -153,18 +166,6 @@
       "descEn": "1,000 hours of real Claude Code usage compressed into an 8-minute rundown of hard-won lessons.",
       "channel": "Jay Choi | 인디해커 라이프",
       "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-07T23:11:03Z"
-    },
-    {
-      "id": "vid-goodfilter-codex-usage-summary-ko",
-      "youtubeId": "q3ddWWFZMRg",
-      "category": "usecase",
-      "title": "단 1개의 AI만 써야한다면... 코덱스 활용법 총정리",
-      "titleEn": "If You Could Only Use One AI... A Full Rundown of Codex",
-      "descKo": "코덱스 하나로 실무 워크플로우를 어디까지 커버할 수 있는지 실사용 기준으로 정리한 영상.",
-      "descEn": "A hands-on rundown of how far a single tool — Codex — can cover a real work workflow.",
-      "channel": "긍정필터",
-      "publishedAt": "2026-08-02T00:00:00Z",
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
