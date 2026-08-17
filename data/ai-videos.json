@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-15T23:12:33Z",
+  "generatedAt": "2026-08-17T23:13:40Z",
   "videos": [
+    {
+      "id": "vid-ailabs-boris-cherny-claude-code-tip",
+      "youtubeId": "pGro_uKt-_M",
+      "category": "tip",
+      "title": "클로드 코드 창시자가 말하는 AI 에이전트 활용 최고의 팁",
+      "titleEn": "Claude Code Creator's Greatest Tip For Using AI Agents",
+      "descKo": "클로드 코드 개발에 참여한 Boris Cherny가 실제로 에이전트를 다루는 방식을 보여주며, 최신 모델 기준으로 가장 효과적인 활용 팁을 짚어주는 영상.",
+      "descEn": "AI LABS breaks down Claude Code creator Boris Cherny's own workflow, showing the single most effective way to work with agents on today's models.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-07-31T00:00:00Z",
+      "addedAt": "2026-08-17T23:13:40Z"
+    },
+    {
+      "id": "vid-alex-technote-vibe-coding-troubleshoot-ko",
+      "youtubeId": "2vnr5g4DFqU",
+      "category": "usecase",
+      "title": "바이브 코딩 막힐 때 뚫는 법 — 실전 트러블슈팅",
+      "titleEn": "Unblocking Vibe Coding When You're Stuck — A Practical Walkthrough",
+      "descKo": "바이브 코딩을 시작한 사람들이 자주 막히는 지점들을 실제 화면으로 짚어가며 해결하는 실전 영상.",
+      "descEn": "A hands-on walkthrough addressing the common points where beginners get stuck in vibe coding, screen-recorded start to finish.",
+      "channel": "기술노트with 알렉",
+      "publishedAt": "2026-05-21T00:00:00Z",
+      "addedAt": "2026-08-17T23:13:40Z"
+    },
     {
       "id": "vid-bri-git-worktrees-parallel-agents",
       "youtubeId": "n35KalqEwJc",
@@ -83,30 +107,6 @@
       "descEn": "Draws parallels between a hackathon winner and Claude Code's product lead while summarizing seven practical Claude Code tips.",
       "channel": "신영선의 AI탐구",
       "publishedAt": "2026-03-29T00:00:00Z",
-      "addedAt": "2026-08-14T23:15:00Z"
-    },
-    {
-      "id": "vid-freecodecamp-gemini-cli-full-course",
-      "youtubeId": "XKOR4h3CrwE",
-      "category": "lecture",
-      "title": "제미나이 CLI 에센셜 — 풀코스",
-      "titleEn": "Gemini CLI Essentials – Full Course",
-      "descKo": "freeCodeCamp이 제공하는 제미나이 CLI 에이전틱 코딩 정식 풀코스 강의.",
-      "descEn": "A full freeCodeCamp course teaching agentic coding with the Gemini CLI from the ground up.",
-      "channel": "freeCodeCamp.org",
-      "publishedAt": "2026-04-24T00:00:00Z",
-      "addedAt": "2026-08-14T23:15:00Z"
-    },
-    {
-      "id": "vid-pookie-codex-cli-beginner-guide",
-      "youtubeId": "sTE0G95uEIw",
-      "category": "lecture",
-      "title": "코덱스 CLI 사용법 — 완전 초보자 가이드",
-      "titleEn": "How To Use Codex CLI: Complete Beginner Guide & Tips",
-      "descKo": "OpenAI 코덱스 CLI를 처음부터 제대로 활용하는 법을 초보자 대상으로 상세히 설명하는 강의형 영상.",
-      "descEn": "A beginner-focused, in-depth guide covering how to use OpenAI's Codex CLI to its full potential.",
-      "channel": "pookie",
-      "publishedAt": "2025-11-24T00:00:00Z",
       "addedAt": "2026-08-14T23:15:00Z"
     },
     {
