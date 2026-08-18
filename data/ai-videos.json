@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-08-17T23:13:40Z",
+  "generatedAt": "2026-08-19T09:30:00Z",
   "videos": [
+    {
+      "id": "vid-codingsloth-1000h-claude-code-lessons",
+      "youtubeId": "YAsxyoTWFDA",
+      "category": "tip",
+      "title": "클로드 코드 1000시간 넘게 써보고 배운 것들",
+      "titleEn": "I Have Spent 1000+ Hours With Claude Code. This Is What I Learned",
+      "descKo": "1000시간 넘게 클로드 코드를 실사용하며 쌓은 워크플로우와 팁을 정리한 회고 영상.",
+      "descEn": "A personal retrospective distilling workflows and tips learned from 1000+ hours of daily Claude Code use.",
+      "channel": "The Coding Sloth",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "addedAt": "2026-08-19T09:30:00Z"
+    },
+    {
+      "id": "vid-charliechang-vibe-code-free-2026",
+      "youtubeId": "FZ-P_HQK0z4",
+      "category": "tip",
+      "title": "2026년, 돈 안 들이고 바이브 코딩하는 법",
+      "titleEn": "How to Vibe Code for Free in 2026 (Full Tutorial)",
+      "descKo": "무료 도구만으로 앱을 처음부터 끝까지 바이브 코딩해보는 실전 튜토리얼.",
+      "descEn": "A full walkthrough building an app end-to-end using only free vibe-coding tools.",
+      "channel": "Charlie Chang",
+      "publishedAt": "2026-08-14T00:00:00Z",
+      "addedAt": "2026-08-19T09:30:00Z"
+    },
+    {
+      "id": "vid-codewithchris-codex-cli-tutorial",
+      "youtubeId": "zc-_AxRowRY",
+      "category": "usecase",
+      "title": "코덱스 CLI 튜토리얼 — 설치부터 앱 빌드·배포까지 (풀 가이드)",
+      "titleEn": "Codex CLI Tutorial: Install, Build & Ship Apps with AI (Full Guide)",
+      "descKo": "OpenAI 코덱스 CLI 설치, MCP로 도구 연결, 기획부터 빌드·테스트·배포까지 앱 하나를 처음부터 끝까지 완성하는 실전 가이드.",
+      "descEn": "A full walkthrough installing OpenAI's Codex CLI, wiring up tools via MCP, and shipping a real app end to end through plan, build, test, and publish.",
+      "channel": "CodeWithChris",
+      "publishedAt": "2026-08-07T00:00:00Z",
+      "addedAt": "2026-08-19T09:30:00Z"
+    },
+    {
+      "id": "vid-silbal-claude-code-advanced-guide-ko",
+      "youtubeId": "8H3NwQL-Aew",
+      "category": "lecture",
+      "title": "메타 엔지니어의 클로드코드 심화 가이드 — 스킬·서브에이전트·훅·병렬 실행",
+      "titleEn": "A Meta Engineer's Complete Claude Code Guide [Advanced] — Skills, Sub-Agents, Hooks, Parallel Execution",
+      "descKo": "커스텀 스킬·서브에이전트 병렬 실행·훅·MCP 서버까지 다루고, 고객 피드백 10건을 한 번에 처리하는 실전 데모로 마무리하는 심화 강의.",
+      "descEn": "An advanced structured guide covering custom skills, parallel sub-agents, hooks, and custom MCP servers, ending with a live demo pipeline that fixes 10 client feedback items at once.",
+      "channel": "실밸개발자",
+      "publishedAt": "2026-03-19T00:00:00Z",
+      "addedAt": "2026-08-19T09:30:00Z"
+    },
+    {
+      "id": "vid-tinahuang-mcp-26-minutes",
+      "youtubeId": "kOhLoixrJXo",
+      "category": "lecture",
+      "title": "26분 만에 끝내는 MCP(Model Context Protocol) 이해하기",
+      "titleEn": "MCP In 26 Minutes (Model Context Protocol)",
+      "descKo": "MCP가 무엇인지부터 MCP 서버 사용법, 코드·노코드로 직접 만드는 법까지 구조적으로 정리한 입문 강의.",
+      "descEn": "A structured explainer covering what MCP is, how to use existing MCP servers, and how to build custom ones with and without code.",
+      "channel": "Tina Huang",
+      "publishedAt": "2025-10-15T00:00:00Z",
+      "addedAt": "2026-08-19T09:30:00Z"
+    },
     {
       "id": "vid-ailabs-boris-cherny-claude-code-tip",
       "youtubeId": "pGro_uKt-_M",
@@ -11,18 +71,6 @@
       "descEn": "AI LABS breaks down Claude Code creator Boris Cherny's own workflow, showing the single most effective way to work with agents on today's models.",
       "channel": "AI LABS",
       "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-17T23:13:40Z"
-    },
-    {
-      "id": "vid-alex-technote-vibe-coding-troubleshoot-ko",
-      "youtubeId": "2vnr5g4DFqU",
-      "category": "usecase",
-      "title": "바이브 코딩 막힐 때 뚫는 법 — 실전 트러블슈팅",
-      "titleEn": "Unblocking Vibe Coding When You're Stuck — A Practical Walkthrough",
-      "descKo": "바이브 코딩을 시작한 사람들이 자주 막히는 지점들을 실제 화면으로 짚어가며 해결하는 실전 영상.",
-      "descEn": "A hands-on walkthrough addressing the common points where beginners get stuck in vibe coding, screen-recorded start to finish.",
-      "channel": "기술노트with 알렉",
-      "publishedAt": "2026-05-21T00:00:00Z",
       "addedAt": "2026-08-17T23:13:40Z"
     },
     {
@@ -47,18 +95,6 @@
       "descEn": "A structured beginner course on OpenAI Codex with timestamped chapters covering installation, plugins, automation, goal-setting mode, and the app-shot feature.",
       "channel": "이동훈의 루트AI",
       "publishedAt": "2026-06-05T00:00:00Z",
-      "addedAt": "2026-08-15T23:12:33Z"
-    },
-    {
-      "id": "vid-bnk-vibe-coding-5b-revenue-ko",
-      "youtubeId": "5GqQsqtG_2k",
-      "category": "usecase",
-      "title": "바이브 코딩으로 만든 앱, 6개월 만에 50억 매출 찍었다",
-      "titleEn": "The App Built with Vibe Coding Hit ₩5 Billion in Revenue in 6 Months",
-      "descKo": "바이브 코딩으로 만든 앱이 6개월 만에 50억 매출을 낸 실제 사례를 저널리스트와 유튜버 조코딩이 토크쇼 형식으로 짚어보는 영상.",
-      "descEn": "A talk-show-style episode where a journalist and YouTuber discuss a real vibe-coded app that reportedly reached ₩5 billion in revenue within six months.",
-      "channel": "BNK금융그룹",
-      "publishedAt": "2026-07-08T00:00:00Z",
       "addedAt": "2026-08-15T23:12:33Z"
     },
     {
@@ -110,29 +146,6 @@
       "addedAt": "2026-08-14T23:15:00Z"
     },
     {
-      "id": "vid-ibm-agent-skills-best-practices",
-      "youtubeId": "qYNs80FKIVc",
-      "category": "tip",
-      "title": "AI 에이전트 스킬 제작 모범 사례 5가지",
-      "titleEn": "5 Best Practices for Building AI Agent Skills",
-      "descKo": "에이전트 스킬을 설계·작성할 때 지켜야 할 5가지 핵심 원칙을 짚어주는 실전 가이드 영상.",
-      "descEn": "A hands-on rundown of five key principles for designing and writing effective AI agent skills.",
-      "channel": "IBM Technology",
-      "publishedAt": "2026-08-10T00:00:00Z",
-      "addedAt": "2026-08-10T23:09:49Z"
-    },
-    {
-      "id": "vid-citizendev9c-mcp-tutorial-ko",
-      "youtubeId": "fkqXQOjj8cA",
-      "category": "tip",
-      "title": "MCP 써야 진짜 클로드다! 500% 활용 튜토리얼 (개념부터 활용까지)",
-      "titleEn": "You're Not Using Real Claude Without MCP — a 500% Utilization Tutorial",
-      "descKo": "MCP 개념부터 실제 연결·활용까지 클로드를 제대로 쓰는 법을 다루는 실전 튜토리얼.",
-      "descEn": "A practical tutorial covering MCP from core concepts to real setup and usage, to get far more out of Claude.",
-      "channel": "시민개발자 구써",
-      "addedAt": "2026-08-11T23:20:00Z"
-    },
-    {
       "id": "vid-bibl-claude-youtube-growth-ko",
       "youtubeId": "WwNAPcGjYnc",
       "category": "usecase",
@@ -141,18 +154,6 @@
       "descKo": "클로드를 실제 채널 운영에 활용해 유튜브 채널을 빠르게 성장시킨 실전 사례를 다루는 풀영상 가이드.",
       "descEn": "A real use case showing how to grow a YouTube channel fast using Claude, in a full walkthrough guide.",
       "channel": "비블 bibl",
-      "publishedAt": "2026-08-09T00:00:00Z",
-      "addedAt": "2026-08-09T23:05:42Z"
-    },
-    {
-      "id": "vid-vibelabs-kimi-code-reality-ko",
-      "youtubeId": "AmePj1SI6Z4",
-      "category": "usecase",
-      "title": "AI가 앱은 뚝딱 만들었는데... 회사에서는 왜 못 쓸까? Kimi Code 실전",
-      "titleEn": "AI Built the App in No Time — So Why Can't the Company Actually Use It? A Kimi Code Case Study",
-      "descKo": "Kimi Code로 앱을 빠르게 만들었지만 실제 회사 업무에 적용하는 과정에서 부딪힌 현실적인 문제들을 짚는 실전 사례.",
-      "descEn": "A real-world case on why an app quickly built with Kimi Code struggles to fit actual company use in practice.",
-      "channel": "바이브랩스",
       "publishedAt": "2026-08-09T00:00:00Z",
       "addedAt": "2026-08-09T23:05:42Z"
     },
