@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-19T09:30:00Z",
+  "generatedAt": "2026-08-20T00:15:00Z",
   "posts": [
+    {
+      "id": "curated-20260820-onecli-sandboxed-agent-harness",
+      "title": "YC 스타트업이 공개한 오픈소스 샌드박스 에이전트 하네스 'OneCLI', HN 47점",
+      "body": "오늘 공개된 OneCLI는 YC S26 배치 스타트업이 만든 오픈소스 샌드박스 에이전트 하네스로, 팀 단위로 여러 코딩 에이전트를 격리된 환경에서 안전하게 굴릴 수 있도록 설계됐습니다. Show HN 런칭 글에서 저장소와 함께 공개됐으며, 자체 하네스를 밑바닥부터 짜는 대신 검증된 샌드박싱 구조를 가져다 쓰고 싶은 팀이라면 참고할 만합니다. HN에서 47점을 받았습니다.",
+      "titleEn": "OneCLI — an open-source sandboxed agent harness for teams, launched by a YC startup, 47 pts on HN",
+      "bodyEn": "Published today, OneCLI is an open-source sandboxed agent harness built by a YC S26 startup, designed to let teams run multiple coding agents safely inside isolated environments. Launched via a Show HN post alongside its repo, it's a reference point for teams who'd rather adopt a proven sandboxing structure than build their own harness from scratch. 47 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/onecli/onecli",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-19T16:29:02Z",
+      "curatedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "curated-20260820-nulnul-self-improving-harness-ko",
+      "title": "코덱스와 클로드 코드가 같이 쓰는 '자기 개선형' 하네스 NULNUL, GeekNews",
+      "body": "오늘 GeekNews Show GN에 소개된 오픈소스 nulnul-harness는 작게 시작해서 실제로 필요할 때만 커지는 '증거 기반' 에이전트 하네스입니다. 핵심은 자기 개선을 제안하는 프로세스와 승인하는 프로세스를 분리한 'Independent Gate' — 에이전트가 스스로 채점해 승격시키는 구조를 원천 차단합니다. 코덱스는 AGENTS.md를, 클로드 코드는 CLAUDE.md를 각자 소유하면서 상태를 공유하는 워크플로우를 문서화했고, 한 체크 항목의 처리 시간을 17.7초에서 0.23초로 줄인 실측 수치도 함께 공개했습니다. v2.1.1, MIT 라이선스로 배포됩니다.",
+      "titleEn": "NULNUL — a self-improving harness shared by Codex and Claude Code, via GeekNews",
+      "bodyEn": "Featured today on GeekNews Show GN, the open-source nulnul-harness starts minimal and only grows when real work actually proves the need — docs, checkpoints, permission boundaries and all. Its core mechanic is an \"Independent Gate\" that separates the process proposing a self-improvement from the one approving it, closing off self-graded promotion entirely. It documents a concrete workflow where Codex owns AGENTS.md and Claude Code owns CLAUDE.md while sharing state, and publishes measured numbers — one check's median time dropped from 17.7s to 0.23s. v2.1.1, MIT licensed.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/SeoNaRu/nulnul-harness",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-19T00:00:00Z",
+      "curatedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "curated-20260820-orca-paseo-agent-tool-compare-ko",
+      "title": "Orca vs Paseo vs 순정 터미널 — 코딩 에이전트 여러 개 굴리는 도구 3파전 비교, 요즘IT",
+      "body": "요즘IT에 오늘 올라온 글은 코딩 에이전트를 여러 개 동시에 돌리는 세 가지 방법 — 아무 도구 없이 터미널을 그대로 쓰는 '순정', 병렬 워크트리·계정 전환·사용량 대시보드·시각적 디자인 모드 프롬프팅에 SSH 워크트리까지 지원하는 데스크톱 GUI 'Orca', 가벼운 크로스플랫폼·모바일 클라이언트로 네이티브 음성 명령까지 되는 'Paseo' — 를 기능별로 정리합니다. 둘 다 무료로 기존 구독 위에 얹어 쓰는 방식이라 별도 결제 없이 바로 시도해볼 수 있다는 점을 강조합니다.",
+      "titleEn": "Orca vs. Paseo vs. plain terminal — comparing tools for running multiple coding agents, via 요즘IT",
+      "bodyEn": "Published today on 요즘IT, this piece compares three ways to run several coding agents at once: \"순정\" (a plain terminal, no extra tooling), Orca (a desktop GUI with parallel worktrees, account hot-swap, a quota dashboard, visual design-mode prompting, and SSH worktrees), and Paseo (a lightweight cross-platform and mobile client with native voice commands). Both tools are free and layer on top of existing subscriptions, so either can be tried immediately without a new bill.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3903/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-19T00:00:00Z",
+      "curatedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "curated-20260820-fx-tiny-native-coding-agent",
+      "title": "네이티브로 짠 초경량 오픈소스 코딩 에이전트 'fx', HN 151점",
+      "body": "오늘 공개된 fx는 네이티브 코드로 작성된 작고 가벼운 오픈소스 코딩 에이전트로, 무거운 런타임 의존성 없이 빠르게 뜨는 것을 목표로 합니다. 대형 프레임워크 기반 에이전트 대신 최소 구성으로 직접 굴려보고 싶은 개발자들 사이에서 화제가 됐고, HN에서 151점을 받았습니다.",
+      "titleEn": "fx — a tiny, native, open-source coding agent, 151 pts on HN",
+      "bodyEn": "Published today, fx is a small, native-code open-source coding agent built to start up fast without heavy runtime dependencies. It drew attention from developers who'd rather run a minimal, from-scratch agent than adopt a large framework-based one. 151 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://fx.sh",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-18T22:00:21Z",
+      "curatedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "curated-20260820-fluent-korean-claude-plugin-ko",
+      "title": "클로드 코드 한국어 출력이 어색하다면 — 30초 설치 플러그인 'fluent-korean', GeekNews",
+      "body": "오늘 GeekNews Show GN에 소개된 fluent-korean은 클로드 코드가 내놓는 번역체 티 나는 한국어 출력을 자연스럽게 바꿔주는 아웃풋 스타일 플러그인입니다. `/plugin marketplace add snflkd/fluent-korean` 다음 `/plugin install fluent-korean@fluent-korean` 두 줄이면 설치가 끝나고, 코딩용과 비코딩용 두 가지 스타일을 `/config`에서 바로 골라 쓸 수 있습니다. 한국어로 클로드 코드를 매일 쓰는 사람이라면 바로 체감할 만한 설치형 팁입니다.",
+      "titleEn": "If Claude Code's Korean output sounds stilted — a 30-second install plugin, fluent-korean, via GeekNews",
+      "bodyEn": "Featured today on GeekNews Show GN, fluent-korean is an output-style plugin that fixes Claude Code's often stilted, translated-sounding Korean output. Install with two lines — `/plugin marketplace add snflkd/fluent-korean` then `/plugin install fluent-korean@fluent-korean` — and pick between a coding and non-coding style right from `/config`. A concrete, drop-in tip for anyone running Claude Code in Korean daily.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/snflkd/fluent-korean",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-18T00:00:00Z",
+      "curatedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "curated-20260820-mole-terminal-research-agent",
+      "title": "터미널에서 바로 쓰는 딥 리서치 에이전트 'Mole', HN 100점",
+      "body": "오늘 공개된 Mole은 터미널 안에서 곧바로 여러 웹 소스를 훑어 깊이 있는 리서치를 수행하는 오픈소스 에이전트입니다. 브라우저를 오가지 않고 CLI 워크플로우 안에서 조사·요약까지 끝내고 싶은 개발자를 겨냥했으며, HN에서 100점을 받았습니다.",
+      "titleEn": "Mole — a deep research agent for your terminal, 100 pts on HN",
+      "bodyEn": "Published today, Mole is an open-source agent that runs deep, multi-source web research directly from the terminal. It's aimed at developers who want research and summarization to happen inside their CLI workflow instead of bouncing to a browser. 100 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/lajosdeme/mole",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-14T18:52:48Z",
+      "curatedAt": "2026-08-20T00:15:00Z"
+    },
     {
       "id": "curated-20260819-anthropic-multiagent-patterns-problems",
       "title": "앤트로픽 자체 연구 — 멀티 에이전트 시스템에서 나타나는 담합·과잉동조·영역다툼 패턴",
@@ -93,58 +171,6 @@
       "curatedAt": "2026-08-17T23:13:40Z"
     },
     {
-      "id": "curated-20260818-cursor-origin-code-hosting",
-      "title": "커서, 자체 코드 호스팅 'Origin' 공개 — 깃허브 대안으로, HN 105점",
-      "body": "오늘 공개된 Cursor Origin은 저장소를 커서 안에서 직접 호스팅하며 PR·AI 에이전트까지 한 화면에 묶는 코드 호스팅 플랫폼입니다. 깃허브를 소스 오브 트루스로 유지한 채 실시간 동기화하고 PR도 양방향으로 오가며, Vercel 프리뷰 배포·Depot·Buildkite 같은 CI/CD 연동 앱 생태계도 함께 제공됩니다. 유료 플랜 전체에 얼리 베타로 순차 배포되며 엔터프라이즈 조직은 옵트아웃할 수 있습니다. HN에서 105점을 받았습니다.",
-      "titleEn": "Cursor launches Origin, its own code hosting — a GitHub alternative, 105 pts on HN",
-      "bodyEn": "Announced today, Cursor Origin is a code hosting platform that lets you host repositories directly inside Cursor, bundling pull requests and AI agents into one workspace. It syncs in real time while keeping GitHub as the source of truth, syncs PRs bidirectionally, and ships with an app ecosystem for CI/CD — Vercel preview deployments, Depot, Buildkite. It's rolling out in early beta across all paid plans, with enterprise orgs able to opt out. 105 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://cursor.com/changelog/origin-code-hosting",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-17T17:02:44Z",
-      "curatedAt": "2026-08-17T23:13:40Z"
-    },
-    {
-      "id": "curated-20260818-peterbloem-craft-coding",
-      "title": "'바이브' 없이 AI로 코딩하기 — 직접 쓰고 AI는 리뷰어로만, HN 96점",
-      "body": "오늘 화제가 된 Peter Bloem의 글은 AI를 아예 안 쓰는 '핸드코더'와 AI에게 맡기고 결과만 지켜보는 '바이브코더' 사이에서, 코드는 직접 쓰되 AI를 초인적인 리뷰어로만 쓰는 '크래프트코딩'을 제안합니다. IDE 통합 AI 금지, 생성 코드 복붙 금지, AI에게 코드 실행 맡기지 않기, 제안을 완전히 이해하기 전엔 적용하지 않기 등 10가지 규율을 제시하며, 리뷰 세션당 전력 소비가 약 0.5kWh 수준으로 낮다는 점도 근거로 듭니다. 속도는 바이브코딩보다 느리지만 정확성과 이해가 핵심인 과학 연구용 코드 같은 도메인을 정면으로 겨냥한다고 밝힙니다. HN에서 96점을 받았습니다.",
-      "titleEn": "AI coding without the vibes — write it yourself, let AI be the reviewer, 96 pts on HN",
-      "bodyEn": "Trending today, this post by Peter Bloem proposes 'craft coding' as a middle path between 'hand-coders' who reject AI entirely and 'vibe-coders' who let AI write the code and just watch: write the code yourself, and use AI only as a superhuman reviewer. It lays out 10 rules — no IDE-integrated AI, no copy-pasting generated code, never let AI execute code, never apply a suggestion before fully understanding it — and notes the approach costs roughly 0.5 kWh per review session. Slower than vibe coding, it's aimed squarely at domains like scientific code where correctness and understanding matter most. 96 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://peterbloem.nl/blog/craft-coding",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-16T10:31:36Z",
-      "curatedAt": "2026-08-17T23:13:40Z"
-    },
-    {
-      "id": "curated-20260818-hubble-md-agent-notepad",
-      "title": "사람과 에이전트가 같이 쓰는 노트 앱 'hubble.md' 공개",
-      "body": "GeekNews에 소개된 오픈소스 hubble.md는 마크다운·HTML 기반으로, 사람에게는 Notion·Apple Notes에 준하는 슬래시 커맨드·프런트매터 필기 경험을 제공하면서 에이전트가 연결된 노트 폴더를 수정하면 즉시 반영되는 라이브 리로드를 지원합니다. 노트 폴더를 표·책장·지도 등 다양한 형태의 HTML 앱 뷰로 바꿔주는 기능과, Warp Factory 에이전트가 이슈 분류·PR 초안·코드 리뷰까지 자동 처리하는 저장소 관리 기능도 포함됩니다. macOS·Windows·Linux용 Electron 앱으로 MIT 라이선스 배포됩니다.",
-      "titleEn": "hubble.md — a note-taking app built for both humans and agents",
-      "bodyEn": "Featured on GeekNews, the open-source hubble.md is a Markdown/HTML note app that gives humans a Notion/Apple-Notes-grade writing experience with slash commands and frontmatter, while live-reloading the moment a connected agent edits a note folder. It can turn a note folder into HTML app views — tables, bookshelves, maps, and more — and includes repo-management automation where Warp Factory agents handle issue triage, PR drafting, and code review. Ships as a cross-platform Electron app (macOS/Windows/Linux) under the MIT license.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://github.com/bholmesdev/hubble.md",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-14T00:00:00Z",
-      "curatedAt": "2026-08-17T23:13:40Z"
-    },
-    {
-      "id": "curated-20260816-toast-search-agent-mixedbread",
-      "title": "믹스드브레드 'Toast 1' 공개 — 검색 특화 에이전트, 오퍼스5급 성능을 10분의 1 비용에, HN 216점",
-      "body": "오늘 공개된 Mixedbread의 Toast 1은 웹·문서 검색에 특화된 에이전트 모델로, 벤치마크에서 클로드 오퍼스 5·GPT-5.6 Sol과 맞먹거나 앞서는 성능을 내면서도 비용은 약 10분의 1, 속도는 약 12배 빠르다고 소개됩니다. 검색 위주 에이전트 워크플로우를 돌리며 범용 모델 비용에 부담을 느끼던 개발자라면 눈여겨볼 만한 소식으로, HN에서 216점을 받았습니다.",
-      "titleEn": "Mixedbread's Toast 1 — a search-focused agent claiming Opus-5-level results at ~10x lower cost, 216 pts on HN",
-      "bodyEn": "Published today, Mixedbread's Toast 1 is an agent model specialized for web and document search, claiming benchmark results that match or beat Claude Opus 5 and GPT-5.6 Sol while costing roughly 10x less and running about 12x faster. Worth a look for anyone running search-heavy agent workflows who's felt the cost of routing everything through a general-purpose model. 216 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.mixedbread.com/blog/toast-1",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-14T15:07:57Z",
-      "curatedAt": "2026-08-15T23:12:33Z"
-    },
-    {
       "id": "curated-20260816-yozm-claude-code-6-case-studies-ko",
       "title": "클로드 코드 길들이기 — 프리랜서부터 CTO까지 6인의 실전 적용기, 요즘IT",
       "body": "요즘IT에 오늘 올라온 글은 프리랜서 개발자·PM·1인 빌더·기획자·CTO·BizOps 리드 등 6명이 실무에서 클로드 코드를 적용한 사례를 정리합니다. 1인 빌더 김상욱은 CLAUDE.md로 13개 프로젝트의 맥락을 관리하고 세션이 끝나도 '핸드오프' 문서로 전환 비용을 사실상 0으로 줄여, MVP 개발 기간을 1~2주에서 몇 시간으로 단축했다고 밝힙니다. 이현은 30개 캠퍼스의 정산 시스템을 5일 만에 런칭하면서 로그인 속도를 80% 개선한 사례를 공유합니다.",
@@ -184,19 +210,6 @@
       "curatedAt": "2026-08-15T23:12:33Z"
     },
     {
-      "id": "curated-20260815-glm-5-3-frontier-coding",
-      "title": "지화 'GLM-5.3' 공개 — 코딩 벤치마크 50% 향상, 사이버 보안 능력은 '예상 밖으로' 급성장 — HN 1016점",
-      "body": "오늘 공개된 지화(Z.ai)의 오픈웨이트 모델 GLM-5.3은 자체 Code Bench에서 GLM-5.2 대비 50% 향상된 성능을 보이며 Terminal Bench 3.0·Agents' Last Exam에서 오픈소스 최고 점수를 기록했습니다. 더 주목받은 건 사후 학습 과정에서 예상보다 훨씬 빠르게 발달한 사이버 보안 능력으로, 취약점 탐지 벤치마크 CyberGym에서 84.5%를 받아 앤트로픽 Mythos 5(83.8%)·OpenAI GPT-5.6 Sol(83.6%)을 앞질렀고, 익스플로잇 체인을 끝까지 추론하는 ExploitBench 점수는 GLM-5.2의 24.4%에서 54.4%로 두 배 넘게 뛰었습니다. HN에서 1016점을 받으며 이번 주 최고 화제가 됐습니다.",
-      "titleEn": "Z.ai's GLM-5.3 — 50% jump on coding benchmarks, cyber capability grew 'faster than expected' — 1016 pts on HN",
-      "bodyEn": "Published today, Z.ai's open-weights GLM-5.3 shows a 50% improvement over GLM-5.2 on its in-house Code Bench and posts open-source SOTA scores on Terminal Bench 3.0 and Agents' Last Exam. The bigger story is cyber capability, which the team says developed faster than expected during post-training: GLM-5.3 scores 84.5% on the vulnerability-discovery benchmark CyberGym, edging out Anthropic's Mythos 5 (83.8%) and OpenAI's GPT-5.6 Sol (83.6%), and its ExploitBench score — which requires reasoning through a full exploitation chain — more than doubled from GLM-5.2's 24.4% to 54.4%. 1016 points on HN, the week's top story.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://z.ai/blog/glm-5.3",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-14T05:19:59Z",
-      "curatedAt": "2026-08-15T08:30:00Z"
-    },
-    {
       "id": "curated-20260815-claude-code-session-value-tips",
       "title": "클로드 코드 세션 비용 아끼는 법 — Anthropic 공식 가이드, HN 110점",
       "body": "Anthropic이 오늘 공개한 공식 가이드는 클로드 코드 세션 비용을 좌우하는 4가지 요인 — 세션 길이·모델 선택·출력 토큰(effort 레벨)·컨텍스트 크기 — 을 짚고, 실전 절약법을 제시합니다. 파일은 경로를 타이핑하는 대신 @멘션으로 불러와 Read 호출을 줄이고, 모델·effort는 세션 시작 시 한 번만 정하며(중간에 바꾸면 프롬프트 캐시가 깨짐), 자주 쓰는 명령은 플래그까지 포함해 CLAUDE.md에 박아두라고 권합니다. 또한 하나의 긴 세션보다 여러 개의 짧은 세션으로 나누는 편이 저렴하며, 대용량 출력이 필요 없는 작업은 서브에이전트로 넘기고, 되돌릴 땐 /compact 대신 원하는 턴만 제거하는 /rewind를 쓰라고 조언합니다.",
@@ -234,19 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-14T21:00:00Z",
       "curatedAt": "2026-08-15T08:30:00Z"
-    },
-    {
-      "id": "curated-20260814-deepseek-harness-agent-framework",
-      "title": "딥시크, 모든 기능을 플러그인으로 뜯어낸 에이전트 프레임워크 'Harness' 개발자 프리뷰 공개 — HN 521점",
-      "body": "오늘 공개된 DeepSeek Harness는 도구·메모리·오케스트레이션까지 에이전트의 모든 기능을 교체 가능한 모듈로 설계한 플러그인 기반 에이전트 프레임워크의 개발자 프리뷰입니다. 모든 도구 호출과 추론 과정을 그대로 추적할 수 있는 완전한 투명성을 갖춰, 자신만의 코딩 에이전트를 밑바닥부터 만들려는 개발자를 겨냥했다고 소개됩니다. HN에서 521점을 받으며 이번 주 최고 화제 중 하나가 됐습니다.",
-      "titleEn": "DeepSeek Harness — a plugin-based agent framework developer preview, 521 pts on HN",
-      "bodyEn": "Published today, DeepSeek Harness is a developer preview of a plugin-based agent framework where every capability — tools, memory, orchestration — is built as a swappable module. It offers full tool-call and reasoning traceability, aimed squarely at developers who want to build their own coding agent from the ground up. 521 points on HN, one of this week's top stories.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://deepseek.com/harness/en/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-13T12:58:02Z",
-      "curatedAt": "2026-08-14T23:15:00Z"
     },
     {
       "id": "curated-20260811-claude-code-commands-rules-skills-hooks-ko",

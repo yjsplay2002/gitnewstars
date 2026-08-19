@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-08-19T09:30:00Z",
+  "generatedAt": "2026-08-20T00:15:00Z",
   "videos": [
+    {
+      "id": "vid-futurepedia-claude-99percent",
+      "youtubeId": "5aUgDDWd4-k",
+      "category": "lecture",
+      "title": "99% 사람보다 클로드 잘 쓰는 법 (입문부터 고급까지)",
+      "titleEn": "Use Claude Better Than 99% of People (Beginner to Pro)",
+      "descKo": "입문자부터 고급 사용자까지 단계별로 클로드 활용법을 구조적으로 짚어주는 강의.",
+      "descEn": "A structured beginner-to-advanced walkthrough of how to get the most out of Claude.",
+      "channel": "Futurepedia",
+      "publishedAt": "2026-08-16T00:00:00Z",
+      "addedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "vid-codingnuna-claude-code-basics-ko",
+      "youtubeId": "Rq4ot7EOL08",
+      "category": "lecture",
+      "title": "설치부터 알려드립니다 (왕초보 환영) — 클로드 코드의 모든 기초",
+      "titleEn": "I'll Show You From Install (Total Beginners Welcome) — All the Claude Code Basics",
+      "descKo": "설치부터 기초 개념까지 완전 왕초보를 위해 처음부터 짚어주는 클로드 코드 입문 강의.",
+      "descEn": "An absolute-beginner Korean course covering Claude Code from installation through the fundamentals.",
+      "channel": "코딩알려주는누나",
+      "publishedAt": "2026-08-10T00:00:00Z",
+      "addedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "vid-indydevdan-multiagent-orchestration",
+      "youtubeId": "RpUTF_U4kiw",
+      "category": "usecase",
+      "title": "오퍼스 4.6 + tmux + 에이전트 샌드박스로 짜는 클로드 코드 멀티 에이전트 오케스트레이션",
+      "titleEn": "Claude Code Multi-Agent Orchestration with Opus 4.6, Tmux and Agent Sandboxes",
+      "descKo": "오퍼스 4.6과 tmux, 샌드박스 환경을 조합해 실제로 굴리는 멀티 에이전트 클로드 코드 세팅을 시연하는 영상.",
+      "descEn": "Demonstrates a real multi-agent Claude Code setup using tmux and sandboxed agents with Opus 4.6.",
+      "channel": "IndyDevDan",
+      "publishedAt": "2026-02-09T00:00:00Z",
+      "addedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "vid-johnkim-meta-claude-usecase",
+      "youtubeId": "mZzhfPle9QU",
+      "category": "usecase",
+      "title": "메타 시니어 스태프 엔지니어가 클로드 코드 쓰는 법",
+      "titleEn": "How I Use Claude Code (Meta L7 Senior Staff Engineer Tips)",
+      "descKo": "메타의 시니어 스태프 엔지니어가 실제 업무에서 쓰는 클로드 코드 워크플로우를 그대로 보여주는 영상.",
+      "descEn": "A senior staff engineer at Meta walks through his real daily Claude Code workflow.",
+      "channel": "John Kim",
+      "publishedAt": "2026-02-07T00:00:00Z",
+      "addedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "vid-makerevan-claude-creator-usecase-ko",
+      "youtubeId": "2WJzwwvzbBQ",
+      "category": "usecase",
+      "title": "클로드코드 직접 만든 사람이 공개한 사용법, 저도 충격받았습니다",
+      "titleEn": "Claude Code's Own Creator Revealed His Usage Patterns — I Was Shocked Too",
+      "descKo": "클로드 코드 개발에 참여한 사람이 직접 공개한 실전 사용 패턴을 정리한 영상.",
+      "descEn": "Creator-endorsed real-world usage patterns for Claude Code, shared by the channel host.",
+      "channel": "메이커 에반",
+      "publishedAt": "2026-02-26T00:00:00Z",
+      "addedAt": "2026-08-20T00:15:00Z"
+    },
+    {
+      "id": "vid-jaychoi-800h-9tips-ko",
+      "youtubeId": "hXlB1QstQ-Y",
+      "category": "tip",
+      "title": "클로드 코드 800시간 쓰고 깨달은 9가지 꿀팁",
+      "titleEn": "9 Tips I Learned From 800 Hours of Claude Code",
+      "descKo": "800시간 실사용 끝에 정리한 클로드 코드 활용 꿀팁 9가지.",
+      "descEn": "Nine practical tips distilled from 800 hours of hands-on Claude Code usage.",
+      "channel": "Jay Choi | 인디해커 라이프",
+      "publishedAt": "2026-04-23T00:00:00Z",
+      "addedAt": "2026-08-20T00:15:00Z"
+    },
     {
       "id": "vid-codingsloth-1000h-claude-code-lessons",
       "youtubeId": "YAsxyoTWFDA",
@@ -26,18 +98,6 @@
       "addedAt": "2026-08-19T09:30:00Z"
     },
     {
-      "id": "vid-codewithchris-codex-cli-tutorial",
-      "youtubeId": "zc-_AxRowRY",
-      "category": "usecase",
-      "title": "코덱스 CLI 튜토리얼 — 설치부터 앱 빌드·배포까지 (풀 가이드)",
-      "titleEn": "Codex CLI Tutorial: Install, Build & Ship Apps with AI (Full Guide)",
-      "descKo": "OpenAI 코덱스 CLI 설치, MCP로 도구 연결, 기획부터 빌드·테스트·배포까지 앱 하나를 처음부터 끝까지 완성하는 실전 가이드.",
-      "descEn": "A full walkthrough installing OpenAI's Codex CLI, wiring up tools via MCP, and shipping a real app end to end through plan, build, test, and publish.",
-      "channel": "CodeWithChris",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-19T09:30:00Z"
-    },
-    {
       "id": "vid-silbal-claude-code-advanced-guide-ko",
       "youtubeId": "8H3NwQL-Aew",
       "category": "lecture",
@@ -47,18 +107,6 @@
       "descEn": "An advanced structured guide covering custom skills, parallel sub-agents, hooks, and custom MCP servers, ending with a live demo pipeline that fixes 10 client feedback items at once.",
       "channel": "실밸개발자",
       "publishedAt": "2026-03-19T00:00:00Z",
-      "addedAt": "2026-08-19T09:30:00Z"
-    },
-    {
-      "id": "vid-tinahuang-mcp-26-minutes",
-      "youtubeId": "kOhLoixrJXo",
-      "category": "lecture",
-      "title": "26분 만에 끝내는 MCP(Model Context Protocol) 이해하기",
-      "titleEn": "MCP In 26 Minutes (Model Context Protocol)",
-      "descKo": "MCP가 무엇인지부터 MCP 서버 사용법, 코드·노코드로 직접 만드는 법까지 구조적으로 정리한 입문 강의.",
-      "descEn": "A structured explainer covering what MCP is, how to use existing MCP servers, and how to build custom ones with and without code.",
-      "channel": "Tina Huang",
-      "publishedAt": "2025-10-15T00:00:00Z",
       "addedAt": "2026-08-19T09:30:00Z"
     },
     {
@@ -83,18 +131,6 @@
       "descEn": "Explains how to use git worktrees to run several isolated Claude Code sessions on one repo at the same time, each on its own branch, with zero conflicts — turning independent tasks into true parallel agent runs.",
       "channel": "bri",
       "publishedAt": "2026-06-14T00:00:00Z",
-      "addedAt": "2026-08-15T23:12:33Z"
-    },
-    {
-      "id": "vid-rootai-codex-2026-beginner-guide-ko",
-      "youtubeId": "iupJvraoVow",
-      "category": "lecture",
-      "title": "코덱스 2026 기초 가이드 — 핵심 기능 설명부터 실습까지",
-      "titleEn": "Codex 2026 Basics Guide — Core Features and Hands-On Practice",
-      "descKo": "OpenAI 코덱스 설치·플러그인·자동화·목표 설정 모드·앱샷 기능까지 챕터별로 다루는 초급자용 구조화 강의.",
-      "descEn": "A structured beginner course on OpenAI Codex with timestamped chapters covering installation, plugins, automation, goal-setting mode, and the app-shot feature.",
-      "channel": "이동훈의 루트AI",
-      "publishedAt": "2026-06-05T00:00:00Z",
       "addedAt": "2026-08-15T23:12:33Z"
     },
     {
@@ -132,42 +168,6 @@
       "channel": "Zinho Automates",
       "publishedAt": "2026-08-13T00:00:00Z",
       "addedAt": "2026-08-14T23:15:00Z"
-    },
-    {
-      "id": "vid-shinyoungsun-claude-code-7-tips-ko",
-      "youtubeId": "NerIz23un3k",
-      "category": "tip",
-      "title": "클로드코드 7가지 꿀팁 총정리 — 해커톤 우승자와 클로드코드 총괄자의 공통점",
-      "titleEn": "7 Claude Code Tips — What a Hackathon Winner and Claude Code's Product Lead Have in Common",
-      "descKo": "해커톤 우승자와 클로드 코드 총괄자의 공통점을 짚으며 클로드 코드 활용 꿀팁 7가지를 정리하는 영상.",
-      "descEn": "Draws parallels between a hackathon winner and Claude Code's product lead while summarizing seven practical Claude Code tips.",
-      "channel": "신영선의 AI탐구",
-      "publishedAt": "2026-03-29T00:00:00Z",
-      "addedAt": "2026-08-14T23:15:00Z"
-    },
-    {
-      "id": "vid-bibl-claude-youtube-growth-ko",
-      "youtubeId": "WwNAPcGjYnc",
-      "category": "usecase",
-      "title": "클로드로 유튜브 채널을 가장 빠르게 키우는 방법 — 완벽 가이드",
-      "titleEn": "The Fastest Way to Grow a YouTube Channel Using Claude — Full Guide",
-      "descKo": "클로드를 실제 채널 운영에 활용해 유튜브 채널을 빠르게 성장시킨 실전 사례를 다루는 풀영상 가이드.",
-      "descEn": "A real use case showing how to grow a YouTube channel fast using Claude, in a full walkthrough guide.",
-      "channel": "비블 bibl",
-      "publishedAt": "2026-08-09T00:00:00Z",
-      "addedAt": "2026-08-09T23:05:42Z"
-    },
-    {
-      "id": "vid-jaychoi-claude-code-1000h-8min-ko",
-      "youtubeId": "GsInmND5zD8",
-      "category": "usecase",
-      "title": "8분만 주시면, 클로드 코드 1000시간의 꿀팁을 드립니다",
-      "titleEn": "1,000 Hours of Claude Code Tips, in 8 Minutes",
-      "descKo": "클로드 코드를 1000시간 실사용하며 체득한 노하우를 8분 안에 압축해 전달하는 영상.",
-      "descEn": "1,000 hours of real Claude Code usage compressed into an 8-minute rundown of hard-won lessons.",
-      "channel": "Jay Choi | 인디해커 라이프",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-07T23:11:03Z"
     },
     {
       "id": "vid-sihyun-vibecoding-100h-guide-ko",
