@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-21T23:08:14Z",
+  "generatedAt": "2026-08-22T23:06:51Z",
   "posts": [
+    {
+      "id": "curated-20260822-mcp-roadmap-update",
+      "title": "MCP 2026 로드맵 공개 — 에이전트 메시징·HTTP 통합·엔터프라이즈 보안까지 5대 우선순위",
+      "body": "오늘 공개된 MCP(Model Context Protocol) 공식 로드맵은 다음 스펙 릴리스의 5대 우선순위를 정리합니다. 단순 요청-응답을 넘어 장시간 에이전트 루프·서버 푸시 결과·중간 조작을 지원하는 '에이전틱 메시징'(Tasks 확장, 웹훅), 원격·로컬 배포를 단일 방식으로 묶는 'Streamable HTTP' 트랜스포트 통일, API 키 대신 Workload Identity Federation·DPoP로 클라우드 에이전트 신원을 표준화하는 엔터프라이즈 보안, 도구가 많아질수록 비용이 커지는 문제를 줄이는 '점진적 도구 탐색', 그리고 SDK 개발 경험 개선까지가 핵심입니다. 월간 SDK 다운로드 9700만 건을 기록한 MCP가 다음 단계로 어디를 향하는지 보여주는 문서로, HN에서 167점을 받았습니다.",
+      "titleEn": "MCP's 2026 Roadmap — 5 Priorities from Agentic Messaging to Enterprise Security",
+      "bodyEn": "Published today, the official MCP (Model Context Protocol) roadmap lays out five priorities for the next spec release. 'Agentic messaging primitives' move beyond simple request-response to support long-running agent loops, server-pushed results, and mid-flight steering (maturing the Tasks extension, adding webhooks); 'HTTP-native transport unification' standardizes on Streamable HTTP for both remote and local deployments; 'agent identity & enterprise security' replaces manual API keys with Workload Identity Federation and DPoP; 'improved primitives' add progressive tool discovery to cut the cost of large tool catalogs; and there's a renewed investment in SDK developer experience. A clear signal of where MCP — now at 97M monthly SDK downloads — is headed next. 167 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-22T13:31:34Z",
+      "curatedAt": "2026-08-22T23:06:51Z"
+    },
+    {
+      "id": "curated-20260822-slack-code-multiplayer-coding",
+      "title": "슬랙이 코딩 에이전트 협업 공간으로 — 팀 전체가 지켜보는 '코드 채널', 슬랙 코드 공개",
+      "body": "세일즈포스가 오늘 공개한 슬랙 코드(Slack Code)는 채팅창에서 코딩 에이전트를 태그하면 전용 '코드 채널'이 열려, 그 안에서 코드 diff 리뷰·실시간 HTML 프리뷰 확인·승인까지 팀 전체가 함께 지켜보며 진행하는 기능입니다. 지금까지 에이전트와의 작업이 개인 브라우저 탭 안에 갇혀 다른 사람에게 안 보였다면, 코드 채널은 그 과정을 슬랙 안에서 공개적으로 만들어 맥락 손실과 핸드오프 지연을 줄이는 것이 목표입니다. 앤트로픽 클로드·코그니션 데빈·깃허브 코파일럿·챗GPT·버셀 에이전트가 출시 파트너로 참여했고, 코드 채널의 70% 이상이 하루 안에 아이디어에서 머지까지 끝난다고 밝혔습니다. 에이전트 전용 탭과 원클릭 'Add to Slack'으로 러버블·n8n 등 서드파티 에이전트도 손쉽게 붙일 수 있습니다.",
+      "titleEn": "Slack Turns Into a Multiplayer Coding Space — 'Slack Code' Launches with Team-Visible 'Code Channels'",
+      "bodyEn": "Published today, Salesforce's Slack Code lets you tag a coding agent in chat to spin up a dedicated 'code channel,' where the whole team watches, reviews diffs, checks a live HTML preview, and approves the work together, right inside Slack. Until now, work with an agent lived in a private browser tab, invisible to teammates — code channels make that process public inside Slack to cut down on lost context and slow handoffs. Launch partners include Anthropic's Claude, Cognition's Devin, GitHub Copilot, ChatGPT, and Vercel's agents, and Slack says over 70% of code channels go from idea to merged PR within a single day. A new Agents tab and one-click 'Add to Slack' also make it easy to bring in third-party agents like Lovable and n8n.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.salesforce.com/introducing-slack-code/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-20T14:21:25Z",
+      "curatedAt": "2026-08-22T23:06:51Z"
+    },
+    {
+      "id": "curated-20260822-labor0-agent-coordination-ko",
+      "title": "에이전트 50개를 동시에 굴려도 안 막히려면 — 'Labor0'가 제안하는 사람-에이전트 병목 해소법, GeekNews",
+      "body": "GeekNews에 오늘 소개된 Labor0는 AI 에이전트 세션이 늘어날수록 진짜 병목이 실행 속도가 아니라 '사람이 모든 진행 상황을 확인하고 조율하는 일'이라는 문제의식에서 출발한 에이전트 조율 시스템입니다. 큰 작업을 잘게 쪼갠 작은 PR 단위로 나누고, CI 실패 수정·머지 충돌 해결·리뷰 반영·AI 코드 리뷰까지는 사람이 보기 전에 자동으로 끝내며, 'add-issue' 스킬로 중복 이슈 확인·메인/배포 브랜치 검증·개인정보 마스킹까지 에이전트가 알아서 처리합니다. 워크트리를 활용해 50개 이상의 세션을 동시에 병렬로 돌리면서도, 목표는 사람을 완전히 빼는 게 아니라 '에이전트가 처리할 수 있는 일은 계속 진행하고, 사람의 판단이 필요한 순간에만 호출하는' 구조를 만드는 것이라고 설명합니다.",
+      "titleEn": "Keeping 50 Concurrent Agents From Jamming Up — 'Labor0's Take on the Human-Agent Coordination Bottleneck, via GeekNews",
+      "bodyEn": "Featured today on GeekNews, Labor0 is an agent-coordination system built on the observation that as AI agent sessions scale up, the real bottleneck isn't execution speed but \"humans confirming and coordinating every step.\" It breaks large tasks into small PRs and automates CI-failure fixes, merge-conflict resolution, review incorporation, and AI code review — all before a human ever looks at it; an \"add-issue\" skill lets agents autonomously check for duplicate issues, validate the main/deploy branches, and mask PII. Using git worktrees, it runs 50+ concurrent sessions in parallel, with the stated goal not being to remove humans entirely but to build a system where \"agents keep handling what they can, and only call a human at the moments that actually need a decision.\"",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=32769",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-22T14:00:00Z",
+      "curatedAt": "2026-08-22T23:06:51Z"
+    },
+    {
+      "id": "curated-20260822-codex-bedrock-cache-bug",
+      "title": "코덱스 AWS 베드록 캐싱 버그로 비용 10배 폭증 — 프롬프트 캐시 옵션 미지원이 원인",
+      "body": "오늘 화제가 된 이 GitHub 이슈는 코덱스 CLI가 AWS 베드록의 GPT-5.6 Sol 모델에서 명시적 프롬프트 캐싱(prompt_cache_options·prompt_cache_breakpoint)을 지원하지 않아, 지시문·도구 정의는 고정돼 있고 사용자 입력만 바뀌는 전형적인 에이전틱 코딩 워크로드에서도 매 요청마다 전체 프리픽스를 새로 캐시에 써버리는 문제를 지적합니다. 실사용 4일간 3,656건 요청에서 캐시 쓰기 토큰만 1억 7194만 개, 캐시 쓰기 비용만 약 1,182달러로 전체 비용의 약 85%를 차지했습니다. 요청 타입 자체가 캐시 제어 필드를 지원하지 않는 구조적 문제라 아직 공식 우회법이 없어, 베드록으로 코덱스를 돌리는 팀이라면 비용을 반드시 모니터링해야 합니다. HN에서 148점을 받았습니다.",
+      "titleEn": "Codex on AWS Bedrock Racks Up 10x Costs — Missing Prompt-Cache Support Is the Culprit",
+      "bodyEn": "Trending today, this GitHub issue reports that Codex CLI doesn't support explicit prompt caching (prompt_cache_options, prompt_cache_breakpoint) on AWS Bedrock's GPT-5.6 Sol model — so even the classic agentic-coding pattern of stable instructions and tool definitions plus changing user input rewrites the full prefix to cache on every single request. Over four days of production use: 3,656 requests, 171.94M cache-write tokens, and roughly $1,182 in cache-write cost alone, about 85% of total spend. The root cause is architectural — the request type simply lacks the cache-control fields — so there's no official workaround yet. Anyone running Codex on Bedrock should be watching their bill closely. 148 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/openai/codex/issues/37674",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-21T03:17:43Z",
+      "curatedAt": "2026-08-22T23:06:51Z"
+    },
+    {
+      "id": "curated-20260822-ozbrain-shared-agent-memory",
+      "title": "클로드·챗GPT·커서가 같은 지식을 공유한다 — 에이전트 공용 두뇌 'OzBrain', HN 75점",
+      "body": "오늘 공개된 OzBrain은 클로드·챗GPT·커서 등 서로 다른 에이전트가 동시에 읽고 쓸 수 있는 공용 지식 저장소입니다. 지금까지는 클로드에 붙여넣고 챗GPT에 다시 붙여넣고 커서에 파일을 떨어뜨리며 맥락을 손으로 옮기다 버전이 어긋나는 문제가 있었는데, MCP URL 하나만 연결하면 코딩 없이 바로 붙일 수 있습니다. 지식은 '아티클' 단위로 정리되고 최신성 표시·변경 이력이 남으며, 새 정보를 쓰면 시스템이 알아서 올바른 아티클로 라우팅하고 기존 정보와 충돌하면 표시해줍니다. 에이전트는 작업 시작 전 관련 정보만 걸러서 읽어오고, 계정별 암호화·언제든 마크다운 내보내기·완전 삭제까지 지원합니다. HN에서 75점을 받았습니다.",
+      "titleEn": "Claude, ChatGPT, and Cursor Sharing the Same Knowledge — 'OzBrain', a Shared Agent Brain, 75 pts on HN",
+      "bodyEn": "Published today, OzBrain is a shared knowledge store that different agents — Claude, ChatGPT, Cursor — can simultaneously read from and write to. Until now, users manually ferried context by pasting into Claude, then ChatGPT, then dropping files into Cursor, and versions would drift apart; connecting one MCP URL wires it up with no coding required. Knowledge is organized into 'articles' with freshness indicators and change history — when an agent writes new info, the system routes it to the right article and flags conflicts with what's already there. Agents pull only the relevant information before starting work, and the system supports per-account encryption, markdown export anytime, and permanent deletion. 75 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://ozbrain.com",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-21T23:09:06Z",
+      "curatedAt": "2026-08-22T23:06:51Z"
+    },
+    {
+      "id": "curated-20260822-proliferate-oss-agent-ide",
+      "title": "클로드 코드·코덱스·커서를 한 화면에서 동시에 — 오픈소스 셀프호스팅 IDE 'Proliferate', HN 43점",
+      "body": "오늘 공개된 Proliferate는 클로드 코드·코덱스·OpenCode·커서·Grok 같은 여러 코딩 에이전트를 하나의 워크스페이스에서 병렬로 굴릴 수 있게 해주는 오픈소스 셀프호스팅 IDE입니다. 작업마다 독립된 git 브랜치·터미널·대화 스레드를 배정하고, 에이전트가 하위 에이전트를 파생시켜 범위를 좁힌 작업을 위임할 수 있으며, MCP·스킬·커스텀 도구 설정도 공유합니다. 데스크톱 앱(현재 macOS)에서 여러 에이전트에 동시에 작업을 맡기면 워크트리 관리와 오케스트레이션을 자동으로 처리해 주고, 컨트롤 플레인은 Docker Compose·AWS CloudFormation·쿠버네티스로 자체 호스팅할 수 있습니다. HN에서 43점을 받았습니다.",
+      "titleEn": "Running Claude Code, Codex, and Cursor Side by Side — the Open-Source, Self-Hostable IDE 'Proliferate', 43 pts on HN",
+      "bodyEn": "Published today, Proliferate is an open-source, self-hostable IDE for running multiple coding agents — Claude Code, Codex, OpenCode, Cursor, Grok — in parallel inside one workspace. Each task gets its own isolated git branch, terminal, and conversation thread; agents can spawn child agents to delegate scoped sub-tasks, and MCP/skills/custom-tool configs are shared across them. The desktop app (macOS for now) lets you assign concurrent tasks to multiple agents while it automatically manages worktrees and orchestration, and the full control plane can be self-hosted via Docker Compose, AWS CloudFormation, or Kubernetes. 43 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/proliferate-ai/proliferate",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-21T16:47:15Z",
+      "curatedAt": "2026-08-22T23:06:51Z"
+    },
     {
       "id": "curated-20260822-codex-vs-claude-week-tips",
       "title": "코덱스로 일주일 살아보니 — 클로드 코드와 다른 점 5가지, HN 67점",
@@ -119,45 +197,6 @@
       "curatedAt": "2026-08-21T09:30:00Z"
     },
     {
-      "id": "curated-20260821-ai-leadership-not-coding",
-      "title": "\"AI와 일하는 건 코딩이 아니라 리더십에 가깝다\" — HN 338점",
-      "body": "오늘 공개된 이 글은 코딩 에이전트를 다루는 효과적인 방식이 정확한 지시를 내리는 것이 아니라 '맥락을 공유하고, 원하는 결과를 설명하고, 경계를 정한 뒤 돌아온 결과에 반응하는 것'이라고 주장합니다. 시간이 지나며 재사용 가능한 지시문·예시·수정 이력을 쌓아가고, 무엇을 할지뿐 아니라 왜 이 작업이 중요한지, 어디에 판단이 필요한지까지 항상 설명하라고 권합니다. 예상 밖의 결과가 나오면 일회성 실패가 아니라 다음 프롬프트를 다듬을 신호로 받아들이라는 태도를 강조하며, HN에서 338점을 받았습니다.",
-      "titleEn": "\"Working with AI feels more like leadership than coding\" — 338 pts on HN",
-      "bodyEn": "Published today, this post argues the effective way to work with coding agents isn't issuing precise instructions but sharing context, explaining the desired outcome, setting boundaries, and responding to what comes back — much like managing a person. It recommends building up reusable instructions, examples, and corrections over time, and always explaining not just what to do but why the work matters and where judgment is needed. Unexpected agent output should be treated as a signal to refine future prompts, not a one-off failure. 338 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://allen.bargi.org/notes/working-with-ai-feels-like-leadership/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-15T00:00:00Z",
-      "curatedAt": "2026-08-21T09:30:00Z"
-    },
-    {
-      "id": "curated-20260821-craft-coding-not-vibes",
-      "title": "\"바이브 코딩 대신 크래프트 코딩\" — AI는 리뷰만, 코드는 직접 짠다는 원칙, HN 98점",
-      "body": "오늘 공개된 이 글은 바이브 코딩의 반대 노선인 '크래프트 코딩'을 10가지 명시적 규칙으로 정리합니다. IDE 자동완성에 AI를 쓰지 않고, 코드베이스·도구 접근 권한을 주지 않은 채 채팅창에 스니펫만 붙여넣어 대화하며, AI가 생성한 코드를 프로젝트에 그대로 붙여넣지 않고, AI에게 묻기 전에 먼저 문서를 검색해 읽으라고 권합니다. 핵심 워크플로우는 '직접 코드 작성 → 클로드에 붙여넣어 리뷰 요청 → 본인이 실제로 이해한 수정 사항만 채택'하는 순서이며, HN에서 98점을 받았습니다.",
-      "titleEn": "\"Craft coding, not vibe coding\" — write the code yourself, let AI only review, 98 pts on HN",
-      "bodyEn": "Published today, this post lays out 'craft coding' — the opposite of vibe coding — as ten explicit rules. No AI autocomplete in the IDE; paste snippets into a chat window rather than granting codebase or tool access; never paste AI-generated code straight into the project; and search and read the docs before asking AI anything. The core workflow: write the code yourself, paste it into Claude for review, and only adopt fixes you actually understand. 98 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://peterbloem.nl/blog/craft-coding",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-16T00:00:00Z",
-      "curatedAt": "2026-08-21T09:30:00Z"
-    },
-    {
-      "id": "curated-20260820-onecli-sandboxed-agent-harness",
-      "title": "YC 스타트업이 공개한 오픈소스 샌드박스 에이전트 하네스 'OneCLI', HN 47점",
-      "body": "오늘 공개된 OneCLI는 YC S26 배치 스타트업이 만든 오픈소스 샌드박스 에이전트 하네스로, 팀 단위로 여러 코딩 에이전트를 격리된 환경에서 안전하게 굴릴 수 있도록 설계됐습니다. Show HN 런칭 글에서 저장소와 함께 공개됐으며, 자체 하네스를 밑바닥부터 짜는 대신 검증된 샌드박싱 구조를 가져다 쓰고 싶은 팀이라면 참고할 만합니다. HN에서 47점을 받았습니다.",
-      "titleEn": "OneCLI — an open-source sandboxed agent harness for teams, launched by a YC startup, 47 pts on HN",
-      "bodyEn": "Published today, OneCLI is an open-source sandboxed agent harness built by a YC S26 startup, designed to let teams run multiple coding agents safely inside isolated environments. Launched via a Show HN post alongside its repo, it's a reference point for teams who'd rather adopt a proven sandboxing structure than build their own harness from scratch. 47 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/onecli/onecli",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-19T16:29:02Z",
-      "curatedAt": "2026-08-20T00:15:00Z"
-    },
-    {
       "id": "curated-20260820-orca-paseo-agent-tool-compare-ko",
       "title": "Orca vs Paseo vs 순정 터미널 — 코딩 에이전트 여러 개 굴리는 도구 3파전 비교, 요즘IT",
       "body": "요즘IT에 오늘 올라온 글은 코딩 에이전트를 여러 개 동시에 돌리는 세 가지 방법 — 아무 도구 없이 터미널을 그대로 쓰는 '순정', 병렬 워크트리·계정 전환·사용량 대시보드·시각적 디자인 모드 프롬프팅에 SSH 워크트리까지 지원하는 데스크톱 GUI 'Orca', 가벼운 크로스플랫폼·모바일 클라이언트로 네이티브 음성 명령까지 되는 'Paseo' — 를 기능별로 정리합니다. 둘 다 무료로 기존 구독 위에 얹어 쓰는 방식이라 별도 결제 없이 바로 시도해볼 수 있다는 점을 강조합니다.",
@@ -221,45 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-18T00:00:00Z",
       "curatedAt": "2026-08-19T09:30:00Z"
-    },
-    {
-      "id": "curated-20260818-addyosmani-loop-engineering-ko",
-      "title": "구글 크롬 리드 애디 오스마니의 '실전 루프 엔지니어링' — 클로드 코드 /goal·/loop 활용법",
-      "body": "GeekNews에 오늘 소개된 Addy Osmani(구글 크롬 엔지니어링 리드)의 글은 에이전트가 '실행 → 결과 검증 → 방식 수정'을 스스로 반복하는 '루프 엔지니어링'을 실전 팁으로 정리합니다. 클로드 코드의 `/goal`은 테스트 통과 수·Lighthouse 점수 같은 측정 가능한 완료 조건을 만족할 때까지 작업을 반복시키고(7일 후 자동 만료), `/loop`는 일정 간격으로 재실행해 외부 상태를 점검하거나 반복 작업을 처리합니다. 그는 실행 에이전트와 검증 에이전트를 분리하고 보안·인증·결제 같은 영역은 반드시 사람이 직접 검토하라고 조언하며, 본인이 하루 5~10개 에이전트를 굴리고(동시 최대 5개) 자신의 Agent Skills 저장소가 한때 하루 80~90개 PR을 받았던 경험을 근거로 듭니다.",
-      "titleEn": "Google Chrome lead Addy Osmani's 'Practical Loop Engineering' — using Claude Code's /goal and /loop",
-      "bodyEn": "Featured today on GeekNews, this post by Addy Osmani (Google Chrome engineering lead) lays out 'loop engineering' — letting an agent repeat 'act → check results → adjust' on its own — as a concrete practice. Claude Code's `/goal` re-runs a task until a measurable completion condition is met (test-pass counts, Lighthouse scores), auto-expiring after 7 days, while `/loop` re-executes on a set interval to poll external state or handle recurring work. He recommends separating the executing agent from the validating one and keeping humans in the loop for security, auth, and payments, drawing on his own habit of running 5-10 agents a day (up to 5 concurrently) and his Agent Skills repo once fielding 80-90 PRs a day at its peak.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://addyo.substack.com/p/practical-loop-engineering",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-14T00:00:00Z",
-      "curatedAt": "2026-08-17T23:13:40Z"
-    },
-    {
-      "id": "curated-20260816-yozm-claude-code-6-case-studies-ko",
-      "title": "클로드 코드 길들이기 — 프리랜서부터 CTO까지 6인의 실전 적용기, 요즘IT",
-      "body": "요즘IT에 오늘 올라온 글은 프리랜서 개발자·PM·1인 빌더·기획자·CTO·BizOps 리드 등 6명이 실무에서 클로드 코드를 적용한 사례를 정리합니다. 1인 빌더 김상욱은 CLAUDE.md로 13개 프로젝트의 맥락을 관리하고 세션이 끝나도 '핸드오프' 문서로 전환 비용을 사실상 0으로 줄여, MVP 개발 기간을 1~2주에서 몇 시간으로 단축했다고 밝힙니다. 이현은 30개 캠퍼스의 정산 시스템을 5일 만에 런칭하면서 로그인 속도를 80% 개선한 사례를 공유합니다.",
-      "titleEn": "Taming Claude Code — 6 real-world case studies from freelancer to CTO, via 요즘IT",
-      "bodyEn": "Published today on 요즘IT, this piece rounds up how six people — a freelance developer, a PM, a solo builder, a planner, a CTO, and a BizOps lead — actually use Claude Code at work. Solo builder Kim Sang-wook manages context across 13 projects with CLAUDE.md and cuts session-switch cost to near zero with a 'handoff' doc, shrinking MVP dev time from 1-2 weeks down to a few hours. Lee Hyun shares launching a settlement system for 30 campuses in 5 days while improving login speed by 80%.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3901",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-15T00:00:00Z",
-      "curatedAt": "2026-08-15T23:12:33Z"
-    },
-    {
-      "id": "curated-20260811-claude-code-commands-rules-skills-hooks-ko",
-      "title": "클로드 코드 1년 실전기 — Commands·Rules·Skills·Hooks 4장치로 정리, velog",
-      "body": "velog에 올라온 글에서 개발자 s_soo100은 1년간 클로드 코드를 실사용하며 쌓은 노하우를 Commands·Rules·Skills·Hooks 네 가지 장치로 정리합니다. 특히 반복되는 실수 패턴을 그때그때 지적하는 대신 donts.md 같은 규칙 파일로 승격시키고, 세션이 끝나도 남는 feedback 메모리 파일에 '왜 이 방식을 쓰면 안 되는지'까지 기록해 다음 세션에서 같은 실수를 반복하지 않게 만드는 방법론이 핵심입니다. 클로드 코드를 팀 전체가 일관되게 쓰도록 환경을 다듬고 싶은 개발자에게 시간이 지나도 바로 참고할 실전 가이드입니다.",
-      "titleEn": "A year of real-world Claude Code use — organized into Commands, Rules, Skills, and Hooks, via velog",
-      "bodyEn": "Published on velog, developer s_soo100 distills a year of hands-on Claude Code use into four devices: Commands, Rules, Skills, and Hooks. The core method: instead of correcting the same mistake pattern over and over in conversation, promote it into a rule file like donts.md, and keep a persistent feedback-memory file that records *why* a given approach is wrong — so the next session doesn't repeat it. An evergreen, practical guide for anyone trying to make Claude Code usage consistent across a whole team.",
-      "sourceName": "velog",
-      "sourceUrl": "https://velog.io/@s_soo100/Claude-Code-%EC%8B%A4%EC%A0%84-%ED%99%9C%EC%9A%A9-%ED%8C%81-%ED%99%98%EA%B2%BD-%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A7%81",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-09T00:00:00Z",
-      "curatedAt": "2026-08-10T23:09:49Z"
     }
   ]
 }
