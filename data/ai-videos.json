@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:06:51Z",
+  "generatedAt": "2026-08-23T23:22:13Z",
   "videos": [
     {
       "id": "vid-jaychoi-8min-1000h-tips-ko",
@@ -62,16 +62,28 @@
       "addedAt": "2026-08-19T09:30:00Z"
     },
     {
-      "id": "vid-ailabs-boris-cherny-claude-code-tip",
-      "youtubeId": "pGro_uKt-_M",
+      "id": "vid-codingnuna-claude-code-rules-skills-agents-ko",
+      "youtubeId": "tx7XCDJuIYE",
       "category": "tip",
-      "title": "클로드 코드 창시자가 말하는 AI 에이전트 활용 최고의 팁",
-      "titleEn": "Claude Code Creator's Greatest Tip For Using AI Agents",
-      "descKo": "클로드 코드 개발에 참여한 Boris Cherny가 실제로 에이전트를 다루는 방식을 보여주며, 최신 모델 기준으로 가장 효과적인 활용 팁을 짚어주는 영상.",
-      "descEn": "AI LABS breaks down Claude Code creator Boris Cherny's own workflow, showing the single most effective way to work with agents on today's models.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-17T23:13:40Z"
+      "title": "에이전트·스킬·룰 등 클로드 코드 제대로 사용하는 법 (왕초보 전용)",
+      "titleEn": "How to Actually Use Claude Code's Agents, Skills, and Rules (Total Beginners)",
+      "descKo": "클로드 코드의 룰(Rules)·스킬(Skills)·에이전트(Agents)를 실전에서 어떻게 설정하고 조합해 쓰는지 짚어주는 왕초보용 2편 강의.",
+      "descEn": "A beginner-focused follow-up lesson covering how to actually set up and combine Claude Code's Rules, Skills, and Agents in practice.",
+      "channel": "코딩알려주는누나",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "addedAt": "2026-08-23T23:22:13Z"
+    },
+    {
+      "id": "vid-gcreator-subagent-1second-ko",
+      "youtubeId": "xxUbF6EPyfU",
+      "category": "tip",
+      "title": "클로드 코드 서브에이전트 1초컷! 순식간에 전문 비서 만들기",
+      "titleEn": "Claude Code Subagents in 1 Second — Instantly Build a Specialist Assistant",
+      "descKo": "코드 한 줄 없이 코드 리뷰·속도 최적화·디자인 개선용 서브에이전트 3개를 만들고, 순차·병렬로 프롬프팅하는 방법을 라이브 강의 형식으로 보여주는 영상.",
+      "descEn": "A live-lecture-style walkthrough building 3 subagents — code review, speed optimization, design improvement — with no code, then prompting them sequentially vs. in parallel.",
+      "channel": "G-CREATOR",
+      "publishedAt": "2026-08-23T00:00:00Z",
+      "addedAt": "2026-08-23T23:22:13Z"
     },
     {
       "id": "vid-deno-agent-orchestration-video-pipeline-ko",
@@ -84,6 +96,54 @@
       "channel": "Deno",
       "publishedAt": "2026-08-20T00:00:00Z",
       "addedAt": "2026-08-21T23:08:14Z"
+    },
+    {
+      "id": "vid-appanuguri-orca-orchestration-ko",
+      "youtubeId": "jtfFsgD0JG4",
+      "category": "usecase",
+      "title": "Orca 오케스트레이션, 이렇게 쓰면 됩니다 — AI 4개를 감독하는 법",
+      "titleEn": "This Is How You Use Orca Orchestration — Supervising 4 AI Agents at Once",
+      "descKo": "Orca로 4개의 AI 에이전트를 동시에 감독하며 작업을 분배하는 실전 오케스트레이션 시연.",
+      "descEn": "A hands-on demo of using Orca to supervise and dispatch tasks across four AI agents at once.",
+      "channel": "아빠너구리 TV",
+      "publishedAt": "2026-08-06T00:00:00Z",
+      "addedAt": "2026-08-21T09:30:00Z"
+    },
+    {
+      "id": "vid-yangsiljang-automation-dashboard-ko",
+      "youtubeId": "sozxBiyc3qQ",
+      "category": "usecase",
+      "title": "직장인 2시간 필수 투자 — 평생 써먹는 바이브코딩 자동화 대시보드 설계부터 구축까지",
+      "titleEn": "2 Hours Worth It: Designing and Building a Reusable Vibe-Coded Automation Dashboard",
+      "descKo": "직장인이 실무에 바로 쓸 자동화 대시보드를 바이브 코딩으로 설계부터 구축까지 실연.",
+      "descEn": "A real build of an automation dashboard for office workers, from design to deployment via vibe coding.",
+      "channel": "양실장의 바이브코딩대학",
+      "publishedAt": "2026-08-20T00:00:00Z",
+      "addedAt": "2026-08-21T09:30:00Z"
+    },
+    {
+      "id": "vid-pragmatic-vibecoding-security-breach-ko",
+      "youtubeId": "sxKIjaMyBlg",
+      "category": "usecase",
+      "title": "바이브코딩으로 만든 서비스, 이렇게 뚫립니다 (클로드코드 실화)",
+      "titleEn": "How a Vibe-Coded App Actually Gets Hacked (A Real Claude Code Story)",
+      "descKo": "AI 예약 비서가 권한 검증 없는 취소 API 때문에 남의 헬스장 예약을 대신 취소해버린 실제 호주 사건을 분석하고, 출시 전 점검할 인가·소유권 검증·되돌릴 수 없는 액션 분리 같은 체크리스트를 짚어주는 영상.",
+      "descEn": "Breaks down a real Australian incident where an AI booking assistant cancelled someone else's gym reservation because the cancel API had no authorization check, then walks through a pre-launch checklist — authz vs authn, ownership checks, isolating irreversible actions — for vibe-coded apps.",
+      "channel": "실용주의 개발",
+      "publishedAt": "2026-08-22T00:00:00Z",
+      "addedAt": "2026-08-23T23:22:13Z"
+    },
+    {
+      "id": "vid-catchupai-pastor-hebronguide-ko",
+      "youtubeId": "vXPCbt47rok",
+      "category": "usecase",
+      "title": "목사님이 바이브 코딩에 빠져서 만든 앱 — 86개 도시로 퍼진 HebronGuide 개발기",
+      "titleEn": "The App a Pastor Built After Falling for Vibe Coding — HebronGuide's Spread to 86 Cities",
+      "descKo": "코드를 몰랐던 목사가 바이브 코딩만으로 앱 HebronGuide를 만들어 86개 도시까지 확산시킨 과정을 밝힌 'Builders Lounge' 밋업 발표 및 청중 Q&A 영상.",
+      "descEn": "A Builders Lounge meetup talk (with audience Q&A) where a non-coder pastor describes building and shipping HebronGuide purely through vibe coding, now used in 86 cities.",
+      "channel": "Catch Up AI",
+      "publishedAt": "2026-08-22T00:00:00Z",
+      "addedAt": "2026-08-23T23:22:13Z"
     },
     {
       "id": "vid-leejongbeom-claude-30min-guide-ko",
@@ -110,30 +170,6 @@
       "addedAt": "2026-08-21T23:08:14Z"
     },
     {
-      "id": "vid-futurepedia-claude-99percent",
-      "youtubeId": "5aUgDDWd4-k",
-      "category": "lecture",
-      "title": "99% 사람보다 클로드 잘 쓰는 법 (입문부터 고급까지)",
-      "titleEn": "Use Claude Better Than 99% of People (Beginner to Pro)",
-      "descKo": "입문자부터 고급 사용자까지 단계별로 클로드 활용법을 구조적으로 짚어주는 강의.",
-      "descEn": "A structured beginner-to-advanced walkthrough of how to get the most out of Claude.",
-      "channel": "Futurepedia",
-      "publishedAt": "2026-08-16T00:00:00Z",
-      "addedAt": "2026-08-20T00:15:00Z"
-    },
-    {
-      "id": "vid-codingnuna-claude-code-basics-ko",
-      "youtubeId": "Rq4ot7EOL08",
-      "category": "lecture",
-      "title": "설치부터 알려드립니다 (왕초보 환영) — 클로드 코드의 모든 기초",
-      "titleEn": "I'll Show You From Install (Total Beginners Welcome) — All the Claude Code Basics",
-      "descKo": "설치부터 기초 개념까지 완전 왕초보를 위해 처음부터 짚어주는 클로드 코드 입문 강의.",
-      "descEn": "An absolute-beginner Korean course covering Claude Code from installation through the fundamentals.",
-      "channel": "코딩알려주는누나",
-      "publishedAt": "2026-08-10T00:00:00Z",
-      "addedAt": "2026-08-20T00:15:00Z"
-    },
-    {
       "id": "vid-yangsiljang-vibecoding-course-ko",
       "youtubeId": "K6Rsy-pHBi0",
       "category": "lecture",
@@ -143,42 +179,6 @@
       "descEn": "A dense, structured 3-hour vibe-coding course covering 55 real technical decisions with source-code walkthroughs.",
       "channel": "양실장의 바이브코딩대학",
       "publishedAt": "2026-08-18T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
-    },
-    {
-      "id": "vid-chaseai-1000-hours-claude-code-guide",
-      "youtubeId": "U6k4MeVks_Y",
-      "category": "lecture",
-      "title": "50분 안에 클로드 코드 1000시간 압축 가이드 — 권한·이펙트·플랜 모드까지",
-      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours of Claude Code",
-      "descKo": "폴더 설정, 권한 모드(수동~바이패스), 모델·이펙트 레벨 선택, 플랜 모드 활용법까지 클로드 코드 기초를 처음부터 촘촘하게 다지는 실전 가이드.",
-      "descEn": "A dense practical walkthrough covering folder setup, permission modes (manual to bypass), model/effort level choices, and how to use plan mode to lock in Claude Code fundamentals.",
-      "channel": "Chase AI",
-      "publishedAt": "2026-08-11T23:04:20Z",
-      "addedAt": "2026-08-15T08:30:00Z"
-    },
-    {
-      "id": "vid-appanuguri-orca-orchestration-ko",
-      "youtubeId": "jtfFsgD0JG4",
-      "category": "usecase",
-      "title": "Orca 오케스트레이션, 이렇게 쓰면 됩니다 — AI 4개를 감독하는 법",
-      "titleEn": "This Is How You Use Orca Orchestration — Supervising 4 AI Agents at Once",
-      "descKo": "Orca로 4개의 AI 에이전트를 동시에 감독하며 작업을 분배하는 실전 오케스트레이션 시연.",
-      "descEn": "A hands-on demo of using Orca to supervise and dispatch tasks across four AI agents at once.",
-      "channel": "아빠너구리 TV",
-      "publishedAt": "2026-08-06T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
-    },
-    {
-      "id": "vid-yangsiljang-automation-dashboard-ko",
-      "youtubeId": "sozxBiyc3qQ",
-      "category": "usecase",
-      "title": "직장인 2시간 필수 투자 — 평생 써먹는 바이브코딩 자동화 대시보드 설계부터 구축까지",
-      "titleEn": "2 Hours Worth It: Designing and Building a Reusable Vibe-Coded Automation Dashboard",
-      "descKo": "직장인이 실무에 바로 쓸 자동화 대시보드를 바이브 코딩으로 설계부터 구축까지 실연.",
-      "descEn": "A real build of an automation dashboard for office workers, from design to deployment via vibe coding.",
-      "channel": "양실장의 바이브코딩대학",
-      "publishedAt": "2026-08-20T00:00:00Z",
       "addedAt": "2026-08-21T09:30:00Z"
     }
   ]
