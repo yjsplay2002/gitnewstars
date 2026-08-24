@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-23T23:22:13Z",
+  "generatedAt": "2026-08-24T23:10:08Z",
   "videos": [
+    {
+      "id": "vid-shinyoungsun-codex-5-features-ko",
+      "youtubeId": "SkxYbqYo0UU",
+      "category": "tip",
+      "title": "99%가 모르는 코덱스 핵심 기능 5가지 — 8분 총정리",
+      "titleEn": "5 Codex Features 99% of Users Don't Know — An 8-Minute Rundown",
+      "descKo": "챗GPT 안에서 쓸 수 있는 코덱스의 잘 알려지지 않은 기능 5가지를 8분 만에 정리한 영상.",
+      "descEn": "An 8-minute rundown of 5 lesser-known Codex features usable inside ChatGPT.",
+      "channel": "신영선의 AI탐구",
+      "publishedAt": "2026-08-24T00:00:00Z",
+      "addedAt": "2026-08-24T23:10:08Z"
+    },
+    {
+      "id": "vid-natebjones-glm53-cheaper-claude-codex",
+      "youtubeId": "4HvFqhtCb-A",
+      "category": "tip",
+      "title": "월 200달러 대신 18달러 모델로 — 클로드 코드·코덱스에 GLM-5.3 붙이는 법",
+      "titleEn": "Stop Paying $200 For Work an $18 Model Can Do Inside Claude Code and Codex",
+      "descKo": "GLM-5.3을 클로드 코드와 코덱스 안에 붙여 훨씬 저렴하게 같은 작업을 처리하는 설치·설정 과정을 보여주는 영상.",
+      "descEn": "Shows how to route the much cheaper GLM-5.3 model into both Claude Code and Codex, with setup steps, to cut usage costs.",
+      "channel": "Nate B Jones",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "addedAt": "2026-08-24T23:10:08Z"
+    },
     {
       "id": "vid-jaychoi-8min-1000h-tips-ko",
       "youtubeId": "GsInmND5zD8",
@@ -14,30 +38,6 @@
       "addedAt": "2026-08-21T09:30:00Z"
     },
     {
-      "id": "vid-isenberg-skillsmaxxing-tip",
-      "youtubeId": "xHsftiyT9pQ",
-      "category": "tip",
-      "title": "2026년 AI 에이전트 최고의 돌파구: 스킬맥싱",
-      "titleEn": "Biggest Unlock for AI Agents in 2026: Skillsmaxxing",
-      "descKo": "에이전트에 커스텀 스킬을 붙여 성능을 끌어올리는 최신 워크플로우 팁.",
-      "descEn": "A practical trick for boosting agent performance by attaching custom \"skills.\"",
-      "channel": "Greg Isenberg",
-      "publishedAt": "2026-08-19T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
-    },
-    {
-      "id": "vid-berman-codex-15-tips",
-      "youtubeId": "jGR8LnfVPbA",
-      "category": "tip",
-      "title": "코덱스 마스터하는 15가지 팁",
-      "titleEn": "Master Codex with these 15 Tips",
-      "descKo": "코덱스를 실전에서 더 잘 쓰기 위한 15가지 실용 팁 모음.",
-      "descEn": "Fifteen practical tips for getting more out of Codex in daily use.",
-      "channel": "Matthew Berman",
-      "publishedAt": "2026-08-05T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
-    },
-    {
       "id": "vid-codingsloth-1000h-claude-code-lessons",
       "youtubeId": "YAsxyoTWFDA",
       "category": "tip",
@@ -47,18 +47,6 @@
       "descEn": "A personal retrospective distilling workflows and tips learned from 1000+ hours of daily Claude Code use.",
       "channel": "The Coding Sloth",
       "publishedAt": "2026-08-18T00:00:00Z",
-      "addedAt": "2026-08-19T09:30:00Z"
-    },
-    {
-      "id": "vid-charliechang-vibe-code-free-2026",
-      "youtubeId": "FZ-P_HQK0z4",
-      "category": "tip",
-      "title": "2026년, 돈 안 들이고 바이브 코딩하는 법",
-      "titleEn": "How to Vibe Code for Free in 2026 (Full Tutorial)",
-      "descKo": "무료 도구만으로 앱을 처음부터 끝까지 바이브 코딩해보는 실전 튜토리얼.",
-      "descEn": "A full walkthrough building an app end-to-end using only free vibe-coding tools.",
-      "channel": "Charlie Chang",
-      "publishedAt": "2026-08-14T00:00:00Z",
       "addedAt": "2026-08-19T09:30:00Z"
     },
     {
@@ -86,6 +74,18 @@
       "addedAt": "2026-08-23T23:22:13Z"
     },
     {
+      "id": "vid-jocoding-musinsa-codex-usecase-ko",
+      "youtubeId": "6-bmczPW5n0",
+      "category": "usecase",
+      "title": "무신사는 코덱스를 어떻게 쓰고 있을까 — OpenAI x 조코딩 대담",
+      "titleEn": "How Does Musinsa Use Codex? — OpenAI x JoCoding Interview",
+      "descKo": "이커머스 기업 무신사의 기술 리더가 실제 업무에 코덱스를 어떻게 도입해 쓰고 있는지, AI 채용 이야기까지 다루는 OpenAI·조코딩 공동 주최 인터뷰 영상.",
+      "descEn": "An interview co-hosted by OpenAI and JoCoding where Musinsa's tech lead explains how the e-commerce company actually uses Codex in production, plus how AI is changing their hiring.",
+      "channel": "조코딩 JoCoding",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "addedAt": "2026-08-24T23:10:08Z"
+    },
+    {
       "id": "vid-deno-agent-orchestration-video-pipeline-ko",
       "youtubeId": "guq_bjGwzdw",
       "category": "usecase",
@@ -96,18 +96,6 @@
       "channel": "Deno",
       "publishedAt": "2026-08-20T00:00:00Z",
       "addedAt": "2026-08-21T23:08:14Z"
-    },
-    {
-      "id": "vid-appanuguri-orca-orchestration-ko",
-      "youtubeId": "jtfFsgD0JG4",
-      "category": "usecase",
-      "title": "Orca 오케스트레이션, 이렇게 쓰면 됩니다 — AI 4개를 감독하는 법",
-      "titleEn": "This Is How You Use Orca Orchestration — Supervising 4 AI Agents at Once",
-      "descKo": "Orca로 4개의 AI 에이전트를 동시에 감독하며 작업을 분배하는 실전 오케스트레이션 시연.",
-      "descEn": "A hands-on demo of using Orca to supervise and dispatch tasks across four AI agents at once.",
-      "channel": "아빠너구리 TV",
-      "publishedAt": "2026-08-06T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
     },
     {
       "id": "vid-yangsiljang-automation-dashboard-ko",
@@ -144,6 +132,18 @@
       "channel": "Catch Up AI",
       "publishedAt": "2026-08-22T00:00:00Z",
       "addedAt": "2026-08-23T23:22:13Z"
+    },
+    {
+      "id": "vid-nicksaraev-codex-business-course",
+      "youtubeId": "DJZISqryDfw",
+      "category": "lecture",
+      "title": "비즈니스를 위한 코덱스 완전정복 — 4.5시간 풀코스",
+      "titleEn": "Codex for Business — The Full 4.5-Hour Course",
+      "descKo": "OpenAI 코덱스를 에이전시·비즈니스 업무에 적용하는 방법을 처음부터 끝까지 다루는 4.5시간짜리 풀코스 강의.",
+      "descEn": "A long-form, 4.5-hour course on applying OpenAI Codex to agency and business work, start to finish.",
+      "channel": "Nick Saraev",
+      "publishedAt": "2026-08-23T00:00:00Z",
+      "addedAt": "2026-08-24T23:10:08Z"
     },
     {
       "id": "vid-leejongbeom-claude-30min-guide-ko",
