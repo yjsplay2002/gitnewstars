@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-24T23:10:08Z",
+  "generatedAt": "2026-08-25T23:15:29Z",
   "videos": [
+    {
+      "id": "vid-vizensoft-claude-code-august-update-ko",
+      "youtubeId": "9VIEBKSB98Y",
+      "category": "tip",
+      "title": "클로드 코드 8월 업데이트 5가지 — 자동 모드부터 /design까지",
+      "titleEn": "5 Claude Code August Updates — From Default Auto Mode to /design",
+      "descKo": "8월 14일부터 자동 모드가 기본으로 전환된 것부터 코드 내 디자인 시안을 만들어주는 /design 명령어, v2.1.234의 자동 이어쓰기, 8월 31일까지인 주간 사용 한도 50% 증가까지 구체적 버전·날짜를 짚어주는 업데이트 정리 영상.",
+      "descEn": "A rundown of 5 concrete Claude Code changes since August 14 — auto mode switching on by default, a new /design command for in-code design mockups, v2.1.234's auto-continue, and the 50% weekly limit boost running through August 31.",
+      "channel": "VIZENSOFT",
+      "publishedAt": "2026-08-22T00:00:00Z",
+      "addedAt": "2026-08-25T23:15:29Z"
+    },
+    {
+      "id": "vid-techbridge-claude-code-token-waste-ko",
+      "youtubeId": "-QwaaSwQIhE",
+      "category": "tip",
+      "title": "앤트로픽이 직접 밝힌 클로드 코드 토큰 낭비 막는 6가지 방법",
+      "titleEn": "Anthropic's Own 6 Methods to Stop Wasting Claude Code Tokens",
+      "descKo": "앤트로픽 공식 가이드를 바탕으로 /clear·/compact 주기적 사용, /context·/memory로 불필요한 MCP 정리, 세션 중 모델 변경 금지(캐시 만료 방지), 시끄러운 CLI 명령은 Haiku 서브에이전트로 분리하는 등 실전 토큰 절약법 6가지를 정리한 한영자막 영상.",
+      "descEn": "Based on Anthropic's official guidance, this video covers 6 practical token-saving techniques: regularly using /clear and /compact, pruning unneeded MCPs via /context and /memory, avoiding mid-session model switches (which expire the cache), and offloading noisy CLI commands to a Haiku subagent.",
+      "channel": "Tech Bridge",
+      "publishedAt": "2026-08-19T00:00:00Z",
+      "addedAt": "2026-08-25T23:15:29Z"
+    },
     {
       "id": "vid-shinyoungsun-codex-5-features-ko",
       "youtubeId": "SkxYbqYo0UU",
@@ -24,18 +48,6 @@
       "channel": "Nate B Jones",
       "publishedAt": "2026-08-21T00:00:00Z",
       "addedAt": "2026-08-24T23:10:08Z"
-    },
-    {
-      "id": "vid-jaychoi-8min-1000h-tips-ko",
-      "youtubeId": "GsInmND5zD8",
-      "category": "tip",
-      "title": "8분만 주시면, 클로드 코드 1000시간의 꿀팁을 드립니다",
-      "titleEn": "Give Me 8 Minutes, I'll Give You 1000 Hours of Claude Code Tips",
-      "descKo": "1000시간 실사용 끝에 압축한 클로드 코드 핵심 꿀팁을 8분 안에 정리한 영상.",
-      "descEn": "A condensed 8-minute rundown of Claude Code tips distilled from 1000 hours of use.",
-      "channel": "Jay Choi | 인디해커 라이프",
-      "publishedAt": "2026-07-31T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
     },
     {
       "id": "vid-codingsloth-1000h-claude-code-lessons",
@@ -155,18 +167,6 @@
       "descEn": "A beginner-to-finish Claude walkthrough covering sign-up, plan choice (free, $20 Pro, $100/200 Max), model selection (Sonnet 5, Haiku 5), effort settings, and privacy options, followed step by step from the very first screen.",
       "channel": "AI 겸임교수 이종범",
       "publishedAt": "2026-08-14T00:00:00Z",
-      "addedAt": "2026-08-21T23:08:14Z"
-    },
-    {
-      "id": "vid-zinhoautomates-ultimate-claude-code-tutorial",
-      "youtubeId": "OVm2AGTxYuE",
-      "category": "lecture",
-      "title": "궁극의 클로드 코드 튜토리얼 (입문부터 실전까지)",
-      "titleEn": "The Ultimate Claude Code Tutorial (Beginner to Pro)",
-      "descKo": "인터페이스·설정부터 프롬프팅, 음성 입력과 플랜 모드, 빌드·프리뷰, 반복 개선까지 챕터별로 짚어주는 클로드 코드 종합 튜토리얼.",
-      "descEn": "A chapter-by-chapter Claude Code walkthrough covering interface and setup, prompting, voice input and plan mode, build and preview, and iteration.",
-      "channel": "Zinho Automates",
-      "publishedAt": "2026-08-17T00:00:00Z",
       "addedAt": "2026-08-21T23:08:14Z"
     },
     {

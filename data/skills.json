@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T23:10:08Z",
+  "generatedAt": "2026-08-25T23:15:29Z",
   "skills": [
     {
       "id": "superpowers",
@@ -9,7 +9,7 @@
       "name": "Superpowers",
       "descKo": "브레인스토밍·체계적 디버깅·TDD를 묶은 에이전트 스킬 프레임워크 겸 개발 방법론.",
       "descEn": "An agentic skills framework & software development methodology bundling brainstorming, systematic debugging, and TDD.",
-      "stars": 277092,
+      "stars": 277553,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -20,7 +20,7 @@
       "name": "Anthropic Agent Skills",
       "descKo": "Anthropic이 직접 공개한 공식 Agent Skills 저장소.",
       "descEn": "Anthropic's official public repository for Agent Skills.",
-      "stars": 171376,
+      "stars": 171574,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -31,7 +31,7 @@
       "name": "Awesome LLM Apps",
       "descKo": "무료·오픈소스 AI 에이전트·에이전트 스킬·RAG 앱 100개 이상을 모은 대형 큐레이션 저장소.",
       "descEn": "A large curated collection of 100+ free and open-source AI agents, agent skills, and RAG apps.",
-      "stars": 133938,
+      "stars": 134214,
       "addedAt": "2026-07-24T02:00:00Z"
     },
     {
@@ -42,7 +42,7 @@
       "name": "Caveman",
       "descKo": "출력을 원시인 말투로 압축해 토큰을 크게 줄여주는 Claude Code 스킬. 기술 정확도는 유지.",
       "descEn": "Claude Code skill that compresses output into caveman speech to cut tokens while keeping technical accuracy.",
-      "stars": 100686,
+      "stars": 100942,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Agent Skills (Addy Osmani)",
       "descKo": "Google Chrome 엔지니어링 리드 Addy Osmani가 만든 프로덕션급 코딩 에이전트 스킬 모음.",
       "descEn": "Production-grade engineering skills for AI coding agents, by Google Chrome engineering lead Addy Osmani.",
-      "stars": 89486,
+      "stars": 89752,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -64,7 +64,7 @@
       "name": "Awesome Claude Skills",
       "descKo": "Claude AI 워크플로우 커스터마이징을 위한 스킬·리소스·도구 큐레이션 리스트.",
       "descEn": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.",
-      "stars": 73176,
+      "stars": 73240,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -75,7 +75,7 @@
       "name": "Last 30 Days",
       "descKo": "레딧·X·유튜브·HN·폴리마켓과 웹을 훑어 최근 30일 동향을 근거 기반으로 요약해주는 에이전트 스킬.",
       "descEn": "An AI agent skill that scans Reddit/X/YouTube/HN/Polymarket plus the web to produce a grounded summary of the last 30 days.",
-      "stars": 59193,
+      "stars": 59257,
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -86,7 +86,7 @@
       "name": "OpenMontage",
       "descKo": "코딩 에이전트를 영상 제작 스튜디오로 바꿔주는 오픈소스 스킬. 12개 파이프라인·100개 이상 도구·700개 이상 스킬 파일 포함.",
       "descEn": "An open-source agentic video production system that turns a coding assistant into a video studio — 12 pipelines, 100+ tools, 700+ skill and production-knowledge files.",
-      "stars": 50077,
+      "stars": 50271,
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
@@ -97,7 +97,7 @@
       "name": "Obsidian Skills",
       "descKo": "에이전트가 Obsidian CLI·마크다운·Bases·Canvas를 다루는 법을 가르치는 스킬.",
       "descEn": "Teaches agents to work with Obsidian's CLI, Markdown, Bases, and Canvas.",
-      "stars": 47195,
+      "stars": 47255,
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -108,7 +108,7 @@
       "name": "Agentic Awesome Skills (AAS Core)",
       "descKo": "로컬 우선 에이전트 제어판으로, 2,005개 이상의 에이전트 스킬을 발견·선택·검증하는 CLI·로컬 MCP·카탈로그를 제공.",
       "descEn": "A local agent-first control plane for discovering, selecting, and validating agentic skills — CLI, local MCP, and catalog backed by 2,005+ skills.",
-      "stars": 45341,
+      "stars": 45383,
       "addedAt": "2026-08-19T09:30:00Z"
     },
     {
@@ -119,7 +119,7 @@
       "name": "Awesome Copilot",
       "descKo": "깃허브 코파일럿용 커스텀 지침·에이전트·스킬·설정을 모은 커뮤니티 컬렉션.",
       "descEn": "A community collection of custom instructions, agents, skills, and configs for GitHub Copilot.",
-      "stars": 38197,
+      "stars": 38246,
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -130,7 +130,7 @@
       "name": "Humanizer",
       "descKo": "글에서 AI 티가 나는 흔적을 제거해 자연스럽게 다듬는 Claude Code 스킬.",
       "descEn": "Claude Code skill that removes signs of AI-generated writing from text.",
-      "stars": 37632,
+      "stars": 37873,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -141,7 +141,7 @@
       "name": "Scientific Agent Skills",
       "descKo": "생물학·화학·의학·신약개발 등 158개 스킬과 100여 개 과학 데이터베이스를 묶은 'AI 과학자' 스킬 라이브러리. 클로드 코드·코덱스·Cursor 등과 호환.",
       "descEn": "An 'AI scientist' skills library bundling 158 skills and 100+ scientific databases across biology, chemistry, medicine, and drug discovery, compatible with Claude Code, Codex, Cursor, and more.",
-      "stars": 34285,
+      "stars": 34452,
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
@@ -152,7 +152,7 @@
       "name": "Google Workspace CLI",
       "descKo": "구글이 공식 공개한, 드라이브·지메일·캘린더·시트·문서를 한 번에 다루는 커맨드라인 도구. AI 에이전트 스킬이 내장돼 있음.",
       "descEn": "Google's official command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, and Admin — built from the Google Discovery Service, with AI agent skills included.",
-      "stars": 30539,
+      "stars": 30560,
       "addedAt": "2026-08-05T23:12:00Z"
     },
     {
@@ -163,7 +163,7 @@
       "name": "skills (npx skills CLI)",
       "descKo": "Vercel이 공개한 오픈 에이전트 스킬 표준 도구. `npx skills` 한 줄로 어떤 프로젝트에든 스킬을 설치·관리할 수 있음.",
       "descEn": "Vercel's open agent skills tool — install and manage agent skills in any project with a single `npx skills` command.",
-      "stars": 29587,
+      "stars": 29668,
       "addedAt": "2026-08-10T23:09:49Z"
     },
     {
@@ -174,7 +174,7 @@
       "name": "PM Skills Marketplace",
       "descKo": "발견·전략·실행·런칭·성장 단계를 아우르는 100개 이상의 제품 관리(PM) 에이전트 스킬·커맨드·플러그인 모음.",
       "descEn": "A marketplace of 100+ agentic PM skills, commands, and plugins spanning discovery, strategy, execution, launch, and growth.",
-      "stars": 25602,
+      "stars": 25643,
       "addedAt": "2026-08-20T00:15:00Z"
     },
     {
@@ -185,7 +185,7 @@
       "name": "Guizang PPT Skill",
       "descKo": "매거진·스위스 레이아웃 스타일의 HTML 슬라이드 덱을 만들어주는 에이전트 스킬. 이미지 프롬프트·소셜 커버·WebGL 저전력 프레젠테이션 런타임까지 포함.",
       "descEn": "An agent skill that generates polished HTML slide decks in editorial-magazine and Swiss layout styles, including image prompts, social covers, and a WebGL low-power presentation runtime.",
-      "stars": 24767,
+      "stars": 24866,
       "addedAt": "2026-08-15T08:30:00Z"
     },
     {
@@ -196,7 +196,7 @@
       "name": "Google Skills",
       "descKo": "구글이 공식 공개한, 구글 제품·기술을 위한 공식 에이전트 스킬 모음.",
       "descEn": "Google's official collection of agent skills for Google products and technologies.",
-      "stars": 18665,
+      "stars": 18699,
       "addedAt": "2026-08-24T23:10:08Z"
     },
     {
@@ -207,19 +207,19 @@
       "name": "SkillSpector",
       "descKo": "클로드 코드·코덱스·MCP용 에이전트 스킬을 설치하기 전에 스캔해 취약점·프롬프트 인젝션·데이터 유출·공급망 위험을 탐지하는 보안 스캐너.",
       "descEn": "A security scanner that checks agent skills for Claude Code, Codex, and MCP before install — detecting vulnerabilities, prompt injection, data exfiltration, and supply-chain risk.",
-      "stars": 14943,
+      "stars": 14968,
       "addedAt": "2026-08-24T23:10:08Z"
     },
     {
-      "id": "tradermonty-trading-skills",
-      "repo": "tradermonty/claude-trading-skills",
-      "author": "tradermonty",
-      "category": "finance",
-      "name": "Claude Trading Skills",
-      "descKo": "주식 투자자·트레이더를 위한 클로드 코드 스킬 모음. 시장 분석·기술적 차트·스크리너·전략 개발까지 지원.",
-      "descEn": "Claude Code skills for equity investors and traders — market analysis, technical charting, screeners, and strategy development.",
-      "stars": 2714,
-      "addedAt": "2026-08-24T23:10:08Z"
+      "id": "trailofbits-skills",
+      "repo": "trailofbits/skills",
+      "author": "trailofbits",
+      "category": "security",
+      "name": "Trail of Bits Skills",
+      "descKo": "보안 연구기업 Trail of Bits가 공개한 클로드 코드 스킬. 보안 리서치·취약점 탐지·감사(audit) 워크플로우에 특화.",
+      "descEn": "Claude Code skills published by security research firm Trail of Bits, specialized for security research, vulnerability detection, and audit workflows.",
+      "stars": 6851,
+      "addedAt": "2026-08-25T23:15:29Z"
     }
   ]
 }
