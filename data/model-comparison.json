@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "note": "SWE-bench Verified 점수는 vals.ai 리더보드(2026-07-17) + 벤더 발표 기준. 가격·컨텍스트는 OpenRouter API에서 매일 자동 갱신($/1M 토큰). 점수가 없는 신규 모델은 표에만 표시.",
   "ignoredIds": [
     "anthropic/claude-opus-4.7-fast",
@@ -224,8 +224,8 @@
       "or": "deepseek/deepseek-v4-pro",
       "vendor": "DeepSeek",
       "name": "DeepSeek V4 Pro",
-      "priceIn": 0.79,
-      "priceOut": 1.58,
+      "priceIn": 0.87,
+      "priceOut": 1.74,
       "context": "1M",
       "swe": 80.6,
       "sweApprox": true,
@@ -1064,8 +1064,8 @@
       "or": "z-ai/glm-4.6",
       "vendor": "Z.ai",
       "name": "GLM 4.6",
-      "priceIn": 0.5,
-      "priceOut": 2,
+      "priceIn": 0.43,
+      "priceOut": 1.75,
       "context": "205K",
       "swe": 68,
       "sweApprox": true,
