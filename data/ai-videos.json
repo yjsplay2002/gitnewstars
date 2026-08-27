@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T23:08:15Z",
+  "generatedAt": "2026-08-27T23:14:13Z",
   "videos": [
     {
       "id": "vid-danishsofi-claude-setup-guide",
@@ -60,18 +60,6 @@
       "channel": "Nate B Jones",
       "publishedAt": "2026-08-21T00:00:00Z",
       "addedAt": "2026-08-24T23:10:08Z"
-    },
-    {
-      "id": "vid-codingnuna-claude-code-rules-skills-agents-ko",
-      "youtubeId": "tx7XCDJuIYE",
-      "category": "tip",
-      "title": "에이전트·스킬·룰 등 클로드 코드 제대로 사용하는 법 (왕초보 전용)",
-      "titleEn": "How to Actually Use Claude Code's Agents, Skills, and Rules (Total Beginners)",
-      "descKo": "클로드 코드의 룰(Rules)·스킬(Skills)·에이전트(Agents)를 실전에서 어떻게 설정하고 조합해 쓰는지 짚어주는 왕초보용 2편 강의.",
-      "descEn": "A beginner-focused follow-up lesson covering how to actually set up and combine Claude Code's Rules, Skills, and Agents in practice.",
-      "channel": "코딩알려주는누나",
-      "publishedAt": "2026-08-18T00:00:00Z",
-      "addedAt": "2026-08-23T23:22:13Z"
     },
     {
       "id": "vid-gcreator-subagent-1second-ko",
@@ -146,6 +134,18 @@
       "addedAt": "2026-08-23T23:22:13Z"
     },
     {
+      "id": "vid-yoonjadong-vibecoding-real-work-ko",
+      "youtubeId": "eXswS4_5dgQ",
+      "category": "usecase",
+      "title": "엉클잡스 & 현업 개발자 초대석, 바이브코딩 실무에선 진짜? — 윤자동 라이브",
+      "titleEn": "Uncle Jobs & Working Developers Roundtable: Does Vibe Coding Actually Work at Companies? — 윤자동 Live",
+      "descKo": "논코더 크리에이터와 현업 개발자들이 함께 나와 바이브 코딩이 실제 회사 업무에서 통하는지, 어떤 제품을 실제로 만들었는지 라이브로 토론하는 인터뷰 영상.",
+      "descEn": "A live interview/roundtable where a non-coder creator and working developers discuss whether vibe coding actually holds up in real company work, with concrete examples of products they've shipped.",
+      "channel": "윤자동",
+      "publishedAt": "2026-08-27T00:00:00Z",
+      "addedAt": "2026-08-27T23:14:13Z"
+    },
+    {
       "id": "vid-nicksaraev-codex-business-course",
       "youtubeId": "DJZISqryDfw",
       "category": "lecture",
@@ -158,28 +158,28 @@
       "addedAt": "2026-08-24T23:10:08Z"
     },
     {
-      "id": "vid-leejongbeom-claude-30min-guide-ko",
-      "youtubeId": "WCgHcAjiY1s",
+      "id": "vid-darrelwilson-vibecoding-beginners-guide",
+      "youtubeId": "x8WUtEv1YEg",
       "category": "lecture",
-      "title": "2026 클로드 사용법 30분 총정리 — 무료 시작부터 업무 자동화까지",
-      "titleEn": "The Complete 2026 Claude Guide in 30 Minutes — From Free Sign-up to Work Automation",
-      "descKo": "회원 가입, 요금제(무료·프로 20달러·맥스 100/200달러) 선택, 모델(소네트 5·하이쿠 5) 선택, 노력 설정, 개인정보 보호 옵션까지 첫 화면부터 그대로 따라 하는 클로드 왕초보 가이드.",
-      "descEn": "A beginner-to-finish Claude walkthrough covering sign-up, plan choice (free, $20 Pro, $100/200 Max), model selection (Sonnet 5, Haiku 5), effort settings, and privacy options, followed step by step from the very first screen.",
-      "channel": "AI 겸임교수 이종범",
-      "publishedAt": "2026-08-14T00:00:00Z",
-      "addedAt": "2026-08-21T23:08:14Z"
+      "title": "바이브 코딩 완전 초보자 가이드 — 노코드로 첫 웹사이트·앱 만들기",
+      "titleEn": "The Complete Beginners Guide To Vibe Coding",
+      "descKo": "코드를 전혀 몰라도 AI만으로 첫 웹사이트·앱을 완성하도록 처음부터 끝까지 구조화해 가르치는 바이브 코딩 입문 강의.",
+      "descEn": "A structured beginner course teaching vibe coding from scratch — building a first working website or app using AI with no code required.",
+      "channel": "Darrel Wilson",
+      "publishedAt": "2026-08-27T00:00:00Z",
+      "addedAt": "2026-08-27T23:14:13Z"
     },
     {
-      "id": "vid-chaseai-1000hours-condensed",
-      "youtubeId": "U6k4MeVks_Y",
+      "id": "vid-aiworkauto-claude-allinone-20min-ko",
+      "youtubeId": "58YFu8s2I8w",
       "category": "lecture",
-      "title": "50분에 압축한 클로드 코드 1000시간 경험치 — 2026년 가이드",
-      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
-      "descKo": "1000시간 넘는 클로드 코드 실사용 경험을 50분짜리 구조화된 강의로 압축해 전달하는 영상.",
-      "descEn": "A long-form structured lecture condensing 1000+ hours of hands-on Claude Code experience into a 50-minute guide.",
-      "channel": "Chase AI",
-      "publishedAt": "2026-08-11T00:00:00Z",
-      "addedAt": "2026-08-26T23:08:15Z"
+      "title": "2026 클로드 올인원 무료 강의 — AI 업무자동화 20분 총정리",
+      "titleEn": "2026 Claude All-in-One Free Course — 20-Minute AI Work Automation Rundown",
+      "descKo": "클로드 챗·프로젝트·아티팩트·코워크·클로드 코드·스킬·커넥터까지 실제 업무 보고서 예시로 20분 만에 훑어주는 무료 올인원 강의.",
+      "descEn": "A free 20-minute all-in-one course covering Claude Chat, Projects, Artifacts, Cowork, Claude Code, Skills, and Connectors, walked through with a real work-report example.",
+      "channel": "일반인을 위한 AI 업무자동화 가이드",
+      "publishedAt": "2026-08-25T00:00:00Z",
+      "addedAt": "2026-08-27T23:14:13Z"
     }
   ]
 }
