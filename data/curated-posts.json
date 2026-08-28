@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-08-27T23:14:13Z",
+  "generatedAt": "2026-08-28T23:09:27Z",
   "posts": [
+    {
+      "id": "curated-20260829-mcp-roadmap",
+      "title": "MCP 로드맵 공개 — 서버발 이벤트 표준화, API 키 대신 에이전트 신원 인증으로",
+      "body": "모델 컨텍스트 프로토콜(MCP) 공식 블로그가 로드맵을 공개했습니다. 서버가 먼저 알림을 보내는 '서버발 이벤트'와 장시간 작업을 추적하는 'Tasks'가 확장 기능에서 핵심 스펙으로 승격되고, 로컬 서버까지 포함해 전송 방식을 HTTP(스트리머블 HTTP)로 통일합니다. 정적 API 키 대신 DPoP와 워크로드 아이덴티티 페더레이션으로 에이전트 신원을 인증하는 방식이 도입되고, 도구 결과 포맷 표준화와 대화가 좁혀질수록 도구 목록을 점진적으로 넓혀 보여주는 '점진적 도구 탐색'도 예고됐습니다.",
+      "titleEn": "MCP Publishes Its Roadmap — Server-Initiated Events and Agent Identity Instead of API Keys",
+      "bodyEn": "The official Model Context Protocol blog published its roadmap. Server-initiated events/webhooks and long-running 'Tasks' are graduating from extensions into the core spec, and transport is unifying on HTTP (Streamable HTTP) even for local servers. Static API keys are being replaced with agent identity authenticated via DPoP and Workload Identity Federation, alongside standardized tool-result formats and 'progressive tool discovery' — starting with a small tool catalog that expands as the conversation narrows.",
+      "sourceName": "MCP Blog",
+      "sourceUrl": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-22T13:31:34Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "curated-20260829-ozbrain-shared-agent-memory",
+      "title": "에이전트들의 공용 두뇌 'OzBrain' — 클로드·챗GPT·커서가 같은 지식을 공유",
+      "body": "Show HN에 공개된 OzBrain은 클로드·챗GPT·커서 등 여러 에이전트가 하나의 커넥터로 읽고 쓰는 중앙집중식 버전 관리 지식 레이어입니다. 한 에이전트가 학습하거나 정리한 내용을 다른 에이전트도 즉시 활용할 수 있고, 어떤 에이전트가 언제 왜 문서를 바꿨는지 출처를 추적하며 오래된 문서는 자동으로 '대체됨'으로 표시합니다. '에이전트끼리 맥락을 공유하지 못한다'는 오케스트레이션 고질병에 대한 구체적 해법으로, HN에서 92점을 받았습니다.",
+      "titleEn": "OzBrain — a Shared Brain Multiple AI Agents Read and Write To",
+      "bodyEn": "Shown on HN, OzBrain is a centralized, versioned knowledge layer that Claude, ChatGPT, Cursor, and other agents all read and write to through one connector, so what one agent learns is instantly available to the others. It tracks provenance — which agent changed what and why — and auto-marks stale docs as superseded, offering a concrete fix for the perennial 'agents don't share context' orchestration problem. 92 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://ozbrain.com",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-21T23:09:06Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "curated-20260829-ai-engineer-notebooks",
+      "title": "RAG·에이전트·평가를 밑바닥부터 — 무료 콜랩 커리큘럼 'AI Engineer Notebooks'",
+      "body": "GitHub에 공개된 'AI Engineer Notebooks'는 Groq API로 무료 실행 가능한 구글 콜랩 노트북 커리큘럼으로, 프레임워크 없이 프롬프팅·도구 호출부터 시작해 최적화 전에 평가 프레임워크부터 만들고, RAG의 청킹·임베딩, 에이전트 루프·가드레일, MCP·스킬 패키징, 파인튜닝 대 LoRA, 프롬프트 인젝션 보안, 관측성까지 다룹니다. 고객지원 어시스턴트 디버깅, 파이프라인 대 에이전트 비용 분석, 레드팀 벤치마킹 같은 실전 케이스 스터디도 포함해 HN에서 111점을 받았습니다.",
+      "titleEn": "RAG, Agents, and Evals From Scratch — the Free 'AI Engineer Notebooks' Colab Curriculum",
+      "bodyEn": "Published on GitHub, 'AI Engineer Notebooks' is a runnable Colab curriculum (free via Groq's API) that builds everything from scratch, framework-free: prompting and tool-calling, eval frameworks built before optimization, RAG chunking and embeddings, agent loops and guardrails, MCP and skill packaging, fine-tuning vs. LoRA, prompt-injection security, and observability. It includes capstone case studies — debugging a support assistant, pipeline-vs-agent cost analysis, red-team benchmarking — and scored 111 points on HN.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/calmrocks/ai-engineer-notebooks",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-27T21:46:39Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "curated-20260829-corsair-agent-permission-gateway-ko",
+      "title": "에이전트에게 자격증명을 안 보여주고 지메일·슬랙 연결한다 — 'Corsair'",
+      "body": "GeekNews에 소개된 Corsair는 지메일·슬랙·깃허브·노션·스트라이프 같은 외부 서비스에 AI 에이전트를 연결할 때 자격증명 자체를 에이전트에 노출하지 않는 TypeScript 라이브러리입니다. 권한을 open·cautious·strict·readonly 4단계로 나눠 설정할 수 있고, 메일 발송처럼 민감한 작업은 10분 뒤 만료되는 승인 링크로 사람이 직접 확인해야 실행됩니다. 여러 서비스를 오케스트레이션하는 에이전트를 만들 때 바로 적용할 수 있는 권한 관리 패턴을 제시합니다.",
+      "titleEn": "Connecting Gmail and Slack to Agents Without Exposing Credentials — 'Corsair'",
+      "bodyEn": "Featured on GeekNews, Corsair is a TypeScript library that connects AI agents to external services — Gmail, Slack, GitHub, Notion, Stripe — without ever exposing credentials to the agent itself. Permissions are configurable across four tiers (open/cautious/strict/readonly), and sensitive actions like sending an email require human confirmation via a 10-minute-expiring approval link before executing. A concrete permission-management pattern for anyone building agents that orchestrate multiple external services.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/corsairdev/corsair",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-27T00:00:00Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "curated-20260829-labor0-agent-session-bottleneck-ko",
+      "title": "사람 리뷰가 병목이라 만들었다 — 대형 작업을 잘게 쪼개는 에이전트 워크플로우 'Labor0'",
+      "body": "GeekNews에 소개된 이 글에서 저자 kdy1은 AI 에이전트가 만든 대형 작업을 작은 PR 단위로 쪼개 사람 리뷰 병목을 줄이는 시스템 'Labor0'을 소개합니다. CI 실패 자동 수정, 머지 충돌 자동 해결, 리뷰 코멘트 반영, 코덱스 자동 리뷰까지 자동화하고, git worktree를 활용해 세션 50개 이상을 동시에 병렬 처리합니다. 앞으로는 깃허브·센트리·그라파나 이벤트를 받아 작업을 자동 생성하는 방향으로 확장할 계획이라고 밝혔습니다.",
+      "titleEn": "Human Review Was the Bottleneck, So He Built 'Labor0' — Splitting Big Agent Work Into Small PRs",
+      "bodyEn": "Featured on GeekNews, author kdy1 introduces 'Labor0,' a system that splits large AI-agent-generated work into small PRs to cut the human-review bottleneck. It automates CI-failure fixes, merge-conflict resolution, addressing review comments, and Codex-based auto-review, running 50+ sessions in parallel via git worktrees. The author says the next step is auto-generating tasks from GitHub, Sentry, and Grafana events.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://kdy1.dev/2026-8-22-labor0",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-22T00:00:00Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "curated-20260829-prime-agent-self-improving-ko",
+      "title": "코드로 자기 자신을 관리하는 자율 코딩 에이전트 — 'Prime Agent'의 RLM 구조",
+      "body": "GeekNews에 소개된 오픈소스 'Prime Agent'는 재귀적 언어 모델(RLM)과 '지속형 하네스' 개념을 결합한 자율 코딩 에이전트입니다. IPython을 내장해 파일·셸·컨텍스트 관리를 자연어 대신 코드로 직접 처리하고, 데몬 기반 백그라운드 세션이 연결이 끊겨도 작업을 계속 이어갑니다. 반복되는 작업은 파이썬 패키지 형태의 '스킬'로 재사용할 수 있고, 에이전트끼리 직접 통신하는 기능까지 지원합니다.",
+      "titleEn": "A Self-Managing Autonomous Coding Agent — Prime Agent's RLM Architecture",
+      "bodyEn": "Featured on GeekNews, the open-source 'Prime Agent' combines a Recursive Language Model (RLM) with a 'Continual Harness' concept to build an autonomous coding agent. It embeds IPython so file, shell, and context management happen as code rather than natural language, and daemon-based background sessions keep running even after a disconnect. Repeated tasks can be packaged as reusable Python 'Skills,' and agents can communicate with each other directly.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-25T00:00:00Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
     {
       "id": "curated-20260828-six-months-coding-with-agents",
       "title": "6개월간 손으로 코드 안 짜봤다 — 20개 VM에서 에이전트 병렬 굴리는 법",
@@ -28,19 +106,6 @@
       "curatedAt": "2026-08-27T23:14:13Z"
     },
     {
-      "id": "curated-20260828-glm53-flash-launch-ko",
-      "title": "GLM-5.3-Flash 공개 — 프런티어급 코딩 성능을 7.5배 싼 값에",
-      "body": "GeekNews에 오늘 소개된 GLM-5.3-Flash는 Z.ai가 내놓은 GLM-5 시리즈 최초의 네이티브 멀티모달 모델로, 총 파라미터 320B 중 활성 파라미터는 18B에 불과합니다. 희소 어텐션과 선형 어텐션을 결합한 하이브리드 구조로 기존 GLM-5.3 대비 어텐션 연산량을 약 3배, 긴 컨텍스트에서는 KV 캐시를 4배 이상 줄였고, 텍스트·이미지·비디오를 한 번에 처리하며 최대 100만 토큰 컨텍스트를 지원합니다. Artificial Analysis Intelligence Index v4.1.1 기준 57점을 기록해 클로드 오퍼스 4.8급 코딩·에이전트 성능에 근접하면서도 작업당 비용은 0.045달러로 약 7.5배 저렴합니다.",
-      "titleEn": "GLM-5.3-Flash Launches — Frontier-Level Coding at 1/7.5th the Cost",
-      "bodyEn": "Featured today on GeekNews, GLM-5.3-Flash is Z.ai's first native multimodal model in the GLM-5 series, with 320B total parameters but only 18B active. A hybrid architecture combining sparse and linear attention cuts attention compute roughly 3x versus the prior GLM-5.3 and shrinks the KV cache more than 4x on long contexts, while handling text, images, and video together with up to a 1M-token context window. It scores 57 on the Artificial Analysis Intelligence Index v4.1.1, approaching Claude Opus 4.8-level coding and agent performance at roughly 1/7.5th the cost — $0.045 per task.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://z.ai/blog/glm-5.3-flash",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-26T00:00:00Z",
-      "curatedAt": "2026-08-27T23:14:13Z"
-    },
-    {
       "id": "curated-20260828-kindle-highlights-claude-skill",
       "title": "아마존이 막은 킨들 하이라이트, 클로드 코드 스킬로 되찾기 — DOM 스크래핑+로컬 SQLite+OCR 3단 콤보",
       "body": "GitHub에 공개된 이 클로드 코드 스킬은 아마존이 문서화하지 않은 채 내보내기를 잘라버리는 킨들 하이라이트 손실 문제를 맥OS 전용으로 해결합니다. ①킨들 노트북 웹페이지를 DOM 스크래핑해 JSON으로 저장하고, ②맥 킨들 앱의 로컬 SQLite 주석 저장소를 읽어 숨겨진 하이라이트의 정확한 글자 위치를 찾아내며, ③클라우드 리더 화면을 로컬에서 캡처해 애플 비전으로 OCR 처리해(LLM 토큰 비용 없이) 내보내기에서 아예 숨겨진 텍스트까지 복구합니다. 책 4권으로 검증한 결과 하이라이트 2,432개를 전부 복구했고 그중 815개(잘린 454개+완전히 숨겨진 361개)가 원래 내보내기에서 막혀 있던 것이었으며, 위치 정확도는 킨들 앱의 위치 눈금과 몇 글자 차이로 일치했습니다.",
@@ -64,19 +129,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-25T00:00:00Z",
-      "curatedAt": "2026-08-27T23:14:13Z"
-    },
-    {
-      "id": "curated-20260828-slack-human-agent-teamwork-ko",
-      "title": "슬랙 CPO가 밝힌 '인간-에이전트 팀' 운영법 — DM 대신 공개 채널이 기본값",
-      "body": "GeekNews에 소개된 이 글에서 슬랙 최고제품책임자(CPO) 제이미 드랑그는 클로드 기반 에이전트를 팀원처럼 공개 채널에서 운용하는 방식을 설명합니다. 초안 작성·요약·모니터링은 에이전트가 맡고 검토·의사결정·수정은 사람이 맡는 순환형 핸드오프 구조를 쓰며, 이모지 반응 하나만으로 태스크가 에이전트 작업 큐에 자동 등록되는 워크플로를 소개합니다. 비공개 DM 대신 공개 채널을 기본값으로 삼아 에이전트와 팀원 모두 같은 맥락에 접근하게 하고, 토큰 사용량·메시지 수 같은 활동 지표 대신 'How I Slackbot' 같은 채널에서 실제 재사용 사례를 공유하는 방식으로 도입을 확산시킨다고 밝혔습니다.",
-      "titleEn": "Slack's CPO on Running 'Human-Agent Teams' — Public Channels by Default, Not DMs",
-      "bodyEn": "Featured on GeekNews, this piece has Slack CPO Jaime DeLanghe explain how Claude-based agents are run like teammates inside public channels. The pattern is a cyclical handoff: agents handle drafting, summarizing, and monitoring, while humans handle review, decisions, and edits — and a single emoji reaction is enough to auto-queue a task for an agent. Public channels are the default instead of private DMs, so both agents and teammates share the same context, and adoption spreads not through activity metrics like token usage or message counts but through channels like 'How I Slackbot' where people share real reuse cases.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=32712",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-21T00:00:00Z",
       "curatedAt": "2026-08-27T23:14:13Z"
     },
     {
@@ -132,19 +184,6 @@
       "curatedAt": "2026-08-26T23:08:15Z"
     },
     {
-      "id": "curated-20260826-openai-codex-5hour-limit-restored",
-      "title": "OpenAI, 챗GPT 플러스 코덱스에 '5시간 한도' 부활 — 8월 25일부터 적용",
-      "body": "OpenAI가 8월 24일 공지를 통해 몇 주간 없앴던 챗GPT 플러스 요금제의 코덱스·워크(Work) 5시간 사용 한도를 8월 25일부터 다시 적용한다고 밝혔습니다. 기존 주간 한도와 함께 5시간 한도가 병행되며, 한도를 넘으면 리셋을 기다리거나 크레딧을 추가 구매하거나 프로모션으로 적립된 리셋을 쓸 수 있습니다. OpenAI 엔지니어링 리드는 \"5시간 한도가 있어야 컴퓨팅 부하를 고르게 분산시키면서 주간 사용량을 넉넉하게 유지할 수 있다\"고 설명했으며, 100·200달러 프로 요금제는 당분간 이 5시간 한도 적용에서 제외됩니다. 플러스 요금제로 코덱스를 매일 장시간 쓰는 사용자라면 8월 25일부터 작업 세션을 5시간 단위로 계획해두는 것이 좋습니다.",
-      "titleEn": "OpenAI Restores the 5-Hour Cap on ChatGPT Plus Codex — Effective August 25",
-      "bodyEn": "In an August 24 announcement, OpenAI said it's reinstating the 5-hour daily cap on Codex and ChatGPT Work for Plus-tier subscribers starting August 25, after having lifted it for several weeks. The 5-hour cap now runs alongside the existing weekly limit; once either is hit, users can wait for the reset, buy extra credits, or use banked resets from past promotions. OpenAI's engineering lead said \"the 5h limit allows us to smoothen the load on our compute, allowing us to keep the plan generous in terms of weekly usage,\" and noted Plus subscribers were sometimes unintentionally burning through their whole weekly allowance without it. The $100/$200 Pro tiers are exempt from the 5-hour cap for the coming months. Anyone running long daily Codex sessions on Plus should plan work in 5-hour blocks starting August 25.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-24T00:00:00Z",
-      "curatedAt": "2026-08-25T23:15:29Z"
-    },
-    {
       "id": "curated-20260826-glm53-cost-comparison",
       "title": "GLM-5.3, 실전 작업 28개서 100% 통과 — GPT-5.5보다 5분의 1 가격",
       "body": "17개 모델을 대상으로 동일한 프롬프트의 실전 작업 28개를 채점한 벤치마크에서 오픈웨이트 모델 GLM-5.3이 통과율 100%, 품질 평점 9.3/10을 기록하며 작업당 비용 0.28달러로 GPT-5.5(89% 통과, 1.43달러)의 약 5분의 1 비용에 그쳤다고 밝혔습니다. 저자는 \"모델 하나만 굴린다면 glm-5.3을 써라\"라고 결론 내리면서도, 응답 첫 토큰까지 걸리는 시간이 16.3초로 GPT-5.5의 13.2초보다 느려 실시간 대화형 작업에는 덜 적합하다는 단점도 짚었습니다. 클로드 코드·코덱스에 저렴한 백엔드 모델을 연결해 비용을 줄이려는 팀이라면 참고할 만한 구체적 수치입니다.",
@@ -155,19 +194,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-23T16:24:21Z",
-      "curatedAt": "2026-08-25T23:15:29Z"
-    },
-    {
-      "id": "curated-20260826-week-codex-vs-claude",
-      "title": "코덱스로 일주일 살아보기 — \"클로드는 동료처럼, 코덱스는 시키는 대로\"",
-      "body": "개발자 루시안 긴다가 맥OS에서 코덱스 TUI(gpt-5.6-sol xhigh)와 클로드 코드 TUI(opus-5 xhigh)를 나란히 일주일간 써본 뒤 10가지 관찰을 정리했습니다. 클로드는 스킬 연동이 더 풍부하고 요청 이상으로 알아서 확장하는 반면 코덱스는 주석을 덜 달고 더 단순하고 제한된 해법을 내놓았으며, 지라·CLI 연동 워크플로우에서는 코덱스가 애를 먹고 브랜치 작업에서 리베이스를 명시적으로 지시해야 하는 실수도 있었습니다. 저자는 \"클로드는 시킨 것 이상을 하려 들고, 코덱스는 시킨 대로만 하는 동반자에 가깝다\"고 결론 내렸고, 시간 압박이 클 때는 익숙한 클로드로 돌아가는 경향이 있었다고 밝혔습니다. 완료 시간 자체는 어느 쪽도 뚜렷한 우위가 없었습니다.",
-      "titleEn": "A Week of Using Codex More Than Claude — \"Claude Like a Colleague, Codex Like an Obedient Companion\"",
-      "bodyEn": "Developer Lucian Ghinda ran Codex TUI (gpt-5.6-sol xhigh) and Claude Code TUI (opus-5 xhigh) side by side on macOS for a week and wrote up 10 observations. Claude had richer integrated skills and tended to go beyond what was asked, while Codex wrote less commented, simpler, more contained code — but struggled with Jira/CLI-based workflows and made branching mistakes that needed explicit rebase instructions. His conclusion: \"Claude tries to go above and beyond what is asked,\" while \"Codex is more like a companion that does what you tell it\" — and under time pressure, he kept defaulting back to the tool he knew better, Claude. Neither showed a clear edge in raw time-to-completion.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://allaboutcoding.ghinda.com/a-week-of-using-codex-more-than-claude/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-21T19:51:48Z",
       "curatedAt": "2026-08-25T23:15:29Z"
     },
     {
@@ -234,32 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-22T00:00:00Z",
       "curatedAt": "2026-08-24T23:10:08Z"
-    },
-    {
-      "id": "curated-20260821-claude-code-prompt-tips-ko",
-      "title": "클로드 코드 프롬프트 제대로 쓰는 법 6가지 — 배경·출력형식·예외처리까지, 요즘IT",
-      "body": "요즘IT에 오늘 소개된 길벗 출간 도서 발췌 글은 클로드 코드 프롬프트 작성 6가지 팁을 정리합니다. 배경·목적·제약조건을 먼저 설명하고 HTML·텍스트·PDF·JSON 등 출력 형식을 명시하라고 권하며(스팸 필터 회피엔 순수 텍스트 메일이 유리하다는 구체적 이유도 제시), 검색 결과 없음·전송 실패·API 한도 초과 같은 예외 처리를 미리 정의하라고 조언합니다. 복잡한 요청은 수집→분류→발송→자동화처럼 단계별로 쪼개고, \"결과가 별로야\" 대신 구체적 피드백을 주며, 신규 에이전트·기능 추가·오류 수정·재포맷용 프롬프트 템플릿을 재사용하라고 제안합니다.",
-      "titleEn": "6 Concrete Tips for Writing Better Claude Code Prompts — Background to Error Handling, via 요즘IT",
-      "bodyEn": "Featured today on 요즘IT (excerpted from a Gilbut-published book), this post lays out six concrete Claude Code prompting tips. State background, purpose, and constraints upfront; explicitly specify output format — HTML, plain text, PDF, or JSON — noting that plain-text email carries the lowest spam-filter risk; and pre-define error handling for cases like no search results, failed sends, or API rate limits. It also recommends breaking complex requests into sequential phases (collect → classify → send → automate), giving specific rather than vague revision feedback, and reusing prompt templates for new-agent creation, feature additions, bug fixes, and reformatting.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3907/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-20T00:00:00Z",
-      "curatedAt": "2026-08-21T09:30:00Z"
-    },
-    {
-      "id": "curated-20260821-anvil-harness-engineering-ko",
-      "title": "출근하면 코드부터 짜던 개발자가 이제 봇부터 켠다 — 슬랙 봇 'Anvil' 하네스 엔지니어링, 요즘IT",
-      "body": "요즘IT에 오늘 소개된 글은 저자가 만든 Slack 연동 봇 'Anvil'이 Jira 티켓 영향 범위 분석·코드 수정·머지 리퀘스트 생성까지 자율 수행하고, 저자는 리뷰와 정책 정의에만 집중하는 워크플로우를 다룹니다. 핵심은 '하네스 엔지니어링'으로, 응답 전 자동 린트·타입체크, rm -rf·DROP TABLE 같은 위험 명령 차단, 영향도(MINOR/MODERATE/MAJOR)별 승인 절차, 에이전트 정의에 내장된 정책 문서로 구성됩니다. 그 결과 저자의 구현 작업 비중은 60%에서 0%로, 정책·요구사항 문서화는 5%에서 60%로 뒤바뀌었고 비개발자도 end-to-end로 작업을 완료하게 됐습니다.",
-      "titleEn": "The Developer Who Used to Code First Now Boots a Bot First — Slack Bot 'Anvil' and Harness Engineering, via 요즘IT",
-      "bodyEn": "Featured today on 요즘IT, this post describes 'Anvil,' a Slack-integrated bot the author built that autonomously analyzes Jira ticket impact, edits code, and opens merge requests, freeing the author to focus on review and policy-writing. The core is 'harness engineering': automatic lint and type checks before any response, blocking dangerous commands like rm -rf and DROP TABLE, impact-tiered approval (MINOR/MODERATE/MAJOR), and policy documents embedded directly in the agent definitions. The result: hands-on coding dropped from 60% of the author's time to near 0%, while policy/requirements documentation rose from 5% to 60%, and non-developers began completing tasks end-to-end.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3906/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-20T00:00:00Z",
-      "curatedAt": "2026-08-21T09:30:00Z"
     }
   ]
 }

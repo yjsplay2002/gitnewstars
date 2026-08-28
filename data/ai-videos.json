@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T23:14:13Z",
+  "generatedAt": "2026-08-28T23:09:27Z",
   "videos": [
     {
       "id": "vid-danishsofi-claude-setup-guide",
@@ -38,18 +38,6 @@
       "addedAt": "2026-08-25T23:15:29Z"
     },
     {
-      "id": "vid-shinyoungsun-codex-5-features-ko",
-      "youtubeId": "SkxYbqYo0UU",
-      "category": "tip",
-      "title": "99%가 모르는 코덱스 핵심 기능 5가지 — 8분 총정리",
-      "titleEn": "5 Codex Features 99% of Users Don't Know — An 8-Minute Rundown",
-      "descKo": "챗GPT 안에서 쓸 수 있는 코덱스의 잘 알려지지 않은 기능 5가지를 8분 만에 정리한 영상.",
-      "descEn": "An 8-minute rundown of 5 lesser-known Codex features usable inside ChatGPT.",
-      "channel": "신영선의 AI탐구",
-      "publishedAt": "2026-08-24T00:00:00Z",
-      "addedAt": "2026-08-24T23:10:08Z"
-    },
-    {
       "id": "vid-natebjones-glm53-cheaper-claude-codex",
       "youtubeId": "4HvFqhtCb-A",
       "category": "tip",
@@ -62,16 +50,16 @@
       "addedAt": "2026-08-24T23:10:08Z"
     },
     {
-      "id": "vid-gcreator-subagent-1second-ko",
-      "youtubeId": "xxUbF6EPyfU",
+      "id": "vid-anthropic-claude-code-auto-mode",
+      "youtubeId": "b8SV4U6fEIc",
       "category": "tip",
-      "title": "클로드 코드 서브에이전트 1초컷! 순식간에 전문 비서 만들기",
-      "titleEn": "Claude Code Subagents in 1 Second — Instantly Build a Specialist Assistant",
-      "descKo": "코드 한 줄 없이 코드 리뷰·속도 최적화·디자인 개선용 서브에이전트 3개를 만들고, 순차·병렬로 프롬프팅하는 방법을 라이브 강의 형식으로 보여주는 영상.",
-      "descEn": "A live-lecture-style walkthrough building 3 subagents — code review, speed optimization, design improvement — with no code, then prompting them sequentially vs. in parallel.",
-      "channel": "G-CREATOR",
-      "publishedAt": "2026-08-23T00:00:00Z",
-      "addedAt": "2026-08-23T23:22:13Z"
+      "title": "클로드 코드 오토 모드는 어떻게 동작할까 — 앤트로픽 공식 설명",
+      "titleEn": "How Auto Mode Works With Claude Code",
+      "descKo": "앤트로픽 공식 채널이 클로드 코드 오토 모드의 안전장치와, 장시간 작업에서 승인 인터럽트를 줄이는 설정법을 직접 설명하는 영상.",
+      "descEn": "Anthropic's official channel explains Auto Mode's built-in safety checks and how to configure it to cut approval interruptions on long-running tasks.",
+      "channel": "Claude",
+      "publishedAt": "2026-08-07T00:00:00Z",
+      "addedAt": "2026-08-28T23:09:27Z"
     },
     {
       "id": "vid-jocoding-musinsa-codex-usecase-ko",
@@ -122,18 +110,6 @@
       "addedAt": "2026-08-23T23:22:13Z"
     },
     {
-      "id": "vid-catchupai-pastor-hebronguide-ko",
-      "youtubeId": "vXPCbt47rok",
-      "category": "usecase",
-      "title": "목사님이 바이브 코딩에 빠져서 만든 앱 — 86개 도시로 퍼진 HebronGuide 개발기",
-      "titleEn": "The App a Pastor Built After Falling for Vibe Coding — HebronGuide's Spread to 86 Cities",
-      "descKo": "코드를 몰랐던 목사가 바이브 코딩만으로 앱 HebronGuide를 만들어 86개 도시까지 확산시킨 과정을 밝힌 'Builders Lounge' 밋업 발표 및 청중 Q&A 영상.",
-      "descEn": "A Builders Lounge meetup talk (with audience Q&A) where a non-coder pastor describes building and shipping HebronGuide purely through vibe coding, now used in 86 cities.",
-      "channel": "Catch Up AI",
-      "publishedAt": "2026-08-22T00:00:00Z",
-      "addedAt": "2026-08-23T23:22:13Z"
-    },
-    {
       "id": "vid-yoonjadong-vibecoding-real-work-ko",
       "youtubeId": "eXswS4_5dgQ",
       "category": "usecase",
@@ -146,16 +122,16 @@
       "addedAt": "2026-08-27T23:14:13Z"
     },
     {
-      "id": "vid-nicksaraev-codex-business-course",
-      "youtubeId": "DJZISqryDfw",
-      "category": "lecture",
-      "title": "비즈니스를 위한 코덱스 완전정복 — 4.5시간 풀코스",
-      "titleEn": "Codex for Business — The Full 4.5-Hour Course",
-      "descKo": "OpenAI 코덱스를 에이전시·비즈니스 업무에 적용하는 방법을 처음부터 끝까지 다루는 4.5시간짜리 풀코스 강의.",
-      "descEn": "A long-form, 4.5-hour course on applying OpenAI Codex to agency and business work, start to finish.",
-      "channel": "Nick Saraev",
-      "publishedAt": "2026-08-23T00:00:00Z",
-      "addedAt": "2026-08-24T23:10:08Z"
+      "id": "vid-supercodemonkey-vibecoding-game-agents",
+      "youtubeId": "QTtZKAtV630",
+      "category": "usecase",
+      "title": "AI 에이전트 여러 개 + 로컬 LLM으로 게임 바이브 코딩 — 27일차 라이브",
+      "titleEn": "Day #27 - Vibe Coding a Game with AI Agents & Local LLMs",
+      "descKo": "클로드·코덱스·OpenCode를 로컬 LLM(Ollama)과 함께 오케스트레이션해 게임을 만드는 라이브 스트림 시리즈의 27일차 영상.",
+      "descEn": "27th episode of a live-stream series building a game by orchestrating Claude, Codex, and OpenCode together with local LLMs via Ollama.",
+      "channel": "Super Code Monkey",
+      "publishedAt": "2026-08-03T00:00:00Z",
+      "addedAt": "2026-08-28T23:09:27Z"
     },
     {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",
@@ -180,6 +156,28 @@
       "channel": "일반인을 위한 AI 업무자동화 가이드",
       "publishedAt": "2026-08-25T00:00:00Z",
       "addedAt": "2026-08-27T23:14:13Z"
+    },
+    {
+      "id": "vid-gemini-cli-essentials-course",
+      "youtubeId": "XKOR4h3CrwE",
+      "category": "lecture",
+      "title": "Gemini CLI 완전정복 — 기초부터 배우는 풀코스",
+      "titleEn": "Gemini CLI Essentials – Full Course",
+      "descKo": "Gemini CLI의 기본기를 처음부터 끝까지 체계적으로 짚어주는 구조화된 강의 영상.",
+      "descEn": "A structured full course walking through Gemini CLI fundamentals from the ground up.",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "addedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "vid-yoonjadong-vibecoding-full-course-ko",
+      "youtubeId": "5MOjn8V84i8",
+      "category": "lecture",
+      "title": "초보자를 위한 클로드코드 바이브코딩 풀코스 — 디자인부터 배포, 알림톡까지",
+      "titleEn": "The Complete Beginner's Vibe-Coding Course With Claude Code — Design to Deployment and Notifications",
+      "descKo": "안티그래비티와 클로드 코드를 결합해 폴더 설정부터 디자인·개발·배포·알림톡 연동까지 처음부터 끝까지 다루는 초보자용 풀코스.",
+      "descEn": "A beginner full course combining Antigravity and Claude Code, covering everything from folder setup through design, development, deployment, and a KakaoTalk notification system.",
+      "channel": "윤자동",
+      "addedAt": "2026-08-28T23:09:27Z"
     }
   ]
 }
