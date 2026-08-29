@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-08-28T23:09:27Z",
+  "generatedAt": "2026-08-29T23:09:19Z",
   "videos": [
+    {
+      "id": "vid-chaseai-claude-code-1000-hours",
+      "youtubeId": "U6k4MeVks_Y",
+      "category": "lecture",
+      "title": "50분에 클로드 코드 1000시간 치 노하우 압축 — 초급·중급·고급 3단 구성",
+      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
+      "descKo": "1000시간 넘게 쌓인 클로드 코드 학습 내용을 50분 안에 초급(0:27)·중급(14:26)·고급(30:30) 3단계로 압축해 순서대로 짚어주는 강의 영상.",
+      "descEn": "Condenses 1000+ hours of Claude Code lessons into a 50-minute walkthrough split into three timestamped levels: beginner (0:27), intermediate (14:26), and advanced (30:30).",
+      "channel": "Chase AI",
+      "publishedAt": "2026-08-11T00:00:00Z",
+      "addedAt": "2026-08-29T23:09:19Z"
+    },
+    {
+      "id": "vid-gillilab-multiagent-orchestration-patterns-ko",
+      "youtubeId": "GycnTkYEBYo",
+      "category": "lecture",
+      "title": "멀티 에이전트 시스템 오케스트레이션 패턴 5가지 완전 정복",
+      "titleEn": "5 Multi-Agent System Orchestration Patterns, Fully Explained",
+      "descKo": "여러 AI 에이전트를 하나의 시스템으로 조율하는 대표적인 오케스트레이션 패턴 5가지를 구조와 코드 예시로 정리한 강의 영상.",
+      "descEn": "A structured walkthrough of 5 representative patterns for orchestrating multiple AI agents into one coordinated system, with architecture diagrams and code examples.",
+      "channel": "GilliLab 정보관리기술사 허브",
+      "publishedAt": "2026-03-23T00:00:00Z",
+      "addedAt": "2026-08-29T23:09:19Z"
+    },
     {
       "id": "vid-danishsofi-claude-setup-guide",
       "youtubeId": "QSI5enHzMQM",
@@ -122,18 +146,6 @@
       "addedAt": "2026-08-27T23:14:13Z"
     },
     {
-      "id": "vid-supercodemonkey-vibecoding-game-agents",
-      "youtubeId": "QTtZKAtV630",
-      "category": "usecase",
-      "title": "AI 에이전트 여러 개 + 로컬 LLM으로 게임 바이브 코딩 — 27일차 라이브",
-      "titleEn": "Day #27 - Vibe Coding a Game with AI Agents & Local LLMs",
-      "descKo": "클로드·코덱스·OpenCode를 로컬 LLM(Ollama)과 함께 오케스트레이션해 게임을 만드는 라이브 스트림 시리즈의 27일차 영상.",
-      "descEn": "27th episode of a live-stream series building a game by orchestrating Claude, Codex, and OpenCode together with local LLMs via Ollama.",
-      "channel": "Super Code Monkey",
-      "publishedAt": "2026-08-03T00:00:00Z",
-      "addedAt": "2026-08-28T23:09:27Z"
-    },
-    {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",
       "youtubeId": "x8WUtEv1YEg",
       "category": "lecture",
@@ -156,17 +168,6 @@
       "channel": "일반인을 위한 AI 업무자동화 가이드",
       "publishedAt": "2026-08-25T00:00:00Z",
       "addedAt": "2026-08-27T23:14:13Z"
-    },
-    {
-      "id": "vid-gemini-cli-essentials-course",
-      "youtubeId": "XKOR4h3CrwE",
-      "category": "lecture",
-      "title": "Gemini CLI 완전정복 — 기초부터 배우는 풀코스",
-      "titleEn": "Gemini CLI Essentials – Full Course",
-      "descKo": "Gemini CLI의 기본기를 처음부터 끝까지 체계적으로 짚어주는 구조화된 강의 영상.",
-      "descEn": "A structured full course walking through Gemini CLI fundamentals from the ground up.",
-      "publishedAt": "2026-04-24T00:00:00Z",
-      "addedAt": "2026-08-28T23:09:27Z"
     },
     {
       "id": "vid-yoonjadong-vibecoding-full-course-ko",
