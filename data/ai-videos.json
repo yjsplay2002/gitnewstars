@@ -1,29 +1,27 @@
 {
-  "generatedAt": "2026-08-29T23:09:19Z",
+  "generatedAt": "2026-08-30T23:10:39Z",
   "videos": [
     {
-      "id": "vid-chaseai-claude-code-1000-hours",
-      "youtubeId": "U6k4MeVks_Y",
-      "category": "lecture",
-      "title": "50분에 클로드 코드 1000시간 치 노하우 압축 — 초급·중급·고급 3단 구성",
-      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
-      "descKo": "1000시간 넘게 쌓인 클로드 코드 학습 내용을 50분 안에 초급(0:27)·중급(14:26)·고급(30:30) 3단계로 압축해 순서대로 짚어주는 강의 영상.",
-      "descEn": "Condenses 1000+ hours of Claude Code lessons into a 50-minute walkthrough split into three timestamped levels: beginner (0:27), intermediate (14:26), and advanced (30:30).",
-      "channel": "Chase AI",
-      "publishedAt": "2026-08-11T00:00:00Z",
-      "addedAt": "2026-08-29T23:09:19Z"
+      "id": "vid-thetips4you-10-claude-code-tips",
+      "youtubeId": "T5jylUte3J8",
+      "category": "tip",
+      "title": "당신의 코딩 방식을 바꿀 클로드 코드 팁 10가지 (2026)",
+      "titleEn": "10 Claude Code Tips That Will Change How You Code (2026)",
+      "descKo": "클로드 코드를 매일 쓰는 사람도 놓치기 쉬운 실전 팁 10가지를 짚어주는 영상.",
+      "descEn": "Walks through 10 practical Claude Code tips that even daily users often miss.",
+      "channel": "Thetips4you",
+      "addedAt": "2026-08-30T23:10:39Z"
     },
     {
-      "id": "vid-gillilab-multiagent-orchestration-patterns-ko",
-      "youtubeId": "GycnTkYEBYo",
-      "category": "lecture",
-      "title": "멀티 에이전트 시스템 오케스트레이션 패턴 5가지 완전 정복",
-      "titleEn": "5 Multi-Agent System Orchestration Patterns, Fully Explained",
-      "descKo": "여러 AI 에이전트를 하나의 시스템으로 조율하는 대표적인 오케스트레이션 패턴 5가지를 구조와 코드 예시로 정리한 강의 영상.",
-      "descEn": "A structured walkthrough of 5 representative patterns for orchestrating multiple AI agents into one coordinated system, with architecture diagrams and code examples.",
-      "channel": "GilliLab 정보관리기술사 허브",
-      "publishedAt": "2026-03-23T00:00:00Z",
-      "addedAt": "2026-08-29T23:09:19Z"
+      "id": "vid-rayamjad-claude-code-workflow-2026",
+      "youtubeId": "sy65ARFI9Bg",
+      "category": "tip",
+      "title": "2026년 내가 쓰는 클로드 코드 워크플로우",
+      "titleEn": "My Claude Code Workflow for 2026",
+      "descKo": "실제 프로젝트에 적용하는 클로드 코드 워크플로우를 단계별로 공개하는 영상.",
+      "descEn": "A step-by-step breakdown of a real, working Claude Code workflow used on actual projects.",
+      "channel": "Ray Amjad",
+      "addedAt": "2026-08-30T23:10:39Z"
     },
     {
       "id": "vid-danishsofi-claude-setup-guide",
@@ -74,18 +72,6 @@
       "addedAt": "2026-08-24T23:10:08Z"
     },
     {
-      "id": "vid-anthropic-claude-code-auto-mode",
-      "youtubeId": "b8SV4U6fEIc",
-      "category": "tip",
-      "title": "클로드 코드 오토 모드는 어떻게 동작할까 — 앤트로픽 공식 설명",
-      "titleEn": "How Auto Mode Works With Claude Code",
-      "descKo": "앤트로픽 공식 채널이 클로드 코드 오토 모드의 안전장치와, 장시간 작업에서 승인 인터럽트를 줄이는 설정법을 직접 설명하는 영상.",
-      "descEn": "Anthropic's official channel explains Auto Mode's built-in safety checks and how to configure it to cut approval interruptions on long-running tasks.",
-      "channel": "Claude",
-      "publishedAt": "2026-08-07T00:00:00Z",
-      "addedAt": "2026-08-28T23:09:27Z"
-    },
-    {
       "id": "vid-jocoding-musinsa-codex-usecase-ko",
       "youtubeId": "6-bmczPW5n0",
       "category": "usecase",
@@ -108,18 +94,6 @@
       "channel": "Deno",
       "publishedAt": "2026-08-20T00:00:00Z",
       "addedAt": "2026-08-21T23:08:14Z"
-    },
-    {
-      "id": "vid-yangsiljang-automation-dashboard-ko",
-      "youtubeId": "sozxBiyc3qQ",
-      "category": "usecase",
-      "title": "직장인 2시간 필수 투자 — 평생 써먹는 바이브코딩 자동화 대시보드 설계부터 구축까지",
-      "titleEn": "2 Hours Worth It: Designing and Building a Reusable Vibe-Coded Automation Dashboard",
-      "descKo": "직장인이 실무에 바로 쓸 자동화 대시보드를 바이브 코딩으로 설계부터 구축까지 실연.",
-      "descEn": "A real build of an automation dashboard for office workers, from design to deployment via vibe coding.",
-      "channel": "양실장의 바이브코딩대학",
-      "publishedAt": "2026-08-20T00:00:00Z",
-      "addedAt": "2026-08-21T09:30:00Z"
     },
     {
       "id": "vid-pragmatic-vibecoding-security-breach-ko",
@@ -146,6 +120,17 @@
       "addedAt": "2026-08-27T23:14:13Z"
     },
     {
+      "id": "vid-webhek-vibecoding-game-launch-ko",
+      "youtubeId": "9Vrg3cNNdFM",
+      "category": "usecase",
+      "title": "바이브 코딩으로 게임 출시하며 느낀점",
+      "titleEn": "What I Learned Shipping a Game With Vibe Coding",
+      "descKo": "GPT·클로드로 바이브 코딩하며 실제 게임을 출시까지 끌고 간 개발자가 겪은 현실적인 시행착오와 느낀 점을 솔직하게 정리한 영상.",
+      "descEn": "A developer's honest account of shipping an actual game via vibe coding with GPT and Claude — the real trial-and-error, not just the highlight reel.",
+      "channel": "웹핵",
+      "addedAt": "2026-08-30T23:10:39Z"
+    },
+    {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",
       "youtubeId": "x8WUtEv1YEg",
       "category": "lecture",
@@ -168,6 +153,18 @@
       "channel": "일반인을 위한 AI 업무자동화 가이드",
       "publishedAt": "2026-08-25T00:00:00Z",
       "addedAt": "2026-08-27T23:14:13Z"
+    },
+    {
+      "id": "vid-chaseai-claude-code-1000-hours",
+      "youtubeId": "U6k4MeVks_Y",
+      "category": "lecture",
+      "title": "50분에 클로드 코드 1000시간 치 노하우 압축 — 초급·중급·고급 3단 구성",
+      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
+      "descKo": "1000시간 넘게 쌓인 클로드 코드 학습 내용을 50분 안에 초급(0:27)·중급(14:26)·고급(30:30) 3단계로 압축해 순서대로 짚어주는 강의 영상.",
+      "descEn": "Condenses 1000+ hours of Claude Code lessons into a 50-minute walkthrough split into three timestamped levels: beginner (0:27), intermediate (14:26), and advanced (30:30).",
+      "channel": "Chase AI",
+      "publishedAt": "2026-08-11T00:00:00Z",
+      "addedAt": "2026-08-29T23:09:19Z"
     },
     {
       "id": "vid-yoonjadong-vibecoding-full-course-ko",
