@@ -1,27 +1,29 @@
 {
-  "generatedAt": "2026-08-30T23:10:39Z",
+  "generatedAt": "2026-09-01T09:30:00Z",
   "videos": [
     {
-      "id": "vid-thetips4you-10-claude-code-tips",
-      "youtubeId": "T5jylUte3J8",
+      "id": "vid-shinys-codex-5-hidden-features-ko",
+      "youtubeId": "SkxYbqYo0UU",
       "category": "tip",
-      "title": "당신의 코딩 방식을 바꿀 클로드 코드 팁 10가지 (2026)",
-      "titleEn": "10 Claude Code Tips That Will Change How You Code (2026)",
-      "descKo": "클로드 코드를 매일 쓰는 사람도 놓치기 쉬운 실전 팁 10가지를 짚어주는 영상.",
-      "descEn": "Walks through 10 practical Claude Code tips that even daily users often miss.",
-      "channel": "Thetips4you",
-      "addedAt": "2026-08-30T23:10:39Z"
+      "title": "99%가 모르는 코덱스 핵심 기능 5가지 — 8분 총정리",
+      "titleEn": "5 Codex Features 99% of Users Don't Know — An 8-Minute Rundown",
+      "descKo": "챗GPT 코덱스에 숨어 있는 잘 안 알려진 핵심 기능 5가지를 8분 안에 빠르게 훑어주는 영상.",
+      "descEn": "A fast 8-minute rundown of 5 lesser-known core features hidden inside ChatGPT Codex.",
+      "channel": "신영선의 AI탐구",
+      "publishedAt": "2026-08-24T00:00:00Z",
+      "addedAt": "2026-09-01T09:30:00Z"
     },
     {
-      "id": "vid-rayamjad-claude-code-workflow-2026",
-      "youtubeId": "sy65ARFI9Bg",
+      "id": "vid-rainyreaksmey-claude-codex-copilot-2026",
+      "youtubeId": "SoP2H4iKpWA",
       "category": "tip",
-      "title": "2026년 내가 쓰는 클로드 코드 워크플로우",
-      "titleEn": "My Claude Code Workflow for 2026",
-      "descKo": "실제 프로젝트에 적용하는 클로드 코드 워크플로우를 단계별로 공개하는 영상.",
-      "descEn": "A step-by-step breakdown of a real, working Claude Code workflow used on actual projects.",
-      "channel": "Ray Amjad",
-      "addedAt": "2026-08-30T23:10:39Z"
+      "title": "최고의 AI 코딩 에이전트는? 클로드 코드 vs 코덱스 vs 깃허브 코파일럿 (2026)",
+      "titleEn": "Best AI Coding Agent? Claude Code vs Codex vs GitHub Copilot (2026)",
+      "descKo": "클로드 코드·코덱스·깃허브 코파일럿 세 도구를 직접 비교하며 각각 언제 쓰는 게 유리한지 짚어주는 2026년 비교 영상.",
+      "descEn": "A head-to-head 2026 comparison of Claude Code, Codex, and GitHub Copilot, breaking down when each tool actually wins.",
+      "channel": "Rainy Reaksmey",
+      "publishedAt": "2026-08-29T00:00:00Z",
+      "addedAt": "2026-09-01T09:30:00Z"
     },
     {
       "id": "vid-danishsofi-claude-setup-guide",
@@ -60,16 +62,28 @@
       "addedAt": "2026-08-25T23:15:29Z"
     },
     {
-      "id": "vid-natebjones-glm53-cheaper-claude-codex",
-      "youtubeId": "4HvFqhtCb-A",
-      "category": "tip",
-      "title": "월 200달러 대신 18달러 모델로 — 클로드 코드·코덱스에 GLM-5.3 붙이는 법",
-      "titleEn": "Stop Paying $200 For Work an $18 Model Can Do Inside Claude Code and Codex",
-      "descKo": "GLM-5.3을 클로드 코드와 코덱스 안에 붙여 훨씬 저렴하게 같은 작업을 처리하는 설치·설정 과정을 보여주는 영상.",
-      "descEn": "Shows how to route the much cheaper GLM-5.3 model into both Claude Code and Codex, with setup steps, to cut usage costs.",
-      "channel": "Nate B Jones",
-      "publishedAt": "2026-08-21T00:00:00Z",
-      "addedAt": "2026-08-24T23:10:08Z"
+      "id": "vid-sourcecompiler-claude-code-untold-story",
+      "youtubeId": "u6Fb6YinRMo",
+      "category": "usecase",
+      "title": "클로드 코드의 알려지지 않은 이야기 — 1000억 달러짜리 코딩 에이전트가 되기까지",
+      "titleEn": "The Untold Story of Claude Code (The 100-Billion-Dollar Coding Agent)",
+      "descKo": "클로드 코드가 어떻게 지금의 위치에 오르게 됐는지, 기술 스토리텔링 전문 채널이 그 뒷이야기를 깊이 파헤치는 다큐멘터리 형식 영상.",
+      "descEn": "A deep, narrative dive from a channel known for technical storytelling into how Claude Code rose to its current position.",
+      "channel": "Source Compiler",
+      "publishedAt": "2026-08-25T00:00:00Z",
+      "addedAt": "2026-09-01T09:30:00Z"
+    },
+    {
+      "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
+      "youtubeId": "seWpr3HgXM4",
+      "category": "usecase",
+      "title": "코덱스로 바이브코딩 하는 법 — 클로드와 비교하고 최종 추천까지",
+      "titleEn": "How to Vibe-Code With Codex — Compared to Claude, With a Final Recommendation",
+      "descKo": "코덱스로 실제 바이브 코딩을 진행하는 과정을 보여주고, 같은 작업을 클로드 코드와 비교해본 뒤 최종적으로 어떤 도구를 추천하는지 결론까지 담은 실전 영상.",
+      "descEn": "Walks through actually vibe-coding with Codex, compares the same task against Claude Code, and lands on a final tool recommendation.",
+      "channel": "코딩알려주는누나",
+      "publishedAt": "2026-08-31T00:00:00Z",
+      "addedAt": "2026-09-01T09:30:00Z"
     },
     {
       "id": "vid-jocoding-musinsa-codex-usecase-ko",
@@ -118,17 +132,6 @@
       "channel": "윤자동",
       "publishedAt": "2026-08-27T00:00:00Z",
       "addedAt": "2026-08-27T23:14:13Z"
-    },
-    {
-      "id": "vid-webhek-vibecoding-game-launch-ko",
-      "youtubeId": "9Vrg3cNNdFM",
-      "category": "usecase",
-      "title": "바이브 코딩으로 게임 출시하며 느낀점",
-      "titleEn": "What I Learned Shipping a Game With Vibe Coding",
-      "descKo": "GPT·클로드로 바이브 코딩하며 실제 게임을 출시까지 끌고 간 개발자가 겪은 현실적인 시행착오와 느낀 점을 솔직하게 정리한 영상.",
-      "descEn": "A developer's honest account of shipping an actual game via vibe coding with GPT and Claude — the real trial-and-error, not just the highlight reel.",
-      "channel": "웹핵",
-      "addedAt": "2026-08-30T23:10:39Z"
     },
     {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",

@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-08-30T23:10:39Z",
+  "generatedAt": "2026-09-01T09:30:00Z",
   "posts": [
     {
-      "id": "curated-20260831-claude-session-url-attribution",
-      "title": "클로드 코드가 커밋마다 세션 URL을 몰래 붙인다 — 옵트인으로 바꾸자는 요청, HN 175점",
-      "body": "클로드 코드가 커밋 메시지와 PR 설명 하단에 세션 URL(`https://claude.ai/code/session_...`)을 아무 안내 없이 기본으로 붙인다는 이슈가 HN에서 175점을 받았습니다. 온보딩 안내도 없고 옵트아웃 방법도 잘 알려지지 않아, 팀 공유 저장소나 오픈소스 히스토리가 지저분해진다는 불만입니다. `.claude/settings.json`에 `attribution.commit: \"\"`을 설정하면 끌 수 있고, 저자는 첫 커밋 시 '다시 묻지 않기' 옵션을 넣거나 아예 `Co-Authored-By: Claude` 트레일러만 남기자고 제안합니다.",
-      "titleEn": "Claude Code Quietly Tags Every Commit With a Session URL — a 175-Point Push to Make It Opt-In",
-      "bodyEn": "An HN post scoring 175 points flags that Claude Code appends a session URL (`https://claude.ai/code/session_...`) to the bottom of every commit message and PR description by default, with no onboarding prompt and no obvious opt-out. Users complain it clutters shared repos and open-source history. The workaround is setting `attribution.commit: \"\"` in `.claude/settings.json`; the author's preferred fixes are a one-time onboarding prompt or dropping the URL entirely in favor of just the `Co-Authored-By: Claude` trailer.",
+      "id": "curated-20260901-codex-tool-skill-reference",
+      "title": "코덱스 안에 숨어 있는 도구 232개·스킬 44개 — 사이먼 윌리슨이 통째로 문서화했다, HN 166점",
+      "body": "개발자 사이먼 윌리슨이 챗GPT·코덱스가 내부적으로 호출할 수 있는 도구 인터페이스 232개와 재사용 가능한 스킬 정의 44개를 정리한 레퍼런스 사이트를 공개했습니다. 지메일·깃허브·데이터 분석·자동화 등 영역별 도구를 타입스크립트 타입 선언과 함께 문서화해, 코덱스가 실제로 무엇을 할 수 있는지 코드 레벨에서 확인할 수 있습니다. HN에서 166점을 받았고, 코덱스 위에 자신만의 워크플로우나 스킬을 설계하려는 개발자에게 바로 쓸 수 있는 참조 자료입니다.",
+      "titleEn": "Codex Has 232 Hidden Tools and 44 Skills — Simon Willison Documented All of Them, 166 Points on HN",
+      "bodyEn": "Developer Simon Willison published a reference site cataloguing 232 tool interfaces and 44 reusable skill definitions that ChatGPT/Codex can call internally, covering areas like Gmail, GitHub, data analytics, and automation, each with its TypeScript type declaration. It's a code-level look at exactly what Codex can do, scoring 166 on HN, and a ready-to-use reference for anyone designing their own workflows or skills on top of Codex.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/anthropics/claude-code/issues/66504",
+      "sourceUrl": "https://codex-tool-reference.simonw.chatgpt.site/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-08-30T12:50:54Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
+      "createdAt": "2026-08-31T14:07:15Z",
+      "curatedAt": "2026-09-01T09:30:00Z"
     },
     {
-      "id": "curated-20260831-carwatch-raspberry-qwen-car-ai",
-      "title": "라즈베리파이 5 한 대로 오프라인 차량 AI 비서 — 350억 파라미터 Qwen을 차 안에서 돌린다",
-      "body": "HN에서 146점을 받은 'CarWatch'는 라즈베리파이5(16GB)에 약 15유로짜리 블루투스 ELM327 어댑터와 USB 마이크만 붙여, 인터넷 연결 없이 차 안에서 동작하는 대화형 AI 비서를 만든 프로젝트입니다. Qwen3.6-35B 모델을 14.3GB로 양자화해 llama.cpp로 돌리며 초당 3.5토큰 속도를 내고, 489페이지짜리 차량 매뉴얼을 lexical RAG로 인용해 근거 없는 답은 거부합니다. OBD-II로 실제 엔진 상태를 읽고, 라즈베리파이 자체 온도·스로틀링·메모리 상태까지 실시간으로 보고하는 '자기 인식' 기능도 갖췄습니다.",
-      "titleEn": "Turning a Raspberry Pi 5 Into an Offline Car AI — Running a 35B-Parameter Qwen Model in the Car",
-      "bodyEn": "Scoring 146 on HN, 'CarWatch' turns a Raspberry Pi 5 (16GB) plus a ~€15 Bluetooth ELM327 adapter and a USB mic into a fully offline, conversational car assistant. It runs a 14.3GB-quantized Qwen3.6-35B via llama.cpp at 3.5 tokens/second, grounds answers in a 489-page owner's manual through lexical RAG, and refuses to fabricate unknowns. It reads real engine data over OBD-II and reports its own Pi hardware state (temperature, throttling, memory) in real time.",
+      "id": "curated-20260901-claude-automode-prompt-injection",
+      "title": "클로드 코드 오토 모드, 프롬프트 인젝션에 60~80%가 뚫린다 — 앤트로픽 발표와 다른 결과, HN 333점",
+      "body": "보안 연구자 요한 렘버그(embracethered)가 클로드 코드 오퍼스5의 오토 모드를 대상으로 프롬프트 인젝션 공격을 실험한 결과, `struct.py` 같은 파이썬 표준 라이브러리 모듈을 가로채는 '모듈 섀도잉' 기법으로 60~80% 확률로 원격 코드 실행에 성공했다고 밝혔습니다. 이는 앤트로픽이 주장해온 '프롬프트 인젝션 성공률 거의 제로'와 크게 어긋나는 수치이며, 공격은 실제 C2(명령제어) 서버로 콜백까지 이어졌습니다. HN에서 333점을 받으며 오토 모드처럼 승인 없이 도구를 연쇄 실행하는 자율 모드의 위험성을 재조명했습니다.",
+      "titleEn": "Claude Code's Auto Mode Falls to Prompt Injection 60-80% of the Time — Numbers That Contradict Anthropic, 333 Points on HN",
+      "bodyEn": "Security researcher Johann Rehberger (embracethered) tested prompt-injection attacks against Claude Code Opus 5's Auto Mode and found a 'module shadowing' technique — intercepting standard Python library imports like `struct.py` — achieved remote code execution 60-80% of the time. That sharply contradicts Anthropic's claimed near-zero prompt-injection success rate, and the attack chain reached all the way to real command-and-control callbacks. Scoring 333 on HN, it reignited concern over autonomous modes like Auto Mode that chain tool calls without approval gates.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/ThinkOffApp/CarWatch",
+      "sourceUrl": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-08-25T15:20:20Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
+      "createdAt": "2026-08-31T07:49:18Z",
+      "curatedAt": "2026-09-01T09:30:00Z"
     },
     {
-      "id": "curated-20260831-terminal-bench-science",
-      "title": "AI 에이전트에 진짜 과학 연구를 시켜봤다 — 클로드 오퍼스5, 70개 과제 중 30%만 해결",
-      "body": "스탠퍼드가 주도하고 Terminal-Bench·Harbor 팀이 협력한 'Terminal-Bench-Science'는 연구자들이 실제로 쓰는 워크플로우를 그대로 벤치마크로 만든 프로젝트로, 22개국 376명이 기여해 제안된 과제 920개 중 단 70개만 채택했습니다. 생명과학·물리·지구과학·수학·공학 5개 분야에서 데이터 분석·통계추론·시뮬레이션·정리 증명까지 다루며, 최고 성능인 클로드 오퍼스5도 30% 해결에 그쳐 GPT-5.6 Sol(22.4%)·클로드 페이블5(21.4%)를 앞섰지만 기존 벤치마크보다 전체적으로 10%포인트 이상 낮은 점수가 나왔습니다.",
-      "titleEn": "Putting AI Agents to Real Scientific Work — Claude Opus 5 Solves Only 30% of 70 Tasks",
-      "bodyEn": "Led by Stanford in collaboration with the Terminal-Bench and Harbor teams, 'Terminal-Bench-Science' turns researchers' own real workflows into a benchmark, with 376 contributors across 22 countries narrowing 920 proposed tasks down to just 70. Spanning life sciences, physical sciences, Earth sciences, math, and engineering — data analysis, statistical inference, simulation, theorem proving — the top model, Claude Opus 5, resolved only 30% of tasks, ahead of GPT-5.6 Sol (22.4%) and Claude Fable 5 (21.4%), with every model scoring over 10 points lower than on prior benchmarks.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.terminal-bench-science.ai/announcement",
+      "id": "curated-20260901-harness-loop-engineering-ko",
+      "title": "AI 에이전트는 자동차다 — 엔진·하네스·루프로 나눠보면 PM이 뭘 정해야 하는지 보인다",
+      "body": "요즘IT에 실린 개발자 김영욱의 글은 AI 에이전트 시스템을 '엔진(LLM)·하네스(안전장치)·루프(자율 판단)'라는 자동차 비유로 정리합니다. 하네스를 가이드·센서·도구 오케스트레이션·휴먼 체크포인트 4가지 요소로 쪼개 설명하고, PM이 설계 단계에서 반드시 정의해야 할 세 가지로 자동화 경계(어디까지 자동으로 둘지), 루프 종료 조건(언제 멈출지), 비용-품질-속도 트레이드오프를 제시합니다. 에이전트 오케스트레이션을 팀 단위로 설계하려는 PM·엔지니어가 바로 체크리스트로 쓸 수 있는 실무 프레임워크입니다.",
+      "titleEn": "An AI Agent Is a Car — Splitting It Into Engine, Harness, and Loop Shows PMs What They Actually Need to Decide",
+      "bodyEn": "Published on 요즘IT, developer Kim Young-wook's piece frames an AI agent system as a car: engine (the LLM), harness (safety mechanisms), and loop (autonomous judgment). It breaks the harness down into four elements — guides, sensors, tool orchestration, and human checkpoints — and lays out three things a PM must define at design time: the automation boundary (how much to hand off), the loop's exit condition (when it stops), and the cost-quality-speed tradeoff. A practical framework any PM or engineer designing team-level agent orchestration can use as a checklist immediately.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3921",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-08-28T00:06:51Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
+      "createdAt": "2026-08-31T00:00:00Z",
+      "curatedAt": "2026-09-01T09:30:00Z"
     },
     {
       "id": "curated-20260831-astera-workbench-ko",
@@ -51,19 +51,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-30T14:00:00Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
-    },
-    {
-      "id": "curated-20260831-open-executive-ceo-agent-ko",
-      "title": "개발팀 해고한 CEO에 맞서, 개발자들이 만든 '오픈소스 AI 임원진' — 클로드 에이전트 8명이 회사를 돕는다",
-      "body": "AI 도입 명목으로 해고된 개발자들이 만든 오픈소스 'OpenExecutive'(SenteLabsAI, GitHub 3,000스타)는 전략·재무·인사·법무·운영·마케팅·제품·이사회소통을 맡는 전문 클로드 에이전트 8명을 하나의 '가상 임원진'처럼 묶은 프로젝트입니다. claude-sonnet-4-6로 동작하는 오케스트레이터가 요청을 관련 전문가에게 병렬로 분배하고, 각 에이전트는 ChromaDB에서 MBA 지식과 사용자가 올린 회사 문서를 RAG로 함께 참조하며, SQLite에 과거 의사결정을 기억해 세션이 바뀌어도 맥락을 이어갑니다. `.env`에 `ANTHROPIC_API_KEY`만 넣고 `make dev`로 API·UI를 바로 띄울 수 있고, 슬랙·디스코드·텔레그램·이메일 연동도 지원합니다.",
-      "titleEn": "Developers Laid Off by an AI-First CEO Built an Open-Source 'AI Executive Team' — 8 Claude Agents Advising the Company",
-      "bodyEn": "Built by developers laid off in the name of AI adoption, the open-source 'OpenExecutive' (SenteLabsAI, 3,000 GitHub stars) bundles 8 specialist Claude agents — strategy, finance, HR, legal, operations, marketing, product, and board communications — into what presents as one coherent virtual executive team. An orchestrator running on claude-sonnet-4-6 routes requests to relevant specialists in parallel, each agent pulling MBA knowledge plus your uploaded company documents from ChromaDB via RAG, while SQLite stores episodic memory of past decisions across sessions. Setup is just an `ANTHROPIC_API_KEY` in `.env` and `make dev`, with Slack, Discord, Telegram, and email interfaces included.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://github.com/SenteLabsAI/OpenExecutive",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-26T00:00:00Z",
       "curatedAt": "2026-08-30T23:10:39Z"
     },
     {
@@ -80,16 +67,16 @@
       "curatedAt": "2026-08-30T23:10:39Z"
     },
     {
-      "id": "curated-20260831-rag-simpler-ko",
-      "title": "RAG, 임베딩부터 시작하지 마라 — BM25만으로 시스템 60%는 해결된다",
-      "body": "GeekNews에 소개된 뉴스레터 글 'RAG는 생각보다 단순하다'는 RAG를 곧장 임베딩·벡터DB로 시작하지 말고 키워드 검색 BM25와 질의 재작성부터 시작하라고 조언합니다. 저자 집계로는 실제 시스템의 60%가 BM25+재작성만으로 충분하고, 25%는 BM25 후보 50~100개를 임베딩으로 재랭킹해 상위 10개를 뽑는 하이브리드 검색이 필요하며, 완전 사전 임베딩이 필요한 경우는 10%뿐, 커스텀 솔루션이 진짜 필요한 경우는 5%에 불과합니다. LLM 기반 질의 재작성은 건당 약 0.001달러로 저렴해 전체 재색인 없이 의미 불일치를 해결할 수 있습니다.",
-      "titleEn": "Don't Start RAG With Embeddings — BM25 Alone Solves 60% of Systems",
-      "bodyEn": "Featured on GeekNews, the newsletter piece 'RAG Is Simpler Than You Think' argues against jumping straight to embeddings and vector databases, recommending keyword search (BM25) plus query rewriting as the starting point. By the author's count, 60% of real systems need only BM25 + rewriting, 25% need hybrid search (re-ranking 50-100 BM25 candidates with embeddings down to the top 10), only 10% need full pre-embedding, and just 5% genuinely need a custom solution. LLM-based query rewriting costs about $0.001 per query, cheap enough to fix semantic mismatches without a full re-index.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
+      "id": "curated-20260831-claude-session-url-attribution",
+      "title": "클로드 코드가 커밋마다 세션 URL을 몰래 붙인다 — 옵트인으로 바꾸자는 요청, HN 175점",
+      "body": "클로드 코드가 커밋 메시지와 PR 설명 하단에 세션 URL(`https://claude.ai/code/session_...`)을 아무 안내 없이 기본으로 붙인다는 이슈가 HN에서 175점을 받았습니다. 온보딩 안내도 없고 옵트아웃 방법도 잘 알려지지 않아, 팀 공유 저장소나 오픈소스 히스토리가 지저분해진다는 불만입니다. `.claude/settings.json`에 `attribution.commit: \"\"`을 설정하면 끌 수 있고, 저자는 첫 커밋 시 '다시 묻지 않기' 옵션을 넣거나 아예 `Co-Authored-By: Claude` 트레일러만 남기자고 제안합니다.",
+      "titleEn": "Claude Code Quietly Tags Every Commit With a Session URL — a 175-Point Push to Make It Opt-In",
+      "bodyEn": "An HN post scoring 175 points flags that Claude Code appends a session URL (`https://claude.ai/code/session_...`) to the bottom of every commit message and PR description by default, with no onboarding prompt and no obvious opt-out. Users complain it clutters shared repos and open-source history. The workaround is setting `attribution.commit: \"\"` in `.claude/settings.json`; the author's preferred fixes are a one-time onboarding prompt or dropping the URL entirely in favor of just the `Co-Authored-By: Claude` trailer.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/anthropics/claude-code/issues/66504",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-08-27T00:00:00Z",
+      "createdAt": "2026-08-30T12:50:54Z",
       "curatedAt": "2026-08-30T23:10:39Z"
     },
     {
@@ -106,17 +93,17 @@
       "curatedAt": "2026-08-29T23:09:19Z"
     },
     {
-      "id": "curated-20260830-experiential-model-gateway",
-      "title": "쓰던 API 로그를 그대로 저비용 라우터로 — 오픈소스 모델 게이트웨이 'Experiential'",
-      "body": "HN에서 215점을 받은 오픈소스 프로젝트 'Experiential'은 클로즈드·오픈소스·로컬·커스텀 모델을 하나의 OpenAI 호환 API로 묶는 게이트웨이입니다. 사용자·에이전트별로 어떤 모델을 어떤 용도로 얼마까지 쓸 수 있는지 예산·권한을 중앙에서 통제할 수 있고, 실제 운영 트래픽(프로덕션 텔레메트리)을 학습 데이터 삼아 품질·속도·비용 기준으로 최적화된 커스텀 라우터를 자동으로 만들어줍니다. 여러 모델 제공사마다 클라이언트를 따로 설정하지 않고, 사용량 추적과 지출 가시성까지 한 곳에서 관리하고 싶은 팀에 맞는 실전 패턴입니다.",
-      "titleEn": "Turn Your Existing Usage Logs Into a Cheaper Router — Open-Source Gateway 'Experiential'",
-      "bodyEn": "Scoring 215 points on HN, the open-source project 'Experiential' provides one control plane across closed, open-source, local, and custom models through a single OpenAI-compatible API. Teams can centrally control which users and agents can use which models, for which use cases, and how much they can spend, and the system turns actual production traffic into custom routers optimized for quality, speed, and cost. A concrete pattern for any team tired of configuring separate clients per provider while wanting centralized usage tracking and spend visibility.",
+      "id": "curated-20260831-terminal-bench-science",
+      "title": "AI 에이전트에 진짜 과학 연구를 시켜봤다 — 클로드 오퍼스5, 70개 과제 중 30%만 해결",
+      "body": "스탠퍼드가 주도하고 Terminal-Bench·Harbor 팀이 협력한 'Terminal-Bench-Science'는 연구자들이 실제로 쓰는 워크플로우를 그대로 벤치마크로 만든 프로젝트로, 22개국 376명이 기여해 제안된 과제 920개 중 단 70개만 채택했습니다. 생명과학·물리·지구과학·수학·공학 5개 분야에서 데이터 분석·통계추론·시뮬레이션·정리 증명까지 다루며, 최고 성능인 클로드 오퍼스5도 30% 해결에 그쳐 GPT-5.6 Sol(22.4%)·클로드 페이블5(21.4%)를 앞섰지만 기존 벤치마크보다 전체적으로 10%포인트 이상 낮은 점수가 나왔습니다.",
+      "titleEn": "Putting AI Agents to Real Scientific Work — Claude Opus 5 Solves Only 30% of 70 Tasks",
+      "bodyEn": "Led by Stanford in collaboration with the Terminal-Bench and Harbor teams, 'Terminal-Bench-Science' turns researchers' own real workflows into a benchmark, with 376 contributors across 22 countries narrowing 920 proposed tasks down to just 70. Spanning life sciences, physical sciences, Earth sciences, math, and engineering — data analysis, statistical inference, simulation, theorem proving — the top model, Claude Opus 5, resolved only 30% of tasks, ahead of GPT-5.6 Sol (22.4%) and Claude Fable 5 (21.4%), with every model scoring over 10 points lower than on prior benchmarks.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/experientiallabs/experiential",
+      "sourceUrl": "https://www.terminal-bench-science.ai/announcement",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-08-27T21:18:35Z",
-      "curatedAt": "2026-08-29T23:09:19Z"
+      "createdAt": "2026-08-28T00:06:51Z",
+      "curatedAt": "2026-08-30T23:10:39Z"
     },
     {
       "id": "curated-20260829-ai-engineer-notebooks",
@@ -132,17 +119,43 @@
       "curatedAt": "2026-08-28T23:09:27Z"
     },
     {
-      "id": "curated-20260829-corsair-agent-permission-gateway-ko",
-      "title": "에이전트에게 자격증명을 안 보여주고 지메일·슬랙 연결한다 — 'Corsair'",
-      "body": "GeekNews에 소개된 Corsair는 지메일·슬랙·깃허브·노션·스트라이프 같은 외부 서비스에 AI 에이전트를 연결할 때 자격증명 자체를 에이전트에 노출하지 않는 TypeScript 라이브러리입니다. 권한을 open·cautious·strict·readonly 4단계로 나눠 설정할 수 있고, 메일 발송처럼 민감한 작업은 10분 뒤 만료되는 승인 링크로 사람이 직접 확인해야 실행됩니다. 여러 서비스를 오케스트레이션하는 에이전트를 만들 때 바로 적용할 수 있는 권한 관리 패턴을 제시합니다.",
-      "titleEn": "Connecting Gmail and Slack to Agents Without Exposing Credentials — 'Corsair'",
-      "bodyEn": "Featured on GeekNews, Corsair is a TypeScript library that connects AI agents to external services — Gmail, Slack, GitHub, Notion, Stripe — without ever exposing credentials to the agent itself. Permissions are configurable across four tiers (open/cautious/strict/readonly), and sensitive actions like sending an email require human confirmation via a 10-minute-expiring approval link before executing. A concrete permission-management pattern for anyone building agents that orchestrate multiple external services.",
+      "id": "curated-20260901-ai-killing-my-brain-hn",
+      "title": "에이전트 15개를 동시에 돌리다 코드를 못 읽게 됐다 — HN 'AI가 내 뇌를 죽이고 있다', 54점",
+      "body": "한 개발자가 HN에 올린 'Tell HN' 글에서, 처음엔 클로드 코드가 만든 코드를 한 줄씩 꼼꼼히 검토하다가 점점 병렬 에이전트를 15개까지 늘리며 '추천' 표시가 붙은 제안을 그냥 수락하는 식으로 습관이 바뀌었다고 고백합니다. 결국 스스로 코드를 짜거나 읽고 이해하는 감각이 무뎌졌다는 것이 핵심 내용이며, 54점을 받으며 다중 에이전트 워크플로우가 편해질수록 검토를 어디까지 생략해도 되는지에 대한 논쟁을 불렀습니다. 기존에 소개했던 '6개월간 손으로 코드 안 짜기' 실험과 대비되는, 같은 방향의 워크플로우가 만들 수 있는 위험 신호를 보여주는 사례입니다.",
+      "titleEn": "I Went From Reviewing Every Line to Blindly Accepting 15 Parallel Agents' Suggestions — HN's 'AI Is Killing My Brain', 54 Points",
+      "bodyEn": "In a 'Tell HN' post, a developer admits that after starting out carefully reviewing every line Claude Code generated, they scaled up to running 15 parallel agents and gradually shifted to just clicking 'accept' on suggestions marked 'Recommended.' The core admission: their own ability to write or even read and understand code dulled over time. Scoring 54 on HN, it sparked debate over how far review can safely be skipped as multi-agent workflows get more convenient — a cautionary counterpoint to the 'six months without hand-writing code' workflow story covered previously.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49468252",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-27T17:28:27Z",
+      "curatedAt": "2026-09-01T09:30:00Z"
+    },
+    {
+      "id": "curated-20260827-rag-simpler-ko",
+      "title": "RAG, 임베딩부터 시작하지 마라 — BM25만으로 시스템 60%는 해결된다",
+      "body": "GeekNews에 소개된 뉴스레터 글 'RAG는 생각보다 단순하다'는 RAG를 곧장 임베딩·벡터DB로 시작하지 말고 키워드 검색 BM25와 질의 재작성부터 시작하라고 조언합니다. 저자 집계로는 실제 시스템의 60%가 BM25+재작성만으로 충분하고, 25%는 BM25 후보 50~100개를 임베딩으로 재랭킹해 상위 10개를 뽑는 하이브리드 검색이 필요하며, 완전 사전 임베딩이 필요한 경우는 10%뿐, 커스텀 솔루션이 진짜 필요한 경우는 5%에 불과합니다. LLM 기반 질의 재작성은 건당 약 0.001달러로 저렴해 전체 재색인 없이 의미 불일치를 해결할 수 있습니다.",
+      "titleEn": "Don't Start RAG With Embeddings — BM25 Alone Solves 60% of Systems",
+      "bodyEn": "Featured on GeekNews, the newsletter piece 'RAG Is Simpler Than You Think' argues against jumping straight to embeddings and vector databases, recommending keyword search (BM25) plus query rewriting as the starting point. By the author's count, 60% of real systems need only BM25 + rewriting, 25% need hybrid search (re-ranking 50-100 BM25 candidates with embeddings down to the top 10), only 10% need full pre-embedding, and just 5% genuinely need a custom solution. LLM-based query rewriting costs about $0.001 per query, cheap enough to fix semantic mismatches without a full re-index.",
       "sourceName": "GeekNews",
-      "sourceUrl": "https://github.com/corsairdev/corsair",
+      "sourceUrl": "https://www.lighthousenewsletter.com/p/rag-is-simpler-than-you-think",
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-27T00:00:00Z",
-      "curatedAt": "2026-08-28T23:09:27Z"
+      "curatedAt": "2026-08-30T23:10:39Z"
+    },
+    {
+      "id": "curated-20260901-origin-cli-stacked-pr-ko",
+      "title": "커서의 새 깃 포지 'Origin', 문서에도 없는 스택 PR 명령을 직접 찾아냈다",
+      "body": "커서가 8월 17일 베타로 내놓은 자체 깃 포지 Origin CLI를 쓰던 개발자 aiedwardyi가, 공식 `--help`나 문서 어디에도 안 나오는 `origin pr create --stack-on <PR번호>` 옵션을 실험으로 검증해 velog에 공개했습니다. 이 옵션을 쓰면 큰 변경사항을 부모-자식 관계로 순차 연결된 여러 PR로 쪼개는 '스택 PR'을 만들 수 있는데, 리베이스 충돌이 나면 자동 처리가 안 되므로 로컬에서 `git rebase <parent-branch>` 후 `git push --force-with-lease`로 직접 정리해야 한다는 실전 팁까지 담겨 있습니다. AI 코딩 도구가 늘면서 큰 diff를 리뷰하기 쉬운 단위로 쪼개는 워크플로우에 바로 적용할 수 있는 발견입니다.",
+      "titleEn": "Cursor's New Git Forge 'Origin' Has an Undocumented Stacked-PR Command — One Developer Found It by Testing",
+      "bodyEn": "Developer aiedwardyi, using Cursor's new Origin CLI (in beta since August 17), discovered and verified on velog an `origin pr create --stack-on <PR-number>` option that appears nowhere in the official `--help` or docs. It lets you split a large change into a chain of parent-child stacked PRs, though rebase conflicts aren't handled automatically — you have to run `git rebase <parent-branch>` locally and then `git push --force-with-lease` yourself, a concrete tip included in the writeup. A directly applicable workflow discovery for splitting large AI-generated diffs into reviewable chunks.",
+      "sourceName": "velog",
+      "sourceUrl": "https://velog.io/@aiedwardyi/cursor-origin-stacked-pr-stack-on",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-28T00:00:00Z",
+      "curatedAt": "2026-09-01T09:30:00Z"
     },
     {
       "id": "curated-20260828-six-months-coding-with-agents",
@@ -158,6 +171,19 @@
       "curatedAt": "2026-08-27T23:14:13Z"
     },
     {
+      "id": "curated-20260829-corsair-agent-permission-gateway-ko",
+      "title": "에이전트에게 자격증명을 안 보여주고 지메일·슬랙 연결한다 — 'Corsair'",
+      "body": "GeekNews에 소개된 Corsair는 지메일·슬랙·깃허브·노션·스트라이프 같은 외부 서비스에 AI 에이전트를 연결할 때 자격증명 자체를 에이전트에 노출하지 않는 TypeScript 라이브러리입니다. 권한을 open·cautious·strict·readonly 4단계로 나눠 설정할 수 있고, 메일 발송처럼 민감한 작업은 10분 뒤 만료되는 승인 링크로 사람이 직접 확인해야 실행됩니다. 여러 서비스를 오케스트레이션하는 에이전트를 만들 때 바로 적용할 수 있는 권한 관리 패턴을 제시합니다.",
+      "titleEn": "Connecting Gmail and Slack to Agents Without Exposing Credentials — 'Corsair'",
+      "bodyEn": "Featured on GeekNews, Corsair is a TypeScript library that connects AI agents to external services — Gmail, Slack, GitHub, Notion, Stripe — without ever exposing credentials to the agent itself. Permissions are configurable across four tiers (open/cautious/strict/readonly), and sensitive actions like sending an email require human confirmation via a 10-minute-expiring approval link before executing. A concrete permission-management pattern for anyone building agents that orchestrate multiple external services.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/corsairdev/corsair",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-27T00:00:00Z",
+      "curatedAt": "2026-08-28T23:09:27Z"
+    },
+    {
       "id": "curated-20260828-local-llm-secret-filter-ko",
       "title": "AI에 코드 올리기 전, 로컬 LLM으로 민감정보부터 걸러봤다 — 3단 필터로 재현율 100%",
       "body": "요즘IT에 공개된 이 글은 챗GPT·클로드 같은 클라우드 AI에 코드·로그를 올리기 전 민감정보를 걸러내려고 로컬 LLM 3종(gpt-oss:20b, qwen3.6:27b, gemma4:26b)을 직접 테스트한 실험을 다룹니다. 1단계 정규식(이메일·사설 IP·API 키·경로 탐지), 2단계 로컬 LLM(미공개 프로젝트명처럼 문맥에 의존하는 정보 탐지), 3단계 사람 검토로 이어지는 3단 필터를 구성해, 합성 테스트 50건 기준 정규식 단독 재현율 80%·정밀도 100%였던 것이 정규식+Gemma 조합에서 재현율 92%·정밀도 90.2%·처리시간 0.87초로 개선됐고, 사람 검토까지 더하면 재현율·정밀도 모두 100%에 도달했습니다. 저자의 결론은 '로컬 LLM은 보안 자동화 도구가 아니라 체크리스트를 보조하는 수단'이라는 것입니다.",
@@ -169,19 +195,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-27T00:00:00Z",
       "curatedAt": "2026-08-27T23:14:13Z"
-    },
-    {
-      "id": "curated-20260827-webmcp-standard",
-      "title": "웹사이트가 AI 에이전트에게 직접 '도구'를 등록한다 — 구글·MS 주도 WebMCP, 적용에 10분",
-      "body": "구글과 마이크로소프트가 주도하는 새 웹 표준 WebMCP는 웹사이트가 document.modelContext.registerTool()로 이름·입력 스키마·실행 함수를 가진 '도구'를 직접 등록해, AI 에이전트가 HTML을 긁어 읽고 클릭을 흉내 내는 대신 구조화된 인자로 도구를 바로 호출하게 합니다. 기존 코드를 재작성할 필요 없이 실행 함수가 감싸기만 하면 되고, 저자는 적용에 약 10분이 걸린다고 밝혔습니다. 13개 도구를 등록한 데모 'Career Copilot'에서는 이력서 파싱·구인 정보 수집·적합도 매칭까지 자동화하면서도 실제 지원처럼 되돌릴 수 없는 행동은 사람 승인을 거치게 설계했습니다. 크롬 149부터 오리진 트라이얼로 테스트 가능하며, 챗GPT도 2026년 8월부터 WebMCP를 지원하기 시작했습니다.",
-      "titleEn": "Websites Now Register 'Tools' Directly for AI Agents — Google/Microsoft-Backed WebMCP Takes ~10 Minutes to Add",
-      "bodyEn": "A new web standard backed by Google and Microsoft, WebMCP, lets a website call document.modelContext.registerTool() to register named tools — each with an input schema and an execute function — so AI agents call them with structured arguments instead of scraping HTML and simulating clicks. No rewrite is needed since execute just wraps existing site code, and the author says adding it takes about 10 minutes. In a demo called Career Copilot with 13 registered tools, the system parses resumes, aggregates job listings, and scores candidate fit automatically, while gating irreversible actions like actually submitting an application behind human approval. It's testable via a Chrome 149+ origin trial, and ChatGPT began supporting WebMCP as of August 2026.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-26T15:02:15Z",
-      "curatedAt": "2026-08-26T23:08:15Z"
     },
     {
       "id": "curated-20260827-accept-markdown-agents",
@@ -197,16 +210,16 @@
       "curatedAt": "2026-08-26T23:08:15Z"
     },
     {
-      "id": "curated-20260827-ai-code-review-400-times-ko",
-      "title": "AI 코드 리뷰, 몇 번 돌려야 할까 — 같은 코드 400번 돌려보고 나온 답",
-      "body": "개발자 edgelog가 같은 코드를 대상으로 AI 코드 리뷰를 약 400회 반복 실행한 실험 결과를 GeekNews에 공개했습니다. 수정 없이 리뷰만 반복하면 결함 발견율이 34%→61%→76%로 계속 올라가 한 번의 리뷰로는 문제의 상당수를 놓친다는 사실을 보여줬지만, 리뷰 후 바로 고치고 다시 리뷰하는 '리뷰-수정' 루프를 반복하면 테스트·계약 준수율은 그대로인데 코드 크기가 24%~152% 불어나 새로운 위험을 만들었습니다. 파일 컨텍스트가 제한되면 발견 사항의 29%가 오탐이었지만, 호출부·헤더·초기화 경로까지 참조하게 하자 이 오탐이 사라졌습니다. 저자의 결론은 '여러 번 리뷰하고 한 번만 고쳐라' — 독립적인 리뷰 여러 번으로 결함을 모은 뒤 사람이 걸러서 한 번에 통합 수정하라는 것입니다.",
-      "titleEn": "How Many Times Should You Run AI Code Review? — An Answer from 400 Runs on the Same Code",
-      "bodyEn": "Developer edgelog published on GeekNews the results of running AI code review roughly 400 times on the same code. Repeating review-only passes (no fixes) raised defect-detection coverage from 34% to 61% to 76%, showing a single review misses a large share of real issues — but looping review-then-immediately-fix-then-review-again kept test/contract compliance flat while code size grew 24% to 152%, introducing fresh risk with every fix. With limited file context, 29% of findings were false positives; giving the reviewer access to callers, headers, and initialization paths eliminated those false positives entirely. The author's conclusion: \"review many times, fix once\" — collect findings from several independent review passes, have a human filter them, then apply one consolidated fix.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=32842",
+      "id": "curated-20260827-webmcp-standard",
+      "title": "웹사이트가 AI 에이전트에게 직접 '도구'를 등록한다 — 구글·MS 주도 WebMCP, 적용에 10분",
+      "body": "구글과 마이크로소프트가 주도하는 새 웹 표준 WebMCP는 웹사이트가 document.modelContext.registerTool()로 이름·입력 스키마·실행 함수를 가진 '도구'를 직접 등록해, AI 에이전트가 HTML을 긁어 읽고 클릭을 흉내 내는 대신 구조화된 인자로 도구를 바로 호출하게 합니다. 기존 코드를 재작성할 필요 없이 실행 함수가 감싸기만 하면 되고, 저자는 적용에 약 10분이 걸린다고 밝혔습니다. 13개 도구를 등록한 데모 'Career Copilot'에서는 이력서 파싱·구인 정보 수집·적합도 매칭까지 자동화하면서도 실제 지원처럼 되돌릴 수 없는 행동은 사람 승인을 거치게 설계했습니다. 크롬 149부터 오리진 트라이얼로 테스트 가능하며, 챗GPT도 2026년 8월부터 WebMCP를 지원하기 시작했습니다.",
+      "titleEn": "Websites Now Register 'Tools' Directly for AI Agents — Google/Microsoft-Backed WebMCP Takes ~10 Minutes to Add",
+      "bodyEn": "A new web standard backed by Google and Microsoft, WebMCP, lets a website call document.modelContext.registerTool() to register named tools — each with an input schema and an execute function — so AI agents call them with structured arguments instead of scraping HTML and simulating clicks. No rewrite is needed since execute just wraps existing site code, and the author says adding it takes about 10 minutes. In a demo called Career Copilot with 13 registered tools, the system parses resumes, aggregates job listings, and scores candidate fit automatically, while gating irreversible actions like actually submitting an application behind human approval. It's testable via a Chrome 149+ origin trial, and ChatGPT began supporting WebMCP as of August 2026.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-08-24T00:00:00Z",
+      "createdAt": "2026-08-26T15:02:15Z",
       "curatedAt": "2026-08-26T23:08:15Z"
     },
     {
@@ -221,19 +234,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-26T00:00:00Z",
       "curatedAt": "2026-08-26T23:08:15Z"
-    },
-    {
-      "id": "curated-20260826-ai-dependency-expertise-ko",
-      "title": "AI에 의존할수록 실력이 준다 — '숙련자 역설'과 소크라테스식 튜터링이 127% 나은 이유, GeekNews",
-      "body": "GeekNews에 소개된 이 글은 AI 코딩 도구가 숙련자에게는 유용하지만, 초심자에게는 문제 해결 과정을 건너뛰게 만들어 진짜 실력을 쌓지 못하게 한다는 'AI를 제대로 쓰려면 이미 전문성이 있어야 하는데, 그 AI가 바로 그 전문성을 쌓을 기회를 없앤다'는 '숙련자 역설(skilled operator paradox)'을 짚습니다. 펜실베이니아대(UPenn) 2025년 연구에 따르면 일반 LLM을 쓴 학생은 교과서만 쓴 학생보다 시험 점수가 17% 낮았지만, 같은 LLM을 답을 바로 주지 않고 스스로 풀도록 유도하는 '소크라테스식 튜터'로 바꾸자 실습 성과가 127% 높아져 교과서 그룹과 실제 시험 점수가 같아졌습니다. 젯브레인스가 인용한 연구에서도 AI 의존도가 높은 그룹은 계획 단계를 생략하고 '거짓 자신감'을 갖는 반면, AI 사용을 절제한 그룹은 부적절한 제안을 걸러내는 '네거티브 엑스퍼티즈'를 키웠다고 밝혀, 저자는 AI를 코드 생성기가 아니라 대화형 튜터·문서 도구로 쓰라고 제안합니다.",
-      "titleEn": "The More You Lean on AI, the Weaker You Get — the 'Skilled Operator Paradox' and Why Socratic Tutoring Beat It by 127%, via GeekNews",
-      "bodyEn": "Featured on GeekNews, this piece lays out the 'skilled operator paradox': AI coding tools help experienced developers but let beginners skip the problem-solving struggle that actually builds expertise — you need expertise to use AI well, yet AI removes the friction that builds it. A 2025 UPenn study found students using a general LLM scored 17% lower than a textbook-only group on exams, despite feeling like they were learning well; but reframing the same LLM as a Socratic tutor that pushed students to solve problems themselves instead of handing over answers lifted practice performance by 127%, matching the textbook group on real exams. Research cited via JetBrains found heavy AI users skipped planning steps and developed 'false confidence,' while low-AI-use developers built 'negative expertise' — the skill of rejecting bad suggestions. The author's recommendation: use AI as an interactive tutor and documentation tool, not a code generator, and distinguish cognitive offloading (delegating mechanical work) from cognitive debt (abandoning your own judgment).",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=32854",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-25T00:00:00Z",
-      "curatedAt": "2026-08-25T23:15:29Z"
     },
     {
       "id": "curated-20260825-fabiensanglard-agentmd-tips",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T23:10:39Z",
+  "generatedAt": "2026-09-01T09:30:00Z",
   "skills": [
     {
       "id": "superpowers",
@@ -9,7 +9,7 @@
       "name": "Superpowers",
       "descKo": "브레인스토밍·체계적 디버깅·TDD를 묶은 에이전트 스킬 프레임워크 겸 개발 방법론.",
       "descEn": "An agentic skills framework & software development methodology bundling brainstorming, systematic debugging, and TDD.",
-      "stars": 279668,
+      "stars": 280057,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -20,7 +20,7 @@
       "name": "Anthropic Agent Skills",
       "descKo": "Anthropic이 직접 공개한 공식 Agent Skills 저장소.",
       "descEn": "Anthropic's official public repository for Agent Skills.",
-      "stars": 172644,
+      "stars": 172803,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -31,7 +31,7 @@
       "name": "Awesome LLM Apps",
       "descKo": "무료·오픈소스 AI 에이전트·에이전트 스킬·RAG 앱 100개 이상을 모은 대형 큐레이션 저장소.",
       "descEn": "A large curated collection of 100+ free and open-source AI agents, agent skills, and RAG apps.",
-      "stars": 135289,
+      "stars": 135413,
       "addedAt": "2026-07-24T02:00:00Z"
     },
     {
@@ -42,7 +42,7 @@
       "name": "Caveman",
       "descKo": "출력을 원시인 말투로 압축해 토큰을 크게 줄여주는 Claude Code 스킬. 기술 정확도는 유지.",
       "descEn": "Claude Code skill that compresses output into caveman speech to cut tokens while keeping technical accuracy.",
-      "stars": 101872,
+      "stars": 102044,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Agent Skills (Addy Osmani)",
       "descKo": "Google Chrome 엔지니어링 리드 Addy Osmani가 만든 프로덕션급 코딩 에이전트 스킬 모음.",
       "descEn": "Production-grade engineering skills for AI coding agents, by Google Chrome engineering lead Addy Osmani.",
-      "stars": 90928,
+      "stars": 91182,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -64,7 +64,7 @@
       "name": "Awesome Claude Skills",
       "descKo": "Claude AI 워크플로우 커스터마이징을 위한 스킬·리소스·도구 큐레이션 리스트.",
       "descEn": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.",
-      "stars": 74069,
+      "stars": 74154,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -75,7 +75,7 @@
       "name": "Awesome Agent Skills (VoltAgent)",
       "descKo": "클로드 코드·코덱스·Gemini CLI·Cursor 등과 호환되는, 공식 개발팀·커뮤니티가 만든 1,000개 이상의 에이전트 스킬 큐레이션 저장소.",
       "descEn": "A curated collection of 1,000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-      "stars": 33383,
+      "stars": 33479,
       "addedAt": "2026-08-26T23:08:15Z"
     },
     {
@@ -86,7 +86,7 @@
       "name": "Last 30 Days",
       "descKo": "레딧·X·유튜브·HN·폴리마켓과 웹을 훑어 최근 30일 동향을 근거 기반으로 요약해주는 에이전트 스킬.",
       "descEn": "An AI agent skill that scans Reddit/X/YouTube/HN/Polymarket plus the web to produce a grounded summary of the last 30 days.",
-      "stars": 60483,
+      "stars": 60790,
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -97,7 +97,7 @@
       "name": "OpenMontage",
       "descKo": "코딩 에이전트를 영상 제작 스튜디오로 바꿔주는 오픈소스 스킬. 12개 파이프라인·100개 이상 도구·700개 이상 스킬 파일 포함.",
       "descEn": "An open-source agentic video production system that turns a coding assistant into a video studio — 12 pipelines, 100+ tools, 700+ skill and production-knowledge files.",
-      "stars": 54619,
+      "stars": 55012,
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
@@ -108,7 +108,7 @@
       "name": "Obsidian Skills",
       "descKo": "에이전트가 Obsidian CLI·마크다운·Bases·Canvas를 다루는 법을 가르치는 스킬.",
       "descEn": "Teaches agents to work with Obsidian's CLI, Markdown, Bases, and Canvas.",
-      "stars": 47539,
+      "stars": 47592,
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -119,19 +119,8 @@
       "name": "Agentic Awesome Skills (AAS Core)",
       "descKo": "로컬 우선 에이전트 제어판으로, 2,005개 이상의 에이전트 스킬을 발견·선택·검증하는 CLI·로컬 MCP·카탈로그를 제공.",
       "descEn": "A local agent-first control plane for discovering, selecting, and validating agentic skills — CLI, local MCP, and catalog backed by 2,005+ skills.",
-      "stars": 45705,
+      "stars": 45757,
       "addedAt": "2026-08-19T09:30:00Z"
-    },
-    {
-      "id": "awesome-copilot",
-      "repo": "github/awesome-copilot",
-      "author": "github",
-      "category": "collection",
-      "name": "Awesome Copilot",
-      "descKo": "깃허브 코파일럿용 커스텀 지침·에이전트·스킬·설정을 모은 커뮤니티 컬렉션.",
-      "descEn": "A community collection of custom instructions, agents, skills, and configs for GitHub Copilot.",
-      "stars": 38450,
-      "addedAt": "2026-07-15T09:00:00Z"
     },
     {
       "id": "humanizer",
@@ -141,7 +130,7 @@
       "name": "Humanizer",
       "descKo": "글에서 AI 티가 나는 흔적을 제거해 자연스럽게 다듬는 Claude Code 스킬.",
       "descEn": "Claude Code skill that removes signs of AI-generated writing from text.",
-      "stars": 39019,
+      "stars": 39261,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -152,7 +141,7 @@
       "name": "Scientific Agent Skills",
       "descKo": "생물학·화학·의학·신약개발 등 158개 스킬과 100여 개 과학 데이터베이스를 묶은 'AI 과학자' 스킬 라이브러리. 클로드 코드·코덱스·Cursor 등과 호환.",
       "descEn": "An 'AI scientist' skills library bundling 158 skills and 100+ scientific databases across biology, chemistry, medicine, and drug discovery, compatible with Claude Code, Codex, Cursor, and more.",
-      "stars": 39152,
+      "stars": 40681,
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
@@ -163,7 +152,7 @@
       "name": "SkillSpector",
       "descKo": "클로드 코드·코덱스·MCP용 스킬을 설치하기 전에 취약점·악성 패턴·프롬프트 인젝션·데이터 유출·공급망 위험을 스캔해주는 NVIDIA의 보안 검사 도구.",
       "descEn": "NVIDIA's security scanner for AI agent skills — detects vulnerabilities, malicious patterns, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-      "stars": 15316,
+      "stars": 15442,
       "addedAt": "2026-08-29T23:09:19Z"
     },
     {
@@ -174,7 +163,7 @@
       "name": "Google Workspace CLI",
       "descKo": "구글이 공식 공개한, 드라이브·지메일·캘린더·시트·문서를 한 번에 다루는 커맨드라인 도구. AI 에이전트 스킬이 내장돼 있음.",
       "descEn": "Google's official command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, and Admin — built from the Google Discovery Service, with AI agent skills included.",
-      "stars": 30656,
+      "stars": 30668,
       "addedAt": "2026-08-05T23:12:00Z"
     },
     {
@@ -185,30 +174,8 @@
       "name": "skills (npx skills CLI)",
       "descKo": "Vercel이 공개한 오픈 에이전트 스킬 표준 도구. `npx skills` 한 줄로 어떤 프로젝트에든 스킬을 설치·관리할 수 있음.",
       "descEn": "Vercel's open agent skills tool — install and manage agent skills in any project with a single `npx skills` command.",
-      "stars": 30030,
+      "stars": 30117,
       "addedAt": "2026-08-10T23:09:49Z"
-    },
-    {
-      "id": "alirezarezvani-claude-skills",
-      "repo": "alirezarezvani/claude-skills",
-      "author": "alirezarezvani",
-      "category": "collection",
-      "name": "Claude Skills (Alireza Rezvani)",
-      "descKo": "엔지니어링·마케팅·제품·금융·컴플라이언스까지 아우르는 클로드 코드 스킬·에이전트·플러그인 380개를 모은 대형 컬렉션.",
-      "descEn": "A large collection of 380 Claude Code skills, agents, and plugins spanning engineering, marketing, product, finance, and compliance.",
-      "stars": 25266,
-      "addedAt": "2026-08-28T23:09:27Z"
-    },
-    {
-      "id": "book-to-skill",
-      "repo": "virgiliojr94/book-to-skill",
-      "author": "virgiliojr94",
-      "category": "learning",
-      "name": "Book to Skill",
-      "descKo": "기술 서적 PDF를 통째로 클로드 코드 스킬로 바꿔, 공부·참조·작업 중 활용까지 바로 쓸 수 있게 해주는 스킬.",
-      "descEn": "Turns any technical book PDF into a ready-to-use Claude Code skill — for studying, reference, and use while working.",
-      "stars": 27304,
-      "addedAt": "2026-08-29T23:09:19Z"
     },
     {
       "id": "archify",
@@ -218,8 +185,41 @@
       "name": "Archify",
       "descKo": "아키텍처·워크플로우·시퀀스·데이터 흐름 다이어그램을 검증 가능한 형태로 그려주는 에이전트 스킬.",
       "descEn": "Agent skill for beautiful, verifiable architecture, workflow, sequence, and data-flow diagrams.",
-      "stars": 34378,
+      "stars": 38536,
       "addedAt": "2026-08-30T23:10:39Z"
+    },
+    {
+      "id": "guizang-ppt-skill",
+      "repo": "op7418/guizang-ppt-skill",
+      "author": "op7418",
+      "category": "design",
+      "name": "Guizang PPT Skill",
+      "descKo": "매거진·스위스 스타일 레이아웃으로 고급스러운 HTML 슬라이드를 만들어주는 에이전트 스킬. 이미지 프롬프트·소셜 커버·저전력 WebGL 프레젠테이션 런타임까지 포함.",
+      "descEn": "Agent skill for generating polished HTML slide decks in editorial magazine and Swiss layouts, complete with image prompts, social covers, and a low-power WebGL presentation runtime.",
+      "stars": 25354,
+      "addedAt": "2026-09-01T09:30:00Z"
+    },
+    {
+      "id": "agentskills-spec",
+      "repo": "agentskills/agentskills",
+      "author": "agentskills",
+      "category": "collection",
+      "name": "Agent Skills Specification",
+      "descKo": "에이전트 스킬(Agent Skills) 표준 명세와 공식 문서를 정리한 저장소. 어떤 에이전트에서든 호환되는 스킬을 만들 때 기준이 되는 레퍼런스.",
+      "descEn": "The specification and official documentation repository for the Agent Skills standard — the reference for building skills compatible across agents.",
+      "stars": 24900,
+      "addedAt": "2026-09-01T09:30:00Z"
+    },
+    {
+      "id": "notebooklm-py",
+      "repo": "teng-lin/notebooklm-py",
+      "author": "teng-lin",
+      "category": "automation",
+      "name": "NotebookLM Python API",
+      "descKo": "구글 노트북LM(NotebookLM)을 파이썬·CLI·AI 에이전트에서 그대로 다룰 수 있게 해주는 비공식 파이썬 API 겸 에이전트 스킬.",
+      "descEn": "An unofficial Python API and agentic skill for Google NotebookLM — full programmatic access via Python, CLI, and AI agents.",
+      "stars": 19039,
+      "addedAt": "2026-09-01T09:30:00Z"
     }
   ]
 }
