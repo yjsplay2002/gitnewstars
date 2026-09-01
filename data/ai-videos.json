@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-01T09:30:00Z",
+  "generatedAt": "2026-09-02T09:30:00Z",
   "videos": [
+    {
+      "id": "vid-successknowledge-claude-codex-20x-pricing-ko",
+      "youtubeId": "Awkx8vleGn8",
+      "category": "tip",
+      "title": "클로드는 '20배' 요금인데 실제 사용량은 2배뿐? 코덱스와 비교해보니",
+      "titleEn": "Claude's '20x' Plan Only Gives 2x More Usage? Comparing Against Codex",
+      "descKo": "클로드 맥스 요금제의 '20배'는 5시간 한도에만 적용되고 주간 한도는 겨우 2배인 반면, 코덱스의 20X 플랜은 주간 사용량까지 실제로 20배 늘어난다는 점을 짚어주는 가격 비교 영상.",
+      "descEn": "Breaks down how Claude Max's '20x' tier only multiplies the 5-hour limit while weekly limits barely double, whereas Codex's 20X plan genuinely multiplies weekly usage by 20x — a pricing comparison video.",
+      "channel": "성공지식백과",
+      "publishedAt": "2026-09-01T00:00:00Z",
+      "addedAt": "2026-09-02T09:30:00Z"
+    },
+    {
+      "id": "vid-rain-claude-code-mcp-explained-ko",
+      "youtubeId": "cskMc7hcdsg",
+      "category": "tip",
+      "title": "클로드 코드 쓴다면 MCP 필수 — API와 차이부터 구글·카톡 연동까지 실습",
+      "titleEn": "Why You Need MCP If You Use Claude Code — From API Differences to Live Gmail/KakaoTalk Integration",
+      "descKo": "MCP가 무엇이고 API와 어떻게 다른지부터 시작해, 클로드 코드에 MCP를 직접 연결해 지메일 초안을 작성하고 카카오톡으로 결과를 전달하는 과정까지 타임스탬프별로 보여주는 실습 영상.",
+      "descEn": "Starts from what MCP is and how it differs from a plain API, then walks through live-connecting MCP in Claude Code to draft a Gmail email and deliver results via KakaoTalk, timestamped step by step.",
+      "channel": "레인 | AI 바이브코딩",
+      "publishedAt": "2026-09-01T00:00:00Z",
+      "addedAt": "2026-09-02T09:30:00Z"
+    },
+    {
+      "id": "vid-worldofai-claude-code-2-0-upgrade",
+      "youtubeId": "GBg_3gEtNYI",
+      "category": "tip",
+      "title": "클로드 코드 2.0 대규모 업데이트 총정리",
+      "titleEn": "Claude Code 2.0 MASSIVE Upgrade! (NEW UPDATE)",
+      "descKo": "클로드 코드 2.0에 새로 추가된 기능과 설정을 하나씩 짚어주는 업데이트 정리 영상.",
+      "descEn": "A walkthrough of the new features and settings shipped in Claude Code 2.0.",
+      "channel": "WorldofAI",
+      "publishedAt": "2026-08-29T00:00:00Z",
+      "addedAt": "2026-09-02T09:30:00Z"
+    },
     {
       "id": "vid-shinys-codex-5-hidden-features-ko",
       "youtubeId": "SkxYbqYo0UU",
@@ -24,42 +60,6 @@
       "channel": "Rainy Reaksmey",
       "publishedAt": "2026-08-29T00:00:00Z",
       "addedAt": "2026-09-01T09:30:00Z"
-    },
-    {
-      "id": "vid-danishsofi-claude-setup-guide",
-      "youtubeId": "QSI5enHzMQM",
-      "category": "tip",
-      "title": "클로드 데스크톱 + 클로드 코드 무료 완전 설치 가이드 (2026년 8월 업데이트)",
-      "titleEn": "FREE Claude Desktop + Claude Code — Complete Setup Guide (Updated Aug 2026)",
-      "descKo": "2026년 8월 기준으로 갱신된 클로드 데스크톱과 클로드 코드 설치·연동 과정을 처음부터 끝까지 짚어주는 설정 가이드 영상.",
-      "descEn": "An up-to-date (August 2026) walkthrough covering the full install and setup process for both Claude Desktop and Claude Code, start to finish.",
-      "channel": "Danish Sofi",
-      "publishedAt": "2026-08-24T00:00:00Z",
-      "addedAt": "2026-08-26T23:08:15Z"
-    },
-    {
-      "id": "vid-vizensoft-claude-code-august-update-ko",
-      "youtubeId": "9VIEBKSB98Y",
-      "category": "tip",
-      "title": "클로드 코드 8월 업데이트 5가지 — 자동 모드부터 /design까지",
-      "titleEn": "5 Claude Code August Updates — From Default Auto Mode to /design",
-      "descKo": "8월 14일부터 자동 모드가 기본으로 전환된 것부터 코드 내 디자인 시안을 만들어주는 /design 명령어, v2.1.234의 자동 이어쓰기, 8월 31일까지인 주간 사용 한도 50% 증가까지 구체적 버전·날짜를 짚어주는 업데이트 정리 영상.",
-      "descEn": "A rundown of 5 concrete Claude Code changes since August 14 — auto mode switching on by default, a new /design command for in-code design mockups, v2.1.234's auto-continue, and the 50% weekly limit boost running through August 31.",
-      "channel": "VIZENSOFT",
-      "publishedAt": "2026-08-22T00:00:00Z",
-      "addedAt": "2026-08-25T23:15:29Z"
-    },
-    {
-      "id": "vid-techbridge-claude-code-token-waste-ko",
-      "youtubeId": "-QwaaSwQIhE",
-      "category": "tip",
-      "title": "앤트로픽이 직접 밝힌 클로드 코드 토큰 낭비 막는 6가지 방법",
-      "titleEn": "Anthropic's Own 6 Methods to Stop Wasting Claude Code Tokens",
-      "descKo": "앤트로픽 공식 가이드를 바탕으로 /clear·/compact 주기적 사용, /context·/memory로 불필요한 MCP 정리, 세션 중 모델 변경 금지(캐시 만료 방지), 시끄러운 CLI 명령은 Haiku 서브에이전트로 분리하는 등 실전 토큰 절약법 6가지를 정리한 한영자막 영상.",
-      "descEn": "Based on Anthropic's official guidance, this video covers 6 practical token-saving techniques: regularly using /clear and /compact, pruning unneeded MCPs via /context and /memory, avoiding mid-session model switches (which expire the cache), and offloading noisy CLI commands to a Haiku subagent.",
-      "channel": "Tech Bridge",
-      "publishedAt": "2026-08-19T00:00:00Z",
-      "addedAt": "2026-08-25T23:15:29Z"
     },
     {
       "id": "vid-sourcecompiler-claude-code-untold-story",
@@ -86,30 +86,6 @@
       "addedAt": "2026-09-01T09:30:00Z"
     },
     {
-      "id": "vid-jocoding-musinsa-codex-usecase-ko",
-      "youtubeId": "6-bmczPW5n0",
-      "category": "usecase",
-      "title": "무신사는 코덱스를 어떻게 쓰고 있을까 — OpenAI x 조코딩 대담",
-      "titleEn": "How Does Musinsa Use Codex? — OpenAI x JoCoding Interview",
-      "descKo": "이커머스 기업 무신사의 기술 리더가 실제 업무에 코덱스를 어떻게 도입해 쓰고 있는지, AI 채용 이야기까지 다루는 OpenAI·조코딩 공동 주최 인터뷰 영상.",
-      "descEn": "An interview co-hosted by OpenAI and JoCoding where Musinsa's tech lead explains how the e-commerce company actually uses Codex in production, plus how AI is changing their hiring.",
-      "channel": "조코딩 JoCoding",
-      "publishedAt": "2026-08-18T00:00:00Z",
-      "addedAt": "2026-08-24T23:10:08Z"
-    },
-    {
-      "id": "vid-deno-agent-orchestration-video-pipeline-ko",
-      "youtubeId": "guq_bjGwzdw",
-      "category": "usecase",
-      "title": "AI 에이전트로 영상 제작 파이프라인 구축하기 — 코덱스·클로드 코드를 오케스트레이터로",
-      "titleEn": "Building a Video Production Pipeline with AI Agents — Using Codex & Claude Code as Orchestrators",
-      "descKo": "코덱스와 클로드 코드를 단순 챗봇이 아니라 창작 파이프라인의 오케스트레이터로 써서, ComfyUI 오류 해결·생성 모델 호출·자막 교정·썸네일 제작·텔레그램 결과 전달까지 자연어 지시와 AGENTS.md/CLAUDE.md로 반복 가능하게 만드는 실전 사례.",
-      "descEn": "A concrete demo of using Codex and Claude Code not as chatbots but as orchestrators for a creative pipeline — fixing ComfyUI errors, calling multiple generative models, correcting subtitles, making thumbnails, and delivering results via Telegram, all made repeatable through natural-language instructions and AGENTS.md/CLAUDE.md.",
-      "channel": "Deno",
-      "publishedAt": "2026-08-20T00:00:00Z",
-      "addedAt": "2026-08-21T23:08:14Z"
-    },
-    {
       "id": "vid-pragmatic-vibecoding-security-breach-ko",
       "youtubeId": "sxKIjaMyBlg",
       "category": "usecase",
@@ -122,16 +98,28 @@
       "addedAt": "2026-08-23T23:22:13Z"
     },
     {
-      "id": "vid-yoonjadong-vibecoding-real-work-ko",
-      "youtubeId": "eXswS4_5dgQ",
+      "id": "vid-pouyaeti-fable-5-1-real-test",
+      "youtubeId": "hCIi_7rDPD4",
       "category": "usecase",
-      "title": "엉클잡스 & 현업 개발자 초대석, 바이브코딩 실무에선 진짜? — 윤자동 라이브",
-      "titleEn": "Uncle Jobs & Working Developers Roundtable: Does Vibe Coding Actually Work at Companies? — 윤자동 Live",
-      "descKo": "논코더 크리에이터와 현업 개발자들이 함께 나와 바이브 코딩이 실제 회사 업무에서 통하는지, 어떤 제품을 실제로 만들었는지 라이브로 토론하는 인터뷰 영상.",
-      "descEn": "A live interview/roundtable where a non-coder creator and working developers discuss whether vibe coding actually holds up in real company work, with concrete examples of products they've shipped.",
-      "channel": "윤자동",
+      "title": "클로드 페이블 5.1 실제 테스트 — 어려운 프로젝트 2개로 성능·비용 검증",
+      "titleEn": "Claude Fable 5.1 Just Dropped: I Tested It on 2 Hard Projects And It's 2x Better for Half the Price",
+      "descKo": "출시 직후 클로드 페이블 5.1을 어려운 프로젝트 2개에 직접 투입해 이전 모델 대비 성능과 비용을 비교 테스트한 실사용 영상.",
+      "descEn": "Puts freshly-released Claude Fable 5.1 through two hard real projects right after launch, comparing performance and cost against the prior model.",
+      "channel": "Pouya Eti",
+      "publishedAt": "2026-09-01T00:00:00Z",
+      "addedAt": "2026-09-02T09:30:00Z"
+    },
+    {
+      "id": "vid-techwithtim-codex-vs-claude-honest",
+      "youtubeId": "sbuwHi1Sz6k",
+      "category": "usecase",
+      "title": "코덱스 vs 클로드, 솔직한 실전 비교",
+      "titleEn": "Codex vs Claude - an Honest Comparison",
+      "descKo": "실제 코딩 작업을 코덱스와 클로드 코드 양쪽에 똑같이 시켜보고 언제 어떤 도구를 쓰는 게 유리한지 솔직하게 짚어주는 비교 영상.",
+      "descEn": "Runs the same real coding tasks through both Codex and Claude Code and gives an honest verdict on when each tool actually wins.",
+      "channel": "Tech With Tim",
       "publishedAt": "2026-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T23:14:13Z"
+      "addedAt": "2026-09-02T09:30:00Z"
     },
     {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",
@@ -179,6 +167,18 @@
       "descEn": "A beginner full course combining Antigravity and Claude Code, covering everything from folder setup through design, development, deployment, and a KakaoTalk notification system.",
       "channel": "윤자동",
       "addedAt": "2026-08-28T23:09:27Z"
+    },
+    {
+      "id": "vid-techwithtim-ai-agents-pure-python-course",
+      "youtubeId": "c9AnqCeyxbI",
+      "category": "lecture",
+      "title": "프레임워크 없이 순수 파이썬으로 AI 에이전트 만들기 — 입문 강의",
+      "titleEn": "Building AI Agents in Pure Python - Beginner Course",
+      "descKo": "랭체인 같은 프레임워크 없이 순수 파이썬 코드만으로 AI 에이전트를 처음부터 만들어보는 입문자용 풀코스 강의.",
+      "descEn": "A full beginner course building AI agents completely from scratch in pure Python, with no framework like LangChain involved.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-08-30T00:00:00Z",
+      "addedAt": "2026-09-02T09:30:00Z"
     }
   ]
 }
