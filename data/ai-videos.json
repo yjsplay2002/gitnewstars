@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T09:30:00Z",
+  "generatedAt": "2026-09-02T23:16:03Z",
   "videos": [
     {
       "id": "vid-successknowledge-claude-codex-20x-pricing-ko",
@@ -38,18 +38,6 @@
       "addedAt": "2026-09-02T09:30:00Z"
     },
     {
-      "id": "vid-shinys-codex-5-hidden-features-ko",
-      "youtubeId": "SkxYbqYo0UU",
-      "category": "tip",
-      "title": "99%가 모르는 코덱스 핵심 기능 5가지 — 8분 총정리",
-      "titleEn": "5 Codex Features 99% of Users Don't Know — An 8-Minute Rundown",
-      "descKo": "챗GPT 코덱스에 숨어 있는 잘 안 알려진 핵심 기능 5가지를 8분 안에 빠르게 훑어주는 영상.",
-      "descEn": "A fast 8-minute rundown of 5 lesser-known core features hidden inside ChatGPT Codex.",
-      "channel": "신영선의 AI탐구",
-      "publishedAt": "2026-08-24T00:00:00Z",
-      "addedAt": "2026-09-01T09:30:00Z"
-    },
-    {
       "id": "vid-rainyreaksmey-claude-codex-copilot-2026",
       "youtubeId": "SoP2H4iKpWA",
       "category": "tip",
@@ -62,16 +50,28 @@
       "addedAt": "2026-09-01T09:30:00Z"
     },
     {
-      "id": "vid-sourcecompiler-claude-code-untold-story",
-      "youtubeId": "u6Fb6YinRMo",
-      "category": "usecase",
-      "title": "클로드 코드의 알려지지 않은 이야기 — 1000억 달러짜리 코딩 에이전트가 되기까지",
-      "titleEn": "The Untold Story of Claude Code (The 100-Billion-Dollar Coding Agent)",
-      "descKo": "클로드 코드가 어떻게 지금의 위치에 오르게 됐는지, 기술 스토리텔링 전문 채널이 그 뒷이야기를 깊이 파헤치는 다큐멘터리 형식 영상.",
-      "descEn": "A deep, narrative dive from a channel known for technical storytelling into how Claude Code rose to its current position.",
-      "channel": "Source Compiler",
-      "publishedAt": "2026-08-25T00:00:00Z",
-      "addedAt": "2026-09-01T09:30:00Z"
+      "id": "vid-evanmaker-boris-cherny-claude-tips-ko",
+      "youtubeId": "2WJzwwvzbBQ",
+      "category": "tip",
+      "title": "클로드코드 직접 만든 사람이 공개한 사용법, 저도 충격받았습니다",
+      "titleEn": "Claude Code's Creator Revealed How He Actually Uses It",
+      "descKo": "클로드 코드 총책임자 Boris Cherny의 실사용법(창 5개 동시 실행, 계획 우선, 자기검증) 5가지와 제작자만 아는 추가 팁 5가지를 정리한 영상.",
+      "descEn": "Breaks down Claude Code lead Boris Cherny's real workflow (5 parallel windows, plan-first, self-verification) plus 5 more insider tips.",
+      "channel": "메이커 에반 | Maker Evan",
+      "publishedAt": "2026-02-26T00:00:00Z",
+      "addedAt": "2026-09-02T23:16:03Z"
+    },
+    {
+      "id": "vid-proflead-gemini-cli-tips",
+      "youtubeId": "AGzN2dXroNg",
+      "category": "tip",
+      "title": "제미나이 CLI 실전 팁 10가지",
+      "titleEn": "10 Gemini CLI Pro Tips Every Coder Should Know!",
+      "descKo": "제미나이 CLI를 쓰는 개발자라면 알아야 할 실전 팁 10가지를 빠르게 훑어주는 영상.",
+      "descEn": "A rundown of 10 practical Gemini CLI tips every developer using it should know.",
+      "channel": "proflead",
+      "publishedAt": "2025-11-04T00:00:00Z",
+      "addedAt": "2026-09-02T23:16:03Z"
     },
     {
       "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
@@ -110,16 +110,16 @@
       "addedAt": "2026-09-02T09:30:00Z"
     },
     {
-      "id": "vid-techwithtim-codex-vs-claude-honest",
-      "youtubeId": "sbuwHi1Sz6k",
+      "id": "vid-builderjosh-codex-verify-best-ko",
+      "youtubeId": "ZDfNfEGo7Fc",
       "category": "usecase",
-      "title": "코덱스 vs 클로드, 솔직한 실전 비교",
-      "titleEn": "Codex vs Claude - an Honest Comparison",
-      "descKo": "실제 코딩 작업을 코덱스와 클로드 코드 양쪽에 똑같이 시켜보고 언제 어떤 도구를 쓰는 게 유리한지 솔직하게 짚어주는 비교 영상.",
-      "descEn": "Runs the same real coding tasks through both Codex and Claude Code and gives an honest verdict on when each tool actually wins.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-08-27T00:00:00Z",
-      "addedAt": "2026-09-02T09:30:00Z"
+      "title": "Codex가 최고라는 소문 직접 검증합니다, 세팅부터 실전 앱 개발까지",
+      "titleEn": "Verifying If Codex Is Really the Best — From Setup to Real App Build",
+      "descKo": "Codex CLI 설치부터 YOLO 모드 설정까지 짚어준 뒤, 사내 휴가 ERP 시스템과 실시간 회의록 앱을 직접 만들어보는 라이브 실전 영상.",
+      "descEn": "A live walkthrough setting up Codex CLI (including YOLO mode), then building a real vacation-request ERP system and a live meeting-transcription app.",
+      "channel": "빌더 조쉬 | Builder Josh",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "addedAt": "2026-09-02T23:16:03Z"
     },
     {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",
@@ -146,16 +146,16 @@
       "addedAt": "2026-08-27T23:14:13Z"
     },
     {
-      "id": "vid-chaseai-claude-code-1000-hours",
-      "youtubeId": "U6k4MeVks_Y",
+      "id": "vid-sihyunadventure-claude-code-2hr-course-ko",
+      "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
-      "title": "50분에 클로드 코드 1000시간 치 노하우 압축 — 초급·중급·고급 3단 구성",
-      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
-      "descKo": "1000시간 넘게 쌓인 클로드 코드 학습 내용을 50분 안에 초급(0:27)·중급(14:26)·고급(30:30) 3단계로 압축해 순서대로 짚어주는 강의 영상.",
-      "descEn": "Condenses 1000+ hours of Claude Code lessons into a 50-minute walkthrough split into three timestamped levels: beginner (0:27), intermediate (14:26), and advanced (30:30).",
-      "channel": "Chase AI",
-      "publishedAt": "2026-08-11T00:00:00Z",
-      "addedAt": "2026-08-29T23:09:19Z"
+      "title": "[2시간 풀버전] 클로드코드 풀코스 — AI를 잘 쓰는 방법",
+      "titleEn": "[2hr Full Version] Claude Code Full Course — How to Use AI Well",
+      "descKo": "비개발자도 따라올 수 있는 클로드 코드 완전 강의. 동작 원리부터 스킬·에이전트·MCP/API 연동, '하네스' 개념까지 2시간에 걸쳐 순서대로 설명.",
+      "descEn": "A full 2-hour beginner-friendly course on Claude Code covering how it works, skills, agents, MCP/API integration, and the 'harness' concept.",
+      "channel": "시현의 모험 | Sihyun Adventure",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "addedAt": "2026-09-02T23:16:03Z"
     },
     {
       "id": "vid-yoonjadong-vibecoding-full-course-ko",
