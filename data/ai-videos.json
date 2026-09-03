@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-09-02T23:16:03Z",
+  "generatedAt": "2026-09-03T23:20:00Z",
   "videos": [
+    {
+      "id": "vid-gregbaugues-claude-code-47-tips",
+      "youtubeId": "TiNpzxoBPz0",
+      "category": "tip",
+      "title": "클로드 코드 9분 만에 프로 팁 47개",
+      "titleEn": "Claude Code - 47 PRO TIPS in 9 minutes",
+      "descKo": "그렉 보게스가 9분 동안 클로드 코드 실전 팁 47개를 빠르게 훑어주는 영상.",
+      "descEn": "Greg Baugues races through 47 practical Claude Code tips in just 9 minutes.",
+      "channel": "Greg Baugues",
+      "addedAt": "2026-09-03T23:20:00Z"
+    },
     {
       "id": "vid-successknowledge-claude-codex-20x-pricing-ko",
       "youtubeId": "Awkx8vleGn8",
@@ -62,16 +73,16 @@
       "addedAt": "2026-09-02T23:16:03Z"
     },
     {
-      "id": "vid-proflead-gemini-cli-tips",
-      "youtubeId": "AGzN2dXroNg",
-      "category": "tip",
-      "title": "제미나이 CLI 실전 팁 10가지",
-      "titleEn": "10 Gemini CLI Pro Tips Every Coder Should Know!",
-      "descKo": "제미나이 CLI를 쓰는 개발자라면 알아야 할 실전 팁 10가지를 빠르게 훑어주는 영상.",
-      "descEn": "A rundown of 10 practical Gemini CLI tips every developer using it should know.",
-      "channel": "proflead",
-      "publishedAt": "2025-11-04T00:00:00Z",
-      "addedAt": "2026-09-02T23:16:03Z"
+      "id": "vid-gaebaldongsaeng-codex-guide-2026-ko",
+      "youtubeId": "Z3z93bKMh_I",
+      "category": "usecase",
+      "title": "코덱스 완벽 가이드 2026 — 지금은 코덱스가 최강",
+      "titleEn": "The Complete Codex Guide 2026 — Codex Might Be the Strongest Right Now",
+      "descKo": "오픈AI 코덱스 CLI의 핵심 기능을 짚어주며 왜 지금 코덱스가 가장 강력한 선택인지 설명하는 한국어 가이드 영상.",
+      "descEn": "A Korean-language guide walking through OpenAI Codex CLI's core features and making the case for why Codex is the strongest choice right now.",
+      "channel": "개발동생",
+      "publishedAt": "2026-04-25T00:00:00Z",
+      "addedAt": "2026-09-03T23:20:00Z"
     },
     {
       "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
@@ -110,18 +121,6 @@
       "addedAt": "2026-09-02T09:30:00Z"
     },
     {
-      "id": "vid-builderjosh-codex-verify-best-ko",
-      "youtubeId": "ZDfNfEGo7Fc",
-      "category": "usecase",
-      "title": "Codex가 최고라는 소문 직접 검증합니다, 세팅부터 실전 앱 개발까지",
-      "titleEn": "Verifying If Codex Is Really the Best — From Setup to Real App Build",
-      "descKo": "Codex CLI 설치부터 YOLO 모드 설정까지 짚어준 뒤, 사내 휴가 ERP 시스템과 실시간 회의록 앱을 직접 만들어보는 라이브 실전 영상.",
-      "descEn": "A live walkthrough setting up Codex CLI (including YOLO mode), then building a real vacation-request ERP system and a live meeting-transcription app.",
-      "channel": "빌더 조쉬 | Builder Josh",
-      "publishedAt": "2026-05-20T00:00:00Z",
-      "addedAt": "2026-09-02T23:16:03Z"
-    },
-    {
       "id": "vid-darrelwilson-vibecoding-beginners-guide",
       "youtubeId": "x8WUtEv1YEg",
       "category": "lecture",
@@ -131,18 +130,6 @@
       "descEn": "A structured beginner course teaching vibe coding from scratch — building a first working website or app using AI with no code required.",
       "channel": "Darrel Wilson",
       "publishedAt": "2026-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T23:14:13Z"
-    },
-    {
-      "id": "vid-aiworkauto-claude-allinone-20min-ko",
-      "youtubeId": "58YFu8s2I8w",
-      "category": "lecture",
-      "title": "2026 클로드 올인원 무료 강의 — AI 업무자동화 20분 총정리",
-      "titleEn": "2026 Claude All-in-One Free Course — 20-Minute AI Work Automation Rundown",
-      "descKo": "클로드 챗·프로젝트·아티팩트·코워크·클로드 코드·스킬·커넥터까지 실제 업무 보고서 예시로 20분 만에 훑어주는 무료 올인원 강의.",
-      "descEn": "A free 20-minute all-in-one course covering Claude Chat, Projects, Artifacts, Cowork, Claude Code, Skills, and Connectors, walked through with a real work-report example.",
-      "channel": "일반인을 위한 AI 업무자동화 가이드",
-      "publishedAt": "2026-08-25T00:00:00Z",
       "addedAt": "2026-08-27T23:14:13Z"
     },
     {
@@ -158,15 +145,26 @@
       "addedAt": "2026-09-02T23:16:03Z"
     },
     {
-      "id": "vid-yoonjadong-vibecoding-full-course-ko",
-      "youtubeId": "5MOjn8V84i8",
+      "id": "vid-zzikbot-claude-allinone-1hr-ko",
+      "youtubeId": "If_U_zmXWYo",
       "category": "lecture",
-      "title": "초보자를 위한 클로드코드 바이브코딩 풀코스 — 디자인부터 배포, 알림톡까지",
-      "titleEn": "The Complete Beginner's Vibe-Coding Course With Claude Code — Design to Deployment and Notifications",
-      "descKo": "안티그래비티와 클로드 코드를 결합해 폴더 설정부터 디자인·개발·배포·알림톡 연동까지 처음부터 끝까지 다루는 초보자용 풀코스.",
-      "descEn": "A beginner full course combining Antigravity and Claude Code, covering everything from folder setup through design, development, deployment, and a KakaoTalk notification system.",
-      "channel": "윤자동",
-      "addedAt": "2026-08-28T23:09:27Z"
+      "title": "2026년 클로드 1시간 올인원 강의",
+      "titleEn": "2026 Claude All-in-One 1-Hour Course",
+      "descKo": "클로드 코드 기초부터 영상 제작 자동화, 옵시디언 메모 자동화, 클로드 디자인·코워크·스킬·엑셀 활용까지 1시간에 훑는 강의.",
+      "descEn": "A 1-hour course covering Claude Code basics through video-production automation, Obsidian note automation, and Claude Design/Cowork/Skills/Excel usage.",
+      "channel": "찍봇",
+      "addedAt": "2026-09-03T23:20:00Z"
+    },
+    {
+      "id": "vid-chaseai-claude-code-50min-guide",
+      "youtubeId": "U6k4MeVks_Y",
+      "category": "lecture",
+      "title": "50분에 담은 클로드 코드 1000시간 분량 지식",
+      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
+      "descKo": "50분 안에 클로드 코드를 제대로 다루는 법을 압축해서 알려주는 2026년 종합 가이드 영상.",
+      "descEn": "A 2026 guide compressing over 1,000 hours of Claude Code know-how into a single 50-minute video.",
+      "channel": "Chase AI",
+      "addedAt": "2026-09-03T23:20:00Z"
     },
     {
       "id": "vid-techwithtim-ai-agents-pure-python-course",

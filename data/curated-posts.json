@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-09-02T23:16:03Z",
+  "generatedAt": "2026-09-03T23:20:00Z",
   "posts": [
+    {
+      "id": "curated-20260904-armature-agent-tool-choice",
+      "title": "클로드·코덱스·커서, 실제 어떤 서드파티 도구를 고를까 — 1만 7천 세션 실측, HN 49점",
+      "body": "Armature가 클로드 코드·코덱스·커서 세 에이전트에 프롬프트 변형 1,163개를 75개 저장소에 돌려 세션 16,893건(유효 분석 5,292건)을 모았습니다. 코덱스는 94% 세션에서 웹 검색을 쓰는 반면 클로드 코드는 30%만 검색하고 내장 지식에 주로 의존하며, 세 에이전트가 같은 도구를 고른 경우는 42%뿐이었습니다. 결제는 스트라이프가 10건 중 9건을 차지했지만 페이팔은 139번 언급되고도 한 번도 선택되지 않았고, 랭체인도 194번 언급됐지만 실제 채택은 4번뿐이었습니다.",
+      "titleEn": "Which Tools Do Claude, Codex, and Cursor Actually Pick? — 17K Sessions Measured, 49 Points on HN",
+      "bodyEn": "Armature ran 1,163 prompt variations across 75 repos through Claude Code, Codex, and Cursor, producing 16,893 sessions (5,292 valid for analysis). Codex used web search in 94% of sessions while Claude Code relied mostly on built-in knowledge, searching only 30% of the time; all three agents agreed on the same tool in just 42% of cases. Stripe won 9 of 10 payment decisions, while PayPal was mentioned 139 times but never chosen, and LangChain was mentioned 194 times but picked only 4 times.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://armature.tech/blog/which-tools-coding-agents-install",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-03T21:20:34Z",
+      "curatedAt": "2026-09-03T23:20:00Z"
+    },
+    {
+      "id": "curated-20260904-babylonian-twins-amiga-godot",
+      "title": "1993년 아미가 게임을 클로드가 68000 어셈블리까지 읽어 갓엔진으로 이식 — HN 157점",
+      "body": "개발자 라바 시하브가 바그다드에서 만든 1993년 아미가 게임 'Babylonian Twins'를 클로드 코드(클로드 페이블5)로 갓엔진4에 이식한 과정입니다. 클로드는 파일시스템·터미널 권한으로 vasm 어셈블러를 직접 돌리고 바이너리를 diff하며, 주석 하나 없는 72,758줄짜리 68000 어셈블리 코드를 분석해 원본과 바이트 단위로 동일한 바이너리를 재현했습니다. C++ 이식은 21분 만에 캐릭터가 움직였고 어셈블리 재구축은 15분 만에 원본과 일치하는 부팅에 성공했으며, 15년 넘게 아무도 못 찾은 실제 버그(바닥을 뚫는 경비병 충돌 판정)까지 찾아냈습니다.",
+      "titleEn": "Claude Read 68000 Assembly to Port a 1993 Amiga Game to Godot — 157 Points on HN",
+      "bodyEn": "Developer Rabah Shihab used Claude Code (Claude Fable 5) to port his 1993 Amiga game 'Babylonian Twins,' originally built in Baghdad, to Godot 4. Given filesystem and terminal access, Claude ran the vasm assembler directly, diffed binaries, and reverse-engineered an uncommented 72,758-line 68000 assembly codebase to reproduce the original binary byte-for-byte. The C++ port had a moving character in 21 minutes, the assembly rebuild booted a binary matching the original in 15 minutes, and the process even surfaced a real bug (a guard's collision box extending through the floor) that had gone unnoticed for over 15 years.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-03T14:28:18Z",
+      "curatedAt": "2026-09-03T23:20:00Z"
+    },
+    {
+      "id": "curated-20260904-ai-design-system-docs-ko",
+      "title": "AI에게 디자인 시스템을 줘도 왜 브랜드와 다르게 그릴까 — '단어장만 주고 문법은 안 가르친 격'",
+      "body": "요즘IT에 실린 김태길의 글은 AI 코딩 도구에 디자인 시스템(토큰화된 컴포넌트)을 넘겨줘도 결과물이 회사 가이드라인과 어긋나는 이유를 짚습니다. 사람은 암묵적 맥락으로 디자인 시스템을 이해하지만 AI는 컴포넌트 사용 규칙·에러 상태·상호작용 패턴·맥락적 제약까지 명시적으로 문서화해야 제대로 따라간다는 것이 핵심입니다. 이런 문서화 작업은 몇 주에서 몇 달까지 걸리는 반복적 피드백 루프가 필요하지만, AI용으로 만든 상세 문서가 결국 온보딩·디자인 리뷰 등 사람에게도 그대로 도움이 된다는 점을 강조합니다.",
+      "titleEn": "Why Does AI Draw Off-Brand Even With Your Design System? — 'Like a Vocabulary List Without Grammar'",
+      "bodyEn": "Published on 요즘IT, Kim Tae-gil's piece explains why AI coding tools produce off-brand designs even when handed a design system of tokenized components. The core issue: humans understand design systems through implicit context, but AI needs explicit documentation of component usage rules, error states, interaction patterns, and contextual constraints to follow them correctly. Building that documentation takes an iterative feedback loop spanning weeks to months, but the payoff is that the same detailed docs written for AI end up helping human teams too — better onboarding and design reviews, with gaps in the existing system exposed along the way.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3925/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-03T00:00:00Z",
+      "curatedAt": "2026-09-03T23:20:00Z"
+    },
+    {
+      "id": "curated-20260904-github-copilot-cost-efficiency",
+      "title": "짧게 줄인 도구 응답이 오히려 비용을 늘렸다 — 깃허브가 찾은 코딩 에이전트 비용 최적화 4가지",
+      "body": "깃허브 엔지니어링 블로그는 코파일럿 에이전트의 도구 응답을 무조건 짧게 압축하면 에이전트가 빠진 정보를 되찾으려 재호출을 반복해 오히려 총비용이 늘어난다는 사실을 발견했습니다. 대신 소스코드·명령 출력은 그대로 두고 설치·빌드 로그처럼 예측 가능한 반복 노이즈만 압축하는 '선택적 압축'으로 5.5%, 더 이상 쓰이지 않는 파일 뷰어의 줄번호 프리픽스를 제거해 3.1%, 회귀 테스트를 먼저 갖춘 뒤 프롬프트를 절반으로 줄이는 메타프롬프팅으로 턴당 약 1,300토큰(2.9%), 백그라운드 작업 결과를 별도 조회 턴 없이 바로 전달해 2.3%까지, 네 가지 구체적 기법으로 비용을 줄였습니다. 결론은 '개별 도구 호출이 아니라 완료된 작업 전체를 최적화하라'는 것입니다.",
+      "titleEn": "Shorter Tool Outputs Made Coding Agents More Expensive — GitHub's 4 Real Cost-Cutting Techniques",
+      "bodyEn": "GitHub's engineering blog found that blindly compressing Copilot agent tool outputs backfires: agents re-open compressed results or rerun commands to recover missing details, adding turns and raising total cost. Instead, they cut costs with four targeted techniques: 'selective compression' that leaves source code and command output untouched but compresses predictable noise like install/build logs (5.5% savings), removing unused line-number prefixes from the file-viewing tool (3.1%), meta-prompting to halve a tool prompt only after adding regression tests — saving about 1,300 tokens per turn (2.9%), and delivering finished background-task results directly instead of requiring a separate fetch turn (2.3%). Their conclusion: 'optimize the completed task, not the tool call.'",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-03T00:00:00Z",
+      "curatedAt": "2026-09-03T23:20:00Z"
+    },
     {
       "id": "curated-20260903-codex-app-libreoffice-bundle",
       "title": "코덱스 데스크톱 앱을 뜯어보니 LibreOffice가 통째로 들어있었다 — 사이먼 윌리슨 실험, HN 479점",
@@ -38,19 +90,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-31T00:00:00Z",
-      "curatedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "curated-20260903-uber-agent-cost-efficiency",
-      "title": "에이전트 사용자 7배 늘었는데 지출은 그대로 — 우버가 비용을 34% 줄인 3가지 기법",
-      "body": "우버 엔지니어링 블로그에 따르면 2026년 2월부터 8월 사이 사내 코딩 에이전트 사용자는 7배, 요청량은 9.4배 늘었지만 전체 지출은 안정적으로 유지됐습니다. 같은 모델을 쓰면서도 요청 1000건당 비용을 34%, 세션당 비용을 52% 줄였는데, 핵심은 프롬프트 캐싱(캐시 읽기 비용을 정가의 0.1배로), 자주 쓰는 쿼리를 묶어 처리하는 '코드모드 배칭'(토큰 50~71% 절감), 컨텍스트 그래프 연동 세 가지였습니다. 조직 전체로 에이전트를 확산시키면서도 비용을 통제하려는 팀에 바로 참고할 만한 구체적 수치입니다.",
-      "titleEn": "Agent Users Grew 7x, Spend Stayed Flat — the 3 Techniques Uber Used to Cut Costs 34%",
-      "bodyEn": "According to Uber's engineering blog, internal coding-agent users grew 7x and requests grew 9.4x between February and August 2026, yet total spend stayed stable. Using the same underlying model, Uber cut cost per 1,000 requests by 34% and cost per session by 52% through three techniques: prompt caching (cache reads at 0.1x the normal rate), \"code-mode batching\" of common queries (50-71% token savings), and context-graph integration. Concrete numbers any team scaling agent adoption org-wide while trying to control cost can borrow directly.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://www.uber.com/en/blog/efficient-software-factory/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-27T00:00:00Z",
       "curatedAt": "2026-09-02T23:16:03Z"
     },
     {
@@ -210,32 +249,6 @@
       "curatedAt": "2026-08-30T23:10:39Z"
     },
     {
-      "id": "curated-20260901-origin-cli-stacked-pr-ko",
-      "title": "커서의 새 깃 포지 'Origin', 문서에도 없는 스택 PR 명령을 직접 찾아냈다",
-      "body": "커서가 8월 17일 베타로 내놓은 자체 깃 포지 Origin CLI를 쓰던 개발자 aiedwardyi가, 공식 `--help`나 문서 어디에도 안 나오는 `origin pr create --stack-on <PR번호>` 옵션을 실험으로 검증해 velog에 공개했습니다. 이 옵션을 쓰면 큰 변경사항을 부모-자식 관계로 순차 연결된 여러 PR로 쪼개는 '스택 PR'을 만들 수 있는데, 리베이스 충돌이 나면 자동 처리가 안 되므로 로컬에서 `git rebase <parent-branch>` 후 `git push --force-with-lease`로 직접 정리해야 한다는 실전 팁까지 담겨 있습니다. AI 코딩 도구가 늘면서 큰 diff를 리뷰하기 쉬운 단위로 쪼개는 워크플로우에 바로 적용할 수 있는 발견입니다.",
-      "titleEn": "Cursor's New Git Forge 'Origin' Has an Undocumented Stacked-PR Command — One Developer Found It by Testing",
-      "bodyEn": "Developer aiedwardyi, using Cursor's new Origin CLI (in beta since August 17), discovered and verified on velog an `origin pr create --stack-on <PR-number>` option that appears nowhere in the official `--help` or docs. It lets you split a large change into a chain of parent-child stacked PRs, though rebase conflicts aren't handled automatically — you have to run `git rebase <parent-branch>` locally and then `git push --force-with-lease` yourself, a concrete tip included in the writeup. A directly applicable workflow discovery for splitting large AI-generated diffs into reviewable chunks.",
-      "sourceName": "velog",
-      "sourceUrl": "https://velog.io/@aiedwardyi/cursor-origin-stacked-pr-stack-on",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-28T00:00:00Z",
-      "curatedAt": "2026-09-01T09:30:00Z"
-    },
-    {
-      "id": "curated-20260828-local-llm-secret-filter-ko",
-      "title": "AI에 코드 올리기 전, 로컬 LLM으로 민감정보부터 걸러봤다 — 3단 필터로 재현율 100%",
-      "body": "요즘IT에 공개된 이 글은 챗GPT·클로드 같은 클라우드 AI에 코드·로그를 올리기 전 민감정보를 걸러내려고 로컬 LLM 3종(gpt-oss:20b, qwen3.6:27b, gemma4:26b)을 직접 테스트한 실험을 다룹니다. 1단계 정규식(이메일·사설 IP·API 키·경로 탐지), 2단계 로컬 LLM(미공개 프로젝트명처럼 문맥에 의존하는 정보 탐지), 3단계 사람 검토로 이어지는 3단 필터를 구성해, 합성 테스트 50건 기준 정규식 단독 재현율 80%·정밀도 100%였던 것이 정규식+Gemma 조합에서 재현율 92%·정밀도 90.2%·처리시간 0.87초로 개선됐고, 사람 검토까지 더하면 재현율·정밀도 모두 100%에 도달했습니다. 저자의 결론은 '로컬 LLM은 보안 자동화 도구가 아니라 체크리스트를 보조하는 수단'이라는 것입니다.",
-      "titleEn": "Filtering Sensitive Data with a Local LLM Before You Paste Code Into AI — a 3-Layer Filter Hits 100% Recall",
-      "bodyEn": "Published on 요즘IT, this piece tests three local LLMs (gpt-oss:20b, qwen3.6:27b, gemma4:26b) as a filter to strip sensitive data out of code and logs before sending them to cloud AI like ChatGPT or Claude. The author built a 3-layer pipeline: regex (catching emails, private IPs, API keys, file paths), a local LLM (catching context-dependent info like unreleased project names), then human review. On a 50-case synthetic test set, regex alone hit 80% recall / 100% precision; adding Gemma raised recall to 92% and precision to 90.2% at 0.87 seconds per check; adding human review on top reached 100%/100%. The author's conclusion: a local LLM isn't a security-automation tool, just a checklist assistant.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3918/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-27T00:00:00Z",
-      "curatedAt": "2026-08-27T23:14:13Z"
-    },
-    {
       "id": "curated-20260825-fabiensanglard-agentmd-tips",
       "title": "코드 품질 올리는 agent.md 작성법 — 매직넘버 금지부터 커밋 규칙 7가지까지",
       "body": "개발자 파비앙 상글라르가 공개한 agent.md 가이드는 클로드 코드·코덱스 같은 코딩 에이전트에게 넣어줄 스타일 지침을 정리합니다. 불필요한 말 줄이기, 매직넘버 대신 상수 사용, 함수·변수명 30자 이내 유지, 불리언 대신 열거형(enum) 선호, 설명 주석 추가, 계층화된 아키텍처 유지, 그리고 커밋 메시지 작성 규칙 7가지까지 구체적으로 명시합니다. 저자는 이런 지침을 agent.md에 담아 매 세션 초반에 주입하면 코드 품질이 눈에 띄게 좋아지고, 세션을 짧게 유지하며 주기적으로 agent.md를 다시 불러오는 방식으로 '컨텍스트 희석' 문제도 줄일 수 있다고 말합니다. HN에서 413점을 받았습니다.",
@@ -246,19 +259,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-08-23T17:59:52Z",
-      "curatedAt": "2026-08-24T23:10:08Z"
-    },
-    {
-      "id": "curated-20260825-claude-awkward-korean-fix-ko",
-      "title": "클로드 한국어가 어색해진 이유 — 토큰 아끼려 조사·어미 생략, 오픈소스로 고치는 법",
-      "body": "요즘IT에 소개된 이 글은 최근 클로드의 한국어 출력이 어색해진 원인을 토큰 절감을 위한 조사·어미 생략으로 짚고, 해법 세 가지를 제시합니다. 개발자 snflkd가 만든 오픈소스 출력 스타일 `fluent-korean`을 클로드 코드나 개인 지침에 적용하면 자연스러운 한국어로 되돌릴 수 있고, 리보제가 쓴 무료 오픈소스 문서 \"AI 에이전트를 깊이 이해하기\" 한국어판은 에이전트를 'LLM+컨텍스트+도구(두뇌+눈+손발)'로 풀어 설명하며, 조지프 헥의 글은 AI가 개별 조각은 잘 만들수록 조각들을 잇는 '이음새 설계'가 오히려 더 어려워진다는 통찰을 전합니다.",
-      "titleEn": "Why Claude's Korean Got Awkward — It Drops Particles to Save Tokens, and How to Fix It",
-      "bodyEn": "Featured on 요즘IT, this post traces Claude's recently awkward Korean output to it dropping particles and sentence endings to save tokens, then offers three fixes. Developer snflkd's open-source output style `fluent-korean` can be applied in Claude Code or personal instructions to restore natural Korean; a free open-source Korean translation of \"Understanding AI Agents Deeply\" by Reboze explains an agent as \"LLM + context + tools\" (\"brain + eyes + limbs\"); and a piece by Joseph Heck argues that the better AI gets at building individual pieces, the harder \"seam design\" — stitching those pieces together — becomes.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3908/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-22T00:00:00Z",
       "curatedAt": "2026-08-24T23:10:08Z"
     }
   ]
