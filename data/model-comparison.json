@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "note": "SWE-bench Verified 점수는 vals.ai 리더보드(2026-07-17) + 벤더 발표 기준. 가격·컨텍스트는 OpenRouter API에서 매일 자동 갱신($/1M 토큰). 점수가 없는 신규 모델은 표에만 표시.",
   "ignoredIds": [
     "anthropic/claude-opus-4.7-fast",
@@ -1184,8 +1184,8 @@
       "or": "deepseek/deepseek-chat-v3.1",
       "vendor": "DeepSeek",
       "name": "DeepSeek V3.1",
-      "priceIn": 0.25,
-      "priceOut": 0.95,
+      "priceIn": 0.55,
+      "priceOut": 1.65,
       "context": "164K",
       "swe": null,
       "sweApprox": false,
@@ -1514,8 +1514,8 @@
       "or": "qwen/qwen3.8-27b",
       "vendor": "Qwen",
       "name": "Qwen3.8 27B",
-      "priceIn": 0.43,
-      "priceOut": 2.55,
+      "priceIn": 0.42,
+      "priceOut": 3,
       "context": "1M",
       "swe": null,
       "sweApprox": false,
