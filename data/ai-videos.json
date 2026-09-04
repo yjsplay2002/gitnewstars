@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T23:20:00Z",
+  "generatedAt": "2026-09-05T09:00:00Z",
   "videos": [
     {
       "id": "vid-gregbaugues-claude-code-47-tips",
@@ -13,16 +13,15 @@
       "addedAt": "2026-09-03T23:20:00Z"
     },
     {
-      "id": "vid-successknowledge-claude-codex-20x-pricing-ko",
-      "youtubeId": "Awkx8vleGn8",
+      "id": "vid-free-codex-guide-beginners-ko",
+      "youtubeId": "SuQGDb9U3Rc",
       "category": "tip",
-      "title": "클로드는 '20배' 요금인데 실제 사용량은 2배뿐? 코덱스와 비교해보니",
-      "titleEn": "Claude's '20x' Plan Only Gives 2x More Usage? Comparing Against Codex",
-      "descKo": "클로드 맥스 요금제의 '20배'는 5시간 한도에만 적용되고 주간 한도는 겨우 2배인 반면, 코덱스의 20X 플랜은 주간 사용량까지 실제로 20배 늘어난다는 점을 짚어주는 가격 비교 영상.",
-      "descEn": "Breaks down how Claude Max's '20x' tier only multiplies the 5-hour limit while weekly limits barely double, whereas Codex's 20X plan genuinely multiplies weekly usage by 20x — a pricing comparison video.",
-      "channel": "성공지식백과",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "addedAt": "2026-09-02T09:30:00Z"
+      "title": "챗GPT만 쓰면 손해 — '무료'로 쓰는 코덱스 2026 초보자 가이드",
+      "titleEn": "You're Losing Out Using Only ChatGPT — Free Codex 2026 Beginner's Guide",
+      "descKo": "PPT·워드·지메일·노트션 자동화까지, 코드를 몰라도 무료로 코덱스를 활용하는 법을 알려주는 입문 가이드.",
+      "descEn": "A beginner guide to using Codex for free — automating PPT, Word, Gmail, and Notion — aimed at non-coders.",
+      "publishedAt": "2026-06-21T00:00:00Z",
+      "addedAt": "2026-09-05T09:00:00Z"
     },
     {
       "id": "vid-rain-claude-code-mcp-explained-ko",
@@ -34,18 +33,6 @@
       "descEn": "Starts from what MCP is and how it differs from a plain API, then walks through live-connecting MCP in Claude Code to draft a Gmail email and deliver results via KakaoTalk, timestamped step by step.",
       "channel": "레인 | AI 바이브코딩",
       "publishedAt": "2026-09-01T00:00:00Z",
-      "addedAt": "2026-09-02T09:30:00Z"
-    },
-    {
-      "id": "vid-worldofai-claude-code-2-0-upgrade",
-      "youtubeId": "GBg_3gEtNYI",
-      "category": "tip",
-      "title": "클로드 코드 2.0 대규모 업데이트 총정리",
-      "titleEn": "Claude Code 2.0 MASSIVE Upgrade! (NEW UPDATE)",
-      "descKo": "클로드 코드 2.0에 새로 추가된 기능과 설정을 하나씩 짚어주는 업데이트 정리 영상.",
-      "descEn": "A walkthrough of the new features and settings shipped in Claude Code 2.0.",
-      "channel": "WorldofAI",
-      "publishedAt": "2026-08-29T00:00:00Z",
       "addedAt": "2026-09-02T09:30:00Z"
     },
     {
@@ -177,6 +164,17 @@
       "channel": "Tech With Tim",
       "publishedAt": "2026-08-30T00:00:00Z",
       "addedAt": "2026-09-02T09:30:00Z"
+    },
+    {
+      "id": "vid-multiagent-orchestration-enterprise-2026",
+      "youtubeId": "m_pB9RhJ8jU",
+      "category": "lecture",
+      "title": "AI 에이전트·멀티 에이전트 오케스트레이션 — 엔터프라이즈 2026",
+      "titleEn": "AI Agents & Multi-Agent Systems: Enterprise Orchestration 2026",
+      "descKo": "여러 AI 에이전트를 조율하는 멀티 에이전트 오케스트레이션 패턴과 기업 도입 시 ROI를 다루는 강의.",
+      "descEn": "A lecture covering multi-agent orchestration patterns and enterprise ROI for coordinating multiple AI agents.",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "addedAt": "2026-09-05T09:00:00Z"
     }
   ]
 }

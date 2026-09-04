@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-09-03T23:20:00Z",
+  "generatedAt": "2026-09-05T09:00:00Z",
   "posts": [
+    {
+      "id": "curated-20260905-claude-code-stock-report-harness-ko",
+      "title": "클로드 코드로 주식 리포트 자동 생성 — Planner-Generator-Evaluator 6단계 하네스, 리뷰어 3~5명이 최적",
+      "body": "요즘IT에 실린 실전기는 클로드 코드 위에 Planner-Generator-Evaluator 6단계 하네스를 짜서 뉴스 100건을 수집해 5건으로 요약하고 주식 분석 리포트를 자동 생성한 과정을 다룹니다. 리뷰어를 3~5명으로 뒀을 때가 최적이고 6~8명을 넘기면 오히려 품질이 떨어졌으며, 리비전은 최대 3라운드로 제한했습니다. 위험한 명령 차단, 금융 조언 문구 자동 방지 등 8개 훅 기반 안전장치를 넣어 실제 서비스에 쓸 수 있는 수준으로 다듬었습니다.",
+      "titleEn": "Auto-Generating Stock Reports With Claude Code — a 6-Stage Planner-Generator-Evaluator Harness, 3-5 Reviewers Is the Sweet Spot",
+      "bodyEn": "Published on 요즘IT, this writeup details building a 6-stage Planner-Generator-Evaluator harness on top of Claude Code that collects 100 news items, condenses them to 5, and auto-generates a stock analysis report. The author found 3-5 reviewers was the sweet spot — going to 6-8 actually hurt quality — and capped revisions at 3 rounds. Eight hook-based safeguards (blocking dangerous commands, auto-preventing financial-advice language) were added to make it production-ready.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3930/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-04T00:00:00Z",
+      "curatedAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "curated-20260905-ai-10x-org-speed-ko",
+      "title": "AI로 코딩이 10배 빨라졌는데, 조직 출시 속도는 왜 그대로일까 — 베세머 리서치가 짚은 병목",
+      "body": "요즘IT가 소개한 베세머(Bessemer) 리서치에 따르면 개인 코딩 속도는 AI로 10배 이상 빨라졌지만 아이디어에서 출시까지 걸리는 조직 전체 속도는 50% 미만 개선에 그쳤습니다. 10년차 한 기업은 워크플로우를 통째로 재설계한 뒤 신규 코드의 98%를 AI가 작성하는 수준까지 끌어올렸고, 동시에 2~3개 AI 태스크를 병렬로 관리하는 방식과 테스트 자동화로 병목을 풀었다고 설명합니다.",
+      "titleEn": "Coding Got 10x Faster With AI — So Why Hasn't the Organization Sped Up? Bessemer Research Finds the Bottleneck",
+      "bodyEn": "Featured on 요즘IT, Bessemer's research found that while individual coding speed has jumped 10x+ with AI, organization-wide idea-to-ship speed improved by less than 50%. One decade-old company that redesigned its entire workflow now has AI writing 98% of new code, and unblocked the bottleneck by running 2-3 AI tasks in parallel per engineer plus automating tests.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3929/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-04T00:00:00Z",
+      "curatedAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "curated-20260905-free-ai-tools-roundup-ko",
+      "title": "회사 지원은 0원, 내 돈 쓰긴 아까울 때 — 무료 AI 도구만 골라 쓰는 법",
+      "body": "요즘IT의 이 정리글은 챗GPT·클로드·제미나이의 무료 티어부터 오픈라우터, 구글 AI 스튜디오, 로컬 실행용 올라마·LM 스튜디오, 개발용으로는 앤티그래비티 CLI·깃허브 코파일럿 프리·오픈코드, 리서치용 노트북LM·퍼플렉시티까지 용도별 무료 도구를 표로 정리했습니다. 유료 결제 없이도 코딩·리서치·문서 작업을 어떻게 나눠 쓸지 실무 배분 전략까지 제시합니다.",
+      "titleEn": "No Company AI Budget, Don't Want to Pay Yourself — a Guide to Free AI Tools Only",
+      "bodyEn": "This 요즘IT roundup tables out free tiers across ChatGPT/Claude/Gemini, OpenRouter, Google AI Studio, local options like Ollama/LM Studio, dev tools like Antigravity CLI/GitHub Copilot Free/OpenCode, and research tools like NotebookLM/Perplexity. It also lays out a practical allocation strategy for splitting coding, research, and writing work across these free tools without paying for anything.",
+      "sourceName": "요즘IT",
+      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3928/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-03T00:00:00Z",
+      "curatedAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "curated-20260905-nol-universe-ax-case-ko",
+      "title": "놀유니버스, AI 도입 후 1인당 코드량 71%↑ — 전사 AX 확산 사례",
+      "body": "비즈트리뷴이 보도한 놀유니버스(NOL Universe)의 전사 AI 전환(AX) 사례입니다. AI 도입 이후 1인당 코드 생산량이 71% 늘고 배포까지 걸리는 시간은 50% 이상 줄었으며, 코드 리뷰 승인 시간은 41% 단축, 코드 수정률은 12% 감소했습니다. 사내 포털 'NOL AX Hub'와 실시간으로 코드·DB·API를 분석해주는 'AI 어시스턴트' 등 구체적 내부 인프라를 함께 소개합니다.",
+      "titleEn": "NOL Universe: Per-Engineer Code Output Up 71% After Company-Wide AI Adoption",
+      "bodyEn": "Reported by Biztribune, this covers NOL Universe's company-wide AI transformation (AX). After adopting AI, per-engineer code output rose 71%, time-to-deploy dropped more than 50%, code-review approval time fell 41%, and the code-revision rate dropped 12%. The piece details concrete internal infrastructure behind it, including an internal portal called 'NOL AX Hub' and a real-time code/DB/API-analyzing 'AI Assistant.'",
+      "sourceName": "비즈트리뷴",
+      "sourceUrl": "https://biztribune.co.kr/news/articleView.html?idxno=358409",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-03T00:00:00Z",
+      "curatedAt": "2026-09-05T09:00:00Z"
+    },
+    {
+      "id": "curated-20260905-fable-5-1-spec-summary-ko",
+      "title": "클로드 코드 페이블 5.1 스펙 총정리 — 컨텍스트 100만 토큰, 입력 $10·출력 $50, 클로드 코드 2.1.250+ 필요",
+      "body": "티스토리 블로거 heyoonow가 9월 1일 출시된 클로드 페이블 5.1의 실무 도입 판단에 필요한 스펙을 표로 정리했습니다. 컨텍스트 윈도우 100만 토큰, 최대 출력 토큰 12만 8천, 100만 토큰당 입력 10달러·출력 50달러 가격, 페이블 5.1을 쓰려면 클로드 코드 2.1.250 이상이 필요하다는 점까지 구체적으로 짚어 오퍼스5와 무엇이 달라졌는지 한눈에 비교할 수 있게 합니다.",
+      "titleEn": "Claude Fable 5.1 Spec Rundown — 1M-Token Context, $10/$50 per 1M Tokens, Needs Claude Code 2.1.250+",
+      "bodyEn": "Tistory blogger heyoonow tables out the specs practitioners need to decide on adopting Claude Fable 5.1 (released Sep 1): a 1M-token context window, max output of 128K tokens, pricing at $10 input / $50 output per 1M tokens, and the requirement of Claude Code 2.1.250 or later to use it — giving a quick side-by-side against Opus 5.",
+      "sourceName": "tistory · heyoonow",
+      "sourceUrl": "https://heyoonow.tistory.com/293",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-02T00:00:00Z",
+      "curatedAt": "2026-09-05T09:00:00Z"
+    },
     {
       "id": "curated-20260904-armature-agent-tool-choice",
       "title": "클로드·코덱스·커서, 실제 어떤 서드파티 도구를 고를까 — 1만 7천 세션 실측, HN 49점",
@@ -54,46 +119,7 @@
       "curatedAt": "2026-09-03T23:20:00Z"
     },
     {
-      "id": "curated-20260903-codex-app-libreoffice-bundle",
-      "title": "코덱스 데스크톱 앱을 뜯어보니 LibreOffice가 통째로 들어있었다 — 사이먼 윌리슨 실험, HN 479점",
-      "body": "사이먼 윌리슨이 오픈AI 코덱스 데스크톱 앱을 분해해 문서 편집 기능을 위해 LibreOffice 전체 빌드가 그대로 번들돼 있다는 사실을 확인했습니다. 이 때문에 앱 용량이 크게 늘어난 배경과, 코딩 에이전트 데스크톱 앱들이 내부적으로 어떤 서드파티 컴포넌트를 통째로 끌어다 쓰는지 보여주는 구체적 사례입니다. HN에서 479점을 받으며 에이전트 앱 아키텍처에 관심 있는 개발자들 사이에서 화제가 됐습니다.",
-      "titleEn": "Codex Desktop App Turns Out to Bundle All of LibreOffice — Simon Willison's Teardown, 479 Points on HN",
-      "bodyEn": "Simon Willison tore down OpenAI's Codex desktop app and found it bundles a full copy of LibreOffice just to support document editing. The finding explains a chunk of the app's install size and offers a concrete look at how coding-agent desktop apps quietly pull in entire third-party components under the hood. It scored 479 points on HN among developers curious about agent-app architecture.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-01T00:00:00Z",
-      "curatedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "curated-20260903-mattpocock-agent-skills",
-      "title": "실무 엔지니어를 위한 코딩 에이전트 스킬 모음, 깃허브에 통째로 공개 — HN 40점",
-      "body": "개발자 Matt Pocock이 클로드 코드 등 코딩 에이전트에 바로 붙여 쓸 수 있는 '스킬'(사전 정의된 워크플로우+제약 조건) 모음을 깃허브에 공개했습니다. 코드 리뷰, 리팩터링, 테스트 작성처럼 반복되는 작업마다 별도 스킬 파일을 만들어 그대로 복사해 쓸 수 있게 정리했고, 매번 프롬프트를 새로 쓰는 대신 검증된 지침을 재사용하려는 개발자에게 실전 참고 자료가 됩니다.",
-      "titleEn": "A Ready-to-Copy Coding Agent Skill Collection for Real Engineers, Published on GitHub — 40 Points on HN",
-      "bodyEn": "Developer Matt Pocock published a GitHub repo of \"skills\" (predefined workflows plus constraints) meant to be dropped straight into coding agents like Claude Code. Each skill file targets a recurring task — code review, refactoring, test writing — so developers can copy them in directly instead of rewriting prompts from scratch every session.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/mattpocock/skills",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-01T00:00:00Z",
-      "curatedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "curated-20260903-addy-osmani-skill-decay",
-      "title": "AI에 일 맡길수록 실력이 준다 — 애디 오스마니가 말하는 '에이전틱 스킬 감쇠'와 대응법 4가지",
-      "body": "구글 크롬 엔지니어링 리드 애디 오스마니는 \"작업을 완료했다고 곧 숙련이 쌓이는 건 아니다\"라며, AI 에이전트에 의존할수록 결과물을 검증하는 능력 자체가 퇴화하는 '에이전틱 스킬 감쇠'를 경고합니다. 앤트로픽 자체 연구에서 AI를 단순 코드 자판기로 쓰지 않고 개념적 질문을 함께 던진 사용자의 점수가 17% 더 높았다는 근거를 들며, 프롬프트 전에 가설 세우기·diff 비판적으로 검토하기·근거 설명 요청하기·배운 점을 문서화해 조직 지식으로 남기기 4가지 습관을 제안합니다.",
-      "titleEn": "The More You Delegate to AI, the Rustier You Get — Addy Osmani on 'Agentic Skill Decay' and 4 Countermeasures",
-      "bodyEn": "Google Chrome engineering lead Addy Osmani warns that \"a completed task is not necessarily a rep\" — leaning on AI agents erodes the very skill needed to verify their output, a pattern he calls agentic skill decay. Citing an Anthropic study where users who asked conceptual questions (instead of treating AI as a code vending machine) scored 17% higher, he recommends four habits: form a hypothesis before prompting, critically inspect every diff, ask the agent to explain its reasoning, and document lessons learned as institutional knowledge.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://addyo.substack.com/p/agentic-skill-decay",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-31T00:00:00Z",
-      "curatedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "curated-20260902-ai-book-zero-revenue-ko",
+      "id": "curated-20260903-ai-book-zero-revenue-ko",
       "title": "AI로 책 2권 써서 상품 42개 올렸는데, 매출은 0원이었다",
       "body": "velog에 올라온 이 실사용기는 마크다운을 PDF로 변환하는 파이썬 파이프라인(reportlab, 3274줄)을 직접 만들어 AI로 책 2권을 완성하고, 72개 주장을 출처·날짜까지 일일이 팩트체크한 뒤 3개 플랫폼에 상품 42개를 올린 과정을 담고 있습니다. 콘텐츠 생성과 품질 검증 파이프라인은 공들여 만들었지만 결과는 매출 0원이었고, 저자는 '진행 상황을 보여주는 대시보드는 만들었지만 수요를 검증하는 대시보드는 하나도 없었다'는 게 진짜 실패 원인이라고 짚습니다.",
       "titleEn": "I Wrote 2 AI Books, Listed 42 Products — and Made $0",
@@ -171,6 +197,45 @@
       "curatedAt": "2026-09-02T09:30:00Z"
     },
     {
+      "id": "curated-20260903-codex-app-libreoffice-bundle",
+      "title": "코덱스 데스크톱 앱을 뜯어보니 LibreOffice가 통째로 들어있었다 — 사이먼 윌리슨 실험, HN 479점",
+      "body": "사이먼 윌리슨이 오픈AI 코덱스 데스크톱 앱을 분해해 문서 편집 기능을 위해 LibreOffice 전체 빌드가 그대로 번들돼 있다는 사실을 확인했습니다. 이 때문에 앱 용량이 크게 늘어난 배경과, 코딩 에이전트 데스크톱 앱들이 내부적으로 어떤 서드파티 컴포넌트를 통째로 끌어다 쓰는지 보여주는 구체적 사례입니다. HN에서 479점을 받으며 에이전트 앱 아키텍처에 관심 있는 개발자들 사이에서 화제가 됐습니다.",
+      "titleEn": "Codex Desktop App Turns Out to Bundle All of LibreOffice — Simon Willison's Teardown, 479 Points on HN",
+      "bodyEn": "Simon Willison tore down OpenAI's Codex desktop app and found it bundles a full copy of LibreOffice just to support document editing. The finding explains a chunk of the app's install size and offers a concrete look at how coding-agent desktop apps quietly pull in entire third-party components under the hood. It scored 479 points on HN among developers curious about agent-app architecture.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-01T00:00:00Z",
+      "curatedAt": "2026-09-02T23:16:03Z"
+    },
+    {
+      "id": "curated-20260903-mattpocock-agent-skills",
+      "title": "실무 엔지니어를 위한 코딩 에이전트 스킬 모음, 깃허브에 통째로 공개 — HN 40점",
+      "body": "개발자 Matt Pocock이 클로드 코드 등 코딩 에이전트에 바로 붙여 쓸 수 있는 '스킬'(사전 정의된 워크플로우+제약 조건) 모음을 깃허브에 공개했습니다. 코드 리뷰, 리팩터링, 테스트 작성처럼 반복되는 작업마다 별도 스킬 파일을 만들어 그대로 복사해 쓸 수 있게 정리했고, 매번 프롬프트를 새로 쓰는 대신 검증된 지침을 재사용하려는 개발자에게 실전 참고 자료가 됩니다.",
+      "titleEn": "A Ready-to-Copy Coding Agent Skill Collection for Real Engineers, Published on GitHub — 40 Points on HN",
+      "bodyEn": "Developer Matt Pocock published a GitHub repo of \"skills\" (predefined workflows plus constraints) meant to be dropped straight into coding agents like Claude Code. Each skill file targets a recurring task — code review, refactoring, test writing — so developers can copy them in directly instead of rewriting prompts from scratch every session.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/mattpocock/skills",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-01T00:00:00Z",
+      "curatedAt": "2026-09-02T23:16:03Z"
+    },
+    {
+      "id": "curated-20260903-addy-osmani-skill-decay",
+      "title": "AI에 일 맡길수록 실력이 준다 — 애디 오스마니가 말하는 '에이전틱 스킬 감쇠'와 대응법 4가지",
+      "body": "구글 크롬 엔지니어링 리드 애디 오스마니는 \"작업을 완료했다고 곧 숙련이 쌓이는 건 아니다\"라며, AI 에이전트에 의존할수록 결과물을 검증하는 능력 자체가 퇴화하는 '에이전틱 스킬 감쇠'를 경고합니다. 앤트로픽 자체 연구에서 AI를 단순 코드 자판기로 쓰지 않고 개념적 질문을 함께 던진 사용자의 점수가 17% 더 높았다는 근거를 들며, 프롬프트 전에 가설 세우기·diff 비판적으로 검토하기·근거 설명 요청하기·배운 점을 문서화해 조직 지식으로 남기기 4가지 습관을 제안합니다.",
+      "titleEn": "The More You Delegate to AI, the Rustier You Get — Addy Osmani on 'Agentic Skill Decay' and 4 Countermeasures",
+      "bodyEn": "Google Chrome engineering lead Addy Osmani warns that \"a completed task is not necessarily a rep\" — leaning on AI agents erodes the very skill needed to verify their output, a pattern he calls agentic skill decay. Citing an Anthropic study where users who asked conceptual questions (instead of treating AI as a code vending machine) scored 17% higher, he recommends four habits: form a hypothesis before prompting, critically inspect every diff, ask the agent to explain its reasoning, and document lessons learned as institutional knowledge.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://addyo.substack.com/p/agentic-skill-decay",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-08-31T00:00:00Z",
+      "curatedAt": "2026-09-02T23:16:03Z"
+    },
+    {
       "id": "curated-20260901-codex-tool-skill-reference",
       "title": "코덱스 안에 숨어 있는 도구 232개·스킬 44개 — 사이먼 윌리슨이 통째로 문서화했다, HN 166점",
       "body": "개발자 사이먼 윌리슨이 챗GPT·코덱스가 내부적으로 호출할 수 있는 도구 인터페이스 232개와 재사용 가능한 스킬 정의 44개를 정리한 레퍼런스 사이트를 공개했습니다. 지메일·깃허브·데이터 분석·자동화 등 영역별 도구를 타입스크립트 타입 선언과 함께 문서화해, 코덱스가 실제로 무엇을 할 수 있는지 코드 레벨에서 확인할 수 있습니다. HN에서 166점을 받았고, 코덱스 위에 자신만의 워크플로우나 스킬을 설계하려는 개발자에게 바로 쓸 수 있는 참조 자료입니다.",
@@ -195,71 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-08-31T07:49:18Z",
       "curatedAt": "2026-09-01T09:30:00Z"
-    },
-    {
-      "id": "curated-20260901-harness-loop-engineering-ko",
-      "title": "AI 에이전트는 자동차다 — 엔진·하네스·루프로 나눠보면 PM이 뭘 정해야 하는지 보인다",
-      "body": "요즘IT에 실린 개발자 김영욱의 글은 AI 에이전트 시스템을 '엔진(LLM)·하네스(안전장치)·루프(자율 판단)'라는 자동차 비유로 정리합니다. 하네스를 가이드·센서·도구 오케스트레이션·휴먼 체크포인트 4가지 요소로 쪼개 설명하고, PM이 설계 단계에서 반드시 정의해야 할 세 가지로 자동화 경계(어디까지 자동으로 둘지), 루프 종료 조건(언제 멈출지), 비용-품질-속도 트레이드오프를 제시합니다. 에이전트 오케스트레이션을 팀 단위로 설계하려는 PM·엔지니어가 바로 체크리스트로 쓸 수 있는 실무 프레임워크입니다.",
-      "titleEn": "An AI Agent Is a Car — Splitting It Into Engine, Harness, and Loop Shows PMs What They Actually Need to Decide",
-      "bodyEn": "Published on 요즘IT, developer Kim Young-wook's piece frames an AI agent system as a car: engine (the LLM), harness (safety mechanisms), and loop (autonomous judgment). It breaks the harness down into four elements — guides, sensors, tool orchestration, and human checkpoints — and lays out three things a PM must define at design time: the automation boundary (how much to hand off), the loop's exit condition (when it stops), and the cost-quality-speed tradeoff. A practical framework any PM or engineer designing team-level agent orchestration can use as a checklist immediately.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3921",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-31T00:00:00Z",
-      "curatedAt": "2026-09-01T09:30:00Z"
-    },
-    {
-      "id": "curated-20260831-astera-workbench-ko",
-      "title": "클로드 코드·코덱스 세션 여러 개를 한 화면에서 — 한도 걸리면 계정 자동 전환하는 'Astera'",
-      "body": "GeekNews에 소개된 오픈소스 데스크톱 앱 'Astera'(Electron·TypeScript)는 클로드 코드와 코덱스 세션 여러 개를 탭·분할 화면으로 동시에 관리하는 워크벤치입니다. 사용량 한도에 걸리면 다른 계정으로 자동 전환하는 '계정 롤링'과 전환 시점의 작업을 이어받는 'Smart Resume' 체크포인트가 핵심 기능이고, 여러 벤더에 걸친 작업을 의존성 그래프로 오케스트레이션하며, 깃 워크트리로 병렬 작업을 격리하고 슬랙 연동·예약 실행까지 지원합니다. 한국어를 포함한 다국어 UI를 제공합니다.",
-      "titleEn": "Managing Multiple Claude Code and Codex Sessions in One Window — 'Astera' Auto-Switches Accounts When You Hit a Limit",
-      "bodyEn": "Featured on GeekNews, the open-source desktop app 'Astera' (Electron/TypeScript) is a workbench for running multiple Claude Code and Codex sessions at once via tabs and split panes. Its core features are 'account rolling' — automatically switching to another account when usage limits hit — and a 'Smart Resume' checkpoint that hands off in-progress work across the switch; it also orchestrates cross-vendor jobs via dependency graphs, isolates parallel tasks with git worktrees, and supports Slack integration and scheduling. The UI ships in multiple languages including Korean.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://github.com/parsingk/Astera",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-30T14:00:00Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
-    },
-    {
-      "id": "curated-20260831-twelvelabs-jockey-lecture-qa-ko",
-      "title": "인프런 강의 18개, 검수 10시간을 몇십 분으로 — TwelveLabs Jockey로 만든 강의 QA 파이프라인 한 달 실사용기",
-      "body": "인프런 강의 18개를 만들며 영상 검수가 병목이었다는 저자가 GeekNews에 공개한 실사용기입니다. 강의 하나당 10시간 넘게 통째로 봐야 했던 전달력·편집요소·페이싱 점검을, TwelveLabs의 영상 이해 모델 Jockey로 자동 QA 파이프라인을 만들어 몇십 분으로 줄였습니다. 콘텐츠 흐름·전달 문제·편집요소 탐지는 신뢰할 만하지만 한국어 자막 인식·BGM 탐지·영상 간 혼선은 아직 부정확하다고 밝혔고, 결론은 'AI는 사람이 봐야 할 곳을 짚어줄 뿐, 최종 승인은 여전히 사람 몫'이라는 것입니다.",
-      "titleEn": "18 Online Courses, 10 Hours of Review Cut to Dozens of Minutes — a Month Running a Lecture QA Pipeline on TwelveLabs Jockey",
-      "bodyEn": "Posted on GeekNews, the author — who produced 18 courses on Inflearn — says video review was the real bottleneck, requiring over 10 hours of continuous viewing per course to check delivery, editing, and pacing. Building an automated QA pipeline on TwelveLabs' video-understanding model Jockey cut that to dozens of minutes. Content flow, delivery issues, and editing-element detection proved reliable, while Korean subtitle transcription, BGM detection, and cross-video contamination are still inaccurate. The takeaway: AI flags where a human should look, but final approval stays human.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://chessire.tistory.com/entry/twelvelabs-jockey-video-qa",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-30T13:00:00Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
-    },
-    {
-      "id": "curated-20260831-claude-session-url-attribution",
-      "title": "클로드 코드가 커밋마다 세션 URL을 몰래 붙인다 — 옵트인으로 바꾸자는 요청, HN 175점",
-      "body": "클로드 코드가 커밋 메시지와 PR 설명 하단에 세션 URL(`https://claude.ai/code/session_...`)을 아무 안내 없이 기본으로 붙인다는 이슈가 HN에서 175점을 받았습니다. 온보딩 안내도 없고 옵트아웃 방법도 잘 알려지지 않아, 팀 공유 저장소나 오픈소스 히스토리가 지저분해진다는 불만입니다. `.claude/settings.json`에 `attribution.commit: \"\"`을 설정하면 끌 수 있고, 저자는 첫 커밋 시 '다시 묻지 않기' 옵션을 넣거나 아예 `Co-Authored-By: Claude` 트레일러만 남기자고 제안합니다.",
-      "titleEn": "Claude Code Quietly Tags Every Commit With a Session URL — a 175-Point Push to Make It Opt-In",
-      "bodyEn": "An HN post scoring 175 points flags that Claude Code appends a session URL (`https://claude.ai/code/session_...`) to the bottom of every commit message and PR description by default, with no onboarding prompt and no obvious opt-out. Users complain it clutters shared repos and open-source history. The workaround is setting `attribution.commit: \"\"` in `.claude/settings.json`; the author's preferred fixes are a one-time onboarding prompt or dropping the URL entirely in favor of just the `Co-Authored-By: Claude` trailer.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/anthropics/claude-code/issues/66504",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-30T12:50:54Z",
-      "curatedAt": "2026-08-30T23:10:39Z"
-    },
-    {
-      "id": "curated-20260825-fabiensanglard-agentmd-tips",
-      "title": "코드 품질 올리는 agent.md 작성법 — 매직넘버 금지부터 커밋 규칙 7가지까지",
-      "body": "개발자 파비앙 상글라르가 공개한 agent.md 가이드는 클로드 코드·코덱스 같은 코딩 에이전트에게 넣어줄 스타일 지침을 정리합니다. 불필요한 말 줄이기, 매직넘버 대신 상수 사용, 함수·변수명 30자 이내 유지, 불리언 대신 열거형(enum) 선호, 설명 주석 추가, 계층화된 아키텍처 유지, 그리고 커밋 메시지 작성 규칙 7가지까지 구체적으로 명시합니다. 저자는 이런 지침을 agent.md에 담아 매 세션 초반에 주입하면 코드 품질이 눈에 띄게 좋아지고, 세션을 짧게 유지하며 주기적으로 agent.md를 다시 불러오는 방식으로 '컨텍스트 희석' 문제도 줄일 수 있다고 말합니다. HN에서 413점을 받았습니다.",
-      "titleEn": "Write a Better agent.md — From Banning Magic Numbers to 7 Commit Message Rules",
-      "bodyEn": "Developer Fabien Sanglard's agent.md guide lays out concrete style instructions to feed coding agents like Claude Code and Codex: cut unnecessary verbosity, replace magic numbers with named constants, keep function/variable names under 30 characters, prefer enums over booleans, add explanatory comments, maintain a layered architecture, and follow seven specific commit-message rules. The author reports that injecting these instructions via agent.md at the start of each session measurably improves code quality, and keeping sessions short with periodic agent.md reloads helps counter \"context dilution.\" 413 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://fabiensanglard.net/agent.md/index.html",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-08-23T17:59:52Z",
-      "curatedAt": "2026-08-24T23:10:08Z"
     }
   ]
 }
