@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-09-05T09:00:00Z",
+  "generatedAt": "2026-09-08T09:00:00Z",
   "videos": [
+    {
+      "id": "vid-anthropic-claude-code-team-workflow",
+      "youtubeId": "S-sYlFiGFv8",
+      "category": "usecase",
+      "title": "클로드 코드 팀은 클로드 코드를 어떻게 쓸까",
+      "titleEn": "How the Claude Code Team Uses Claude Code",
+      "descKo": "앤스로픽 공식 채널 영상. 1년 전엔 프롬프트-피드백-권한승인의 반복이었던 클로드 코드 사용법이 지금은 어떻게 달라졌는지, 클로드 코드 팀원들이 직접 자신들의 실제 워크플로를 보여준다.",
+      "descEn": "Official Anthropic video: Claude Code team members show how their real day-to-day workflow with Claude Code has evolved from a year of prompt-feedback-permission loops to now.",
+      "channel": "Claude",
+      "publishedAt": "2026-09-02T00:00:00Z",
+      "addedAt": "2026-09-08T09:00:00Z"
+    },
+    {
+      "id": "vid-gimyisob-claude-code-20-tips-ko",
+      "youtubeId": "8uif-Wf65SI",
+      "category": "tip",
+      "title": "12시간씩 클로드 코드 쓰고 깨달은 핵심 꿀팁 20가지",
+      "titleEn": "20 Essential Tips I Learned After Using Claude Code 12 Hours a Day",
+      "descKo": "하루 12시간씩 클로드 코드를 실무에 쓰며 체득한 실전 팁 20가지를 타임스탬프별로 빠르게 짚어주는 영상.",
+      "descEn": "A Korean creator who uses Claude Code 12 hours a day shares 20 practical tips picked up from heavy daily use, timestamped for quick reference.",
+      "channel": "김이솝의 AI 가이드",
+      "publishedAt": "2026-06-23T00:00:00Z",
+      "addedAt": "2026-09-08T09:00:00Z"
+    },
+    {
+      "id": "vid-indydevdan-multiagent-orchestration-opus46",
+      "youtubeId": "RpUTF_U4kiw",
+      "category": "usecase",
+      "title": "Opus 4.6·Tmux·에이전트 샌드박스로 클로드 코드 멀티에이전트 오케스트레이션",
+      "titleEn": "Claude Code Multi-Agent Orchestration with Opus 4.6, Tmux and Agent Sandboxes",
+      "descKo": "이제 관건은 모델 성능이 아니라 여러 에이전트를 얼마나 잘 오케스트레이션하느냐라며, Opus 4.6과 Tmux, 에이전트 샌드박스를 활용해 클로드 코드를 병렬로 운용하는 실전 워크플로를 보여준다.",
+      "descEn": "IndyDevDan argues the real skill now is orchestrating multiple agents, not model capability, and demonstrates a hands-on workflow running Claude Code in parallel with Opus 4.6, Tmux, and agent sandboxes.",
+      "channel": "IndyDevDan",
+      "publishedAt": "2026-02-09T00:00:00Z",
+      "addedAt": "2026-09-08T09:00:00Z"
+    },
+    {
+      "id": "vid-greenkokki-codex-beginner-guide-ko",
+      "youtubeId": "wG5Uot1cMv0",
+      "category": "lecture",
+      "title": "고품질 코덱스 초보자 가이드 (2026)",
+      "titleEn": "High-Quality Codex Beginner's Guide (2026)",
+      "descKo": "코덱스 데스크톱 앱 설치부터 작업 폴더 연결, 모델·속도·권한 설정까지 처음 코덱스를 접하는 사람을 위해 순서대로 짚어주는 강의형 영상.",
+      "descEn": "A step-by-step lecture-style guide covering Codex desktop app installation, connecting a working folder, and configuring model/speed/permission settings for first-time users.",
+      "channel": "그린코끼리 AI (Greenkokki AI)",
+      "publishedAt": "2026-05-12T00:00:00Z",
+      "addedAt": "2026-09-08T09:00:00Z"
+    },
+    {
+      "id": "vid-freecodecamp-gemini-cli-full-course",
+      "youtubeId": "XKOR4h3CrwE",
+      "category": "lecture",
+      "title": "Gemini CLI 완전정복 풀코스",
+      "titleEn": "Gemini CLI Essentials – Full Course",
+      "descKo": "에이전틱 코딩을 위한 Gemini CLI 사용법을 처음부터 체계적으로 다루는 프리코드캠프의 정규 강의 영상.",
+      "descEn": "A structured freeCodeCamp full course teaching how to use the Gemini CLI for agentic coding from the ground up.",
+      "channel": "freeCodeCamp.org",
+      "publishedAt": "2026-04-24T00:00:00Z",
+      "addedAt": "2026-09-08T09:00:00Z"
+    },
     {
       "id": "vid-gregbaugues-claude-code-47-tips",
       "youtubeId": "TiNpzxoBPz0",
@@ -11,17 +71,6 @@
       "descEn": "Greg Baugues races through 47 practical Claude Code tips in just 9 minutes.",
       "channel": "Greg Baugues",
       "addedAt": "2026-09-03T23:20:00Z"
-    },
-    {
-      "id": "vid-free-codex-guide-beginners-ko",
-      "youtubeId": "SuQGDb9U3Rc",
-      "category": "tip",
-      "title": "챗GPT만 쓰면 손해 — '무료'로 쓰는 코덱스 2026 초보자 가이드",
-      "titleEn": "You're Losing Out Using Only ChatGPT — Free Codex 2026 Beginner's Guide",
-      "descKo": "PPT·워드·지메일·노트션 자동화까지, 코드를 몰라도 무료로 코덱스를 활용하는 법을 알려주는 입문 가이드.",
-      "descEn": "A beginner guide to using Codex for free — automating PPT, Word, Gmail, and Notion — aimed at non-coders.",
-      "publishedAt": "2026-06-21T00:00:00Z",
-      "addedAt": "2026-09-05T09:00:00Z"
     },
     {
       "id": "vid-rain-claude-code-mcp-explained-ko",
@@ -58,18 +107,6 @@
       "channel": "메이커 에반 | Maker Evan",
       "publishedAt": "2026-02-26T00:00:00Z",
       "addedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "vid-gaebaldongsaeng-codex-guide-2026-ko",
-      "youtubeId": "Z3z93bKMh_I",
-      "category": "usecase",
-      "title": "코덱스 완벽 가이드 2026 — 지금은 코덱스가 최강",
-      "titleEn": "The Complete Codex Guide 2026 — Codex Might Be the Strongest Right Now",
-      "descKo": "오픈AI 코덱스 CLI의 핵심 기능을 짚어주며 왜 지금 코덱스가 가장 강력한 선택인지 설명하는 한국어 가이드 영상.",
-      "descEn": "A Korean-language guide walking through OpenAI Codex CLI's core features and making the case for why Codex is the strongest choice right now.",
-      "channel": "개발동생",
-      "publishedAt": "2026-04-25T00:00:00Z",
-      "addedAt": "2026-09-03T23:20:00Z"
     },
     {
       "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
@@ -141,40 +178,6 @@
       "descEn": "A 1-hour course covering Claude Code basics through video-production automation, Obsidian note automation, and Claude Design/Cowork/Skills/Excel usage.",
       "channel": "찍봇",
       "addedAt": "2026-09-03T23:20:00Z"
-    },
-    {
-      "id": "vid-chaseai-claude-code-50min-guide",
-      "youtubeId": "U6k4MeVks_Y",
-      "category": "lecture",
-      "title": "50분에 담은 클로드 코드 1000시간 분량 지식",
-      "titleEn": "Give Me 50 Minutes, I'll Give You 1000+ Hours Of Claude Code Knowledge (2026 Guide)",
-      "descKo": "50분 안에 클로드 코드를 제대로 다루는 법을 압축해서 알려주는 2026년 종합 가이드 영상.",
-      "descEn": "A 2026 guide compressing over 1,000 hours of Claude Code know-how into a single 50-minute video.",
-      "channel": "Chase AI",
-      "addedAt": "2026-09-03T23:20:00Z"
-    },
-    {
-      "id": "vid-techwithtim-ai-agents-pure-python-course",
-      "youtubeId": "c9AnqCeyxbI",
-      "category": "lecture",
-      "title": "프레임워크 없이 순수 파이썬으로 AI 에이전트 만들기 — 입문 강의",
-      "titleEn": "Building AI Agents in Pure Python - Beginner Course",
-      "descKo": "랭체인 같은 프레임워크 없이 순수 파이썬 코드만으로 AI 에이전트를 처음부터 만들어보는 입문자용 풀코스 강의.",
-      "descEn": "A full beginner course building AI agents completely from scratch in pure Python, with no framework like LangChain involved.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-08-30T00:00:00Z",
-      "addedAt": "2026-09-02T09:30:00Z"
-    },
-    {
-      "id": "vid-multiagent-orchestration-enterprise-2026",
-      "youtubeId": "m_pB9RhJ8jU",
-      "category": "lecture",
-      "title": "AI 에이전트·멀티 에이전트 오케스트레이션 — 엔터프라이즈 2026",
-      "titleEn": "AI Agents & Multi-Agent Systems: Enterprise Orchestration 2026",
-      "descKo": "여러 AI 에이전트를 조율하는 멀티 에이전트 오케스트레이션 패턴과 기업 도입 시 ROI를 다루는 강의.",
-      "descEn": "A lecture covering multi-agent orchestration patterns and enterprise ROI for coordinating multiple AI agents.",
-      "publishedAt": "2026-04-24T00:00:00Z",
-      "addedAt": "2026-09-05T09:00:00Z"
     }
   ]
 }
