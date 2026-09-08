@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T09:00:00Z",
+  "generatedAt": "2026-09-09T09:00:00Z",
   "videos": [
     {
       "id": "vid-anthropic-claude-code-team-workflow",
@@ -12,6 +12,18 @@
       "channel": "Claude",
       "publishedAt": "2026-09-02T00:00:00Z",
       "addedAt": "2026-09-08T09:00:00Z"
+    },
+    {
+      "id": "vid-techwhistle-codex-cli-5-tips",
+      "youtubeId": "uYaiRSgmYYQ",
+      "category": "tip",
+      "title": "코덱스 CLI: 파워유저가 실제로 쓰는 5가지 팁 (2026)",
+      "titleEn": "Codex CLI: 5 Tips Power Users Actually Use (2026)",
+      "descKo": "AGENTS.md, /plan, 병렬 워크트리 등 코덱스 CLI 파워유저가 실제로 쓰는 활용법 5가지를 소개한다.",
+      "descEn": "Covers power-user Codex CLI techniques like AGENTS.md, /plan, hidden shortcuts, and parallel worktrees.",
+      "channel": "TechWhistle",
+      "publishedAt": "2026-05-13T00:00:00Z",
+      "addedAt": "2026-09-09T09:00:00Z"
     },
     {
       "id": "vid-gimyisob-claude-code-20-tips-ko",
@@ -38,6 +50,18 @@
       "addedAt": "2026-09-08T09:00:00Z"
     },
     {
+      "id": "vid-codingsloth-1000-hours-claude-code",
+      "youtubeId": "YAsxyoTWFDA",
+      "category": "usecase",
+      "title": "클로드 코드에 1000시간 이상 써보고 깨달은 것들",
+      "titleEn": "I Have Spent 1000+ Hours With Claude Code. This Is What I Learned",
+      "descKo": "1000시간 넘게 클로드 코드를 실사용하며 배운 워크플로우와 교훈을 정리한 실사용 후기 영상이다.",
+      "descEn": "A first-hand account of lessons learned from using Claude Code for over 1,000 hours.",
+      "channel": "The Coding Sloth",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "addedAt": "2026-09-09T09:00:00Z"
+    },
+    {
       "id": "vid-greenkokki-codex-beginner-guide-ko",
       "youtubeId": "wG5Uot1cMv0",
       "category": "lecture",
@@ -60,17 +84,6 @@
       "channel": "freeCodeCamp.org",
       "publishedAt": "2026-04-24T00:00:00Z",
       "addedAt": "2026-09-08T09:00:00Z"
-    },
-    {
-      "id": "vid-gregbaugues-claude-code-47-tips",
-      "youtubeId": "TiNpzxoBPz0",
-      "category": "tip",
-      "title": "클로드 코드 9분 만에 프로 팁 47개",
-      "titleEn": "Claude Code - 47 PRO TIPS in 9 minutes",
-      "descKo": "그렉 보게스가 9분 동안 클로드 코드 실전 팁 47개를 빠르게 훑어주는 영상.",
-      "descEn": "Greg Baugues races through 47 practical Claude Code tips in just 9 minutes.",
-      "channel": "Greg Baugues",
-      "addedAt": "2026-09-03T23:20:00Z"
     },
     {
       "id": "vid-rain-claude-code-mcp-explained-ko",
@@ -167,17 +180,6 @@
       "channel": "시현의 모험 | Sihyun Adventure",
       "publishedAt": "2026-05-20T00:00:00Z",
       "addedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "vid-zzikbot-claude-allinone-1hr-ko",
-      "youtubeId": "If_U_zmXWYo",
-      "category": "lecture",
-      "title": "2026년 클로드 1시간 올인원 강의",
-      "titleEn": "2026 Claude All-in-One 1-Hour Course",
-      "descKo": "클로드 코드 기초부터 영상 제작 자동화, 옵시디언 메모 자동화, 클로드 디자인·코워크·스킬·엑셀 활용까지 1시간에 훑는 강의.",
-      "descEn": "A 1-hour course covering Claude Code basics through video-production automation, Obsidian note automation, and Claude Design/Cowork/Skills/Excel usage.",
-      "channel": "찍봇",
-      "addedAt": "2026-09-03T23:20:00Z"
     }
   ]
 }
