@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T09:00:00Z",
+  "generatedAt": "2026-09-09T23:08:52Z",
   "videos": [
     {
       "id": "vid-anthropic-claude-code-team-workflow",
@@ -14,16 +14,15 @@
       "addedAt": "2026-09-08T09:00:00Z"
     },
     {
-      "id": "vid-techwhistle-codex-cli-5-tips",
-      "youtubeId": "uYaiRSgmYYQ",
+      "id": "vid-devopsflavius-claude-code-13-tips",
+      "youtubeId": "LO0n5UTSGGE",
       "category": "tip",
-      "title": "코덱스 CLI: 파워유저가 실제로 쓰는 5가지 팁 (2026)",
-      "titleEn": "Codex CLI: 5 Tips Power Users Actually Use (2026)",
-      "descKo": "AGENTS.md, /plan, 병렬 워크트리 등 코덱스 CLI 파워유저가 실제로 쓰는 활용법 5가지를 소개한다.",
-      "descEn": "Covers power-user Codex CLI techniques like AGENTS.md, /plan, hidden shortcuts, and parallel worktrees.",
-      "channel": "TechWhistle",
-      "publishedAt": "2026-05-13T00:00:00Z",
-      "addedAt": "2026-09-09T09:00:00Z"
+      "title": "2026년에 꼭 알아야 할 클로드 코드 팁 13가지",
+      "titleEn": "13 Claude Code Tips & Tricks Everyone Needs in 2026",
+      "descKo": "`/init`으로 CLAUDE.md를 만들어 프로젝트 메모리로 쓰는 법부터 `@` 파일 멘션으로 컨텍스트를 즉시 끌어오는 법까지, 실무에서 매일 쓰는 클로드 코드 팁 13가지를 순서대로 짚어주는 영상.",
+      "descEn": "Walks through 13 daily-use Claude Code tips, from running `/init` to generate a CLAUDE.md project-memory file to using `@` file mentions to pull context into a session instantly.",
+      "channel": "DevOps with Flavius",
+      "addedAt": "2026-09-09T23:08:52Z"
     },
     {
       "id": "vid-gimyisob-claude-code-20-tips-ko",
