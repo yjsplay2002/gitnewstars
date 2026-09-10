@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T23:08:52Z",
+  "generatedAt": "2026-09-11T10:00:00Z",
   "videos": [
     {
       "id": "vid-anthropic-claude-code-team-workflow",
@@ -37,16 +37,16 @@
       "addedAt": "2026-09-08T09:00:00Z"
     },
     {
-      "id": "vid-indydevdan-multiagent-orchestration-opus46",
-      "youtubeId": "RpUTF_U4kiw",
-      "category": "usecase",
-      "title": "Opus 4.6·Tmux·에이전트 샌드박스로 클로드 코드 멀티에이전트 오케스트레이션",
-      "titleEn": "Claude Code Multi-Agent Orchestration with Opus 4.6, Tmux and Agent Sandboxes",
-      "descKo": "이제 관건은 모델 성능이 아니라 여러 에이전트를 얼마나 잘 오케스트레이션하느냐라며, Opus 4.6과 Tmux, 에이전트 샌드박스를 활용해 클로드 코드를 병렬로 운용하는 실전 워크플로를 보여준다.",
-      "descEn": "IndyDevDan argues the real skill now is orchestrating multiple agents, not model capability, and demonstrates a hands-on workflow running Claude Code in parallel with Opus 4.6, Tmux, and agent sandboxes.",
-      "channel": "IndyDevDan",
-      "publishedAt": "2026-02-09T00:00:00Z",
-      "addedAt": "2026-09-08T09:00:00Z"
+      "id": "vid-techwithtim-claude-code-advanced-guide",
+      "youtubeId": "kt5a-TXmWew",
+      "category": "tip",
+      "title": "클로드 코드 고급 가이드 — 개발자 99%가 놓치는 기능들",
+      "titleEn": "Claude Code: The Advanced Guide (99% of Devs Skip These Features)",
+      "descKo": "대부분의 개발자가 클로드 코드를 그저 똑똑한 자동완성처럼만 쓰고 있다고 지적하며, 실무에서 거의 안 쓰이는 고급 기능 9가지를 순서대로 시연하는 영상.",
+      "descEn": "Argues most developers use Claude Code like a smarter autocomplete, then demonstrates nine advanced features the vast majority of devs have never touched.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-09-07T00:00:00Z",
+      "addedAt": "2026-09-11T10:00:00Z"
     },
     {
       "id": "vid-codingsloth-1000-hours-claude-code",
@@ -61,6 +61,18 @@
       "addedAt": "2026-09-09T09:00:00Z"
     },
     {
+      "id": "vid-sandeepswadia-claude-code-2026",
+      "youtubeId": "aXM56qJQT7Y",
+      "category": "usecase",
+      "title": "2026년, 클로드 코드는 반드시 배워야 한다",
+      "titleEn": "You Need To Learn Claude Code In 2026",
+      "descKo": "코딩은 소수 전문가만의 영역이라는 통념을 깨고, 아이디어만 있으면 클로드 코드로 누구나 실제로 작동하는 제품을 만들 수 있음을 실사례로 보여주는 영상.",
+      "descEn": "Challenges the idea that programming is reserved for an elite few, showing through real examples how anyone with an idea can build a working product using Claude Code in 2026.",
+      "channel": "Sandeep Swadia",
+      "publishedAt": "2026-09-10T00:00:00Z",
+      "addedAt": "2026-09-11T10:00:00Z"
+    },
+    {
       "id": "vid-greenkokki-codex-beginner-guide-ko",
       "youtubeId": "wG5Uot1cMv0",
       "category": "lecture",
@@ -73,16 +85,16 @@
       "addedAt": "2026-09-08T09:00:00Z"
     },
     {
-      "id": "vid-freecodecamp-gemini-cli-full-course",
-      "youtubeId": "XKOR4h3CrwE",
+      "id": "vid-freecodecamp-agentic-ai-course",
+      "youtubeId": "Zy7EXDONlTY",
       "category": "lecture",
-      "title": "Gemini CLI 완전정복 풀코스",
-      "titleEn": "Gemini CLI Essentials – Full Course",
-      "descKo": "에이전틱 코딩을 위한 Gemini CLI 사용법을 처음부터 체계적으로 다루는 프리코드캠프의 정규 강의 영상.",
-      "descEn": "A structured freeCodeCamp full course teaching how to use the Gemini CLI for agentic coding from the ground up.",
+      "title": "에이전틱 AI 완전정복 — 초보자를 위한 풀코스",
+      "titleEn": "Agentic AI – Complete Course for Beginners",
+      "descKo": "랭체인·랭그래프로 프로덕션 수준의 멀티에이전트 시스템을 만드는 법을 처음부터 다루는 프리코드캠프의 정규 강의. 핵심 개념부터 순차·병렬·조건부 워크플로, RAG, AWS 배포까지 구조적으로 학습한다.",
+      "descEn": "A structured freeCodeCamp course teaching how to build production-ready multi-agent systems with LangChain and LangGraph, covering core fundamentals through RAG and cloud deployment.",
       "channel": "freeCodeCamp.org",
-      "publishedAt": "2026-04-24T00:00:00Z",
-      "addedAt": "2026-09-08T09:00:00Z"
+      "publishedAt": "2026-07-30T00:00:00Z",
+      "addedAt": "2026-09-11T10:00:00Z"
     },
     {
       "id": "vid-rain-claude-code-mcp-explained-ko",
@@ -107,18 +119,6 @@
       "channel": "Rainy Reaksmey",
       "publishedAt": "2026-08-29T00:00:00Z",
       "addedAt": "2026-09-01T09:30:00Z"
-    },
-    {
-      "id": "vid-evanmaker-boris-cherny-claude-tips-ko",
-      "youtubeId": "2WJzwwvzbBQ",
-      "category": "tip",
-      "title": "클로드코드 직접 만든 사람이 공개한 사용법, 저도 충격받았습니다",
-      "titleEn": "Claude Code's Creator Revealed How He Actually Uses It",
-      "descKo": "클로드 코드 총책임자 Boris Cherny의 실사용법(창 5개 동시 실행, 계획 우선, 자기검증) 5가지와 제작자만 아는 추가 팁 5가지를 정리한 영상.",
-      "descEn": "Breaks down Claude Code lead Boris Cherny's real workflow (5 parallel windows, plan-first, self-verification) plus 5 more insider tips.",
-      "channel": "메이커 에반 | Maker Evan",
-      "publishedAt": "2026-02-26T00:00:00Z",
-      "addedAt": "2026-09-02T23:16:03Z"
     },
     {
       "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
