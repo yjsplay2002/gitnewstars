@@ -1,6 +1,77 @@
 {
-  "generatedAt": "2026-09-11T10:00:00Z",
+  "generatedAt": "2026-09-12T09:00:00Z",
   "videos": [
+    {
+      "id": "vid-nateherk-claude-code-32-tricks",
+      "youtubeId": "jqoFP9QapXI",
+      "category": "tip",
+      "title": "16분 만에 클로드 코드 마스터 — 실전 트릭 32가지",
+      "titleEn": "32 Tricks to Level Up Claude Code in 16 Mins",
+      "descKo": "CLAUDE.md 파일 크기를 관리하고 하위 파일로 라우팅하는 법부터, 막히면 바로 중단하고 다시 프롬프트하는 습관, 낮은 품질 출력에 적극적으로 이의를 제기하는 법, `/rewind`로 되돌리는 법까지 빠르게 훑는 영상.",
+      "descEn": "A fast rundown covering CLAUDE.md file-size discipline, routing CLAUDE.md to sub-files, exiting early and reprompting instead of fighting a bad output, aggressively challenging low-quality results, and using `/rewind` to undo.",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-04-27T00:00:00Z",
+      "addedAt": "2026-09-12T09:00:00Z"
+    },
+    {
+      "id": "vid-gregisenberg-claude-code-new-features",
+      "youtubeId": "SkY-tR9kf-k",
+      "category": "tip",
+      "title": "클로드 코드 신기능 설명 — CLAUDE.md를 'AI 직원 운영 매뉴얼'로 쓰는 법",
+      "titleEn": "Claude Code New Features, Explained",
+      "descKo": "CLAUDE.md를 업무 스타일·비즈니스 맥락·검토 규율까지 담은 'AI 직원 운영 매뉴얼'로 바꾸는 법과 새로운 워크스페이스 설정 기능들을 시연하는 영상.",
+      "descEn": "Demonstrates turning a CLAUDE.md file into an \"AI employee operating manual\" — work style, business context, review discipline — plus new workspace setup features.",
+      "channel": "Greg Isenberg",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "addedAt": "2026-09-12T09:00:00Z"
+    },
+    {
+      "id": "vid-aitechbook-multiagent-orchestration",
+      "youtubeId": "crkcsWMGa54",
+      "category": "lecture",
+      "title": "멀티에이전트 오케스트레이션 — 여러 AI 에이전트를 하나처럼 움직이기",
+      "titleEn": "Multi-Agent Orchestration: Make Many AI Agents Work as One",
+      "descKo": "앤스로픽의 자체 멀티에이전트 연구 수치(리드 Opus 4 + 서브에이전트 Sonnet 4 조합이 단일 Opus 4보다 90.2% 우수, 토큰 사용량이 성능 편차의 80%를 설명, 멀티에이전트가 단일 대화 대비 약 15배 토큰 소모)를 근거로 언제 오케스트레이션이 비용 대비 가치 있는지 짚어주는 강의.",
+      "descEn": "Cites Anthropic's own multi-agent research numbers — a lead Opus-4 plus Sonnet-4 sub-agents beating single-agent Opus 4 by 90.2%, token usage explaining 80% of performance variance, and multi-agent systems using ~15x the tokens of a single chat — to frame when orchestration is actually worth the cost.",
+      "channel": "AI TechBook",
+      "publishedAt": "2026-05-31T00:00:00Z",
+      "addedAt": "2026-09-12T09:00:00Z"
+    },
+    {
+      "id": "vid-alexrusin-ai-agent-workflow",
+      "youtubeId": "ls-gruxjQ4M",
+      "category": "usecase",
+      "title": "AI 에이전트로 기능을 출시하는 실제 워크플로우",
+      "titleEn": "The Exact Workflow I Use to Ship Features with AI Agents",
+      "descKo": "VS Code 안에서 Matt Pocock의 '문서로 grill하기(grill with docs)' 컨텍스트 수집 스킬과 Superpowers 플러그인의 구현 계획 스킬을 조합해 실제로 기능을 출시하고 코드 리뷰까지 마치는 실전 워크플로우 영상.",
+      "descEn": "Walks through a real feature-shipping workflow in VS Code using Matt Pocock's \"grill with docs\" context-gathering skill combined with the Superpowers plugin's implementation-plan skill, then code review.",
+      "channel": "Alex Rusin",
+      "addedAt": "2026-09-12T09:00:00Z"
+    },
+    {
+      "id": "vid-builderjosh-codex-verify-ko",
+      "youtubeId": "ZDfNfEGo7Fc",
+      "category": "usecase",
+      "title": "코덱스가 최고라는 소문, 직접 검증 — 세팅부터 실전 앱 개발까지",
+      "titleEn": "Verifying the Rumor That Codex Is the Best — From Setup to Building a Real App (feat. OpenAI)",
+      "descKo": "비개발자도 따라올 수 있는 코덱스 바이브 코딩 가이드. 터미널 세팅, YOLO·풀액세스 모드, 패스트 모드부터 bkit 플러그인으로 사내 휴가 신청 ERP를 만들고 오픈AI API로 실시간 회의록 앱까지 구축하는 과정을 담았다.",
+      "descEn": "A non-developer-friendly Codex vibe-coding guide covering terminal setup, YOLO/full-access mode, fast mode, building an internal leave-request ERP with the bkit plugin, and a real-time meeting-transcription app via the OpenAI API.",
+      "channel": "빌더 조쉬 Builder Josh",
+      "publishedAt": "2026-05-20T00:00:00Z",
+      "addedAt": "2026-09-12T09:00:00Z"
+    },
+    {
+      "id": "vid-myf-2026-ai-usage-ko",
+      "youtubeId": "7TbZ6KweVFs",
+      "category": "tip",
+      "title": "2026년 최신 AI 사용법 — 챗GPT·제미나이, 실제로 잘 쓰는 기능들",
+      "titleEn": "The Latest 2026 Ways to Use AI — What I Actually Use ChatGPT & Gemini For",
+      "descKo": "낡은 개인 포트폴리오 사이트를 AI 사이트 빌더 기능으로 처음부터 다시 만들면서, 기존 유료 호스팅과의 비용을 구체적으로 비교해 보여주는 실전 팁 영상.",
+      "descEn": "A creator rebuilds her own aging portfolio website from scratch using an AI site-builder feature, with a concrete before/after cost comparison against her old paid hosting.",
+      "channel": "미래채널 MyF",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "addedAt": "2026-09-12T09:00:00Z"
+    },
     {
       "id": "vid-anthropic-claude-code-team-workflow",
       "youtubeId": "S-sYlFiGFv8",
@@ -12,17 +83,6 @@
       "channel": "Claude",
       "publishedAt": "2026-09-02T00:00:00Z",
       "addedAt": "2026-09-08T09:00:00Z"
-    },
-    {
-      "id": "vid-devopsflavius-claude-code-13-tips",
-      "youtubeId": "LO0n5UTSGGE",
-      "category": "tip",
-      "title": "2026년에 꼭 알아야 할 클로드 코드 팁 13가지",
-      "titleEn": "13 Claude Code Tips & Tricks Everyone Needs in 2026",
-      "descKo": "`/init`으로 CLAUDE.md를 만들어 프로젝트 메모리로 쓰는 법부터 `@` 파일 멘션으로 컨텍스트를 즉시 끌어오는 법까지, 실무에서 매일 쓰는 클로드 코드 팁 13가지를 순서대로 짚어주는 영상.",
-      "descEn": "Walks through 13 daily-use Claude Code tips, from running `/init` to generate a CLAUDE.md project-memory file to using `@` file mentions to pull context into a session instantly.",
-      "channel": "DevOps with Flavius",
-      "addedAt": "2026-09-09T23:08:52Z"
     },
     {
       "id": "vid-gimyisob-claude-code-20-tips-ko",
@@ -49,18 +109,6 @@
       "addedAt": "2026-09-11T10:00:00Z"
     },
     {
-      "id": "vid-codingsloth-1000-hours-claude-code",
-      "youtubeId": "YAsxyoTWFDA",
-      "category": "usecase",
-      "title": "클로드 코드에 1000시간 이상 써보고 깨달은 것들",
-      "titleEn": "I Have Spent 1000+ Hours With Claude Code. This Is What I Learned",
-      "descKo": "1000시간 넘게 클로드 코드를 실사용하며 배운 워크플로우와 교훈을 정리한 실사용 후기 영상이다.",
-      "descEn": "A first-hand account of lessons learned from using Claude Code for over 1,000 hours.",
-      "channel": "The Coding Sloth",
-      "publishedAt": "2026-08-18T00:00:00Z",
-      "addedAt": "2026-09-09T09:00:00Z"
-    },
-    {
       "id": "vid-sandeepswadia-claude-code-2026",
       "youtubeId": "aXM56qJQT7Y",
       "category": "usecase",
@@ -70,30 +118,6 @@
       "descEn": "Challenges the idea that programming is reserved for an elite few, showing through real examples how anyone with an idea can build a working product using Claude Code in 2026.",
       "channel": "Sandeep Swadia",
       "publishedAt": "2026-09-10T00:00:00Z",
-      "addedAt": "2026-09-11T10:00:00Z"
-    },
-    {
-      "id": "vid-greenkokki-codex-beginner-guide-ko",
-      "youtubeId": "wG5Uot1cMv0",
-      "category": "lecture",
-      "title": "고품질 코덱스 초보자 가이드 (2026)",
-      "titleEn": "High-Quality Codex Beginner's Guide (2026)",
-      "descKo": "코덱스 데스크톱 앱 설치부터 작업 폴더 연결, 모델·속도·권한 설정까지 처음 코덱스를 접하는 사람을 위해 순서대로 짚어주는 강의형 영상.",
-      "descEn": "A step-by-step lecture-style guide covering Codex desktop app installation, connecting a working folder, and configuring model/speed/permission settings for first-time users.",
-      "channel": "그린코끼리 AI (Greenkokki AI)",
-      "publishedAt": "2026-05-12T00:00:00Z",
-      "addedAt": "2026-09-08T09:00:00Z"
-    },
-    {
-      "id": "vid-freecodecamp-agentic-ai-course",
-      "youtubeId": "Zy7EXDONlTY",
-      "category": "lecture",
-      "title": "에이전틱 AI 완전정복 — 초보자를 위한 풀코스",
-      "titleEn": "Agentic AI – Complete Course for Beginners",
-      "descKo": "랭체인·랭그래프로 프로덕션 수준의 멀티에이전트 시스템을 만드는 법을 처음부터 다루는 프리코드캠프의 정규 강의. 핵심 개념부터 순차·병렬·조건부 워크플로, RAG, AWS 배포까지 구조적으로 학습한다.",
-      "descEn": "A structured freeCodeCamp course teaching how to build production-ready multi-agent systems with LangChain and LangGraph, covering core fundamentals through RAG and cloud deployment.",
-      "channel": "freeCodeCamp.org",
-      "publishedAt": "2026-07-30T00:00:00Z",
       "addedAt": "2026-09-11T10:00:00Z"
     },
     {
@@ -107,18 +131,6 @@
       "channel": "레인 | AI 바이브코딩",
       "publishedAt": "2026-09-01T00:00:00Z",
       "addedAt": "2026-09-02T09:30:00Z"
-    },
-    {
-      "id": "vid-rainyreaksmey-claude-codex-copilot-2026",
-      "youtubeId": "SoP2H4iKpWA",
-      "category": "tip",
-      "title": "최고의 AI 코딩 에이전트는? 클로드 코드 vs 코덱스 vs 깃허브 코파일럿 (2026)",
-      "titleEn": "Best AI Coding Agent? Claude Code vs Codex vs GitHub Copilot (2026)",
-      "descKo": "클로드 코드·코덱스·깃허브 코파일럿 세 도구를 직접 비교하며 각각 언제 쓰는 게 유리한지 짚어주는 2026년 비교 영상.",
-      "descEn": "A head-to-head 2026 comparison of Claude Code, Codex, and GitHub Copilot, breaking down when each tool actually wins.",
-      "channel": "Rainy Reaksmey",
-      "publishedAt": "2026-08-29T00:00:00Z",
-      "addedAt": "2026-09-01T09:30:00Z"
     },
     {
       "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
@@ -155,18 +167,6 @@
       "channel": "Pouya Eti",
       "publishedAt": "2026-09-01T00:00:00Z",
       "addedAt": "2026-09-02T09:30:00Z"
-    },
-    {
-      "id": "vid-darrelwilson-vibecoding-beginners-guide",
-      "youtubeId": "x8WUtEv1YEg",
-      "category": "lecture",
-      "title": "바이브 코딩 완전 초보자 가이드 — 노코드로 첫 웹사이트·앱 만들기",
-      "titleEn": "The Complete Beginners Guide To Vibe Coding",
-      "descKo": "코드를 전혀 몰라도 AI만으로 첫 웹사이트·앱을 완성하도록 처음부터 끝까지 구조화해 가르치는 바이브 코딩 입문 강의.",
-      "descEn": "A structured beginner course teaching vibe coding from scratch — building a first working website or app using AI with no code required.",
-      "channel": "Darrel Wilson",
-      "publishedAt": "2026-08-27T00:00:00Z",
-      "addedAt": "2026-08-27T23:14:13Z"
     },
     {
       "id": "vid-sihyunadventure-claude-code-2hr-course-ko",
