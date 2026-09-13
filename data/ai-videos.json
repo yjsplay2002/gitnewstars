@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T23:10:00Z",
+  "generatedAt": "2026-09-14T09:45:00Z",
   "videos": [
     {
       "id": "vid-nateherk-claude-code-32-tricks",
@@ -11,41 +11,6 @@
       "descEn": "A fast rundown covering CLAUDE.md file-size discipline, routing CLAUDE.md to sub-files, exiting early and reprompting instead of fighting a bad output, aggressively challenging low-quality results, and using `/rewind` to undo.",
       "channel": "Nate Herk | AI Automation",
       "publishedAt": "2026-04-27T00:00:00Z",
-      "addedAt": "2026-09-12T09:00:00Z"
-    },
-    {
-      "id": "vid-gregisenberg-claude-code-new-features",
-      "youtubeId": "SkY-tR9kf-k",
-      "category": "tip",
-      "title": "클로드 코드 신기능 설명 — CLAUDE.md를 'AI 직원 운영 매뉴얼'로 쓰는 법",
-      "titleEn": "Claude Code New Features, Explained",
-      "descKo": "CLAUDE.md를 업무 스타일·비즈니스 맥락·검토 규율까지 담은 'AI 직원 운영 매뉴얼'로 바꾸는 법과 새로운 워크스페이스 설정 기능들을 시연하는 영상.",
-      "descEn": "Demonstrates turning a CLAUDE.md file into an \"AI employee operating manual\" — work style, business context, review discipline — plus new workspace setup features.",
-      "channel": "Greg Isenberg",
-      "publishedAt": "2026-08-21T00:00:00Z",
-      "addedAt": "2026-09-12T09:00:00Z"
-    },
-    {
-      "id": "vid-aitechbook-multiagent-orchestration",
-      "youtubeId": "crkcsWMGa54",
-      "category": "lecture",
-      "title": "멀티에이전트 오케스트레이션 — 여러 AI 에이전트를 하나처럼 움직이기",
-      "titleEn": "Multi-Agent Orchestration: Make Many AI Agents Work as One",
-      "descKo": "앤스로픽의 자체 멀티에이전트 연구 수치(리드 Opus 4 + 서브에이전트 Sonnet 4 조합이 단일 Opus 4보다 90.2% 우수, 토큰 사용량이 성능 편차의 80%를 설명, 멀티에이전트가 단일 대화 대비 약 15배 토큰 소모)를 근거로 언제 오케스트레이션이 비용 대비 가치 있는지 짚어주는 강의.",
-      "descEn": "Cites Anthropic's own multi-agent research numbers — a lead Opus-4 plus Sonnet-4 sub-agents beating single-agent Opus 4 by 90.2%, token usage explaining 80% of performance variance, and multi-agent systems using ~15x the tokens of a single chat — to frame when orchestration is actually worth the cost.",
-      "channel": "AI TechBook",
-      "publishedAt": "2026-05-31T00:00:00Z",
-      "addedAt": "2026-09-12T09:00:00Z"
-    },
-    {
-      "id": "vid-alexrusin-ai-agent-workflow",
-      "youtubeId": "ls-gruxjQ4M",
-      "category": "usecase",
-      "title": "AI 에이전트로 기능을 출시하는 실제 워크플로우",
-      "titleEn": "The Exact Workflow I Use to Ship Features with AI Agents",
-      "descKo": "VS Code 안에서 Matt Pocock의 '문서로 grill하기(grill with docs)' 컨텍스트 수집 스킬과 Superpowers 플러그인의 구현 계획 스킬을 조합해 실제로 기능을 출시하고 코드 리뷰까지 마치는 실전 워크플로우 영상.",
-      "descEn": "Walks through a real feature-shipping workflow in VS Code using Matt Pocock's \"grill with docs\" context-gathering skill combined with the Superpowers plugin's implementation-plan skill, then code review.",
-      "channel": "Alex Rusin",
       "addedAt": "2026-09-12T09:00:00Z"
     },
     {
@@ -157,18 +122,6 @@
       "addedAt": "2026-08-23T23:22:13Z"
     },
     {
-      "id": "vid-pouyaeti-fable-5-1-real-test",
-      "youtubeId": "hCIi_7rDPD4",
-      "category": "usecase",
-      "title": "클로드 페이블 5.1 실제 테스트 — 어려운 프로젝트 2개로 성능·비용 검증",
-      "titleEn": "Claude Fable 5.1 Just Dropped: I Tested It on 2 Hard Projects And It's 2x Better for Half the Price",
-      "descKo": "출시 직후 클로드 페이블 5.1을 어려운 프로젝트 2개에 직접 투입해 이전 모델 대비 성능과 비용을 비교 테스트한 실사용 영상.",
-      "descEn": "Puts freshly-released Claude Fable 5.1 through two hard real projects right after launch, comparing performance and cost against the prior model.",
-      "channel": "Pouya Eti",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "addedAt": "2026-09-02T09:30:00Z"
-    },
-    {
       "id": "vid-sihyunadventure-claude-code-2hr-course-ko",
       "youtubeId": "DDAKFq7zplY",
       "category": "lecture",
@@ -179,6 +132,54 @@
       "channel": "시현의 모험 | Sihyun Adventure",
       "publishedAt": "2026-05-20T00:00:00Z",
       "addedAt": "2026-09-02T23:16:03Z"
+    },
+    {
+      "id": "vid-ttj-remove-ai-look-ko",
+      "youtubeId": "pYK2inPc4E4",
+      "category": "tip",
+      "title": "AI 티 싹 빼는 단 한 줄 — 디자인이 이렇게 달라집니다",
+      "titleEn": "One Line That Removes the 'Obviously AI-Made' Look From Your Design",
+      "descKo": "GPT Image·클로드·코덱스로 만든 바이브 코딩 웹사이트가 티나게 AI스러워 보이는 문제를, 프롬프트 한 줄로 해결하는 실전 팁. 에이전시·강의 플랫폼·운세 사이트를 리디자인한 실제 전후 비교를 보여준다.",
+      "descEn": "A single practical prompt trick to remove the \"obviously AI-made\" look from vibe-coded websites, using Codex/GPT Image together with Claude/Codex, with real before/after redesigns of agency, course-platform, and fortune-telling sites.",
+      "channel": "코딩 수익화 : 투더제이 TTJ",
+      "publishedAt": "2026-09-13T00:00:00Z",
+      "addedAt": "2026-09-14T09:45:00Z"
+    },
+    {
+      "id": "vid-joemaddalone-orca-parallel-agents",
+      "youtubeId": "vZUUHMCBoQg",
+      "category": "tip",
+      "title": "오르카로 로컬 맥에서 코딩 에이전트 수십 개 병렬 실행하기",
+      "titleEn": "Parallel Agent Orchestration with Orca: Local AI Mac",
+      "descKo": "Orca라는 로컬 AI 개발 환경(ADE)으로 맥 한 대에서 10~100개의 코딩 에이전트를 동시에 병렬로 돌리는 법을 시연하는 영상. 에이전트 오케스트레이션을 실제 도구로 보여주는 구체적 데모.",
+      "descEn": "Demonstrates running 10-100 coding agents in parallel locally on a Mac using the Orca desktop AI Development Environment (ADE) — a concrete tool demo of agent orchestration in practice.",
+      "channel": "Joe Maddalone",
+      "publishedAt": "2026-08-21T00:00:00Z",
+      "addedAt": "2026-09-14T09:45:00Z"
+    },
+    {
+      "id": "vid-simplilearn-agentic-ai-course-2026",
+      "youtubeId": "IFs8LRbKTIY",
+      "category": "lecture",
+      "title": "에이전틱 AI 완전정복 1시간 강의 — 에이전트·워크플로우 만들기",
+      "titleEn": "Agentic AI Full Course 2026 in 1 Hour | Build AI Agents & Workflows",
+      "descKo": "에이전틱 AI의 핵심 개념·프레임워크부터 실제 에이전트 워크플로우를 만드는 법까지 1시간에 정리한 입문~중급 강의. 폭넓은 시청자를 겨냥한 구조적인 강의 형식.",
+      "descEn": "A structured beginner-to-intermediate crash course on agentic AI concepts, frameworks, and building agent workflows in one hour, aimed at a broad audience.",
+      "channel": "Simplilearn",
+      "publishedAt": "2026-09-07T00:00:00Z",
+      "addedAt": "2026-09-14T09:45:00Z"
+    },
+    {
+      "id": "vid-yalpak-codex-automation-usecase-ko",
+      "youtubeId": "Bzdcg70ivrs",
+      "category": "usecase",
+      "title": "코덱스 참교육 — 업무 자동화부터 바이브 코딩까지",
+      "titleEn": "The Real Codex Lesson — From Work Automation to Vibe Coding",
+      "descKo": "코덱스 앱·에디터 확장·터미널 설치부터 플러그인 활용까지 챕터별로 짚어주고, 실제 업무 자동화 사례를 거쳐 바이브 코딩까지 이어지는 실전 데모 영상.",
+      "descEn": "A chaptered walkthrough of Codex installation and setup (app, editor extension, terminal) and plugins, moving through real task-automation use cases into vibe coding.",
+      "channel": "얄팍한 코딩사전",
+      "publishedAt": "2026-07-20T00:00:00Z",
+      "addedAt": "2026-09-14T09:45:00Z"
     }
   ]
 }
