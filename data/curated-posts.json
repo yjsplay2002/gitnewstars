@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-09-14T09:45:00Z",
+  "generatedAt": "2026-09-15T09:30:00Z",
   "posts": [
+    {
+      "id": "curated-20260915-diagram-design-skill-ko",
+      "title": "AI가 그린 다이어그램이 어색한 이유 — Diagram Design 스킬로 박스·화살표 나열 탈출",
+      "body": "GeekNews에 소개된 Diagram Design은 클로드 코드 같은 에이전트가 자연어만으로 다이어그램을 그릴 때 흔히 생기는 '박스와 화살표만 나열되는' 문제를 정보 위계·타이포·색상 규칙으로 고쳐주는 오픈소스 스킬이다. 강조색은 핵심 요소 1~2개에만 쓰고 불필요한 연결선을 줄이며, 아키텍처도·플로우차트·시퀀스도·ER도·타임라인 등 여러 유형을 지원한다. 웹사이트에서 브랜드 색상·폰트를 추출해 재사용 가능한 스타일 프로필로 저장할 수 있고, 결과물은 빌드 과정 없이 브라우저에서 바로 열리는 HTML+SVG+CSS로 나오며 라이트/다크 테마와 명암비 접근성 체크까지 챙긴다. MIT 라이선스로 공개됐다.",
+      "titleEn": "Why AI-Drawn Diagrams Look Off — the Diagram Design Skill Fixes the 'Boxes and Arrows' Problem",
+      "bodyEn": "Shared on GeekNews, Diagram Design is an open-source skill that fixes the \"boxes and arrows only\" look AI agents like Claude Code produce when diagramming from natural language, applying hierarchy, typography, and color rules instead. It reserves accent colors for 1-2 key elements, trims unnecessary connectors, and covers architecture diagrams, flowcharts, sequence diagrams, ER diagrams, and timelines. It extracts a site's brand colors/fonts into a reusable style profile, and outputs build-free HTML+SVG+CSS with light/dark themes and contrast-accessibility checks. Released under the MIT license.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/cathrynlavery/diagram-design",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-14T00:00:00Z",
+      "curatedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "curated-20260915-vibe-dashboard-ugly-ko",
+      "title": "바이브 코딩 대시보드가 어설퍼 보이는 이유 10가지 — '104경기'가 3번 반복되는 이유",
+      "body": "kucharski.substack.com 글은 바이브 코딩으로 만든 대시보드가 왜 아마추어처럼 보이는지 10가지 구체적 이유를 짚는다. 시각 요소 6개가 모두 같은 테두리 두께·배경색·대비를 써서 위계가 없고, 산점도 히어로 그래프가 여백만 차지하며, 데이터셋의 '104경기'라는 정보가 대시보드 안에서 3번이나 중복 표시된다. 폰트는 구글 폰트 기본값인 IBM Plex Mono·Archivo를 그대로 써서 티가 나고, 폰트 크기 11종·모서리 반경 8단계가 뒤섞여 있다는 점도 지적한다.",
+      "titleEn": "10 Reasons Your Vibe-Coded Dashboard Looks Amateurish — Why '104 Matches' Gets Shown 3 Times",
+      "bodyEn": "This Substack post pinpoints 10 concrete reasons vibe-coded dashboards look amateurish: all 6 visual elements share identical border weight, background, and contrast with no hierarchy; a scatter-plot hero chart wastes prime space; the fact \"104 matches\" is redundantly displayed three times across the dashboard; default Google Fonts (IBM Plex Mono, Archivo) signal a design shortcut; and 11 font sizes plus 8 corner-radius values are mixed inconsistently.",
+      "sourceName": "Substack · Kucharski",
+      "sourceUrl": "https://kucharski.substack.com/p/ten-reasons-your-vibe-coded-dashboard",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-14T00:00:00Z",
+      "curatedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "curated-20260915-study-kit-plugin-ko",
+      "title": "아는 내용은 건너뛰고 모르는 부분만 — 질문할 때마다 교재를 고쳐 쓰는 클로드 코드 학습 플러그인 'Study Kit'",
+      "body": "GeekNews Show GN에 올라온 Study Kit은 클로드 코드와 코덱스에서 함께 쓰는 학습 플러그인으로, 학습자의 배경·목표·가용 시간·설명 선호도를 먼저 파악한 뒤 목표 역량에서 역산해 커리큘럼을 짠다. 학습 중 질문을 던지면 교재의 빈틈을 찾아 다음 회차 교재를 즉시 고쳐 쓰며, 이 개선 사이클을 8회 이상 반복할 수 있다. 한국어를 포함한 다국어를 지원하고 학습 자료·진행 기록을 폴더별로 분리 저장하며, 현재 버전은 2.0.0이다.",
+      "titleEn": "Skip What You Know, Fix What You Don't — 'Study Kit', a Claude Code Plugin That Rewrites Its Own Material Every Time You Ask a Question",
+      "bodyEn": "Posted on GeekNews's Show GN, Study Kit is a Claude Code/Codex learning plugin that first profiles the learner (background, goal, time available, explanation style) then builds a curriculum by working backward from the target skill. When the learner asks a question mid-study, it detects gaps in the material and rewrites it for the next round — a refine cycle that can repeat 8+ times. It supports multiple languages including Korean, keeps materials and progress in separate folders, and is currently at v2.0.0.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://github.com/H-Hur/study-kit",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-14T00:00:00Z",
+      "curatedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "curated-20260915-preprompt-migration-gotchas",
+      "title": "35KB 프리프롬프트를 오퍼스에서 셀프호스팅 오야마로 옮기다 생긴 일 — 3분 만에 에이전트가 '헛돌기' 시작",
+      "body": "개인 블로그에 올라와 HN 105점을 받은 글은 128GB 메모리를 가진 AMD 라이젠 AI MAX+ 395 머신에서 65,000토큰 컨텍스트 한도를 가진 셀프호스팅 오야마로 35KB짜리 프리프롬프트를 옮기다 겪은 문제를 다룬다. 프리프롬프트가 컨텍스트의 14%를 차지하면서 3분 만에 같은 도구 호출·파일 읽기를 반복하는 '헛돌기' 현상이 나타났다. 해법으로 거대한 프롬프트를 단일 목적 단위로 쪼개고, 오야마 컨텍스트 길이를 수동으로 조정하고, 부정 지시문을 긍정형으로 바꾸고, 상태를 디스크에 기록해 에이전트가 필요한 부분만 다시 읽게 하고, opencode의 선언형 에이전트 설정을 쓰라고 제안한다.",
+      "titleEn": "What Broke When a 35KB Preprompt Moved From Opus to Self-Hosted Ollama — Agents Started Thrashing Within 3 Minutes",
+      "bodyEn": "This personal-blog post, which hit 105 points on Hacker News, documents migrating a 35KB preprompt to a self-hosted Ollama setup with a 65k-token context cap on a 128GB AMD Ryzen AI MAX+ 395 machine. The preprompt ate 14% of context and caused \"thrashing\" — repeated identical tool calls and file reads — within 3 minutes. Fixes offered: split monolithic prompts into single-objective units, manually tune Ollama's context length, replace negative directives with positive ones, log state to disk so agents re-read only the slice they need, and use opencode's declarative agent config.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-13T00:00:00Z",
+      "curatedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "curated-20260915-luna-vs-astra-code-review-cost",
+      "title": "코드 리뷰에 저가 모델 써도 될까 — 1.20달러짜리 모델과 28배 비싼 모델을 50개 PR로 붙여봤다",
+      "body": "entelligence.ai가 GPT-5.6 루나(입력 0.20달러·출력 1.20달러, 100만 토큰당)와 GPT-6 아스트라(입력 10달러·출력 50달러)를 실제 PR 50개로 코드 리뷰 성능을 겨뤘다. 루나는 검증된 버그 69개를 리뷰당 0.0041달러에 찾았고, 아스트라는 92개를 리뷰당 0.113달러에 찾아 비용은 28배 차이가 났다. 정밀도는 루나 74% 대 아스트라 96%였고, 보안 버그만 따로 보면 루나가 24개 중 9개, 아스트라가 24개 중 19개를 잡아냈다. 결론은 일상적인 정확성 버그는 저가 모델로 충분하지만, 인증·권한 관련 코드는 저가 모델 단독 리뷰에 맡기지 말라는 것.",
+      "titleEn": "Is a $1.20 Model Good Enough for Code Review? A 50-PR Benchmark Against a 28x Pricier One",
+      "bodyEn": "entelligence.ai benchmarked GPT-5.6 Luna ($0.20/$1.20 per M input/output tokens) against GPT-6 Astra ($10/$50 per M tokens) on 50 real pull requests. Luna found 69 verified bugs at $0.0041/review; Astra found 92 at $0.113/review — a 28x cost gap. Precision was 74% for Luna versus 96% for Astra, and on security bugs specifically Luna caught 9 of 24 versus Astra's 19 of 24. The takeaway: cheap models are fine for everyday correctness bugs, but never let one review auth/permission code alone.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-14T00:00:00Z",
+      "curatedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "curated-20260915-ask-hn-default-model-routing",
+      "title": "다들 기본 모델로 뭐 쓰나요 — HN이 공유한 실전 모델 라우팅 습관들",
+      "body": "Ask HN 스레드(60점)에서 개발자들이 자신의 기본 모델·라우팅 습관을 공유했다. 한 사람은 일상 작업엔 하이쿠를 'ask'로 별칭 걸어 쓰고 PLAN.md 생성은 '페이블'에게 맡긴 뒤 실행은 오퍼스나 소네트가 고르게 하고, 다른 사람은 저렴한 '코덱스+테라 맥스'를 기본으로 쓰다 어려운 작업만 '클로드 코드+오퍼스5 미디엄'으로 전환한다. 또 다른 사람은 앤티그래비티에서 제미나이를 기본으로 쓰되 상세한 계획과 테스트 하네스를 먼저 만들어 실수 비용을 낮춘 뒤 속도를 우선한다는 전략을 공유했다.",
+      "titleEn": "What's Your Default Model? HN Shares Real-World Model-Routing Habits",
+      "bodyEn": "In a 60-point Ask HN thread, developers shared their default-model and routing habits: one aliases Haiku to `ask` for daily work and delegates PLAN.md generation to \"Fable,\" which then picks Opus or Sonnet for execution; another defaults to cheap \"Codex + Terra Max\" and switches to \"Claude Code + Opus 5 Medium\" only for hard tasks; another prefers Gemini on Antigravity for raw speed, first writing detailed plans and test harnesses so mistakes stay cheap.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=49672966",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-12T00:00:00Z",
+      "curatedAt": "2026-09-15T09:30:00Z"
+    },
     {
       "id": "curated-20260914-claude-code-goal-hook",
       "title": "클로드 코드에 아무도 안 알려주는 트릭 — '/goal' 후크로 셀프 루프 돌리기",
@@ -38,32 +116,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-09-09T00:00:00Z",
-      "curatedAt": "2026-09-14T09:45:00Z"
-    },
-    {
-      "id": "curated-20260914-claude-code-only-month-ko",
-      "title": "VS Code 없이 클로드 코드만 한 달 — RPA 엔지니어가 겪은 득과 실",
-      "body": "개인 블로그 AUTOFLOW에 올라온 글은 RPA 엔지니어가 VS Code를 완전히 끄고 한 달간 클로드 코드만으로 개발한 경험을 정리했다. 여러 파일에 걸친 컨텍스트 파악과 워드프레스 플러그인처럼 기존 패턴을 그대로 따라가는 능력은 확실히 좋았지만, 시각적 디버거가 없어 복잡한 버그는 결국 print문 추적으로 돌아가야 했다는 게 핵심 불만이다. 결론은 코드 생성·리팩터링은 클로드 코드, 디버깅과 구조 탐색은 VS Code로 나누는 하이브리드 워크플로.",
-      "titleEn": "A Month Using Only Claude Code, No VS Code — an RPA Engineer's Wins and Pain Points",
-      "bodyEn": "On his personal blog AUTOFLOW, an RPA engineer describes dropping VS Code entirely for a month and building only with Claude Code. Multi-file context handling and pattern-following (e.g., matching existing WordPress plugin conventions) held up well, but the lack of a visual debugger forced him back to print-statement tracing for complex bugs. His conclusion: a hybrid workflow — Claude Code for generation and refactoring, VS Code for debugging and structural navigation.",
-      "sourceName": "AUTOFLOW",
-      "sourceUrl": "https://eungming.com/claude-code-only-dev-experience/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-08T00:00:00Z",
-      "curatedAt": "2026-09-14T09:45:00Z"
-    },
-    {
-      "id": "curated-20260914-vibe-coding-vs-nocode-ko",
-      "title": "바이브 코딩 vs 노코드, 앱은 어느 쪽으로 만들어야 할까 — 체크리스트로 정리",
-      "body": "스윙투앱 블로그는 자연어로 코드를 직접 생성하는 바이브 코딩과, 미리 만들어진 컴포넌트를 조립하는 노코드 앱 빌더를 나란히 비교한다. 바이브 코딩은 자유도가 높은 대신 결과물을 반드시 검토·테스트·보안 점검까지 거쳐야 하고, 노코드는 개발자가 아니어도 장기 유지보수가 쉽다는 게 핵심 차이다. 글은 \"언제 바이브 코딩을 쓰고 언제 노코드를 써야 하는지\"를 구체적 체크리스트로 정리해 바로 판단 기준으로 삼을 수 있게 해준다.",
-      "titleEn": "Vibe Coding vs. No-Code App Builders — a Checklist for Which One to Use",
-      "bodyEn": "The Swing2App blog lines up vibe coding (AI generates code directly from natural language, high freedom) against no-code app builders (pre-built components, easier non-developer maintenance). Its core distinction: vibe coding demands follow-up review, testing, and security checks, while no-code trades flexibility for long-term maintainability without a developer. The post ends with a concrete \"use vibe coding when / use no-code when\" checklist readers can apply immediately.",
-      "sourceName": "스윙투앱 (Swing2App)",
-      "sourceUrl": "https://www.swing2app.co.kr/blog/811454/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-08T00:00:00Z",
       "curatedAt": "2026-09-14T09:45:00Z"
     },
     {
@@ -119,45 +171,6 @@
       "curatedAt": "2026-09-12T23:10:00Z"
     },
     {
-      "id": "curated-20260913-otodock-agent-departments",
-      "title": "클로드 코드·코덱스로 '디지털 직원' 부서를 꾸리는 셀프호스팅 회사 OS",
-      "body": "OtoDock은 자신의 클로드 코드나 코덱스 구독을 그대로 써서 AI 에이전트를 '디지털 직원'처럼 배치하는 셀프호스팅 플랫폼이다. 각 에이전트는 페르소나·메모리·작업공간·지식베이스·스킬·도구를 따로 갖고 부서 단위로 묶여 서로 업무를 위임·협업하며, 도커 컨테이너와 커널 샌드박스로 격리돼 실행된다. 원격 머신 페어링과 폰 연동, 예약·웹훅 기반 백그라운드 자동화도 지원하며, `mkdir otodock && cd otodock` 후 설치 스크립트 한 줄과 `localhost:8400` 대시보드 접속만으로 첫 에이전트를 띄울 수 있다.",
-      "titleEn": "OtoDock: A Self-Hosted 'Company OS' That Staffs Departments With Claude Code/Codex Agents",
-      "bodyEn": "OtoDock is a self-hosted platform that deploys AI agents as \"digital employees\" running on your own Claude Code or Codex subscription. Each agent gets its own persona, memory, workspace, knowledge base, skills, and tools, and agents are grouped into departments where they delegate tasks and collaborate, all running inside Docker containers with kernel sandboxes. It supports remote-machine pairing, phone integration, and scheduled/webhook-triggered background automation — setup is just `mkdir otodock && cd otodock`, a one-line installer, then creating your first agent at the `localhost:8400` dashboard.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/OtoDock/oto-dock",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-09T17:57:55Z",
-      "curatedAt": "2026-09-12T23:10:00Z"
-    },
-    {
-      "id": "curated-20260913-geiger-agent-inventory",
-      "title": "내 컴퓨터에 떠 있는 AI 에이전트, 뭘 만질 수 있는지 한눈에 — Geiger",
-      "body": "Geiger는 클로드 코드·커서·VS Code 등 여러 생태계에 흩어진 AI 에이전트, MCP 서버, 플러그인, 확장 프로그램을 훑어 각각이 코드 실행·자격증명 저장·파일시스템 접근 권한을 갖고 있는지 보여주는 읽기 전용 보안 스캐너다. 설정을 바꾸지 않고 알려진 설정 디렉터리·파일만 스캔하며, `npx geiger-scan` 한 줄이면 Node.js 18+ 환경에서 계정이나 관리자 권한 없이 바로 실행된다. 터미널 리포트, 개선 가이드가 붙은 HTML 리포트, 여러 대의 장비를 관리할 때 쓸 JSON 스냅샷까지 세 가지 출력 형식을 지원한다.",
-      "titleEn": "See Every AI Agent on Your Machine and What It Can Touch — Geiger",
-      "bodyEn": "Geiger is a read-only security scanner that inventories every AI agent, MCP server, plugin, and extension scattered across ecosystems like Claude Code, Cursor, and VS Code, showing which ones can execute code, store credentials, or touch the filesystem. It only scans known config directories/files without changing anything, and runs with one command — `npx geiger-scan` — needing just Node.js 18+, no account or admin rights. It outputs a terminal report, an HTML report with remediation guidance, or a JSON snapshot for fleet-wide drift detection.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/Atomburstofficial/geiger",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-09T14:54:49Z",
-      "curatedAt": "2026-09-12T23:10:00Z"
-    },
-    {
-      "id": "curated-20260913-yozm-copilot-vibe-coding-enterprise-ko",
-      "title": "바이브 코딩 시대, 기업들은 왜 커서 대신 깃허브 코파일럿을 골랐나",
-      "body": "요즘IT에 실린 글은 기업이 코파일럿을 도입할 때 라이선스만 나눠주는 것으로는 부족하고, 모델 접근 정책·부서별 예산 상한·SSO 연동까지 갖춰야 한다고 짚는다. 비즈니스 플랜은 월 19달러에 AI 크레딧 1,900개, 엔터프라이즈 플랜은 월 39달러에 3,900개를 제공하며, 이슈 생성부터 코드 리뷰·배포까지 개발 워크플로 전반에 코파일럿이 붙는다. 사용자별 크레딧 할당, 모델 선택 제한, 감사 로그 같은 기능으로 개발자의 자율성과 조직의 통제를 동시에 잡아야 한다는 게 핵심 주장이다.",
-      "titleEn": "Why Companies Chose GitHub Copilot Over Cursor in the Vibe-Coding Era",
-      "bodyEn": "This 요즘IT piece argues that enterprise Copilot rollouts need more than handing out licenses — they require model-access policy, per-department budget caps, and SSO integration. Business plans run $19/month for 1,900 AI credits, Enterprise plans $39/month for 3,900, with Copilot wired into the whole workflow from issue creation through code review to deployment. Its core argument: balancing developer autonomy with organizational governance takes per-user credit allocation, model-selection restrictions, and audit logging, not just seat counts.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3937/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-09T00:00:00Z",
-      "curatedAt": "2026-09-12T23:10:00Z"
-    },
-    {
       "id": "curated-20260912-rtk-token-savings-benchmark",
       "title": "터미널 출력 압축, 토큰 절감 소문과 다르다 — 1,740회 실측한 Quesma의 반박",
       "body": "Quesma가 코딩 에이전트 터미널 출력을 최대 90% 압축한다는 도구 RTK를 Terminal-Bench 2.1로 1,740회 실측했다. 클로드 코드(Fable)에서는 비용이 1~5%만 줄었고, OpenCode·딥시크 조합에서는 오히려 5~17% 늘었다. 터미널 출력이 전체 입력 토큰의 7~11%에 불과해 압축 자체의 절감 상한이 애초에 낮다는 게 핵심 결론이다.",
@@ -169,19 +182,6 @@
       "mediaUrl": "",
       "createdAt": "2026-09-11T00:00:00Z",
       "curatedAt": "2026-09-12T09:00:00Z"
-    },
-    {
-      "id": "curated-20260911-i-have-adhd-skill",
-      "title": "에이전트가 답을 안 묻히게 — 'I Have ADHD' 스킬, HN 535점",
-      "body": "개발자 ayghri가 만든 오픈소스 클로드 코드 스킬 'i-have-adhd'는 에이전트 응답이 서론과 사족으로 답을 묻어버리는 문제를 10가지 출력 규칙으로 해결한다. 행동을 맨 앞에 두고, 여러 단계 작업은 번호를 매기고, \"몇 분\" 같은 구체적 시간 표현을 쓰고, 섹션당 항목을 5개로 제한하며, \"좋은 질문이네요\" 같은 서론·마무리 인사를 없앤다. `claude plugin install i-have-adhd@i-have-adhd` 한 줄로 설치되고 커서·제미나이 등 다른 에이전트용 설정 가이드도 AGENTS.md에 포함되어 있어, SKILL.md를 포크해 자신만의 규칙으로 바꿀 수도 있다.",
-      "titleEn": "Stop Agents From Burying the Answer — the 'I Have ADHD' Skill, 535 Points on HN",
-      "bodyEn": "Developer ayghri's open-source Claude Code skill \"i-have-adhd\" fixes agent responses that bury the answer under preambles and tangents, via 10 formatting rules: lead with the action, number multi-step tasks, use concrete time estimates instead of \"a bit,\" cap each section at 5 items, and cut \"Great question!\"-style openers and closers. Install with one line, `claude plugin install i-have-adhd@i-have-adhd`, and AGENTS.md ships setup guides for other agents like Cursor and Gemini — fork SKILL.md to customize the rules for your own team.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/ayghri/i-have-adhd",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-08T14:13:26Z",
-      "curatedAt": "2026-09-10T23:20:00Z"
     },
     {
       "id": "curated-20260911-opusfived-add-to-cart",

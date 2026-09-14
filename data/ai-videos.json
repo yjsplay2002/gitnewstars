@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-09-14T09:45:00Z",
+  "generatedAt": "2026-09-15T09:30:00Z",
   "videos": [
+    {
+      "id": "vid-aiddukttak-gemini-10-features-ko",
+      "youtubeId": "9RZS9yicqSI",
+      "category": "tip",
+      "title": "퇴근 시간 앞당기는 제미나이 신기능 10가지",
+      "titleEn": "10 New Gemini Features That Save You 2 Hours Before You Clock Out",
+      "descKo": "챗봇처럼 질문만 하는 걸 넘어, 제미나이로 엑셀 시트·파워포인트·영상까지 바로 만들어내는 10가지 기능을 무료 프롬프트와 함께 정리한 영상.",
+      "descEn": "Goes beyond simple Q&A to show 10 Gemini features for generating Excel sheets, PowerPoint decks, and video directly, with free prompts included.",
+      "channel": "AI 뚝딱",
+      "publishedAt": "2026-09-08T00:00:00Z",
+      "addedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "vid-codesistency-mobile-app-claude-code",
+      "youtubeId": "pnTDHiCMobU",
+      "category": "usecase",
+      "title": "클로드 코드로 지역 소상공인 앱 만들기 — 풀코스",
+      "titleEn": "How to Build Mobile Apps for Local Businesses With Claude Code — Full Course",
+      "descKo": "클로드 코드만으로 실제 지역 소상공인을 위한 모바일 앱을 처음부터 끝까지 만드는 전체 과정을 보여주는 풀코스 영상.",
+      "descEn": "A full walkthrough building a real mobile app for a local business end-to-end using Claude Code.",
+      "channel": "Codesistency",
+      "publishedAt": "2026-09-02T00:00:00Z",
+      "addedAt": "2026-09-15T09:30:00Z"
+    },
+    {
+      "id": "vid-leedonghoon-claude-allinone-course-ko",
+      "youtubeId": "fjMceSbXTRM",
+      "category": "lecture",
+      "title": "2026년 최신 클로드 올인원 무료 강의 — 코워크·코드·디자인·챗",
+      "titleEn": "The Latest 2026 All-in-One Free Claude Course — Cowork, Code, Design, Chat",
+      "descKo": "클로드의 코워크·코드·디자인·챗 네 가지 기능을 모두 다루는 올인원 무료 강의 영상.",
+      "descEn": "A free all-in-one course covering Claude's Cowork, Code, Design, and Chat surfaces.",
+      "channel": "이동훈의 루트AI",
+      "publishedAt": "2026-08-27T00:00:00Z",
+      "addedAt": "2026-09-15T09:30:00Z"
+    },
     {
       "id": "vid-nateherk-claude-code-32-tricks",
       "youtubeId": "jqoFP9QapXI",
@@ -11,18 +47,6 @@
       "descEn": "A fast rundown covering CLAUDE.md file-size discipline, routing CLAUDE.md to sub-files, exiting early and reprompting instead of fighting a bad output, aggressively challenging low-quality results, and using `/rewind` to undo.",
       "channel": "Nate Herk | AI Automation",
       "publishedAt": "2026-04-27T00:00:00Z",
-      "addedAt": "2026-09-12T09:00:00Z"
-    },
-    {
-      "id": "vid-builderjosh-codex-verify-ko",
-      "youtubeId": "ZDfNfEGo7Fc",
-      "category": "usecase",
-      "title": "코덱스가 최고라는 소문, 직접 검증 — 세팅부터 실전 앱 개발까지",
-      "titleEn": "Verifying the Rumor That Codex Is the Best — From Setup to Building a Real App (feat. OpenAI)",
-      "descKo": "비개발자도 따라올 수 있는 코덱스 바이브 코딩 가이드. 터미널 세팅, YOLO·풀액세스 모드, 패스트 모드부터 bkit 플러그인으로 사내 휴가 신청 ERP를 만들고 오픈AI API로 실시간 회의록 앱까지 구축하는 과정을 담았다.",
-      "descEn": "A non-developer-friendly Codex vibe-coding guide covering terminal setup, YOLO/full-access mode, fast mode, building an internal leave-request ERP with the bkit plugin, and a real-time meeting-transcription app via the OpenAI API.",
-      "channel": "빌더 조쉬 Builder Josh",
-      "publishedAt": "2026-05-20T00:00:00Z",
       "addedAt": "2026-09-12T09:00:00Z"
     },
     {
@@ -47,18 +71,6 @@
       "descEn": "Official Anthropic video: Claude Code team members show how their real day-to-day workflow with Claude Code has evolved from a year of prompt-feedback-permission loops to now.",
       "channel": "Claude",
       "publishedAt": "2026-09-02T00:00:00Z",
-      "addedAt": "2026-09-08T09:00:00Z"
-    },
-    {
-      "id": "vid-gimyisob-claude-code-20-tips-ko",
-      "youtubeId": "8uif-Wf65SI",
-      "category": "tip",
-      "title": "12시간씩 클로드 코드 쓰고 깨달은 핵심 꿀팁 20가지",
-      "titleEn": "20 Essential Tips I Learned After Using Claude Code 12 Hours a Day",
-      "descKo": "하루 12시간씩 클로드 코드를 실무에 쓰며 체득한 실전 팁 20가지를 타임스탬프별로 빠르게 짚어주는 영상.",
-      "descEn": "A Korean creator who uses Claude Code 12 hours a day shares 20 practical tips picked up from heavy daily use, timestamped for quick reference.",
-      "channel": "김이솝의 AI 가이드",
-      "publishedAt": "2026-06-23T00:00:00Z",
       "addedAt": "2026-09-08T09:00:00Z"
     },
     {
@@ -167,18 +179,6 @@
       "descEn": "A structured beginner-to-intermediate crash course on agentic AI concepts, frameworks, and building agent workflows in one hour, aimed at a broad audience.",
       "channel": "Simplilearn",
       "publishedAt": "2026-09-07T00:00:00Z",
-      "addedAt": "2026-09-14T09:45:00Z"
-    },
-    {
-      "id": "vid-yalpak-codex-automation-usecase-ko",
-      "youtubeId": "Bzdcg70ivrs",
-      "category": "usecase",
-      "title": "코덱스 참교육 — 업무 자동화부터 바이브 코딩까지",
-      "titleEn": "The Real Codex Lesson — From Work Automation to Vibe Coding",
-      "descKo": "코덱스 앱·에디터 확장·터미널 설치부터 플러그인 활용까지 챕터별로 짚어주고, 실제 업무 자동화 사례를 거쳐 바이브 코딩까지 이어지는 실전 데모 영상.",
-      "descEn": "A chaptered walkthrough of Codex installation and setup (app, editor extension, terminal) and plugins, moving through real task-automation use cases into vibe coding.",
-      "channel": "얄팍한 코딩사전",
-      "publishedAt": "2026-07-20T00:00:00Z",
       "addedAt": "2026-09-14T09:45:00Z"
     }
   ]
