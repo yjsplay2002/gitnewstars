@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T09:30:00Z",
+  "generatedAt": "2026-09-17T23:11:16Z",
   "videos": [
     {
       "id": "vid-aiddukttak-gemini-10-features-ko",
@@ -14,16 +14,16 @@
       "addedAt": "2026-09-15T09:30:00Z"
     },
     {
-      "id": "vid-codesistency-mobile-app-claude-code",
-      "youtubeId": "pnTDHiCMobU",
-      "category": "usecase",
-      "title": "클로드 코드로 지역 소상공인 앱 만들기 — 풀코스",
-      "titleEn": "How to Build Mobile Apps for Local Businesses With Claude Code — Full Course",
-      "descKo": "클로드 코드만으로 실제 지역 소상공인을 위한 모바일 앱을 처음부터 끝까지 만드는 전체 과정을 보여주는 풀코스 영상.",
-      "descEn": "A full walkthrough building a real mobile app for a local business end-to-end using Claude Code.",
-      "channel": "Codesistency",
-      "publishedAt": "2026-09-02T00:00:00Z",
-      "addedAt": "2026-09-15T09:30:00Z"
+      "id": "vid-anoegonghak-cli-vs-gui-ko",
+      "youtubeId": "rpUNfIsLyGI",
+      "category": "tip",
+      "title": "AI 잘 쓰는 사람들은 왜 까만창을 켤까 — 코덱스·클로드 코드·제미나이 CLI 비교",
+      "titleEn": "Why Power Users Keep the Terminal Open — Comparing Codex, Claude Code, and Gemini CLI",
+      "descKo": "GUI 대신 터미널(CLI)을 쓰는 고수들의 이유를 코덱스·클로드 코드·제미나이 CLI를 직접 비교하며 설명하는 영상.",
+      "descEn": "Explains why power users prefer the terminal over GUI tools, directly comparing Codex, Claude Code, and Gemini CLI.",
+      "channel": "안될공학 - IT 테크 신기술",
+      "publishedAt": "2026-09-17T00:00:00Z",
+      "addedAt": "2026-09-17T23:11:16Z"
     },
     {
       "id": "vid-leedonghoon-claude-allinone-course-ko",
@@ -36,18 +36,6 @@
       "channel": "이동훈의 루트AI",
       "publishedAt": "2026-08-27T00:00:00Z",
       "addedAt": "2026-09-15T09:30:00Z"
-    },
-    {
-      "id": "vid-nateherk-claude-code-32-tricks",
-      "youtubeId": "jqoFP9QapXI",
-      "category": "tip",
-      "title": "16분 만에 클로드 코드 마스터 — 실전 트릭 32가지",
-      "titleEn": "32 Tricks to Level Up Claude Code in 16 Mins",
-      "descKo": "CLAUDE.md 파일 크기를 관리하고 하위 파일로 라우팅하는 법부터, 막히면 바로 중단하고 다시 프롬프트하는 습관, 낮은 품질 출력에 적극적으로 이의를 제기하는 법, `/rewind`로 되돌리는 법까지 빠르게 훑는 영상.",
-      "descEn": "A fast rundown covering CLAUDE.md file-size discipline, routing CLAUDE.md to sub-files, exiting early and reprompting instead of fighting a bad output, aggressively challenging low-quality results, and using `/rewind` to undo.",
-      "channel": "Nate Herk | AI Automation",
-      "publishedAt": "2026-04-27T00:00:00Z",
-      "addedAt": "2026-09-12T09:00:00Z"
     },
     {
       "id": "vid-myf-2026-ai-usage-ko",
@@ -86,18 +74,6 @@
       "addedAt": "2026-09-11T10:00:00Z"
     },
     {
-      "id": "vid-sandeepswadia-claude-code-2026",
-      "youtubeId": "aXM56qJQT7Y",
-      "category": "usecase",
-      "title": "2026년, 클로드 코드는 반드시 배워야 한다",
-      "titleEn": "You Need To Learn Claude Code In 2026",
-      "descKo": "코딩은 소수 전문가만의 영역이라는 통념을 깨고, 아이디어만 있으면 클로드 코드로 누구나 실제로 작동하는 제품을 만들 수 있음을 실사례로 보여주는 영상.",
-      "descEn": "Challenges the idea that programming is reserved for an elite few, showing through real examples how anyone with an idea can build a working product using Claude Code in 2026.",
-      "channel": "Sandeep Swadia",
-      "publishedAt": "2026-09-10T00:00:00Z",
-      "addedAt": "2026-09-11T10:00:00Z"
-    },
-    {
       "id": "vid-rain-claude-code-mcp-explained-ko",
       "youtubeId": "cskMc7hcdsg",
       "category": "tip",
@@ -122,6 +98,18 @@
       "addedAt": "2026-09-01T09:30:00Z"
     },
     {
+      "id": "vid-yangsiljang-vibecoding-university-ko",
+      "youtubeId": "oGaDyb6mSwM",
+      "category": "usecase",
+      "title": "바이브코딩으로 혼자 만든 제품 3개 중 2개 매각",
+      "titleEn": "Solo-Built 3 Products With Vibe Coding — Sold 2 of Them",
+      "descKo": "바이브코딩만으로 혼자 제품 3개를 만들어 그중 2개를 실제로 매각한 사례를 공유하는 실전 영상.",
+      "descEn": "A real case study of a solo builder who made three products with vibe coding and actually sold two of them.",
+      "channel": "양실장의 바이브코딩대학",
+      "publishedAt": "2026-09-17T00:00:00Z",
+      "addedAt": "2026-09-17T23:11:16Z"
+    },
+    {
       "id": "vid-pragmatic-vibecoding-security-breach-ko",
       "youtubeId": "sxKIjaMyBlg",
       "category": "usecase",
@@ -132,6 +120,18 @@
       "channel": "실용주의 개발",
       "publishedAt": "2026-08-22T00:00:00Z",
       "addedAt": "2026-08-23T23:22:13Z"
+    },
+    {
+      "id": "vid-codingsloth-1000-hours-claude-code",
+      "youtubeId": "YAsxyoTWFDA",
+      "category": "usecase",
+      "title": "클로드 코드 1000시간 넘게 써보고 배운 것",
+      "titleEn": "I Have Spent 1000+ Hours With Claude Code. This Is What I Learned",
+      "descKo": "1000시간 넘게 클로드 코드를 실무에 쓰며 얻은 습관과 교훈을 정리한 장기 실사용 회고 영상.",
+      "descEn": "A long-term real-world usage retrospective sharing habits and lessons from 1000+ hours of daily Claude Code use.",
+      "channel": "The Coding Sloth",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "addedAt": "2026-09-17T23:11:16Z"
     },
     {
       "id": "vid-sihyunadventure-claude-code-2hr-course-ko",
