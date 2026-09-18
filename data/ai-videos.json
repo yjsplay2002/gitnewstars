@@ -1,6 +1,102 @@
 {
-  "generatedAt": "2026-09-17T23:11:16Z",
+  "generatedAt": "2026-09-18T23:10:41Z",
   "videos": [
+    {
+      "id": "vid-makerevan-codex-switch-ko",
+      "youtubeId": "YbZglhAQ5S8",
+      "category": "tip",
+      "title": "왜 다들 코덱스로 넘어가나 — 하네스 없이 쓰는 법까지",
+      "titleEn": "Why Is Everyone Moving to Codex — Including How to Use It Without a Harness",
+      "descKo": "클로드 코드에서 코덱스로 갈아탄 네 가지 이유와, 플러그인 없이 ADR·AGENTS.md·스킬만으로 굴리는 실제 사용법, 아쉬운 점 세 가지를 타임스탬프별로 보여주는 영상.",
+      "descEn": "Four reasons for switching from Claude Code to Codex, the plugin-free ADR + AGENTS.md + skills workflow actually used day to day, and three remaining shortcomings, all timestamped.",
+      "channel": "메이커 에반 | Maker Evan",
+      "publishedAt": "2026-09-14T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-eopmu-janmeori-claude-skill-ko",
+      "youtubeId": "3d8jAHpwTyY",
+      "category": "tip",
+      "title": "Claude Code 진짜 고수는 다 이걸 쓴다 — 기본기이자 필살기 SKILL",
+      "titleEn": "Claude Code Power Users All Use This — The Fundamental and Secret Weapon: SKILL",
+      "descKo": "스킬의 의미와 구성, CLAUDE.md와 스킬을 구분해야 하는 이유, 앤스로픽 공식 스킬 살펴보기, 나만의 스킬 만들고 관리하는 팁까지 순서대로 다루는 영상.",
+      "descEn": "Covers what skills are and how they're structured, why CLAUDE.md and skills should be kept separate, a tour of Anthropic's official skills, and tips for building and managing your own.",
+      "channel": "업무의 잔머리",
+      "publishedAt": "2026-09-13T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-ttoksajang-claude-code-free-course-ko",
+      "youtubeId": "UXMMASGqbUQ",
+      "category": "lecture",
+      "title": "클로드코드 90%가 틀리게 하고 있음 — 클로드 무료 입문 강의",
+      "titleEn": "90% of People Use Claude Code Wrong — Free Claude Beginner Course",
+      "descKo": "코딩을 모르는 사장님이 손익관리 프로그램을 직접 만드는 50분 전 과정. 프로젝트·마크다운·CLAUDE.md·퍼미션 모드·모델 선택 개념과 플랜 모드로 PRD부터 만드는 법을 다룬다.",
+      "descEn": "A 50-minute end-to-end build where a non-coder makes a shop profit-tracking app, covering projects, markdown, CLAUDE.md, permission modes, model choice, and writing the PRD first in plan mode.",
+      "channel": "사업가를 위한 AI활용법, 똑사장",
+      "publishedAt": "2026-09-13T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-builderjosh-tiro-personal-agents-ko",
+      "youtubeId": "G9edFGL3rKs",
+      "category": "usecase",
+      "title": "연매출 40억 스타트업 Tiro가 설명하는 '온톨로지' — 개인 에이전트 12개로 조직 운영",
+      "titleEn": "How Startup Tiro (₩4B in Annual Revenue) Explains 'Ontology' — Running an Org With 12 Personal Agents",
+      "descKo": "Tiro의 CTO와 AX 담당이 SOUL.md·LLM 위키·온톨로지 3단 구조로 팀원마다 개인 AI 에이전트를 두고 인수인계와 B2B 업무까지 자동화하는 방식을 설명하는 인터뷰.",
+      "descEn": "Tiro's CTO and AX lead explain giving every teammate a personal AI agent built on a SOUL.md + LLM wiki + ontology stack, and using it for handoffs and B2B work.",
+      "channel": "빌더 조쉬 Builder Josh",
+      "publishedAt": "2026-09-18T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-silbaeldev-aside-browser-agent-ko",
+      "youtubeId": "lKvvVOFa6M0",
+      "category": "usecase",
+      "title": "AI 브라우저한테 제 앱을 쓰게 했습니다 — 메타 시니어 엔지니어 Aside 실전 활용",
+      "titleEn": "I Made an AI Browser Use My App — A Meta Senior Engineer's Hands-On With Aside",
+      "descKo": "AI 브라우저 Aside로 구독료 점검·YouTube Studio 분석을 시키고, 자기 앱을 쓰게 한 뒤 나온 불편 보고서를 코덱스로 넘겨 구현·리뷰·브라우저 테스트까지 이어가는 실전 영상.",
+      "descEn": "Uses the AI browser Aside for subscription audits and YouTube Studio analysis, then has it use the creator's own app and feeds its friction report to Codex for implementation, review, and browser testing.",
+      "channel": "실밸개발자",
+      "publishedAt": "2026-09-17T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-onionbi-claude-code-powerbi-5step-ko",
+      "youtubeId": "SJtgDfiS2kw",
+      "category": "usecase",
+      "title": "클로드코드로 고객분석 Power BI 대시보드 제작 5단계 프레임워크",
+      "titleEn": "A 5-Step Framework for Building a Customer-Analytics Power BI Dashboard With Claude Code",
+      "descKo": "'딸깍' 한 번에 통째로 시키는 대신 5단계로 나눠 시켰을 때 달라지는 점을 물류 선적 데이터와 KPI 정의서 실습 파일로 보여주는 영상.",
+      "descEn": "Shows what changes when you split the dashboard job into five steps instead of one giant prompt, using a logistics shipment dataset and a KPI-definition file as practice material.",
+      "channel": "어니언 비아이 (ONION BI)",
+      "publishedAt": "2026-09-14T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-googlecloud-harness-engineering-explained",
+      "youtubeId": "F8EZJAm9iO8",
+      "category": "lecture",
+      "title": "하네스 엔지니어링 해설 — 안티그래비티·클로드 코드·커서 뒤의 스택",
+      "titleEn": "Harness Engineering Explained: Inside the Stack Behind Antigravity, Claude Code & Cursor",
+      "descKo": "에이전트 하네스가 무엇이고 왜 완전 자율 코딩의 열쇠인지 30분 동안 구조적으로 설명하는 구글 클라우드 공식 채널 영상.",
+      "descEn": "A 30-minute structured explainer from Google Cloud Tech on what an agent harness is and why it's the key to fully autonomous coding.",
+      "channel": "Google Cloud Tech",
+      "publishedAt": "2026-09-14T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "vid-ailabs-github-repos-10x-codex-claude-code",
+      "youtubeId": "Ua0APTMVcb8",
+      "category": "tip",
+      "title": "코덱스·클로드 코드 세팅을 10배 강하게 만드는 GitHub 저장소 8개",
+      "titleEn": "Insane GitHub Repos That 10x Your Codex And Claude Code Setup",
+      "descKo": "에이전트가 혼자 못 하는 부분을 메워주는 무료 GitHub 저장소 8개를 3D 랜딩 페이지, 실앱 테스트, 짧은 응답, 디자인 개선 팁과 함께 소개.",
+      "descEn": "Eight free GitHub repos that cover what the agent can't do alone, with tips for 3D landing pages, real-app testing, shorter replies, and better designs.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-09-14T00:00:00Z",
+      "addedAt": "2026-09-18T23:10:41Z"
+    },
     {
       "id": "vid-aiddukttak-gemini-10-features-ko",
       "youtubeId": "9RZS9yicqSI",
@@ -24,30 +120,6 @@
       "channel": "안될공학 - IT 테크 신기술",
       "publishedAt": "2026-09-17T00:00:00Z",
       "addedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "vid-leedonghoon-claude-allinone-course-ko",
-      "youtubeId": "fjMceSbXTRM",
-      "category": "lecture",
-      "title": "2026년 최신 클로드 올인원 무료 강의 — 코워크·코드·디자인·챗",
-      "titleEn": "The Latest 2026 All-in-One Free Claude Course — Cowork, Code, Design, Chat",
-      "descKo": "클로드의 코워크·코드·디자인·챗 네 가지 기능을 모두 다루는 올인원 무료 강의 영상.",
-      "descEn": "A free all-in-one course covering Claude's Cowork, Code, Design, and Chat surfaces.",
-      "channel": "이동훈의 루트AI",
-      "publishedAt": "2026-08-27T00:00:00Z",
-      "addedAt": "2026-09-15T09:30:00Z"
-    },
-    {
-      "id": "vid-myf-2026-ai-usage-ko",
-      "youtubeId": "7TbZ6KweVFs",
-      "category": "tip",
-      "title": "2026년 최신 AI 사용법 — 챗GPT·제미나이, 실제로 잘 쓰는 기능들",
-      "titleEn": "The Latest 2026 Ways to Use AI — What I Actually Use ChatGPT & Gemini For",
-      "descKo": "낡은 개인 포트폴리오 사이트를 AI 사이트 빌더 기능으로 처음부터 다시 만들면서, 기존 유료 호스팅과의 비용을 구체적으로 비교해 보여주는 실전 팁 영상.",
-      "descEn": "A creator rebuilds her own aging portfolio website from scratch using an AI site-builder feature, with a concrete before/after cost comparison against her old paid hosting.",
-      "channel": "미래채널 MyF",
-      "publishedAt": "2026-08-21T00:00:00Z",
-      "addedAt": "2026-09-12T09:00:00Z"
     },
     {
       "id": "vid-anthropic-claude-code-team-workflow",
@@ -74,30 +146,6 @@
       "addedAt": "2026-09-11T10:00:00Z"
     },
     {
-      "id": "vid-rain-claude-code-mcp-explained-ko",
-      "youtubeId": "cskMc7hcdsg",
-      "category": "tip",
-      "title": "클로드 코드 쓴다면 MCP 필수 — API와 차이부터 구글·카톡 연동까지 실습",
-      "titleEn": "Why You Need MCP If You Use Claude Code — From API Differences to Live Gmail/KakaoTalk Integration",
-      "descKo": "MCP가 무엇이고 API와 어떻게 다른지부터 시작해, 클로드 코드에 MCP를 직접 연결해 지메일 초안을 작성하고 카카오톡으로 결과를 전달하는 과정까지 타임스탬프별로 보여주는 실습 영상.",
-      "descEn": "Starts from what MCP is and how it differs from a plain API, then walks through live-connecting MCP in Claude Code to draft a Gmail email and deliver results via KakaoTalk, timestamped step by step.",
-      "channel": "레인 | AI 바이브코딩",
-      "publishedAt": "2026-09-01T00:00:00Z",
-      "addedAt": "2026-09-02T09:30:00Z"
-    },
-    {
-      "id": "vid-codingnuna-codex-vibecoding-vs-claude-ko",
-      "youtubeId": "seWpr3HgXM4",
-      "category": "usecase",
-      "title": "코덱스로 바이브코딩 하는 법 — 클로드와 비교하고 최종 추천까지",
-      "titleEn": "How to Vibe-Code With Codex — Compared to Claude, With a Final Recommendation",
-      "descKo": "코덱스로 실제 바이브 코딩을 진행하는 과정을 보여주고, 같은 작업을 클로드 코드와 비교해본 뒤 최종적으로 어떤 도구를 추천하는지 결론까지 담은 실전 영상.",
-      "descEn": "Walks through actually vibe-coding with Codex, compares the same task against Claude Code, and lands on a final tool recommendation.",
-      "channel": "코딩알려주는누나",
-      "publishedAt": "2026-08-31T00:00:00Z",
-      "addedAt": "2026-09-01T09:30:00Z"
-    },
-    {
       "id": "vid-yangsiljang-vibecoding-university-ko",
       "youtubeId": "oGaDyb6mSwM",
       "category": "usecase",
@@ -107,30 +155,6 @@
       "descEn": "A real case study of a solo builder who made three products with vibe coding and actually sold two of them.",
       "channel": "양실장의 바이브코딩대학",
       "publishedAt": "2026-09-17T00:00:00Z",
-      "addedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "vid-pragmatic-vibecoding-security-breach-ko",
-      "youtubeId": "sxKIjaMyBlg",
-      "category": "usecase",
-      "title": "바이브코딩으로 만든 서비스, 이렇게 뚫립니다 (클로드코드 실화)",
-      "titleEn": "How a Vibe-Coded App Actually Gets Hacked (A Real Claude Code Story)",
-      "descKo": "AI 예약 비서가 권한 검증 없는 취소 API 때문에 남의 헬스장 예약을 대신 취소해버린 실제 호주 사건을 분석하고, 출시 전 점검할 인가·소유권 검증·되돌릴 수 없는 액션 분리 같은 체크리스트를 짚어주는 영상.",
-      "descEn": "Breaks down a real Australian incident where an AI booking assistant cancelled someone else's gym reservation because the cancel API had no authorization check, then walks through a pre-launch checklist — authz vs authn, ownership checks, isolating irreversible actions — for vibe-coded apps.",
-      "channel": "실용주의 개발",
-      "publishedAt": "2026-08-22T00:00:00Z",
-      "addedAt": "2026-08-23T23:22:13Z"
-    },
-    {
-      "id": "vid-codingsloth-1000-hours-claude-code",
-      "youtubeId": "YAsxyoTWFDA",
-      "category": "usecase",
-      "title": "클로드 코드 1000시간 넘게 써보고 배운 것",
-      "titleEn": "I Have Spent 1000+ Hours With Claude Code. This Is What I Learned",
-      "descKo": "1000시간 넘게 클로드 코드를 실무에 쓰며 얻은 습관과 교훈을 정리한 장기 실사용 회고 영상.",
-      "descEn": "A long-term real-world usage retrospective sharing habits and lessons from 1000+ hours of daily Claude Code use.",
-      "channel": "The Coding Sloth",
-      "publishedAt": "2026-08-18T00:00:00Z",
       "addedAt": "2026-09-17T23:11:16Z"
     },
     {
@@ -155,30 +179,6 @@
       "descEn": "A single practical prompt trick to remove the \"obviously AI-made\" look from vibe-coded websites, using Codex/GPT Image together with Claude/Codex, with real before/after redesigns of agency, course-platform, and fortune-telling sites.",
       "channel": "코딩 수익화 : 투더제이 TTJ",
       "publishedAt": "2026-09-13T00:00:00Z",
-      "addedAt": "2026-09-14T09:45:00Z"
-    },
-    {
-      "id": "vid-joemaddalone-orca-parallel-agents",
-      "youtubeId": "vZUUHMCBoQg",
-      "category": "tip",
-      "title": "오르카로 로컬 맥에서 코딩 에이전트 수십 개 병렬 실행하기",
-      "titleEn": "Parallel Agent Orchestration with Orca: Local AI Mac",
-      "descKo": "Orca라는 로컬 AI 개발 환경(ADE)으로 맥 한 대에서 10~100개의 코딩 에이전트를 동시에 병렬로 돌리는 법을 시연하는 영상. 에이전트 오케스트레이션을 실제 도구로 보여주는 구체적 데모.",
-      "descEn": "Demonstrates running 10-100 coding agents in parallel locally on a Mac using the Orca desktop AI Development Environment (ADE) — a concrete tool demo of agent orchestration in practice.",
-      "channel": "Joe Maddalone",
-      "publishedAt": "2026-08-21T00:00:00Z",
-      "addedAt": "2026-09-14T09:45:00Z"
-    },
-    {
-      "id": "vid-simplilearn-agentic-ai-course-2026",
-      "youtubeId": "IFs8LRbKTIY",
-      "category": "lecture",
-      "title": "에이전틱 AI 완전정복 1시간 강의 — 에이전트·워크플로우 만들기",
-      "titleEn": "Agentic AI Full Course 2026 in 1 Hour | Build AI Agents & Workflows",
-      "descKo": "에이전틱 AI의 핵심 개념·프레임워크부터 실제 에이전트 워크플로우를 만드는 법까지 1시간에 정리한 입문~중급 강의. 폭넓은 시청자를 겨냥한 구조적인 강의 형식.",
-      "descEn": "A structured beginner-to-intermediate crash course on agentic AI concepts, frameworks, and building agent workflows in one hour, aimed at a broad audience.",
-      "channel": "Simplilearn",
-      "publishedAt": "2026-09-07T00:00:00Z",
       "addedAt": "2026-09-14T09:45:00Z"
     }
   ]

@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-09-17T23:11:16Z",
+  "generatedAt": "2026-09-18T23:10:41Z",
   "posts": [
+    {
+      "id": "curated-20260919-claude-code-agents-md-support",
+      "title": "클로드 코드 2.1.277, CLAUDE.md 없으면 AGENTS.md를 읽는다 — 코덱스·커서와 지침 파일 하나로 공유",
+      "body": "클로드 코드 2.1.277(9월 18일)부터 CLAUDE.md가 없는 프로젝트에서는 AGENTS.md를 대신 읽고, `/config`의 'Project instructions'에서 바로 편집할 수 있다. 코덱스나 커서용으로 이미 AGENTS.md를 만들어 둔 저장소라면 파일을 복사하거나 심볼릭 링크 걸 필요 없이 한 파일로 여러 에이전트를 굴릴 수 있다. 같은 주 업데이트에는 서브에이전트 출력을 별도 헤더로 구분하는 변경, API 오류 시 백오프로 재시도하는 `/goal`, 큐에 쌓인 메시지를 한 번에 보내는 ctrl+enter도 포함됐다. HN에서 309점을 받았다.",
+      "titleEn": "Claude Code 2.1.277 Now Reads AGENTS.md When There Is No CLAUDE.md — One Instruction File for Codex, Cursor, and Claude",
+      "bodyEn": "Starting with Claude Code 2.1.277 (Sept 18), projects without a CLAUDE.md fall back to AGENTS.md, editable under 'Project instructions' in `/config`. If your repo already has an AGENTS.md for Codex or Cursor, you can drive several agents from a single file with no copying or symlinks. The same week's releases also mark subagent output under its own header, make `/goal` retry with backoff on API errors, and add ctrl+enter to send all queued messages at once. It scored 309 points on Hacker News.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://code.claude.com/docs/en/changelog",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-18T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-harness-design-empirical-study",
+      "title": "컨텍스트는 규칙 기반 삭제 먼저, LLM 요약은 그다음 — 코딩 에이전트 하네스 176개 설정 비교 논문",
+      "body": "arXiv에 올라온 논문이 코딩 에이전트 하네스를 컨텍스트 관리·계획·액션 스페이스 3요소로 나눠 4개 모델, 176개 설정을 SWE-Bench Verified와 Terminal-Bench 2.1에서 비교했다. 컨텍스트가 빠듯할수록 '규칙 기반으로 먼저 잘라내고 그다음에 LLM 요약'을 붙이는 순서가 가장 효율적이었고, 계획 단계는 약한 모델의 정확도를 받쳐주지만 강한 모델에서는 비용만 줄일 뿐이었다. bash 실력이 좋은 모델은 전용 도구 세트 없이 bash만 줬을 때 비용이 크게 낮았다.",
+      "titleEn": "Trim Context by Rules First, Summarize With an LLM Second — A 176-Configuration Study of Coding-Agent Harnesses",
+      "bodyEn": "An arXiv paper splits coding-agent harnesses into context management, planning, and action space, then tests 176 configurations across four models on SWE-Bench Verified and Terminal-Bench 2.1. When context budgets are tight, staging rule-based elision before LLM-based summarization was the most efficient strategy; planning props up weaker models' accuracy but mostly just cuts cost for stronger ones; and models with solid bash skills ran at substantially lower cost with a bash-only action space than with a predefined toolset.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2609.20804",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-17T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-jcode-parallel-rust-agent-ko",
+      "title": "세션당 메모리 10MB — 수십 개 코딩 에이전트를 동시에 돌리는 Rust 터미널 에이전트 jcode",
+      "body": "GeekNews에 소개된 jcode는 여러 에이전트에 일을 한꺼번에 맡기려고 메모리와 시작 시간을 줄인 Rust 기반 터미널 코딩 에이전트다. 세션당 추가 메모리가 약 10MB로 코덱스 CLI의 절반, 클로드 코드의 약 20분의 1이라고 밝혔다. 에이전트끼리 메시지와 파일 변경을 주고받고 서브에이전트를 만들어 작업을 나눌 수 있으며, 클로드·OpenAI·제미나이·올라마를 지원하고 클로드 코드·코덱스 CLI·OpenCode의 이전 세션도 가져온다. MIT 라이선스.",
+      "titleEn": "10MB Per Session — jcode, a Rust Terminal Agent for Running Dozens of Coding Agents in Parallel",
+      "bodyEn": "Shared on GeekNews, jcode is a Rust terminal coding agent built to cut memory and startup time so you can hand work to many agents at once. It claims about 10MB of extra memory per session — half of Codex CLI and roughly 1/20th of Claude Code. Agents message each other about file changes and spawn sub-agents to split work; it supports Claude, OpenAI, Gemini, and Ollama, and can import prior sessions from Claude Code, Codex CLI, and OpenCode. MIT licensed.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=33868",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-18T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-still-read-the-code-ko",
+      "title": "\"아직도 코드를 읽나요?\" — 가속형 개발자와 바이브코더가 한 팀에서 부딪히는 '인지 부채'와 '의도 부채'",
+      "body": "GeekNews에 올라온 zanlib.dev 글은 AI 사용 비율이 아니라 결과물과의 관계로 개발자를 둘로 나눈다. 가속형은 생성된 코드를 직접 검토해 설계 이유를 설명할 수 있고, 바이브코더는 명세와 평가에 집중하며 코드를 컴파일러 출력처럼 일회용으로 본다. 두 방식이 합의 없이 섞이면 각각 인지 부채와 의도 부채가 쌓이므로, 머지 전에 유지보수 책임을 정하고 코드 품질 리뷰와 제품 이해 평가를 분리하며 구현이 아니라 설계 결정의 이유를 문서로 남기라고 권한다.",
+      "titleEn": "\"Do You Still Read the Code?\" — The Cognitive Debt and Intent Debt When Accelerators and Vibe Coders Share a Team",
+      "bodyEn": "This zanlib.dev essay, shared on GeekNews, splits developers not by how much AI they use but by their relationship to the output. Accelerators review generated code and can explain design choices; vibe coders focus on specs and evaluation and treat code as disposable compiler output. Mixed without agreement, they accumulate cognitive debt and intent debt respectively, so the author advises settling maintenance responsibility before merging, separating code-quality review from product-understanding review, and documenting the reasons behind design decisions rather than the implementation.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=33735",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-15T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-ordewell-goal-to-task-graph",
+      "title": "목표 한 줄을 병렬 작업 그래프로 — 클로드 코드·코덱스에 나눠 맡기는 오케스트레이터 Ordewell",
+      "body": "Show HN에 올라온 Ordewell은 목표를 자연어로 적으면 플래너가 작업공간을 읽기 전용으로 훑어 순서 있는 작업 목록을 만들고, 사람이 실행 전에 러너·모델·의존성을 고친 뒤 독립 작업은 병렬로 돌리는 도구다. 각 작업은 자체 세션에서 돌고 완료 마커가 출력에 나와야만 끝난 것으로 처리해 조용한 실패를 막는다. `npm install -g ordewell`로 설치하고 클로드 코드·코덱스·OpenCode를 지원하며 기본 동시 세션은 3개(최대 5개), Apache 2.0.",
+      "titleEn": "One Goal In, a Parallel Task Graph Out — Ordewell Splits Work Across Claude Code and Codex",
+      "bodyEn": "Ordewell, a Show HN project, turns a plain-language goal into an ordered plan: a read-only planner explores your workspace, you edit runners, models, and dependencies before anything executes, then independent tasks run in parallel. Each task gets its own session and only counts as done when its completion marker appears in the output, so failures can't pass silently. Install with `npm install -g ordewell`; it supports Claude Code, Codex, and OpenCode, defaults to 3 concurrent sessions (max 5), and is Apache 2.0.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/ordewell/ordewell",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-15T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-mysetup-share-ai-setup",
+      "title": "남의 AI 세팅을 훔쳐보는 커뮤니티 — mysetup.ai에서 툴·에이전트·워크플로우 구성 검색",
+      "body": "Show HN에서 230점을 받은 mysetup.ai는 개발자가 자신이 쓰는 툴, 에이전트, 워크플로우를 프로필로 공개하고 서로 검색해 볼 수 있는 사이트다. 'Claude Code', '로컬 모델' 같은 태그로 디렉터리를 필터링할 수 있고 업데이트 날짜와 조회수도 표시된다. 커서·러버블·웨이브 터미널을 주 하네스로 쓰는 사람부터 에이전시용 에이전트를 만드는 창업자까지 사례가 올라와 있어, 내 설정이 맞는지 막막할 때 비교 기준으로 쓸 만하다.",
+      "titleEn": "Peek at Other People's AI Setups — Search Tools, Agents, and Workflows on mysetup.ai",
+      "bodyEn": "mysetup.ai, a Show HN that drew 230 points, lets developers publish their tools, agents, and workflows as profiles that others can browse. The directory filters by tags like 'Claude Code' and 'local models' and shows update dates and view counts. Examples range from people using Cursor, Lovable, or Wave terminal as their main harness to agency founders building agents for clients — useful as a benchmark when you're unsure whether your own setup is on track.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://mysetup.ai/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-09-17T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-maker-evan-codex-switch-ko",
+      "title": "\"거의 다 코덱스로 넘어갔다\" — 플러그인을 다 떼고 ADR·AGENTS.md·스킬만 남긴 실사용 세팅",
+      "body": "메이커 에반이 클로드 코드에서 코덱스로 주력을 옮긴 이유 네 가지를 벤치마크가 아닌 매일 쓰는 체감으로 정리한 영상이다. 끊기지 않는 한도와 리셋권, 아스트라 이후 뒤집힌 프론트엔드, 벌어진 백엔드 격차, 슈퍼파워즈 같은 플러그인을 떼고 에포트 하나만 조절하게 된 점이 이유다. 실제 사용 방식은 하네스 없이 모델과 주고받고, ADR 문서와 AGENTS.md 두 장으로 컨텍스트를 주고, 반복 작업만 스킬로 돌리는 것이며 코덱스가 아쉬운 세 가지도 함께 공개한다.",
+      "titleEn": "\"I Almost Only Use Codex Now\" — A Real Setup Stripped Down to ADRs, AGENTS.md, and Skills",
+      "bodyEn": "Maker Evan explains why they moved their main driver from Claude Code to Codex, based on daily-use feel rather than benchmarks: limits that don't cut off plus reset tickets, a frontend that flipped after Astra, a wider backend gap, and dropping plugins like Superpowers so only the effort setting needs tuning. The current workflow is no harness — just back-and-forth with the model, two context documents (an ADR and AGENTS.md), and skills only for repeated tasks — and the video also lists three places Codex still falls short.",
+      "sourceName": "YouTube · 메이커 에반",
+      "sourceUrl": "https://www.youtube.com/watch?v=YbZglhAQ5S8",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=YbZglhAQ5S8",
+      "createdAt": "2026-09-14T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
+    {
+      "id": "curated-20260919-silbaeldev-aside-browser-agent-ko",
+      "title": "AI 브라우저에게 내 앱을 직접 쓰게 하고, 불편 보고서를 코덱스로 넘겨 고친 워크플로우",
+      "body": "실밸개발자가 AI 브라우저 Aside에 구독료·갱신일·API 크레딧 취합과 YouTube Studio 분석을 맡기고, 직접 만든 썸네일 서비스 AutoKliq까지 써보게 한 영상이다. 에이전트가 사용 중 느낀 불편과 개선안을 보고서로 정리하면 그 보고서를 코덱스에 넘겨 실제 코드와 대조하고 우선순위를 정한 뒤 구현·리뷰·브라우저 테스트까지 시키는 흐름이 핵심이다. 작업 권한을 정하는 Guard·Final confirm, 개인·업무 환경을 나누는 Profiles, 클로드 코드·코덱스와 잇는 Aside CLI도 다룬다.",
+      "titleEn": "Letting an AI Browser Use My App, Then Handing Its Friction Report to Codex to Fix",
+      "bodyEn": "The creator hands the AI browser Aside chores like collecting subscription fees, renewal dates, and API credits and analyzing YouTube Studio, then has it use their own thumbnail service AutoKliq. The key workflow: the agent writes up the friction it hit and suggested fixes, that report goes to Codex to cross-check against the real code, prioritize, then implement, review, and browser-test. It also covers Guard and Final confirm for permissions, Profiles to separate personal and work contexts, and the Aside CLI that links to Claude Code and Codex.",
+      "sourceName": "YouTube · 실밸개발자",
+      "sourceUrl": "https://www.youtube.com/watch?v=lKvvVOFa6M0",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=lKvvVOFa6M0",
+      "createdAt": "2026-09-17T00:00:00Z",
+      "curatedAt": "2026-09-18T23:10:41Z"
+    },
     {
       "id": "curated-20260918-harnesstax-coding-agent-benchmark",
       "title": "하네스가 성능을 좌우한다는 착각 — 21개 모델·하네스 조합 실측하니 비용만 5배 차이",
@@ -12,19 +116,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-09-16T00:00:00Z",
-      "curatedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "curated-20260918-claude-code-setup-2026-rtk-hook",
-      "title": "CLAUDE.md 30줄, 슬래시 커맨드 55개 중 40개만 — 직접 만든 훅으로 토큰 2억7600만 개 절감한 실전 설정",
-      "body": "dev.to에 올라온 개인 개발자의 2026년 클로드 코드 설정 공개 글은 전역 CLAUDE.md를 30줄 이하로 유지하고, 설치한 55개 슬래시커맨드·스킬 중 실제로는 40개만 쓰며, 경로별로 15개의 컨텍스트 규칙을 심볼릭 링크로 관리한다고 소개한다. 특히 직접 만든 PreToolUse 훅 'RTK(Rust Token Killer)'가 CLI·MCP 출력에서 불필요한 내용을 걸러내 누적 2억7600만 토큰(약 4,100달러)을 절감했다고 밝혔고, 여러 기기 간 동기화를 위해 설정 자체를 별도 저장소로 버전 관리한다.",
-      "titleEn": "30-Line CLAUDE.md, 40 of 55 Slash Commands, a Homemade Hook That Saved 276M Tokens",
-      "bodyEn": "A dev.to post detailing one developer's 2026 Claude Code setup keeps the global CLAUDE.md under 30 lines, actively uses only 40 of 55 installed slash commands/skills, and manages 15 path-based contextual rules via symlinked skills. The standout is a homemade PreToolUse hook called 'RTK' (Rust Token Killer) that filters noise from CLI/MCP output, reportedly saving 276 million tokens (~$4,100) cumulatively — with the whole config kept in a versioned repo for multi-machine sync.",
-      "sourceName": "dev.to",
-      "sourceUrl": "https://dev.to/thomastartrau/my-claude-code-setup-in-2026-aca",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-11T00:00:00Z",
       "curatedAt": "2026-09-17T23:11:16Z"
     },
     {
@@ -119,19 +210,6 @@
       "curatedAt": "2026-09-15T09:30:00Z"
     },
     {
-      "id": "curated-20260915-preprompt-migration-gotchas",
-      "title": "35KB 프리프롬프트를 오퍼스에서 셀프호스팅 오야마로 옮기다 생긴 일 — 3분 만에 에이전트가 '헛돌기' 시작",
-      "body": "개인 블로그에 올라와 HN 105점을 받은 글은 128GB 메모리를 가진 AMD 라이젠 AI MAX+ 395 머신에서 65,000토큰 컨텍스트 한도를 가진 셀프호스팅 오야마로 35KB짜리 프리프롬프트를 옮기다 겪은 문제를 다룬다. 프리프롬프트가 컨텍스트의 14%를 차지하면서 3분 만에 같은 도구 호출·파일 읽기를 반복하는 '헛돌기' 현상이 나타났다. 해법으로 거대한 프롬프트를 단일 목적 단위로 쪼개고, 오야마 컨텍스트 길이를 수동으로 조정하고, 부정 지시문을 긍정형으로 바꾸고, 상태를 디스크에 기록해 에이전트가 필요한 부분만 다시 읽게 하고, opencode의 선언형 에이전트 설정을 쓰라고 제안한다.",
-      "titleEn": "What Broke When a 35KB Preprompt Moved From Opus to Self-Hosted Ollama — Agents Started Thrashing Within 3 Minutes",
-      "bodyEn": "This personal-blog post, which hit 105 points on Hacker News, documents migrating a 35KB preprompt to a self-hosted Ollama setup with a 65k-token context cap on a 128GB AMD Ryzen AI MAX+ 395 machine. The preprompt ate 14% of context and caused \"thrashing\" — repeated identical tool calls and file reads — within 3 minutes. Fixes offered: split monolithic prompts into single-objective units, manually tune Ollama's context length, replace negative directives with positive ones, log state to disk so agents re-read only the slice they need, and use opencode's declarative agent config.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-13T00:00:00Z",
-      "curatedAt": "2026-09-15T09:30:00Z"
-    },
-    {
       "id": "curated-20260915-luna-vs-astra-code-review-cost",
       "title": "코드 리뷰에 저가 모델 써도 될까 — 1.20달러짜리 모델과 28배 비싼 모델을 50개 PR로 붙여봤다",
       "body": "entelligence.ai가 GPT-5.6 루나(입력 0.20달러·출력 1.20달러, 100만 토큰당)와 GPT-6 아스트라(입력 10달러·출력 50달러)를 실제 PR 50개로 코드 리뷰 성능을 겨뤘다. 루나는 검증된 버그 69개를 리뷰당 0.0041달러에 찾았고, 아스트라는 92개를 리뷰당 0.113달러에 찾아 비용은 28배 차이가 났다. 정밀도는 루나 74% 대 아스트라 96%였고, 보안 버그만 따로 보면 루나가 24개 중 9개, 아스트라가 24개 중 19개를 잡아냈다. 결론은 일상적인 정확성 버그는 저가 모델로 충분하지만, 인증·권한 관련 코드는 저가 모델 단독 리뷰에 맡기지 말라는 것.",
@@ -145,30 +223,17 @@
       "curatedAt": "2026-09-15T09:30:00Z"
     },
     {
-      "id": "curated-20260915-ask-hn-default-model-routing",
-      "title": "다들 기본 모델로 뭐 쓰나요 — HN이 공유한 실전 모델 라우팅 습관들",
-      "body": "Ask HN 스레드(60점)에서 개발자들이 자신의 기본 모델·라우팅 습관을 공유했다. 한 사람은 일상 작업엔 하이쿠를 'ask'로 별칭 걸어 쓰고 PLAN.md 생성은 '페이블'에게 맡긴 뒤 실행은 오퍼스나 소네트가 고르게 하고, 다른 사람은 저렴한 '코덱스+테라 맥스'를 기본으로 쓰다 어려운 작업만 '클로드 코드+오퍼스5 미디엄'으로 전환한다. 또 다른 사람은 앤티그래비티에서 제미나이를 기본으로 쓰되 상세한 계획과 테스트 하네스를 먼저 만들어 실수 비용을 낮춘 뒤 속도를 우선한다는 전략을 공유했다.",
-      "titleEn": "What's Your Default Model? HN Shares Real-World Model-Routing Habits",
-      "bodyEn": "In a 60-point Ask HN thread, developers shared their default-model and routing habits: one aliases Haiku to `ask` for daily work and delegates PLAN.md generation to \"Fable,\" which then picks Opus or Sonnet for execution; another defaults to cheap \"Codex + Terra Max\" and switches to \"Claude Code + Opus 5 Medium\" only for hard tasks; another prefers Gemini on Antigravity for raw speed, first writing detailed plans and test harnesses so mistakes stay cheap.",
+      "id": "curated-20260915-preprompt-migration-gotchas",
+      "title": "35KB 프리프롬프트를 오퍼스에서 셀프호스팅 오야마로 옮기다 생긴 일 — 3분 만에 에이전트가 '헛돌기' 시작",
+      "body": "개인 블로그에 올라와 HN 105점을 받은 글은 128GB 메모리를 가진 AMD 라이젠 AI MAX+ 395 머신에서 65,000토큰 컨텍스트 한도를 가진 셀프호스팅 오야마로 35KB짜리 프리프롬프트를 옮기다 겪은 문제를 다룬다. 프리프롬프트가 컨텍스트의 14%를 차지하면서 3분 만에 같은 도구 호출·파일 읽기를 반복하는 '헛돌기' 현상이 나타났다. 해법으로 거대한 프롬프트를 단일 목적 단위로 쪼개고, 오야마 컨텍스트 길이를 수동으로 조정하고, 부정 지시문을 긍정형으로 바꾸고, 상태를 디스크에 기록해 에이전트가 필요한 부분만 다시 읽게 하고, opencode의 선언형 에이전트 설정을 쓰라고 제안한다.",
+      "titleEn": "What Broke When a 35KB Preprompt Moved From Opus to Self-Hosted Ollama — Agents Started Thrashing Within 3 Minutes",
+      "bodyEn": "This personal-blog post, which hit 105 points on Hacker News, documents migrating a 35KB preprompt to a self-hosted Ollama setup with a 65k-token context cap on a 128GB AMD Ryzen AI MAX+ 395 machine. The preprompt ate 14% of context and caused \"thrashing\" — repeated identical tool calls and file reads — within 3 minutes. Fixes offered: split monolithic prompts into single-objective units, manually tune Ollama's context length, replace negative directives with positive ones, log state to disk so agents re-read only the slice they need, and use opencode's declarative agent config.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com/item?id=49672966",
+      "sourceUrl": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-09-12T00:00:00Z",
+      "createdAt": "2026-09-13T00:00:00Z",
       "curatedAt": "2026-09-15T09:30:00Z"
-    },
-    {
-      "id": "curated-20260914-writing-effective-claude-skills",
-      "title": "SKILL.md 비대해지면 매번 손해 — 클로드 코드 스킬 3단계 로딩 구조 제대로 쓰기",
-      "body": "dev.to에 올라온 글은 클로드 코드 스킬이 발견(Discovery, 약 100토큰) → 활성화(Activation, 5,000토큰 미만) → 실행(Execution, 무제한) 3단계로 로드된다는 점을 짚으며, SKILL.md 본문이 비대하면 활성화될 때마다 컨텍스트를 낭비한다고 지적한다. 배포 전 체크리스트로 폴더명과 스킬 이름 일치, description 문구 검증, 3가지 이상 다른 표현으로 테스트, 비밀값·절대경로 미포함을 제시한다.",
-      "titleEn": "Bloated SKILL.md Costs You Every Time — Getting Claude Code's 3-Tier Skill Loading Right",
-      "bodyEn": "This dev.to post breaks down Claude Code's three-tier skill loading — Discovery (~100 tokens) → Activation (under 5,000 tokens) → Execution (on-demand, unlimited) — and warns that a bloated SKILL.md body wastes context on every activation. It offers a concrete pre-deploy checklist: folder name must exactly match the skill name, scrutinize the description field, test with 3+ different phrasings, and never leave secrets or absolute paths in the file.",
-      "sourceName": "dev.to",
-      "sourceUrl": "https://dev.to/thomastartrau/writing-effective-claude-code-skills-145l",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-11T00:00:00Z",
-      "curatedAt": "2026-09-14T09:45:00Z"
     },
     {
       "id": "curated-20260914-irasutoya-claude-skill-ko",
@@ -195,71 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-09-12T20:25:48Z",
       "curatedAt": "2026-09-12T23:10:00Z"
-    },
-    {
-      "id": "curated-20260913-measuring-code-sloppiness",
-      "title": "AI가 짠 코드, 사람보다 2배 '엉성하다' — 정량 지표로 재본 슬로피니스",
-      "body": "SlopCodeBench 연구를 인용해 AI 생성 코드의 '엉성함'을 두 지표로 측정했다. Verbosity(중복·불필요한 줄 비율)는 AI 코드 평균 0.33 대 기존 저장소 0.15, Erosion(복잡도가 특정 함수에 몰리는 정도)은 0.68 대 0.31로 약 2배 높았다. 반복적으로 에이전트를 굴리는 방식으로 평가하면 최신 모델도 통과율이 0%까지 떨어져, 맥락을 잃을수록 나쁜 설계 결정이 누적된다는 결론이다. 저자는 정량 지표는 출발점일 뿐, 사람이 직접 검토하는 게 여전히 가장 신뢰할 수 있는 방법이라고 강조한다.",
-      "titleEn": "AI-Written Code Is Twice as 'Sloppy' as Human Code — Measured With Real Metrics",
-      "bodyEn": "Citing SlopCodeBench research, this post quantifies AI-generated code \"sloppiness\" with two metrics: Verbosity (duplicated/unnecessary lines) and Erosion (how much complexity concentrates in a few functions). AI code averaged 0.33 verbosity vs. 0.15 for established repos, and 0.68 erosion vs. 0.31 — roughly twice as sloppy. Under iterative, agent-like evaluation, even frontier models dropped to a 0% pass rate, showing bad decisions compound as agents lose context across iterations. The author's takeaway: don't assume an agent self-corrects sloppiness — quantitative metrics are a useful starting point, but human review remains essential.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://earendil.com/posts/measuring-code-sloppiness/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-11T13:42:28Z",
-      "curatedAt": "2026-09-12T23:10:00Z"
-    },
-    {
-      "id": "curated-20260913-yozm-gpt6-astra-prompt-tips-ko",
-      "title": "오픈AI 개발자가 알려준 GPT-6 Astra 프롬프트 팁 — 스킬은 줄이고, 지시는 부드럽게",
-      "body": "요즘IT의 주간 프로덕트 뉴스레터가 오픈AI의 Eric Provencher가 공유한 GPT-6 Astra 프롬프트 팁을 소개했다. 등록해둔 스킬 개수를 줄이고, \"모든 문서를 다 읽어라\" 같은 불필요한 지시를 빼고, 지나치게 엄격한 제약 조건은 완화하고, 작업이 끝나는 지점을 명확히 정의하라는 게 핵심이다. 같은 글에서는 클로드 코드로 설치하는 39종 다이어그램 도구 diagram-design과, 200~300명의 직접 피드백만으로 한 달 만에 만든 Grok Bot의 개발 비화도 함께 다뤘다.",
-      "titleEn": "OpenAI's Own Tips for Prompting GPT-6 Astra: Fewer Skills, Softer Instructions",
-      "bodyEn": "요즘IT's weekly product newsletter shared prompting tips for GPT-6 Astra from OpenAI's Eric Provencher: reduce the number of registered skills, cut unnecessary directives like \"read all the docs,\" soften overly strict constraints, and clearly define where a task should end. The same issue also covered diagram-design, a 39-diagram-type tool installable via Claude Code, and the one-month build story of Grok Bot, shaped almost entirely by direct feedback from 200-300 users.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3941/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-11T00:00:00Z",
-      "curatedAt": "2026-09-12T23:10:00Z"
-    },
-    {
-      "id": "curated-20260912-rtk-token-savings-benchmark",
-      "title": "터미널 출력 압축, 토큰 절감 소문과 다르다 — 1,740회 실측한 Quesma의 반박",
-      "body": "Quesma가 코딩 에이전트 터미널 출력을 최대 90% 압축한다는 도구 RTK를 Terminal-Bench 2.1로 1,740회 실측했다. 클로드 코드(Fable)에서는 비용이 1~5%만 줄었고, OpenCode·딥시크 조합에서는 오히려 5~17% 늘었다. 터미널 출력이 전체 입력 토큰의 7~11%에 불과해 압축 자체의 절감 상한이 애초에 낮다는 게 핵심 결론이다.",
-      "titleEn": "Terminal-Output Compression Doesn't Cut Coding-Agent Costs Like Claimed — Quesma's 1,740-Run Rebuttal",
-      "bodyEn": "Quesma ran 1,740 attempts on Terminal-Bench 2.1 testing RTK, a tool claiming up to 90% terminal-output token reduction for coding agents, against Claude Code (Fable) and OpenCode/DeepSeek. They found only a 1-5% cost reduction for Claude Code and a 5-17% cost increase for DeepSeek, concluding terminal output is only 7-11% of input tokens — too small a share for compression to move the needle much.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-11T00:00:00Z",
-      "curatedAt": "2026-09-12T09:00:00Z"
-    },
-    {
-      "id": "curated-20260910-yozm-uber-agent-prs-ko",
-      "title": "우버 팀, PR 10개 중 7개를 에이전트가 작성 — 스킬 3,600개·하루 3만 건 실행에도 비용은 줄었다",
-      "body": "요즘IT에 실린 글은 우버 엔지니어링 조직이 2월부터 8월까지 클로드 코드·코덱스 같은 에이전트 사용을 주간 활성 사용자 7배, 주간 요청 9.4배로 늘리면서도 4월 이후 지출은 평평하게 유지했다고 소개한다. 사내 엔지니어가 만든 스킬이 3,600개를 넘고 하루 3만 건 이상 실행되며, 요청 1,000건당 비용은 최고점 대비 34%, 세션당 비용은 6월 최고점 대비 52% 줄었다. 우버는 '사용자 × 세션 × 턴 × 요청 × 토큰 × 단가'로 총 비용을 분해해 턴·요청·토큰 수를 줄이는 데 집중했고, 에이전트에게 관련 코드·문서를 미리 쥐여주는 '그라운딩'을 하면 38초 만에 정답을 내지만 안 하면 20분 넘게 걸려 오답을 내는 차이도 공개했다.",
-      "titleEn": "Uber's Team: Agents Now Write 7 of Every 10 PRs — 3,600 Skills, 30K Daily Runs, and Costs Went Down",
-      "bodyEn": "This 요즘IT piece describes how Uber's engineering org grew weekly active agent users 7x and weekly agent requests 9.4x between February and August while keeping spend flat after April. Engineers have built over 3,600 internal skills, run 30,000+ times a day, and cost per 1,000 requests dropped 34% from its peak while cost per session fell 52% from its June peak. Uber breaks total spend into users × sessions × turns × requests × tokens × price-per-token and focuses on cutting turns/requests/tokens; it also found that 'grounding' an agent with the right code/docs upfront gets a correct answer in 38 seconds, versus 20+ minutes and a wrong answer without it.",
-      "sourceName": "요즘IT",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3938/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-09T05:00:00Z",
-      "curatedAt": "2026-09-09T23:08:52Z"
-    },
-    {
-      "id": "curated-20260909-yozm-ai-collab-workflow-ko",
-      "title": "AI를 믿을수록 검토가 줄어든다 — 936건 실증 연구가 제안하는 5단계 협업 워크플로우",
-      "body": "요즘IT에 실린 글은 마이크로소프트 리서치·CMU가 지식노동자 319명, 실제 업무 936건을 분석해 AI를 더 신뢰할수록 비판적 검토가 줄었다는 연구를 소개한다. 개발자 실험에서 AI 보조 코딩 그룹은 속도는 비슷했지만 이해도 테스트는 50%에 그쳤고(직접 코딩 67%), AI에게 '왜 이렇게 했는지' 물었을 때는 이해도가 65~86%까지 올랐다. 이를 근거로 의도를 먼저 적고, 기다리는 동안 평가기준을 세우고, 핵심 로직을 직접 재현하고, 기준 변화를 기록하고, 작업 개수가 아니라 맥락 단위로 병렬 작업을 제한하는 5단계 워크플로우를 제안한다.",
-      "titleEn": "The More You Trust AI, the Less You Review — A 936-Case Study's 5-Step Collaboration Workflow",
-      "bodyEn": "This 요즘IT piece cites a Microsoft Research/CMU study of 936 real work cases from 319 knowledge workers finding that higher AI trust led to less critical review. In a coding study, AI-assisted developers matched speed but scored only 50% on comprehension tests versus 67% for manual coders — rising to 65-86% when they asked the AI \"why.\" It proposes a 5-step workflow: state intent before asking, set evaluation criteria while waiting, briefly reproduce core logic yourself, log how criteria evolved, and limit parallel work by context rather than task count.",
-      "sourceName": "요즘IT · pxd Story",
-      "sourceUrl": "https://yozm.wishket.com/magazine/detail/3934/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-08T00:00:00Z",
-      "curatedAt": "2026-09-09T09:00:00Z"
     }
   ]
 }
