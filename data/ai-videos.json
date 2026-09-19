@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-09-18T23:10:41Z",
+  "generatedAt": "2026-09-19T23:12:39Z",
   "videos": [
+    {
+      "id": "vid-ericpark-astra-mobbin-design-ko",
+      "youtubeId": "nrn6GzG1o9A",
+      "category": "usecase",
+      "title": "GPT Astra에 레퍼런스 60만 개를 주고 디자인시켜봤습니다 — 코덱스+Mobbin·21st.dev MCP",
+      "titleEn": "I Gave GPT Astra 600K References and Had It Design — Codex With Mobbin and 21st.dev MCPs",
+      "descKo": "레퍼런스 없이, Mobbin MCP로, 21st.dev MCP로 같은 웹앱을 3번 디자인시키며 결과와 소요 시간·토큰 비용을 비교하는 영상.",
+      "descEn": "Has Astra design the same web app three times — no references, Mobbin MCP, and 21st.dev MCP — and compares results, time, and token cost.",
+      "channel": "Eric Park | 빌더 + 디자이너",
+      "publishedAt": "2026-09-18T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
+    {
+      "id": "vid-junmeori-claude-codex-review-ko",
+      "youtubeId": "w-ViVu7p7YY",
+      "category": "tip",
+      "title": "Claude Code가 짜고, Codex가 까고 — 개발자·리뷰어 협업 구조",
+      "titleEn": "Claude Code Writes, Codex Reviews — A Developer/Reviewer Collaboration Setup",
+      "descKo": "Claude Code를 개발자, Codex를 리뷰어로 붙이는 구조와 지침 문서, 시간이 더 걸리는 단점, 쓸지 말지 판단 기준을 다룬다.",
+      "descEn": "Pairs Claude Code as developer with Codex as reviewer, covering the instruction files, the added time cost, and when the setup is worth it.",
+      "channel": "업무의 잔머리",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
+    {
+      "id": "vid-autop-claude-skill-5steps-ko",
+      "youtubeId": "HyvLHHwFudM",
+      "category": "tip",
+      "title": "클로드에 내 업무 방식을 저장하는 법 — 스킬 5단계 완벽 가이드",
+      "titleEn": "Save Your Way of Working in Claude — A 5-Step Guide to Skills",
+      "descKo": "반복하는 업무 방식을 클로드 스킬로 만들어 두는 과정을 5단계로 나눠 설명하는 19분 가이드.",
+      "descEn": "A 19-minute guide that breaks turning your repeatable work habits into Claude skills into five steps.",
+      "channel": "AUTOP 오톱",
+      "publishedAt": "2026-09-17T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
+    {
+      "id": "vid-erictech-claude-code-7-updates",
+      "youtubeId": "shYJ0P-vvdI",
+      "category": "tip",
+      "title": "이번 달 클로드 코드 신기능 7가지 직접 써보기 — 놓치면 안 되는 업데이트",
+      "titleEn": "Don't Miss These 7 Claude Code Updates",
+      "descKo": "세션 메시징, 내장 브라우저, iOS 시뮬레이터, 오토 모드, /design 등 이번 달 나온 기능 7개를 써보고 클로드 코드 대 코덱스 소감까지 정리.",
+      "descEn": "Tests seven new features from this month — session messaging, built-in browser, iOS Simulator, auto mode, /design and more — and ends on Claude Code vs Codex.",
+      "channel": "Eric Tech",
+      "publishedAt": "2026-09-18T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
+    {
+      "id": "vid-localhost-spec-driven-vibe-coding",
+      "youtubeId": "1Fl94dPn2mU",
+      "category": "usecase",
+      "title": "스펙 주도 바이브 코딩 실전 — 명세를 4번 다듬고 나서야 구현 시작",
+      "titleEn": "Spec-Driven Vibe Coding in Action",
+      "descKo": "LLM이 코드를 100% 쓰되, 사람과 LLM이 명세를 4번 주고받아 확정한 뒤에만 구현에 들어가는 과정을 게임 프로젝트로 보여준다.",
+      "descEn": "The LLM writes 100% of the code, but only after human and LLM lock down the spec over four passes, shown on a game project.",
+      "channel": "No place like localhost",
+      "publishedAt": "2026-09-18T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
+    {
+      "id": "vid-growwithgoogle-vibe-coding-guide",
+      "youtubeId": "Jbqbg3dPJvU",
+      "category": "lecture",
+      "title": "바이브 코딩 궁극의 가이드 — 스펙, 테스트, 공유 3단계 (구글 AI 스튜디오)",
+      "titleEn": "The Ultimate Guide to Vibe Coding | Google",
+      "descKo": "Google AI Studio 리드가 제미나이로 스펙 문서를 만들고, 디버그 패널·자동 수정 루프로 다듬어, 안전하게 배포하는 24분 워크플로우를 보여준다.",
+      "descEn": "Google AI Studio's lead shows a 24-minute workflow: write a spec with Gemini, harden with the debug panel and auto-correction loops, then deploy safely.",
+      "channel": "Grow with Google",
+      "publishedAt": "2026-09-17T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
+    {
+      "id": "vid-yunjadong-codex-beginner-guide-ko",
+      "youtubeId": "p4QV5ebJDlA",
+      "category": "lecture",
+      "title": "AI 좀 쓰는 사람이 코덱스 알려드림 — Codex 왕초보 가이드 2026",
+      "titleEn": "Codex Beginner Guide 2026 From Someone Who Uses AI Daily",
+      "descKo": "코덱스를 처음 쓰는 사람을 위한 37분 강의. 활용 사례 모음집과 실습 자료를 무료로 받아 따라 할 수 있다.",
+      "descEn": "A 37-minute Korean course for first-time Codex users, with a free use-case collection and practice files to follow along.",
+      "channel": "윤자동",
+      "publishedAt": "2026-09-14T00:00:00Z",
+      "addedAt": "2026-09-19T23:12:39Z"
+    },
     {
       "id": "vid-makerevan-codex-switch-ko",
       "youtubeId": "YbZglhAQ5S8",
@@ -11,18 +95,6 @@
       "descEn": "Four reasons for switching from Claude Code to Codex, the plugin-free ADR + AGENTS.md + skills workflow actually used day to day, and three remaining shortcomings, all timestamped.",
       "channel": "메이커 에반 | Maker Evan",
       "publishedAt": "2026-09-14T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-eopmu-janmeori-claude-skill-ko",
-      "youtubeId": "3d8jAHpwTyY",
-      "category": "tip",
-      "title": "Claude Code 진짜 고수는 다 이걸 쓴다 — 기본기이자 필살기 SKILL",
-      "titleEn": "Claude Code Power Users All Use This — The Fundamental and Secret Weapon: SKILL",
-      "descKo": "스킬의 의미와 구성, CLAUDE.md와 스킬을 구분해야 하는 이유, 앤스로픽 공식 스킬 살펴보기, 나만의 스킬 만들고 관리하는 팁까지 순서대로 다루는 영상.",
-      "descEn": "Covers what skills are and how they're structured, why CLAUDE.md and skills should be kept separate, a tour of Anthropic's official skills, and tips for building and managing your own.",
-      "channel": "업무의 잔머리",
-      "publishedAt": "2026-09-13T00:00:00Z",
       "addedAt": "2026-09-18T23:10:41Z"
     },
     {
@@ -86,30 +158,6 @@
       "addedAt": "2026-09-18T23:10:41Z"
     },
     {
-      "id": "vid-ailabs-github-repos-10x-codex-claude-code",
-      "youtubeId": "Ua0APTMVcb8",
-      "category": "tip",
-      "title": "코덱스·클로드 코드 세팅을 10배 강하게 만드는 GitHub 저장소 8개",
-      "titleEn": "Insane GitHub Repos That 10x Your Codex And Claude Code Setup",
-      "descKo": "에이전트가 혼자 못 하는 부분을 메워주는 무료 GitHub 저장소 8개를 3D 랜딩 페이지, 실앱 테스트, 짧은 응답, 디자인 개선 팁과 함께 소개.",
-      "descEn": "Eight free GitHub repos that cover what the agent can't do alone, with tips for 3D landing pages, real-app testing, shorter replies, and better designs.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-09-14T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-aiddukttak-gemini-10-features-ko",
-      "youtubeId": "9RZS9yicqSI",
-      "category": "tip",
-      "title": "퇴근 시간 앞당기는 제미나이 신기능 10가지",
-      "titleEn": "10 New Gemini Features That Save You 2 Hours Before You Clock Out",
-      "descKo": "챗봇처럼 질문만 하는 걸 넘어, 제미나이로 엑셀 시트·파워포인트·영상까지 바로 만들어내는 10가지 기능을 무료 프롬프트와 함께 정리한 영상.",
-      "descEn": "Goes beyond simple Q&A to show 10 Gemini features for generating Excel sheets, PowerPoint decks, and video directly, with free prompts included.",
-      "channel": "AI 뚝딱",
-      "publishedAt": "2026-09-08T00:00:00Z",
-      "addedAt": "2026-09-15T09:30:00Z"
-    },
-    {
       "id": "vid-anoegonghak-cli-vs-gui-ko",
       "youtubeId": "rpUNfIsLyGI",
       "category": "tip",
@@ -122,30 +170,6 @@
       "addedAt": "2026-09-17T23:11:16Z"
     },
     {
-      "id": "vid-anthropic-claude-code-team-workflow",
-      "youtubeId": "S-sYlFiGFv8",
-      "category": "usecase",
-      "title": "클로드 코드 팀은 클로드 코드를 어떻게 쓸까",
-      "titleEn": "How the Claude Code Team Uses Claude Code",
-      "descKo": "앤스로픽 공식 채널 영상. 1년 전엔 프롬프트-피드백-권한승인의 반복이었던 클로드 코드 사용법이 지금은 어떻게 달라졌는지, 클로드 코드 팀원들이 직접 자신들의 실제 워크플로를 보여준다.",
-      "descEn": "Official Anthropic video: Claude Code team members show how their real day-to-day workflow with Claude Code has evolved from a year of prompt-feedback-permission loops to now.",
-      "channel": "Claude",
-      "publishedAt": "2026-09-02T00:00:00Z",
-      "addedAt": "2026-09-08T09:00:00Z"
-    },
-    {
-      "id": "vid-techwithtim-claude-code-advanced-guide",
-      "youtubeId": "kt5a-TXmWew",
-      "category": "tip",
-      "title": "클로드 코드 고급 가이드 — 개발자 99%가 놓치는 기능들",
-      "titleEn": "Claude Code: The Advanced Guide (99% of Devs Skip These Features)",
-      "descKo": "대부분의 개발자가 클로드 코드를 그저 똑똑한 자동완성처럼만 쓰고 있다고 지적하며, 실무에서 거의 안 쓰이는 고급 기능 9가지를 순서대로 시연하는 영상.",
-      "descEn": "Argues most developers use Claude Code like a smarter autocomplete, then demonstrates nine advanced features the vast majority of devs have never touched.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-09-07T00:00:00Z",
-      "addedAt": "2026-09-11T10:00:00Z"
-    },
-    {
       "id": "vid-yangsiljang-vibecoding-university-ko",
       "youtubeId": "oGaDyb6mSwM",
       "category": "usecase",
@@ -156,30 +180,6 @@
       "channel": "양실장의 바이브코딩대학",
       "publishedAt": "2026-09-17T00:00:00Z",
       "addedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "vid-sihyunadventure-claude-code-2hr-course-ko",
-      "youtubeId": "DDAKFq7zplY",
-      "category": "lecture",
-      "title": "[2시간 풀버전] 클로드코드 풀코스 — AI를 잘 쓰는 방법",
-      "titleEn": "[2hr Full Version] Claude Code Full Course — How to Use AI Well",
-      "descKo": "비개발자도 따라올 수 있는 클로드 코드 완전 강의. 동작 원리부터 스킬·에이전트·MCP/API 연동, '하네스' 개념까지 2시간에 걸쳐 순서대로 설명.",
-      "descEn": "A full 2-hour beginner-friendly course on Claude Code covering how it works, skills, agents, MCP/API integration, and the 'harness' concept.",
-      "channel": "시현의 모험 | Sihyun Adventure",
-      "publishedAt": "2026-05-20T00:00:00Z",
-      "addedAt": "2026-09-02T23:16:03Z"
-    },
-    {
-      "id": "vid-ttj-remove-ai-look-ko",
-      "youtubeId": "pYK2inPc4E4",
-      "category": "tip",
-      "title": "AI 티 싹 빼는 단 한 줄 — 디자인이 이렇게 달라집니다",
-      "titleEn": "One Line That Removes the 'Obviously AI-Made' Look From Your Design",
-      "descKo": "GPT Image·클로드·코덱스로 만든 바이브 코딩 웹사이트가 티나게 AI스러워 보이는 문제를, 프롬프트 한 줄로 해결하는 실전 팁. 에이전시·강의 플랫폼·운세 사이트를 리디자인한 실제 전후 비교를 보여준다.",
-      "descEn": "A single practical prompt trick to remove the \"obviously AI-made\" look from vibe-coded websites, using Codex/GPT Image together with Claude/Codex, with real before/after redesigns of agency, course-platform, and fortune-telling sites.",
-      "channel": "코딩 수익화 : 투더제이 TTJ",
-      "publishedAt": "2026-09-13T00:00:00Z",
-      "addedAt": "2026-09-14T09:45:00Z"
     }
   ]
 }
