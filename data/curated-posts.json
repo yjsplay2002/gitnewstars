@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-09-19T23:12:39Z",
+  "generatedAt": "2026-09-20T23:15:26Z",
   "posts": [
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-agent-message-overhead-40-percent-ko",
+      "title": "코딩 에이전트에 보낸 메시지 2,116개를 분석했더니 40%는 실제 작업이 아니었다 — 상태 확인·오류 정정·규칙 반복",
+      "body": "GeekNews Ask GN에 올라온 글로, 작성자가 3주간 클로드 코드·Kimi·커서·코파일럿에 보낸 메시지 2,116개(하루 평균 96개)를 AI로 분류했다. 실제 작업은 55%였고 나머지는 오류·범위 이탈 정정 13%, 진행 상황 확인 9.5%, 에이전트끼리 내용 옮기기 6%, 멈춘 작업 재개 4%, 같은 규칙 반복 3%였다. 상태 확인은 200번이 넘었고 하루에만 에이전트 간 복사가 33번 나온 날도 있었다. 작성자는 긴 작업의 완료 알림, 에이전트 간 규칙 공유, 작업 전 비용 예측이 부족하다고 짚는다.",
+      "titleEn": "I Analyzed 2,116 Messages I Sent to Coding Agents — 40% Weren't Real Work: Status Checks, Corrections, Repeated Rules",
+      "bodyEn": "In this GeekNews Ask GN post, the author used AI to classify 2,116 messages (about 96 a day) sent over three weeks to Claude Code, Kimi, Cursor, and Copilot. Only 55% was real work; the rest was 13% correcting errors or scope drift, 9.5% status checks, 6% manually moving content between agents, 4% resuming stalled tasks, and 3% repeating rules. Status checks topped 200, and one day had 33 manual cross-agent transfers. The author points to missing completion notifications on long tasks, no shared rules across agents, and no cost estimate before launching work.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=34012",
+      "createdAt": "2026-09-20T19:00:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-cloudflare-security-audit-skill",
+      "title": "Cloudflare가 공개한 보안 감사 스킬 — 정찰·탐색·검증·보고 6단계를 격리된 에이전트에 나눠 맡긴다",
+      "body": "Cloudflare가 자사 취약점 발굴 하네스의 출발점이던 security-audit 스킬을 MIT 라이선스로 공개했고 HN에서 211점, 깃허브 스타 약 1만 8천 개를 받았다. 정찰, 커버리지 기반 탐색, 후보 검증, 구조화 출력, 독립 기록 검증, 보고의 6단계를 밟으며 단계마다 새 에이전트가 앞선 결과를 반박하려 든다. 결과는 architecture.md, coverage-ledger.json, findings.json으로 남고 confirmed·needs_validation·rejected 판정이 스키마 검증을 거치며, 같은 저장소에 다시 돌리면 이전 원장을 이어받는다. Skills CLI(`npx skills add`)로 설치한다.",
+      "titleEn": "Cloudflare Open-Sources Its Security Audit Skill — Six Phases Split Across Isolated Agents",
+      "bodyEn": "Cloudflare open-sourced the security-audit skill that seeded its vulnerability discovery harness, under the MIT license; it scored 211 points on Hacker News and about 18k GitHub stars. It runs six phases — reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and reporting — with a fresh agent at each step trying to disprove the previous one. Output lands in architecture.md, coverage-ledger.json, and findings.json, with confirmed, needs_validation, and rejected verdicts checked against a schema; re-running on the same repo builds on the prior ledger. Install with the Skills CLI (`npx skills add`).",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
+      "createdAt": "2026-09-17T04:36:55Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-ai-coding-seven-quality-layers",
+      "title": "AI 코딩으로 품질이 떨어진다면 관리 방식 탓 — 스펙 검토부터 모니터링까지 7겹 방어선으로 출력 2~3배",
+      "body": "Iouri Khramtsov는 스펙 검토, 단위 테스트 95% 이상, 수동 테스트, E2E 테스트, AI 품질 패스, 사람과 AI의 PR 리뷰, 모니터링의 7겹을 쌓으면 버그를 늘리지 않고 출력을 2~3배로 올릴 수 있다고 쓴다. AI에게 요구사항의 빈틈과 예외 상황을 찾게 한 단계가 신규 코드 버그를 가장 크게 줄였고, AGENTS.md·CLAUDE.md의 복잡한 규칙은 잘 안 지키니 보안·중복 코드·네이밍 점검은 별도 패스로 돌리라고 권한다. 이 팀은 PR마다 Claude와 Cursor 리뷰를 함께 돌리는데 서로 다른 문제를 찾고, 쏟아진 코멘트는 다른 에이전트가 걸러낸다. HN에서 66점을 받았다.",
+      "titleEn": "If AI Coding Lowers Your Code Quality, You're Not Managing Quality Right — Seven Defensive Layers for 2-3x Output",
+      "bodyEn": "Iouri Khramtsov argues that seven layers — spec review, unit tests above 95% coverage, manual testing, E2E tests, AI quality passes, human and AI PR reviews, and monitoring — let you raise output 2-3x without adding bugs. Having AI hunt for gaps and edge cases in the requirements cut bugs in new code the most, and since agents follow complex AGENTS.md or CLAUDE.md rules poorly, security, duplication, and naming checks are better run as separate passes. The author's team runs both Claude and Cursor reviews on every PR — they catch different problems — and has another agent prune the noisy comments. It scored 66 points on Hacker News.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
+      "createdAt": "2026-09-14T00:00:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-harness-design-empirical-study",
+      "title": "코딩 에이전트 하네스, 무엇을 바꿔야 효과가 있나 — 176개 설정 실험: 규칙 기반 생략을 먼저, LLM 요약은 그다음",
+      "body": "arXiv 논문 'An Empirical Study of Harness Design for Coding Agents'는 실행 루프를 고정하고 계획·행동 공간·컨텍스트 관리만 바꿔 4개 모델, 176개 설정을 SWE-Bench Verified와 Terminal-Bench 2.1로 비교했다. 컨텍스트 창이 좁을수록 관리 전략의 효과가 컸고, 규칙 기반으로 오래된 출력을 먼저 생략한 뒤 LLM 요약을 붙이는 조합이 가장 효율적이었다. 계획 단계는 강한 모델에서 정확도보다 비용 절감 역할을 했고, bash를 잘 다루는 모델은 bash만 줘도 비용이 크게 낮았다. HN에서 223점, GeekNews에도 소개됐다.",
+      "titleEn": "What Actually Matters in a Coding-Agent Harness — 176 Settings Tested: Rule-Based Elision First, LLM Summaries Second",
+      "bodyEn": "The arXiv paper 'An Empirical Study of Harness Design for Coding Agents' fixes the execution loop and varies only planning, action space, and context management, comparing 176 settings across four models on SWE-Bench Verified and Terminal-Bench 2.1. Context management mattered more as the window tightened, and staging rule-based elision of old output before LLM summarization was the most efficient combination. Planning acted more as a cost saver than an accuracy boost for stronger models, and models good at bash worked fine — at much lower cost — with a bash-only interface. It scored 223 points on Hacker News and was also shared on GeekNews.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://arxiv.org/abs/2609.20804",
+      "createdAt": "2026-09-17T17:58:07Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-gemini-labels-train-gliner-9-dollars",
+      "title": "Gemini에게 라벨링 4,290건을 9달러에 시켜 소형 NER 모델을 학습 — 댓글마다 유료 API 부르던 비용을 0으로",
+      "body": "Peter Vijeh는 주방칼 커뮤니티 Reddit 댓글에서 브랜드·모델·강종을 뽑으려고 댓글마다 Gemini 3.1 Pro를 부르던 방식을, Gemini가 한 번 붙인 라벨 4,290건(9달러)으로 오픈 NER 모델 GLiNER를 파인튜닝하는 방식으로 바꿨다. F1은 제로샷 약 0.65에서 0.83으로 올랐고 학습은 T4에서 24분, 10번 돌린 GPU 비용은 약 2.5달러였다. 배울 점은 LLM에게 글자 위치 대신 정확한 문자열만 받고 위치는 코드로 계산하라는 것과, 10번 중 5번이 설정 실수로 실패했다는 점이다. 라벨을 사람이 검수하지 않아 기준이 Gemini라는 한계도 밝힌다.",
+      "titleEn": "I Had Gemini Label 4,290 Comments for $9 and Trained a Small NER Model — Cutting a Per-Comment API Bill to Zero",
+      "bodyEn": "Peter Vijeh replaced calling Gemini 3.1 Pro on every Reddit comment about chef's knives (to extract brands, models, and steels) with fine-tuning the open NER model GLiNER on 4,290 labels Gemini wrote once for $9. F1 rose from about 0.65 zero-shot to 0.83; the winning run took 24 minutes on a T4, and all ten runs cost about $2.50 in GPU time. The lessons: ask the LLM for exact strings rather than character offsets and compute offsets in code, and note that five of ten runs failed on plumbing, not modeling. The author also admits labels were never hand-checked, so the model is graded against Gemini itself.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.petervijeh.com/projects/reddit-ner",
+      "createdAt": "2026-09-17T13:17:26Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-stagehand-v4-browser-agent-ko",
+      "title": "Stagehand v4 — Playwright보다 2배 빠르고 토큰 효율 80% 높다는 에이전트용 브라우저 자동화 SDK",
+      "body": "GeekNews에 소개된 Stagehand v4는 AI 에이전트가 자연어로 웹사이트를 조작하고 데이터를 뽑게 하는 MIT 라이선스 오픈소스 SDK다. `act()`로 자연어 지시를 실행하고 `observe()`로 요소를 찾고 `extract()`로 구조화된 데이터를 가져오며 TypeScript·Python·Go를 지원한다. 소개 글에 따르면 Playwright보다 2배 빠르고 토큰 효율이 80% 높으며 npm 월 다운로드 400만 회, 깃허브 스타 2만 4천 개 이상이다. 로컬 Chrome이나 Browserbase 같은 클라우드에서 돌릴 수 있다.",
+      "titleEn": "Stagehand v4 — A Browser-Automation SDK for Agents Claiming 2x Playwright's Speed and 80% Better Token Efficiency",
+      "bodyEn": "Shared on GeekNews, Stagehand v4 is an MIT-licensed open-source SDK that lets AI agents operate websites and extract data with natural language. `act()` runs a natural-language instruction, `observe()` locates elements, and `extract()` pulls structured data, with TypeScript, Python, and Go support. The write-up claims it is 2x faster than Playwright with 80% better token efficiency, at 4M monthly npm downloads and 24k+ GitHub stars. It runs on local Chrome or cloud platforms like Browserbase.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=33959",
+      "createdAt": "2026-09-19T00:00:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-copilot-runtime-rust-port-agents",
+      "title": "에이전트로 TypeScript 43만 줄을 Rust 80만 줄로 — 토큰 12만 달러, 마이크로소프트 코파일럿 런타임 이식 후기",
+      "body": "The Register가 전한 마이크로소프트 사례로, 코파일럿 런타임을 GPT-5.6 Sol과 Claude Opus 4.8 등 에이전트로 14.5주, 135번 릴리스에 걸쳐 모듈 단위로 이식했다. 토큰 약 12만 달러와 개발자 3주가 들었고 성능은 초당 세션 수명주기 7.55에서 120으로, 메모리는 1,383MB에서 126MB로 좋아졌다. 3만 줄짜리 session.ts는 25시간이 걸렸는데 문서를 읽는 데만 56분·도구 호출 122번을 썼고 자식 세션 15개를 각자 워크트리로 띄웠다. 에이전트는 코드 작성보다 조사에 시간을 더 썼고, 컴파일을 통과해도 회귀가 수십 건 나와 사람이 검증해야 했다.",
+      "titleEn": "430k Lines of TypeScript to 800k Lines of Rust With Agents — $120K in Tokens: Microsoft's Copilot Runtime Port",
+      "bodyEn": "The Register reports that Microsoft ported the Copilot runtime module by module over 14.5 weeks and 135 releases using agents including GPT-5.6 Sol and Claude Opus 4.8. It cost about $120K in tokens plus roughly three weeks of a developer's time, and performance rose from 7.55 to 120 session lifecycles per second while memory fell from 1,383MB to 126MB. The 30,000-line session.ts took 25 hours: the session spent 56 minutes reading docs with 122 tool calls, then spawned 15 child sessions in separate worktrees. Agents spent more time investigating than writing code, and dozens of regressions still got past the compiler, so humans had to verify.",
+      "sourceName": "The Register",
+      "sourceUrl": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
+      "createdAt": "2026-09-18T22:11:00Z"
+    },
+    {
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=B2cDUYqmP6I",
+      "curatedAt": "2026-09-20T23:15:26Z",
+      "id": "curated-20260921-stop-hook-notion-logging-ko",
+      "title": "3분 만에 만드는 클로드 코드 작업 일지 — Stop 훅에 노션 API를 물려 세션 기록 자동 저장",
+      "body": "임커밋(ImcommIT) 영상은 클로드 코드의 stop hook을 준비하고 노션 API를 연결해, 작업이 끝날 때마다 기록이 자동으로 남게 하는 과정을 3분 38초에 보여준다. 타임라인이 stop hook 준비, 노션 API 연결과 상세 설정, 마무리 순서라 자기 워크스페이스에 그대로 따라 붙일 수 있다. 영상 애니메이션은 3Blue1Brown의 manim으로 만들었고 애니메이션 소스 코드가 공개돼 있다.",
+      "titleEn": "A Claude Code Work Log in 3 Minutes — Wire a Stop Hook to the Notion API to Save Every Session Automatically",
+      "bodyEn": "ImcommIT's 3-minute-38-second video prepares a Claude Code stop hook and connects the Notion API so a record is saved every time work finishes. The timeline — stop hook setup, Notion API connection and detailed settings, wrap-up — is easy to follow into your own workspace. The animations were made with 3Blue1Brown's manim, and the animation source code is public.",
+      "sourceName": "YouTube · 임커밋 ImcommIT",
+      "sourceUrl": "https://www.youtube.com/watch?v=B2cDUYqmP6I",
+      "createdAt": "2026-09-20T13:00:12Z"
+    },
     {
       "mediaType": "none",
       "mediaUrl": "",
@@ -119,58 +223,6 @@
       "curatedAt": "2026-09-18T23:10:41Z"
     },
     {
-      "id": "curated-20260919-still-read-the-code-ko",
-      "title": "\"아직도 코드를 읽나요?\" — 가속형 개발자와 바이브코더가 한 팀에서 부딪히는 '인지 부채'와 '의도 부채'",
-      "body": "GeekNews에 올라온 zanlib.dev 글은 AI 사용 비율이 아니라 결과물과의 관계로 개발자를 둘로 나눈다. 가속형은 생성된 코드를 직접 검토해 설계 이유를 설명할 수 있고, 바이브코더는 명세와 평가에 집중하며 코드를 컴파일러 출력처럼 일회용으로 본다. 두 방식이 합의 없이 섞이면 각각 인지 부채와 의도 부채가 쌓이므로, 머지 전에 유지보수 책임을 정하고 코드 품질 리뷰와 제품 이해 평가를 분리하며 구현이 아니라 설계 결정의 이유를 문서로 남기라고 권한다.",
-      "titleEn": "\"Do You Still Read the Code?\" — The Cognitive Debt and Intent Debt When Accelerators and Vibe Coders Share a Team",
-      "bodyEn": "This zanlib.dev essay, shared on GeekNews, splits developers not by how much AI they use but by their relationship to the output. Accelerators review generated code and can explain design choices; vibe coders focus on specs and evaluation and treat code as disposable compiler output. Mixed without agreement, they accumulate cognitive debt and intent debt respectively, so the author advises settling maintenance responsibility before merging, separating code-quality review from product-understanding review, and documenting the reasons behind design decisions rather than the implementation.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=33735",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-15T00:00:00Z",
-      "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "curated-20260919-ordewell-goal-to-task-graph",
-      "title": "목표 한 줄을 병렬 작업 그래프로 — 클로드 코드·코덱스에 나눠 맡기는 오케스트레이터 Ordewell",
-      "body": "Show HN에 올라온 Ordewell은 목표를 자연어로 적으면 플래너가 작업공간을 읽기 전용으로 훑어 순서 있는 작업 목록을 만들고, 사람이 실행 전에 러너·모델·의존성을 고친 뒤 독립 작업은 병렬로 돌리는 도구다. 각 작업은 자체 세션에서 돌고 완료 마커가 출력에 나와야만 끝난 것으로 처리해 조용한 실패를 막는다. `npm install -g ordewell`로 설치하고 클로드 코드·코덱스·OpenCode를 지원하며 기본 동시 세션은 3개(최대 5개), Apache 2.0.",
-      "titleEn": "One Goal In, a Parallel Task Graph Out — Ordewell Splits Work Across Claude Code and Codex",
-      "bodyEn": "Ordewell, a Show HN project, turns a plain-language goal into an ordered plan: a read-only planner explores your workspace, you edit runners, models, and dependencies before anything executes, then independent tasks run in parallel. Each task gets its own session and only counts as done when its completion marker appears in the output, so failures can't pass silently. Install with `npm install -g ordewell`; it supports Claude Code, Codex, and OpenCode, defaults to 3 concurrent sessions (max 5), and is Apache 2.0.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/ordewell/ordewell",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-15T00:00:00Z",
-      "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "curated-20260919-mysetup-share-ai-setup",
-      "title": "남의 AI 세팅을 훔쳐보는 커뮤니티 — mysetup.ai에서 툴·에이전트·워크플로우 구성 검색",
-      "body": "Show HN에서 230점을 받은 mysetup.ai는 개발자가 자신이 쓰는 툴, 에이전트, 워크플로우를 프로필로 공개하고 서로 검색해 볼 수 있는 사이트다. 'Claude Code', '로컬 모델' 같은 태그로 디렉터리를 필터링할 수 있고 업데이트 날짜와 조회수도 표시된다. 커서·러버블·웨이브 터미널을 주 하네스로 쓰는 사람부터 에이전시용 에이전트를 만드는 창업자까지 사례가 올라와 있어, 내 설정이 맞는지 막막할 때 비교 기준으로 쓸 만하다.",
-      "titleEn": "Peek at Other People's AI Setups — Search Tools, Agents, and Workflows on mysetup.ai",
-      "bodyEn": "mysetup.ai, a Show HN that drew 230 points, lets developers publish their tools, agents, and workflows as profiles that others can browse. The directory filters by tags like 'Claude Code' and 'local models' and shows update dates and view counts. Examples range from people using Cursor, Lovable, or Wave terminal as their main harness to agency founders building agents for clients — useful as a benchmark when you're unsure whether your own setup is on track.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://mysetup.ai/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-17T00:00:00Z",
-      "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "curated-20260919-maker-evan-codex-switch-ko",
-      "title": "\"거의 다 코덱스로 넘어갔다\" — 플러그인을 다 떼고 ADR·AGENTS.md·스킬만 남긴 실사용 세팅",
-      "body": "메이커 에반이 클로드 코드에서 코덱스로 주력을 옮긴 이유 네 가지를 벤치마크가 아닌 매일 쓰는 체감으로 정리한 영상이다. 끊기지 않는 한도와 리셋권, 아스트라 이후 뒤집힌 프론트엔드, 벌어진 백엔드 격차, 슈퍼파워즈 같은 플러그인을 떼고 에포트 하나만 조절하게 된 점이 이유다. 실제 사용 방식은 하네스 없이 모델과 주고받고, ADR 문서와 AGENTS.md 두 장으로 컨텍스트를 주고, 반복 작업만 스킬로 돌리는 것이며 코덱스가 아쉬운 세 가지도 함께 공개한다.",
-      "titleEn": "\"I Almost Only Use Codex Now\" — A Real Setup Stripped Down to ADRs, AGENTS.md, and Skills",
-      "bodyEn": "Maker Evan explains why they moved their main driver from Claude Code to Codex, based on daily-use feel rather than benchmarks: limits that don't cut off plus reset tickets, a frontend that flipped after Astra, a wider backend gap, and dropping plugins like Superpowers so only the effort setting needs tuning. The current workflow is no harness — just back-and-forth with the model, two context documents (an ADR and AGENTS.md), and skills only for repeated tasks — and the video also lists three places Codex still falls short.",
-      "sourceName": "YouTube · 메이커 에반",
-      "sourceUrl": "https://www.youtube.com/watch?v=YbZglhAQ5S8",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=YbZglhAQ5S8",
-      "createdAt": "2026-09-14T00:00:00Z",
-      "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
       "id": "curated-20260919-silbaeldev-aside-browser-agent-ko",
       "title": "AI 브라우저에게 내 앱을 직접 쓰게 하고, 불편 보고서를 코덱스로 넘겨 고친 워크플로우",
       "body": "실밸개발자가 AI 브라우저 Aside에 구독료·갱신일·API 크레딧 취합과 YouTube Studio 분석을 맡기고, 직접 만든 썸네일 서비스 AutoKliq까지 써보게 한 영상이다. 에이전트가 사용 중 느낀 불편과 개선안을 보고서로 정리하면 그 보고서를 코덱스에 넘겨 실제 코드와 대조하고 우선순위를 정한 뒤 구현·리뷰·브라우저 테스트까지 시키는 흐름이 핵심이다. 작업 권한을 정하는 Guard·Final confirm, 개인·업무 환경을 나누는 Profiles, 클로드 코드·코덱스와 잇는 Aside CLI도 다룬다.",
@@ -182,19 +234,6 @@
       "mediaUrl": "https://www.youtube.com/watch?v=lKvvVOFa6M0",
       "createdAt": "2026-09-17T00:00:00Z",
       "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "curated-20260918-harnesstax-coding-agent-benchmark",
-      "title": "하네스가 성능을 좌우한다는 착각 — 21개 모델·하네스 조합 실측하니 비용만 5배 차이",
-      "body": "HarnessTax 벤치마크가 클로드 Fable 5·오퍼스 4.8·GPT-5.6 소·루나 등 7개 모델과 클로드 코드·코덱스 CLI·경량 하네스 'Pi' 등 3개 하네스를 SWE-bench Lite와 Terminal-Bench 2.0으로 조합해 21개 쌍을 돌렸다. 하네스 선택은 성공률을 거의 바꾸지 못했지만 비용은 최대 5배까지 벌어졌는데, Fable 5는 클로드 코드에서 작업당 1.33달러로 97.8%를 풀었고 read·write·edit·bash만 있는 최소 하네스 Pi에서는 0.67달러로 96.7%를 풀었다. 결론은 무거운 하네스에 돈을 더 쓰기보다 모델 선택에 예산을 집중하라는 것.",
-      "titleEn": "The Harness Barely Matters — 21 Model-Harness Pairs Show a 5x Cost Gap With Nearly Identical Success Rates",
-      "bodyEn": "The HarnessTax benchmark ran 21 model-harness combinations — 7 models (Claude Fable 5, Opus 4.8, Sonnet 4.6, Haiku 4.5, GPT-5.6 Sol/Luna, Kimi K3) across 3 harnesses (Claude Code, Codex CLI, and a minimal harness called Pi) — on SWE-bench Lite and Terminal-Bench 2.0. Harness choice barely moved success rate but swung cost up to 5x: Fable 5 solved 97.8% on Claude Code at $1.33/task versus 96.7% on the minimal read/write/edit/bash-only Pi harness at $0.67/task. The takeaway: put your budget into model choice, not a heavier harness.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://harnesstax.github.io/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-16T00:00:00Z",
-      "curatedAt": "2026-09-17T23:11:16Z"
     },
     {
       "id": "curated-20260918-openspec-spec-driven-framework",
@@ -221,45 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-09-17T00:00:00Z",
       "curatedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "curated-20260918-algocare-designer-to-code-ko",
-      "title": "\"디자이너가 Figma를 지웠습니다\" — 웹에서 화면 만들고 클로드 코드로 바로 React Native 코드 변환한 1년",
-      "body": "GeekNews에 소개된 알고케어 기술 블로그 글은 프로덕트 디자이너가 피그마 대신 웹에서 화면을 만들고 AI로 React Native 코드로 바꾸는 워크플로로 전환한 1년을 기록했다. 처음엔 커서를, 지금은 클로드 코드를 써서 코드를 생성한 뒤 깃허브 PR을 올리고 개발자가 리뷰해 배포하는 구조로 바뀌면서 디자인 핸드오프에 걸리던 배포 소요가 수 주에서 1주일 이내로 줄었고, 직군명도 'Product Designer'에서 'Design Engineer'로 바뀌었다.",
-      "titleEn": "\"The Designer Deleted Figma\" — A Year of Building Screens on the Web and Converting Them to React Native With Claude Code",
-      "bodyEn": "Shared via GeekNews, this Algocare engineering-blog post recounts a year in which a product designer replaced Figma with building screens directly on the web and converting them to React Native code with AI — first Cursor, now Claude Code — then opening a GitHub PR for a developer to review and ship. The handoff-free pipeline cut deploy turnaround from weeks to under a week, and the role itself was renamed from 'Product Designer' to 'Design Engineer.'",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=33728",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-15T00:00:00Z",
-      "curatedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "curated-20260918-claude-code-delegation-workflow-ko",
-      "title": "클로드 코드에 프로젝트를 통째로 맡겨도 될까 — GeekNews가 공유한 4단계 위임 워크플로우",
-      "body": "GeekNews Ask GN 스레드는 클로드 코드·코덱스에게 프로젝트 전체를 맡겨본 사람들의 실전 경험을 모았다. 한 댓글은 파괴적 권한이나 비용이 발생하는 액션은 훅으로 막고 개발계획서를 먼저 리뷰한 뒤에만 자동 실행하게 한다고 밝혔고, 다른 댓글은 적절한 하네스만 갖추면 작업의 90%까지 위임할 수 있으며 마무리와 배포 승인만 직접 한다고 공유했다. 접근 권한 제한 → 계획 검토 → 자동 실행 → 최종 배포 승인으로 이어지는 4단계 워크플로우가 스레드에서 반복적으로 제시됐다.",
-      "titleEn": "Can You Really Hand a Whole Project to Claude Code? A GeekNews Thread's 4-Step Delegation Workflow",
-      "bodyEn": "A GeekNews Ask GN thread collects real experiences from developers who delegated entire projects to Claude Code and Codex. One commenter blocks destructive or cost-incurring actions behind hooks and only lets the agent auto-run after a plan document is reviewed; another says a properly built harness lets them delegate 90% of the work, stepping in only for final polish and deploy approval. A recurring 4-step pattern emerged: restrict access → review the plan → auto-execute → final deploy approval.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=33727",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-15T00:00:00Z",
-      "curatedAt": "2026-09-17T23:11:16Z"
-    },
-    {
-      "id": "curated-20260915-diagram-design-skill-ko",
-      "title": "AI가 그린 다이어그램이 어색한 이유 — Diagram Design 스킬로 박스·화살표 나열 탈출",
-      "body": "GeekNews에 소개된 Diagram Design은 클로드 코드 같은 에이전트가 자연어만으로 다이어그램을 그릴 때 흔히 생기는 '박스와 화살표만 나열되는' 문제를 정보 위계·타이포·색상 규칙으로 고쳐주는 오픈소스 스킬이다. 강조색은 핵심 요소 1~2개에만 쓰고 불필요한 연결선을 줄이며, 아키텍처도·플로우차트·시퀀스도·ER도·타임라인 등 여러 유형을 지원한다. 웹사이트에서 브랜드 색상·폰트를 추출해 재사용 가능한 스타일 프로필로 저장할 수 있고, 결과물은 빌드 과정 없이 브라우저에서 바로 열리는 HTML+SVG+CSS로 나오며 라이트/다크 테마와 명암비 접근성 체크까지 챙긴다. MIT 라이선스로 공개됐다.",
-      "titleEn": "Why AI-Drawn Diagrams Look Off — the Diagram Design Skill Fixes the 'Boxes and Arrows' Problem",
-      "bodyEn": "Shared on GeekNews, Diagram Design is an open-source skill that fixes the \"boxes and arrows only\" look AI agents like Claude Code produce when diagramming from natural language, applying hierarchy, typography, and color rules instead. It reserves accent colors for 1-2 key elements, trims unnecessary connectors, and covers architecture diagrams, flowcharts, sequence diagrams, ER diagrams, and timelines. It extracts a site's brand colors/fonts into a reusable style profile, and outputs build-free HTML+SVG+CSS with light/dark themes and contrast-accessibility checks. Released under the MIT license.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://github.com/cathrynlavery/diagram-design",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-14T00:00:00Z",
-      "curatedAt": "2026-09-15T09:30:00Z"
     }
   ]
 }

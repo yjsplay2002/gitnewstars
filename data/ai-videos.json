@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-09-19T23:12:39Z",
+  "generatedAt": "2026-09-20T23:15:26Z",
   "videos": [
+    {
+      "id": "vid-imcommit-claude-code-stop-hook-notion-ko",
+      "youtubeId": "B2cDUYqmP6I",
+      "category": "tip",
+      "title": "클로드 코드 작업 기록 자동화 — Stop 훅 + 노션 API 3분 세팅",
+      "titleEn": "Automating Claude Code Task Logging",
+      "descKo": "stop hook을 만들고 노션 API를 연결해 작업이 끝날 때마다 기록이 자동으로 쌓이게 하는 3분 38초 튜토리얼.",
+      "descEn": "A 3:38 tutorial that sets up a stop hook and the Notion API so a work log is saved automatically every time a session ends.",
+      "channel": "임커밋 ImcommIT",
+      "publishedAt": "2026-09-20T13:00:12Z",
+      "addedAt": "2026-09-20T23:15:26Z"
+    },
+    {
+      "id": "vid-jaychoi-claude-to-gpt-1000h-review-ko",
+      "youtubeId": "63KRIQYKY0E",
+      "category": "tip",
+      "title": "클로드 코드 1000시간 쓰고 GPT로 넘어간 후기 — 한도·플러그인·스킬 6가지 비교",
+      "titleEn": "My Honest Review After Switching From 1,000 Hours of Claude to GPT",
+      "descKo": "클로드 코드 고수가 GPT-6 Astra로 옮겨 보며 한도와 리셋권, 플러그인·스킬, GPT-Image·컴퓨터 유즈 등 달라진 점을 6가지로 정리한다.",
+      "descEn": "A Claude Code power user tries GPT-6 Astra and lists six differences, including limits and reset tickets, plugins and skills, GPT-Image, and computer use.",
+      "channel": "Jay Choi | 인디해커 라이프",
+      "publishedAt": "2026-09-18T10:00:32Z",
+      "addedAt": "2026-09-20T23:15:26Z"
+    },
+    {
+      "id": "vid-jaychoi-claude-code-design-sketch-paint-finish-ko",
+      "youtubeId": "2-Hg8BXcckc",
+      "category": "tip",
+      "title": "클로드 코드 디자인 순서 — 스케치, 스킬로 도색, 구역별 마감으로 AI 티 지우기",
+      "titleEn": "Claude Code Design: Follow This Workflow to Remove the AI Look",
+      "descKo": "\"예쁘게 해줘\" 대신 흑백 스케치 → impeccable·taste-skill 도색 → 구역별 마감 순서로 실제 페이지를 처음부터 끝까지 만든다.",
+      "descEn": "Instead of asking for 'pretty', builds a real page in order: monochrome sketch, painting with the impeccable and taste-skill skills, then section-by-section finishing.",
+      "channel": "Jay Choi | 인디해커 라이프",
+      "publishedAt": "2026-09-14T10:00:29Z",
+      "addedAt": "2026-09-20T23:15:26Z"
+    },
+    {
+      "id": "vid-maddyzhang-agentic-engineering-workflow",
+      "youtubeId": "tSF6eZW8ZMU",
+      "category": "usecase",
+      "title": "전 구글 엔지니어의 에이전틱 엔지니어링 워크플로우 — 메모리·스킬·플랜 모드·병렬 에이전트",
+      "titleEn": "Ex-Google Engineer's Agentic Engineering Workflow",
+      "descKo": "메모리 파일과 스킬로 컨텍스트를 세팅하고, 플랜 모드로 비싼 실수를 걸러낸 뒤 병렬 에이전트·자율 루프·그래프 워크플로우로 돌리고 AI 코드를 안전하게 리뷰하는 전 과정.",
+      "descEn": "The full loop: memory files and skills for context, plan mode to catch costly mistakes, parallel agents, autonomous loops, graph-based workflows, and safe review of AI-written code.",
+      "channel": "Maddy Zhang",
+      "publishedAt": "2026-09-20T16:00:09Z",
+      "addedAt": "2026-09-20T23:15:26Z"
+    },
+    {
+      "id": "vid-nateherk-codex-skills-six-step-framework",
+      "youtubeId": "9KOtMsZ9I28",
+      "category": "lecture",
+      "title": "코덱스 스킬 제대로 만드는 6단계 프레임워크 — 스킬 하나에 일 하나, 트리거 하나",
+      "titleEn": "How to Build Codex Skills Better than 99% of People",
+      "descKo": "좋은 결과물을 역설계하고, 스킬마다 역할과 트리거를 하나로 좁히고, 자유도와 검증 루프를 정하고, 더 싼 모델로 테스트하는 27분 강의.",
+      "descEn": "A 27-minute walkthrough of a six-step framework: reverse-engineer strong outputs, give each skill one job and one trigger, set the freedom level, add verification loops, and test cheaper models.",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-09-19T12:57:24Z",
+      "addedAt": "2026-09-20T23:15:26Z"
+    },
+    {
+      "id": "vid-vibemafia-vibecoding-system-lecture-ko",
+      "youtubeId": "PMENBi-VIiI",
+      "category": "lecture",
+      "title": "현직 개발자가 알려주는 바이브코딩의 체계 — 컨텍스트·문서·검증을 구조로 묶기",
+      "titleEn": "A Working Developer's System for Vibe Coding",
+      "descKo": "잘 되던 바이브코딩이 어느 순간 무너지는 이유와, 컨텍스트·문서·검증을 구조로 묶어 현업 프로젝트에서 돌리는 작업 흐름을 다루는 2시간 12분 강의.",
+      "descEn": "A 2h12m Korean lecture on why vibe coding that worked starts to collapse, and how to bind context, docs, and verification into a workflow that holds up on real projects.",
+      "channel": "바이브마피아 | AI Native 엔지니어",
+      "publishedAt": "2026-09-20T10:04:46Z",
+      "addedAt": "2026-09-20T23:15:26Z"
+    },
     {
       "id": "vid-ericpark-astra-mobbin-design-ko",
       "youtubeId": "nrn6GzG1o9A",
@@ -74,42 +146,6 @@
       "addedAt": "2026-09-19T23:12:39Z"
     },
     {
-      "id": "vid-yunjadong-codex-beginner-guide-ko",
-      "youtubeId": "p4QV5ebJDlA",
-      "category": "lecture",
-      "title": "AI 좀 쓰는 사람이 코덱스 알려드림 — Codex 왕초보 가이드 2026",
-      "titleEn": "Codex Beginner Guide 2026 From Someone Who Uses AI Daily",
-      "descKo": "코덱스를 처음 쓰는 사람을 위한 37분 강의. 활용 사례 모음집과 실습 자료를 무료로 받아 따라 할 수 있다.",
-      "descEn": "A 37-minute Korean course for first-time Codex users, with a free use-case collection and practice files to follow along.",
-      "channel": "윤자동",
-      "publishedAt": "2026-09-14T00:00:00Z",
-      "addedAt": "2026-09-19T23:12:39Z"
-    },
-    {
-      "id": "vid-makerevan-codex-switch-ko",
-      "youtubeId": "YbZglhAQ5S8",
-      "category": "tip",
-      "title": "왜 다들 코덱스로 넘어가나 — 하네스 없이 쓰는 법까지",
-      "titleEn": "Why Is Everyone Moving to Codex — Including How to Use It Without a Harness",
-      "descKo": "클로드 코드에서 코덱스로 갈아탄 네 가지 이유와, 플러그인 없이 ADR·AGENTS.md·스킬만으로 굴리는 실제 사용법, 아쉬운 점 세 가지를 타임스탬프별로 보여주는 영상.",
-      "descEn": "Four reasons for switching from Claude Code to Codex, the plugin-free ADR + AGENTS.md + skills workflow actually used day to day, and three remaining shortcomings, all timestamped.",
-      "channel": "메이커 에반 | Maker Evan",
-      "publishedAt": "2026-09-14T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-ttoksajang-claude-code-free-course-ko",
-      "youtubeId": "UXMMASGqbUQ",
-      "category": "lecture",
-      "title": "클로드코드 90%가 틀리게 하고 있음 — 클로드 무료 입문 강의",
-      "titleEn": "90% of People Use Claude Code Wrong — Free Claude Beginner Course",
-      "descKo": "코딩을 모르는 사장님이 손익관리 프로그램을 직접 만드는 50분 전 과정. 프로젝트·마크다운·CLAUDE.md·퍼미션 모드·모델 선택 개념과 플랜 모드로 PRD부터 만드는 법을 다룬다.",
-      "descEn": "A 50-minute end-to-end build where a non-coder makes a shop profit-tracking app, covering projects, markdown, CLAUDE.md, permission modes, model choice, and writing the PRD first in plan mode.",
-      "channel": "사업가를 위한 AI활용법, 똑사장",
-      "publishedAt": "2026-09-13T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
       "id": "vid-builderjosh-tiro-personal-agents-ko",
       "youtubeId": "G9edFGL3rKs",
       "category": "usecase",
@@ -132,42 +168,6 @@
       "channel": "실밸개발자",
       "publishedAt": "2026-09-17T00:00:00Z",
       "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-onionbi-claude-code-powerbi-5step-ko",
-      "youtubeId": "SJtgDfiS2kw",
-      "category": "usecase",
-      "title": "클로드코드로 고객분석 Power BI 대시보드 제작 5단계 프레임워크",
-      "titleEn": "A 5-Step Framework for Building a Customer-Analytics Power BI Dashboard With Claude Code",
-      "descKo": "'딸깍' 한 번에 통째로 시키는 대신 5단계로 나눠 시켰을 때 달라지는 점을 물류 선적 데이터와 KPI 정의서 실습 파일로 보여주는 영상.",
-      "descEn": "Shows what changes when you split the dashboard job into five steps instead of one giant prompt, using a logistics shipment dataset and a KPI-definition file as practice material.",
-      "channel": "어니언 비아이 (ONION BI)",
-      "publishedAt": "2026-09-14T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-googlecloud-harness-engineering-explained",
-      "youtubeId": "F8EZJAm9iO8",
-      "category": "lecture",
-      "title": "하네스 엔지니어링 해설 — 안티그래비티·클로드 코드·커서 뒤의 스택",
-      "titleEn": "Harness Engineering Explained: Inside the Stack Behind Antigravity, Claude Code & Cursor",
-      "descKo": "에이전트 하네스가 무엇이고 왜 완전 자율 코딩의 열쇠인지 30분 동안 구조적으로 설명하는 구글 클라우드 공식 채널 영상.",
-      "descEn": "A 30-minute structured explainer from Google Cloud Tech on what an agent harness is and why it's the key to fully autonomous coding.",
-      "channel": "Google Cloud Tech",
-      "publishedAt": "2026-09-14T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-anoegonghak-cli-vs-gui-ko",
-      "youtubeId": "rpUNfIsLyGI",
-      "category": "tip",
-      "title": "AI 잘 쓰는 사람들은 왜 까만창을 켤까 — 코덱스·클로드 코드·제미나이 CLI 비교",
-      "titleEn": "Why Power Users Keep the Terminal Open — Comparing Codex, Claude Code, and Gemini CLI",
-      "descKo": "GUI 대신 터미널(CLI)을 쓰는 고수들의 이유를 코덱스·클로드 코드·제미나이 CLI를 직접 비교하며 설명하는 영상.",
-      "descEn": "Explains why power users prefer the terminal over GUI tools, directly comparing Codex, Claude Code, and Gemini CLI.",
-      "channel": "안될공학 - IT 테크 신기술",
-      "publishedAt": "2026-09-17T00:00:00Z",
-      "addedAt": "2026-09-17T23:11:16Z"
     },
     {
       "id": "vid-yangsiljang-vibecoding-university-ko",
