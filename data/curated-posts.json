@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-09-20T23:15:26Z",
+  "generatedAt": "2026-09-21T23:17:54Z",
   "posts": [
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-21T23:17:54Z",
+      "id": "curated-20260922-google-ax-agent-orchestrator",
+      "title": "구글이 공개한 에이전트 오케스트레이터 AX — 쿠버네티스처럼 YAML로 작업·워크스페이스·네트워크를 선언해 샌드박스에서 실행",
+      "body": "HN에서 628점을 받은 AX는 구글이 Apache-2.0으로 공개한 에이전트 실행 런타임이고 깃허브 스타는 약 5,900개다. Task·Workspace·Gateway·Model 네 가지 리소스를 YAML로 선언한 뒤 `ax apply -f task.yaml`을 실행하면 샌드박스에 작업이 뜨고, Git 저장소·MCP 서버·스킬 패키지가 미리 연결된다. Gateway로 외부 통신을 허용 호스트 목록으로 묶고 `ax suspend`·`ax resume`으로 유휴 에이전트를 멈췄다 이어가며, `ax ssh`로 실행 중인 에이전트 안을 들여다본다. 핵심 개념이 계속 바뀌는 중이라 정식 출시 전에 큰 변경이 있을 수 있다고 README가 경고한다.",
+      "titleEn": "Google Open-Sources AX, an Agent Orchestrator — Declare Tasks, Workspaces, and Network Rules in YAML Like Kubernetes and Run Them in Sandboxes",
+      "bodyEn": "AX, which scored 628 points on Hacker News, is an agent runtime Google released under Apache-2.0, with about 5,900 GitHub stars. You declare Task, Workspace, Gateway, and Model resources in YAML, run `ax apply -f task.yaml`, and the task comes up in a sandbox with Git repos, MCP servers, and skill packages pre-wired. A Gateway locks outbound traffic to an explicit host allowlist, `ax suspend` and `ax resume` pause and continue idle agents, and `ax ssh` lets you look inside a running agent. The README warns that core concepts are still changing and major breaking changes are likely before a stable release.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/google/ax",
+      "createdAt": "2026-09-20T22:32:43Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-21T23:17:54Z",
+      "id": "curated-20260922-worktrunk-git-worktree-agents-ko",
+      "title": "코딩 에이전트마다 작업 폴더를 따로 — Git worktree를 `wt` 한 줄로 관리하는 Worktrunk",
+      "body": "GeekNews에 소개된 Worktrunk는 에이전트 여러 개를 동시에 돌릴 때 파일이 충돌하지 않도록 Git worktree를 브랜치 이름만으로 관리하는 Rust CLI로, 깃허브 스타가 약 8,300개다. `wt switch -c -x claude feature-a` 한 줄로 브랜치와 작업 공간을 만들고 클로드 코드까지 띄우며, `wt list`로 작업 공간별 변경과 커밋을 보고 `wt merge`로 커밋 정리·리베이스·병합·작업 공간 삭제를 한 번에 끝낸다. 작업 공간마다 개발 서버 포트를 자동 배정하고, 생성·삭제 전후 훅으로 의존성 설치나 테스트를 붙일 수 있다. macOS·Linux·Windows에서 Homebrew, Cargo, Winget으로 설치한다.",
+      "titleEn": "A Separate Work Folder for Every Coding Agent — Worktrunk Manages Git Worktrees With One `wt` Command",
+      "bodyEn": "Shared on GeekNews, Worktrunk is a Rust CLI (about 8,300 GitHub stars) that manages Git worktrees by branch name so multiple agents can run at once without file conflicts. `wt switch -c -x claude feature-a` creates a branch and workspace and launches Claude Code in one step, `wt list` shows each workspace's changes and commits, and `wt merge` handles commit cleanup, rebase, merge, and workspace deletion together. It auto-assigns a dev-server port per workspace and supports pre/post hooks for installing dependencies or running tests. It installs via Homebrew, Cargo, or Winget on macOS, Linux, and Windows.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=34017",
+      "createdAt": "2026-09-21T00:00:00Z"
+    },
+    {
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=woSiT_kytXo",
+      "curatedAt": "2026-09-21T23:17:54Z",
+      "id": "curated-20260922-master-ai-dev-qa-workflow-ko",
+      "title": "마스터 AI가 개발 AI와 QA AI를 지휘한다 — '됐습니다'를 믿지 않는 멀티 에이전트 개발 워크플로우",
+      "body": "Uzchowall이 52분짜리 AI 활용 설명회 영상의 16분경부터 자신이 만든 개발 워크플로우의 전체 구조를 공개한다. 모든 작업을 관리하는 '마스터 AI'와의 대화가 개발 명세와 TODO로 바뀌고, 개발 AI와 QA AI는 서로 다른 것을 보며 검증한다. 서로 다른 AI를 붙여 놓은 이유, 검수 AI에게 허용하지 않은 것, 무한 반복을 막는 안전장치, 토큰이 떨어져도 작업을 이어가는 방법, 작업 뒤 위키를 만드는 이유를 챕터별로 다룬다.",
+      "titleEn": "A Master AI Directs a Dev AI and a QA AI — A Multi-Agent Dev Workflow That Doesn't Trust 'It's Done'",
+      "bodyEn": "From about the 16-minute mark of a 52-minute AI-usage talk, Uzchowall walks through the full structure of their own development workflow. Conversation with a 'master AI' that manages every task turns into a dev spec and a TODO list, and the dev AI and QA AI each look at different things when verifying. Chapters cover why different AIs were paired, what the reviewer AI is never allowed to do, the guard against infinite review loops, how to keep working when tokens run out, and why a wiki is written after each task.",
+      "sourceName": "YouTube · Uzchowall",
+      "sourceUrl": "https://www.youtube.com/watch?v=woSiT_kytXo",
+      "createdAt": "2026-09-19T02:00:47Z"
+    },
+    {
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=60sBBaFGnLs",
+      "curatedAt": "2026-09-21T23:17:54Z",
+      "id": "curated-20260922-vibecoded-app-problem-not-coding-ko",
+      "title": "바이브코딩으로 만든 앱을 아무도 안 쓰는 이유는 코딩이 아니었다 — 기획자가 뜯어본 실제 사례와 개선점 4가지",
+      "body": "벤처플래닛 영상은 비개발자 지인이 바이브코딩으로 직접 만든 서비스를 기획자 관점에서 뜯어보며 15분 59초 동안 '왜 아무도 안 쓰는가'를 짚는다. 원인은 코딩 실력이 아니라 다른 곳에 있었고, 실제 사례를 바탕으로 개선점 4가지와 유입·수익화 구조를 함께 다룬다. 앱을 다 만들고 나서 막힌 사람이 자기 서비스를 점검하는 기준으로 쓸 수 있다.",
+      "titleEn": "Why Nobody Uses Your Vibe-Coded App Isn't the Code — A Product Planner Tears Down a Real Case With 4 Fixes",
+      "bodyEn": "In this 15:59 video, 벤처플래닛 (Venture Planet) picks apart a service a non-developer friend built with vibe coding, from a product planner's point of view, to explain why nobody uses it. The cause turns out not to be coding skill; using the real case, the video covers four concrete improvements plus how to structure user acquisition and monetization. It works as a checklist for anyone who has finished building an app and is now stuck.",
+      "sourceName": "YouTube · 벤처플래닛",
+      "sourceUrl": "https://www.youtube.com/watch?v=60sBBaFGnLs",
+      "createdAt": "2026-09-21T22:30:27Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-21T23:17:54Z",
+      "id": "curated-20260922-cactus-needle3-on-device-tool-calling",
+      "title": "8~29MB짜리 온디바이스 모델로 도구 호출과 정보 추출 — Cactus Needle 3, 파인튜닝하면 DeepSeek V4 Flash급",
+      "body": "Show HN에서 235점을 받은 Needle 3는 스마트폰·웨어러블·로봇용으로 만든 도구 호출·구조화 정보 추출 특화 모델로, 서브네트워크 깊이(2~20층)에 따라 크기가 8~29MB다. 개발사는 모바일 도구 호출에서 10배 큰 모델을 앞서고 추출에서는 2~3배 큰 모델과 맞먹는다고 밝히며, 4층짜리를 파인튜닝하면 특정 작업에서 DeepSeek V4 Flash와 비슷한 성능이 나온다고 한다. 파이썬 데코레이터로 함수를 도구로 등록하고 `agent.run()`을 호출하는 방식이고, `needle build`로 macOS·Linux·Windows·Android·iOS·WebAssembly용 바이너리를 만든다.",
+      "titleEn": "Tool Calling and Extraction in an 8-29MB On-Device Model — Cactus Needle 3, Fine-Tuned to Match DeepSeek V4 Flash on Narrow Tasks",
+      "bodyEn": "Needle 3, which scored 235 points on Show HN, is a model built for phones, wearables, and robots that specializes in tool calling and structured extraction, ranging from 8 to 29MB depending on subnetwork depth (2-20 layers). The developers claim it beats models 10x its size on mobile tool calls and matches models 2-3x larger on extraction, and that a fine-tuned 4-layer version can match DeepSeek V4 Flash on specific tasks. You register functions as tools with a Python decorator and call `agent.run()`, and `needle build` produces binaries for macOS, Linux, Windows, Android, iOS, and WebAssembly.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://cactuscompute.com/needle",
+      "createdAt": "2026-09-18T00:11:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-21T23:17:54Z",
+      "id": "curated-20260922-claude-code-2-1-278-plugins-auto-mode",
+      "title": "클로드 코드 2.1.275~2.1.278 — claude.ai 계정의 스킬·플러그인이 터미널로 동기화, 오토 모드는 서버 분류기가 기본",
+      "body": "9월 17일 나온 2.1.275부터 claude.ai 계정에 설치한 스킬과 플러그인이 터미널 세션으로 동기화되고, `/plugin install <plugin> --marketplace <source>`로 마켓플레이스를 지정해 설치할 수 있다. 같은 버전에서 복원된 메모리 파일의 경과 시간 표기 때문에 압축·재개 뒤 프롬프트 캐시가 깨지던 문제도 고쳤다. 9월 19일 2.1.278은 Claude API·Enterprise 사용자의 오토 모드를 서버 측 분류기 기본값으로 바꿔 분류기 오버헤드 비용이 없고, `/status`의 'Auto mode server' 항목에서 분류기 위치를 확인한다.",
+      "titleEn": "Claude Code 2.1.275-2.1.278 — Skills and Plugins From Your claude.ai Account Sync to the Terminal, and Auto Mode Defaults to a Server-Side Classifier",
+      "bodyEn": "Starting with 2.1.275 (Sept 17), skills and plugins installed on your claude.ai account sync into terminal sessions, and `/plugin install <plugin> --marketplace <source>` lets you install from a specific marketplace. The same release fixed restored memory-file age notes that caused prompt cache misses after compaction or resume. On Sept 19, 2.1.278 made auto mode default to a server-side classifier for Claude API and Enterprise users, with no classifier overhead charges, and added an 'Auto mode server' row to `/status` showing where the classifier runs.",
+      "sourceName": "Claude Code Changelog",
+      "sourceUrl": "https://code.claude.com/docs/en/changelog",
+      "createdAt": "2026-09-19T00:00:00Z"
+    },
     {
       "mediaType": "none",
       "mediaUrl": "",
@@ -31,19 +109,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "curatedAt": "2026-09-20T23:15:26Z",
-      "id": "curated-20260921-ai-coding-seven-quality-layers",
-      "title": "AI 코딩으로 품질이 떨어진다면 관리 방식 탓 — 스펙 검토부터 모니터링까지 7겹 방어선으로 출력 2~3배",
-      "body": "Iouri Khramtsov는 스펙 검토, 단위 테스트 95% 이상, 수동 테스트, E2E 테스트, AI 품질 패스, 사람과 AI의 PR 리뷰, 모니터링의 7겹을 쌓으면 버그를 늘리지 않고 출력을 2~3배로 올릴 수 있다고 쓴다. AI에게 요구사항의 빈틈과 예외 상황을 찾게 한 단계가 신규 코드 버그를 가장 크게 줄였고, AGENTS.md·CLAUDE.md의 복잡한 규칙은 잘 안 지키니 보안·중복 코드·네이밍 점검은 별도 패스로 돌리라고 권한다. 이 팀은 PR마다 Claude와 Cursor 리뷰를 함께 돌리는데 서로 다른 문제를 찾고, 쏟아진 코멘트는 다른 에이전트가 걸러낸다. HN에서 66점을 받았다.",
-      "titleEn": "If AI Coding Lowers Your Code Quality, You're Not Managing Quality Right — Seven Defensive Layers for 2-3x Output",
-      "bodyEn": "Iouri Khramtsov argues that seven layers — spec review, unit tests above 95% coverage, manual testing, E2E tests, AI quality passes, human and AI PR reviews, and monitoring — let you raise output 2-3x without adding bugs. Having AI hunt for gaps and edge cases in the requirements cut bugs in new code the most, and since agents follow complex AGENTS.md or CLAUDE.md rules poorly, security, duplication, and naming checks are better run as separate passes. The author's team runs both Claude and Cursor reviews on every PR — they catch different problems — and has another agent prune the noisy comments. It scored 66 points on Hacker News.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.i-kh.net/p/if-ai-coding-is-lowering-your-code",
-      "createdAt": "2026-09-14T00:00:00Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-20T23:15:26Z",
       "id": "curated-20260921-harness-design-empirical-study",
       "title": "코딩 에이전트 하네스, 무엇을 바꿔야 효과가 있나 — 176개 설정 실험: 규칙 기반 생략을 먼저, LLM 요약은 그다음",
       "body": "arXiv 논문 'An Empirical Study of Harness Design for Coding Agents'는 실행 루프를 고정하고 계획·행동 공간·컨텍스트 관리만 바꿔 4개 모델, 176개 설정을 SWE-Bench Verified와 Terminal-Bench 2.1로 비교했다. 컨텍스트 창이 좁을수록 관리 전략의 효과가 컸고, 규칙 기반으로 오래된 출력을 먼저 생략한 뒤 LLM 요약을 붙이는 조합이 가장 효율적이었다. 계획 단계는 강한 모델에서 정확도보다 비용 절감 역할을 했고, bash를 잘 다루는 모델은 bash만 줘도 비용이 크게 낮았다. HN에서 223점, GeekNews에도 소개됐다.",
@@ -52,19 +117,6 @@
       "sourceName": "Hacker News",
       "sourceUrl": "https://arxiv.org/abs/2609.20804",
       "createdAt": "2026-09-17T17:58:07Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-20T23:15:26Z",
-      "id": "curated-20260921-gemini-labels-train-gliner-9-dollars",
-      "title": "Gemini에게 라벨링 4,290건을 9달러에 시켜 소형 NER 모델을 학습 — 댓글마다 유료 API 부르던 비용을 0으로",
-      "body": "Peter Vijeh는 주방칼 커뮤니티 Reddit 댓글에서 브랜드·모델·강종을 뽑으려고 댓글마다 Gemini 3.1 Pro를 부르던 방식을, Gemini가 한 번 붙인 라벨 4,290건(9달러)으로 오픈 NER 모델 GLiNER를 파인튜닝하는 방식으로 바꿨다. F1은 제로샷 약 0.65에서 0.83으로 올랐고 학습은 T4에서 24분, 10번 돌린 GPU 비용은 약 2.5달러였다. 배울 점은 LLM에게 글자 위치 대신 정확한 문자열만 받고 위치는 코드로 계산하라는 것과, 10번 중 5번이 설정 실수로 실패했다는 점이다. 라벨을 사람이 검수하지 않아 기준이 Gemini라는 한계도 밝힌다.",
-      "titleEn": "I Had Gemini Label 4,290 Comments for $9 and Trained a Small NER Model — Cutting a Per-Comment API Bill to Zero",
-      "bodyEn": "Peter Vijeh replaced calling Gemini 3.1 Pro on every Reddit comment about chef's knives (to extract brands, models, and steels) with fine-tuning the open NER model GLiNER on 4,290 labels Gemini wrote once for $9. F1 rose from about 0.65 zero-shot to 0.83; the winning run took 24 minutes on a T4, and all ten runs cost about $2.50 in GPU time. The lessons: ask the LLM for exact strings rather than character offsets and compute offsets in code, and note that five of ten runs failed on plumbing, not modeling. The author also admits labels were never hand-checked, so the model is graded against Gemini itself.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.petervijeh.com/projects/reddit-ner",
-      "createdAt": "2026-09-17T13:17:26Z"
     },
     {
       "mediaType": "none",
@@ -80,19 +132,6 @@
       "createdAt": "2026-09-19T00:00:00Z"
     },
     {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-20T23:15:26Z",
-      "id": "curated-20260921-copilot-runtime-rust-port-agents",
-      "title": "에이전트로 TypeScript 43만 줄을 Rust 80만 줄로 — 토큰 12만 달러, 마이크로소프트 코파일럿 런타임 이식 후기",
-      "body": "The Register가 전한 마이크로소프트 사례로, 코파일럿 런타임을 GPT-5.6 Sol과 Claude Opus 4.8 등 에이전트로 14.5주, 135번 릴리스에 걸쳐 모듈 단위로 이식했다. 토큰 약 12만 달러와 개발자 3주가 들었고 성능은 초당 세션 수명주기 7.55에서 120으로, 메모리는 1,383MB에서 126MB로 좋아졌다. 3만 줄짜리 session.ts는 25시간이 걸렸는데 문서를 읽는 데만 56분·도구 호출 122번을 썼고 자식 세션 15개를 각자 워크트리로 띄웠다. 에이전트는 코드 작성보다 조사에 시간을 더 썼고, 컴파일을 통과해도 회귀가 수십 건 나와 사람이 검증해야 했다.",
-      "titleEn": "430k Lines of TypeScript to 800k Lines of Rust With Agents — $120K in Tokens: Microsoft's Copilot Runtime Port",
-      "bodyEn": "The Register reports that Microsoft ported the Copilot runtime module by module over 14.5 weeks and 135 releases using agents including GPT-5.6 Sol and Claude Opus 4.8. It cost about $120K in tokens plus roughly three weeks of a developer's time, and performance rose from 7.55 to 120 session lifecycles per second while memory fell from 1,383MB to 126MB. The 30,000-line session.ts took 25 hours: the session spent 56 minutes reading docs with 122 tool calls, then spawned 15 child sessions in separate worktrees. Agents spent more time investigating than writing code, and dozens of regressions still got past the compiler, so humans had to verify.",
-      "sourceName": "The Register",
-      "sourceUrl": "https://www.theregister.com/devops/2026/09/18/microsoft-agentically-ports-copilot-runtime-to-rust-for-120k/5297549",
-      "createdAt": "2026-09-18T22:11:00Z"
-    },
-    {
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=B2cDUYqmP6I",
       "curatedAt": "2026-09-20T23:15:26Z",
@@ -106,32 +145,6 @@
       "createdAt": "2026-09-20T13:00:12Z"
     },
     {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-19T23:12:39Z",
-      "id": "curated-20260920-zcode-silent-git-history-upload",
-      "title": "GLM 코딩 에이전트 ZCode가 .git 히스토리째 워크스페이스를 몰래 업로드 — 쓰기 전에 체크포인트 폴더부터 확인",
-      "body": "tokenstead.ai 분석에 따르면 ZCode는 작업 폴더를 통째로 묶어 알리바바 클라우드 OSS로 올린다. 345MB·파일 4만 2,411개짜리 상용 워크스페이스에서 313MB 암호화 아카이브가 만들어졌고, 세션 하나에서 캡처 이벤트가 62번 기록됐다. 페이로드의 86.6%가 .git 히스토리였고 지운 API 키와 푸시 안 한 브랜치도 포함되며, 개인정보 처리방침에는 이 내용이 없다. 끄려면 `~/.zcode/v2/checkpoints`를 비우고 쓰기 불가로 잠그면 되는데(리눅스 `chattr +i`, macOS `chflags uchg`), 체크포인트 롤백 기능만 꺼지고 채팅·자동완성은 그대로다. HN에서 261점을 받았다.",
-      "titleEn": "ZCode, the GLM Coding Agent, Silently Uploads Your Whole Workspace Including .git History — Check Its Checkpoint Folder Before You Use It",
-      "bodyEn": "According to a tokenstead.ai analysis, ZCode bundles the working directory and uploads it to Alibaba Cloud OSS. A 345MB, 42,411-file commercial workspace produced a 313MB encrypted archive, with 62 capture events in a single session. 86.6% of the payload was .git history, including deleted API keys and unpushed branches, and the privacy policy doesn't mention it. To stop it, empty `~/.zcode/v2/checkpoints` and lock it read-only (`chattr +i` on Linux, `chflags uchg` on macOS); only checkpoint rollback is lost while chat and autocomplete keep working. It scored 261 points on Hacker News.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-      "createdAt": "2026-09-18T10:35:28Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-19T23:12:39Z",
-      "id": "curated-20260920-bend2-vibe-coding-trap",
-      "title": "\"바이브 코딩의 함정\" — 명세 58줄에 AI가 증명 442줄을 쓴 Bend 2, 기존 도구 SPARK로는 50줄",
-      "body": "Liam Powell의 글은 사람이 명세만 쓰면 AI가 구현과 형식 증명까지 만든다는 언어 Bend 2를 비판하며 바이브 코딩의 함정을 정의한다. 문제를 충분히 배우기 전에 큰 해법을 만들어버려, 더 나은 해법이 이미 있다는 사실을 알아보지 못한다는 것이다. Bend 데모는 게임 규칙 명세 58줄에 LLM이 만든 증명이 442줄이었는데, 검증 언어 SPARK로는 전체가 약 50줄이고 12개 검증을 모두 통과했다. 새로 만들기 전에 그 분야의 기존 해법부터 조사하라는 교훈이며 HN에서 321점을 받았다.",
-      "titleEn": "The \"Vibe-Coding Trap\" — Bend 2 Needs a 58-Line Spec and a 442-Line AI Proof; the Established SPARK Does It in About 50",
-      "bodyEn": "Liam Powell's post critiques Bend 2, a language where humans write specs and AI generates the implementation and formal proofs, and uses it to define the vibe-coding trap: you can build a substantial solution before learning enough about the problem to realize a much better one already exists. Bend's demo needs 58 lines to specify a game's rules and 442 lines of LLM-generated proof, while the established verification language SPARK does the whole thing in roughly 50 lines with all 12 checks proved. The lesson: research the field's existing solutions before building something new. It scored 321 points on Hacker News.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://blog.liampwll.com/posts/bend_vibe_coding/",
-      "createdAt": "2026-09-18T12:03:55Z"
-    },
-    {
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=nrn6GzG1o9A",
       "curatedAt": "2026-09-19T23:12:39Z",
@@ -143,19 +156,6 @@
       "sourceName": "YouTube · 에릭 Eric Park",
       "sourceUrl": "https://www.youtube.com/watch?v=nrn6GzG1o9A",
       "createdAt": "2026-09-18T00:00:00Z"
-    },
-    {
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=Jbqbg3dPJvU",
-      "curatedAt": "2026-09-19T23:12:39Z",
-      "id": "curated-20260920-google-ai-studio-vibe-coding-3phase",
-      "title": "프로토타입에서 진짜 앱으로 — 구글 AI 스튜디오 팀이 알려주는 바이브 코딩 3단계 워크플로우",
-      "body": "Google AI Studio 제품·디자인 리드 Ammaar가 24분 동안 바이브 코딩 앱을 믿고 쓸 수 있게 만드는 3단계를 보여준다. 먼저 제미나이를 생각 파트너로 삼아 스펙 문서를 만들고, 다음으로 내장 디버그 패널로 오류를 좁히고 자동 수정 루프를 붙여 앱을 단단하게 한다. 마지막으로 근거(grounding)를 갖춘 앱을 팀에 안전하게 배포한다. 스펙, 테스트, 배포를 순서대로 밟는 체크리스트로 그대로 따라 할 수 있다.",
-      "titleEn": "From Prototype to Real App — The Google AI Studio Team's 3-Phase Vibe Coding Workflow",
-      "bodyEn": "Ammaar, Lead of Product and Design for Google AI Studio, spends 24 minutes on a three-phase workflow for making vibe-coded apps dependable. First, use Gemini as a thought partner to write a spec doc; next, harden the app with the built-in debug panel and automatic error-correction loops; finally, deploy a grounded app to your team safely. Spec, test, ship: a checklist you can follow as-is.",
-      "sourceName": "YouTube · Grow with Google",
-      "sourceUrl": "https://www.youtube.com/watch?v=Jbqbg3dPJvU",
-      "createdAt": "2026-09-17T00:00:00Z"
     },
     {
       "mediaType": "video",

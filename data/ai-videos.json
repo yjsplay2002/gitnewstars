@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-09-20T23:15:26Z",
+  "generatedAt": "2026-09-21T23:17:54Z",
   "videos": [
+    {
+      "id": "vid-venturplanet-vibecoded-app-teardown-ko",
+      "youtubeId": "60sBBaFGnLs",
+      "category": "usecase",
+      "title": "바이브코딩으로 만든 앱, 문제는 코딩이 아니었습니다 — 실제 사례 뜯어보기",
+      "titleEn": "The Vibe-Coded App's Problem Wasn't the Coding — A Real Case Teardown",
+      "descKo": "비개발자가 바이브코딩으로 만든 서비스를 기획자 관점에서 뜯어보고 개선점 4가지와 유입·수익화 구조를 짚는 15분 59초 영상.",
+      "descEn": "A 15:59 planner's teardown of a service a non-developer vibe-coded, covering four improvements plus acquisition and monetization structure.",
+      "channel": "벤처플래닛 | 여러분의 IT팀장",
+      "publishedAt": "2026-09-21T22:30:27Z",
+      "addedAt": "2026-09-21T23:17:54Z"
+    },
+    {
+      "id": "vid-uzchowall-master-ai-workflow-ko",
+      "youtubeId": "woSiT_kytXo",
+      "category": "usecase",
+      "title": "'AI 활용의 정점' 설명회 — 마스터 AI가 개발·QA AI를 지휘하는 워크플로우 구조 공개",
+      "titleEn": "The Peak of AI Usage — Inside a Master-AI Workflow With Separate Dev and QA Agents",
+      "descKo": "52분 설명회의 후반에서 마스터 AI, 개발 AI와 QA AI의 분리, 무한 반복 방지 장치, 토큰 소진 후 이어가기, 작업 후 위키 생성까지 자기 워크플로우를 공개한다.",
+      "descEn": "The second half of a 52-minute talk reveals a master AI, separate dev and QA agents, a guard against infinite review loops, resuming after token exhaustion, and a post-task wiki.",
+      "channel": "Uzchowall",
+      "publishedAt": "2026-09-19T02:00:47Z",
+      "addedAt": "2026-09-21T23:17:54Z"
+    },
+    {
+      "id": "vid-makerevan-why-codex-no-harness-ko",
+      "youtubeId": "YbZglhAQ5S8",
+      "category": "tip",
+      "title": "왜 다들 코덱스로 넘어가나 — 하네스 없이 쓰는 법까지",
+      "titleEn": "Why Is Everyone Moving to Codex — Including How to Use It Without a Harness",
+      "descKo": "클로드 코드에서 코덱스로 옮긴 이유 네 가지와, ADR 문서·AGENTS.md·스킬로 굴리는 실제 사용 방식, 아쉬운 점 세 가지를 9분 25초에 정리한다.",
+      "descEn": "In 9:25, four reasons for moving from Claude Code to Codex, the real setup using an ADR doc, AGENTS.md, and skills, and three shortcomings.",
+      "channel": "메이커 에반 | Maker Evan",
+      "publishedAt": "2026-09-14T05:51:23Z",
+      "addedAt": "2026-09-21T23:17:54Z"
+    },
+    {
+      "id": "vid-yunjadong-codex-beginner-guide-ko",
+      "youtubeId": "p4QV5ebJDlA",
+      "category": "lecture",
+      "title": "AI 좀 쓰는 사람이 코덱스 알려드림 — Codex 왕초보 가이드 2026",
+      "titleEn": "A Power User Teaches You Codex — Absolute Beginner Guide 2026",
+      "descKo": "챗GPT와 코덱스의 차이, 바탕화면 파일 정리 시연, 홈페이지 제작·CS 챗봇·인스타 클릭률 추적 등 활용 사례를 따라 하는 37분 입문 강의.",
+      "descEn": "A 37-minute beginner lecture on how Codex differs from ChatGPT, with a desktop-cleanup demo and use cases like building a company site, a CS chatbot, and Instagram click tracking.",
+      "channel": "윤자동",
+      "publishedAt": "2026-09-14T09:31:03Z",
+      "addedAt": "2026-09-21T23:17:54Z"
+    },
+    {
+      "id": "vid-ttokssajang-claudecode-beginner-ko",
+      "youtubeId": "UXMMASGqbUQ",
+      "category": "lecture",
+      "title": "클로드코드 90%가 틀리게 하고 있음 — 사장님이 손익관리 프로그램 만드는 50분 입문",
+      "titleEn": "90% Use Claude Code Wrong — A 50-Minute Intro Building a Shop Profit Dashboard",
+      "descKo": "프로젝트·마크다운·CLAUDE.md·퍼미션 모드·모델 선택 5개 개념을 짚고, 플랜 모드로 PRD부터 만든 뒤 가게 손익관리 대시보드를 만든다.",
+      "descEn": "Covers five concepts — projects, markdown, CLAUDE.md, permission modes, model choice — then builds a shop profit dashboard, starting with a PRD in plan mode.",
+      "channel": "사업가를 위한 AI활용법, 똑사장",
+      "publishedAt": "2026-09-13T09:39:17Z",
+      "addedAt": "2026-09-21T23:17:54Z"
+    },
+    {
+      "id": "vid-ibm-when-to-use-super-agents",
+      "youtubeId": "jRMbbRdju7Q",
+      "category": "lecture",
+      "title": "슈퍼 에이전트는 언제 써야 할까 — 에이전트 스웜, 오케스트레이션·격리·관측성 설계 원칙",
+      "titleEn": "When Should AI Systems Use Super Agents?",
+      "descKo": "슈퍼 에이전트가 강력하지만 위험한 이유와 에이전트 스웜으로 위험을 줄이는 법, 오케스트레이션·격리·관측성 설계 원칙을 11분에 설명한다.",
+      "descEn": "An 11-minute explainer on when super agents make sense, how agent swarms reduce risk, and why orchestration, isolation, and observability matter.",
+      "channel": "IBM Technology",
+      "publishedAt": "2026-09-20T11:00:32Z",
+      "addedAt": "2026-09-21T23:17:54Z"
+    },
     {
       "id": "vid-imcommit-claude-code-stop-hook-notion-ko",
       "youtubeId": "B2cDUYqmP6I",
@@ -98,66 +170,6 @@
       "addedAt": "2026-09-19T23:12:39Z"
     },
     {
-      "id": "vid-autop-claude-skill-5steps-ko",
-      "youtubeId": "HyvLHHwFudM",
-      "category": "tip",
-      "title": "클로드에 내 업무 방식을 저장하는 법 — 스킬 5단계 완벽 가이드",
-      "titleEn": "Save Your Way of Working in Claude — A 5-Step Guide to Skills",
-      "descKo": "반복하는 업무 방식을 클로드 스킬로 만들어 두는 과정을 5단계로 나눠 설명하는 19분 가이드.",
-      "descEn": "A 19-minute guide that breaks turning your repeatable work habits into Claude skills into five steps.",
-      "channel": "AUTOP 오톱",
-      "publishedAt": "2026-09-17T00:00:00Z",
-      "addedAt": "2026-09-19T23:12:39Z"
-    },
-    {
-      "id": "vid-erictech-claude-code-7-updates",
-      "youtubeId": "shYJ0P-vvdI",
-      "category": "tip",
-      "title": "이번 달 클로드 코드 신기능 7가지 직접 써보기 — 놓치면 안 되는 업데이트",
-      "titleEn": "Don't Miss These 7 Claude Code Updates",
-      "descKo": "세션 메시징, 내장 브라우저, iOS 시뮬레이터, 오토 모드, /design 등 이번 달 나온 기능 7개를 써보고 클로드 코드 대 코덱스 소감까지 정리.",
-      "descEn": "Tests seven new features from this month — session messaging, built-in browser, iOS Simulator, auto mode, /design and more — and ends on Claude Code vs Codex.",
-      "channel": "Eric Tech",
-      "publishedAt": "2026-09-18T00:00:00Z",
-      "addedAt": "2026-09-19T23:12:39Z"
-    },
-    {
-      "id": "vid-localhost-spec-driven-vibe-coding",
-      "youtubeId": "1Fl94dPn2mU",
-      "category": "usecase",
-      "title": "스펙 주도 바이브 코딩 실전 — 명세를 4번 다듬고 나서야 구현 시작",
-      "titleEn": "Spec-Driven Vibe Coding in Action",
-      "descKo": "LLM이 코드를 100% 쓰되, 사람과 LLM이 명세를 4번 주고받아 확정한 뒤에만 구현에 들어가는 과정을 게임 프로젝트로 보여준다.",
-      "descEn": "The LLM writes 100% of the code, but only after human and LLM lock down the spec over four passes, shown on a game project.",
-      "channel": "No place like localhost",
-      "publishedAt": "2026-09-18T00:00:00Z",
-      "addedAt": "2026-09-19T23:12:39Z"
-    },
-    {
-      "id": "vid-growwithgoogle-vibe-coding-guide",
-      "youtubeId": "Jbqbg3dPJvU",
-      "category": "lecture",
-      "title": "바이브 코딩 궁극의 가이드 — 스펙, 테스트, 공유 3단계 (구글 AI 스튜디오)",
-      "titleEn": "The Ultimate Guide to Vibe Coding | Google",
-      "descKo": "Google AI Studio 리드가 제미나이로 스펙 문서를 만들고, 디버그 패널·자동 수정 루프로 다듬어, 안전하게 배포하는 24분 워크플로우를 보여준다.",
-      "descEn": "Google AI Studio's lead shows a 24-minute workflow: write a spec with Gemini, harden with the debug panel and auto-correction loops, then deploy safely.",
-      "channel": "Grow with Google",
-      "publishedAt": "2026-09-17T00:00:00Z",
-      "addedAt": "2026-09-19T23:12:39Z"
-    },
-    {
-      "id": "vid-builderjosh-tiro-personal-agents-ko",
-      "youtubeId": "G9edFGL3rKs",
-      "category": "usecase",
-      "title": "연매출 40억 스타트업 Tiro가 설명하는 '온톨로지' — 개인 에이전트 12개로 조직 운영",
-      "titleEn": "How Startup Tiro (₩4B in Annual Revenue) Explains 'Ontology' — Running an Org With 12 Personal Agents",
-      "descKo": "Tiro의 CTO와 AX 담당이 SOUL.md·LLM 위키·온톨로지 3단 구조로 팀원마다 개인 AI 에이전트를 두고 인수인계와 B2B 업무까지 자동화하는 방식을 설명하는 인터뷰.",
-      "descEn": "Tiro's CTO and AX lead explain giving every teammate a personal AI agent built on a SOUL.md + LLM wiki + ontology stack, and using it for handoffs and B2B work.",
-      "channel": "빌더 조쉬 Builder Josh",
-      "publishedAt": "2026-09-18T00:00:00Z",
-      "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
       "id": "vid-silbaeldev-aside-browser-agent-ko",
       "youtubeId": "lKvvVOFa6M0",
       "category": "usecase",
@@ -168,18 +180,6 @@
       "channel": "실밸개발자",
       "publishedAt": "2026-09-17T00:00:00Z",
       "addedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "vid-yangsiljang-vibecoding-university-ko",
-      "youtubeId": "oGaDyb6mSwM",
-      "category": "usecase",
-      "title": "바이브코딩으로 혼자 만든 제품 3개 중 2개 매각",
-      "titleEn": "Solo-Built 3 Products With Vibe Coding — Sold 2 of Them",
-      "descKo": "바이브코딩만으로 혼자 제품 3개를 만들어 그중 2개를 실제로 매각한 사례를 공유하는 실전 영상.",
-      "descEn": "A real case study of a solo builder who made three products with vibe coding and actually sold two of them.",
-      "channel": "양실장의 바이브코딩대학",
-      "publishedAt": "2026-09-17T00:00:00Z",
-      "addedAt": "2026-09-17T23:11:16Z"
     }
   ]
 }
