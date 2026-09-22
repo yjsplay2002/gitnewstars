@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-09-21T23:17:54Z",
+  "generatedAt": "2026-09-22T23:20:49Z",
   "videos": [
+    {
+      "id": "vid-lucasbright-claude-code-cheap-models",
+      "youtubeId": "Km0gcjEdFTc",
+      "category": "tip",
+      "title": "클로드 코드 입문 — 비싼 모델 대신 저렴한 모델로 돌리기",
+      "titleEn": "How To Use Claude Code For Beginners (Running on Cheap Models)",
+      "descKo": "설치부터 프로젝트 컨텍스트 잡기, 여러 파일 동시 편집까지 초보자 대상으로 10분 30초에 보여주는 튜토리얼. 값비싼 최상위 모델 대신 저렴한 모델로 돌리는 법에 초점.",
+      "descEn": "A 10:30 beginner tutorial covering install, giving Claude Code project context, and multi-file edits, focused on running it on cheap models instead of top-tier ones.",
+      "channel": "Lucas Bright",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "addedAt": "2026-09-22T23:20:49Z"
+    },
+    {
+      "id": "vid-imyeonseoda-ai-top1-bottom1-ko",
+      "youtubeId": "93n2unA8zzk",
+      "category": "tip",
+      "title": "상위 1% vs 하위 1% AI 활용법 — 4가지 체크리스트",
+      "titleEn": "Top 1% vs Bottom 1% AI Usage",
+      "descKo": "AI를 잘 쓰는지 스스로 점검하는 4가지 진단 체크리스트를 12분 26초에 정리한 영상.",
+      "descEn": "A 12:26 video laying out a 4-item checklist to self-diagnose how well you actually use AI.",
+      "channel": "이면서다",
+      "publishedAt": "2026-09-21T00:00:00Z",
+      "addedAt": "2026-09-22T23:20:49Z"
+    },
+    {
+      "id": "vid-mikeyvibecoding-claude-base44",
+      "youtubeId": "HYsAsAE_sZA",
+      "category": "usecase",
+      "title": "클로드로 프로처럼 바이브 코딩하기 — Base44 실전 튜토리얼",
+      "titleEn": "How to Use Claude to Vibe Code Like a Pro (Full Tutorial)",
+      "descKo": "노코드 플랫폼 Base44와 클로드를 엮어 실제 프로젝트를 빌드하는 21분 33초짜리 바이브 코딩 워크플로우 튜토리얼.",
+      "descEn": "A 21:33 tutorial wiring Claude into the no-code platform Base44 to build a real project, showing a practical vibe-coding workflow.",
+      "channel": "Mikey Vibe Coding",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "addedAt": "2026-09-22T23:20:49Z"
+    },
+    {
+      "id": "vid-survivalai-10-ai-agents-team-ko",
+      "youtubeId": "YAdZ-_mDeoo",
+      "category": "usecase",
+      "title": "AI 에이전트 10명에게 일 맡겼더니 — 회의부터 SNS 게시까지",
+      "titleEn": "I Gave 10 AI Agents Jobs — From Meetings to Posting on Social",
+      "descKo": "클로드·GPT를 섞은 에이전트 10명짜리 팀을 만들어 회의·업무배정·검토·Threads 게시까지 맡기는 31분 실전 영상. 실패 사례도 함께 공개.",
+      "descEn": "Builds a 10-agent team mixing Claude and GPT to hold meetings, assign/review work, and post to Threads, in 31 minutes — failures included, not just wins.",
+      "channel": "SURVIVAL AI",
+      "publishedAt": "2026-09-21T00:00:00Z",
+      "addedAt": "2026-09-22T23:20:49Z"
+    },
+    {
+      "id": "vid-yangsiljang-vibecoding-backend-s2e2-ko",
+      "youtubeId": "z38v9TEcisI",
+      "category": "lecture",
+      "title": "바이브코딩대학 뿌리강의 시즌2-2강 — 백엔드 코딩 훈련 가이드",
+      "titleEn": "Vibe Coding University Root Course S2E2: Backend Coding Training Guide",
+      "descKo": "찍기식 바이브코딩 대신 Python·PostgreSQL·FastAPI로 API·CRUD·ORM을 직접 익히는 38분 44초짜리 백엔드 기초 강의.",
+      "descEn": "A 38:44 backend-fundamentals lesson teaching Python, PostgreSQL, and FastAPI (API, CRUD, ORM) by hand, instead of relying purely on AI-guessed vibe coding.",
+      "channel": "양실장의 바이브코딩대학",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "addedAt": "2026-09-22T23:20:49Z"
+    },
     {
       "id": "vid-venturplanet-vibecoded-app-teardown-ko",
       "youtubeId": "60sBBaFGnLs",
@@ -23,42 +83,6 @@
       "descEn": "The second half of a 52-minute talk reveals a master AI, separate dev and QA agents, a guard against infinite review loops, resuming after token exhaustion, and a post-task wiki.",
       "channel": "Uzchowall",
       "publishedAt": "2026-09-19T02:00:47Z",
-      "addedAt": "2026-09-21T23:17:54Z"
-    },
-    {
-      "id": "vid-makerevan-why-codex-no-harness-ko",
-      "youtubeId": "YbZglhAQ5S8",
-      "category": "tip",
-      "title": "왜 다들 코덱스로 넘어가나 — 하네스 없이 쓰는 법까지",
-      "titleEn": "Why Is Everyone Moving to Codex — Including How to Use It Without a Harness",
-      "descKo": "클로드 코드에서 코덱스로 옮긴 이유 네 가지와, ADR 문서·AGENTS.md·스킬로 굴리는 실제 사용 방식, 아쉬운 점 세 가지를 9분 25초에 정리한다.",
-      "descEn": "In 9:25, four reasons for moving from Claude Code to Codex, the real setup using an ADR doc, AGENTS.md, and skills, and three shortcomings.",
-      "channel": "메이커 에반 | Maker Evan",
-      "publishedAt": "2026-09-14T05:51:23Z",
-      "addedAt": "2026-09-21T23:17:54Z"
-    },
-    {
-      "id": "vid-yunjadong-codex-beginner-guide-ko",
-      "youtubeId": "p4QV5ebJDlA",
-      "category": "lecture",
-      "title": "AI 좀 쓰는 사람이 코덱스 알려드림 — Codex 왕초보 가이드 2026",
-      "titleEn": "A Power User Teaches You Codex — Absolute Beginner Guide 2026",
-      "descKo": "챗GPT와 코덱스의 차이, 바탕화면 파일 정리 시연, 홈페이지 제작·CS 챗봇·인스타 클릭률 추적 등 활용 사례를 따라 하는 37분 입문 강의.",
-      "descEn": "A 37-minute beginner lecture on how Codex differs from ChatGPT, with a desktop-cleanup demo and use cases like building a company site, a CS chatbot, and Instagram click tracking.",
-      "channel": "윤자동",
-      "publishedAt": "2026-09-14T09:31:03Z",
-      "addedAt": "2026-09-21T23:17:54Z"
-    },
-    {
-      "id": "vid-ttokssajang-claudecode-beginner-ko",
-      "youtubeId": "UXMMASGqbUQ",
-      "category": "lecture",
-      "title": "클로드코드 90%가 틀리게 하고 있음 — 사장님이 손익관리 프로그램 만드는 50분 입문",
-      "titleEn": "90% Use Claude Code Wrong — A 50-Minute Intro Building a Shop Profit Dashboard",
-      "descKo": "프로젝트·마크다운·CLAUDE.md·퍼미션 모드·모델 선택 5개 개념을 짚고, 플랜 모드로 PRD부터 만든 뒤 가게 손익관리 대시보드를 만든다.",
-      "descEn": "Covers five concepts — projects, markdown, CLAUDE.md, permission modes, model choice — then builds a shop profit dashboard, starting with a PRD in plan mode.",
-      "channel": "사업가를 위한 AI활용법, 똑사장",
-      "publishedAt": "2026-09-13T09:39:17Z",
       "addedAt": "2026-09-21T23:17:54Z"
     },
     {
@@ -95,18 +119,6 @@
       "descEn": "A Claude Code power user tries GPT-6 Astra and lists six differences, including limits and reset tickets, plugins and skills, GPT-Image, and computer use.",
       "channel": "Jay Choi | 인디해커 라이프",
       "publishedAt": "2026-09-18T10:00:32Z",
-      "addedAt": "2026-09-20T23:15:26Z"
-    },
-    {
-      "id": "vid-jaychoi-claude-code-design-sketch-paint-finish-ko",
-      "youtubeId": "2-Hg8BXcckc",
-      "category": "tip",
-      "title": "클로드 코드 디자인 순서 — 스케치, 스킬로 도색, 구역별 마감으로 AI 티 지우기",
-      "titleEn": "Claude Code Design: Follow This Workflow to Remove the AI Look",
-      "descKo": "\"예쁘게 해줘\" 대신 흑백 스케치 → impeccable·taste-skill 도색 → 구역별 마감 순서로 실제 페이지를 처음부터 끝까지 만든다.",
-      "descEn": "Instead of asking for 'pretty', builds a real page in order: monochrome sketch, painting with the impeccable and taste-skill skills, then section-by-section finishing.",
-      "channel": "Jay Choi | 인디해커 라이프",
-      "publishedAt": "2026-09-14T10:00:29Z",
       "addedAt": "2026-09-20T23:15:26Z"
     },
     {
@@ -155,18 +167,6 @@
       "descEn": "Has Astra design the same web app three times — no references, Mobbin MCP, and 21st.dev MCP — and compares results, time, and token cost.",
       "channel": "Eric Park | 빌더 + 디자이너",
       "publishedAt": "2026-09-18T00:00:00Z",
-      "addedAt": "2026-09-19T23:12:39Z"
-    },
-    {
-      "id": "vid-junmeori-claude-codex-review-ko",
-      "youtubeId": "w-ViVu7p7YY",
-      "category": "tip",
-      "title": "Claude Code가 짜고, Codex가 까고 — 개발자·리뷰어 협업 구조",
-      "titleEn": "Claude Code Writes, Codex Reviews — A Developer/Reviewer Collaboration Setup",
-      "descKo": "Claude Code를 개발자, Codex를 리뷰어로 붙이는 구조와 지침 문서, 시간이 더 걸리는 단점, 쓸지 말지 판단 기준을 다룬다.",
-      "descEn": "Pairs Claude Code as developer with Codex as reviewer, covering the instruction files, the added time cost, and when the setup is worth it.",
-      "channel": "업무의 잔머리",
-      "publishedAt": "2026-09-16T00:00:00Z",
       "addedAt": "2026-09-19T23:12:39Z"
     },
     {

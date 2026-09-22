@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-09-21T23:17:54Z",
+  "generatedAt": "2026-09-22T23:20:49Z",
   "posts": [
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-22T23:20:49Z",
+      "id": "curated-20260923-claude-opus-5-5-launch",
+      "title": "클로드 오퍼스 5.5 출시 — 전작보다 40% 싸졌고, 68만 줄 마이그레이션을 하루 만에 끝냈다",
+      "body": "클로드 오퍼스 5.5가 9월 22일 나왔고 HN에서 1,047점을 받았다. 입력 100만 토큰당 4달러, 출력 20달러로 오퍼스 5보다 일반 워크로드 기준 40% 저렴해졌고 캐시 읽기는 0.20달러다. Pro·Max·Team·Enterprise의 5시간 사용 한도가 늘었고 한도 리셋권도 받는다. 웹앱 로딩 속도 개선 과제 40번 중 39번을 성공시켰고(오퍼스 5는 부분적 수정에 그쳤다), 68만 줄짜리 코드 마이그레이션을 하루 안에 끝낸 사례, HAProxy C→Rust 재작성을 9.5시간·비용 51% 절감(Fable 5.1 대비)으로 마친 사례가 보고됐다.",
+      "titleEn": "Claude Opus 5.5 Launches — 40% Cheaper Than Its Predecessor, Finished a 680K-Line Migration in a Day",
+      "bodyEn": "Claude Opus 5.5 launched Sept 22 and topped Hacker News at 1,047 points. At $4/$20 per million input/output tokens (cache reads $0.20), it runs about 40% cheaper than Opus 5 on typical workloads; five-hour usage limits rose across Pro, Max, Team, and Enterprise, with a rate-limit reset available. Reported results include 39/40 success on a 'cut page load time' task (versus Opus 5's partial fixes), a 680,000-line code migration finished in under a day, and a HAProxy C-to-Rust rewrite done in 9.5 hours at 51% lower cost than Fable 5.1.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://www.anthropic.com/claude-opus-5-5",
+      "createdAt": "2026-09-22T16:27:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-22T23:20:49Z",
+      "id": "curated-20260923-foremerge-agent-intent-conflicts",
+      "title": "파일은 안 겹쳐도 의도가 겹친다 — 병렬 코딩 에이전트의 충돌을 코드 쓰기 전에 잡는 Foremerge",
+      "body": "Show HN에서 45점을 받은 Foremerge는 병렬로 돌아가는 코딩 에이전트끼리 파일은 안 겹쳐도 의도가 충돌하는 걸 잡아내는 Rust·Apache-2.0 도구다. 한 에이전트가 `symbol:PaymentService=replace`처럼 자기가 바꿀 대상을 `.git/foremerge/state.sqlite3`에 미리 선언하면, 다른 에이전트의 선언과 겹칠 때 코드를 쓰기 전에 충돌을 알려준다. `curl -fsSL https://foremerge.com/install.sh | sh`로 설치하며 `foremerge`·`fmg` 명령을 쓰고, MCP·클라이언트별 스킬·로컬 HTTP API(포트 47811)로 클로드 코드·코덱스·커서와 연동된다. 아직 0.5.0 프리 1.0이라 여러 기기 간 협업 등은 미구현이다.",
+      "titleEn": "Files Don't Collide, but Intent Does — Foremerge Catches Parallel-Agent Conflicts Before Code Is Written",
+      "bodyEn": "Foremerge, a Show HN post at 45 points, is a Rust/Apache-2.0 tool that catches semantic conflicts between parallel coding agents that Git alone misses — e.g. one agent replacing a `PaymentService` while another extends it. Agents declare planned changes (`symbol:PaymentService=replace`) into a shared SQLite store at `.git/foremerge/state.sqlite3` before writing code, and Foremerge flags collisions before they happen. Install with `curl -fsSL https://foremerge.com/install.sh | sh`; it exposes `foremerge`/`fmg` commands and wires into Claude Code, Codex, and Cursor via MCP, per-client skills, or a local HTTP API on port 47811. Still pre-1.0 (v0.5.0) — cross-machine coordination isn't built yet.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/naw103/foremerge",
+      "createdAt": "2026-09-21T16:22:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-22T23:20:49Z",
+      "id": "curated-20260923-unreal-agent-async-harness",
+      "title": "도구 호출을 기다리지 않는 하네스 — Unreal Agent, 코덱스 대비 비용 40% 절감 주장",
+      "body": "HN에서 99점을 받은 Unreal Agent 글은 에이전트 하네스가 도구 호출을 기다리는 대신, 실행을 '진행 중'으로 즉시 기록해두고 결과가 오면 이어 붙이는 비동기 구조를 설명한다. GPT-6 Astra로 Terminal-Bench 4.0·SWE-Atlas·DeepSWE 1.1을 돌려 코덱스와 비슷한 통과율을 유지하면서 비용은 39~60% 줄었고, 전체적으로는 코덱스 대비 40%, Pi 대비 20% 낮다고 밝힌다. 글은 클로드 Agent SDK 같은 CLI 중심 SDK가 로컬 세션·서브프로세스를 전제해 프로덕션에 잘 안 맞는다고 지적하고, 보안도 훅이 아니라 환경 제약으로 가야 한다고 주장한다.",
+      "titleEn": "A Harness That Never Blocks on Tool Calls — Unreal Agent Claims 40% Lower Cost Than Codex",
+      "bodyEn": "This Unreal Agent post scored 99 on Hacker News, describing an async tool-calling harness that logs a call as 'in-progress' immediately instead of blocking, then appends the result when it lands. Tested with GPT-6 Astra on Terminal-Bench 4.0, SWE-Atlas, and DeepSWE 1.1, it matched Codex's pass rate while cutting cost 39-60%, for overall claims of 40% lower cost than Codex and 20% lower than Pi. The piece also argues CLI-first SDKs like Claude's Agent SDK carry local-session/subprocess assumptions that don't fit production, and that security should live in environmental constraints rather than harness hooks.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://unreallabs.ai/blog/unreal-agent/",
+      "createdAt": "2026-09-22T00:00:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-22T23:20:49Z",
+      "id": "curated-20260923-linear-ci-bottleneck-rework",
+      "title": "AI 에이전트가 코드를 너무 빨리 뽑아내 CI가 병목이 됐다 — Linear가 손댄 곳과 수치",
+      "body": "HN에서 308점을 받은 Linear 엔지니어링 블로그 글은 AI 에이전트가 코드를 빨리 뽑아내면서 연초 대비 거의 4배로 불어난 테스트 스위트가 CI 병목이 된 문제를 다룬다. GitHub Actions를 서드파티 러너로 바꿔 작업이 평균 34% 빨라졌고 `tsc`는 52% 단축됐으며, 네이티브 컴파일러 `tsgo` 도입으로 주간 중앙값 `tsc` 시간이 73% 줄었다. 린트 규칙을 타입 정보 없이 AST만 보게 다시 짜서 API 린트 68%·전체 린트 55%를 단축했고 이게 Oxlint 전환으로 이어졌다. 결과적으로 PR 대기 시간이 6분대에서 5분대로, 테스트당 러너 시간은 절반으로 줄었다.",
+      "titleEn": "AI Agents Shipped Code Faster Than CI Could Validate It — Here's What Linear Changed, and the Numbers",
+      "bodyEn": "This Linear engineering post, 308 points on Hacker News, tackles CI becoming a bottleneck as AI agents shipped code faster than a test suite that nearly quadrupled since January could validate. Switching from GitHub Actions to third-party runners made jobs 34% faster on average and cut `tsc` time 52%; adopting the native `tsgo` compiler cut weekly median `tsc` time 73%. Rewriting custom lint rules to use AST-only analysis (no type info) cut API lint time 68% and full-repo lint 55%, which then enabled a move to Oxlint. Net result: PR wait time dropped from 6+ minutes to about 5, and runner-minutes per test were roughly halved.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://linear.app/now/ci-bottleneck-reworked",
+      "createdAt": "2026-09-21T19:23:00Z"
+    },
+    {
+      "mediaType": "none",
+      "mediaUrl": "",
+      "curatedAt": "2026-09-22T23:20:49Z",
+      "id": "curated-20260923-tilnote-vibe-coding-briefing-ko",
+      "title": "그록 4.7부터 VS Code 'Thinking Effort'까지 — 9월 22일 바이브 코딩 일간 브리핑",
+      "body": "TILNOTE의 바이브 코딩 일간 브리핑은 스페이스X AI의 그록 4.7(컨텍스트 50만·추론 강도 4단계), VS Code 1.139 인사이더의 'Thinking Effort' 모델 선택 옆 추가, 코덱스·에이전트·검색·배포까지 다루는 OpenAI 아카데미 학습 경로 확장을 하루에 묶어 전한다. 엔지니어 3명이 7일 만에 30~50개 세션을 동시에 굴려 PR 1,000개 이상을 병합했다는 Kiro Crew 사례와, 문서에서 인물·회사·사실·관계를 뽑아 78~89% 정확도로 답하는 V7 Context Graph도 소개하며, 바이브 코딩이 '프롬프트→코드'에서 '컨텍스트→계획→위임→실행→검증→기억'으로 옮겨간다고 정리한다.",
+      "titleEn": "From Grok 4.7 to VS Code's 'Thinking Effort' — the Sept 22 Vibe-Coding Daily Briefing",
+      "bodyEn": "TILNOTE's daily vibe-coding briefing bundles the day's moves: SpaceXAI's Grok 4.7 (500K context, four reasoning-effort levels), VS Code 1.139 Insiders adding a 'Thinking Effort' selector next to model choice, and OpenAI Academy's expanded learning paths covering Codex, agents, retrieval, and deployment. It also covers Kiro Crew — three engineers running 30-50 simultaneous agent sessions to merge 1,000+ PRs in 7 days — and V7's Context Graph, which extracts people/companies/facts/relationships from documents at 78-89% query accuracy, framing the shift from 'prompt → code' to 'context → plan → delegate → execute → verify → remember.'",
+      "sourceName": "TILNOTE",
+      "sourceUrl": "https://tilnote.io/en/pages/6ab1fc07f1c8b22ee480162e",
+      "createdAt": "2026-09-22T03:55:27Z"
+    },
+    {
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=YAdZ-_mDeoo",
+      "curatedAt": "2026-09-22T23:20:49Z",
+      "id": "curated-20260923-ai-agents-10-employees-ko",
+      "title": "AI 에이전트 10명에게 일 맡겼더니 — 회의부터 SNS 게시까지 알아서 합니다",
+      "body": "SURVIVAL AI가 클로드와 GPT를 섞어 AI 에이전트 10명짜리 팀을 처음부터 만들어, 회의를 열고 업무를 배정·검토한 뒤 Threads에 게시까지 하게 하는 31분짜리 실전 영상이다. 0분 소개, 3분부터 에이전트 팀 구축, 8분 46초부터 실제로 돌리는 과정, 16분 37초부터 Meta for Developers 연동까지 챕터로 나눠 보여주며, 잘 된 사례뿐 아니라 실패한 지점도 그대로 공개한다.",
+      "titleEn": "I Gave 10 AI Agents Jobs — From Meetings to Posting on Social",
+      "bodyEn": "SURVIVAL AI builds a 10-agent team from scratch, mixing Claude and GPT, and has it hold meetings, assign and review work, and post to Threads on its own, in a 31-minute hands-on video. Chapters run from intro (0:00) through building the agent team (3:00), running it for real (8:46), to Meta for Developers integration (16:37), and it shows failures alongside the wins rather than just a highlight reel.",
+      "sourceName": "YouTube · SURVIVAL AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=YAdZ-_mDeoo",
+      "createdAt": "2026-09-21T00:00:00Z"
+    },
     {
       "mediaType": "none",
       "mediaUrl": "",
@@ -57,19 +135,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "curatedAt": "2026-09-21T23:17:54Z",
-      "id": "curated-20260922-cactus-needle3-on-device-tool-calling",
-      "title": "8~29MB짜리 온디바이스 모델로 도구 호출과 정보 추출 — Cactus Needle 3, 파인튜닝하면 DeepSeek V4 Flash급",
-      "body": "Show HN에서 235점을 받은 Needle 3는 스마트폰·웨어러블·로봇용으로 만든 도구 호출·구조화 정보 추출 특화 모델로, 서브네트워크 깊이(2~20층)에 따라 크기가 8~29MB다. 개발사는 모바일 도구 호출에서 10배 큰 모델을 앞서고 추출에서는 2~3배 큰 모델과 맞먹는다고 밝히며, 4층짜리를 파인튜닝하면 특정 작업에서 DeepSeek V4 Flash와 비슷한 성능이 나온다고 한다. 파이썬 데코레이터로 함수를 도구로 등록하고 `agent.run()`을 호출하는 방식이고, `needle build`로 macOS·Linux·Windows·Android·iOS·WebAssembly용 바이너리를 만든다.",
-      "titleEn": "Tool Calling and Extraction in an 8-29MB On-Device Model — Cactus Needle 3, Fine-Tuned to Match DeepSeek V4 Flash on Narrow Tasks",
-      "bodyEn": "Needle 3, which scored 235 points on Show HN, is a model built for phones, wearables, and robots that specializes in tool calling and structured extraction, ranging from 8 to 29MB depending on subnetwork depth (2-20 layers). The developers claim it beats models 10x its size on mobile tool calls and matches models 2-3x larger on extraction, and that a fine-tuned 4-layer version can match DeepSeek V4 Flash on specific tasks. You register functions as tools with a Python decorator and call `agent.run()`, and `needle build` produces binaries for macOS, Linux, Windows, Android, iOS, and WebAssembly.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://cactuscompute.com/needle",
-      "createdAt": "2026-09-18T00:11:00Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-21T23:17:54Z",
       "id": "curated-20260922-claude-code-2-1-278-plugins-auto-mode",
       "title": "클로드 코드 2.1.275~2.1.278 — claude.ai 계정의 스킬·플러그인이 터미널로 동기화, 오토 모드는 서버 분류기가 기본",
       "body": "9월 17일 나온 2.1.275부터 claude.ai 계정에 설치한 스킬과 플러그인이 터미널 세션으로 동기화되고, `/plugin install <plugin> --marketplace <source>`로 마켓플레이스를 지정해 설치할 수 있다. 같은 버전에서 복원된 메모리 파일의 경과 시간 표기 때문에 압축·재개 뒤 프롬프트 캐시가 깨지던 문제도 고쳤다. 9월 19일 2.1.278은 Claude API·Enterprise 사용자의 오토 모드를 서버 측 분류기 기본값으로 바꿔 분류기 오버헤드 비용이 없고, `/status`의 'Auto mode server' 항목에서 분류기 위치를 확인한다.",
@@ -91,32 +156,6 @@
       "sourceName": "GeekNews",
       "sourceUrl": "https://news.hada.io/topic?id=34012",
       "createdAt": "2026-09-20T19:00:00Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-20T23:15:26Z",
-      "id": "curated-20260921-cloudflare-security-audit-skill",
-      "title": "Cloudflare가 공개한 보안 감사 스킬 — 정찰·탐색·검증·보고 6단계를 격리된 에이전트에 나눠 맡긴다",
-      "body": "Cloudflare가 자사 취약점 발굴 하네스의 출발점이던 security-audit 스킬을 MIT 라이선스로 공개했고 HN에서 211점, 깃허브 스타 약 1만 8천 개를 받았다. 정찰, 커버리지 기반 탐색, 후보 검증, 구조화 출력, 독립 기록 검증, 보고의 6단계를 밟으며 단계마다 새 에이전트가 앞선 결과를 반박하려 든다. 결과는 architecture.md, coverage-ledger.json, findings.json으로 남고 confirmed·needs_validation·rejected 판정이 스키마 검증을 거치며, 같은 저장소에 다시 돌리면 이전 원장을 이어받는다. Skills CLI(`npx skills add`)로 설치한다.",
-      "titleEn": "Cloudflare Open-Sources Its Security Audit Skill — Six Phases Split Across Isolated Agents",
-      "bodyEn": "Cloudflare open-sourced the security-audit skill that seeded its vulnerability discovery harness, under the MIT license; it scored 211 points on Hacker News and about 18k GitHub stars. It runs six phases — reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and reporting — with a fresh agent at each step trying to disprove the previous one. Output lands in architecture.md, coverage-ledger.json, and findings.json, with confirmed, needs_validation, and rejected verdicts checked against a schema; re-running on the same repo builds on the prior ledger. Install with the Skills CLI (`npx skills add`).",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/cloudflare/security-audit-skill",
-      "createdAt": "2026-09-17T04:36:55Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "curatedAt": "2026-09-20T23:15:26Z",
-      "id": "curated-20260921-harness-design-empirical-study",
-      "title": "코딩 에이전트 하네스, 무엇을 바꿔야 효과가 있나 — 176개 설정 실험: 규칙 기반 생략을 먼저, LLM 요약은 그다음",
-      "body": "arXiv 논문 'An Empirical Study of Harness Design for Coding Agents'는 실행 루프를 고정하고 계획·행동 공간·컨텍스트 관리만 바꿔 4개 모델, 176개 설정을 SWE-Bench Verified와 Terminal-Bench 2.1로 비교했다. 컨텍스트 창이 좁을수록 관리 전략의 효과가 컸고, 규칙 기반으로 오래된 출력을 먼저 생략한 뒤 LLM 요약을 붙이는 조합이 가장 효율적이었다. 계획 단계는 강한 모델에서 정확도보다 비용 절감 역할을 했고, bash를 잘 다루는 모델은 bash만 줘도 비용이 크게 낮았다. HN에서 223점, GeekNews에도 소개됐다.",
-      "titleEn": "What Actually Matters in a Coding-Agent Harness — 176 Settings Tested: Rule-Based Elision First, LLM Summaries Second",
-      "bodyEn": "The arXiv paper 'An Empirical Study of Harness Design for Coding Agents' fixes the execution loop and varies only planning, action space, and context management, comparing 176 settings across four models on SWE-Bench Verified and Terminal-Bench 2.1. Context management mattered more as the window tightened, and staging rule-based elision of old output before LLM summarization was the most efficient combination. Planning acted more as a cost saver than an accuracy boost for stronger models, and models good at bash worked fine — at much lower cost — with a bash-only interface. It scored 223 points on Hacker News and was also shared on GeekNews.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://arxiv.org/abs/2609.20804",
-      "createdAt": "2026-09-17T17:58:07Z"
     },
     {
       "mediaType": "none",
@@ -156,19 +195,6 @@
       "sourceName": "YouTube · 에릭 Eric Park",
       "sourceUrl": "https://www.youtube.com/watch?v=nrn6GzG1o9A",
       "createdAt": "2026-09-18T00:00:00Z"
-    },
-    {
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=w-ViVu7p7YY",
-      "curatedAt": "2026-09-19T23:12:39Z",
-      "id": "curated-20260920-claude-codex-reviewer-pair-ko",
-      "title": "Claude Code가 짜고, Codex가 깐다 — 개발자·리뷰어 2인 구조와 지침 문서 공개",
-      "body": "업무의 잔머리가 Claude Code를 개발자, Codex를 리뷰어로 붙여 완성도를 올리는 협업 구조를 소개하는 17분 영상이다. 두 도구의 지침 문서와 Codex 설치법을 보여주고, 리뷰어가 대신 잡아준 이슈 사례를 실제로 확인한다. 단점은 시간이 오래 걸린다는 것이라 협업 구조를 쓸 상황의 판단 기준과, AI 툴이 둘 이상일 때 업무를 나누는 요령도 함께 정리했다. 설정한 지침 문서는 영상 설명의 블로그에서 내려받을 수 있다.",
-      "titleEn": "Claude Code Writes, Codex Tears It Apart — A Developer/Reviewer Pair and the Instruction Docs",
-      "bodyEn": "In this 17-minute video, 업무의 잔머리 pairs Claude Code as the developer with Codex as the reviewer to raise code quality. It walks through both tools' instruction files and Codex setup, then shows real issues the reviewer caught. The drawback is that it takes longer, so it also gives criteria for when the pair is worth using and how to split work when you use two or more AI tools. The instruction docs are downloadable from the blog linked in the description.",
-      "sourceName": "YouTube · 업무의 잔머리",
-      "sourceUrl": "https://www.youtube.com/watch?v=w-ViVu7p7YY",
-      "createdAt": "2026-09-16T00:00:00Z"
     },
     {
       "mediaType": "none",
@@ -221,32 +247,6 @@
       "mediaUrl": "",
       "createdAt": "2026-09-18T00:00:00Z",
       "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "curated-20260919-silbaeldev-aside-browser-agent-ko",
-      "title": "AI 브라우저에게 내 앱을 직접 쓰게 하고, 불편 보고서를 코덱스로 넘겨 고친 워크플로우",
-      "body": "실밸개발자가 AI 브라우저 Aside에 구독료·갱신일·API 크레딧 취합과 YouTube Studio 분석을 맡기고, 직접 만든 썸네일 서비스 AutoKliq까지 써보게 한 영상이다. 에이전트가 사용 중 느낀 불편과 개선안을 보고서로 정리하면 그 보고서를 코덱스에 넘겨 실제 코드와 대조하고 우선순위를 정한 뒤 구현·리뷰·브라우저 테스트까지 시키는 흐름이 핵심이다. 작업 권한을 정하는 Guard·Final confirm, 개인·업무 환경을 나누는 Profiles, 클로드 코드·코덱스와 잇는 Aside CLI도 다룬다.",
-      "titleEn": "Letting an AI Browser Use My App, Then Handing Its Friction Report to Codex to Fix",
-      "bodyEn": "The creator hands the AI browser Aside chores like collecting subscription fees, renewal dates, and API credits and analyzing YouTube Studio, then has it use their own thumbnail service AutoKliq. The key workflow: the agent writes up the friction it hit and suggested fixes, that report goes to Codex to cross-check against the real code, prioritize, then implement, review, and browser-test. It also covers Guard and Final confirm for permissions, Profiles to separate personal and work contexts, and the Aside CLI that links to Claude Code and Codex.",
-      "sourceName": "YouTube · 실밸개발자",
-      "sourceUrl": "https://www.youtube.com/watch?v=lKvvVOFa6M0",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=lKvvVOFa6M0",
-      "createdAt": "2026-09-17T00:00:00Z",
-      "curatedAt": "2026-09-18T23:10:41Z"
-    },
-    {
-      "id": "curated-20260918-openspec-spec-driven-framework",
-      "title": "슬래시 커맨드 5개로 명세부터 배포까지 — 50개 이상 AI 툴과 연동되는 경량 스펙 프레임워크 OpenSpec",
-      "body": "Show HN에서 189점을 받은 OpenSpec은 `/opsx:explore`, `/opsx:propose`, `/opsx:apply`, `/opsx:verify`, `/opsx:archive` 슬래시 커맨드로 proposal.md·specs·design.md·tasks.md 같은 구조화된 파일을 생성해 스펙 기반 개발을 강제하는 오픈소스 프레임워크다. `npm install -g @fission-ai/openspec@latest` 한 줄로 설치하며 클로드·코파일럿·커서·제미나이 CLI 등 50개 이상 AI 도구와 연동된다고 밝혔고, 깃허브 스타 6만8천 개, 월간 사용 개발자 26만5천 명 이상을 기록했다.",
-      "titleEn": "5 Slash Commands From Spec to Ship — OpenSpec, a Lightweight Framework Wired Into 50+ AI Tools",
-      "bodyEn": "OpenSpec, a Show HN post with 189 points, is an open-source spec-driven-development framework built around five slash commands — `/opsx:explore`, `/opsx:propose`, `/opsx:apply`, `/opsx:verify`, `/opsx:archive` — that generate structured files (proposal.md, specs/, design.md, tasks.md). Install with a single `npm install -g @fission-ai/openspec@latest`; it claims integration with 50+ AI tools including Claude, Copilot, Cursor, and Gemini CLI, and reports 68k GitHub stars with 265k+ monthly active developers.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://openspec.dev/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-16T00:00:00Z",
-      "curatedAt": "2026-09-17T23:11:16Z"
     },
     {
       "id": "curated-20260918-claude-md-context-88-percent-ko",
