@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-09-28T23:09:10Z",
+  "generatedAt": "2026-09-29T23:07:44Z",
   "videos": [
+    {
+      "id": "vid-happyai-claude-10-features-ko",
+      "youtubeId": "IyHsxrCK_Zk",
+      "category": "tip",
+      "title": "퇴근시간 2시간 당겨주는 클로드 신기능 10가지",
+      "titleEn": "10 new Claude features that cut two hours off your workday",
+      "descKo": "PPT·PDF 생성, Gmail·Calendar·Drive 연동, Artifact, Cowork까지 업무 신기능 시연.",
+      "descEn": "Demo of Claude work features: PPT/PDF, Gmail/Calendar/Drive, Artifacts and Cowork.",
+      "channel": "해피AI | 이진규",
+      "publishedAt": "2026-09-26T18:55:34Z",
+      "addedAt": "2026-09-29T23:07:44Z"
+    },
+    {
+      "id": "vid-hyunsil-iphone-apps-codex-ko",
+      "youtubeId": "tKKYjtUNWS8",
+      "category": "usecase",
+      "title": "회사 다니면서 아이폰 앱 3개 만든 Codex 사례",
+      "titleEn": "Building three iPhone apps while working a full-time job with Codex",
+      "descKo": "직장인이 Codex로 앱 3개를 만들고 앱스토어에 출시한 과정.",
+      "descEn": "How an office worker built and shipped three iPhone apps with Codex.",
+      "channel": "현실설계소",
+      "publishedAt": "2026-09-27T22:00:09Z",
+      "addedAt": "2026-09-29T23:07:44Z"
+    },
+    {
+      "id": "vid-yunai-codex-basics-ko",
+      "youtubeId": "AjeYdnqMyAs",
+      "category": "lecture",
+      "title": "윤AI가 알려주는 코덱스 기초편",
+      "titleEn": "Codex basics with 윤AI",
+      "descKo": "Codex를 처음 쓰는 사람을 위한 22분 기초 강의.",
+      "descEn": "A 22-minute beginner lecture on getting started with Codex.",
+      "channel": "윤자동",
+      "publishedAt": "2026-09-29T09:00:19Z",
+      "addedAt": "2026-09-29T23:07:44Z"
+    },
+    {
+      "id": "vid-nicksaraev-31k-claude-code-lessons",
+      "youtubeId": "45K3zHckCnQ",
+      "category": "usecase",
+      "title": "Claude Code에 $31,141와 1,000시간을 쓰고 배운 것",
+      "titleEn": "I Spent $31,141 & 1,000 Hours On Claude Code To Learn This",
+      "descKo": "Claude Code로 실제 에이전시 업무를 굴리며 얻은 교훈 정리.",
+      "descEn": "Lessons from running real agency work on Claude Code.",
+      "channel": "Nick Saraev",
+      "publishedAt": "2026-09-25T06:42:57Z",
+      "addedAt": "2026-09-29T23:07:44Z"
+    },
+    {
+      "id": "vid-jsmastery-claude-code-full-course-2026",
+      "youtubeId": "u2QqWkMv3Lg",
+      "category": "lecture",
+      "title": "Claude Code 풀코스 2026 — 시니어 엔지니어의 AI 개발법",
+      "titleEn": "Claude Code Full Course 2026 | How Senior Engineers Actually Build with AI",
+      "descKo": "2시간 13분 분량으로 Claude Code 개발 워크플로우를 처음부터 끝까지 다룬다.",
+      "descEn": "A 2h13m course covering the Claude Code development workflow end to end.",
+      "channel": "JavaScript Mastery",
+      "publishedAt": "2026-09-25T12:37:19Z",
+      "addedAt": "2026-09-29T23:07:44Z"
+    },
     {
       "id": "vid-pyeongbeom-agent-long-task-failure-ko",
       "youtubeId": "xu34PnwZJkI",
@@ -35,18 +95,6 @@
       "descEn": "Demo of 9 public skills for meeting notes, report review, question lists and style editing.",
       "channel": "딩코의 AI 심야 아지트",
       "publishedAt": "2026-09-23T11:20:04Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-gcreator-100-agents-claude-code-ko",
-      "youtubeId": "2Yfgtvj-QCo",
-      "category": "usecase",
-      "title": "AI 에이전트 100개를 한 번에 지휘하는 법",
-      "titleEn": "Commanding 100 AI agents at once: Claude Code workflow",
-      "descKo": "Claude Code로 대량 에이전트를 병렬 지휘하는 워크플로우 정리.",
-      "descEn": "A workflow for directing many agents in parallel with Claude Code.",
-      "channel": "G-CREATOR",
-      "publishedAt": "2026-09-21T01:07:58Z",
       "addedAt": "2026-09-28T23:09:10Z"
     },
     {
@@ -108,78 +156,6 @@
       "channel": "Claude",
       "publishedAt": "2026-09-25T23:13:15Z",
       "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-deeplearningai-spec-driven-development",
-      "youtubeId": "hy8UstR2NEg",
-      "category": "lecture",
-      "title": "코딩 에이전트와 스펙 주도 개발 풀코스",
-      "titleEn": "Full Course: Spec-Driven Development with Coding Agents",
-      "descKo": "스펙 주도 개발로 코딩 에이전트를 다루는 1시간 강의.",
-      "descEn": "One-hour course on driving coding agents with spec-driven development.",
-      "channel": "DeepLearningAI",
-      "publishedAt": "2026-09-22T19:32:17Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-lucasbright-claude-code-cheap-models",
-      "youtubeId": "Km0gcjEdFTc",
-      "category": "tip",
-      "title": "클로드 코드 입문 — 비싼 모델 대신 저렴한 모델로 돌리기",
-      "titleEn": "How To Use Claude Code For Beginners (Running on Cheap Models)",
-      "descKo": "설치부터 프로젝트 컨텍스트 잡기, 여러 파일 동시 편집까지 초보자 대상으로 10분 30초에 보여주는 튜토리얼. 값비싼 최상위 모델 대신 저렴한 모델로 돌리는 법에 초점.",
-      "descEn": "A 10:30 beginner tutorial covering install, giving Claude Code project context, and multi-file edits, focused on running it on cheap models instead of top-tier ones.",
-      "channel": "Lucas Bright",
-      "publishedAt": "2026-09-22T00:00:00Z",
-      "addedAt": "2026-09-22T23:20:49Z"
-    },
-    {
-      "id": "vid-imyeonseoda-ai-top1-bottom1-ko",
-      "youtubeId": "93n2unA8zzk",
-      "category": "tip",
-      "title": "상위 1% vs 하위 1% AI 활용법 — 4가지 체크리스트",
-      "titleEn": "Top 1% vs Bottom 1% AI Usage",
-      "descKo": "AI를 잘 쓰는지 스스로 점검하는 4가지 진단 체크리스트를 12분 26초에 정리한 영상.",
-      "descEn": "A 12:26 video laying out a 4-item checklist to self-diagnose how well you actually use AI.",
-      "channel": "이면서다",
-      "publishedAt": "2026-09-21T00:00:00Z",
-      "addedAt": "2026-09-22T23:20:49Z"
-    },
-    {
-      "id": "vid-mikeyvibecoding-claude-base44",
-      "youtubeId": "HYsAsAE_sZA",
-      "category": "usecase",
-      "title": "클로드로 프로처럼 바이브 코딩하기 — Base44 실전 튜토리얼",
-      "titleEn": "How to Use Claude to Vibe Code Like a Pro (Full Tutorial)",
-      "descKo": "노코드 플랫폼 Base44와 클로드를 엮어 실제 프로젝트를 빌드하는 21분 33초짜리 바이브 코딩 워크플로우 튜토리얼.",
-      "descEn": "A 21:33 tutorial wiring Claude into the no-code platform Base44 to build a real project, showing a practical vibe-coding workflow.",
-      "channel": "Mikey Vibe Coding",
-      "publishedAt": "2026-09-22T00:00:00Z",
-      "addedAt": "2026-09-22T23:20:49Z"
-    },
-    {
-      "id": "vid-survivalai-10-ai-agents-team-ko",
-      "youtubeId": "YAdZ-_mDeoo",
-      "category": "usecase",
-      "title": "AI 에이전트 10명에게 일 맡겼더니 — 회의부터 SNS 게시까지",
-      "titleEn": "I Gave 10 AI Agents Jobs — From Meetings to Posting on Social",
-      "descKo": "클로드·GPT를 섞은 에이전트 10명짜리 팀을 만들어 회의·업무배정·검토·Threads 게시까지 맡기는 31분 실전 영상. 실패 사례도 함께 공개.",
-      "descEn": "Builds a 10-agent team mixing Claude and GPT to hold meetings, assign/review work, and post to Threads, in 31 minutes — failures included, not just wins.",
-      "channel": "SURVIVAL AI",
-      "publishedAt": "2026-09-21T00:00:00Z",
-      "addedAt": "2026-09-22T23:20:49Z"
-    },
-    {
-      "id": "vid-yangsiljang-vibecoding-backend-s2e2-ko",
-      "youtubeId": "z38v9TEcisI",
-      "category": "lecture",
-      "title": "바이브코딩대학 뿌리강의 시즌2-2강 — 백엔드 코딩 훈련 가이드",
-      "titleEn": "Vibe Coding University Root Course S2E2: Backend Coding Training Guide",
-      "descKo": "찍기식 바이브코딩 대신 Python·PostgreSQL·FastAPI로 API·CRUD·ORM을 직접 익히는 38분 44초짜리 백엔드 기초 강의.",
-      "descEn": "A 38:44 backend-fundamentals lesson teaching Python, PostgreSQL, and FastAPI (API, CRUD, ORM) by hand, instead of relying purely on AI-guessed vibe coding.",
-      "channel": "양실장의 바이브코딩대학",
-      "publishedAt": "2026-09-22T00:00:00Z",
-      "addedAt": "2026-09-22T23:20:49Z"
     }
   ]
 }
