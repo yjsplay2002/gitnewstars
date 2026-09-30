@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-09-29T23:07:44Z",
+  "generatedAt": "2026-09-30T23:07:55Z",
   "videos": [
+    {
+      "id": "vid-dingco-codex-nondev-work-ko",
+      "youtubeId": "IM3CikE6hdQ",
+      "category": "usecase",
+      "title": "비개발자가 코덱스로 업무 프로그램 만드는 법",
+      "titleEn": "비개발자가 코덱스로 업무 프로그램 만드는 법 | 회의록 정리, 승인 권한, 계획 모드, 맞춤 설정까지",
+      "descKo": "회의록 7장을 결정사항 표로 정리하고 월간 보고서까지 쓰는 코덱스 실습.",
+      "descEn": "Codex walkthrough turning seven meeting notes into a decision table and a monthly report.",
+      "channel": "딩코의 AI 심야 아지트",
+      "publishedAt": "2026-09-30T11:15:33Z",
+      "addedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "vid-dantes-openai-dots-ko",
+      "youtubeId": "rM_paQG09K4",
+      "category": "usecase",
+      "title": "OpenAI Dots와 30분 통화하며 일 시켜본 결과",
+      "titleEn": "Results of Working While Talking to OpenAI Dots for 30 Minutes | What Works and What Doesn't",
+      "descKo": "상시 작동 에이전트 Dots에 음성으로 영상 제작·예약 요약을 맡긴 실험.",
+      "descEn": "Voice-tasking the always-on Dots agent with video creation and scheduled summaries.",
+      "channel": "Dante's Datalab",
+      "publishedAt": "2026-09-30T16:35:52Z",
+      "addedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "vid-beyondcoding-dex-slop",
+      "youtubeId": "vKT59uoByXc",
+      "category": "tip",
+      "title": "코딩 에이전트가 코드베이스를 망치는 이유",
+      "titleEn": "Why Coding Agents Keep Making Your Codebase Worse",
+      "descKo": "HumanLayer Dex의 research-design-plan 워크플로우와 SlopCodeBench 이야기.",
+      "descEn": "HumanLayer's Dex on SlopCodeBench and his research-design-plan agent workflow.",
+      "channel": "Beyond Coding",
+      "publishedAt": "2026-09-30T12:00:13Z",
+      "addedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "vid-briancasel-planning-system",
+      "youtubeId": "krhkmockjCM",
+      "category": "tip",
+      "title": "플랜 모드 없이 대형 프로젝트 계획하기",
+      "titleEn": "How I plan (large) projects with agents",
+      "descKo": "plan mode 대신 저장소·로드맵·스킬로 에이전트 플래닝을 구성하는 법.",
+      "descEn": "Planning with repos, roadmaps and a skill instead of plan mode.",
+      "channel": "Brian Casel",
+      "publishedAt": "2026-09-30T12:00:01Z",
+      "addedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "vid-echohive-codex-claude-tips",
+      "youtubeId": "5WLuPvMF2lo",
+      "category": "lecture",
+      "title": "Codex·Claude Code 꿀팁 모음 (1시간 49분)",
+      "titleEn": "The Most Interesting Codex & Claude Code Tips and Tricks",
+      "descKo": "Codex와 Claude Code 팁을 길게 훑는 종합 영상.",
+      "descEn": "A long roundup of tips and tricks for Codex and Claude Code.",
+      "channel": "echohive",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "addedAt": "2026-09-30T23:07:55Z"
+    },
     {
       "id": "vid-happyai-claude-10-features-ko",
       "youtubeId": "IyHsxrCK_Zk",
@@ -119,42 +179,6 @@
       "descEn": "An Obsidian expert shows how he runs a personal knowledge base with AI.",
       "channel": "빌더 조쉬 Builder Josh",
       "publishedAt": "2026-09-28T05:03:42Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-stefancho-codex-claude-grok-ko",
-      "youtubeId": "ZAENR4KBUp0",
-      "category": "usecase",
-      "title": "코덱스 vs 클로드 코드 vs 그록, 말로 시키면 누가 더 잘 알아들을까",
-      "titleEn": "Codex vs Claude Code vs Grok: who understands plain-language instructions best?",
-      "descKo": "세 코딩 에이전트에 같은 자연어 지시를 주고 결과를 비교.",
-      "descEn": "Gives the same plain-language task to three coding agents and compares results.",
-      "channel": "StefanCho With AI (스테판초)",
-      "publishedAt": "2026-09-25T22:00:09Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-ailabs-shopify-ai-coding-workflow",
-      "youtubeId": "bBMp5tLxShQ",
-      "category": "usecase",
-      "title": "Shopify가 공개한 최고의 AI 코딩 워크플로우",
-      "titleEn": "Shopify Just Released The Greatest AI Coding Workflow Ever",
-      "descKo": "Shopify가 공개한 AI 코딩 워크플로우 소개.",
-      "descEn": "Walkthrough of the AI coding workflow Shopify released.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-09-24T15:41:09Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-claude-verification-loops",
-      "youtubeId": "mQZB0l-rhxE",
-      "category": "tip",
-      "title": "Claude Code에서 검증 루프 만들기",
-      "titleEn": "Building verification loops in Claude Code",
-      "descKo": "에이전트가 스스로 결과를 검증하게 하는 루프 설계 3분 요약.",
-      "descEn": "A 3-minute guide to letting the agent verify its own work with loops.",
-      "channel": "Claude",
-      "publishedAt": "2026-09-25T23:13:15Z",
       "addedAt": "2026-09-28T23:09:10Z"
     }
   ]

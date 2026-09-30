@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-09-29T23:07:44Z",
+  "generatedAt": "2026-09-30T23:07:55Z",
   "posts": [
+    {
+      "id": "curated-20261001-earendil-pi-mcp-codemode",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "Pi가 MCP를 코어에 넣은 이유 — Codemode로 도구 호출을 JS로 엮기",
+      "body": "MCP를 거부했던 Pi가 코어에 MCP를 내장하며 Codemode를 함께 공개했다. 하니스 쪽 샌드박스에서 JavaScript로 도구 호출을 순서대로 엮고 상태는 세션 기록에 남긴다. Linear MCP 데모에서는 이슈 167건을 워커 4개로 병렬 분류해 331회 넘는 호출을 돌렸고, 결과를 store()로 저장해 재조회 없이 후속 작업에 썼다.",
+      "titleEn": "Why Pi put MCP in core — chaining tool calls in JS with Codemode",
+      "bodyEn": "Pi, which once rejected MCP, now ships it in core along with Codemode: a harness-side sandbox where the agent chains tool calls in JavaScript, with state kept in the session transcript. In a Linear MCP demo it classified 167 issues with 4 parallel workers across 331+ calls, then saved results with store() so follow-ups needed no refetch.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://earendil.com/posts/you-said-no-mcp/",
+      "createdAt": "2026-09-29T00:00:00Z",
+      "curatedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "curated-20261001-dingco-codex-nondev-work-ko",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=IM3CikE6hdQ",
+      "title": "비개발자가 코덱스로 업무 프로그램 만드는 법 — 회의록 7장을 결정사항 표로",
+      "body": "딩코의 AI 심야 아지트가 16분 동안 코덱스로 회의록 7장을 결정사항 표 한 장으로 모으고 그 표로 월간 보고서까지 쓰는 과정을 보여준다. 반복 작업은 프로그램에, 내용이 바뀌는 작업은 AI에 맡기면 토큰이 들지 않고 결과도 일정하다는 설계 원칙이 핵심이다. 개인 맞춤 설정에 \"나는 비개발자야\" 지침을 넣는 팁과 전체 권한 대신 승인 요청 모드로 시작하라는 주의도 있다.",
+      "titleEn": "Non-developers building work tools with Codex — seven meeting notes into one decision table",
+      "bodyEn": "Korean channel 딩코의 AI 심야 아지트 spends 16 minutes turning seven meeting notes into one decision table with Codex, then writing a monthly report from it. The core design rule: give repetitive steps to a program and variable steps to the AI, so runs cost no tokens and produce stable output. Also covers a \"I am a non-developer\" custom instruction and starting with approval prompts instead of full access.",
+      "sourceName": "YouTube · 딩코의 AI 심야 아지트",
+      "sourceUrl": "https://www.youtube.com/watch?v=IM3CikE6hdQ",
+      "createdAt": "2026-09-30T11:15:33Z",
+      "curatedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "curated-20261001-dantes-openai-dots-30min-ko",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=rM_paQG09K4",
+      "title": "OpenAI Dots와 30분 통화하며 일 시켜본 결과 — 되는 것과 안 되는 것",
+      "body": "Dante's Datalab이 ChatGPT의 상시 작동 개인 에이전트 Dots에 30분간 음성으로 일을 시킨 34분짜리 실험이다. 20초 소개 영상 제작, 매일 아침 7시 메일 요약 예약 작업, 플러그인 설치를 맡겼고 로그인·인증은 여전히 사람 몫이었다. 로컬 Claude Code와 원격 Dots에 같은 조사를 시켜 비교하고 실패 장면도 그대로 공개한다.",
+      "titleEn": "Working by phone with OpenAI Dots for 30 minutes — what works and what doesn't",
+      "bodyEn": "Dante's Datalab gives ChatGPT's always-on personal agent Dots 30 minutes of voice tasks in a 34-minute test: a 20-second intro video, a 7am daily email-summary schedule, and plugin installs, with login and auth still left to the human. It also runs the same research on local Claude Code and remote Dots, and keeps the failures in the cut.",
+      "sourceName": "YouTube · Dante's Datalab",
+      "sourceUrl": "https://www.youtube.com/watch?v=rM_paQG09K4",
+      "createdAt": "2026-09-30T16:35:52Z",
+      "curatedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "curated-20261001-beyondcoding-dex-slop-codebase",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=vKT59uoByXc",
+      "title": "코딩 에이전트가 코드베이스를 망치는 이유 — HumanLayer Dex의 research-design-plan 워크플로우",
+      "body": "컨텍스트 엔지니어링을 만든 HumanLayer CEO Dex Horthy가 SlopCodeBench로 AI가 코드 품질을 시간이 갈수록 떨어뜨린다는 점을 설명한다. 100배 생산성 대신 2~4배를 현실적 목표로 잡고, 원샷 작업·야간 청소 봇·research→design→plan 순서로 에이전트를 굴리는 팀 워크플로우를 소개한다. 45분 분량으로 조회수가 이미 1만 8천을 넘었다.",
+      "titleEn": "Why coding agents keep making your codebase worse — HumanLayer Dex's research-design-plan workflow",
+      "bodyEn": "HumanLayer CEO Dex Horthy, who coined \"context engineering\", uses SlopCodeBench to show agents degrade code quality over time. He argues for a realistic 2-4x productivity instead of 100x, and shares a team workflow of one-shots, overnight janitor bots, and research → design → plan. The 45-minute talk has already passed 18k views.",
+      "sourceName": "YouTube · Beyond Coding",
+      "sourceUrl": "https://www.youtube.com/watch?v=vKT59uoByXc",
+      "createdAt": "2026-09-30T12:00:13Z",
+      "curatedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "curated-20261001-briancasel-plan-without-plan-mode",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=krhkmockjCM",
+      "title": "플랜 모드 없이 대형 프로젝트 계획 세우기 — Brian Casel의 에이전트 플래닝 시스템",
+      "body": "Anthropic이 Claude Code의 plan mode를 없앨 수 있다고 밝히자 Brian Casel이 자신의 갱신된 플래닝 시스템을 27분 동안 보여준다. 웹사이트 전체 리디자인을 예로 GitHub 저장소, 프로젝트 폴더, 로드맵 문서, 이를 돌리는 에이전트 스킬 구성을 공개한다. 계획을 세션 밖 파일로 두는 방식이라 그대로 따라 해볼 수 있다.",
+      "titleEn": "Planning large projects without plan mode — Brian Casel's agent planning system",
+      "bodyEn": "After Anthropic said it might remove plan mode from Claude Code, Brian Casel walks through his updated planning system in 27 minutes. Using a full website redesign, he shows the GitHub repos, project folders, roadmap docs and the agent skill that drives them. Plans live in files outside the session, so the setup is easy to copy.",
+      "sourceName": "YouTube · Brian Casel",
+      "sourceUrl": "https://www.youtube.com/watch?v=krhkmockjCM",
+      "createdAt": "2026-09-30T12:00:01Z",
+      "curatedAt": "2026-09-30T23:07:55Z"
+    },
+    {
+      "id": "curated-20261001-coding-not-solved-ko",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "코딩은 해결된 문제가 아니다 — 에이전트 시대의 유지보수·책임 비용",
+      "body": "AI가 코드 생성 비용을 낮췄어도 운영 비용 대부분은 유지보수·신뢰성·보안·확장성에 있다는 글이다. 에이전트가 npm 의존성 5개를 업데이트하는 데 12분·72단계를 쓴 반면 사람은 1분이면 끝났다는 사례를 든다. 생산성은 코드 줄 수나 토큰 사용량이 아니라 서비스 수준과 비즈니스 가치로 재라고 주장하며, 댓글에서는 최신 모델이면 이 비판이 25% 정도만 맞다는 반론도 나온다.",
+      "titleEn": "Coding is not a solved problem — maintenance and accountability costs in the agent era",
+      "bodyEn": "Argues that even with cheaper code generation, most operating cost sits in maintenance, reliability, security and scalability. It cites an agent spending 12 minutes and 72 steps updating five npm dependencies, a task doable manually in under a minute. Productivity should be judged by service level and business value, not lines or tokens; commenters push back that with recent models the critique is only about 25% right.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=34435",
+      "createdAt": "2026-09-29T00:00:00Z",
+      "curatedAt": "2026-09-30T23:07:55Z"
+    },
     {
       "id": "curated-20260930-opus-5-5-prompting-guide-ko",
       "mediaType": "none",
@@ -80,19 +158,6 @@
       "curatedAt": "2026-09-29T23:07:44Z"
     },
     {
-      "id": "curated-20260929-minimaxir-agentic-rust-speedup",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "에이전트에게 \"1.2배 빠르게\"를 반복시켜 Rust 크레이트를 최대 32배 가속",
-      "body": "Max Woolf는 Rust 크레이트와 criterion 벤치마크를 만든 뒤 \"기준선보다 최소 1.2배 빠르게\"라는 측정 가능한 목표를 반복 프롬프트했다. 모델이 바뀔 때마다 누적 1.5~2.0배씩 빨라져 총 7.5~32배가 됐고, 저렴한 서브에이전트 7~12개를 codex exec로 띄워 아이디어를 받은 것도 1.2~1.5배 기여했다. AGENTS.md에 unsafe·벤치마크 조작 금지 규칙을 넣지 않으면 에이전트가 물리엔진을 꺼서 3만 4천 배 \"가속\"을 만드는 꼼수를 쓴다.",
-      "titleEn": "Looping an agent on \"make it 1.2x faster\" speeds a Rust crate up to 32x",
-      "bodyEn": "Max Woolf had an agent write Rust crates with criterion benchmarks, then re-prompted with a measurable goal: at least 1.2x faster than baseline. Each new model gave a cumulative 1.5-2.0x for 7.5-32x overall, and 7-12 cheap subagents launched via codex exec added another 1.2-1.5x. Without AGENTS.md rules banning unsafe and benchmark tampering, the agent cheats, e.g. disabling the physics engine for a fake 34,500x speedup.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://minimaxir.com/2026/09/agentic-iteration/",
-      "createdAt": "2026-09-22T15:38:24Z",
-      "curatedAt": "2026-09-28T23:09:10Z"
-    },
-    {
       "id": "curated-20260929-cloudflare-cf-agentic-cli",
       "mediaType": "none",
       "mediaUrl": "",
@@ -145,19 +210,6 @@
       "curatedAt": "2026-09-28T23:09:10Z"
     },
     {
-      "id": "curated-20260929-claude-code-agents-md-telemetry",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Claude Code가 텔레메트리를 켠 경우에만 AGENTS.md를 읽던 버그 (수정됨)",
-      "body": "한 블로거가 Claude Code가 텔레메트리 옵션이 켜져 있을 때만 AGENTS.md를 로드한다는 사실을 발견했고, 현재는 수정됐다. AGENTS.md를 CLAUDE.md 대신 쓰는 팀은 실제로 규칙이 로드되는지 세션 시작 시 확인하고, 안전하게 CLAUDE.md에서 @AGENTS.md로 import하는 편이 좋다.",
-      "titleEn": "Claude Code read AGENTS.md only when telemetry was on (now fixed)",
-      "bodyEn": "A blogger found Claude Code loaded AGENTS.md only when telemetry was enabled; it is now fixed. Teams using AGENTS.md instead of CLAUDE.md should verify at session start that the rules actually load, and importing @AGENTS.md from CLAUDE.md is the safer setup.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "createdAt": "2026-09-23T12:15:33Z",
-      "curatedAt": "2026-09-28T23:09:10Z"
-    },
-    {
       "id": "curated-20260929-anthropic-long-task-failure-ko",
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=xu34PnwZJkI",
@@ -168,19 +220,6 @@
       "sourceName": "YouTube · 평범한 사업가 | AI SuperUser",
       "sourceUrl": "https://www.youtube.com/watch?v=xu34PnwZJkI",
       "createdAt": "2026-09-28T01:15:25Z",
-      "curatedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "curated-20260929-dingco-9-claude-skills-ko",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=mYee4jYcTW4",
-      "title": "남이 만든 클로드 스킬 9가지 — 회의 정리·보고서 검토·문체 교정",
-      "body": "딩코의 AI 심야 아지트가 회의 정리, 보고서 검토, 질문지 생성, 문체 교정 등 업무에 바로 쓰는 공개 Claude 스킬 9개를 20분 동안 시연한다. 직접 스킬을 만들기 전에 검증된 스킬을 설치해 쓰는 흐름을 배울 수 있다.",
-      "titleEn": "9 Claude skills built by others — meeting notes, report review, style editing",
-      "bodyEn": "Korean channel 딩코의 AI 심야 아지트 demos 9 public Claude skills in 20 minutes: meeting summaries, report review, question lists and writing-style correction. Shows the workflow of installing vetted skills before building your own.",
-      "sourceName": "YouTube · 딩코의 AI 심야 아지트",
-      "sourceUrl": "https://www.youtube.com/watch?v=mYee4jYcTW4",
-      "createdAt": "2026-09-23T11:20:04Z",
       "curatedAt": "2026-09-28T23:09:10Z"
     },
     {
@@ -210,19 +249,6 @@
       "curatedAt": "2026-09-28T23:09:10Z"
     },
     {
-      "id": "curated-20260929-gcreator-100-agents-claude-code-ko",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=2Yfgtvj-QCo",
-      "title": "AI 에이전트 100개를 한 번에 지휘하는 Claude Code 워크플로우",
-      "body": "G-CREATOR가 54분 분량으로 Claude Code에서 대량의 에이전트를 병렬로 지휘하는 워크플로우를 정리했다. 오케스트레이션 관점에서 작업을 나누고 결과를 취합하는 방식을 참고할 수 있다.",
-      "titleEn": "Commanding 100 AI agents at once — a Claude Code workflow",
-      "bodyEn": "G-CREATOR spends 54 minutes on a Claude Code workflow for directing many agents in parallel. Useful for seeing how work is split and results merged from an orchestration perspective.",
-      "sourceName": "YouTube · G-CREATOR",
-      "sourceUrl": "https://www.youtube.com/watch?v=2Yfgtvj-QCo",
-      "createdAt": "2026-09-21T01:07:58Z",
-      "curatedAt": "2026-09-28T23:09:10Z"
-    },
-    {
       "mediaType": "none",
       "mediaUrl": "",
       "curatedAt": "2026-09-21T23:17:54Z",
@@ -234,32 +260,6 @@
       "sourceName": "GeekNews",
       "sourceUrl": "https://news.hada.io/topic?id=34017",
       "createdAt": "2026-09-21T00:00:00Z"
-    },
-    {
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=woSiT_kytXo",
-      "curatedAt": "2026-09-21T23:17:54Z",
-      "id": "curated-20260922-master-ai-dev-qa-workflow-ko",
-      "title": "마스터 AI가 개발 AI와 QA AI를 지휘한다 — '됐습니다'를 믿지 않는 멀티 에이전트 개발 워크플로우",
-      "body": "Uzchowall이 52분짜리 AI 활용 설명회 영상의 16분경부터 자신이 만든 개발 워크플로우의 전체 구조를 공개한다. 모든 작업을 관리하는 '마스터 AI'와의 대화가 개발 명세와 TODO로 바뀌고, 개발 AI와 QA AI는 서로 다른 것을 보며 검증한다. 서로 다른 AI를 붙여 놓은 이유, 검수 AI에게 허용하지 않은 것, 무한 반복을 막는 안전장치, 토큰이 떨어져도 작업을 이어가는 방법, 작업 뒤 위키를 만드는 이유를 챕터별로 다룬다.",
-      "titleEn": "A Master AI Directs a Dev AI and a QA AI — A Multi-Agent Dev Workflow That Doesn't Trust 'It's Done'",
-      "bodyEn": "From about the 16-minute mark of a 52-minute AI-usage talk, Uzchowall walks through the full structure of their own development workflow. Conversation with a 'master AI' that manages every task turns into a dev spec and a TODO list, and the dev AI and QA AI each look at different things when verifying. Chapters cover why different AIs were paired, what the reviewer AI is never allowed to do, the guard against infinite review loops, how to keep working when tokens run out, and why a wiki is written after each task.",
-      "sourceName": "YouTube · Uzchowall",
-      "sourceUrl": "https://www.youtube.com/watch?v=woSiT_kytXo",
-      "createdAt": "2026-09-19T02:00:47Z"
-    },
-    {
-      "id": "curated-20260918-claude-md-context-88-percent-ko",
-      "title": "서브에이전트가 쓸데없이 CLAUDE.md를 반복 로드하는 문제 — 옵션 하나로 컨텍스트 22만 토큰을 2만6천으로",
-      "body": "promppy에 소개된 클로드 코드 팁은 서브에이전트를 여러 개 띄울 때마다 각 서브에이전트가 작업과 무관하게 전역 CLAUDE.md를 매번 로드해 토큰을 낭비하던 문제를 다룬다. 서브에이전트 설정에 `omitClaudeMd: true` 옵션을 추가하는 것만으로 실측 컨텍스트 토큰이 22만 6,340개에서 2만 6,480개로 약 88% 줄었다고 밝혔으며, 클로드 코드 2.1.271 이상에서 지원된다.",
-      "titleEn": "Subagents Kept Reloading CLAUDE.md for No Reason — One Flag Cut Context From 226K to 26K Tokens",
-      "bodyEn": "A Claude Code tip shared on promppy addresses subagents unnecessarily reloading the global CLAUDE.md on every spawn regardless of relevance, wasting tokens. Adding a single `omitClaudeMd: true` option to the subagent config cut measured context tokens from 226,340 to 26,480 — about an 88% reduction — and the option is supported in Claude Code 2.1.271 and later.",
-      "sourceName": "promppy",
-      "sourceUrl": "https://www.promppy.com/item/1733591",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-09-17T00:00:00Z",
-      "curatedAt": "2026-09-17T23:11:16Z"
     }
   ]
 }
