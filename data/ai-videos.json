@@ -1,6 +1,72 @@
 {
-  "generatedAt": "2026-09-30T23:07:55Z",
+  "generatedAt": "2026-10-02T23:07:01Z",
   "videos": [
+    {
+      "id": "vid-honjabs-mcp-claude-code-ko",
+      "youtubeId": "G4z2L2YANDg",
+      "category": "tip",
+      "title": "MCP를 모르면 클로드 코드 반도 못 쓰는 이유",
+      "titleEn": "MCP를 모르면 클로드 코드 반도 못 쓰고 있는 이유 | API와의 차이점과 필수연동까지",
+      "descKo": "MCP와 API의 차이, 클로드 코드 필수 연동을 7분에 정리.",
+      "descEn": "Seven-minute explainer on MCP vs API and must-have Claude Code integrations.",
+      "channel": "혼잡스",
+      "addedAt": "2026-10-02T23:07:01Z"
+    },
+    {
+      "id": "vid-metacode-claude-kakaotalk-ko",
+      "youtubeId": "lKBK0elPEtM",
+      "category": "usecase",
+      "title": "클로드 × 카카오톡으로 나만의 AI 직원 만들기",
+      "titleEn": "클로드 x 카카오톡으로 나만의 AI 직원 만들기ㅣ커넥터, 아티팩트, Play MCP 실습 포함",
+      "descKo": "커넥터·아티팩트·Play MCP 실습으로 카카오톡 연동 AI 직원 구성.",
+      "descEn": "Hands-on build of a KakaoTalk-connected AI employee with connectors, artifacts and Play MCP.",
+      "channel": "메타코드M",
+      "addedAt": "2026-10-02T23:07:01Z"
+    },
+    {
+      "id": "vid-pyeongbeom-devday-delegation-ko",
+      "youtubeId": "MWASl1ctU38",
+      "category": "tip",
+      "title": "AI에게 일을 맡기기 전에 정해야 할 3가지",
+      "titleEn": "AI에게 일을 맡기기 전에 정해야 할 3가지｜OpenAI DevDay 해설",
+      "descKo": "OpenAI DevDay를 바탕으로 에이전트 위임 전 정할 3가지를 해설.",
+      "descEn": "Three things to decide before delegating to an agent, based on OpenAI DevDay.",
+      "channel": "평범한 사업가",
+      "addedAt": "2026-10-02T23:07:01Z"
+    },
+    {
+      "id": "vid-airmodeling-codex-easyeda-pcb-ko",
+      "youtubeId": "8sxlNQaktuk",
+      "category": "usecase",
+      "title": "Codex와 EasyEDA로 PCB 양산까지",
+      "titleEn": "회로 설계부터 실제 제품까지, Codex와 EasyEDA로 PCB 대량생산해 봤습니다",
+      "descKo": "코딩 에이전트로 회로 설계부터 PCB 제작까지 가는 과정 시연.",
+      "descEn": "Demo of taking a circuit design to a manufactured PCB with a coding agent.",
+      "channel": "AIR MODELING",
+      "addedAt": "2026-10-02T23:07:01Z"
+    },
+    {
+      "id": "vid-raviships-15-codex-tips",
+      "youtubeId": "3cATycFyYso",
+      "category": "tip",
+      "title": "Codex 꿀팁 15가지",
+      "titleEn": "15 Codex Tips You NEED to Know!",
+      "descKo": "알아두면 좋은 Codex 활용 팁 15개 모음.",
+      "descEn": "A roundup of 15 practical Codex tips.",
+      "channel": "Ravi Ships",
+      "addedAt": "2026-10-02T23:07:01Z"
+    },
+    {
+      "id": "vid-exampro-codex-agent-skills",
+      "youtubeId": "90vvcTrog7c",
+      "category": "lecture",
+      "title": "Codex로 커스텀 에이전트 스킬 만들기",
+      "titleEn": "Build Custom Agent Skills with Codex",
+      "descKo": "Codex에서 직접 에이전트 스킬을 만드는 28분 강의.",
+      "descEn": "A 28-minute lesson on building your own agent skills in Codex.",
+      "channel": "ExamPro",
+      "addedAt": "2026-10-02T23:07:01Z"
+    },
     {
       "id": "vid-dingco-codex-nondev-work-ko",
       "youtubeId": "IM3CikE6hdQ",
@@ -50,42 +116,6 @@
       "addedAt": "2026-09-30T23:07:55Z"
     },
     {
-      "id": "vid-echohive-codex-claude-tips",
-      "youtubeId": "5WLuPvMF2lo",
-      "category": "lecture",
-      "title": "Codex·Claude Code 꿀팁 모음 (1시간 49분)",
-      "titleEn": "The Most Interesting Codex & Claude Code Tips and Tricks",
-      "descKo": "Codex와 Claude Code 팁을 길게 훑는 종합 영상.",
-      "descEn": "A long roundup of tips and tricks for Codex and Claude Code.",
-      "channel": "echohive",
-      "publishedAt": "2026-09-30T00:00:00Z",
-      "addedAt": "2026-09-30T23:07:55Z"
-    },
-    {
-      "id": "vid-happyai-claude-10-features-ko",
-      "youtubeId": "IyHsxrCK_Zk",
-      "category": "tip",
-      "title": "퇴근시간 2시간 당겨주는 클로드 신기능 10가지",
-      "titleEn": "10 new Claude features that cut two hours off your workday",
-      "descKo": "PPT·PDF 생성, Gmail·Calendar·Drive 연동, Artifact, Cowork까지 업무 신기능 시연.",
-      "descEn": "Demo of Claude work features: PPT/PDF, Gmail/Calendar/Drive, Artifacts and Cowork.",
-      "channel": "해피AI | 이진규",
-      "publishedAt": "2026-09-26T18:55:34Z",
-      "addedAt": "2026-09-29T23:07:44Z"
-    },
-    {
-      "id": "vid-hyunsil-iphone-apps-codex-ko",
-      "youtubeId": "tKKYjtUNWS8",
-      "category": "usecase",
-      "title": "회사 다니면서 아이폰 앱 3개 만든 Codex 사례",
-      "titleEn": "Building three iPhone apps while working a full-time job with Codex",
-      "descKo": "직장인이 Codex로 앱 3개를 만들고 앱스토어에 출시한 과정.",
-      "descEn": "How an office worker built and shipped three iPhone apps with Codex.",
-      "channel": "현실설계소",
-      "publishedAt": "2026-09-27T22:00:09Z",
-      "addedAt": "2026-09-29T23:07:44Z"
-    },
-    {
       "id": "vid-yunai-codex-basics-ko",
       "youtubeId": "AjeYdnqMyAs",
       "category": "lecture",
@@ -95,18 +125,6 @@
       "descEn": "A 22-minute beginner lecture on getting started with Codex.",
       "channel": "윤자동",
       "publishedAt": "2026-09-29T09:00:19Z",
-      "addedAt": "2026-09-29T23:07:44Z"
-    },
-    {
-      "id": "vid-nicksaraev-31k-claude-code-lessons",
-      "youtubeId": "45K3zHckCnQ",
-      "category": "usecase",
-      "title": "Claude Code에 $31,141와 1,000시간을 쓰고 배운 것",
-      "titleEn": "I Spent $31,141 & 1,000 Hours On Claude Code To Learn This",
-      "descKo": "Claude Code로 실제 에이전시 업무를 굴리며 얻은 교훈 정리.",
-      "descEn": "Lessons from running real agency work on Claude Code.",
-      "channel": "Nick Saraev",
-      "publishedAt": "2026-09-25T06:42:57Z",
       "addedAt": "2026-09-29T23:07:44Z"
     },
     {
@@ -143,30 +161,6 @@
       "descEn": "Beginner lecture installing a professor's real daily CLAUDE.md.",
       "channel": "서울대 한범 교수의 AI 바이브코딩",
       "publishedAt": "2026-09-26T02:19:51Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-dingco-9-claude-skills-ko",
-      "youtubeId": "mYee4jYcTW4",
-      "category": "tip",
-      "title": "남이 깎아둔 클로드 스킬 9가지",
-      "titleEn": "9 Claude skills built by others: meeting notes, report review, style editing",
-      "descKo": "회의 정리·보고서 검토·질문지·문체 교정용 공개 스킬 9개 시연.",
-      "descEn": "Demo of 9 public skills for meeting notes, report review, question lists and style editing.",
-      "channel": "딩코의 AI 심야 아지트",
-      "publishedAt": "2026-09-23T11:20:04Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-gcreator-claude-code-hackathon-ko",
-      "youtubeId": "IYFAsFsot8U",
-      "category": "lecture",
-      "title": "[클로드코드] API 연결부터 해커톤 실전 풀코스",
-      "titleEn": "Claude Code: API setup to hackathon full course (OpenRouter, Gemini, Agent View)",
-      "descKo": "오픈라우터·제미나이·에이전트뷰까지 API 연결부터 해커톤 실전까지 32분 풀코스.",
-      "descEn": "32-minute full course from API setup through hackathon practice with OpenRouter, Gemini and Agent View.",
-      "channel": "G-CREATOR",
-      "publishedAt": "2026-09-28T00:54:40Z",
       "addedAt": "2026-09-28T23:09:10Z"
     },
     {
