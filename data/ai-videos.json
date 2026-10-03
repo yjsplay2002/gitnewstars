@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-10-02T23:07:01Z",
+  "generatedAt": "2026-10-03T23:06:53Z",
   "videos": [
+    {
+      "id": "vid-gcreator-claude-code-hooks-ko",
+      "youtubeId": "9XY0BdM7fG4",
+      "category": "tip",
+      "title": "클로드 행동을 100% 통제하는 훅(Hook) 마스터",
+      "titleEn": "Hook mastery: control Claude Code behavior 100% (Claude Code series finale)",
+      "descKo": "Claude Code 훅으로 에이전트 행동 규칙을 고정하는 35분 완결편.",
+      "descEn": "A 35-minute series finale on locking agent rules in with Claude Code hooks.",
+      "channel": "G-CREATOR",
+      "publishedAt": "2026-10-03T01:19:46Z",
+      "addedAt": "2026-10-03T23:06:53Z"
+    },
+    {
+      "id": "vid-ericpark-opus-5-5-design-ko",
+      "youtubeId": "-JabKCzBf4s",
+      "category": "usecase",
+      "title": "Opus 5.5에게 레퍼런스 60만 개를 주고 디자인시켜 봤습니다",
+      "titleEn": "Giving Claude Opus 5.5 600k references to design with — PRD to prototype",
+      "descKo": "PRD와 Mobbin 레퍼런스로 디자인부터 프로토타입까지 가는 22분 실습.",
+      "descEn": "A 22-minute walkthrough from PRD and Mobbin references to a working prototype.",
+      "channel": "Eric Park | 빌더 + 디자이너",
+      "publishedAt": "2026-10-03T13:18:17Z",
+      "addedAt": "2026-10-03T23:06:53Z"
+    },
+    {
+      "id": "vid-successknowledge-claude-mods-ko",
+      "youtubeId": "KtquxqP2YnM",
+      "category": "tip",
+      "title": "클로드코드 \"모드\"(/mods) 신기능 소개",
+      "titleEn": "Claude Code \"mods\" (/mods) new feature",
+      "descKo": "Claude Code의 새 /mods 기능을 8분 46초에 소개한다.",
+      "descEn": "An 8:46 introduction to Claude Code's new /mods feature.",
+      "channel": "성공지식백과",
+      "publishedAt": "2026-10-03T09:41:18Z",
+      "addedAt": "2026-10-03T23:06:53Z"
+    },
+    {
+      "id": "vid-chaseai-claude-mods",
+      "youtubeId": "Rn4nmFRPe0s",
+      "category": "tip",
+      "title": "Claude Mods — 스킬 이후 가장 큰 Claude Code 업그레이드",
+      "titleEn": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
+      "descKo": "/mods가 왜 스킬 이후 최대 업그레이드인지 9분으로 설명한다.",
+      "descEn": "A nine-minute case for why /mods is the biggest Claude Code upgrade since Skills.",
+      "channel": "Chase AI",
+      "publishedAt": "2026-10-02T10:43:31Z",
+      "addedAt": "2026-10-03T23:06:53Z"
+    },
+    {
+      "id": "vid-vibemafia-dev-design-lecture-ko",
+      "youtubeId": "1zWoVKtf7jo",
+      "category": "lecture",
+      "title": "바이브코더를 위한 개발 설계의 정석",
+      "titleEn": "The proper way to plan software for vibe coders",
+      "descKo": "에이전트에 맡기기 전 개발 설계를 잡는 법을 다루는 2시간 18분 강의.",
+      "descEn": "A 2h18m lecture on structuring development design before delegating to agents.",
+      "channel": "바이브마피아 | AI Native 엔지니어",
+      "publishedAt": "2026-10-02T01:27:19Z",
+      "addedAt": "2026-10-03T23:06:53Z"
+    },
     {
       "id": "vid-honjabs-mcp-claude-code-ko",
       "youtubeId": "G4z2L2YANDg",
@@ -43,28 +103,6 @@
       "descKo": "코딩 에이전트로 회로 설계부터 PCB 제작까지 가는 과정 시연.",
       "descEn": "Demo of taking a circuit design to a manufactured PCB with a coding agent.",
       "channel": "AIR MODELING",
-      "addedAt": "2026-10-02T23:07:01Z"
-    },
-    {
-      "id": "vid-raviships-15-codex-tips",
-      "youtubeId": "3cATycFyYso",
-      "category": "tip",
-      "title": "Codex 꿀팁 15가지",
-      "titleEn": "15 Codex Tips You NEED to Know!",
-      "descKo": "알아두면 좋은 Codex 활용 팁 15개 모음.",
-      "descEn": "A roundup of 15 practical Codex tips.",
-      "channel": "Ravi Ships",
-      "addedAt": "2026-10-02T23:07:01Z"
-    },
-    {
-      "id": "vid-exampro-codex-agent-skills",
-      "youtubeId": "90vvcTrog7c",
-      "category": "lecture",
-      "title": "Codex로 커스텀 에이전트 스킬 만들기",
-      "titleEn": "Build Custom Agent Skills with Codex",
-      "descKo": "Codex에서 직접 에이전트 스킬을 만드는 28분 강의.",
-      "descEn": "A 28-minute lesson on building your own agent skills in Codex.",
-      "channel": "ExamPro",
       "addedAt": "2026-10-02T23:07:01Z"
     },
     {
@@ -126,54 +164,6 @@
       "channel": "윤자동",
       "publishedAt": "2026-09-29T09:00:19Z",
       "addedAt": "2026-09-29T23:07:44Z"
-    },
-    {
-      "id": "vid-jsmastery-claude-code-full-course-2026",
-      "youtubeId": "u2QqWkMv3Lg",
-      "category": "lecture",
-      "title": "Claude Code 풀코스 2026 — 시니어 엔지니어의 AI 개발법",
-      "titleEn": "Claude Code Full Course 2026 | How Senior Engineers Actually Build with AI",
-      "descKo": "2시간 13분 분량으로 Claude Code 개발 워크플로우를 처음부터 끝까지 다룬다.",
-      "descEn": "A 2h13m course covering the Claude Code development workflow end to end.",
-      "channel": "JavaScript Mastery",
-      "publishedAt": "2026-09-25T12:37:19Z",
-      "addedAt": "2026-09-29T23:07:44Z"
-    },
-    {
-      "id": "vid-pyeongbeom-agent-long-task-failure-ko",
-      "youtubeId": "xu34PnwZJkI",
-      "category": "tip",
-      "title": "AI 에이전트가 긴 작업에 실패하는 이유",
-      "titleEn": "Why AI agents fail long tasks: 3 principles from the Claude Code team",
-      "descKo": "Claude Code 팀의 긴 작업 실패 원인과 해결 원리 3가지, 코딩 전 완료 조건 정하기.",
-      "descEn": "Three fixes for long-task agent failure from the Claude Code team; define done criteria first.",
-      "channel": "평범한 사업가 | AI SuperUser",
-      "publishedAt": "2026-09-28T01:15:25Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-snu-claude-md-lecture-13-ko",
-      "youtubeId": "8RxtwS94ahw",
-      "category": "lecture",
-      "title": "교수가 매일 쓰는 CLAUDE.md 설치 (왕초보 클로드코드 13강)",
-      "titleEn": "Install the CLAUDE.md a professor uses daily (Claude Code for beginners #13)",
-      "descKo": "서울대 한범 교수의 실제 CLAUDE.md를 그대로 설치하는 입문 강의.",
-      "descEn": "Beginner lecture installing a professor's real daily CLAUDE.md.",
-      "channel": "서울대 한범 교수의 AI 바이브코딩",
-      "publishedAt": "2026-09-26T02:19:51Z",
-      "addedAt": "2026-09-28T23:09:10Z"
-    },
-    {
-      "id": "vid-builderjosh-obsidian-ai-ko",
-      "youtubeId": "fc7Nt94kGrw",
-      "category": "usecase",
-      "title": "녹음 1,400개·노트 1만 개를 AI로 굴리는 법",
-      "titleEn": "Running 1,400 recordings and 10,000 notes with AI in Obsidian",
-      "descKo": "옵시디언 전문가가 개인 지식베이스를 AI로 운영하는 실사례.",
-      "descEn": "An Obsidian expert shows how he runs a personal knowledge base with AI.",
-      "channel": "빌더 조쉬 Builder Josh",
-      "publishedAt": "2026-09-28T05:03:42Z",
-      "addedAt": "2026-09-28T23:09:10Z"
     }
   ]
 }
