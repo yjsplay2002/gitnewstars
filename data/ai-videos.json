@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-10-03T23:06:53Z",
+  "generatedAt": "2026-10-04T23:07:46Z",
   "videos": [
+    {
+      "id": "vid-ondrej-vercel-ceo-workflow",
+      "youtubeId": "WeiB_gLOdQE",
+      "category": "lecture",
+      "title": "Vercel CEO가 공개하는 에이전틱 엔지니어링 워크플로우",
+      "titleEn": "Vercel CEO reveals his Agentic Engineering Workflow",
+      "descKo": "Vercel CEO의 에이전트 개발 방식을 1시간 37분 대화로 본다.",
+      "descEn": "A 1h37m conversation on how the Vercel CEO builds with agents.",
+      "channel": "David Ondrej",
+      "publishedAt": "2026-10-02T14:48:25Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-kashef-10-claude-code-mods",
+      "youtubeId": "uvIopT_2sY0",
+      "category": "tip",
+      "title": "Claude Code 모드 중 가져다 쓸 만한 10가지",
+      "titleEn": "Claude Code Now Has Mods. Here Are 10 Worth Stealing",
+      "descKo": "새 모드 기능에서 바로 복사해 쓸 만한 모드 10개를 11분에 보여준다.",
+      "descEn": "Ten mods from the new mods feature worth copying, in 11 minutes.",
+      "channel": "Mark Kashef",
+      "publishedAt": "2026-10-02T20:32:58Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-maker-evan-vibe-coding-aws-bill-ko",
+      "youtubeId": "VoqXu3oFsk4",
+      "category": "tip",
+      "title": "바이브코딩하다 AWS 요금 폭탄 맞으신 분?",
+      "titleEn": "바이브코딩 하다 AWS 요금 폭탄 맞으신 분?",
+      "descKo": "바이브 코딩 서비스에서 터진 AWS 청구서의 원인과 대처를 다룬다.",
+      "descEn": "Causes of and responses to a surprise AWS bill from a vibe-coded service.",
+      "channel": "메이커 에반 | Maker Evan",
+      "publishedAt": "2026-10-04T05:36:09Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-ai-haebusil-claude-code-5-mcp-ko",
+      "youtubeId": "nBpiybUBxtU",
+      "category": "tip",
+      "title": "클로드 코드 MCP 5개 연결, 복붙이 사라지는 레시피",
+      "titleEn": "클로드 코드 MCP 5개 연결, 복붙이 사라지는 레시피",
+      "descKo": "Claude Code에 MCP 5개를 연결해 복사·붙여넣기를 없애는 11분 구성.",
+      "descEn": "An 11-minute setup wiring five MCPs into Claude Code to end copy-paste.",
+      "channel": "AI 해부실",
+      "publishedAt": "2026-10-03T10:00:06Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-dikkulbang-gemini-notebook-agent-team-ko",
+      "youtubeId": "Vel33rYi7-Q",
+      "category": "usecase",
+      "title": "제미나이 노트북으로 나만의 AI 에이전트팀 만들기",
+      "titleEn": "제미나이노트북으로 나만의 AI 에이전트팀 만들기",
+      "descKo": "계약 검토부터 일정 관리까지 맡는 Gemini 에이전트 팀을 11분에 구성한다.",
+      "descEn": "An 11-minute build of a Gemini agent team handling contract review to scheduling.",
+      "channel": "디꿀방",
+      "publishedAt": "2026-09-29T09:00:07Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-agentos-dhh-37signals-agents-ko",
+      "youtubeId": "SGNaTI8h26A",
+      "category": "usecase",
+      "title": "DHH가 손코딩을 멈춘 이유 — 37signals가 에이전트로 일하는 법",
+      "titleEn": "레일즈 창시자 DHH가 손코딩을 멈춘 이유 — 에이전트 20개월에 21년 치 코드의 절반",
+      "descKo": "에이전트 20개월 만에 21년 치 코드의 절반이 쌓인 37signals의 방식을 다룬다.",
+      "descEn": "How 37signals works with agents, where 20 months produced half of 21 years of code.",
+      "channel": "AgentOS",
+      "publishedAt": "2026-09-27T04:24:37Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
     {
       "id": "vid-gcreator-claude-code-hooks-ko",
       "youtubeId": "9XY0BdM7fG4",
@@ -35,18 +107,6 @@
       "descEn": "An 8:46 introduction to Claude Code's new /mods feature.",
       "channel": "성공지식백과",
       "publishedAt": "2026-10-03T09:41:18Z",
-      "addedAt": "2026-10-03T23:06:53Z"
-    },
-    {
-      "id": "vid-chaseai-claude-mods",
-      "youtubeId": "Rn4nmFRPe0s",
-      "category": "tip",
-      "title": "Claude Mods — 스킬 이후 가장 큰 Claude Code 업그레이드",
-      "titleEn": "Claude Mods Is The Biggest Claude Code Upgrade Since Skills",
-      "descKo": "/mods가 왜 스킬 이후 최대 업그레이드인지 9분으로 설명한다.",
-      "descEn": "A nine-minute case for why /mods is the biggest Claude Code upgrade since Skills.",
-      "channel": "Chase AI",
-      "publishedAt": "2026-10-02T10:43:31Z",
       "addedAt": "2026-10-03T23:06:53Z"
     },
     {
@@ -95,17 +155,6 @@
       "addedAt": "2026-10-02T23:07:01Z"
     },
     {
-      "id": "vid-airmodeling-codex-easyeda-pcb-ko",
-      "youtubeId": "8sxlNQaktuk",
-      "category": "usecase",
-      "title": "Codex와 EasyEDA로 PCB 양산까지",
-      "titleEn": "회로 설계부터 실제 제품까지, Codex와 EasyEDA로 PCB 대량생산해 봤습니다",
-      "descKo": "코딩 에이전트로 회로 설계부터 PCB 제작까지 가는 과정 시연.",
-      "descEn": "Demo of taking a circuit design to a manufactured PCB with a coding agent.",
-      "channel": "AIR MODELING",
-      "addedAt": "2026-10-02T23:07:01Z"
-    },
-    {
       "id": "vid-dingco-codex-nondev-work-ko",
       "youtubeId": "IM3CikE6hdQ",
       "category": "usecase",
@@ -115,42 +164,6 @@
       "descEn": "Codex walkthrough turning seven meeting notes into a decision table and a monthly report.",
       "channel": "딩코의 AI 심야 아지트",
       "publishedAt": "2026-09-30T11:15:33Z",
-      "addedAt": "2026-09-30T23:07:55Z"
-    },
-    {
-      "id": "vid-dantes-openai-dots-ko",
-      "youtubeId": "rM_paQG09K4",
-      "category": "usecase",
-      "title": "OpenAI Dots와 30분 통화하며 일 시켜본 결과",
-      "titleEn": "Results of Working While Talking to OpenAI Dots for 30 Minutes | What Works and What Doesn't",
-      "descKo": "상시 작동 에이전트 Dots에 음성으로 영상 제작·예약 요약을 맡긴 실험.",
-      "descEn": "Voice-tasking the always-on Dots agent with video creation and scheduled summaries.",
-      "channel": "Dante's Datalab",
-      "publishedAt": "2026-09-30T16:35:52Z",
-      "addedAt": "2026-09-30T23:07:55Z"
-    },
-    {
-      "id": "vid-beyondcoding-dex-slop",
-      "youtubeId": "vKT59uoByXc",
-      "category": "tip",
-      "title": "코딩 에이전트가 코드베이스를 망치는 이유",
-      "titleEn": "Why Coding Agents Keep Making Your Codebase Worse",
-      "descKo": "HumanLayer Dex의 research-design-plan 워크플로우와 SlopCodeBench 이야기.",
-      "descEn": "HumanLayer's Dex on SlopCodeBench and his research-design-plan agent workflow.",
-      "channel": "Beyond Coding",
-      "publishedAt": "2026-09-30T12:00:13Z",
-      "addedAt": "2026-09-30T23:07:55Z"
-    },
-    {
-      "id": "vid-briancasel-planning-system",
-      "youtubeId": "krhkmockjCM",
-      "category": "tip",
-      "title": "플랜 모드 없이 대형 프로젝트 계획하기",
-      "titleEn": "How I plan (large) projects with agents",
-      "descKo": "plan mode 대신 저장소·로드맵·스킬로 에이전트 플래닝을 구성하는 법.",
-      "descEn": "Planning with repos, roadmaps and a skill instead of plan mode.",
-      "channel": "Brian Casel",
-      "publishedAt": "2026-09-30T12:00:01Z",
       "addedAt": "2026-09-30T23:07:55Z"
     },
     {
