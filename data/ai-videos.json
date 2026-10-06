@@ -1,29 +1,53 @@
 {
-  "generatedAt": "2026-10-04T23:07:46Z",
+  "generatedAt": "2026-10-06T23:13:05Z",
   "videos": [
     {
-      "id": "vid-ondrej-vercel-ceo-workflow",
-      "youtubeId": "WeiB_gLOdQE",
-      "category": "lecture",
-      "title": "Vercel CEO가 공개하는 에이전틱 엔지니어링 워크플로우",
-      "titleEn": "Vercel CEO reveals his Agentic Engineering Workflow",
-      "descKo": "Vercel CEO의 에이전트 개발 방식을 1시간 37분 대화로 본다.",
-      "descEn": "A 1h37m conversation on how the Vercel CEO builds with agents.",
-      "channel": "David Ondrej",
-      "publishedAt": "2026-10-02T14:48:25Z",
-      "addedAt": "2026-10-04T23:07:46Z"
+      "id": "vid-tristen-claude-code-mods-10min",
+      "youtubeId": "LDn7rQKIFro",
+      "category": "tip",
+      "title": "Claude Code Mods 10분 마스터",
+      "titleEn": "Claude Code Just Dropped MODS. (Master it in 10 Minutes).",
+      "descKo": "새로 나온 Mods 기능을 10분에 훑는 입문 영상.",
+      "descEn": "A 10-minute primer on the new Mods feature.",
+      "channel": "Tristen O'Brien",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-06T23:13:05Z"
     },
     {
-      "id": "vid-kashef-10-claude-code-mods",
-      "youtubeId": "uvIopT_2sY0",
+      "id": "vid-nateherk-claude-code-mods",
+      "youtubeId": "9hetShMMp2s",
       "category": "tip",
-      "title": "Claude Code 모드 중 가져다 쓸 만한 10가지",
-      "titleEn": "Claude Code Now Has Mods. Here Are 10 Worth Stealing",
-      "descKo": "새 모드 기능에서 바로 복사해 쓸 만한 모드 10개를 11분에 보여준다.",
-      "descEn": "Ten mods from the new mods feature worth copying, in 11 minutes.",
-      "channel": "Mark Kashef",
-      "publishedAt": "2026-10-02T20:32:58Z",
-      "addedAt": "2026-10-04T23:07:46Z"
+      "title": "Claude Code Mods 필수 설정 5가지",
+      "titleEn": "Claude Code Mods Are Game Changers. Set Up These 5 NOW.",
+      "descKo": "Mods 기능에서 바로 켜 둘 5가지 설정을 소개한다.",
+      "descEn": "Five Mods settings worth enabling right away.",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "addedAt": "2026-10-06T23:13:05Z"
+    },
+    {
+      "id": "vid-ailabs-opus-5-5-build-sites",
+      "youtubeId": "DP7mgLUKN_U",
+      "category": "usecase",
+      "title": "Claude Code와 Opus 5.5로 사이트 만들기",
+      "titleEn": "How To Use Claude Code To Build Amazing Sites With Opus 5.5",
+      "descKo": "Opus 5.5와 Claude Code로 웹사이트를 처음부터 만드는 과정을 보여준다.",
+      "descEn": "Builds a website from scratch with Claude Code and Opus 5.5.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "addedAt": "2026-10-06T23:13:05Z"
+    },
+    {
+      "id": "vid-zzikbot-codex-7min-ko",
+      "youtubeId": "-pkzds25Nt0",
+      "category": "lecture",
+      "title": "코덱스 7분 핵심 가이드",
+      "titleEn": "챗gpt 10배 업그레이드, 코덱스 7분 핵심 가이드",
+      "descKo": "Codex 핵심 사용법을 7분에 정리한 한국어 가이드.",
+      "descEn": "A 7-minute Korean guide to the core of Codex.",
+      "channel": "ZZIK BOT",
+      "publishedAt": "2026-09-21T00:00:00Z",
+      "addedAt": "2026-10-06T23:13:05Z"
     },
     {
       "id": "vid-maker-evan-vibe-coding-aws-bill-ko",
@@ -47,6 +71,30 @@
       "descEn": "An 11-minute setup wiring five MCPs into Claude Code to end copy-paste.",
       "channel": "AI 해부실",
       "publishedAt": "2026-10-03T10:00:06Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-kashef-10-claude-code-mods",
+      "youtubeId": "uvIopT_2sY0",
+      "category": "tip",
+      "title": "Claude Code 모드 중 가져다 쓸 만한 10가지",
+      "titleEn": "Claude Code Now Has Mods. Here Are 10 Worth Stealing",
+      "descKo": "새 모드 기능에서 바로 복사해 쓸 만한 모드 10개를 11분에 보여준다.",
+      "descEn": "Ten mods from the new mods feature worth copying, in 11 minutes.",
+      "channel": "Mark Kashef",
+      "publishedAt": "2026-10-02T20:32:58Z",
+      "addedAt": "2026-10-04T23:07:46Z"
+    },
+    {
+      "id": "vid-ondrej-vercel-ceo-workflow",
+      "youtubeId": "WeiB_gLOdQE",
+      "category": "lecture",
+      "title": "Vercel CEO가 공개하는 에이전틱 엔지니어링 워크플로우",
+      "titleEn": "Vercel CEO reveals his Agentic Engineering Workflow",
+      "descKo": "Vercel CEO의 에이전트 개발 방식을 1시간 37분 대화로 본다.",
+      "descEn": "A 1h37m conversation on how the Vercel CEO builds with agents.",
+      "channel": "David Ondrej",
+      "publishedAt": "2026-10-02T14:48:25Z",
       "addedAt": "2026-10-04T23:07:46Z"
     },
     {
@@ -74,18 +122,6 @@
       "addedAt": "2026-10-04T23:07:46Z"
     },
     {
-      "id": "vid-gcreator-claude-code-hooks-ko",
-      "youtubeId": "9XY0BdM7fG4",
-      "category": "tip",
-      "title": "클로드 행동을 100% 통제하는 훅(Hook) 마스터",
-      "titleEn": "Hook mastery: control Claude Code behavior 100% (Claude Code series finale)",
-      "descKo": "Claude Code 훅으로 에이전트 행동 규칙을 고정하는 35분 완결편.",
-      "descEn": "A 35-minute series finale on locking agent rules in with Claude Code hooks.",
-      "channel": "G-CREATOR",
-      "publishedAt": "2026-10-03T01:19:46Z",
-      "addedAt": "2026-10-03T23:06:53Z"
-    },
-    {
       "id": "vid-ericpark-opus-5-5-design-ko",
       "youtubeId": "-JabKCzBf4s",
       "category": "usecase",
@@ -110,6 +146,18 @@
       "addedAt": "2026-10-03T23:06:53Z"
     },
     {
+      "id": "vid-gcreator-claude-code-hooks-ko",
+      "youtubeId": "9XY0BdM7fG4",
+      "category": "tip",
+      "title": "클로드 행동을 100% 통제하는 훅(Hook) 마스터",
+      "titleEn": "Hook mastery: control Claude Code behavior 100% (Claude Code series finale)",
+      "descKo": "Claude Code 훅으로 에이전트 행동 규칙을 고정하는 35분 완결편.",
+      "descEn": "A 35-minute series finale on locking agent rules in with Claude Code hooks.",
+      "channel": "G-CREATOR",
+      "publishedAt": "2026-10-03T01:19:46Z",
+      "addedAt": "2026-10-03T23:06:53Z"
+    },
+    {
       "id": "vid-vibemafia-dev-design-lecture-ko",
       "youtubeId": "1zWoVKtf7jo",
       "category": "lecture",
@@ -131,52 +179,6 @@
       "descEn": "Seven-minute explainer on MCP vs API and must-have Claude Code integrations.",
       "channel": "혼잡스",
       "addedAt": "2026-10-02T23:07:01Z"
-    },
-    {
-      "id": "vid-metacode-claude-kakaotalk-ko",
-      "youtubeId": "lKBK0elPEtM",
-      "category": "usecase",
-      "title": "클로드 × 카카오톡으로 나만의 AI 직원 만들기",
-      "titleEn": "클로드 x 카카오톡으로 나만의 AI 직원 만들기ㅣ커넥터, 아티팩트, Play MCP 실습 포함",
-      "descKo": "커넥터·아티팩트·Play MCP 실습으로 카카오톡 연동 AI 직원 구성.",
-      "descEn": "Hands-on build of a KakaoTalk-connected AI employee with connectors, artifacts and Play MCP.",
-      "channel": "메타코드M",
-      "addedAt": "2026-10-02T23:07:01Z"
-    },
-    {
-      "id": "vid-pyeongbeom-devday-delegation-ko",
-      "youtubeId": "MWASl1ctU38",
-      "category": "tip",
-      "title": "AI에게 일을 맡기기 전에 정해야 할 3가지",
-      "titleEn": "AI에게 일을 맡기기 전에 정해야 할 3가지｜OpenAI DevDay 해설",
-      "descKo": "OpenAI DevDay를 바탕으로 에이전트 위임 전 정할 3가지를 해설.",
-      "descEn": "Three things to decide before delegating to an agent, based on OpenAI DevDay.",
-      "channel": "평범한 사업가",
-      "addedAt": "2026-10-02T23:07:01Z"
-    },
-    {
-      "id": "vid-dingco-codex-nondev-work-ko",
-      "youtubeId": "IM3CikE6hdQ",
-      "category": "usecase",
-      "title": "비개발자가 코덱스로 업무 프로그램 만드는 법",
-      "titleEn": "비개발자가 코덱스로 업무 프로그램 만드는 법 | 회의록 정리, 승인 권한, 계획 모드, 맞춤 설정까지",
-      "descKo": "회의록 7장을 결정사항 표로 정리하고 월간 보고서까지 쓰는 코덱스 실습.",
-      "descEn": "Codex walkthrough turning seven meeting notes into a decision table and a monthly report.",
-      "channel": "딩코의 AI 심야 아지트",
-      "publishedAt": "2026-09-30T11:15:33Z",
-      "addedAt": "2026-09-30T23:07:55Z"
-    },
-    {
-      "id": "vid-yunai-codex-basics-ko",
-      "youtubeId": "AjeYdnqMyAs",
-      "category": "lecture",
-      "title": "윤AI가 알려주는 코덱스 기초편",
-      "titleEn": "Codex basics with 윤AI",
-      "descKo": "Codex를 처음 쓰는 사람을 위한 22분 기초 강의.",
-      "descEn": "A 22-minute beginner lecture on getting started with Codex.",
-      "channel": "윤자동",
-      "publishedAt": "2026-09-29T09:00:19Z",
-      "addedAt": "2026-09-29T23:07:44Z"
     }
   ]
 }
