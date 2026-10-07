@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-10-06T23:13:05Z",
+  "generatedAt": "2026-10-07T23:07:49Z",
   "videos": [
+    {
+      "id": "vid-techwithtim-100-agents",
+      "youtubeId": "uccBE9Tun6M",
+      "category": "usecase",
+      "title": "AI 에이전트 100개를 동시에 돌려봤다",
+      "titleEn": "I Unleashed 100 AI Agents at Once. Here's What Happened.",
+      "descKo": "에이전트 100개를 병렬로 돌린 실험과 그 결과.",
+      "descEn": "An experiment running 100 agents in parallel and what happened.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "addedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "vid-avthar-opus-5-5-53min",
+      "youtubeId": "Rbe5tPsxKlQ",
+      "category": "lecture",
+      "title": "Opus 5.5 마스터 53분 가이드",
+      "titleEn": "Claude Opus 5.5 Is The New King. Master it in 53 Minutes.",
+      "descKo": "Opus 5.5를 100시간 이상 쓰며 얻은 교훈을 압축한 강의.",
+      "descEn": "Lessons from 100+ hours with Opus 5.5 condensed into one session.",
+      "channel": "AI with Avthar",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "addedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "vid-benai-claude-skills-8-rules",
+      "youtubeId": "npS5jzOoji8",
+      "category": "tip",
+      "title": "Anthropic이 밝힌 좋은 Claude 스킬 8가지 규칙",
+      "titleEn": "Anthropic Just Revealed 8 New Rules for Building Great Claude Skills",
+      "descKo": "스킬을 잘 쓰기 위한 Anthropic 공식 작성 규칙 8가지 정리.",
+      "descEn": "Eight official Anthropic rules for writing better Claude skills.",
+      "channel": "Ben AI",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "addedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "vid-stanleestudio-codex-homepage-ko",
+      "youtubeId": "Gl5a52R0N20",
+      "category": "lecture",
+      "title": "Codex로 홈페이지 15분 만에 만들기",
+      "titleEn": "Build a Homepage in 15 Minutes with Codex (Korean)",
+      "descKo": "Codex 하나로 홈페이지를 만드는 과정을 39분간 따라가는 실습.",
+      "descEn": "A 39-minute walkthrough building a homepage with Codex alone.",
+      "channel": "Stanleestudio",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "vid-hyosunglim-claude-video-editing-ko",
+      "youtubeId": "8cMJGrtnlOg",
+      "category": "usecase",
+      "title": "클로드로 컷편집·자막·쇼츠 자동화",
+      "titleEn": "I Let Claude Handle Cuts, Captions and Shorts (Korean)",
+      "descKo": "컷 편집부터 자막·쇼츠까지 Claude에 맡기는 실사용 워크플로우.",
+      "descEn": "A real workflow delegating cuts, captions and shorts to Claude.",
+      "channel": "hyosunglim임효성",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "vid-woozoobro-agent-intro-codex-ko",
+      "youtubeId": "8u60vqCSrkg",
+      "category": "lecture",
+      "title": "AI 에이전트 입문 + 코덱스 활용 (1시간)",
+      "titleEn": "AI Agents 101 and Codex Hands-on (Korean)",
+      "descKo": "개념부터 Codex 실습까지 한 번에 훑는 1시간 입문 강의.",
+      "descEn": "A one-hour Korean primer from agent concepts to Codex practice.",
+      "channel": "woozoobro",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "addedAt": "2026-10-07T23:07:49Z"
+    },
     {
       "id": "vid-tristen-claude-code-mods-10min",
       "youtubeId": "LDn7rQKIFro",
@@ -11,42 +83,6 @@
       "descEn": "A 10-minute primer on the new Mods feature.",
       "channel": "Tristen O'Brien",
       "publishedAt": "2026-10-05T00:00:00Z",
-      "addedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "vid-nateherk-claude-code-mods",
-      "youtubeId": "9hetShMMp2s",
-      "category": "tip",
-      "title": "Claude Code Mods 필수 설정 5가지",
-      "titleEn": "Claude Code Mods Are Game Changers. Set Up These 5 NOW.",
-      "descKo": "Mods 기능에서 바로 켜 둘 5가지 설정을 소개한다.",
-      "descEn": "Five Mods settings worth enabling right away.",
-      "channel": "Nate Herk | AI Automation",
-      "publishedAt": "2026-10-02T00:00:00Z",
-      "addedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "vid-ailabs-opus-5-5-build-sites",
-      "youtubeId": "DP7mgLUKN_U",
-      "category": "usecase",
-      "title": "Claude Code와 Opus 5.5로 사이트 만들기",
-      "titleEn": "How To Use Claude Code To Build Amazing Sites With Opus 5.5",
-      "descKo": "Opus 5.5와 Claude Code로 웹사이트를 처음부터 만드는 과정을 보여준다.",
-      "descEn": "Builds a website from scratch with Claude Code and Opus 5.5.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-09-30T00:00:00Z",
-      "addedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "vid-zzikbot-codex-7min-ko",
-      "youtubeId": "-pkzds25Nt0",
-      "category": "lecture",
-      "title": "코덱스 7분 핵심 가이드",
-      "titleEn": "챗gpt 10배 업그레이드, 코덱스 7분 핵심 가이드",
-      "descKo": "Codex 핵심 사용법을 7분에 정리한 한국어 가이드.",
-      "descEn": "A 7-minute Korean guide to the core of Codex.",
-      "channel": "ZZIK BOT",
-      "publishedAt": "2026-09-21T00:00:00Z",
       "addedAt": "2026-10-06T23:13:05Z"
     },
     {
@@ -74,18 +110,6 @@
       "addedAt": "2026-10-04T23:07:46Z"
     },
     {
-      "id": "vid-kashef-10-claude-code-mods",
-      "youtubeId": "uvIopT_2sY0",
-      "category": "tip",
-      "title": "Claude Code 모드 중 가져다 쓸 만한 10가지",
-      "titleEn": "Claude Code Now Has Mods. Here Are 10 Worth Stealing",
-      "descKo": "새 모드 기능에서 바로 복사해 쓸 만한 모드 10개를 11분에 보여준다.",
-      "descEn": "Ten mods from the new mods feature worth copying, in 11 minutes.",
-      "channel": "Mark Kashef",
-      "publishedAt": "2026-10-02T20:32:58Z",
-      "addedAt": "2026-10-04T23:07:46Z"
-    },
-    {
       "id": "vid-ondrej-vercel-ceo-workflow",
       "youtubeId": "WeiB_gLOdQE",
       "category": "lecture",
@@ -107,18 +131,6 @@
       "descEn": "An 11-minute build of a Gemini agent team handling contract review to scheduling.",
       "channel": "디꿀방",
       "publishedAt": "2026-09-29T09:00:07Z",
-      "addedAt": "2026-10-04T23:07:46Z"
-    },
-    {
-      "id": "vid-agentos-dhh-37signals-agents-ko",
-      "youtubeId": "SGNaTI8h26A",
-      "category": "usecase",
-      "title": "DHH가 손코딩을 멈춘 이유 — 37signals가 에이전트로 일하는 법",
-      "titleEn": "레일즈 창시자 DHH가 손코딩을 멈춘 이유 — 에이전트 20개월에 21년 치 코드의 절반",
-      "descKo": "에이전트 20개월 만에 21년 치 코드의 절반이 쌓인 37signals의 방식을 다룬다.",
-      "descEn": "How 37signals works with agents, where 20 months produced half of 21 years of code.",
-      "channel": "AgentOS",
-      "publishedAt": "2026-09-27T04:24:37Z",
       "addedAt": "2026-10-04T23:07:46Z"
     },
     {
@@ -168,17 +180,6 @@
       "channel": "바이브마피아 | AI Native 엔지니어",
       "publishedAt": "2026-10-02T01:27:19Z",
       "addedAt": "2026-10-03T23:06:53Z"
-    },
-    {
-      "id": "vid-honjabs-mcp-claude-code-ko",
-      "youtubeId": "G4z2L2YANDg",
-      "category": "tip",
-      "title": "MCP를 모르면 클로드 코드 반도 못 쓰는 이유",
-      "titleEn": "MCP를 모르면 클로드 코드 반도 못 쓰고 있는 이유 | API와의 차이점과 필수연동까지",
-      "descKo": "MCP와 API의 차이, 클로드 코드 필수 연동을 7분에 정리.",
-      "descEn": "Seven-minute explainer on MCP vs API and must-have Claude Code integrations.",
-      "channel": "혼잡스",
-      "addedAt": "2026-10-02T23:07:01Z"
     }
   ]
 }

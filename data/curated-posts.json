@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-10-06T23:13:05Z",
+  "generatedAt": "2026-10-07T23:07:49Z",
   "posts": [
+    {
+      "id": "curated-20261008-avthar-opus-5-5-53min",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=Rbe5tPsxKlQ",
+      "title": "AI with Avthar: Opus 5.5 100시간 사용 교훈을 53분에",
+      "body": "Claude Opus 5.5를 100시간 넘게 쓰며 얻은 교훈을 53분으로 압축한 영상이다. Claude와 Claude Code에서 프롬프트·작업 위임 방식을 점검하는 데 참고할 만하다.",
+      "titleEn": "AI with Avthar: 100+ hours of Opus 5.5 lessons in 53 minutes",
+      "bodyEn": "Over 100 hours of Claude Opus 5.5 lessons compressed into 53 minutes. Useful for tuning how you prompt and delegate in Claude and Claude Code.",
+      "sourceName": "YouTube · AI with Avthar",
+      "sourceUrl": "https://www.youtube.com/watch?v=Rbe5tPsxKlQ",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-ben-ai-8-rules-claude-skills",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=npS5jzOoji8",
+      "title": "Ben AI: Anthropic이 밝힌 좋은 Claude 스킬 작성 8가지 규칙",
+      "body": "Anthropic이 공개한 스킬 작성 규칙 8가지를 15분 안에 정리한다. 직접 스킬을 만들거나 기존 SKILL.md를 다듬을 때 체크리스트로 쓸 수 있다.",
+      "titleEn": "Ben AI: Anthropic's 8 rules for building great Claude skills",
+      "bodyEn": "A 15-minute walkthrough of eight skill-writing rules Anthropic published. Handy as a checklist when writing or tightening a SKILL.md.",
+      "sourceName": "YouTube · Ben AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=npS5jzOoji8",
+      "createdAt": "2026-10-06T00:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-hyosunglim-claude-video-editing-ko",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=8cMJGrtnlOg",
+      "title": "임효성: 클로드에 컷편집·자막·쇼츠를 전부 맡긴 영상편집 자동화",
+      "body": "14분 영상에서 컷 편집, 자막, 쇼츠 제작까지 Claude에 맡기는 실사용 워크플로우를 보여준다. 반복적인 영상 후처리를 에이전트에 넘기는 구조를 그대로 가져다 응용할 수 있다.",
+      "titleEn": "hyosunglim: handing cuts, captions and shorts to Claude",
+      "bodyEn": "A 14-minute demo of a real workflow where Claude handles cuts, captions and shorts. The structure for delegating repetitive video post-production to an agent is easy to reuse.",
+      "sourceName": "YouTube · hyosunglim임효성",
+      "sourceUrl": "https://www.youtube.com/watch?v=8cMJGrtnlOg",
+      "createdAt": "2026-10-05T00:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-woozoobro-agent-intro-codex-ko",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=8u60vqCSrkg",
+      "title": "우주브로: AI 에이전트 입문부터 코덱스 활용까지 1시간",
+      "body": "에이전트 개념을 정리한 뒤 Codex로 실제 작업을 맡기는 과정을 1시간 2분 동안 따라가는 입문 강의 영상이다. 처음 에이전트 워크플로우를 잡으려는 사람이 순서대로 따라 하기 좋다.",
+      "titleEn": "woozoobro: AI agents 101 through Codex in one hour",
+      "bodyEn": "A 1h02m beginner session that explains the agent concept and then hands real tasks to Codex. Good to follow step by step when setting up your first agent workflow.",
+      "sourceName": "YouTube · woozoobro",
+      "sourceUrl": "https://www.youtube.com/watch?v=8u60vqCSrkg",
+      "createdAt": "2026-10-07T00:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-anthropic-opus-5-5-tips-guide",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "Claude 공식 가이드: Opus 5.5 제대로 쓰는 4가지 요령",
+      "body": "작업 전체와 완료 기준(\"모든 엔드포인트가 새 클라이언트를 쓰고 테스트가 통과하면 끝\")을 한 메시지에 적고, Opus 5.5는 매번 먼저 생각하므로 \"신중히 생각해\" 문구는 빼라고 안내한다. 긴 작업은 CLAUDE.md에 계속/중단 규칙을 두고, 감사 작업은 서브에이전트로 나누며 TASKS.md 체크리스트를 유지하면 된다.",
+      "titleEn": "Official guide: 4 ways to get the most out of Opus 5.5",
+      "bodyEn": "Put the whole task and a finish line in one message (\"done means every endpoint uses the new client and tests pass\"), and drop \"think carefully\" lines since Opus 5.5 thinks before every reply. For long runs, add keep-going/stop rules to CLAUDE.md, split audits across subagents and keep a TASKS.md checklist.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "createdAt": "2026-09-22T00:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-ddd-more-important-with-ai-ko",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "AI가 코드를 쓸수록 도메인 주도 설계가 더 중요해지는 이유",
+      "body": "구현이 빨라질수록 잘못 이해한 요구사항이 더 빨리 쌓인다는 점을 짚는 글이다. 코드 생성 전에 팀·문서·코드가 공유하는 도메인 용어를 정하고, 이해관계자와 바운디드 컨텍스트를 먼저 논의하며, 개발자가 도메인 지식으로 AI 결과를 검증하라고 권한다.",
+      "titleEn": "Why domain-driven design matters more as AI writes the code",
+      "bodyEn": "As implementation gets faster, misunderstood requirements pile up faster too. The article advises fixing a shared domain language across teams, docs and code before generation, discussing bounded contexts with stakeholders first, and using domain knowledge to validate AI output.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=34791",
+      "createdAt": "2026-10-05T00:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-sumup-66-repos-agents-md-ko",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "SumUp, 66개 저장소를 AI 에이전트로 연결해 팀 간 시스템 이해하기",
+      "body": "SumUp은 기술 스택이 아니라 제품·팀 구조 기준으로 약 66개 Git 서브모듈을 묶고, 도메인별 AGENTS.md에 조직 원칙·팀 구조·서비스 폐기 계획을 적었다. 저장소별 서브에이전트가 분석하고 메인 에이전트가 종합하며, 100만 토큰 컨텍스트로 주간 갱신(Notion·Slack)을 돌려 엔지니어 3~4명을 모으던 일을 줄였다.",
+      "titleEn": "SumUp connects 66 repos with AI agents to understand cross-team systems",
+      "bodyEn": "SumUp grouped about 66 Git submodules by product and team rather than tech stack, with domain-level AGENTS.md files holding org principles, team structure and deprecation plans. Per-repo sub-agents analyze, a primary agent synthesizes, and weekly updates over a 1M-token context replace gathering 3-4 engineers.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=34920",
+      "createdAt": "2026-10-07T01:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
+    {
+      "id": "curated-20261008-software-factory-pattern-ko",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "소프트웨어 팩토리 패턴: 티켓이 아니라 목표를 에이전트에 맡기기",
+      "body": "Imprint가 2026년 1~7월에 Claude Code 도입, 로컬 작업 공간 약 10개 구성, Linear 연동, Agent Fleet 구축을 거치며 시도한 소프트웨어 팩토리 패턴 회고다. 개별 티켓 대신 목표와 지표를 주고 에이전트가 루프를 돌게 하되, Datadog·Snowflake 같은 측정 수단, Linear 공통 작업 상태, 독립 실행 환경이 갖춰져야 올바른 방향을 판단한다는 교훈을 준다.",
+      "titleEn": "Trying the software factory pattern: give agents goals, not tickets",
+      "bodyEn": "Imprint recounts experimenting with a software factory pattern from January to July 2026: Claude Code adoption, about 10 local workspaces, Linear and an Agent Fleet. Instead of per-ticket work, agents loop toward goals and metrics, which only works when measurement (Datadog, Snowflake), shared task state (Linear) and isolated runtimes are in place.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=34925",
+      "createdAt": "2026-10-07T02:00:00Z",
+      "curatedAt": "2026-10-07T23:07:49Z"
+    },
     {
       "id": "curated-20261007-agents-dont-need-memory-docs",
       "mediaType": "none",
@@ -12,19 +116,6 @@
       "sourceName": "Hacker News",
       "sourceUrl": "https://liao.gg/blog/agents-dont-need-memory",
       "createdAt": "2026-10-03T17:03:37Z",
-      "curatedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "curated-20261007-earendil-pi-mcp-codemode",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "MCP 반대하던 Pi, 코어에 MCP 지원을 넣은 이유",
-      "body": "Pi 코딩 에이전트 팀이 기존 MCP 반대 입장을 접고 코어에 통합했다. 이를 위해 JavaScript 샌드박스(Codemode)라는 인프라를 새로 만들었고, 이 기반이 다른 기능에도 재사용된다고 설명한다. 에이전트에 MCP 도구를 붙일 때 샌드박스 실행 구조를 어떻게 잡을지 참고할 만하다.",
-      "titleEn": "You said no MCP — why Pi added MCP to its core",
-      "bodyEn": "The Pi coding-agent team reverses its earlier opposition and integrates MCP into the core. Doing so required new infrastructure, a JavaScript sandbox called Codemode, which also benefits other features. A useful reference for structuring sandboxed execution when attaching MCP tools to an agent.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://earendil.com/posts/you-said-no-mcp/",
-      "createdAt": "2026-09-29T00:00:00Z",
       "curatedAt": "2026-10-06T23:13:05Z"
     },
     {
@@ -67,45 +158,6 @@
       "curatedAt": "2026-10-06T23:13:05Z"
     },
     {
-      "id": "curated-20261007-nate-herk-claude-code-mods",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=9hetShMMp2s",
-      "title": "Nate Herk: Claude Code Mods 필수 5가지 세팅",
-      "body": "Claude Code에 추가된 Mods 기능을 11분 분량으로 정리하고, 바로 켜 둘 만한 5가지 설정을 보여주는 영상이다. 조회수 18만 회를 넘겨 이번 주 가장 많이 본 Claude Code 팁 영상 중 하나다.",
-      "titleEn": "Nate Herk: Claude Code Mods are game changers — set up these 5 now",
-      "bodyEn": "An 11-minute walkthrough of the new Claude Code Mods feature with five settings worth turning on right away. With over 180K views it is one of the most-watched Claude Code tips videos this week.",
-      "sourceName": "YouTube · Nate Herk | AI Automation",
-      "sourceUrl": "https://www.youtube.com/watch?v=9hetShMMp2s",
-      "createdAt": "2026-10-02T00:00:00Z",
-      "curatedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "curated-20261007-opus-5-5-agents-semiconductor",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Opus 5.5 에이전트가 상온 자성 반도체 후보 2종을 발견",
-      "body": "Vals AI가 Opus 5.5 기반 에이전트로 상온 자성 반도체 후보 물질 2개를 찾아낸 과정을 공개했다. 코딩이 아닌 과학 탐색에 에이전트를 투입한 사례로, 장시간 자율 작업 설계를 엿볼 수 있다.",
-      "titleEn": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
-      "bodyEn": "Vals AI describes how Opus 5.5-based agents identified two candidate room-temperature magnetic semiconductors. A usecase of agents beyond coding, offering a look at long-running autonomous task design.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
-      "createdAt": "2026-10-05T21:00:21Z",
-      "curatedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "curated-20261005-harness-is-the-company-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "하네스가 곧 회사다 — 에이전트 시대 SaaS 조직 설계",
-      "body": "AI 에이전트가 개발·기획·영업을 맡으면 회사는 도메인 지식, 도구, 권한, 리뷰 단계를 묶은 \"하네스\"가 된다는 글이다. 하네스 없음, 개인이 운영, 클라우드 백그라운드 에이전트, 하네스가 사람을 지휘하는 4단계로 나누고, 전수 리뷰를 표본 리뷰로 바꾸는 방법을 설명한다. Ramp, Stripe, DoorDash의 사내 개발 도구가 사례로 나온다.",
-      "titleEn": "The harness is the company — designing an organization for the agent era",
-      "bodyEn": "The article argues that once agents handle development, planning and sales, a company becomes a \"harness\" of domain knowledge, tools, permissions and review steps. It lays out four stages, from no harness to the harness directing people, and shows how full review gives way to sample review. Ramp, Stripe and DoorDash in-house dev tools are cited as examples.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=34718",
-      "createdAt": "2026-10-03T00:00:00Z",
-      "curatedAt": "2026-10-04T23:07:46Z"
-    },
-    {
       "id": "curated-20261005-default-hard-budget-caps-ko",
       "mediaType": "none",
       "mediaUrl": "",
@@ -119,32 +171,6 @@
       "curatedAt": "2026-10-04T23:07:46Z"
     },
     {
-      "id": "curated-20261005-glm-5-3-flash-month-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "GLM 5.3 Flash로 한 달간 코딩해 본 기록 — 비용 68달러, 목표는 실패",
-      "body": "Wagtail 개발자가 9월 한 달을 저가 모델 GLM 5.3 Flash 위주로 개발했다. 전체 토큰 약 20억 중 절반인 10억을 Flash가 처리했고 비용은 약 68달러였지만, 바이브 코딩한 MCP 서버 프로토타입 하나가 하룻밤에 4억 5천만 토큰을 썼다. 10월에는 코디네이터·탐색·구현·리뷰 에이전트를 나눠 싼 모델 비중을 높일 계획이다.",
-      "titleEn": "A month of coding on GLM 5.3 Flash — $68, goal missed",
-      "bodyEn": "A Wagtail developer spent September building mostly on the cheap GLM 5.3 Flash. Flash handled 1 billion of about 2 billion tokens at roughly $68, but one vibe-coded MCP server prototype burned 450 million tokens in a night. For October the plan is separate coordinator, explorer, implementer and reviewer agents to push more work onto cheap models.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=34714",
-      "createdAt": "2026-10-03T00:00:00Z",
-      "curatedAt": "2026-10-04T23:07:46Z"
-    },
-    {
-      "id": "curated-20261005-offrun-multi-agent-workspace",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Offrun — Claude Code, Codex 등 코딩 에이전트를 한 작업공간에서 병렬 운영",
-      "body": "Offrun은 Apple Silicon Mac용 무료 앱으로 Claude Code, Codex, Grok Build 같은 에이전트를 기존 구독 그대로 한 화면에서 돌린다. 에이전트마다 별도 git worktree를 줘서 병렬 작업이 충돌하지 않고, 두 번째 에이전트가 diff를 리뷰한다. 한 계정이 사용량 한도에 걸리면 다른 에이전트로 넘길 수 있다. HN에서 76점을 받았다.",
-      "titleEn": "Offrun — run Claude Code, Codex and other coding agents in one workspace",
-      "bodyEn": "Offrun is a free Apple Silicon Mac app that runs Claude Code, Codex, Grok Build and others side by side on your existing subscriptions. Each agent gets its own git worktree so parallel tasks do not collide, and a second agent can review the diff. When one login hits its usage cap you can shift to another agent. It scored 76 points on HN.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://offrun.dev/",
-      "createdAt": "2026-10-03T08:40:17Z",
-      "curatedAt": "2026-10-04T23:07:46Z"
-    },
-    {
       "id": "curated-20261005-ondrej-vercel-ceo-agentic-workflow",
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=WeiB_gLOdQE",
@@ -155,19 +181,6 @@
       "sourceName": "YouTube · David Ondrej",
       "sourceUrl": "https://www.youtube.com/watch?v=WeiB_gLOdQE",
       "createdAt": "2026-10-02T14:48:25Z",
-      "curatedAt": "2026-10-04T23:07:46Z"
-    },
-    {
-      "id": "curated-20261005-mark-kashef-10-claude-code-mods",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=uvIopT_2sY0",
-      "title": "Claude Code 모드 중 가져다 쓸 만한 10가지",
-      "body": "Mark Kashef가 11분 동안 Claude Code의 새 모드 기능에서 바로 복사해 쓸 만한 모드 10개를 보여준다. 조회수 3만 8천 이상이다. /mods 소개 영상을 본 뒤 실제로 무엇을 만들지 고르는 단계에서 보면 좋다.",
-      "titleEn": "Claude Code now has mods — 10 worth stealing",
-      "bodyEn": "In 11 minutes Mark Kashef shows 10 mods from the new Claude Code mods feature that you can copy straight away. It has over 38k views. Watch it after an intro to /mods, when deciding what to build.",
-      "sourceName": "YouTube · Mark Kashef",
-      "sourceUrl": "https://www.youtube.com/watch?v=uvIopT_2sY0",
-      "createdAt": "2026-10-02T20:32:58Z",
       "curatedAt": "2026-10-04T23:07:46Z"
     },
     {
@@ -233,19 +246,6 @@
       "sourceName": "YouTube · G-CREATOR",
       "sourceUrl": "https://www.youtube.com/watch?v=9XY0BdM7fG4",
       "createdAt": "2026-10-03T01:19:46Z",
-      "curatedAt": "2026-10-03T23:06:53Z"
-    },
-    {
-      "id": "curated-20261004-successknowledge-claude-code-mods-ko",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=KtquxqP2YnM",
-      "title": "클로드 코드 \"모드\"(/mods) 신기능 — 상황별 작업 방식을 바꿔 쓰기",
-      "body": "성공지식백과가 8분 46초 동안 Claude Code의 새 /mods 기능을 소개한다. 조회수가 2만 1천을 넘었고, 같은 기능을 \"스킬 이후 최대 업그레이드\"라고 평가한 영문 영상(Chase AI)도 함께 화제다.",
-      "titleEn": "Claude Code \"mods\" (/mods) — switching how the agent works per task",
-      "bodyEn": "성공지식백과 introduces the new /mods feature in Claude Code in 8:46, with over 21k views. English channel Chase AI calls the same feature the biggest upgrade since Skills.",
-      "sourceName": "YouTube · 성공지식백과",
-      "sourceUrl": "https://www.youtube.com/watch?v=KtquxqP2YnM",
-      "createdAt": "2026-10-03T09:41:18Z",
       "curatedAt": "2026-10-03T23:06:53Z"
     },
     {
