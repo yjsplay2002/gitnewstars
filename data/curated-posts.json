@@ -1,6 +1,97 @@
 {
-  "generatedAt": "2026-10-08T23:10:21Z",
+  "generatedAt": "2026-10-09T23:12:00Z",
   "posts": [
+    {
+      "id": "curated-20261010-mtlynch-why-coding-agents-dumb",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "코딩 에이전트는 왜 이렇게 멍청할까: 모델은 크는데 에이전트 층이 병목",
+      "body": "Michael Lynch는 모델은 좋아졌지만 에이전트 하네스는 2025년 2월 이후 거의 그대로라고 지적한다. 1.5k줄 기능을 하위 작업 10개로 쪼개고도 병렬이 아닌 순차로 돌렸고, 특정 파일을 건드리지 말라는 지시도 무시해서 저장소 디렉터리만 허용하는 샌드박스를 직접 만들었다. 말로 부탁하는 대신 OS 수준 샌드박스로 막으라는 조언이 핵심이다.",
+      "titleEn": "Why are coding agents so dumb?",
+      "bodyEn": "Michael Lynch argues models improved while agent harnesses barely moved since February 2025. His agent split a 1.5k-line feature into 10 subtasks but ran them serially, and ignored a request to stay out of certain files, so he built a sandbox limited to the repo directory. Takeaway: enforce limits with OS-level sandboxing instead of polite instructions.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "createdAt": "2026-10-09T13:00:00Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "curated-20261010-bigarrow-agent-screen-pointer",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "bigarrow: 에이전트가 화면에 화살표와 안내 문구를 직접 그려주는 CLI",
+      "body": "macOS용 단일 Swift 바이너리로, brew로 설치하고 bigarrow install-skill을 실행하면 Claude Code·Codex가 쓰는 법을 스킬로 배운다. bigarrow point --element \"Allow\" --app \"System Settings\" 처럼 호출하면 클릭은 통과시키고 포커스도 유지한 채 화살표를 띄우며 --json과 종료 코드(0/2/3/4)를 지원한다. 설정 화면 안내처럼 에이전트가 사용자에게 어디를 누를지 알려줄 때 쓸 만하다.",
+      "titleEn": "bigarrow: a CLI that lets agents draw arrows and text on your screen",
+      "bodyEn": "A single-binary Swift tool for macOS: install via brew, run bigarrow install-skill, and Claude Code and Codex learn when to call it. Commands like bigarrow point --element \"Allow\" --app \"System Settings\" draw an arrow that is click-through and keeps keyboard focus, with --json output and exit codes 0/2/3/4. Handy when an agent needs to show you where to click.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "createdAt": "2026-10-09T11:03:48Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "curated-20261010-microsoft-mxc-sandbox",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "Microsoft MXC: 모델 출력과 플러그인을 안전하게 돌리는 코드 실행 샌드박스",
+      "body": "MXC는 앱에 SDK(Rust·.NET·Node)로 넣어 신뢰할 수 없는 코드를 실행하는 샌드박스다. Windows ProcessContainer, Linux Bubblewrap, macOS Seatbelt부터 MicroVM까지 백엔드를 고르고, 파일시스템·네트워크 송신·UI/클립보드 정책을 JSON 요청으로 지정한다. 에이전트가 짠 코드를 실행하는 구조를 만들 때 격리 설계의 참고가 된다.",
+      "titleEn": "Microsoft MXC: a sandbox for running model output and plugins safely",
+      "bodyEn": "MXC is an SDK (Rust, .NET, Node) for running untrusted code. It picks a backend from Windows ProcessContainer, Linux Bubblewrap and macOS Seatbelt up to MicroVM, with filesystem, network egress and UI/clipboard policies set in a JSON request. A useful reference when designing isolation for agent-written code.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/microsoft/mxc",
+      "createdAt": "2026-10-09T05:51:29Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "curated-20261010-docker-agent-yaml-multi-agent",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "title": "Docker Agent: YAML로 정의하는 멀티 에이전트와 MCP 도구 연결",
+      "body": "Docker가 공개한 에이전트 빌더·런타임으로, 코드 없이 선언형 YAML 파일로 에이전트를 정의해 버전 관리와 공유가 쉽다. 로컬·원격·Docker 기반 MCP 서버의 도구를 쓸 수 있고, 전문 에이전트 팀이 서로 작업을 위임하는 멀티 에이전트 구성도 지원한다. 에이전트 구성을 코드가 아닌 설정으로 관리하고 싶을 때 볼 만하다.",
+      "titleEn": "Docker Agent: YAML-defined multi-agent teams with MCP tools",
+      "bodyEn": "Docker's agent builder and runtime defines agents in declarative YAML, which is easy to version and share, with no code required. It uses tools from local, remote or Docker-based MCP servers and supports multi-agent teams that delegate to each other. Worth a look if you want agent setups managed as config.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/docker/docker-agent",
+      "createdAt": "2026-10-07T17:48:33Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "curated-20261010-kimflip-claude-code-mods-ko",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=N-djs9BCIyE",
+      "title": "김플립: Claude Code Mods를 실제 예시로 처음부터 끝까지",
+      "body": "김플립이 7분 52초 동안 Claude Code의 Mods를 실제 예시로 만들고 적용하는 과정을 보여준다. 이번 주 가장 많이 다뤄진 신기능이라, 한국어로 한 번에 따라 해 보고 싶을 때 좋다.",
+      "titleEn": "Kim Flip: Claude Code Mods from start to finish with real examples",
+      "bodyEn": "Kim Flip walks through building and applying Claude Code Mods with real examples in 7m52s. The most-covered new feature this week, in Korean and easy to follow along.",
+      "sourceName": "YouTube · 김플립 - LLM 코딩",
+      "sourceUrl": "https://www.youtube.com/watch?v=N-djs9BCIyE",
+      "createdAt": "2026-10-09T00:00:00Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "curated-20261010-nateherk-anthropic-engineers-10x-claude-code",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=oz2CwrPV2Rg",
+      "title": "Nate Herk: Anthropic 엔지니어들이 Claude Code를 10배 끌어올린 방법",
+      "body": "12분 영상으로 Anthropic 엔지니어들의 Claude Code 활용 방식을 정리한다. 조회수 6만 이상으로, 내 워크플로우에서 바로 바꿀 만한 설정이 있는지 점검하는 용도로 좋다.",
+      "titleEn": "Nate Herk: Anthropic engineers just 10x'd everyone's Claude Code",
+      "bodyEn": "A 12-minute rundown of how Anthropic engineers use Claude Code, past 60k views. A quick check for settings worth changing in your own workflow.",
+      "sourceName": "YouTube · Nate Herk | AI Automation",
+      "sourceUrl": "https://www.youtube.com/watch?v=oz2CwrPV2Rg",
+      "createdAt": "2026-10-08T00:00:00Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "curated-20261010-openai-new-codex-cli",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=PUBc2G0Tj5E",
+      "title": "OpenAI 공식: 새로운 Codex CLI 소개",
+      "body": "OpenAI가 3분 14초로 새 Codex CLI를 소개한다. 조회수 22만 이상이며, 터미널에서 Codex를 쓰는 사람이 바뀐 점을 빠르게 훑기 좋다.",
+      "titleEn": "OpenAI: Meet the new Codex CLI",
+      "bodyEn": "OpenAI introduces the new Codex CLI in 3m14s, past 220k views. A fast way for terminal Codex users to see what changed.",
+      "sourceName": "YouTube · OpenAI",
+      "sourceUrl": "https://www.youtube.com/watch?v=PUBc2G0Tj5E",
+      "createdAt": "2026-10-05T00:00:00Z",
+      "curatedAt": "2026-10-09T23:12:00Z"
+    },
     {
       "id": "curated-20261009-quesma-invisible-cities-opus-5-5",
       "mediaType": "none",
@@ -25,19 +116,6 @@
       "sourceName": "YouTube · AI 치트키",
       "sourceUrl": "https://www.youtube.com/watch?v=NXWZLWTJ7IQ",
       "createdAt": "2026-10-08T00:00:00Z",
-      "curatedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "curated-20261009-zazencodes-ai-software-factory",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=ctoaIC4LHmI",
-      "title": "ZazenCodes: Claude Code로 나만의 AI 소프트웨어 팩토리 만들기",
-      "body": "28분 동안 Claude Code로 에이전트가 작업을 받아 구현까지 이어가는 소프트웨어 팩토리 구성을 직접 만든다. 이번 주 GeekNews에 오른 소프트웨어 팩토리 패턴 회고와 같이 보면 구조를 비교하기 좋다.",
-      "titleEn": "ZazenCodes: Build your own AI software factory with Claude Code",
-      "bodyEn": "A 28-minute build of a software-factory setup in Claude Code where agents pick up work and carry it through implementation. Pairs well with this week's software factory pattern write-up for comparing structures.",
-      "sourceName": "YouTube · ZazenCodes",
-      "sourceUrl": "https://www.youtube.com/watch?v=ctoaIC4LHmI",
-      "createdAt": "2026-10-07T00:00:00Z",
       "curatedAt": "2026-10-08T23:10:21Z"
     },
     {
@@ -80,19 +158,6 @@
       "curatedAt": "2026-10-08T23:10:21Z"
     },
     {
-      "id": "curated-20261009-skamille-managers-path-ai-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "AI 시대, 매니저의 길: 늘어난 생산성은 정렬과 대화에 쓰라",
-      "body": "AI로 개인 생산성이 올라도 팀의 방향 정렬은 자동으로 해결되지 않는다는 글이다. AI 요약이나 평가문 초안은 가시성은 높여도 이해를 대신하지 못하고, 코드가 싸지면 중복 시스템과 소유권 다툼이 생긴다. 늘어난 시간을 회의, 설계 리뷰, 대화에 투자하라고 권한다.",
-      "titleEn": "The manager's path in the age of AI: spend the productivity gain on alignment",
-      "bodyEn": "Individual productivity gains from AI do not fix team alignment on their own. AI summaries and draft reviews add visibility but not understanding, and cheap code breeds duplicate systems and ownership fights. The author suggests investing the saved time in meetings, design reviews and conversation.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=34865",
-      "createdAt": "2026-10-06T00:00:00Z",
-      "curatedAt": "2026-10-08T23:10:21Z"
-    },
-    {
       "id": "curated-20261008-software-factory-pattern-ko",
       "mediaType": "none",
       "mediaUrl": "",
@@ -119,19 +184,6 @@
       "curatedAt": "2026-10-07T23:07:49Z"
     },
     {
-      "id": "curated-20261008-avthar-opus-5-5-53min",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=Rbe5tPsxKlQ",
-      "title": "AI with Avthar: Opus 5.5 100시간 사용 교훈을 53분에",
-      "body": "Claude Opus 5.5를 100시간 넘게 쓰며 얻은 교훈을 53분으로 압축한 영상이다. Claude와 Claude Code에서 프롬프트·작업 위임 방식을 점검하는 데 참고할 만하다.",
-      "titleEn": "AI with Avthar: 100+ hours of Opus 5.5 lessons in 53 minutes",
-      "bodyEn": "Over 100 hours of Claude Opus 5.5 lessons compressed into 53 minutes. Useful for tuning how you prompt and delegate in Claude and Claude Code.",
-      "sourceName": "YouTube · AI with Avthar",
-      "sourceUrl": "https://www.youtube.com/watch?v=Rbe5tPsxKlQ",
-      "createdAt": "2026-10-07T00:00:00Z",
-      "curatedAt": "2026-10-07T23:07:49Z"
-    },
-    {
       "id": "curated-20261008-woozoobro-agent-intro-codex-ko",
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=8u60vqCSrkg",
@@ -142,19 +194,6 @@
       "sourceName": "YouTube · woozoobro",
       "sourceUrl": "https://www.youtube.com/watch?v=8u60vqCSrkg",
       "createdAt": "2026-10-07T00:00:00Z",
-      "curatedAt": "2026-10-07T23:07:49Z"
-    },
-    {
-      "id": "curated-20261008-ben-ai-8-rules-claude-skills",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=npS5jzOoji8",
-      "title": "Ben AI: Anthropic이 밝힌 좋은 Claude 스킬 작성 8가지 규칙",
-      "body": "Anthropic이 공개한 스킬 작성 규칙 8가지를 15분 안에 정리한다. 직접 스킬을 만들거나 기존 SKILL.md를 다듬을 때 체크리스트로 쓸 수 있다.",
-      "titleEn": "Ben AI: Anthropic's 8 rules for building great Claude skills",
-      "bodyEn": "A 15-minute walkthrough of eight skill-writing rules Anthropic published. Handy as a checklist when writing or tightening a SKILL.md.",
-      "sourceName": "YouTube · Ben AI",
-      "sourceUrl": "https://www.youtube.com/watch?v=npS5jzOoji8",
-      "createdAt": "2026-10-06T00:00:00Z",
       "curatedAt": "2026-10-07T23:07:49Z"
     },
     {
@@ -182,19 +221,6 @@
       "sourceUrl": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
       "createdAt": "2026-09-22T00:00:00Z",
       "curatedAt": "2026-10-07T23:07:49Z"
-    },
-    {
-      "id": "curated-20261007-openrig-multi-agent-team-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "OpenRig — Claude Code·Codex·Pi를 역할 있는 팀으로 운영",
-      "body": "Claude Code, Codex, Pi 같은 코딩 에이전트를 역할과 공유 문맥을 가진 지속적인 팀으로 묶는 오픈소스(Apache-2.0) 오케스트레이터다. 리드 에이전트에 작업을 주면 전문 에이전트에게 위임하고, 팀 구성은 YAML로 정의하며 터미널 UI로 모니터링한다. 기존 tmux 세션과도 통합된다.",
-      "titleEn": "OpenRig — run Claude Code, Codex and Pi as a team with roles",
-      "bodyEn": "An Apache-2.0 orchestrator that turns coding agents such as Claude Code, Codex and Pi into a persistent team with roles and shared context. You hand work to a lead agent that delegates to specialists; teams are defined in YAML and monitored in a terminal UI. It also integrates with existing tmux sessions.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=34854",
-      "createdAt": "2026-10-06T00:00:00Z",
-      "curatedAt": "2026-10-06T23:13:05Z"
     },
     {
       "id": "curated-20261007-claude-code-skill-patterns-ko",
@@ -234,32 +260,6 @@
       "sourceUrl": "https://liao.gg/blog/agents-dont-need-memory",
       "createdAt": "2026-10-03T17:03:37Z",
       "curatedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "curated-20261005-ai-haebusil-claude-code-5-mcp-ko",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=nBpiybUBxtU",
-      "title": "클로드 코드에 MCP 5개 연결 — 복붙이 사라지는 레시피",
-      "body": "AI 해부실이 11분 동안 Claude Code에 MCP 5개를 연결해 복사·붙여넣기 작업을 없애는 구성을 보여준다. 같은 채널의 다른 영상은 MCP를 많이 꽂으면 느려지는지와 보안 위험을 따로 짚는다. 연결 전에 무엇이 필요한지 정리하기 좋다.",
-      "titleEn": "Five MCP connections for Claude Code — a recipe that ends copy-paste",
-      "bodyEn": "AI 해부실 shows in 11 minutes how to wire five MCP servers into Claude Code so copy-pasting disappears. Another video on the channel looks at whether many MCPs slow things down and the security risks. Handy for planning what to connect.",
-      "sourceName": "YouTube · AI 해부실",
-      "sourceUrl": "https://www.youtube.com/watch?v=nBpiybUBxtU",
-      "createdAt": "2026-10-03T10:00:06Z",
-      "curatedAt": "2026-10-04T23:07:46Z"
-    },
-    {
-      "id": "curated-20261004-gcreator-claude-code-hooks-ko",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=9XY0BdM7fG4",
-      "title": "클로드 행동을 훅(Hook)으로 100% 통제하기 — Claude Code 시리즈 완결편",
-      "body": "G-CREATOR가 35분 동안 Claude Code의 훅으로 에이전트 행동을 강제하는 방법을 정리한 시리즈 마지막 편이다. 프롬프트로 부탁하는 대신 훅으로 규칙을 고정하는 하네스 설계를 배울 수 있다.",
-      "titleEn": "Controlling Claude 100% with hooks — the Claude Code series finale",
-      "bodyEn": "G-CREATOR closes a Claude Code series with a 35-minute guide to enforcing agent behavior through hooks. Instead of asking nicely in prompts, you lock rules into the harness.",
-      "sourceName": "YouTube · G-CREATOR",
-      "sourceUrl": "https://www.youtube.com/watch?v=9XY0BdM7fG4",
-      "createdAt": "2026-10-03T01:19:46Z",
-      "curatedAt": "2026-10-03T23:06:53Z"
     }
   ]
 }

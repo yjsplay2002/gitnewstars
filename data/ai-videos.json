@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-10-08T23:10:21Z",
+  "generatedAt": "2026-10-09T23:12:00Z",
   "videos": [
+    {
+      "id": "vid-kimflip-claude-code-mods-ko",
+      "youtubeId": "N-djs9BCIyE",
+      "category": "tip",
+      "title": "클로드 코드 Mods, 실제 예시로 처음부터 끝까지",
+      "titleEn": "Claude Code Mods, from start to finish with real examples (Korean)",
+      "descKo": "Mods를 실제 예시로 만들고 적용하는 과정을 8분에 따라간다.",
+      "descEn": "Follow building and applying Claude Code Mods with real examples in 8 minutes.",
+      "channel": "김플립 - LLM 코딩",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "addedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "vid-techwithtim-every-ai-agent-type",
+      "youtubeId": "mU5Hgbpff_s",
+      "category": "lecture",
+      "title": "AI 에이전트 유형 전부 설명 + 배포",
+      "titleEn": "Every Type of AI Agent Explained (and Deployed) in One Video",
+      "descKo": "에이전트 유형을 정리하고 실제 배포까지 보여주는 24분 강의.",
+      "descEn": "A 24-minute lesson covering every agent type and deploying them.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "addedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "vid-nateherk-anthropic-engineers-10x",
+      "youtubeId": "oz2CwrPV2Rg",
+      "category": "tip",
+      "title": "Anthropic 엔지니어들이 Claude Code를 10배 끌어올린 방법",
+      "titleEn": "Anthropic Engineers Just 10x'd Everyone's Claude Code",
+      "descKo": "Anthropic 엔지니어들의 Claude Code 활용 팁을 12분에 정리.",
+      "descEn": "Twelve minutes on how Anthropic engineers get more out of Claude Code.",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "addedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "vid-openai-new-codex-cli",
+      "youtubeId": "PUBc2G0Tj5E",
+      "category": "usecase",
+      "title": "새로운 Codex CLI 소개",
+      "titleEn": "Meet the New Codex CLI",
+      "descKo": "OpenAI가 3분 만에 보여주는 새 Codex CLI.",
+      "descEn": "OpenAI shows the new Codex CLI in three minutes.",
+      "channel": "OpenAI",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-09T23:12:00Z"
+    },
+    {
+      "id": "vid-jaychoi-claude-code-6-secrets-ko",
+      "youtubeId": "sY7lHUg7HeE",
+      "category": "tip",
+      "title": "클로드 코드 200% 끌어올리는 6가지 비밀",
+      "titleEn": "6 Secrets to Boosting Claude Code Efficiency by 200% (Korean)",
+      "descKo": "800시간 사용 경험에서 뽑은 Claude Code 효율 팁 6가지를 10분에 소개.",
+      "descEn": "Six Claude Code efficiency tips in 10 minutes, from a Korean indie hacker.",
+      "channel": "Jay Choi | 인디해커 라이프",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "addedAt": "2026-10-09T23:12:00Z"
+    },
     {
       "id": "vid-aicheatkey-baton-plugin-ko",
       "youtubeId": "NXWZLWTJ7IQ",
@@ -74,18 +134,6 @@
       "addedAt": "2026-10-08T23:10:21Z"
     },
     {
-      "id": "vid-avthar-opus-5-5-53min",
-      "youtubeId": "Rbe5tPsxKlQ",
-      "category": "lecture",
-      "title": "Opus 5.5 마스터 53분 가이드",
-      "titleEn": "Claude Opus 5.5 Is The New King. Master it in 53 Minutes.",
-      "descKo": "Opus 5.5를 100시간 이상 쓰며 얻은 교훈을 압축한 강의.",
-      "descEn": "Lessons from 100+ hours with Opus 5.5 condensed into one session.",
-      "channel": "AI with Avthar",
-      "publishedAt": "2026-10-07T00:00:00Z",
-      "addedAt": "2026-10-07T23:07:49Z"
-    },
-    {
       "id": "vid-woozoobro-agent-intro-codex-ko",
       "youtubeId": "8u60vqCSrkg",
       "category": "lecture",
@@ -107,54 +155,6 @@
       "descEn": "Ten ways to change Claude Code behavior with Mods, in 8 minutes.",
       "channel": "코드팩토리",
       "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-jakevc-learn-ai-from-zero-2026",
-      "youtubeId": "6AzLk2-kWyY",
-      "category": "lecture",
-      "title": "2026년 AI를 처음부터 배우는 54분 무료 코스",
-      "titleEn": "How I’d Learn AI From Zero in 2026 (the full free course)",
-      "descKo": "AI를 처음부터 구조적으로 익히는 54분 무료 강의.",
-      "descEn": "A 54-minute free structured course for learning AI from scratch.",
-      "channel": "Jake Van Clief",
-      "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-techwithtim-100-agents",
-      "youtubeId": "uccBE9Tun6M",
-      "category": "usecase",
-      "title": "AI 에이전트 100개를 동시에 돌려봤다",
-      "titleEn": "I Unleashed 100 AI Agents at Once. Here's What Happened.",
-      "descKo": "에이전트 100개를 병렬로 돌린 실험과 그 결과.",
-      "descEn": "An experiment running 100 agents in parallel and what happened.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-07T23:07:49Z"
-    },
-    {
-      "id": "vid-benai-claude-skills-8-rules",
-      "youtubeId": "npS5jzOoji8",
-      "category": "tip",
-      "title": "Anthropic이 밝힌 좋은 Claude 스킬 8가지 규칙",
-      "titleEn": "Anthropic Just Revealed 8 New Rules for Building Great Claude Skills",
-      "descKo": "스킬을 잘 쓰기 위한 Anthropic 공식 작성 규칙 8가지 정리.",
-      "descEn": "Eight official Anthropic rules for writing better Claude skills.",
-      "channel": "Ben AI",
-      "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-07T23:07:49Z"
-    },
-    {
-      "id": "vid-betterstack-prompting-opus-5-5",
-      "youtubeId": "5TNXByrtHc4",
-      "category": "tip",
-      "title": "Opus 5.5 프롬프트, 이렇게 쓰면 틀립니다",
-      "titleEn": "You’re Prompting Opus 5.5 Wrong (Anthropic’s Guide to Mastering Opus 5.5)",
-      "descKo": "Anthropic 공식 Opus 5.5 가이드를 7분에 요약한 프롬프트 팁.",
-      "descEn": "A 7-minute summary of Anthropic’s official Opus 5.5 prompting guide.",
-      "channel": "Better Stack",
-      "publishedAt": "2026-10-05T00:00:00Z",
       "addedAt": "2026-10-08T23:10:21Z"
     },
     {
