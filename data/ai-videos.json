@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T23:12:00Z",
+  "generatedAt": "2026-10-10T23:09:50Z",
   "videos": [
     {
       "id": "vid-kimflip-claude-code-mods-ko",
@@ -122,18 +122,6 @@
       "addedAt": "2026-10-08T23:10:21Z"
     },
     {
-      "id": "vid-openai-devday-codex-left-laptop",
-      "youtubeId": "XkKdbPhIvbY",
-      "category": "usecase",
-      "title": "Codex가 노트북을 떠났다 (DevDay 2026)",
-      "titleEn": "Codex Has Left The Laptop | DevDay 2026",
-      "descKo": "OpenAI DevDay에서 소개한 Codex의 원격·백그라운드 활용 사례 22분.",
-      "descEn": "A 22-minute DevDay session on running Codex beyond the laptop.",
-      "channel": "OpenAI",
-      "publishedAt": "2026-10-07T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
       "id": "vid-woozoobro-agent-intro-codex-ko",
       "youtubeId": "8u60vqCSrkg",
       "category": "lecture",
@@ -158,18 +146,6 @@
       "addedAt": "2026-10-08T23:10:21Z"
     },
     {
-      "id": "vid-hyosunglim-claude-video-editing-ko",
-      "youtubeId": "8cMJGrtnlOg",
-      "category": "usecase",
-      "title": "클로드로 컷편집·자막·쇼츠 자동화",
-      "titleEn": "I Let Claude Handle Cuts, Captions and Shorts (Korean)",
-      "descKo": "컷 편집부터 자막·쇼츠까지 Claude에 맡기는 실사용 워크플로우.",
-      "descEn": "A real workflow delegating cuts, captions and shorts to Claude.",
-      "channel": "hyosunglim임효성",
-      "publishedAt": "2026-10-05T00:00:00Z",
-      "addedAt": "2026-10-07T23:07:49Z"
-    },
-    {
       "id": "vid-aisuperuser-agent-delegation-ko",
       "youtubeId": "cqCwcIDuXy8",
       "category": "lecture",
@@ -180,6 +156,30 @@
       "channel": "평범한 사업가 | AI SuperUser",
       "publishedAt": "2026-10-04T00:00:00Z",
       "addedAt": "2026-10-08T23:10:21Z"
+    },
+    {
+      "id": "vid-kevinstratvert-openai-codex-tutorial",
+      "youtubeId": "7XzjQa8z0uc",
+      "category": "lecture",
+      "title": "OpenAI Codex 단계별 입문 튜토리얼",
+      "titleEn": "How to Use OpenAI Codex (Step-by-Step Tutorial)",
+      "descKo": "설치부터 첫 작업 지시까지 Codex 사용법을 따라 하는 입문 영상.",
+      "descEn": "Beginner walkthrough of Codex from setup to your first task.",
+      "channel": "Kevin Stratvert",
+      "publishedAt": "2026-10-08T00:00:00Z",
+      "addedAt": "2026-10-10T23:09:50Z"
+    },
+    {
+      "id": "vid-aimaster-claude-code-beginner-2026",
+      "youtubeId": "WdZjoMi6W7Y",
+      "category": "lecture",
+      "title": "Claude Code 2026 초보자 튜토리얼",
+      "titleEn": "Ultimate Claude Code Tutorial: How to Use Claude Code for Beginners in 2026",
+      "descKo": "Claude Code 설치부터 기본 사용 흐름까지 훑는 입문 강의.",
+      "descEn": "Beginner course covering Claude Code setup through core workflow.",
+      "channel": "AI Master",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-10T23:09:50Z"
     }
   ]
 }

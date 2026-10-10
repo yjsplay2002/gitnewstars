@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-10-09T23:12:00Z",
+  "generatedAt": "2026-10-10T23:09:50Z",
   "posts": [
+    {
+      "id": "curated-20261011-aimaster-claude-code-beginner",
+      "title": "Claude Code 2026 초보자 튜토리얼 (AI Master)",
+      "body": "Claude Code를 처음 쓰는 사람을 위한 약 18분짜리 입문 강의입니다. 설치, 기본 명령, 프로젝트에서 에이전트에게 일을 맡기는 흐름을 한 번에 훑어볼 수 있습니다.",
+      "titleEn": "Ultimate Claude Code Tutorial: How to Use Claude Code for Beginners in 2026",
+      "bodyEn": "An ~18-minute beginner course on Claude Code covering setup, basic commands and how to hand project work to the agent.",
+      "sourceName": "YouTube · AI Master",
+      "sourceUrl": "https://www.youtube.com/watch?v=WdZjoMi6W7Y",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=WdZjoMi6W7Y",
+      "createdAt": "2026-10-05T00:00:00Z",
+      "curatedAt": "2026-10-10T23:09:50Z"
+    },
+    {
+      "id": "curated-20261011-kevinstratvert-codex-tutorial",
+      "title": "OpenAI Codex 단계별 입문 튜토리얼 (Kevin Stratvert)",
+      "body": "설치부터 첫 작업 지시까지 Codex 사용법을 순서대로 보여주는 17분 입문 영상입니다. 처음 Codex를 써 보는 사람이 그대로 따라 하며 프로젝트에 에이전트를 붙여 볼 수 있습니다.",
+      "titleEn": "How to Use OpenAI Codex (Step-by-Step Tutorial)",
+      "bodyEn": "A ~17-minute beginner video walking through Codex from setup to your first delegated task. Follow along to attach the agent to a project of your own.",
+      "sourceName": "YouTube · Kevin Stratvert",
+      "sourceUrl": "https://www.youtube.com/watch?v=7XzjQa8z0uc",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=7XzjQa8z0uc",
+      "createdAt": "2026-10-08T00:00:00Z",
+      "curatedAt": "2026-10-10T23:09:50Z"
+    },
+    {
+      "id": "curated-20261011-claude-code-planet-tess",
+      "title": "비전문가가 Claude Code로 TESS 데이터를 분석해 새 행성 후보를 찾았다",
+      "body": "천문학자가 아닌 작성자가 Claude Code로 NASA TESS 공개 광곡선 데이터를 분석해 주기 신호를 찾았고, 11월 2분 간격 관측 제안이 Program #100으로 승인됐습니다. 질문과 통과/실패 기준은 사람이 정했다는 점이 핵심입니다. HN에서는 가짜 행성 주입 테스트, 셔플 데이터 검증 같은 거짓 양성 점검 방법이 제안됐습니다.",
+      "titleEn": "A non-astronomer used Claude Code on TESS data to find a candidate planet",
+      "bodyEn": "A non-astronomer had Claude Code sift public NASA TESS light-curve data, found a periodic signal, and got a 2-minute-cadence observing proposal approved as Program #100 for November. The human chose the questions and pass/fail criteria. HN commenters suggested false-positive checks such as injecting fake planets and running the pipeline on shuffled data.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50002665",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-08T07:07:34Z",
+      "curatedAt": "2026-10-10T23:09:50Z"
+    },
+    {
+      "id": "curated-20261011-talorys-cloudflare-agent",
+      "title": "Talorys: Cloudflare 무료 티어에 올리는 셀프호스팅 개인 AI 에이전트",
+      "body": "채팅·메모리·할 일·노트·프로젝트·예약 알림을 처리하는 단일 사용자용 오픈소스 AI 비서입니다. React/Vite 프런트와 Hono·Cloudflare Agents SDK 백엔드를 Pages, Workers, Durable Objects(SQLite), Workers AI 위에 올리며 텔레메트리가 없습니다. 비공개 Worker 뒤에 데이터를 두는 구조라 개인 에이전트 아키텍처 참고용으로 좋습니다.",
+      "titleEn": "Talorys: a self-hosted personal AI agent on Cloudflare's free tier",
+      "bodyEn": "A free open-source single-user assistant handling chat, memory, tasks, notes, projects and scheduled reminders. React/Vite frontend and a Hono + Cloudflare Agents SDK backend run on Pages, Workers, SQLite Durable Objects and Workers AI, with no telemetry. Data sits behind a private Worker, a useful reference for personal-agent architecture.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50031614",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-10T10:52:09Z",
+      "curatedAt": "2026-10-10T23:09:50Z"
+    },
+    {
+      "id": "curated-20261011-suta-ui-skill-ko",
+      "title": "suta: AI가 만든 UI의 \"뻔한 카드·과한 색\" 문제를 줄이는 스킬",
+      "body": "Claude Code·Codex에 설치하는 UI 스킬입니다. AI가 반복해서 만드는 비슷한 카드 레이아웃, 과도한 색상, 불필요한 장식을 줄이도록 레이아웃·색상·모션 기준과 UI 패턴 레퍼런스를 제공합니다. 디자인 지침을 스킬로 묶어 두면 프롬프트마다 규칙을 반복 설명할 필요가 없습니다. GitHub의 Guksu/suta에서 확인할 수 있습니다.",
+      "titleEn": "suta: a skill that curbs repetitive cards and excessive color in AI-generated UI",
+      "bodyEn": "A UI skill for Claude Code and Codex. It feeds the agent layout, color and motion standards plus ready UI patterns, cutting the repeated card layouts, color overload and decoration AI tends to produce. Packaging design rules as a skill saves you from re-explaining them in every prompt. Source is Guksu/suta on GitHub.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=35119",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-10T20:00:00Z",
+      "curatedAt": "2026-10-10T23:09:50Z"
+    },
     {
       "id": "curated-20261010-mtlynch-why-coding-agents-dumb",
       "mediaType": "none",
@@ -25,19 +90,6 @@
       "sourceName": "Hacker News",
       "sourceUrl": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
       "createdAt": "2026-10-09T11:03:48Z",
-      "curatedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "curated-20261010-microsoft-mxc-sandbox",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Microsoft MXC: 모델 출력과 플러그인을 안전하게 돌리는 코드 실행 샌드박스",
-      "body": "MXC는 앱에 SDK(Rust·.NET·Node)로 넣어 신뢰할 수 없는 코드를 실행하는 샌드박스다. Windows ProcessContainer, Linux Bubblewrap, macOS Seatbelt부터 MicroVM까지 백엔드를 고르고, 파일시스템·네트워크 송신·UI/클립보드 정책을 JSON 요청으로 지정한다. 에이전트가 짠 코드를 실행하는 구조를 만들 때 격리 설계의 참고가 된다.",
-      "titleEn": "Microsoft MXC: a sandbox for running model output and plugins safely",
-      "bodyEn": "MXC is an SDK (Rust, .NET, Node) for running untrusted code. It picks a backend from Windows ProcessContainer, Linux Bubblewrap and macOS Seatbelt up to MicroVM, with filesystem, network egress and UI/clipboard policies set in a JSON request. A useful reference when designing isolation for agent-written code.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/microsoft/mxc",
-      "createdAt": "2026-10-09T05:51:29Z",
       "curatedAt": "2026-10-09T23:12:00Z"
     },
     {
@@ -78,32 +130,6 @@
       "sourceUrl": "https://www.youtube.com/watch?v=oz2CwrPV2Rg",
       "createdAt": "2026-10-08T00:00:00Z",
       "curatedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "curated-20261010-openai-new-codex-cli",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=PUBc2G0Tj5E",
-      "title": "OpenAI 공식: 새로운 Codex CLI 소개",
-      "body": "OpenAI가 3분 14초로 새 Codex CLI를 소개한다. 조회수 22만 이상이며, 터미널에서 Codex를 쓰는 사람이 바뀐 점을 빠르게 훑기 좋다.",
-      "titleEn": "OpenAI: Meet the new Codex CLI",
-      "bodyEn": "OpenAI introduces the new Codex CLI in 3m14s, past 220k views. A fast way for terminal Codex users to see what changed.",
-      "sourceName": "YouTube · OpenAI",
-      "sourceUrl": "https://www.youtube.com/watch?v=PUBc2G0Tj5E",
-      "createdAt": "2026-10-05T00:00:00Z",
-      "curatedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "curated-20261009-quesma-invisible-cities-opus-5-5",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "프롬프트 하나, 6시간: Opus 5.5 vs GPT-6 Astra로 「보이지 않는 도시들」 시각화",
-      "body": "Piotr Migdał이 같은 한 줄 프롬프트(three.js로 칼비노의 전 작품 시각화)를 Codex의 GPT-6 Astra와 Claude Code의 Opus 5.5(서브에이전트 6개 병렬)에 줬다. Astra는 53분·약 10달러, Opus는 1시간 25분·약 74달러가 들었고 디자인 완성도는 Opus가 앞섰다. 서브에이전트 병렬 위임의 비용 대비 품질을 가늠할 사례다.",
-      "titleEn": "One prompt, six hours: Opus 5.5 vs GPT-6 Astra visualize Invisible Cities",
-      "bodyEn": "Piotr Migdał gave the same one-line prompt (a three.js visualization of all of Calvino's Invisible Cities) to GPT-6 Astra in Codex and Opus 5.5 in Claude Code with six parallel subagents. Astra took 53 minutes and about $10; Opus took 1h25m and about $74, with stronger design polish. A useful data point on the cost vs quality of parallel subagent delegation.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://quesma.com/blog/invisible-cities-one-shot/",
-      "createdAt": "2026-10-08T12:00:20Z",
-      "curatedAt": "2026-10-08T23:10:21Z"
     },
     {
       "id": "curated-20261009-aicheatkey-baton-plugin-ko",
@@ -197,19 +223,6 @@
       "curatedAt": "2026-10-07T23:07:49Z"
     },
     {
-      "id": "curated-20261008-hyosunglim-claude-video-editing-ko",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=8cMJGrtnlOg",
-      "title": "임효성: 클로드에 컷편집·자막·쇼츠를 전부 맡긴 영상편집 자동화",
-      "body": "14분 영상에서 컷 편집, 자막, 쇼츠 제작까지 Claude에 맡기는 실사용 워크플로우를 보여준다. 반복적인 영상 후처리를 에이전트에 넘기는 구조를 그대로 가져다 응용할 수 있다.",
-      "titleEn": "hyosunglim: handing cuts, captions and shorts to Claude",
-      "bodyEn": "A 14-minute demo of a real workflow where Claude handles cuts, captions and shorts. The structure for delegating repetitive video post-production to an agent is easy to reuse.",
-      "sourceName": "YouTube · hyosunglim임효성",
-      "sourceUrl": "https://www.youtube.com/watch?v=8cMJGrtnlOg",
-      "createdAt": "2026-10-05T00:00:00Z",
-      "curatedAt": "2026-10-07T23:07:49Z"
-    },
-    {
       "id": "curated-20261008-anthropic-opus-5-5-tips-guide",
       "mediaType": "none",
       "mediaUrl": "",
@@ -246,19 +259,6 @@
       "sourceName": "GeekNews",
       "sourceUrl": "https://news.hada.io/topic?id=34711",
       "createdAt": "2026-10-04T00:00:00Z",
-      "curatedAt": "2026-10-06T23:13:05Z"
-    },
-    {
-      "id": "curated-20261007-agents-dont-need-memory-docs",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "에이전트에 필요한 건 메모리가 아니라 문서다",
-      "body": "벡터 DB 기반 \"메모리\" 플러그인 대신, 요구사항·결정·제약을 담은 마크다운 문서를 에이전트가 작업 전후에 읽고 갱신하게 하자는 글이다. 카탈로그·인덱스·작성 지침으로 문서를 구조화하면 버전 관리와 감사가 가능하고, 맥락이 생생할 때 에이전트가 직접 써서 오래된 조각이 검색되는 문제를 피한다. CLAUDE.md 운영 방식을 점검할 때 참고할 만하다.",
-      "titleEn": "Agents don't need memory, they need documentation",
-      "bodyEn": "The post argues for structured Markdown docs that agents read and update before and after tasks, instead of vector-DB \"memory\" plugins. With catalogs, indexes and writing guidelines, the docs stay auditable and version-controlled, and agents write them while context is fresh, avoiding stale snippets from similarity search. Useful when reviewing how you run CLAUDE.md.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://liao.gg/blog/agents-dont-need-memory",
-      "createdAt": "2026-10-03T17:03:37Z",
       "curatedAt": "2026-10-06T23:13:05Z"
     }
   ]
