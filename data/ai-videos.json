@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-10-10T23:09:50Z",
+  "generatedAt": "2026-10-12T23:08:30Z",
   "videos": [
+    {
+      "id": "vid-ddikul-gemini-skills-ko",
+      "youtubeId": "UZsVYlI6mVY",
+      "category": "tip",
+      "title": "젬스 대신 제미나이 스킬 쓰는 이유와 만드는 법",
+      "titleEn": "Still Using Gems? Why You Should Switch to Gemini Skills (Korean)",
+      "descKo": "Gemini 스킬을 만드는 방법과 Gems 대비 장점을 10분에 소개.",
+      "descEn": "Why Gemini Skills beat Gems and how to create one, in 10 minutes.",
+      "channel": "디꿀방",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
+    {
+      "id": "vid-simonscrapes-top1-claude-code",
+      "youtubeId": "J9NQTYUP6k0",
+      "category": "tip",
+      "title": "상위 1%가 Claude Code를 다르게 쓰는 방법",
+      "titleEn": "How the Top 1% Use Claude Code Differently",
+      "descKo": "숙련 사용자의 Claude Code 작업 방식을 18분에 정리.",
+      "descEn": "How power users work with Claude Code, in 18 minutes.",
+      "channel": "Simon Scrapes",
+      "publishedAt": "2026-10-10T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
+    {
+      "id": "vid-vibelabs-what-to-build-ko",
+      "youtubeId": "BEcQOU_bK_g",
+      "category": "usecase",
+      "title": "클로드 코드·코덱스를 결제했는데 뭘 만들지 모르겠다면",
+      "titleEn": "Paid for Claude Code and Codex but not sure what to build (Korean)",
+      "descKo": "코딩 에이전트로 무엇을 만들지 막막한 사람을 위한 18분 가이드.",
+      "descEn": "An 18-minute guide for those unsure what to build with coding agents.",
+      "channel": "바이브랩스",
+      "publishedAt": "2026-10-11T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
+    {
+      "id": "vid-hyosunglim-claude-video-editing-ko",
+      "youtubeId": "8cMJGrtnlOg",
+      "category": "usecase",
+      "title": "클로드에게 컷편집·자막·쇼츠를 맡겨 본 영상편집 자동화",
+      "titleEn": "Letting Claude handle cuts, captions and shorts (Korean)",
+      "descKo": "컷편집·자막·쇼츠 제작을 Claude에 맡기는 실사용 흐름을 14분에 보여준다.",
+      "descEn": "A 14-minute look at handing video cuts, captions and shorts to Claude.",
+      "channel": "hyosunglim임효성",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
+    {
+      "id": "vid-ttj-vibe-coding-service-structure-ko",
+      "youtubeId": "K_5H24bDh2g",
+      "category": "lecture",
+      "title": "바이브코딩 할 때 무조건 알아야 할 서비스 구조",
+      "titleEn": "Service structure you must know for vibe coding (Korean)",
+      "descKo": "서버·서비스 구조의 기본을 바이브 코딩 관점에서 31분 동안 설명.",
+      "descEn": "A 31-minute explainer on service and server structure for vibe coders.",
+      "channel": "코딩 수익화 : 투더제이 TTJ",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
+    {
+      "id": "vid-ibm-5-concepts-coding-agents",
+      "youtubeId": "hTAWHgQI4xg",
+      "category": "lecture",
+      "title": "AI 에이전트로 코딩할 때 알아야 할 5가지 개념",
+      "titleEn": "5 Concepts to Know for Coding with AI Agents",
+      "descKo": "에이전트 코딩의 핵심 개념 5가지를 10분에 정리하는 IBM 강의.",
+      "descEn": "IBM explains five core concepts of agentic coding in 10 minutes.",
+      "channel": "IBM Technology and IBM Developer",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
+    {
+      "id": "vid-ailabs-claude-code-setup-addition",
+      "youtubeId": "i6Q7bXnWGlM",
+      "category": "tip",
+      "title": "지금 Claude Code 설정에 꼭 추가해야 할 것",
+      "titleEn": "You Need To Add This In Your Claude Code Setup Right Now",
+      "descKo": "Claude Code 설정에 추가하면 좋은 항목을 16분에 소개.",
+      "descEn": "Sixteen minutes on a setup addition worth making in Claude Code.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-12T23:08:30Z"
+    },
     {
       "id": "vid-kimflip-claude-code-mods-ko",
       "youtubeId": "N-djs9BCIyE",
@@ -38,30 +122,6 @@
       "addedAt": "2026-10-09T23:12:00Z"
     },
     {
-      "id": "vid-openai-new-codex-cli",
-      "youtubeId": "PUBc2G0Tj5E",
-      "category": "usecase",
-      "title": "새로운 Codex CLI 소개",
-      "titleEn": "Meet the New Codex CLI",
-      "descKo": "OpenAI가 3분 만에 보여주는 새 Codex CLI.",
-      "descEn": "OpenAI shows the new Codex CLI in three minutes.",
-      "channel": "OpenAI",
-      "publishedAt": "2026-10-05T00:00:00Z",
-      "addedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "vid-jaychoi-claude-code-6-secrets-ko",
-      "youtubeId": "sY7lHUg7HeE",
-      "category": "tip",
-      "title": "클로드 코드 200% 끌어올리는 6가지 비밀",
-      "titleEn": "6 Secrets to Boosting Claude Code Efficiency by 200% (Korean)",
-      "descKo": "800시간 사용 경험에서 뽑은 Claude Code 효율 팁 6가지를 10분에 소개.",
-      "descEn": "Six Claude Code efficiency tips in 10 minutes, from a Korean indie hacker.",
-      "channel": "Jay Choi | 인디해커 라이프",
-      "publishedAt": "2026-09-30T00:00:00Z",
-      "addedAt": "2026-10-09T23:12:00Z"
-    },
-    {
       "id": "vid-aicheatkey-baton-plugin-ko",
       "youtubeId": "NXWZLWTJ7IQ",
       "category": "tip",
@@ -70,18 +130,6 @@
       "descKo": "baton 플러그인으로 여러 코딩 에이전트 앱을 잇는 11분 소개.",
       "descEn": "An 11-minute intro to linking several coding agent apps with the baton plugin.",
       "channel": "AI 치트키",
-      "publishedAt": "2026-10-08T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-aidonna-gemini-5-tips-ko",
-      "youtubeId": "VpIPshwQAnQ",
-      "category": "tip",
-      "title": "3시간 걸릴 일 3분에 끝내는 제미나이 활용법 5가지",
-      "titleEn": "5 Gemini tricks to finish 3 hours of work in 3 minutes (Korean)",
-      "descKo": "업무 시간을 줄이는 제미나이 활용법 5가지를 17분에 소개.",
-      "descEn": "Five Gemini workflows that cut work time, in 17 minutes.",
-      "channel": "AI 돈나",
       "publishedAt": "2026-10-08T00:00:00Z",
       "addedAt": "2026-10-08T23:10:21Z"
     },
@@ -132,54 +180,6 @@
       "channel": "woozoobro",
       "publishedAt": "2026-10-07T00:00:00Z",
       "addedAt": "2026-10-07T23:07:49Z"
-    },
-    {
-      "id": "vid-codefactory-claude-code-mods-10-usecases-ko",
-      "youtubeId": "z-GwTV_qID8",
-      "category": "tip",
-      "title": "Claude Code Mods 설명, 10가지 사용 사례",
-      "titleEn": "Claude Code Mods explained, 10 usecases (Korean)",
-      "descKo": "새 Mods 기능으로 Claude Code 동작을 바꾸는 10가지 사례를 8분에 정리.",
-      "descEn": "Ten ways to change Claude Code behavior with Mods, in 8 minutes.",
-      "channel": "코드팩토리",
-      "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-aisuperuser-agent-delegation-ko",
-      "youtubeId": "cqCwcIDuXy8",
-      "category": "lecture",
-      "title": "AI 에이전트, 어디까지 맡겨도 될까? 맡기기 전 할 일",
-      "titleEn": "How much can you delegate to AI agents? What to do first (Korean)",
-      "descKo": "에이전트에 일을 맡기기 전 점검할 것을 37분 동안 정리한 강의.",
-      "descEn": "A 37-minute lecture on what to settle before delegating work to agents.",
-      "channel": "평범한 사업가 | AI SuperUser",
-      "publishedAt": "2026-10-04T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-kevinstratvert-openai-codex-tutorial",
-      "youtubeId": "7XzjQa8z0uc",
-      "category": "lecture",
-      "title": "OpenAI Codex 단계별 입문 튜토리얼",
-      "titleEn": "How to Use OpenAI Codex (Step-by-Step Tutorial)",
-      "descKo": "설치부터 첫 작업 지시까지 Codex 사용법을 따라 하는 입문 영상.",
-      "descEn": "Beginner walkthrough of Codex from setup to your first task.",
-      "channel": "Kevin Stratvert",
-      "publishedAt": "2026-10-08T00:00:00Z",
-      "addedAt": "2026-10-10T23:09:50Z"
-    },
-    {
-      "id": "vid-aimaster-claude-code-beginner-2026",
-      "youtubeId": "WdZjoMi6W7Y",
-      "category": "lecture",
-      "title": "Claude Code 2026 초보자 튜토리얼",
-      "titleEn": "Ultimate Claude Code Tutorial: How to Use Claude Code for Beginners in 2026",
-      "descKo": "Claude Code 설치부터 기본 사용 흐름까지 훑는 입문 강의.",
-      "descEn": "Beginner course covering Claude Code setup through core workflow.",
-      "channel": "AI Master",
-      "publishedAt": "2026-10-05T00:00:00Z",
-      "addedAt": "2026-10-10T23:09:50Z"
     }
   ]
 }
