@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-10-12T23:08:30Z",
+  "generatedAt": "2026-10-13T23:14:23Z",
   "videos": [
+    {
+      "id": "vid-codefactory-claude-code-mods-10-ko",
+      "youtubeId": "z-GwTV_qID8",
+      "category": "tip",
+      "title": "Claude Code Mods 설명, 10가지 사용 사례",
+      "titleEn": "Claude Code Mods Explained: 10 Use Cases (Korean)",
+      "descKo": "Mods 개념과 바로 써볼 만한 활용 사례 10가지를 9분에 정리.",
+      "descEn": "Nine minutes on what Claude Code Mods are and 10 practical use cases.",
+      "channel": "코드팩토리",
+      "publishedAt": "2026-10-06T00:00:00Z",
+      "addedAt": "2026-10-13T23:14:23Z"
+    },
+    {
+      "id": "vid-ptube-figma-codex-content-automation-ko",
+      "youtubeId": "N8hbCuLNmTg",
+      "category": "usecase",
+      "title": "개발 지식 없이 AI 콘텐츠 자동화하기 (Figma × Codex)",
+      "titleEn": "Automating AI content with zero coding knowledge (Figma × Codex, Korean)",
+      "descKo": "Figma와 Codex를 엮어 콘텐츠 제작을 자동화하는 과정을 20분에 시연.",
+      "descEn": "A 20-minute demo of automating content production by combining Figma and Codex.",
+      "channel": "피튜브",
+      "publishedAt": "2026-10-02T00:00:00Z",
+      "addedAt": "2026-10-13T23:14:23Z"
+    },
+    {
+      "id": "vid-johnathanmo-hackathon-workflow",
+      "youtubeId": "AoxK3JpxbRc",
+      "category": "usecase",
+      "title": "해커톤 5연속 우승을 만든 Claude Code 워크플로우",
+      "titleEn": "The Claude Code workflow that helped me win 5 Hackathons in a Row",
+      "descKo": "해커톤에서 통한 Claude Code 작업 흐름을 12분에 공개.",
+      "descEn": "A 12-minute look at the Claude Code workflow behind five straight hackathon wins.",
+      "channel": "Johnathan Mo",
+      "publishedAt": "2026-10-11T00:00:00Z",
+      "addedAt": "2026-10-13T23:14:23Z"
+    },
+    {
+      "id": "vid-nicksaraev-claude-code-runs-business",
+      "youtubeId": "rvkjS3YoVio",
+      "category": "usecase",
+      "title": "Claude Code에게 연 매출 100만 달러 사업을 일주일 맡겨 봤다",
+      "titleEn": "I Let Claude Code Run My $1M/Year Business for a Whole Week",
+      "descKo": "실제 사업 운영을 Claude Code에 맡긴 일주일 실험을 8분에 요약.",
+      "descEn": "An 8-minute recap of a week-long experiment handing a real business to Claude Code.",
+      "channel": "Nick Saraev",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "addedAt": "2026-10-13T23:14:23Z"
+    },
     {
       "id": "vid-ddikul-gemini-skills-ko",
       "youtubeId": "UZsVYlI6mVY",
@@ -74,18 +122,6 @@
       "addedAt": "2026-10-12T23:08:30Z"
     },
     {
-      "id": "vid-ailabs-claude-code-setup-addition",
-      "youtubeId": "i6Q7bXnWGlM",
-      "category": "tip",
-      "title": "지금 Claude Code 설정에 꼭 추가해야 할 것",
-      "titleEn": "You Need To Add This In Your Claude Code Setup Right Now",
-      "descKo": "Claude Code 설정에 추가하면 좋은 항목을 16분에 소개.",
-      "descEn": "Sixteen minutes on a setup addition worth making in Claude Code.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-10-05T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
-    },
-    {
       "id": "vid-kimflip-claude-code-mods-ko",
       "youtubeId": "N-djs9BCIyE",
       "category": "tip",
@@ -120,54 +156,6 @@
       "channel": "Nate Herk | AI Automation",
       "publishedAt": "2026-10-08T00:00:00Z",
       "addedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "vid-aicheatkey-baton-plugin-ko",
-      "youtubeId": "NXWZLWTJ7IQ",
-      "category": "tip",
-      "title": "클로드 코드·코덱스·헤르메스를 플러그인 하나로 연결",
-      "titleEn": "Connecting Claude Code, Codex and Hermes with baton (Korean)",
-      "descKo": "baton 플러그인으로 여러 코딩 에이전트 앱을 잇는 11분 소개.",
-      "descEn": "An 11-minute intro to linking several coding agent apps with the baton plugin.",
-      "channel": "AI 치트키",
-      "publishedAt": "2026-10-08T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-zazencodes-ai-software-factory",
-      "youtubeId": "ctoaIC4LHmI",
-      "category": "usecase",
-      "title": "Claude Code로 AI 소프트웨어 팩토리 만들기",
-      "titleEn": "Build Your Own AI Software Factory with Claude Code",
-      "descKo": "Claude Code로 에이전트가 일을 이어받는 소프트웨어 팩토리를 28분에 구축한다.",
-      "descEn": "A 28-minute build of an agent-driven software factory with Claude Code.",
-      "channel": "ZazenCodes",
-      "publishedAt": "2026-10-07T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-qjc-60-claude-code-sessions-ko",
-      "youtubeId": "C8fs-UmUtEY",
-      "category": "usecase",
-      "title": "클로드 코드 세션 60개 동시 실행 맥 스튜디오 셋업",
-      "titleEn": "Running ~60 Claude Code sessions on a Mac Studio (Korean)",
-      "descKo": "Mac Studio에서 Claude Code 세션 약 60개를 병렬로 돌리는 데스크 환경.",
-      "descEn": "A desk setup running about 60 parallel Claude Code sessions on a Mac Studio.",
-      "channel": "QJC 퀀텀점프클럽",
-      "publishedAt": "2026-10-07T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
-    },
-    {
-      "id": "vid-daangn-vibe-coding-new-business-ko",
-      "youtubeId": "0cYwNGATD7U",
-      "category": "usecase",
-      "title": "바이브코딩으로 신사업 돌파하기 (당근 빌더 밋업)",
-      "titleEn": "Breaking into a new business with vibe coding (Daangn builder meetup, Korean)",
-      "descKo": "당근 팀이 바이브 코딩으로 신사업을 풀어낸 방식을 20분에 공유한다.",
-      "descEn": "Daangn team shares in 20 minutes how they used vibe coding for a new business.",
-      "channel": "당근 팀",
-      "publishedAt": "2026-10-07T00:00:00Z",
-      "addedAt": "2026-10-08T23:10:21Z"
     },
     {
       "id": "vid-woozoobro-agent-intro-codex-ko",
