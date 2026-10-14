@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-10-13T23:14:23Z",
+  "generatedAt": "2026-10-15T00:00:00Z",
   "videos": [
+    {
+      "id": "vid-stefancho-claude-code-codex-workflow-ko",
+      "youtubeId": "RPRZ31bjWOo",
+      "category": "usecase",
+      "title": "Claude Code·Codex 요즘 작업 방식 전부 공개, 직접 만든 앱까지",
+      "titleEn": "Full reveal of my current Claude Code and Codex workflow (Korean)",
+      "descKo": "두 도구를 함께 쓰는 현재 작업 흐름과 만든 앱을 19분에 공개.",
+      "descEn": "A 19-minute reveal of a combined Claude Code and Codex workflow plus apps built.",
+      "channel": "StefanCho With AI (스테판초)",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "addedAt": "2026-10-15T00:00:00Z"
+    },
+    {
+      "id": "vid-techyoo-jev-mods-effort-ko",
+      "youtubeId": "dxnOCwKjw3w",
+      "category": "tip",
+      "title": "클로드 코드, 모델과 Effort를 자동으로 고른다? Jev + Mods",
+      "titleEn": "Claude Code picks model and effort automatically? Jev + Mods (Korean)",
+      "descKo": "Jev와 Mods로 작업별 모델·Effort를 자동 선택하는 설정을 12분에 시연.",
+      "descEn": "A 12-minute demo of auto-selecting model and effort per task with Jev and Mods.",
+      "channel": "techyoo(테크유)",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "addedAt": "2026-10-15T00:00:00Z"
+    },
+    {
+      "id": "vid-seoulian-vibe-coding-mac-apps-ko",
+      "youtubeId": "frqfwvC4LCg",
+      "category": "usecase",
+      "title": "바이브 코딩이 맥 앱 시장을 바꿨습니다 (유료보다 나은 무료 앱 5개)",
+      "titleEn": "Vibe coding changed the Mac app market: 5 free apps better than paid (Korean)",
+      "descKo": "바이브 코딩으로 나온 무료 맥 앱 5개를 12분에 소개.",
+      "descEn": "Five free Mac apps born from vibe coding, in 12 minutes.",
+      "channel": "서울리안 SEOULiAN",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "addedAt": "2026-10-15T00:00:00Z"
+    },
+    {
+      "id": "vid-leonvanzyl-harness-engineering",
+      "youtubeId": "z1EaBe9oIME",
+      "category": "lecture",
+      "title": "어떤 코딩 에이전트든 10배 좋게 만드는 하네스 엔지니어링",
+      "titleEn": "Harness Engineering: Make Any Coding Agent 10x Better",
+      "descKo": "하네스 엔지니어링을 초급에서 고급까지 3단계로 16분에 정리.",
+      "descEn": "The 3 levels of harness engineering from beginner to pro, in 16 minutes.",
+      "channel": "Leon van Zyl",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "addedAt": "2026-10-15T00:00:00Z"
+    },
+    {
+      "id": "vid-metics-claude-code-vps-24-7",
+      "youtubeId": "nzAdaWt6oxM",
+      "category": "tip",
+      "title": "VPS에서 Claude Code를 24시간 돌리는 상시 에이전트",
+      "titleEn": "Run Claude Code 24/7 on a VPS (Always-On AI Agent Tutorial)",
+      "descKo": "VPS에 Claude Code를 올려 상시 에이전트로 쓰는 법을 14분에 설명.",
+      "descEn": "A 14-minute tutorial on running Claude Code as an always-on agent on a VPS.",
+      "channel": "Metics Media",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "addedAt": "2026-10-15T00:00:00Z"
+    },
     {
       "id": "vid-codefactory-claude-code-mods-10-ko",
       "youtubeId": "z-GwTV_qID8",
@@ -11,18 +71,6 @@
       "descEn": "Nine minutes on what Claude Code Mods are and 10 practical use cases.",
       "channel": "코드팩토리",
       "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-13T23:14:23Z"
-    },
-    {
-      "id": "vid-ptube-figma-codex-content-automation-ko",
-      "youtubeId": "N8hbCuLNmTg",
-      "category": "usecase",
-      "title": "개발 지식 없이 AI 콘텐츠 자동화하기 (Figma × Codex)",
-      "titleEn": "Automating AI content with zero coding knowledge (Figma × Codex, Korean)",
-      "descKo": "Figma와 Codex를 엮어 콘텐츠 제작을 자동화하는 과정을 20분에 시연.",
-      "descEn": "A 20-minute demo of automating content production by combining Figma and Codex.",
-      "channel": "피튜브",
-      "publishedAt": "2026-10-02T00:00:00Z",
       "addedAt": "2026-10-13T23:14:23Z"
     },
     {
@@ -86,18 +134,6 @@
       "addedAt": "2026-10-12T23:08:30Z"
     },
     {
-      "id": "vid-hyosunglim-claude-video-editing-ko",
-      "youtubeId": "8cMJGrtnlOg",
-      "category": "usecase",
-      "title": "클로드에게 컷편집·자막·쇼츠를 맡겨 본 영상편집 자동화",
-      "titleEn": "Letting Claude handle cuts, captions and shorts (Korean)",
-      "descKo": "컷편집·자막·쇼츠 제작을 Claude에 맡기는 실사용 흐름을 14분에 보여준다.",
-      "descEn": "A 14-minute look at handing video cuts, captions and shorts to Claude.",
-      "channel": "hyosunglim임효성",
-      "publishedAt": "2026-10-05T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
-    },
-    {
       "id": "vid-ttj-vibe-coding-service-structure-ko",
       "youtubeId": "K_5H24bDh2g",
       "category": "lecture",
@@ -132,42 +168,6 @@
       "channel": "김플립 - LLM 코딩",
       "publishedAt": "2026-10-09T00:00:00Z",
       "addedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "vid-techwithtim-every-ai-agent-type",
-      "youtubeId": "mU5Hgbpff_s",
-      "category": "lecture",
-      "title": "AI 에이전트 유형 전부 설명 + 배포",
-      "titleEn": "Every Type of AI Agent Explained (and Deployed) in One Video",
-      "descKo": "에이전트 유형을 정리하고 실제 배포까지 보여주는 24분 강의.",
-      "descEn": "A 24-minute lesson covering every agent type and deploying them.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-10-09T00:00:00Z",
-      "addedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "vid-nateherk-anthropic-engineers-10x",
-      "youtubeId": "oz2CwrPV2Rg",
-      "category": "tip",
-      "title": "Anthropic 엔지니어들이 Claude Code를 10배 끌어올린 방법",
-      "titleEn": "Anthropic Engineers Just 10x'd Everyone's Claude Code",
-      "descKo": "Anthropic 엔지니어들의 Claude Code 활용 팁을 12분에 정리.",
-      "descEn": "Twelve minutes on how Anthropic engineers get more out of Claude Code.",
-      "channel": "Nate Herk | AI Automation",
-      "publishedAt": "2026-10-08T00:00:00Z",
-      "addedAt": "2026-10-09T23:12:00Z"
-    },
-    {
-      "id": "vid-woozoobro-agent-intro-codex-ko",
-      "youtubeId": "8u60vqCSrkg",
-      "category": "lecture",
-      "title": "AI 에이전트 입문 + 코덱스 활용 (1시간)",
-      "titleEn": "AI Agents 101 and Codex Hands-on (Korean)",
-      "descKo": "개념부터 Codex 실습까지 한 번에 훑는 1시간 입문 강의.",
-      "descEn": "A one-hour Korean primer from agent concepts to Codex practice.",
-      "channel": "woozoobro",
-      "publishedAt": "2026-10-07T00:00:00Z",
-      "addedAt": "2026-10-07T23:07:49Z"
     }
   ]
 }
