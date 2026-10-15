@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-10-15T00:00:00Z",
+  "generatedAt": "2026-10-15T23:07:32Z",
   "videos": [
+    {
+      "id": "vid-aisync-claude-code-beginner-guide-ko",
+      "youtubeId": "2R-kUFv7GZg",
+      "category": "lecture",
+      "title": "Claude Code 왕초보 완벽 가이드 (60분, 팁 40개)",
+      "titleEn": "Claude Code beginner complete guide in 60 minutes (40 tips)",
+      "descKo": "1단계부터 7단계까지 설치·팁 40개·스킬 사용법을 60분에 정리한 입문 강의.",
+      "descEn": "A 60-minute, 7-stage beginner course covering setup, 40 tips and how to use skills.",
+      "channel": "AI싱크클럽",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "addedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "vid-miri-codex-claude-skills-ko",
+      "youtubeId": "Hjc9QHWBn2U",
+      "category": "tip",
+      "title": "같은 프롬프트, 다른 디자인: Codex·Claude 스킬 활용",
+      "titleEn": "Same Prompt, Different Design: How to Use Codex & Claude Skills",
+      "descKo": "스킬 유무에 따라 결과 디자인이 어떻게 달라지는지 비교한다.",
+      "descEn": "Compares design output with and without skills in Codex and Claude.",
+      "channel": "미리의 시스템 연구소 Miri System Lab",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "addedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "vid-robonuggets-claude-55-23-tips",
+      "youtubeId": "gvESqM6s0kM",
+      "category": "tip",
+      "title": "Claude 5.5에서 아직 하고 있을 실수와 해결책 23가지",
+      "titleEn": "Claude 5.5 Model Mistakes you may still be making (23 Tips and Fixes)",
+      "descKo": "새 모델 기준으로 자주 하는 실수 23가지와 고치는 법을 정리한다.",
+      "descEn": "23 common mistakes with the new Claude model and how to fix each.",
+      "channel": "Jay E | RoboNuggets",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "addedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "vid-mildcode-real-vibe-coding-ko",
+      "youtubeId": "wgrpasYyiIQ",
+      "category": "usecase",
+      "title": "Claude Code 창시자에게 배우는 진짜 바이브 코딩",
+      "titleEn": "The \"Real\" Vibe Coding, Straight from the Creator of Claude Code",
+      "descKo": "Claude Code 개발자의 작업 방식을 바탕으로 바이브 코딩 접근법을 설명한다.",
+      "descEn": "Explains a vibe coding approach based on the Claude Code creator's own workflow.",
+      "channel": "마일드코드",
+      "publishedAt": "2026-10-11T00:00:00Z",
+      "addedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "vid-mydal-claude-md-tips-ko",
+      "youtubeId": "H1A27Gveo2M",
+      "category": "tip",
+      "title": "CLAUDE.md 길게 쓰면 절반은 무시된다: 실전 팁 7가지",
+      "titleEn": "Long CLAUDE.md gets half ignored: 7 tips to make rules stick",
+      "descKo": "에이전트가 규칙을 실제로 따르게 하는 CLAUDE.md 작성 팁 7가지.",
+      "descEn": "Seven tips for writing a CLAUDE.md that the agent actually follows.",
+      "channel": "마이달 Mydal",
+      "publishedAt": "2026-10-10T00:00:00Z",
+      "addedAt": "2026-10-15T23:07:32Z"
+    },
     {
       "id": "vid-stefancho-claude-code-codex-workflow-ko",
       "youtubeId": "RPRZ31bjWOo",
@@ -62,18 +122,6 @@
       "addedAt": "2026-10-15T00:00:00Z"
     },
     {
-      "id": "vid-codefactory-claude-code-mods-10-ko",
-      "youtubeId": "z-GwTV_qID8",
-      "category": "tip",
-      "title": "Claude Code Mods 설명, 10가지 사용 사례",
-      "titleEn": "Claude Code Mods Explained: 10 Use Cases (Korean)",
-      "descKo": "Mods 개념과 바로 써볼 만한 활용 사례 10가지를 9분에 정리.",
-      "descEn": "Nine minutes on what Claude Code Mods are and 10 practical use cases.",
-      "channel": "코드팩토리",
-      "publishedAt": "2026-10-06T00:00:00Z",
-      "addedAt": "2026-10-13T23:14:23Z"
-    },
-    {
       "id": "vid-johnathanmo-hackathon-workflow",
       "youtubeId": "AoxK3JpxbRc",
       "category": "usecase",
@@ -132,42 +180,6 @@
       "channel": "바이브랩스",
       "publishedAt": "2026-10-11T00:00:00Z",
       "addedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "vid-ttj-vibe-coding-service-structure-ko",
-      "youtubeId": "K_5H24bDh2g",
-      "category": "lecture",
-      "title": "바이브코딩 할 때 무조건 알아야 할 서비스 구조",
-      "titleEn": "Service structure you must know for vibe coding (Korean)",
-      "descKo": "서버·서비스 구조의 기본을 바이브 코딩 관점에서 31분 동안 설명.",
-      "descEn": "A 31-minute explainer on service and server structure for vibe coders.",
-      "channel": "코딩 수익화 : 투더제이 TTJ",
-      "publishedAt": "2026-10-09T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "vid-ibm-5-concepts-coding-agents",
-      "youtubeId": "hTAWHgQI4xg",
-      "category": "lecture",
-      "title": "AI 에이전트로 코딩할 때 알아야 할 5가지 개념",
-      "titleEn": "5 Concepts to Know for Coding with AI Agents",
-      "descKo": "에이전트 코딩의 핵심 개념 5가지를 10분에 정리하는 IBM 강의.",
-      "descEn": "IBM explains five core concepts of agentic coding in 10 minutes.",
-      "channel": "IBM Technology and IBM Developer",
-      "publishedAt": "2026-10-12T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "vid-kimflip-claude-code-mods-ko",
-      "youtubeId": "N-djs9BCIyE",
-      "category": "tip",
-      "title": "클로드 코드 Mods, 실제 예시로 처음부터 끝까지",
-      "titleEn": "Claude Code Mods, from start to finish with real examples (Korean)",
-      "descKo": "Mods를 실제 예시로 만들고 적용하는 과정을 8분에 따라간다.",
-      "descEn": "Follow building and applying Claude Code Mods with real examples in 8 minutes.",
-      "channel": "김플립 - LLM 코딩",
-      "publishedAt": "2026-10-09T00:00:00Z",
-      "addedAt": "2026-10-09T23:12:00Z"
     }
   ]
 }

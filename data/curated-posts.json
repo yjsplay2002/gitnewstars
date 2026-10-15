@@ -1,6 +1,97 @@
 {
-  "generatedAt": "2026-10-15T00:00:00Z",
+  "generatedAt": "2026-10-15T23:07:32Z",
   "posts": [
+    {
+      "id": "curated-20261016-dental-clinic-ai-ax-ko",
+      "title": "동네 치과의 AX 전환기: 코딩 에이전트와 로컬 AI로 병원 운영 자동화",
+      "body": "치과 원장이 코딩 에이전트와 로컬 모델(DeepSeek·GLM)로 근태, 전화 녹취·요약, 보험 청구 검토, 환자 접수를 직접 자동화했다. 보험 서류 904건(3,389쪽)을 69분에 검토해 약 77%를 자동 확정하고, 에이전트별로 담당 영역을 나눠 서로 오류를 점검하며 운영 설정 변경은 원장이 직접 승인한다. 다만 댓글에서는 글의 신뢰성과 비용 대비 효과에 의문도 제기됐다.",
+      "titleEn": "A neighborhood dental clinic's AI transformation: coding agents plus local models run the clinic",
+      "bodyEn": "A dental clinic director used coding agents and local models (DeepSeek, GLM) to automate attendance, call transcription and summaries, insurance claim review, and patient intake. 904 insurance documents (3,389 pages) were reviewed in 69 minutes with about 77% auto-confirmed; each agent owns a domain and cross-checks the others, and the director personally approves operational config changes. Commenters questioned the post's credibility and cost-effectiveness.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=35381",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-13T09:15:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "curated-20261016-opencode-2-code-mode-background-agents",
+      "title": "OpenCode 2.0: Code Mode로 MCP 호출을 한 번에, 백그라운드 에이전트까지",
+      "body": "OpenCode 2.0은 로컬 백그라운드 서비스 하나에 TUI·웹·데스크톱이 붙는 구조로 바뀌었다. Code Mode는 작은 JS 인터프리터로 MCP 서버와 OpenAPI 엔드포인트를 함수로 노출해 도구 호출을 한 번의 왕복으로 줄이고, 서브에이전트와 셸 명령을 백그라운드로 돌릴 수 있다. 1.0 플러그인은 호환되지 않으며 `opencode upgrade --major`로 업그레이드한다.",
+      "titleEn": "OpenCode 2.0: Code Mode collapses MCP calls into one script, plus background agents",
+      "bodyEn": "OpenCode 2.0 moves to one local background service that the TUI, web and desktop apps attach to. Code Mode uses a minimal JS interpreter to expose MCP servers and OpenAPI endpoints as functions, cutting tool calls to a single round trip, and subagents and shell commands can run in the background. 1.0 plugins are incompatible; upgrade with `opencode upgrade --major`.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=35371",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-15T00:00:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "curated-20261016-mtlynch-why-coding-agents-dumb",
+      "title": "왜 코딩 에이전트는 아직 멍청한가: 모델이 아니라 에이전트 계층이 병목",
+      "body": "Michael Lynch는 독립 작업을 순차 실행하고, 단순 작업을 싼 모델에 넘기지 않으며, 샌드박스를 문서상의 부탁에 의존하는 점 등을 구체적으로 짚는다. 그가 바라는 기능은 작업별 모델 선택, 위에서 아래로 읽히는 계획, 시스템 수준의 진짜 샌드박스, 일정 시간 무응답이면 자동 결정이다. 에이전트 도구를 고르거나 직접 만들 때 체크리스트로 쓸 만하다.",
+      "titleEn": "Why are coding agents so dumb? The agent layer, not the model, is the bottleneck",
+      "bodyEn": "Michael Lynch details how agents run independent subtasks serially, never hand grunt work to cheaper models, and rely on polite doc requests instead of enforced sandboxing. His wish list: per-task model selection, top-down readable plans, real system-level sandboxing, and automatic decisions after inactivity. A handy checklist when choosing or building agent tooling.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-09T14:21:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "curated-20261016-graphicle-code-graph-memory-mcp",
+      "title": "Graphicle: 코드 그래프와 프로젝트 메모리를 MCP로 에이전트에 제공하는 Rust 도구",
+      "body": "저장소를 코드 그래프로 매핑하고 문서·결정·과거 에이전트 세션을 기억해, 파일·라인 인용이 붙은 발췌를 에이전트에 넘겨준다. `brew install graphicle-ai/tap/graphicle` 후 저장소에서 `graphicle setup`만 하면 Claude Code·Codex·Cursor에 MCP로 연결된다. 3만 1천 파일 Kubernetes 저장소에서 추출이 3분 18초로, 비교 대상 Graphify의 26분 38초보다 빨랐다(각 1회 측정).",
+      "titleEn": "Graphicle: Rust code graph + project memory for coding agents over MCP",
+      "bodyEn": "Graphicle maps a repo into a code graph, keeps project memory (docs, decisions, past agent sessions), and gives agents cited excerpts with file and line refs. Run `brew install graphicle-ai/tap/graphicle` then `graphicle setup` and it wires Claude Code, Codex and Cursor over MCP. On a 31k-file Kubernetes repo extraction took 3m18s versus 26m38s for Graphify (single runs).",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/graphicle-ai/graphicle",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-14T15:00:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "curated-20261016-mildcode-real-vibe-coding-creator-ko",
+      "title": "마일드코드: Claude Code 창시자에게 배우는 \"진짜\" 바이브 코딩",
+      "body": "한국 채널 마일드코드가 Claude Code 개발자의 작업 방식을 바탕으로 바이브 코딩을 어떻게 해야 하는지 약 16분에 정리한다. 모델에 맡기는 범위와 사람이 검증할 지점을 나누는 관점을 얻을 수 있다.",
+      "titleEn": "Mildcode: The \"real\" vibe coding, straight from the creator of Claude Code",
+      "bodyEn": "Korean channel Mildcode distills, in about 16 minutes, how vibe coding should work based on the Claude Code creator's own approach: what to hand to the model and where a human should verify.",
+      "sourceName": "YouTube · 마일드코드",
+      "sourceUrl": "https://www.youtube.com/watch?v=wgrpasYyiIQ",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=wgrpasYyiIQ",
+      "createdAt": "2026-10-11T00:00:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "curated-20261016-mydal-claude-md-7-tips-ko",
+      "title": "마이달: CLAUDE.md를 길게 쓰면 절반은 무시된다, 규칙을 지키게 하는 팁 7가지",
+      "body": "CLAUDE.md가 길어지면 지시가 무시되는 문제를 짚고, 에이전트가 규칙을 실제로 따르게 하는 실전 팁 7가지를 약 8분에 소개한다. 지금 쓰는 CLAUDE.md를 다듬을 때 바로 적용할 수 있다.",
+      "titleEn": "Mydal: Long CLAUDE.md files get half ignored — 7 tips to make rules stick",
+      "bodyEn": "Covers why long CLAUDE.md files get ignored and gives 7 practical tips, in about 8 minutes, for making the agent actually follow your rules. Easy to apply when trimming your own CLAUDE.md.",
+      "sourceName": "YouTube · 마이달 Mydal",
+      "sourceUrl": "https://www.youtube.com/watch?v=H1A27Gveo2M",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=H1A27Gveo2M",
+      "createdAt": "2026-10-10T00:00:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
+    {
+      "id": "curated-20261016-miri-codex-claude-skills-same-prompt-ko",
+      "title": "미리의 시스템 연구소: 같은 프롬프트, 다른 디자인 — Codex·Claude 스킬 활용법",
+      "body": "같은 프롬프트라도 스킬을 쓰느냐에 따라 결과 디자인이 달라지는 것을 Codex와 Claude에서 비교하며 스킬 활용법을 보여준다. UI 품질을 스킬로 끌어올리는 방법을 찾는 사람에게 적합하다.",
+      "titleEn": "Miri System Lab: Same prompt, different design — using Codex & Claude skills",
+      "bodyEn": "Compares how the same prompt yields different designs with and without skills in Codex and Claude, showing how to use skills to raise UI quality.",
+      "sourceName": "YouTube · 미리의 시스템 연구소",
+      "sourceUrl": "https://www.youtube.com/watch?v=Hjc9QHWBn2U",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=Hjc9QHWBn2U",
+      "createdAt": "2026-10-14T00:00:00Z",
+      "curatedAt": "2026-10-15T23:07:32Z"
+    },
     {
       "id": "curated-20261015-anthropic-scion-source-control-ko",
       "mediaType": "none",
@@ -12,19 +103,6 @@
       "sourceName": "GeekNews",
       "sourceUrl": "https://news.hada.io/topic?id=35309",
       "createdAt": "2026-10-14T00:00:00Z",
-      "curatedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "curated-20261015-microsoft-mxc-agent-containment",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Microsoft MXC 1.0: 정책으로 코딩 에이전트를 OS 수준에서 가두는 방법",
-      "body": "MXC는 에이전트가 쓸 파일·네트워크 범위를 JSON 정책으로 선언하고 OS가 강제하는 실행 컨테이너입니다. Learning 모드로 접근 기록을 모아 정책을 다듬은 뒤 Enforcement로 전환하는 절차가 실용적이며, 저장소 읽기·쓰기만 허용하고 Documents와 네트워크는 막는 식으로 쓸 수 있습니다. Windows·macOS·Linux를 지원하고 Codex, Copilot 등이 채택했습니다.",
-      "titleEn": "Microsoft MXC 1.0: policy-driven OS-level containment for coding agents",
-      "bodyEn": "MXC lets you declare the files and network an agent may touch in a JSON policy that the OS enforces. The practical flow is to run in Learning mode, review the activity report, refine the policy, then switch to Enforcement, e.g. repo read/write only with Documents and network blocked. It supports Windows, macOS and Linux and is adopted by Codex and Copilot.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://blogs.windows.com/windowsdeveloper/2026/10/07/microsoft-execution-containers-policy-driven-containment-for-ai-agents/",
-      "createdAt": "2026-10-07T18:00:00Z",
       "curatedAt": "2026-10-15T00:00:00Z"
     },
     {
@@ -51,19 +129,6 @@
       "sourceName": "GeekNews",
       "sourceUrl": "https://news.hada.io/topic?id=35347",
       "createdAt": "2026-10-14T12:00:00Z",
-      "curatedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "curated-20261015-talorys-personal-agent-cloudflare-free",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Talorys: 명령어 한 줄로 Cloudflare 무료 티어에 개인 AI 에이전트 배포",
-      "body": "npx create-talorys@latest 한 번으로 Pages·Workers·Durable Objects(SQLite)·Workers AI만 써서 채팅, 기억, 작업·노트, 반복 알림이 되는 개인 에이전트를 내 Cloudflare 계정에 올립니다. 텔레메트리가 없고 MIT 라이선스이며, 무료 AI 할당량이 끝나면 채팅만 멈추고 나머지 기능은 계속 동작합니다.",
-      "titleEn": "Talorys: a personal AI agent on Cloudflare's free tier with one command",
-      "bodyEn": "One npx create-talorys@latest deploys a personal agent into your own Cloudflare account using only Pages, Workers, Durable Objects (SQLite) and Workers AI, with chat, memory, tasks, notes and recurring reminders. No telemetry, MIT licensed, and when the free AI quota runs out only chat pauses while other features keep working.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/rociiu/talorys",
-      "createdAt": "2026-10-10T10:00:00Z",
       "curatedAt": "2026-10-15T00:00:00Z"
     },
     {
@@ -158,58 +223,6 @@
       "curatedAt": "2026-10-13T23:14:23Z"
     },
     {
-      "id": "curated-20261014-kukshtel-ai-harness-game-dev",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "게임 개발용 AI 하네스 설계: 게임 자체를 에이전트의 검증 도구로",
-      "body": "게임은 상태가 불투명해 LLM이 다루기 어려우니 게임이 스스로 하네스가 되어야 한다는 글입니다. 시드 고정 난수로 재현성을 확보하고, 스크린샷을 odiff로 비교해 \"85% 유사\" 같은 점수를 매 턴 확인하게 합니다. 상태는 직렬화 가능한 객체와 명령으로 모델링하고, samply로 텍스트 프로파일 출력을 만들어 에이전트가 읽게 합니다.",
-      "titleEn": "How to engineer an AI harness for game development",
-      "bodyEn": "Games are hard for LLMs because state is opaque, so the game should act as its own harness. Use seeded randomness for reproducibility, compare screenshots with odiff to give the agent a similarity score (\"85% similar\") each turn, model state as serializable objects and commands, and use samply for text profiler output the agent can read.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
-      "createdAt": "2026-10-10T12:00:00Z",
-      "curatedAt": "2026-10-13T23:14:23Z"
-    },
-    {
-      "id": "curated-20261014-johnathanmo-hackathon-workflow",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=AoxK3JpxbRc",
-      "title": "Johnathan Mo: 해커톤 5연속 우승을 만든 Claude Code 워크플로우",
-      "body": "Johnathan Mo가 11분 57초 동안 해커톤에서 연달아 우승하는 데 쓴 Claude Code 작업 방식을 공개합니다. 짧은 시간에 아이디어를 동작하는 결과물로 만드는 단계를 내 프로젝트 흐름과 비교해 볼 수 있습니다.",
-      "titleEn": "Johnathan Mo: the Claude Code workflow behind 5 straight hackathon wins",
-      "bodyEn": "Johnathan Mo shares in 11m57s the Claude Code workflow he used to win hackathons back to back. Compare his steps for turning an idea into a working demo fast against your own project flow.",
-      "sourceName": "YouTube · Johnathan Mo",
-      "sourceUrl": "https://www.youtube.com/watch?v=AoxK3JpxbRc",
-      "createdAt": "2026-10-11T00:00:00Z",
-      "curatedAt": "2026-10-13T23:14:23Z"
-    },
-    {
-      "id": "curated-20261013-uber-mcp-gateway-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Uber의 MCP Gateway: 서버 800개·도구 5,000개를 하나의 관문으로",
-      "body": "Uber는 HTTP·gRPC·TChannel API를 백엔드 수정 없이 프로토콜 변환으로 MCP 도구로 노출합니다. 자동 발견된 도구는 기본 비활성이며 소유 팀 승인 후에만 공개되고, 도구 단위 인가와 개인정보 제거를 게이트웨이에서 공통 처리합니다. 4단계 탐색, 응답 필드 투영, Code Mode로 대용량 결과를 파일에 저장하는 방식이 토큰 비용 절감 아이디어입니다.",
-      "titleEn": "Uber's MCP Gateway: 800+ servers and 5,000+ tools behind one door",
-      "bodyEn": "Uber exposes HTTP, gRPC and TChannel APIs as MCP tools through protocol translation with no backend changes. Auto-discovered tools start disabled and need owner approval, while per-tool authorization and PII stripping live in the gateway. Four-step discovery, response field projection and Code Mode (large results to files) are the token-saving ideas to copy.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=35213",
-      "createdAt": "2026-10-12T12:00:00Z",
-      "curatedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "curated-20261013-context-is-the-new-code-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "컨텍스트가 새로운 코드다: 에이전트 컨텍스트도 테스트·배포·관찰하라",
-      "body": "AI 에이전트에 주는 컨텍스트를 코드처럼 생성·평가·배포·관찰하는 수명주기로 관리하자는 글입니다. 문법 검사에 그치지 않고 실제 저장소에서 작업이 되는지 테스트하고 변경 전후를 비교하며, 컨텍스트를 소유권·보안 검사·출처 추적이 있는 버전 패키지로 배포하라고 제안합니다. 운영 로그와 코드 리뷰를 다시 컨텍스트에 반영하는 루프도 포함됩니다.",
-      "titleEn": "Context is the new code: test, ship and observe your agent context",
-      "bodyEn": "An argument for managing agent context like code: generate, evaluate, deploy, observe. Test it on real repos rather than just linting, compare before and after, and ship it as versioned packages with ownership, security checks and provenance. Feed production logs and code reviews back into the context.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=35211",
-      "createdAt": "2026-10-12T11:00:00Z",
-      "curatedAt": "2026-10-12T23:08:30Z"
-    },
-    {
       "id": "curated-20261013-ddikul-gemini-skills-ko",
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=UZsVYlI6mVY",
@@ -234,32 +247,6 @@
       "sourceUrl": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/",
       "createdAt": "2026-10-09T15:00:00Z",
       "curatedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "curated-20261013-momo5502-agents-decompile-fps",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "에이전트 16개로 FPS 게임 디컴파일: 바이트 일치 스크립트가 정답 판정기",
-      "body": "4개 에이전트(작업자 3, 리뷰어 1)로 시작해 Luna 14개와 Opus 5.5 2개까지 늘려 함수 커버리지 99%, 바이트 일치 83%를 달성했습니다. 프로젝트 지침 문서를 cron으로 매시간 다시 읽히고 컨텍스트 압축 기준을 90%에서 42%로 낮췄으며, PASS/FAIL을 내는 바이트 비교 스크립트를 CI가 해시로 보호했습니다. 기계가 검증 가능한 정답 기준이 있어야 리뷰어만으로는 부족하다는 점이 교훈입니다.",
-      "titleEn": "500B tokens later: letting 16 agents decompile a first-person shooter",
-      "bodyEn": "Starting with 4 agents (3 workers, 1 reviewer) and scaling to 14 Luna and 2 Opus 5.5 agents, the project reached 99% function coverage and 83% byte-exact matches. A project instruction file was reloaded hourly by cron, compaction dropped from 90% to 42%, and a byte-matching PASS/FAIL script was hash-protected in CI. Lesson: reviewers alone are not enough without a machine-checkable definition of correct.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
-      "createdAt": "2026-10-09T12:00:00Z",
-      "curatedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "curated-20261011-suta-ui-skill-ko",
-      "title": "suta: AI가 만든 UI의 \"뻔한 카드·과한 색\" 문제를 줄이는 스킬",
-      "body": "Claude Code·Codex에 설치하는 UI 스킬입니다. AI가 반복해서 만드는 비슷한 카드 레이아웃, 과도한 색상, 불필요한 장식을 줄이도록 레이아웃·색상·모션 기준과 UI 패턴 레퍼런스를 제공합니다. 디자인 지침을 스킬로 묶어 두면 프롬프트마다 규칙을 반복 설명할 필요가 없습니다. GitHub의 Guksu/suta에서 확인할 수 있습니다.",
-      "titleEn": "suta: a skill that curbs repetitive cards and excessive color in AI-generated UI",
-      "bodyEn": "A UI skill for Claude Code and Codex. It feeds the agent layout, color and motion standards plus ready UI patterns, cutting the repeated card layouts, color overload and decoration AI tends to produce. Packaging design rules as a skill saves you from re-explaining them in every prompt. Source is Guksu/suta on GitHub.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=35119",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-10T20:00:00Z",
-      "curatedAt": "2026-10-10T23:09:50Z"
     }
   ]
 }
