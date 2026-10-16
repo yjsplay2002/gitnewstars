@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-10-15T23:07:32Z",
+  "generatedAt": "2026-10-16T23:08:12Z",
   "videos": [
+    {
+      "id": "vid-jaychoi-claude-code-mods-ko",
+      "youtubeId": "EHQwM1pxH2c",
+      "category": "tip",
+      "title": "Claude Code Mods 등장: 내 입맛대로 커스터마이즈",
+      "titleEn": "Claude Code Mods Are Here! Now You Can Customize Claude Code Exactly How You Want",
+      "descKo": "Mods로 Claude Code를 원하는 대로 바꾸는 법을 9분에 시연.",
+      "descEn": "A 9-minute demo of customizing Claude Code with Mods.",
+      "channel": "Jay Choi | 인디해커 라이프",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "addedAt": "2026-10-16T23:08:12Z"
+    },
+    {
+      "id": "vid-daveleemods-7-examples-ko",
+      "youtubeId": "ABpu4VbEpqM",
+      "category": "tip",
+      "title": "Mods로 Claude Code를 어디까지 바꿀 수 있나: 7가지 예제 테스트",
+      "titleEn": "How far can you customize Claude Code with Mods? Results from testing 7 examples",
+      "descKo": "Mods 예제 7개를 직접 테스트한 결과를 10분에 정리.",
+      "descEn": "Results from testing 7 Mods examples, in 10 minutes.",
+      "channel": "잔재미코딩(DaveLee)",
+      "publishedAt": "2026-10-11T00:00:00Z",
+      "addedAt": "2026-10-16T23:08:12Z"
+    },
+    {
+      "id": "vid-techbridge-vercel-ceo-workflow-ko",
+      "youtubeId": "21do1LvDNFI",
+      "category": "usecase",
+      "title": "Vercel CEO는 AI를 이렇게 씁니다: 실제 개발 워크플로 공개",
+      "titleEn": "Vercel CEO's real AI development workflow (Korean)",
+      "descKo": "Vercel CEO의 실제 AI 개발 워크플로를 16분에 정리.",
+      "descEn": "A 16-minute look at the Vercel CEO's real AI dev workflow.",
+      "channel": "Tech Bridge",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "addedAt": "2026-10-16T23:08:12Z"
+    },
+    {
+      "id": "vid-oppadu-ai-automation-3-steps-ko",
+      "youtubeId": "luimFKB9ZD8",
+      "category": "usecase",
+      "title": "컨설팅 없이 AI 자동화 1년, 직접 정리한 3단계 도입 과정",
+      "titleEn": "One year of AI automation without consultants: a 3-step rollout (Korean)",
+      "descKo": "컨설팅 없이 1년간 AI 자동화를 해 보고 정리한 3단계 과정을 17분에 소개.",
+      "descEn": "A 17-minute recap of a 3-step AI automation rollout done in-house over a year.",
+      "channel": "오빠두엑셀",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "addedAt": "2026-10-16T23:08:12Z"
+    },
+    {
+      "id": "vid-avthar-stopped-plan-mode",
+      "youtubeId": "TJsldEnkK8g",
+      "category": "tip",
+      "title": "Claude Code에서 Plan Mode를 그만 쓴 이유와 대안",
+      "titleEn": "I Stopped Using Plan Mode in Claude Code. Here's What I Do Instead.",
+      "descKo": "Plan Mode 대신 쓰는 작업 방식을 41분에 설명.",
+      "descEn": "A 41-minute walkthrough of the workflow used instead of Plan Mode.",
+      "channel": "AI with Avthar",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "addedAt": "2026-10-16T23:08:12Z"
+    },
+    {
+      "id": "vid-ibm-5-concepts-coding-agents",
+      "youtubeId": "hTAWHgQI4xg",
+      "category": "lecture",
+      "title": "AI 에이전트로 코딩할 때 알아야 할 5가지 개념",
+      "titleEn": "5 Concepts to Know for Coding with AI Agents",
+      "descKo": "에이전트 코딩의 핵심 개념 5가지를 10분에 정리.",
+      "descEn": "Five core concepts for coding with AI agents, in 10 minutes.",
+      "channel": "IBM Technology and IBM Developer",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "addedAt": "2026-10-16T23:08:12Z"
+    },
     {
       "id": "vid-aisync-claude-code-beginner-guide-ko",
       "youtubeId": "2R-kUFv7GZg",
@@ -23,18 +95,6 @@
       "descEn": "Compares design output with and without skills in Codex and Claude.",
       "channel": "미리의 시스템 연구소 Miri System Lab",
       "publishedAt": "2026-10-14T00:00:00Z",
-      "addedAt": "2026-10-15T23:07:32Z"
-    },
-    {
-      "id": "vid-robonuggets-claude-55-23-tips",
-      "youtubeId": "gvESqM6s0kM",
-      "category": "tip",
-      "title": "Claude 5.5에서 아직 하고 있을 실수와 해결책 23가지",
-      "titleEn": "Claude 5.5 Model Mistakes you may still be making (23 Tips and Fixes)",
-      "descKo": "새 모델 기준으로 자주 하는 실수 23가지와 고치는 법을 정리한다.",
-      "descEn": "23 common mistakes with the new Claude model and how to fix each.",
-      "channel": "Jay E | RoboNuggets",
-      "publishedAt": "2026-10-12T00:00:00Z",
       "addedAt": "2026-10-15T23:07:32Z"
     },
     {
@@ -108,66 +168,6 @@
       "channel": "Leon van Zyl",
       "publishedAt": "2026-10-14T00:00:00Z",
       "addedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "vid-metics-claude-code-vps-24-7",
-      "youtubeId": "nzAdaWt6oxM",
-      "category": "tip",
-      "title": "VPS에서 Claude Code를 24시간 돌리는 상시 에이전트",
-      "titleEn": "Run Claude Code 24/7 on a VPS (Always-On AI Agent Tutorial)",
-      "descKo": "VPS에 Claude Code를 올려 상시 에이전트로 쓰는 법을 14분에 설명.",
-      "descEn": "A 14-minute tutorial on running Claude Code as an always-on agent on a VPS.",
-      "channel": "Metics Media",
-      "publishedAt": "2026-10-14T00:00:00Z",
-      "addedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "vid-johnathanmo-hackathon-workflow",
-      "youtubeId": "AoxK3JpxbRc",
-      "category": "usecase",
-      "title": "해커톤 5연속 우승을 만든 Claude Code 워크플로우",
-      "titleEn": "The Claude Code workflow that helped me win 5 Hackathons in a Row",
-      "descKo": "해커톤에서 통한 Claude Code 작업 흐름을 12분에 공개.",
-      "descEn": "A 12-minute look at the Claude Code workflow behind five straight hackathon wins.",
-      "channel": "Johnathan Mo",
-      "publishedAt": "2026-10-11T00:00:00Z",
-      "addedAt": "2026-10-13T23:14:23Z"
-    },
-    {
-      "id": "vid-nicksaraev-claude-code-runs-business",
-      "youtubeId": "rvkjS3YoVio",
-      "category": "usecase",
-      "title": "Claude Code에게 연 매출 100만 달러 사업을 일주일 맡겨 봤다",
-      "titleEn": "I Let Claude Code Run My $1M/Year Business for a Whole Week",
-      "descKo": "실제 사업 운영을 Claude Code에 맡긴 일주일 실험을 8분에 요약.",
-      "descEn": "An 8-minute recap of a week-long experiment handing a real business to Claude Code.",
-      "channel": "Nick Saraev",
-      "publishedAt": "2026-10-13T00:00:00Z",
-      "addedAt": "2026-10-13T23:14:23Z"
-    },
-    {
-      "id": "vid-ddikul-gemini-skills-ko",
-      "youtubeId": "UZsVYlI6mVY",
-      "category": "tip",
-      "title": "젬스 대신 제미나이 스킬 쓰는 이유와 만드는 법",
-      "titleEn": "Still Using Gems? Why You Should Switch to Gemini Skills (Korean)",
-      "descKo": "Gemini 스킬을 만드는 방법과 Gems 대비 장점을 10분에 소개.",
-      "descEn": "Why Gemini Skills beat Gems and how to create one, in 10 minutes.",
-      "channel": "디꿀방",
-      "publishedAt": "2026-10-12T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
-    },
-    {
-      "id": "vid-simonscrapes-top1-claude-code",
-      "youtubeId": "J9NQTYUP6k0",
-      "category": "tip",
-      "title": "상위 1%가 Claude Code를 다르게 쓰는 방법",
-      "titleEn": "How the Top 1% Use Claude Code Differently",
-      "descKo": "숙련 사용자의 Claude Code 작업 방식을 18분에 정리.",
-      "descEn": "How power users work with Claude Code, in 18 minutes.",
-      "channel": "Simon Scrapes",
-      "publishedAt": "2026-10-10T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
     },
     {
       "id": "vid-vibelabs-what-to-build-ko",
