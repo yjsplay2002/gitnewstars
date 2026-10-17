@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-10-16T23:08:12Z",
+  "generatedAt": "2026-10-17T23:10:56Z",
   "videos": [
+    {
+      "id": "vid-diggul-gemini-skills-vs-gem-ko",
+      "youtubeId": "UZsVYlI6mVY",
+      "category": "tip",
+      "title": "Gem 대신 제미나이 스킬로 갈아타야 하는 이유",
+      "titleEn": "Still using Gems? Why switch to Gemini Skills (Korean)",
+      "descKo": "스킬을 10초 만에 만드는 노하우와 두 기능을 엮는 실무 팁을 10분에 소개.",
+      "descEn": "A 10-minute look at creating Gemini skills in seconds and chaining two features.",
+      "channel": "디꿀방",
+      "publishedAt": "2026-10-12T00:00:00Z",
+      "addedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "vid-simonscrapes-top-1-percent-claude-code",
+      "youtubeId": "J9NQTYUP6k0",
+      "category": "tip",
+      "title": "상위 1%는 Claude Code를 이렇게 다르게 쓴다",
+      "titleEn": "How the Top 1% Use Claude Code Differently",
+      "descKo": "숙련 사용자의 Claude Code 활용 방식을 18분에 정리.",
+      "descEn": "An 18-minute breakdown of how advanced users work with Claude Code.",
+      "channel": "Simon Scrapes",
+      "publishedAt": "2026-10-10T00:00:00Z",
+      "addedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "vid-aimaster-claude-code-beginner-2026",
+      "youtubeId": "WdZjoMi6W7Y",
+      "category": "lecture",
+      "title": "Claude Code 초보자 완벽 튜토리얼 2026",
+      "titleEn": "Ultimate Claude Code Tutorial: How to Use Claude Code for Beginners in 2026",
+      "descKo": "Claude Code 기초 사용법을 18분에 정리한 입문 강의.",
+      "descEn": "An 18-minute beginner tutorial on using Claude Code.",
+      "channel": "AI Master",
+      "publishedAt": "2026-10-05T00:00:00Z",
+      "addedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "vid-youri-n8n-ai-agents-beginner-2026",
+      "youtubeId": "xl7Y49yLPDs",
+      "category": "lecture",
+      "title": "n8n으로 AI 에이전트 만들기: 2026 입문",
+      "titleEn": "n8n Tutorial for Beginners in 2026: How to Build AI Agents",
+      "descKo": "n8n으로 AI 에이전트를 만드는 과정을 18분에 안내.",
+      "descEn": "An 18-minute guide to building AI agents with n8n.",
+      "channel": "Youri van Hofwegen",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "addedAt": "2026-10-17T23:10:56Z"
+    },
     {
       "id": "vid-jaychoi-claude-code-mods-ko",
       "youtubeId": "EHQwM1pxH2c",
@@ -11,18 +59,6 @@
       "descEn": "A 9-minute demo of customizing Claude Code with Mods.",
       "channel": "Jay Choi | 인디해커 라이프",
       "publishedAt": "2026-10-13T00:00:00Z",
-      "addedAt": "2026-10-16T23:08:12Z"
-    },
-    {
-      "id": "vid-daveleemods-7-examples-ko",
-      "youtubeId": "ABpu4VbEpqM",
-      "category": "tip",
-      "title": "Mods로 Claude Code를 어디까지 바꿀 수 있나: 7가지 예제 테스트",
-      "titleEn": "How far can you customize Claude Code with Mods? Results from testing 7 examples",
-      "descKo": "Mods 예제 7개를 직접 테스트한 결과를 10분에 정리.",
-      "descEn": "Results from testing 7 Mods examples, in 10 minutes.",
-      "channel": "잔재미코딩(DaveLee)",
-      "publishedAt": "2026-10-11T00:00:00Z",
       "addedAt": "2026-10-16T23:08:12Z"
     },
     {
@@ -110,18 +146,6 @@
       "addedAt": "2026-10-15T23:07:32Z"
     },
     {
-      "id": "vid-mydal-claude-md-tips-ko",
-      "youtubeId": "H1A27Gveo2M",
-      "category": "tip",
-      "title": "CLAUDE.md 길게 쓰면 절반은 무시된다: 실전 팁 7가지",
-      "titleEn": "Long CLAUDE.md gets half ignored: 7 tips to make rules stick",
-      "descKo": "에이전트가 규칙을 실제로 따르게 하는 CLAUDE.md 작성 팁 7가지.",
-      "descEn": "Seven tips for writing a CLAUDE.md that the agent actually follows.",
-      "channel": "마이달 Mydal",
-      "publishedAt": "2026-10-10T00:00:00Z",
-      "addedAt": "2026-10-15T23:07:32Z"
-    },
-    {
       "id": "vid-stefancho-claude-code-codex-workflow-ko",
       "youtubeId": "RPRZ31bjWOo",
       "category": "usecase",
@@ -146,18 +170,6 @@
       "addedAt": "2026-10-15T00:00:00Z"
     },
     {
-      "id": "vid-seoulian-vibe-coding-mac-apps-ko",
-      "youtubeId": "frqfwvC4LCg",
-      "category": "usecase",
-      "title": "바이브 코딩이 맥 앱 시장을 바꿨습니다 (유료보다 나은 무료 앱 5개)",
-      "titleEn": "Vibe coding changed the Mac app market: 5 free apps better than paid (Korean)",
-      "descKo": "바이브 코딩으로 나온 무료 맥 앱 5개를 12분에 소개.",
-      "descEn": "Five free Mac apps born from vibe coding, in 12 minutes.",
-      "channel": "서울리안 SEOULiAN",
-      "publishedAt": "2026-10-14T00:00:00Z",
-      "addedAt": "2026-10-15T00:00:00Z"
-    },
-    {
       "id": "vid-leonvanzyl-harness-engineering",
       "youtubeId": "z1EaBe9oIME",
       "category": "lecture",
@@ -168,18 +180,6 @@
       "channel": "Leon van Zyl",
       "publishedAt": "2026-10-14T00:00:00Z",
       "addedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "vid-vibelabs-what-to-build-ko",
-      "youtubeId": "BEcQOU_bK_g",
-      "category": "usecase",
-      "title": "클로드 코드·코덱스를 결제했는데 뭘 만들지 모르겠다면",
-      "titleEn": "Paid for Claude Code and Codex but not sure what to build (Korean)",
-      "descKo": "코딩 에이전트로 무엇을 만들지 막막한 사람을 위한 18분 가이드.",
-      "descEn": "An 18-minute guide for those unsure what to build with coding agents.",
-      "channel": "바이브랩스",
-      "publishedAt": "2026-10-11T00:00:00Z",
-      "addedAt": "2026-10-12T23:08:30Z"
     }
   ]
 }

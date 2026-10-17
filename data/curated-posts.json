@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-10-16T23:08:12Z",
+  "generatedAt": "2026-10-17T23:10:56Z",
   "posts": [
+    {
+      "id": "curated-20261018-momo5502-decompile-byte-match-oracle",
+      "title": "5천억 토큰으로 FPS 게임 디컴파일: 리뷰어 대신 바이트 일치 검증기가 답이었다",
+      "body": "Claude Max·Codex Pro로 약 3개월간 에이전트들을 돌려 슈터 게임을 C++로 복원했다. 리뷰어 에이전트는 그럴듯한 변명을 받아줬기에, 원본 컴파일러로 빌드한 오브젝트 파일을 원본과 바이트 단위로 비교하는 PASS/FAIL 오라클을 만들었다. 함수 99%가 존재하고 83%가 바이트 일치했으며, 객관적 검증이 생기자 저렴한 모델로도 충분했고 컨텍스트 압축 임계값을 42%로 낮추고 매시간 지시문을 재주입한 점도 따라 할 만하다.",
+      "titleEn": "500B tokens later: letting AI agents decompile a first-person shooter",
+      "bodyEn": "Over about three months, Claude Max and Codex Pro agents rebuilt a shooter in C++. Because the reviewer agent accepted plausible excuses, the author built a PASS/FAIL byte-matching oracle that compares object files compiled with the original compiler to the original binary. 99% of functions exist and 83% are byte-exact; with objective checks cheaper models sufficed, and lowering the compaction threshold to 42% plus an hourly instruction re-injection kept agents on track.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-09T12:00:00Z",
+      "curatedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "curated-20261018-geeknews-dentist-ax-local-ai-ko",
+      "title": "동네 치과의 AX 전환기: 코딩 에이전트로 근태·보험·전화까지 자동화",
+      "body": "한 치과가 AI 코딩 에이전트를 포털·전화·음성 서버·인프라 영역으로 나눠 맡기고 서로의 오류를 확인하게 해 근태, 보험 서류, 통화 전사, 장부 대조를 자동화했다. 보험 서류 904건(3,389쪽)을 69분에 판독하고 지급·거절 내역의 약 77%를 자동 확정하며, AI는 진료 기록을 읽고 제안만 하고 설정 변경은 원장이 승인한다. 댓글에서 비용 대비 효과와 사실 여부에 의문이 제기됐으니 원문 주장으로 참고하자.",
+      "titleEn": "A neighborhood dentist AX journey: coding agents automate attendance, insurance and phones",
+      "bodyEn": "A dental clinic split AI coding agents across portal, phone, voice-server and infrastructure areas and had them cross-check each other to automate attendance, insurance paperwork, call transcription and ledger reconciliation. It read 904 insurance documents (3,389 pages) in 69 minutes and auto-confirmed about 77% of payment/rejection entries; the AI only reads and suggests, and the owner approves config changes. Commenters questioned cost-effectiveness and authenticity, so treat these as the author claims.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=35381",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-13T09:15:00Z",
+      "curatedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "curated-20261018-geeknews-claude-code-hardware-reverse-engineering-ko",
+      "title": "Claude Code로 하드웨어 역공학: USB 트레이스 diff로 스캐너 드라이버와 노트북 카메라 개선",
+      "body": "Windows VM에서 벤더 드라이버의 USB 통신을 usbmon으로 캡처하고, 직접 만든 드라이버의 통신과 diff해 차이를 버그 목록으로 삼는 hw-harness 흐름을 소개한다. 이 방식으로 필름 스캐너 드라이버가 몇 시간 만에 첫 스캔에 성공했고, IMX471 카메라 드라이버와 libcamera 수정으로 저조도 밝기가 31.1에서 90.9로 올랐다. 반복적인 바이트 패턴 분석은 Claude가, 실물 확인은 사람이 맡는 역할 분담이 핵심이다.",
+      "titleEn": "Claude Code for hardware reverse engineering: USB-trace diffs fix a scanner driver and a laptop camera",
+      "bodyEn": "The hw-harness workflow records a vendor driver USB traffic in a Windows VM with usbmon, records your own driver the same way, and treats the diff as a bug list. It got a film scanner producing its first Linux scan within hours, and kernel-driver plus libcamera fixes raised low-light camera brightness from 31.1 to 90.9. Claude handled repetitive byte-pattern analysis while the human verified on real hardware.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=35468",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-15T00:00:00Z",
+      "curatedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "curated-20261018-diggul-gemini-skills-vs-gem-ko",
+      "title": "디꿀방: 아직도 Gem 쓰세요? 제미나이 스킬로 갈아타야 하는 이유",
+      "body": "디꿀방이 10분 21초 동안 Gemini 스킬을 10초 만에 만드는 노하우와 두 기능을 엮어 실행하는 실무 팁을 보여준다. 조회수 2만 4천 이상으로, Gem 대신 스킬로 반복 업무를 옮기려는 Gemini 사용자가 따라 하기 좋다.",
+      "titleEn": "Dikkulbang: still using Gems? Why switch to Gemini Skills",
+      "bodyEn": "Dikkulbang shows in 10m21s how to generate a Gemini skill in about 10 seconds and chain two features for stronger practical workflows. With over 24k views, it is a good follow-along for Gemini users moving repeat tasks from Gems to skills.",
+      "sourceName": "YouTube · 디꿀방",
+      "sourceUrl": "https://www.youtube.com/watch?v=UZsVYlI6mVY",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=UZsVYlI6mVY",
+      "createdAt": "2026-10-12T00:00:00Z",
+      "curatedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "curated-20261018-z2zlife-controllable-agent-workflow-ko",
+      "title": "z2zlife: 통제 가능한 AI 에이전트 워크플로우 설계 (오픈소스)",
+      "body": "z2zlife가 8분 17초 동안 오픈소스로 에이전트 워크플로우를 사람이 통제할 수 있게 설계하는 방법을 소개한다. 에이전트에 일을 맡기면서도 단계별 통제 지점을 두고 싶은 사람이 구조를 참고할 만하다.",
+      "titleEn": "z2zlife: designing a controllable AI agent workflow (open source)",
+      "bodyEn": "z2zlife presents in 8m17s an open-source way to design agent workflows that humans can keep under control. Worth a look if you want agents to do the work while keeping step-level control points.",
+      "sourceName": "YouTube · z2zlife",
+      "sourceUrl": "https://www.youtube.com/watch?v=cfsMUt5paok",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=cfsMUt5paok",
+      "createdAt": "2026-10-14T00:00:00Z",
+      "curatedAt": "2026-10-17T23:10:56Z"
+    },
+    {
+      "id": "curated-20261018-simonscrapes-top-1-percent-claude-code",
+      "title": "Simon Scrapes: 상위 1%는 Claude Code를 이렇게 다르게 쓴다",
+      "body": "Simon Scrapes가 18분 9초 동안 숙련 사용자가 Claude Code를 쓰는 방식이 초보와 어떻게 다른지 정리한다. 조회수 23만 이상으로, 자기 워크플로우를 점검하고 싶은 사용자가 참고할 만하다.",
+      "titleEn": "Simon Scrapes: how the top 1% use Claude Code differently",
+      "bodyEn": "Simon Scrapes spends 18m09s on how experienced users work with Claude Code differently from beginners. Over 230k views; useful for auditing your own workflow.",
+      "sourceName": "YouTube · Simon Scrapes",
+      "sourceUrl": "https://www.youtube.com/watch?v=J9NQTYUP6k0",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=J9NQTYUP6k0",
+      "createdAt": "2026-10-10T00:00:00Z",
+      "curatedAt": "2026-10-17T23:10:56Z"
+    },
     {
       "id": "curated-20261017-claude-code-team-code-review",
       "title": "Claude Code 팀은 코드 리뷰를 이렇게 한다: AI 리뷰 + 위험도별 사람 승인",
@@ -41,32 +119,6 @@
       "curatedAt": "2026-10-16T23:08:12Z"
     },
     {
-      "id": "curated-20261017-talorys-self-hosted-agent-cloudflare-free",
-      "title": "Talorys: Cloudflare 무료 플랜에서 돌리는 나만의 개인 AI 에이전트",
-      "body": "`npx create-talorys@latest` 한 줄로 Cloudflare 계정에 Worker·Pages를 배포해 서버·DB 없이 개인 에이전트를 만든다. Durable Object(SQLite)에 기억·할 일·노트·반복 알림을 저장하고 Workers AI로 스트리밍 채팅과 툴 호출을 하며, 무료 한도가 끝나도 AI 외 기능은 계속 동작한다. 자체 호스팅 에이전트를 비용 없이 시험해 보고 싶을 때 좋다.",
-      "titleEn": "Talorys: a personal AI agent running on Cloudflare's free tier",
-      "bodyEn": "`npx create-talorys@latest` deploys a Worker and Pages site into your own Cloudflare account with no server or database. A Durable Object (SQLite) stores memory, tasks, notes and recurring reminders, Workers AI handles streaming chat and tool calls, and non-AI features keep working after the free quota runs out. A no-cost way to try a self-hosted agent.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/rociiu/talorys",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-10T10:52:00Z",
-      "curatedAt": "2026-10-16T23:08:12Z"
-    },
-    {
-      "id": "curated-20261017-jaychoi-claude-code-mods-ko",
-      "title": "Jay Choi: Claude Code Mods로 인터페이스를 내 입맛대로 바꾸기",
-      "body": "인디해커 Jay Choi가 9분 25초 동안 Claude Code Mods로 화면과 동작을 원하는 대로 커스터마이즈하는 방법을 보여준다. 상태줄·패널 같은 기능을 직접 얹어 쓰고 싶은 사용자가 시작점으로 삼을 만하다.",
-      "titleEn": "Jay Choi: Customize Claude Code exactly how you want with Mods",
-      "bodyEn": "Indie hacker Jay Choi shows in 9m25s how Claude Code Mods let you customize the interface and behavior. A good starting point if you want to add your own status lines or panels.",
-      "sourceName": "YouTube · Jay Choi | 인디해커 라이프",
-      "sourceUrl": "https://www.youtube.com/watch?v=EHQwM1pxH2c",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=EHQwM1pxH2c",
-      "createdAt": "2026-10-13T00:00:00Z",
-      "curatedAt": "2026-10-16T23:08:12Z"
-    },
-    {
       "id": "curated-20261017-techbridge-vercel-ceo-ai-workflow-ko",
       "title": "Tech Bridge: Vercel CEO가 실제로 AI를 쓰는 개발 워크플로",
       "body": "Tech Bridge가 15분 38초 동안 Vercel CEO가 AI를 개발에 쓰는 실제 워크플로를 한국어로 정리한다. 도구 선택보다 작업 흐름을 어떻게 짜는지 비교해 보고 싶은 사람에게 맞다.",
@@ -93,19 +145,6 @@
       "curatedAt": "2026-10-16T23:08:12Z"
     },
     {
-      "id": "curated-20261017-gusamcheol-codex-blog-cardnews-shorts-ko",
-      "title": "구삼철: Codex로 블로그·카드뉴스·쇼츠까지 만들어 본 후기",
-      "body": "구삼철이 6분 44초 동안 Codex로 블로그 글, 카드뉴스, 쇼츠를 만들며 던진 질문 8개를 공개한다. 코딩 말고 콘텐츠 제작에 Codex를 쓰려는 사람이 프롬프트 방향을 잡기 좋다.",
-      "titleEn": "Gusamcheol: making blogs, card news and shorts with Codex (8 questions revealed)",
-      "bodyEn": "Gusamcheol shows in 6m44s the 8 questions used to get a blog post, card news and shorts out of Codex. Handy for anyone using Codex for content rather than code.",
-      "sourceName": "YouTube · 구삼철",
-      "sourceUrl": "https://www.youtube.com/watch?v=T3z9EMWZx_0",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=T3z9EMWZx_0",
-      "createdAt": "2026-10-11T00:00:00Z",
-      "curatedAt": "2026-10-16T23:08:12Z"
-    },
-    {
       "id": "curated-20261016-opencode-2-code-mode-background-agents",
       "title": "OpenCode 2.0: Code Mode로 MCP 호출을 한 번에, 백그라운드 에이전트까지",
       "body": "OpenCode 2.0은 로컬 백그라운드 서비스 하나에 TUI·웹·데스크톱이 붙는 구조로 바뀌었다. Code Mode는 작은 JS 인터프리터로 MCP 서버와 OpenAPI 엔드포인트를 함수로 노출해 도구 호출을 한 번의 왕복으로 줄이고, 서브에이전트와 셸 명령을 백그라운드로 돌릴 수 있다. 1.0 플러그인은 호환되지 않으며 `opencode upgrade --major`로 업그레이드한다.",
@@ -116,19 +155,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-10-15T00:00:00Z",
-      "curatedAt": "2026-10-15T23:07:32Z"
-    },
-    {
-      "id": "curated-20261016-mtlynch-why-coding-agents-dumb",
-      "title": "왜 코딩 에이전트는 아직 멍청한가: 모델이 아니라 에이전트 계층이 병목",
-      "body": "Michael Lynch는 독립 작업을 순차 실행하고, 단순 작업을 싼 모델에 넘기지 않으며, 샌드박스를 문서상의 부탁에 의존하는 점 등을 구체적으로 짚는다. 그가 바라는 기능은 작업별 모델 선택, 위에서 아래로 읽히는 계획, 시스템 수준의 진짜 샌드박스, 일정 시간 무응답이면 자동 결정이다. 에이전트 도구를 고르거나 직접 만들 때 체크리스트로 쓸 만하다.",
-      "titleEn": "Why are coding agents so dumb? The agent layer, not the model, is the bottleneck",
-      "bodyEn": "Michael Lynch details how agents run independent subtasks serially, never hand grunt work to cheaper models, and rely on polite doc requests instead of enforced sandboxing. His wish list: per-task model selection, top-down readable plans, real system-level sandboxing, and automatic decisions after inactivity. A handy checklist when choosing or building agent tooling.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://mtlynch.io/why-are-coding-agents-so-dumb/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-09T14:21:00Z",
       "curatedAt": "2026-10-15T23:07:32Z"
     },
     {
@@ -219,19 +245,6 @@
       "bodyEn": "The post argues failures are usually operational, not model problems. Put the commands run and real results into the definition of done, cap fix attempts at 3, and enforce prohibitions with a ~20-line PreToolUse hook (exit 2) instead of prompt rules. Give reviewer sub-agents no edit rights and split memory into turn logs, a daily summary (40 lines max) and long-term memory (120 lines max).",
       "sourceName": "GeekNews",
       "sourceUrl": "https://news.hada.io/topic?id=35266",
-      "createdAt": "2026-10-13T00:00:00Z",
-      "curatedAt": "2026-10-13T23:14:23Z"
-    },
-    {
-      "id": "curated-20261014-torvalds-claude-code-kernel-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "Linus Torvalds가 Claude Code로 리눅스 커널 읽기 경합을 개선 중",
-      "body": "Torvalds는 Claude Code에 코드·테스트·리뷰 체크리스트·패치 설명 초안을 쓰게 하고 성능 측정은 직접 돌렸습니다. 페이지 캐시를 refcount 변경 없이 읽는 경로를 추가해 노트북(i7-8565U, ext4)에서 8스레드 pread() 처리량이 약 10M에서 30M reads/sec로 올랐습니다. 에이전트는 작성, 사람은 측정과 검증으로 역할을 나눈 사례입니다.",
-      "titleEn": "Linus Torvalds is using Claude Code to cut Linux kernel read contention",
-      "bodyEn": "Torvalds had Claude Code write the code, tests, review checklists and patch description drafts while he ran the performance measurements himself. A read path that skips folio refcount changes lifted 8-thread pread() from about 10M to 30M reads/sec on an i7-8565U laptop with ext4. A clean split: agent writes, human measures and verifies.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=35265",
       "createdAt": "2026-10-13T00:00:00Z",
       "curatedAt": "2026-10-13T23:14:23Z"
     },
