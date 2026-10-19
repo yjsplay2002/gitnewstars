@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T23:10:38Z",
+  "generatedAt": "2026-10-19T23:17:16Z",
   "videos": [
     {
       "id": "vid-shinyoungsun-claude-video-automation-ko",
@@ -122,64 +122,64 @@
       "addedAt": "2026-10-15T00:00:00Z"
     },
     {
-      "id": "vid-robonuggets-claude-55-23-tips",
-      "youtubeId": "gvESqM6s0kM",
+      "id": "vid-aisync-claude-code-mods-4-ko",
+      "youtubeId": "jPUbsnsKHQw",
       "category": "tip",
-      "title": "Claude 5.5 실수 방지 팁 23가지",
-      "titleEn": "Claude 5.5 Model Mistakes you may still be making (23 Tips and Fixes)",
-      "descKo": "Claude 5.5를 쓰며 흔히 하는 실수 23가지와 해결법",
-      "descEn": "23 common Claude 5.5 mistakes and their fixes",
-      "channel": "Jay E | RoboNuggets",
-      "publishedAt": "2026-10-12T00:00:00Z",
-      "addedAt": "2026-10-18T23:10:38Z"
+      "title": "Claude Code Mods 4가지 실습: 업무 자동화 실제 예시",
+      "titleEn": "클로드 코드 미친 신기능 Mods, 지금 당장 깔아야 할 4개｜업무 자동화 실제 예시로 처음부터 끝까지",
+      "descKo": "상태 띠·메모 창·AI 티 지킴이·번호 가림막 모드를 만들어 보는 실습을 9분에 정리.",
+      "descEn": "A 9-minute walkthrough of four Claude Code Mods: status bar, notes pane, AI-tone guard and number mask.",
+      "channel": "AI싱크클럽",
+      "publishedAt": "2026-10-18T00:00:00Z",
+      "addedAt": "2026-10-19T23:17:16Z"
     },
     {
-      "id": "vid-diggul-gemini-skills-vs-gem-ko",
-      "youtubeId": "UZsVYlI6mVY",
-      "category": "tip",
-      "title": "Gem 대신 제미나이 스킬로 갈아타야 하는 이유",
-      "titleEn": "Still using Gems? Why switch to Gemini Skills (Korean)",
-      "descKo": "스킬을 10초 만에 만드는 노하우와 두 기능을 엮는 실무 팁을 10분에 소개.",
-      "descEn": "A 10-minute look at creating Gemini skills in seconds and chaining two features.",
-      "channel": "디꿀방",
-      "publishedAt": "2026-10-12T00:00:00Z",
-      "addedAt": "2026-10-17T23:10:56Z"
+      "id": "vid-digitalturtle-gemini-canvas-app-ko",
+      "youtubeId": "AH1aF43iz0Y",
+      "category": "lecture",
+      "title": "코딩 몰라도 제미나이 캔버스로 앱 만들기",
+      "titleEn": "코딩몰라도 제미나이 캔버스로 앱 만들기 | 바이브 코딩 기초",
+      "descKo": "메뉴 추첨기·타이머·퀴즈 프로그램을 만들며 배우는 바이브 코딩 입문 12분 강의.",
+      "descEn": "A 12-minute beginner vibe coding lesson building a menu picker, timer and quiz app in Gemini Canvas (Korean).",
+      "channel": "디지털거북이",
+      "publishedAt": "2026-10-18T00:00:00Z",
+      "addedAt": "2026-10-19T23:17:16Z"
     },
     {
-      "id": "vid-techbridge-vercel-ceo-workflow-ko",
-      "youtubeId": "21do1LvDNFI",
+      "id": "vid-citizendev9c-ai-agent-skills-10-ko",
+      "youtubeId": "TbRPMUjoX_w",
+      "category": "tip",
+      "title": "비개발자가 활용해야 할 AI 에이전트 스킬 10가지",
+      "titleEn": "2026 비개발자라면 활용해야 할 AI 에이전트 스킬 10가지!",
+      "descKo": "기획·리서치·디자인·글쓰기·마케팅·보안 스킬 10가지를 업무 사례와 함께 21분에 소개.",
+      "descEn": "Ten agent skills for planning, research, design, writing, marketing and security with work examples, in 21 minutes (Korean).",
+      "channel": "Citizen Developer 9c",
+      "publishedAt": "2026-10-17T00:00:00Z",
+      "addedAt": "2026-10-19T23:17:16Z"
+    },
+    {
+      "id": "vid-johnkim-codex-app-vs-terminal",
+      "youtubeId": "yK9GnaE9rlY",
+      "category": "tip",
+      "title": "터미널 말고 Codex 앱을 써야 하는 14가지 이유",
+      "titleEn": "Stop Using Codex in Terminal (It’s Holding You Back)",
+      "descKo": "프롬프트 큐, 사이드 챗, 내장 브라우저, 스케줄 등 Codex 앱 기능 14가지를 29분에 시연.",
+      "descEn": "A 29-minute demo of 14 Codex app features such as prompt queue, side chats, built-in browser and schedules.",
+      "channel": "John Kim",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "addedAt": "2026-10-19T23:17:16Z"
+    },
+    {
+      "id": "vid-hongarin-gemini-spark-agent-ko",
+      "youtubeId": "_qI7NjHwp5Q",
       "category": "usecase",
-      "title": "Vercel CEO는 AI를 이렇게 씁니다: 실제 개발 워크플로 공개",
-      "titleEn": "Vercel CEO's real AI development workflow (Korean)",
-      "descKo": "Vercel CEO의 실제 AI 개발 워크플로를 16분에 정리.",
-      "descEn": "A 16-minute look at the Vercel CEO's real AI dev workflow.",
-      "channel": "Tech Bridge",
-      "publishedAt": "2026-10-12T00:00:00Z",
-      "addedAt": "2026-10-16T23:08:12Z"
-    },
-    {
-      "id": "vid-aiconlab-claude-code-6-modes-ko",
-      "youtubeId": "bS-m7D47KFw",
-      "category": "tip",
-      "title": "새 클로드 코드 모드 6개",
-      "titleEn": "새로 나온 클로드 코드 모드 6개, 일하는 방식이 진짜 바뀝니다",
-      "descKo": "새로 나온 클로드 코드 모드 6가지와 달라지는 작업 방식 정리",
-      "descEn": "Six new Claude Code modes and how they change your workflow (Korean)",
-      "channel": "Ai-Con Lab",
-      "publishedAt": "2026-10-11T00:00:00Z",
-      "addedAt": "2026-10-18T23:10:38Z"
-    },
-    {
-      "id": "vid-mildcode-real-vibe-coding-ko",
-      "youtubeId": "wgrpasYyiIQ",
-      "category": "usecase",
-      "title": "Claude Code 창시자에게 배우는 진짜 바이브 코딩",
-      "titleEn": "The \"Real\" Vibe Coding, Straight from the Creator of Claude Code",
-      "descKo": "Claude Code 개발자의 작업 방식을 바탕으로 바이브 코딩 접근법을 설명한다.",
-      "descEn": "Explains a vibe coding approach based on the Claude Code creator's own workflow.",
-      "channel": "마일드코드",
-      "publishedAt": "2026-10-11T00:00:00Z",
-      "addedAt": "2026-10-15T23:07:32Z"
+      "title": "제미나이 스파크로 하루 종일 일하는 AI 직원 만들기",
+      "titleEn": "제미나이 스파크(Spark) 사용법 총정리 | 하루 종일 일하는 AI 직원(에이전트) 만들기",
+      "descKo": "채팅창 글만으로 매주 월요일 아침 고객 리서치를 시트에 정리하는 에이전트를 11분에 구축.",
+      "descEn": "Builds a scheduled Gemini Spark agent that fills a Google Sheet with weekly client research, in 11 minutes (Korean).",
+      "channel": "홍아린 AI",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "addedAt": "2026-10-19T23:17:16Z"
     }
   ]
 }
