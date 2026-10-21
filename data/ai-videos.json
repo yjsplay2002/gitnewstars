@@ -1,6 +1,138 @@
 {
-  "generatedAt": "2026-10-19T23:17:16Z",
+  "generatedAt": "2026-10-21T23:12:00Z",
   "videos": [
+    {
+      "id": "vid-ailabs-anthropic-engineer-claude-code",
+      "youtubeId": "92ZDgn8bgLM",
+      "category": "tip",
+      "title": "Anthropic 엔지니어처럼 Claude Code 쓰기: 작업이 아니라 결과를 시켜라",
+      "titleEn": "Anthropic Just Revealed How Their Engineers Use Claude Code",
+      "descKo": "고도·깊이·범위·자원 네 축으로 에이전트에게 더 야심 찬 일을 시키는 법을 12분에 정리.",
+      "descEn": "Twelve minutes on asking for outcomes, not tasks: altitude, depth, range and resources.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-benai-9-claude-code-mods",
+      "youtubeId": "bTqizdva04g",
+      "category": "tip",
+      "title": "Claude Code Mods 100개 써 보고 고른 9가지",
+      "titleEn": "I Tried 100+ Claude Mods, These 9 Are the Best",
+      "descKo": "서브에이전트 현황 보기, 긴 대화 비용 줄이기 등 실제로 남긴 모드 9개를 14분에 소개.",
+      "descEn": "A 14-minute tour of the 9 mods kept out of 100+ tested, from subagent visibility to cheaper long chats.",
+      "channel": "Ben AI",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-rootai-claude-code-mods-a-to-z-ko",
+      "youtubeId": "Cu1_9ktuDr8",
+      "category": "tip",
+      "title": "클로드 코드 모드(Mods) A to Z, 10분 정리",
+      "titleEn": "클로드 코드 모드(Mods) A to Z, 10분 만에 쉽게 알려드립니다 (26년 10월 최신)",
+      "descKo": "모드 개념과 스킬·MCP와의 차이, 토큰 사용량·다음 작업 추천 모드 실습을 9분에 정리.",
+      "descEn": "A 9-minute Korean primer on Mods versus skills and MCP, with hands-on token-usage and next-task-suggestion mods.",
+      "channel": "이동훈의 루트AI",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-techwithtim-claude-code-real-data-app",
+      "youtubeId": "3rgd2Xx5ceg",
+      "category": "usecase",
+      "title": "Claude Code로 실제 데이터 앱을 $0에 만들기",
+      "titleEn": "I Built a Real Data App with Claude Code (and It Cost $0)",
+      "descKo": "플랜 모드로 계획하고 Databricks 무료 계정에 연결해 실제 데이터를 분석하고 배포까지 하는 14분 실습.",
+      "descEn": "A 14-minute build: plan with Plan mode, connect a free Databricks account, analyze real data and deploy a live app.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-ptube-codex-content-harness-ko",
+      "youtubeId": "zoWfZ651_A4",
+      "category": "usecase",
+      "title": "Codex로 콘텐츠 기획 하네스 세팅하기 (Codex + Aside + Figma)",
+      "titleEn": "저는 이제 콘텐츠 기획 직접 안 해요 (Codex + Aside + Figma 자동화)",
+      "descKo": "brand.md·스킬·AGENTS.md로 경쟁사 조사부터 기획안·HTML 시안·피그마 산출물까지 만드는 38분 실습.",
+      "descEn": "A 38-minute Korean build of a content harness with brand.md, skills and AGENTS.md, from competitor research to a Figma deliverable.",
+      "channel": "피튜브",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-pyeongbeom-codex-harness-app-server-ko",
+      "youtubeId": "Q2J6njY5Mkc",
+      "category": "lecture",
+      "title": "Codex 하네스와 App Server 구조 이해하기",
+      "titleEn": "AI는 모델만으로 일하지 않습니다｜Codex 하네스의 역할",
+      "descKo": "OpenAI 발표를 번역·해설해 모델·하네스·앱 서버의 역할과 내 앱 연결법을 22분에 설명.",
+      "descEn": "A 22-minute Korean walkthrough of an OpenAI talk on how the model, harness and App Server fit together and connect to your own app.",
+      "channel": "평범한 사업가 | AI SuperUser",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-vibelabs-claude-code-slash-commands-ko",
+      "youtubeId": "pj5tbCkHmAM",
+      "category": "lecture",
+      "title": "클로드 코드 슬래시 명령어 완전 정리",
+      "titleEn": "클로드 코드, 똑똑한 채팅창으로만 쓰고 계신가요? 슬래시 명령어 완전 정리",
+      "descKo": "설치부터 슬래시 명령어, 권한 모드, CLAUDE.md, 스킬·MCP·훅까지 31분에 정리한 입문 강의.",
+      "descEn": "A 31-minute Korean beginner lecture from install through slash commands, permission modes, CLAUDE.md, skills, MCP and hooks.",
+      "channel": "바이브랩스",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "addedAt": "2026-10-21T23:12:00Z"
+    },
+    {
+      "id": "vid-vibelabs-jarvis-ai-org-ko",
+      "youtubeId": "szE-23oCoUk",
+      "category": "usecase",
+      "title": "그록봇·클로드 코드·챗GPT로 'AI 조직' 자비스 만들기",
+      "titleEn": "그록봇·클로드 코드·챗GPT로 AI 비서 자비스를 만들었습니다",
+      "descKo": "비서실·본부·전략기획실 역할로 AI를 나눠 7가지 업무 평가 항목으로 검증한 13분 실험.",
+      "descEn": "A 13-minute experiment splitting Grok, Claude Code and ChatGPT into an AI org and grading it on 7 work criteria (Korean).",
+      "channel": "바이브랩스",
+      "publishedAt": "2026-10-18T00:00:00Z",
+      "addedAt": "2026-10-20T23:14:00Z"
+    },
+    {
+      "id": "vid-ailabs-vercel-ceo-ai-coding-workflow",
+      "youtubeId": "y2ifUC9_zuU",
+      "category": "tip",
+      "title": "Vercel CEO의 AI 코딩 워크플로우 7가지",
+      "titleEn": "Vercel's CEO Just Unveiled The Greatest AI Coding Workflow Ever",
+      "descKo": "방향 점검, 브레이커 에이전트, 첫 사용자 에이전트 등 따라 할 수 있는 7가지 팁을 14분에 정리.",
+      "descEn": "Seven copyable tips in 14 minutes: direction checks, a breaker agent, a first-time-user agent and more.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "addedAt": "2026-10-20T23:14:00Z"
+    },
+    {
+      "id": "vid-ibm-loop-engineering",
+      "youtubeId": "DQBqh6gcx7U",
+      "category": "lecture",
+      "title": "루프 엔지니어링: 목표를 향해 도는 에이전트 설계",
+      "titleEn": "What Is Loop Engineering? Building Better AI Agents",
+      "descKo": "검증 가능한 목표·트리거·서브에이전트·사람의 감독으로 에이전트 루프를 짜는 법을 11분에 설명.",
+      "descEn": "An 11-minute explainer on agent loops built from verifiable goals, triggers, subagents and human oversight.",
+      "channel": "IBM Technology",
+      "publishedAt": "2026-10-19T00:00:00Z",
+      "addedAt": "2026-10-20T23:14:00Z"
+    },
+    {
+      "id": "vid-miri-codex-claude-skill-making-ko",
+      "youtubeId": "Psvwe3H6QXY",
+      "category": "tip",
+      "title": "반복하는 수정 지시를 코덱스·클로드 코드 스킬로 만들기",
+      "titleEn": "코덱스·클로드 코드 스킬 만들기｜같은 수정 지시를 반복하고 있다면",
+      "descKo": "반복 피드백을 작업 기준 문서와 스킬로 정리하는 과정을 13분에 시연.",
+      "descEn": "A 13-minute demo of turning repeated feedback into reusable work criteria and skills (Korean).",
+      "channel": "미리의 시스템 연구소 Miri System Lab",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "addedAt": "2026-10-20T23:14:00Z"
+    },
     {
       "id": "vid-shinyoungsun-claude-video-automation-ko",
       "youtubeId": "57IVfvXqUVs",
@@ -11,18 +143,6 @@
       "descEn": "All-in-one guide to automating motion graphics and editing with Claude (Korean)",
       "channel": "신영선의 AI탐구",
       "publishedAt": "2026-10-18T00:00:00Z",
-      "addedAt": "2026-10-18T23:10:38Z"
-    },
-    {
-      "id": "vid-grant-codex-hackathon-agent-ko",
-      "youtubeId": "NNRpJ7utH28",
-      "category": "usecase",
-      "title": "코덱스 해커톤 2등의 실무형 AI 에이전트",
-      "titleEn": "(서울대 출신 코덱스 해커톤 2등) 진짜 일하는 AI 에이전트 만드는 법",
-      "descKo": "코덱스 해커톤 입상자가 알려주는 실제 일하는 에이전트 제작법",
-      "descEn": "How a Codex hackathon runner-up builds agents that do real work (Korean)",
-      "channel": "그랜트 | 마케팅 AX, AI 사업",
-      "publishedAt": "2026-10-17T00:00:00Z",
       "addedAt": "2026-10-18T23:10:38Z"
     },
     {
@@ -50,18 +170,6 @@
       "addedAt": "2026-10-18T23:10:38Z"
     },
     {
-      "id": "vid-oppadu-ai-automation-3-steps-ko",
-      "youtubeId": "luimFKB9ZD8",
-      "category": "usecase",
-      "title": "컨설팅 없이 AI 자동화 1년, 직접 정리한 3단계 도입 과정",
-      "titleEn": "One year of AI automation without consultants: a 3-step rollout (Korean)",
-      "descKo": "컨설팅 없이 1년간 AI 자동화를 해 보고 정리한 3단계 과정을 17분에 소개.",
-      "descEn": "A 17-minute recap of a 3-step AI automation rollout done in-house over a year.",
-      "channel": "오빠두엑셀",
-      "publishedAt": "2026-10-15T00:00:00Z",
-      "addedAt": "2026-10-16T23:08:12Z"
-    },
-    {
       "id": "vid-aisync-claude-code-beginner-guide-ko",
       "youtubeId": "2R-kUFv7GZg",
       "category": "lecture",
@@ -72,114 +180,6 @@
       "channel": "AI싱크클럽",
       "publishedAt": "2026-10-15T00:00:00Z",
       "addedAt": "2026-10-15T23:07:32Z"
-    },
-    {
-      "id": "vid-miri-codex-claude-skills-ko",
-      "youtubeId": "Hjc9QHWBn2U",
-      "category": "tip",
-      "title": "같은 프롬프트, 다른 디자인: Codex·Claude 스킬 활용",
-      "titleEn": "Same Prompt, Different Design: How to Use Codex & Claude Skills",
-      "descKo": "스킬 유무에 따라 결과 디자인이 어떻게 달라지는지 비교한다.",
-      "descEn": "Compares design output with and without skills in Codex and Claude.",
-      "channel": "미리의 시스템 연구소 Miri System Lab",
-      "publishedAt": "2026-10-14T00:00:00Z",
-      "addedAt": "2026-10-15T23:07:32Z"
-    },
-    {
-      "id": "vid-leonvanzyl-harness-engineering",
-      "youtubeId": "z1EaBe9oIME",
-      "category": "lecture",
-      "title": "어떤 코딩 에이전트든 10배 좋게 만드는 하네스 엔지니어링",
-      "titleEn": "Harness Engineering: Make Any Coding Agent 10x Better",
-      "descKo": "하네스 엔지니어링을 초급에서 고급까지 3단계로 16분에 정리.",
-      "descEn": "The 3 levels of harness engineering from beginner to pro, in 16 minutes.",
-      "channel": "Leon van Zyl",
-      "publishedAt": "2026-10-14T00:00:00Z",
-      "addedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "vid-jaychoi-claude-code-mods-ko",
-      "youtubeId": "EHQwM1pxH2c",
-      "category": "tip",
-      "title": "Claude Code Mods 등장: 내 입맛대로 커스터마이즈",
-      "titleEn": "Claude Code Mods Are Here! Now You Can Customize Claude Code Exactly How You Want",
-      "descKo": "Mods로 Claude Code를 원하는 대로 바꾸는 법을 9분에 시연.",
-      "descEn": "A 9-minute demo of customizing Claude Code with Mods.",
-      "channel": "Jay Choi | 인디해커 라이프",
-      "publishedAt": "2026-10-13T00:00:00Z",
-      "addedAt": "2026-10-16T23:08:12Z"
-    },
-    {
-      "id": "vid-stefancho-claude-code-codex-workflow-ko",
-      "youtubeId": "RPRZ31bjWOo",
-      "category": "usecase",
-      "title": "Claude Code·Codex 요즘 작업 방식 전부 공개, 직접 만든 앱까지",
-      "titleEn": "Full reveal of my current Claude Code and Codex workflow (Korean)",
-      "descKo": "두 도구를 함께 쓰는 현재 작업 흐름과 만든 앱을 19분에 공개.",
-      "descEn": "A 19-minute reveal of a combined Claude Code and Codex workflow plus apps built.",
-      "channel": "StefanCho With AI (스테판초)",
-      "publishedAt": "2026-10-13T00:00:00Z",
-      "addedAt": "2026-10-15T00:00:00Z"
-    },
-    {
-      "id": "vid-aisync-claude-code-mods-4-ko",
-      "youtubeId": "jPUbsnsKHQw",
-      "category": "tip",
-      "title": "Claude Code Mods 4가지 실습: 업무 자동화 실제 예시",
-      "titleEn": "클로드 코드 미친 신기능 Mods, 지금 당장 깔아야 할 4개｜업무 자동화 실제 예시로 처음부터 끝까지",
-      "descKo": "상태 띠·메모 창·AI 티 지킴이·번호 가림막 모드를 만들어 보는 실습을 9분에 정리.",
-      "descEn": "A 9-minute walkthrough of four Claude Code Mods: status bar, notes pane, AI-tone guard and number mask.",
-      "channel": "AI싱크클럽",
-      "publishedAt": "2026-10-18T00:00:00Z",
-      "addedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "id": "vid-digitalturtle-gemini-canvas-app-ko",
-      "youtubeId": "AH1aF43iz0Y",
-      "category": "lecture",
-      "title": "코딩 몰라도 제미나이 캔버스로 앱 만들기",
-      "titleEn": "코딩몰라도 제미나이 캔버스로 앱 만들기 | 바이브 코딩 기초",
-      "descKo": "메뉴 추첨기·타이머·퀴즈 프로그램을 만들며 배우는 바이브 코딩 입문 12분 강의.",
-      "descEn": "A 12-minute beginner vibe coding lesson building a menu picker, timer and quiz app in Gemini Canvas (Korean).",
-      "channel": "디지털거북이",
-      "publishedAt": "2026-10-18T00:00:00Z",
-      "addedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "id": "vid-citizendev9c-ai-agent-skills-10-ko",
-      "youtubeId": "TbRPMUjoX_w",
-      "category": "tip",
-      "title": "비개발자가 활용해야 할 AI 에이전트 스킬 10가지",
-      "titleEn": "2026 비개발자라면 활용해야 할 AI 에이전트 스킬 10가지!",
-      "descKo": "기획·리서치·디자인·글쓰기·마케팅·보안 스킬 10가지를 업무 사례와 함께 21분에 소개.",
-      "descEn": "Ten agent skills for planning, research, design, writing, marketing and security with work examples, in 21 minutes (Korean).",
-      "channel": "Citizen Developer 9c",
-      "publishedAt": "2026-10-17T00:00:00Z",
-      "addedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "id": "vid-johnkim-codex-app-vs-terminal",
-      "youtubeId": "yK9GnaE9rlY",
-      "category": "tip",
-      "title": "터미널 말고 Codex 앱을 써야 하는 14가지 이유",
-      "titleEn": "Stop Using Codex in Terminal (It’s Holding You Back)",
-      "descKo": "프롬프트 큐, 사이드 챗, 내장 브라우저, 스케줄 등 Codex 앱 기능 14가지를 29분에 시연.",
-      "descEn": "A 29-minute demo of 14 Codex app features such as prompt queue, side chats, built-in browser and schedules.",
-      "channel": "John Kim",
-      "publishedAt": "2026-10-16T00:00:00Z",
-      "addedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "id": "vid-hongarin-gemini-spark-agent-ko",
-      "youtubeId": "_qI7NjHwp5Q",
-      "category": "usecase",
-      "title": "제미나이 스파크로 하루 종일 일하는 AI 직원 만들기",
-      "titleEn": "제미나이 스파크(Spark) 사용법 총정리 | 하루 종일 일하는 AI 직원(에이전트) 만들기",
-      "descKo": "채팅창 글만으로 매주 월요일 아침 고객 리서치를 시트에 정리하는 에이전트를 11분에 구축.",
-      "descEn": "Builds a scheduled Gemini Spark agent that fills a Google Sheet with weekly client research, in 11 minutes (Korean).",
-      "channel": "홍아린 AI",
-      "publishedAt": "2026-10-14T00:00:00Z",
-      "addedAt": "2026-10-19T23:17:16Z"
     }
   ]
 }
