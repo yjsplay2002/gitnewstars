@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-10-21T23:12:00Z",
+  "generatedAt": "2026-10-23T23:13:00Z",
   "videos": [
+    {
+      "id": "vid-dante-herdr-agent-workflow-ko",
+      "youtubeId": "-Fj8hMkNOvc",
+      "category": "lecture",
+      "title": "Herdr로 Claude Code·Codex 동시에 쓰기 (1시간 무료 강의)",
+      "titleEn": "에이전트 워크플로우 최강 도구 Herdr 완벽 가이드 | Claude Code·Codex 동시에 쓰기 (1시간 무료 강의)",
+      "descKo": "Herdr 설치부터 worktree 병렬 개발, 교차 리뷰, 조정자 패턴, 휴대폰 이어 하기까지 61분에 정리한 무료 강의.",
+      "descEn": "A free 61-minute Korean course on Herdr: setup, worktree parallel development, cross-model review, the coordinator pattern and continuing from your phone.",
+      "channel": "단테",
+      "publishedAt": "2026-10-22T22:00:27Z",
+      "addedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "vid-gcreator-claude-code-codex-cross-verify-ko",
+      "youtubeId": "4BDNTubxwP4",
+      "category": "tip",
+      "title": "클로드 코드에 코덱스 붙여 AI끼리 교차 검증하기",
+      "titleEn": "클로드 코드에 코덱스를 붙였더니? AI가 서로 검증합니다 (Claude Code × Codex)",
+      "descKo": "Codex 플러그인 설치, rescue 위임, adversarial-review, 검토 자동화 훅을 13분에 실습.",
+      "descEn": "A 13-minute Korean walkthrough of installing the Codex plugin, delegating with rescue, adversarial review and an auto-review hook.",
+      "channel": "G-CREATOR",
+      "publishedAt": "2026-10-22T23:00:08Z",
+      "addedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "vid-aituterlab-gemini-7-work-uses-ko",
+      "youtubeId": "V33Sqr3FA_I",
+      "category": "usecase",
+      "title": "제미나이로 업무 결과물 만드는 7가지",
+      "titleEn": "상위 1%처럼 제미나이 쓰는 법 : 업무 활용 7가지 ｜프롬프트 무료 배포",
+      "descKo": "워드 보고서·PDF 전자책·엑셀·PPT·웹앱·Gmail 연동·AI 비서 만들기를 14분에 실습.",
+      "descEn": "A 14-minute Korean demo of Gemini producing Word reports, e-books, Excel, PPT, web apps, Gmail automation and an AI assistant.",
+      "channel": "AI튜터랩",
+      "publishedAt": "2026-10-22T10:15:45Z",
+      "addedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "vid-aicodeking-opus-55-real-engineering",
+      "youtubeId": "Xm_Sf2qxRW4",
+      "category": "tip",
+      "title": "Opus 5.5로 실제 엔지니어링하는 워크플로우",
+      "titleEn": "Here's how I do Real Engineering with Opus 5.5 (Workflow w/ Tools)",
+      "descKo": "단순한 프롬프트, 벤치마크 먼저 쓰기, 소량의 테스트, 아키텍트·워커·리뷰어 에이전트 팀을 12분에 소개.",
+      "descEn": "Twelve minutes on simple prompts, writing benchmarks first, a few thoughtful tests and an architect-worker-reviewer agent team.",
+      "channel": "AICodeKing",
+      "publishedAt": "2026-10-23T10:00:33Z",
+      "addedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "vid-stefancho-claude-code-workspace-ko",
+      "youtubeId": "tJQkYbVGGhw",
+      "category": "usecase",
+      "title": "Claude Code 작업 환경을 네 번 바꾼 이유",
+      "titleEn": "Claude Code 작업 환경을 네 번 바꾼 이유 (tmux에서 직접 만든 앱까지)",
+      "descKo": "tmux에서 herdr, 직접 만든 Muster 앱까지 작업 환경 변천과 '하네스의 시각화'를 12분에 설명.",
+      "descEn": "A 12-minute Korean tour from tmux and herdr to a self-built Muster app, and the idea of making your harness visible.",
+      "channel": "StefanCho",
+      "publishedAt": "2026-10-20T22:00:17Z",
+      "addedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "vid-builderjosh-ontology-prose-first-ko",
+      "youtubeId": "b6phhtUi0hs",
+      "category": "usecase",
+      "title": "온톨로지를 마크다운 글로 쓰는 에이전트 구성법",
+      "titleEn": "\"온톨로지를 말로 풀어서 쓰면 됩니다\" 딥러닝 10년 CTO가 만든 방법 (제네시스랩 유대훈 CTO님)",
+      "descKo": "그래프 대신 마크다운 글로 사내 지식을 쓰고 에이전트에 붙이는 방식과 시연을 48분 인터뷰로 소개(게스트 제품 소개 포함).",
+      "descEn": "A 48-minute Korean interview on writing company knowledge as markdown prose instead of a graph and wiring it to agents, with demos (includes the guest's product).",
+      "channel": "빌더 조쉬 Builder Josh",
+      "publishedAt": "2026-10-20T08:08:25Z",
+      "addedAt": "2026-10-23T23:13:00Z"
+    },
     {
       "id": "vid-ailabs-anthropic-engineer-claude-code",
       "youtubeId": "92ZDgn8bgLM",
@@ -10,18 +82,6 @@
       "descKo": "고도·깊이·범위·자원 네 축으로 에이전트에게 더 야심 찬 일을 시키는 법을 12분에 정리.",
       "descEn": "Twelve minutes on asking for outcomes, not tasks: altitude, depth, range and resources.",
       "channel": "AI LABS",
-      "publishedAt": "2026-10-21T00:00:00Z",
-      "addedAt": "2026-10-21T23:12:00Z"
-    },
-    {
-      "id": "vid-benai-9-claude-code-mods",
-      "youtubeId": "bTqizdva04g",
-      "category": "tip",
-      "title": "Claude Code Mods 100개 써 보고 고른 9가지",
-      "titleEn": "I Tried 100+ Claude Mods, These 9 Are the Best",
-      "descKo": "서브에이전트 현황 보기, 긴 대화 비용 줄이기 등 실제로 남긴 모드 9개를 14분에 소개.",
-      "descEn": "A 14-minute tour of the 9 mods kept out of 100+ tested, from subagent visibility to cheaper long chats.",
-      "channel": "Ben AI",
       "publishedAt": "2026-10-21T00:00:00Z",
       "addedAt": "2026-10-21T23:12:00Z"
     },
@@ -47,18 +107,6 @@
       "descEn": "A 14-minute build: plan with Plan mode, connect a free Databricks account, analyze real data and deploy a live app.",
       "channel": "Tech With Tim",
       "publishedAt": "2026-10-21T00:00:00Z",
-      "addedAt": "2026-10-21T23:12:00Z"
-    },
-    {
-      "id": "vid-ptube-codex-content-harness-ko",
-      "youtubeId": "zoWfZ651_A4",
-      "category": "usecase",
-      "title": "Codex로 콘텐츠 기획 하네스 세팅하기 (Codex + Aside + Figma)",
-      "titleEn": "저는 이제 콘텐츠 기획 직접 안 해요 (Codex + Aside + Figma 자동화)",
-      "descKo": "brand.md·스킬·AGENTS.md로 경쟁사 조사부터 기획안·HTML 시안·피그마 산출물까지 만드는 38분 실습.",
-      "descEn": "A 38-minute Korean build of a content harness with brand.md, skills and AGENTS.md, from competitor research to a Figma deliverable.",
-      "channel": "피튜브",
-      "publishedAt": "2026-10-16T00:00:00Z",
       "addedAt": "2026-10-21T23:12:00Z"
     },
     {
@@ -122,18 +170,6 @@
       "addedAt": "2026-10-20T23:14:00Z"
     },
     {
-      "id": "vid-miri-codex-claude-skill-making-ko",
-      "youtubeId": "Psvwe3H6QXY",
-      "category": "tip",
-      "title": "반복하는 수정 지시를 코덱스·클로드 코드 스킬로 만들기",
-      "titleEn": "코덱스·클로드 코드 스킬 만들기｜같은 수정 지시를 반복하고 있다면",
-      "descKo": "반복 피드백을 작업 기준 문서와 스킬로 정리하는 과정을 13분에 시연.",
-      "descEn": "A 13-minute demo of turning repeated feedback into reusable work criteria and skills (Korean).",
-      "channel": "미리의 시스템 연구소 Miri System Lab",
-      "publishedAt": "2026-10-16T00:00:00Z",
-      "addedAt": "2026-10-20T23:14:00Z"
-    },
-    {
       "id": "vid-shinyoungsun-claude-video-automation-ko",
       "youtubeId": "57IVfvXqUVs",
       "category": "usecase",
@@ -144,42 +180,6 @@
       "channel": "신영선의 AI탐구",
       "publishedAt": "2026-10-18T00:00:00Z",
       "addedAt": "2026-10-18T23:10:38Z"
-    },
-    {
-      "id": "vid-aiengineer-anthropic-run-1000-agents",
-      "youtubeId": "kiClTcJUnhc",
-      "category": "lecture",
-      "title": "에이전트 1,000개 운영하기 (Anthropic)",
-      "titleEn": "Why One AI Agent Isn’t Enough (And How to Run 1,000) - CJ Avilla & Harrison Stall, Anthropic",
-      "descKo": "Anthropic 엔지니어의 다수 에이전트 병렬 운영 발표",
-      "descEn": "Anthropic engineers on running many agents in parallel",
-      "channel": "AI Engineer",
-      "publishedAt": "2026-10-16T00:00:00Z",
-      "addedAt": "2026-10-18T23:10:38Z"
-    },
-    {
-      "id": "vid-survivalai-build-ai-agent-ko",
-      "youtubeId": "fW7axMVPnQQ",
-      "category": "usecase",
-      "title": "AI 에이전트, 직접 만들어보니",
-      "titleEn": "AI 에이전트, 어렵게 생각했는데 직접 만들어보니",
-      "descKo": "입문자가 에이전트를 직접 만들어 보며 이해하는 약 23분 실습 영상",
-      "descEn": "A ~23-minute hands-on build of an AI agent for beginners (Korean)",
-      "channel": "SURVIVAL AI",
-      "publishedAt": "2026-10-16T00:00:00Z",
-      "addedAt": "2026-10-18T23:10:38Z"
-    },
-    {
-      "id": "vid-aisync-claude-code-beginner-guide-ko",
-      "youtubeId": "2R-kUFv7GZg",
-      "category": "lecture",
-      "title": "Claude Code 왕초보 완벽 가이드 (60분, 팁 40개)",
-      "titleEn": "Claude Code beginner complete guide in 60 minutes (40 tips)",
-      "descKo": "1단계부터 7단계까지 설치·팁 40개·스킬 사용법을 60분에 정리한 입문 강의.",
-      "descEn": "A 60-minute, 7-stage beginner course covering setup, 40 tips and how to use skills.",
-      "channel": "AI싱크클럽",
-      "publishedAt": "2026-10-15T00:00:00Z",
-      "addedAt": "2026-10-15T23:07:32Z"
     }
   ]
 }

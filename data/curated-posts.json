@@ -1,18 +1,83 @@
 {
-  "generatedAt": "2026-10-21T23:12:00Z",
+  "generatedAt": "2026-10-23T23:13:00Z",
   "posts": [
     {
-      "id": "curated-20261022-claude-duet-proactive-agent",
-      "title": "Claude Duet: 아침 브리핑을 주고 앱을 감시하며 내가 없어도 일하는 Anthropic의 능동형 에이전트",
-      "body": "Anthropic이 10월 21일 연구 프리뷰로 공개한 Claude Duet은 연결된 앱을 몇 시간마다 확인해 처리할 일이 있을 때만 알려 주고, 매일 아침 요약 브리핑을 보내며, 회의 일정 잡기부터 대시보드·매출 예측·웹앱 제작까지 맡길 수 있는 에이전트입니다. 자체 가상 머신과 브라우저에서 돌아 노트북이나 폰을 꺼 둬도 되고, Gmail·Slack·Stripe·HubSpot 등 6,000개 이상의 커넥터를 씁니다. 메시지 발송·결제·서명·삭제는 항상 승인을 받으며, 현재는 미국 Pro·Max 구독자 대기자 명단 방식이라 지금은 설계 방식을 참고하는 용도입니다.",
-      "titleEn": "Claude Duet: Anthropic's proactive agent that briefs you each morning, watches your apps and keeps working while you are away",
-      "bodyEn": "Announced on October 21 as a research preview, Claude Duet checks your connected apps every few hours and messages you only when something needs attention, sends a morning brief, and takes tasks from scheduling meetings to building dashboards, sales forecasts and web apps. It runs on its own virtual machine with a browser, so your laptop or phone can be off, and it uses 6,000+ connectors such as Gmail, Slack, Stripe and HubSpot. Anything that sends, pays, signs or deletes waits for your approval. It is a US Pro/Max waitlist for now, so treat it as a design reference today.",
+      "id": "curated-20261024-dante-herdr-agent-workflow-ko",
+      "title": "단테: Herdr로 Claude Code와 Codex를 한 화면에서 — worktree 병렬 개발과 교차 리뷰 61분 무료 강의",
+      "body": "단테가 에이전트용 터미널 멀티플렉서 Herdr로 Claude Code와 Codex를 한 화면에서 동시에 돌리는 방법을 61분 19초 무료 강의로 풀었습니다. 에이전트 상태 읽기, 끄고 켜도 남는 세션, 에이전트가 Herdr를 직접 조작하게 맡기는 스킬부터 시작해, worktree로 작업 공간을 나눠 두 에이전트가 동시에 개발한 뒤 합치고 다른 모델에게 리뷰받는 과정을 실제 공개 이슈로 만드는 이슈 대시보드로 보여 줍니다. 40분대에는 계획 → 승인 → 구현 → 리뷰를 스크립트로 묶는 패턴과 조정자 패턴, 허락 대기 알림 플러그인, 휴대폰에서 이어 하기를 다루며, 영상은 Mac 기준이고 Windows 방법은 수업 자료에 있습니다.",
+      "titleEn": "Dante: Claude Code and Codex on one screen with Herdr - worktree parallel dev and cross-model review in a free 61-minute course",
+      "bodyEn": "Dante's free 61m19s course shows how to run Claude Code and Codex side by side in Herdr, a terminal multiplexer built for agents. It starts with reading agent status, sessions that survive closing the app and a skill that lets the agent drive Herdr itself, then splits work with git worktrees so two agents develop in parallel, merge, and get reviewed by a different model, all while building an issue dashboard from real public issues. From minute 40 it covers a plan - approve - implement - review script, the coordinator pattern, a plugin that notifies you when an agent waits for permission, and continuing from your phone. It was filmed on Mac; Windows steps are in the course materials.",
+      "sourceName": "YouTube · 단테",
+      "sourceUrl": "https://www.youtube.com/watch?v=-Fj8hMkNOvc",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=-Fj8hMkNOvc",
+      "createdAt": "2026-10-22T22:00:27Z",
+      "curatedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "curated-20261024-gcreator-claude-codex-cross-verify-ko",
+      "title": "G-CREATOR: Claude Code에 Codex를 붙여 AI끼리 교차 검증 — rescue·adversarial-review·훅 자동화",
+      "body": "G-CREATOR가 13분 3초 동안 Claude Code가 만든 결과물을 Codex가 다시 검토하게 하는 '에이전트 교차 검증' 워크플로를 보여 줍니다. GitHub 저장소로 Codex 플러그인을 설치하고(전역 설치와 프로젝트별 설치 위치 팁 포함), `codex rescue`로 미니 앱 제작을 맡긴 뒤 `codex adversarial-review`로 더 빡세게 검증하는 실습을 따라 합니다. 마지막에는 검토가 자동으로 돌도록 훅(Hook)을 설정하는 방법까지 다룹니다.",
+      "titleEn": "G-CREATOR: attach Codex to Claude Code so the AIs cross-check each other - rescue, adversarial review and hook automation",
+      "bodyEn": "In 13m03s G-CREATOR shows an agent cross-verification workflow where Codex re-reviews what Claude Code built. You install the Codex plugin from a GitHub repository (with tips on global versus per-project install), hand a mini-app build to `codex rescue`, then stress-test it with `codex adversarial-review`. It closes with setting up a hook so the review runs automatically.",
+      "sourceName": "YouTube · G-CREATOR",
+      "sourceUrl": "https://www.youtube.com/watch?v=4BDNTubxwP4",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=4BDNTubxwP4",
+      "createdAt": "2026-10-22T23:00:08Z",
+      "curatedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "curated-20261024-nvidia-openshell-agent-sandbox",
+      "title": "NVIDIA OpenShell: 에이전트마다 샌드박스와 정책을 두고 자격증명은 승인된 곳에만 — 자율 에이전트 실행 런타임",
+      "body": "NVIDIA가 공개한 Apache-2.0 런타임 OpenShell은 에이전트를 격리된 샌드박스에서 돌리고, 커널 수준 제어로 파일 접근·시스템 콜·네트워크 연결마다 정책을 검사합니다. 에이전트는 실제 자격증명을 보지 못하고 승인된 엔드포인트로 가는 요청에만 자격증명이 붙으며, 정책을 바꿀 때는 형식 검증으로 새 호스트 접근 같은 위험한 변경을 찾아 사람의 검토를 기다리게 합니다. 설치 스크립트 실행 후 `openshell sandbox create --name demo`로 시작하고 Docker·Podman 또는 가상화가 필요하며, Windows는 WSL 2 실험 지원입니다. 저장소 별은 약 1.9만 개이고 Hacker News에서 488점을 받았습니다.",
+      "titleEn": "NVIDIA OpenShell: a runtime that gives each agent a sandbox and a policy, with credentials only for approved endpoints",
+      "bodyEn": "NVIDIA's Apache-2.0 runtime OpenShell runs each agent in an isolated sandbox and checks policy on every file access, system call and network connection through kernel-level controls. Agents never see real credentials - they are attached only to requests bound for approved endpoints - and policy changes are formally verified so risky new access, such as reaching a new host, waits for human review. Start with the installer script and `openshell sandbox create --name demo`; it needs Docker, Podman or host virtualization, and Windows runs through WSL 2 (experimental). The repo has about 18.7k stars and the thread scored 488 on Hacker News.",
       "sourceName": "Hacker News",
-      "sourceUrl": "https://claude.com/product/claude-duet",
+      "sourceUrl": "https://github.com/NVIDIA/OpenShell",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-10-21T19:14:00Z",
-      "curatedAt": "2026-10-21T23:12:00Z"
+      "createdAt": "2026-10-22T17:44:00Z",
+      "curatedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "curated-20261024-aituterlab-gemini-7-work-uses-ko",
+      "title": "AI튜터랩: 제미나이를 챗봇으로만 쓰지 않기 — 워드 보고서·PPT·웹앱·Gmail·AI 비서까지 업무 활용 7가지",
+      "body": "AI튜터랩이 Gemini로 업무 결과물을 바로 만드는 7가지를 14분 12초 실습으로 보여 줍니다. 워드 보고서(1:25), PDF 전자책(3:05), 엑셀 자료(4:35), PPT(5:30), 웹 애플리케이션(7:40)을 차례로 만들고, Gmail을 연동해 메일을 관리하는 법(9:10)과 나만의 AI 비서 만들기(10:40)까지 이어집니다. 영상에 쓴 프롬프트는 구독·좋아요 후 고정 댓글에서 무료로 받을 수 있다고 안내합니다.",
+      "titleEn": "AI튜터랩: stop using Gemini only as a chatbot - seven work uses from Word reports and PPT to web apps, Gmail and an AI assistant",
+      "bodyEn": "AI튜터랩 demonstrates seven ways to turn Gemini into finished work output in 14m12s: a Word report (1:25), a PDF e-book (3:05), Excel data (4:35), a PPT deck (5:30) and a web application (7:40), followed by Gmail integration for mail management (9:10) and building your own AI assistant (10:40). The prompts used in the video are offered free through the pinned comment after subscribing and liking, per the description.",
+      "sourceName": "YouTube · AI튜터랩",
+      "sourceUrl": "https://www.youtube.com/watch?v=V33Sqr3FA_I",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=V33Sqr3FA_I",
+      "createdAt": "2026-10-22T10:15:45Z",
+      "curatedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "curated-20261024-aicodeking-opus55-long-task-workflow",
+      "title": "AICodeKing: Opus 5.5로 긴 작업 시키는 법 — 단순 프롬프트, 벤치마크 먼저, 테스트 소량, 아키텍트·워커·리뷰어 팀",
+      "body": "AICodeKing이 11분 48초 동안 자기 앱 PandaCode를 만들며 쓴 Opus 5.5 장시간 작업 요령을 정리합니다. 단계별 워크플로 대신 원하는 것·완료 기준·건드리면 안 되는 것만 적고 경로는 모델에게 맡기며, '빠르게 해 줘'라고 하기 전에 벤치마크부터 쓰게 해 숫자를 목표로 삼게 합니다(창 열림 약 0.33초, 첫 단어까지 약 8초에서 4초로 줄었다는 본인 앱 기준 수치). 테스트는 소수만 신중하게 쓰게 해 통과한 뒤에만 결과를 보고, 디자인은 recent.design·Dribbble 참고 이미지를 줍니다. 마지막으로 Opus 5.5가 설계하고 Sonnet 5.5가 병렬로 일하고 Codex가 리뷰하는 에이전트 팀 구성을 소개합니다.",
+      "titleEn": "AICodeKing: running long tasks on Opus 5.5 - simple prompts, benchmark first, few tests, an architect-worker-reviewer team",
+      "bodyEn": "Over 11m48s AICodeKing shares habits for long-running work with Opus 5.5 while building his own app PandaCode. Instead of step-by-step workflows, say what you want, how you will know it is done and what must not be touched, and let the model pick the path; ask for a benchmark before asking for \"faster\" so there is a number to improve (window opens in about 0.33s and time to first word fell from about 8s to about 4s - figures from his own app). Ask for a small set of thoughtful tests that every change must pass before you look at it, and give reference designs from recent.design or Dribbble. He ends with an agent team: Opus 5.5 as architect, Sonnet 5.5 as parallel workers and Codex as reviewer.",
+      "sourceName": "YouTube · AICodeKing",
+      "sourceUrl": "https://www.youtube.com/watch?v=Xm_Sf2qxRW4",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=Xm_Sf2qxRW4",
+      "createdAt": "2026-10-23T10:00:33Z",
+      "curatedAt": "2026-10-23T23:13:00Z"
+    },
+    {
+      "id": "curated-20261024-geeknews-ask-gn-claude-code-sessions-notice-ko",
+      "title": "Ask GN: 클로드 코드 대화방을 일마다 나눴더니 서로 모릅니다 — 공지 파일, 보고서 폴더, 세션 간 메시지",
+      "body": "B2B 영업 직장인이 클로드 코드 대화방을 일마다 나눠 말투 섞임은 없앴지만, 다른 방이 이미 보낸 문서를 '아직 안 보냈다'며 다시 보내려 한 문제를 올렸습니다. 지금은 일을 끝낸 방이 공지 파일 맨 위에 한 일과 다른 방이 하지 말 것을 서너 줄 남기고, 모든 방이 시작할 때 읽게 하며, 오래된 공지는 옮겨 최근 며칠 치만 둡니다. 댓글에서는 작업마다 `reports/` 폴더에 마크다운 보고서를 남기고 graphify 같은 도구를 훅으로 붙여 요청마다 검색부터 하게 하기, 한 세션에게 이름을 물어 다른 세션에서 SendMessage로 작업 넘기기(재부팅하면 이름이 바뀜), 에이전트별로 나눠 서로 위임하기가 나왔고, 글쓴이는 공지판을 통째로 읽는 대신 필요한 줄만 검색하게 바꿔 보겠다고 답했습니다.",
+      "titleEn": "Ask GN: my task-split Claude Code chats don't know about each other - notice file, report folder and cross-session messages",
+      "bodyEn": "A B2B salesperson who split Claude Code chats by task, which ended tone bleed between them, found that other chats did not know about finished work and even tried to resend an already-sent document. The current workaround: the chat that finishes a job leaves three or four lines at the top of a notice file (what was done, what other chats must not do), every chat reads it at the start, and old notices move out so only recent days remain. Commenters suggest leaving a markdown report in a `reports/` folder per task and wiring a tool such as graphify in via a hook so each request searches first, asking one session for its name and handing work to it from another with SendMessage (names change after a reboot), and splitting work by agent and delegating between them. The author replied they will switch from reading the whole board to searching for the lines they need.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=35669",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-20T00:26:04Z",
+      "curatedAt": "2026-10-23T23:13:00Z"
     },
     {
       "id": "curated-20261022-trailofbits-regression-hunt-agent-patches",
@@ -64,19 +129,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-10-20T12:00:00Z",
-      "curatedAt": "2026-10-21T23:12:00Z"
-    },
-    {
-      "id": "curated-20261022-layerfs-filesystem-for-coding-agents",
-      "title": "LayerFS: 에이전트마다 임시 작업공간을 마운트하고 이력은 공유하는 코딩 에이전트용 파일시스템",
-      "body": "LayerFS는 에이전트가 공유된 커밋 이력 위에 쓰기 가능한 작업공간을 마운트해 일하고, 커밋한 뒤 사라지게 하는 파일시스템입니다. 포크는 파일을 복사하지 않아 갈래를 깊이 파고들 수 있고, 모든 단계가 되감기·포크 가능한 체크포인트이며, 같은 파일을 동시에 고치면 충돌로 거부하고 blame으로 어느 단계가 쓴 줄인지 볼 수 있습니다. `node_modules` 같은 무시 파일도 커밋에 들어가 마운트가 5~20ms에 끝난다고 하는데(사이트 주장, 일반적인 clone+install은 약 5분), 현재 v1.0.0입니다. git worktree로 병렬 에이전트를 격리하던 팀이 비교해 볼 만합니다.",
-      "titleEn": "LayerFS: a filesystem for coding agents with ephemeral workspaces over shared history",
-      "bodyEn": "LayerFS lets each agent mount a writable workspace over shared committed history, do its work, commit and disappear. Forks copy no files so agents can branch deeply, every step is a checkpoint you can rewind or fork, same-file conflicts are refused and blame shows which step wrote each line. Ignored files such as `node_modules` ride along in the commit, so the site claims mounts take 5-20 ms versus about 5 minutes for a typical clone and install. It is at v1.0.0 - worth comparing with git worktrees if you isolate parallel agents.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://layerfs.ai/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-21T12:34:00Z",
       "curatedAt": "2026-10-21T23:12:00Z"
     },
     {
@@ -173,32 +225,6 @@
     {
       "mediaType": "none",
       "mediaUrl": "",
-      "id": "curated-20261020-tmux-claude-code-multi-agent-sessions",
-      "title": "tmux로 Claude Code 여러 개 돌리기: 세션 구성부터 send-keys 자동화, 에이전트 4개부터 오는 한계까지",
-      "body": "repo마다 tmux 세션 하나, 작업마다 창 하나로 나누고 `tmux new-session -A -s api -c ~/code/api`로 붙었다 떼는 구성을 정리한 가이드입니다. `send-keys -l`로 프롬프트를 보낸 뒤 0.3초 쉬고 Enter를 따로 보내고, `capture-pane -p -J -S -200`으로 마지막 200줄을 읽는 스크립팅 요령이 담겼습니다. 최신 Claude Code는 `claude --worktree --tmux`로 워크트리와 세션을 한 번에 만들 수 있지만, 에이전트가 대기·작업·완료 중 어떤 상태인지 tmux가 모른다는 한계가 에이전트 4개쯤부터 드러난다고 짚습니다.",
-      "titleEn": "tmux + Claude Code: sessions, send-keys automation, and the limits you hit at four agents",
-      "bodyEn": "A guide to running one tmux session per repo and one window per task, reattaching safely with `tmux new-session -A -s api -c ~/code/api`. It covers scripting: send the prompt with `send-keys -l`, wait about 0.3s, then send Enter separately, and read the last 200 lines with `capture-pane -p -J -S -200`. Recent Claude Code can create a worktree and tmux session in one go with `claude --worktree --tmux`, but tmux cannot tell whether an agent is waiting, working or done - a ceiling that shows up around four agents.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://crystl.dev/guides/tmux-for-ai-agents/",
-      "createdAt": "2026-10-19T05:55:31Z",
-      "curatedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
-      "id": "curated-20261020-google-harness2-recursive-agent-harnessing",
-      "title": "Google Research Harness²: 모델은 그대로 두고 에이전트 하네스를 재귀적으로 개선",
-      "body": "Harness²는 모델 가중치가 아니라 시스템 프롬프트·가드레일·메모리·서브에이전트·스킬 같은 하네스를 고치는 프레임워크입니다. 작업마다 수정안을 제안하고(Propose), 같은 작업에서 실행해 보고(Probe), 차이를 합쳐 하네스를 다듬는(Compose) 루프를 돌리며 정답 피드백이 필요 없습니다. 보고된 향상은 WorkBuddy-Bench +11.5점, JobBench +4.5점, LAB 부분 통과율 +11.8%p이고, Apache 2.0이라 `harness2-demo`로 모델 키 없이 시연할 수 있습니다. 다만 Codex 실행기는 샌드박스가 꺼져 있어 평가 전에 네트워크 제한을 직접 걸어야 합니다.",
-      "titleEn": "Google Research Harness²: recursively improving the agent harness while the model stays fixed",
-      "bodyEn": "Harness² improves the harness around a fixed model - system prompt, guardrails, memory, subagents, skills - rather than the weights. For each task it proposes edits, probes them by executing on the same task, and composes a refined harness from the differences, with no ground-truth feedback needed. Reported gains are +11.5 on WorkBuddy-Bench, +4.5 on JobBench and +11.8 points of LAB partial pass rate; it is Apache 2.0 and `harness2-demo` runs without model credentials. Note that the Codex executor runs with its sandbox disabled, so restrict network access before evaluating.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://github.com/google-research/harness2",
-      "createdAt": "2026-10-19T11:28:45Z",
-      "curatedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "mediaType": "none",
-      "mediaUrl": "",
       "id": "curated-20261020-ask-hn-shipping-ai-code-you-dont-understand",
       "title": "Ask HN: 이해하지 못하는 AI 작성 코드를 배포할 때 어떻게 하나요?",
       "body": "Meta 엔지니어의 \"AI로 짠 코드가 블랙박스처럼 느껴진다\"는 글에서 시작해 202포인트를 받은 스레드입니다. 상위 답변은 클래스·책임 구조 같은 설계는 사람이 직접 정하고 LLM에는 구현만 맡기기, 코딩 시간이 줄어든 만큼 테스트를 더 많이 하기, 릴리스 전에 수 시간짜리 게이트를 돌리기로 모입니다. AI가 코드와 테스트를 모두 쓰면 둘이 같은 곳을 놓칠 수 있다는 지적도 있어, 리뷰 병목을 고민하는 팀이 참고할 만합니다.",
@@ -221,32 +247,6 @@
       "sourceUrl": "https://news.hada.io/topic?id=35608",
       "createdAt": "2026-10-19T01:00:00Z",
       "curatedAt": "2026-10-19T23:17:16Z"
-    },
-    {
-      "id": "curated-20261017-fowler-harness-worth-the-cost-ko",
-      "title": "코딩 에이전트 하네스는 돈값을 할까? Martin Fowler의 모델별 10회 실험",
-      "body": "같은 Java BFF 서비스를 하네스(API 명세·계약 검사·API 테스트) 유무로 모델당 10번씩 만들게 하고 숨긴 인수 테스트 178개로 채점했다. 큰 모델은 하네스 없이도 10/10이었지만 하네스를 붙이면 토큰이 약 10.5배 들었고, 작은 모델은 3/10에서 10/10으로 올랐으며 비용도 큰 모델 단독보다 약 33% 쌌다. 저가 모델에는 개발 내내 하네스를, 고성능 모델에는 마지막 독립 검증 1회를 권한다.",
-      "titleEn": "Are coding-agent harnesses worth the cost? Martin Fowler's 10-trial-per-model test",
-      "bodyEn": "The same Java BFF service was built with and without a harness (API spec, contract checks, API tests), 10 trials per model, graded by 178 hidden acceptance tests. The large model passed 10/10 either way but used about 10.5x the tokens with the harness; the small model went from 3/10 to 10/10 at roughly 33% less cost than the large model alone. Suggested: harness throughout for cheaper models, one independent verification at the end for frontier models.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=35449",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-16T02:00:00Z",
-      "curatedAt": "2026-10-16T23:08:12Z"
-    },
-    {
-      "id": "curated-20261017-claude-code-team-code-review",
-      "title": "Claude Code 팀은 코드 리뷰를 이렇게 한다: AI 리뷰 + 위험도별 사람 승인",
-      "body": "Claude Code는 코드의 약 90%를 Claude가 쓰며, 6~9월 머지 PR이 2배 넘게 늘었는데 되돌림 비율은 40% 이상 줄었다. PR마다 여러 에이전트가 병렬로 버그를 찾고 별도 에이전트들이 투표해 합의된 지적만 남기며, 위험도 분류기가 낮음·중간·높음에 따라 사람 승인 0·1·2명을 요구한다. 과거 사고를 평가셋으로 삼고 REVIEW.md로 코드 오너가 리뷰 기준을 적는 방식은 그대로 따라 할 만하다.",
-      "titleEn": "How the Claude Code team does code review: AI review plus risk-tiered human approval",
-      "bodyEn": "Claude writes about 90% of Claude Code, and from June to September merged PRs more than doubled while the revert share fell over 40%. Multiple agents hunt bugs in parallel, a separate group votes so only agreed findings are posted, and a risk classifier requires 0, 1 or 2 human approvals by tier. Turning past incidents into an eval set and letting code owners write REVIEW.md are patterns you can copy.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-15T16:00:00Z",
-      "curatedAt": "2026-10-16T23:08:12Z"
     },
     {
       "id": "curated-20261014-agent-15-failure-patterns-ko",
