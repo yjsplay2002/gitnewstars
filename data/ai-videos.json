@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-10-23T23:13:00Z",
+  "generatedAt": "2026-10-24T23:14:15Z",
   "videos": [
+    {
+      "id": "vid-litmus-rea-reverse-engineer-office-ko",
+      "youtubeId": "g6yLR8sNTyk",
+      "category": "usecase",
+      "title": "REA로 엑셀·워드·PPT·노션을 AI로 똑같이 만들기",
+      "titleEn": "엑셀·워드·PPT·노션까지 AI로 똑같이 만들어봤습니다 (리버스 엔지니어링, Claude Code·Codex)",
+      "descKo": "오픈소스 REA를 Claude Code·Codex로 돌려 노션 클론 기능 테스트를 38점에서 96점으로 올린 22분 실험.",
+      "descEn": "A 22-minute Korean experiment running the open-source REA through Claude Code and Codex to rebuild Office apps and lift a Notion clone from 38 to 96 points.",
+      "channel": "리트머스",
+      "publishedAt": "2026-10-23T09:02:30Z",
+      "addedAt": "2026-10-24T23:14:15Z"
+    },
+    {
+      "id": "vid-dante-ponytail-reuse-code-ko",
+      "youtubeId": "fQZbSjmg9lg",
+      "category": "tip",
+      "title": "포니테일로 기존 코드를 재사용시켜 작업 시간 42% 줄이기",
+      "titleEn": "포니테일 넣었더니 코딩 시간 42% 줄었다? 실제 앱으로 비교했습니다 | Claude Code",
+      "descKo": "Claude Code에 포니테일을 설치하고 북마크 서비스 linkding에서 3회씩 돌려 시간·비용을 비교한 7분 실습.",
+      "descEn": "A 7-minute Korean hands-on installing Ponytail in Claude Code and comparing time and cost over three runs each on the linkding bookmark app.",
+      "channel": "단테",
+      "publishedAt": "2026-10-22T09:00:11Z",
+      "addedAt": "2026-10-24T23:14:15Z"
+    },
+    {
+      "id": "vid-techwithtim-learn-99-claude-code",
+      "youtubeId": "3TwbE7gv6qo",
+      "category": "lecture",
+      "title": "Claude Code 99%를 한 영상으로: 설정부터 서브에이전트·MCP·훅까지",
+      "titleEn": "Learn 99% Of Claude Code in One Video",
+      "descKo": "모델·effort·권한 모드·CLAUDE.md·메모리·스킬·서브에이전트·MCP·훅·병렬 세션·루틴을 48분에 훑는 설정 강의.",
+      "descEn": "A 48-minute setup course covering models, effort, permission modes, CLAUDE.md, memory, skills, subagents, MCP, hooks, parallel sessions and routines.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-10-24T14:00:00Z",
+      "addedAt": "2026-10-24T23:14:15Z"
+    },
+    {
+      "id": "vid-googlecloudtech-ai-harness-crash-course",
+      "youtubeId": "2C_CefSQEAQ",
+      "category": "lecture",
+      "title": "AI 하네스 속성 강의: 컨텍스트·도구·샌드박스·평가",
+      "titleEn": "AI harness crash course",
+      "descKo": "작업 하나를 따라가며 하네스의 네 부분(컨텍스트와 메모리, 도구와 실행 흐름, 런타임·보안, 평가)을 9분에 설명.",
+      "descEn": "Nine minutes following one task through the four parts of an AI harness: context and memory, tools and execution flow, runtime and security, and evaluation.",
+      "channel": "Google Cloud Tech",
+      "publishedAt": "2026-10-22T15:55:11Z",
+      "addedAt": "2026-10-24T23:14:15Z"
+    },
     {
       "id": "vid-dante-herdr-agent-workflow-ko",
       "youtubeId": "-Fj8hMkNOvc",
@@ -132,54 +180,6 @@
       "channel": "바이브랩스",
       "publishedAt": "2026-10-19T00:00:00Z",
       "addedAt": "2026-10-21T23:12:00Z"
-    },
-    {
-      "id": "vid-vibelabs-jarvis-ai-org-ko",
-      "youtubeId": "szE-23oCoUk",
-      "category": "usecase",
-      "title": "그록봇·클로드 코드·챗GPT로 'AI 조직' 자비스 만들기",
-      "titleEn": "그록봇·클로드 코드·챗GPT로 AI 비서 자비스를 만들었습니다",
-      "descKo": "비서실·본부·전략기획실 역할로 AI를 나눠 7가지 업무 평가 항목으로 검증한 13분 실험.",
-      "descEn": "A 13-minute experiment splitting Grok, Claude Code and ChatGPT into an AI org and grading it on 7 work criteria (Korean).",
-      "channel": "바이브랩스",
-      "publishedAt": "2026-10-18T00:00:00Z",
-      "addedAt": "2026-10-20T23:14:00Z"
-    },
-    {
-      "id": "vid-ailabs-vercel-ceo-ai-coding-workflow",
-      "youtubeId": "y2ifUC9_zuU",
-      "category": "tip",
-      "title": "Vercel CEO의 AI 코딩 워크플로우 7가지",
-      "titleEn": "Vercel's CEO Just Unveiled The Greatest AI Coding Workflow Ever",
-      "descKo": "방향 점검, 브레이커 에이전트, 첫 사용자 에이전트 등 따라 할 수 있는 7가지 팁을 14분에 정리.",
-      "descEn": "Seven copyable tips in 14 minutes: direction checks, a breaker agent, a first-time-user agent and more.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-10-19T00:00:00Z",
-      "addedAt": "2026-10-20T23:14:00Z"
-    },
-    {
-      "id": "vid-ibm-loop-engineering",
-      "youtubeId": "DQBqh6gcx7U",
-      "category": "lecture",
-      "title": "루프 엔지니어링: 목표를 향해 도는 에이전트 설계",
-      "titleEn": "What Is Loop Engineering? Building Better AI Agents",
-      "descKo": "검증 가능한 목표·트리거·서브에이전트·사람의 감독으로 에이전트 루프를 짜는 법을 11분에 설명.",
-      "descEn": "An 11-minute explainer on agent loops built from verifiable goals, triggers, subagents and human oversight.",
-      "channel": "IBM Technology",
-      "publishedAt": "2026-10-19T00:00:00Z",
-      "addedAt": "2026-10-20T23:14:00Z"
-    },
-    {
-      "id": "vid-shinyoungsun-claude-video-automation-ko",
-      "youtubeId": "57IVfvXqUVs",
-      "category": "usecase",
-      "title": "클로드로 영상 제작 100% 자동화",
-      "titleEn": "“영상 제작 100% 자동화” 클로드 모션그래픽부터 영상 편집 올인원 가이드",
-      "descKo": "클로드로 모션그래픽부터 편집까지 자동화하는 올인원 가이드",
-      "descEn": "All-in-one guide to automating motion graphics and editing with Claude (Korean)",
-      "channel": "신영선의 AI탐구",
-      "publishedAt": "2026-10-18T00:00:00Z",
-      "addedAt": "2026-10-18T23:10:38Z"
     }
   ]
 }
