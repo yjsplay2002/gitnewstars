@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T23:13:26Z",
+  "generatedAt": "2026-10-27T23:14:01Z",
   "skills": [
     {
       "id": "superpowers",
@@ -9,7 +9,7 @@
       "name": "Superpowers",
       "descKo": "브레인스토밍·체계적 디버깅·TDD를 묶은 에이전트 스킬 프레임워크 겸 개발 방법론.",
       "descEn": "An agentic skills framework & software development methodology bundling brainstorming, systematic debugging, and TDD.",
-      "stars": 305025,
+      "stars": 306391,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -20,7 +20,7 @@
       "name": "Everything Claude Code",
       "descKo": "스킬·인스팅트·메모리·보안·리서치 우선 개발을 묶어 Claude Code·Codex·OpenCode·Cursor 등의 하네스 성능을 끌어올리는 MIT 라이선스 시스템.",
       "descEn": "An MIT-licensed agent-harness optimization system bundling skills, instincts, memory, security, and research-first development for Claude Code, Codex, OpenCode, Cursor, and more.",
-      "stars": 288816,
+      "stars": 290839,
       "addedAt": "2026-10-24T23:14:15Z"
     },
     {
@@ -31,7 +31,7 @@
       "name": "Anthropic Agent Skills",
       "descKo": "Anthropic이 직접 공개한 공식 Agent Skills 저장소.",
       "descEn": "Anthropic's official public repository for Agent Skills.",
-      "stars": 183754,
+      "stars": 184236,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -42,7 +42,7 @@
       "name": "Ponytail",
       "descKo": "AI 에이전트가 가장 게으른 시니어 개발자처럼 기존 코드를 먼저 찾아 재사용하고 최소한만 짜게 만드는 MIT 스킬.",
       "descEn": "An MIT skill that makes your AI agent think like the laziest senior dev: reuse existing code first and write the least that works.",
-      "stars": 176158,
+      "stars": 178141,
       "addedAt": "2026-10-25T23:13:26Z"
     },
     {
@@ -53,7 +53,7 @@
       "name": "Awesome LLM Apps",
       "descKo": "무료·오픈소스 AI 에이전트·에이전트 스킬·RAG 앱 100개 이상을 모은 대형 큐레이션 저장소.",
       "descEn": "A large curated collection of 100+ free and open-source AI agents, agent skills, and RAG apps.",
-      "stars": 143044,
+      "stars": 143242,
       "addedAt": "2026-07-24T02:00:00Z"
     },
     {
@@ -64,7 +64,7 @@
       "name": "UI UX Pro Max",
       "descKo": "여러 플랫폼에서 전문가 수준의 UI/UX를 만들 수 있도록 디자인 지식을 제공하는 MIT 스킬.",
       "descEn": "An MIT skill that provides design intelligence for building professional UI/UX across multiple platforms.",
-      "stars": 140367,
+      "stars": 141552,
       "addedAt": "2026-10-25T23:13:26Z"
     },
     {
@@ -75,8 +75,19 @@
       "name": "gstack (Garry Tan)",
       "descKo": "Garry Tan이 쓰는 Claude Code 설정을 그대로 가져다 쓰는 MIT 스킬 모음. CEO·디자이너·엔지니어링 매니저·릴리스 매니저·문서 엔지니어·QA 역할의 도구 23개.",
       "descEn": "Garry Tan's exact Claude Code setup as an MIT skill set: 23 opinionated tools acting as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA.",
-      "stars": 137698,
+      "stars": 137936,
       "addedAt": "2026-10-24T23:14:15Z"
+    },
+    {
+      "id": "graphify",
+      "repo": "Graphify-Labs/graphify",
+      "author": "Graphify-Labs",
+      "category": "coding",
+      "name": "Graphify",
+      "descKo": "코드베이스와 문서·SQL 스키마·설정·PDF를 로컬 AST 파싱으로 질의 가능한 지식 그래프로 바꿔 주는 /graphify 스킬. Claude Code·Cursor·Codex·Gemini CLI 지원, Apache-2.0.",
+      "descEn": "A /graphify skill for Claude Code, Cursor, Codex and Gemini CLI that turns a codebase with its docs, SQL schemas, configs and PDFs into a queryable knowledge graph via local deterministic AST parsing. Apache-2.0.",
+      "stars": 136939,
+      "addedAt": "2026-10-27T23:14:01Z"
     },
     {
       "id": "caveman",
@@ -86,7 +97,7 @@
       "name": "Caveman",
       "descKo": "출력을 원시인 말투로 압축해 토큰을 크게 줄여주는 Claude Code 스킬. 기술 정확도는 유지.",
       "descEn": "Claude Code skill that compresses output into caveman speech to cut tokens while keeping technical accuracy.",
-      "stars": 115038,
+      "stars": 115531,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -97,8 +108,19 @@
       "name": "Agent Skills (Addy Osmani)",
       "descKo": "Google Chrome 엔지니어링 리드 Addy Osmani가 만든 프로덕션급 코딩 에이전트 스킬 모음.",
       "descEn": "Production-grade engineering skills for AI coding agents, by Google Chrome engineering lead Addy Osmani.",
-      "stars": 110496,
+      "stars": 111120,
       "addedAt": "2026-07-12T00:00:00Z"
+    },
+    {
+      "id": "claude-mem",
+      "repo": "thedotmack/claude-mem",
+      "author": "thedotmack",
+      "category": "automation",
+      "name": "Claude-Mem",
+      "descKo": "에이전트가 세션 중 한 일을 AI로 압축해 다음 세션에 관련 맥락을 다시 넣어 주는 영속 메모리 플러그인. Claude Code·Codex·Gemini 등 지원, Apache-2.0.",
+      "descEn": "A persistent-memory plugin that captures what your agent does during sessions, compresses it with AI and injects relevant context into future sessions. Works with Claude Code, Codex, Gemini and more. Apache-2.0.",
+      "stars": 103714,
+      "addedAt": "2026-10-27T23:14:01Z"
     },
     {
       "id": "taste-skill",
@@ -108,7 +130,7 @@
       "name": "taste-skill",
       "descKo": "코딩 에이전트에 아트 디렉션·레퍼런스 이미지 감각을 부여해 UI 품질을 끌어올리는 스킬",
       "descEn": "Gives coding agents taste: art direction and reference images for better UI output",
-      "stars": 102458,
+      "stars": 103647,
       "addedAt": "2026-10-18T23:08:01Z"
     },
     {
@@ -119,7 +141,7 @@
       "name": "Archify",
       "descKo": "아키텍처·워크플로우·시퀀스·데이터 흐름 다이어그램을 검증 가능한 형태로 그려주는 에이전트 스킬.",
       "descEn": "Agent skill for beautiful, verifiable architecture, workflow, sequence, and data-flow diagrams.",
-      "stars": 89152,
+      "stars": 90424,
       "addedAt": "2026-08-30T23:10:39Z"
     },
     {
@@ -130,7 +152,7 @@
       "name": "Awesome Claude Skills",
       "descKo": "Claude AI 워크플로우 커스터마이징을 위한 스킬·리소스·도구 큐레이션 리스트.",
       "descEn": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows.",
-      "stars": 77931,
+      "stars": 78093,
       "addedAt": "2026-07-12T00:00:00Z"
     },
     {
@@ -141,7 +163,7 @@
       "name": "OpenMontage",
       "descKo": "코딩 에이전트를 영상 제작 스튜디오로 바꿔주는 오픈소스 스킬. 12개 파이프라인·100개 이상 도구·700개 이상 스킬 파일 포함.",
       "descEn": "An open-source agentic video production system that turns a coding assistant into a video studio — 12 pipelines, 100+ tools, 700+ skill and production-knowledge files.",
-      "stars": 71876,
+      "stars": 72456,
       "addedAt": "2026-08-07T23:11:03Z"
     },
     {
@@ -152,7 +174,7 @@
       "name": "Last 30 Days",
       "descKo": "레딧·X·유튜브·HN·폴리마켓과 웹을 훑어 최근 30일 동향을 근거 기반으로 요약해주는 에이전트 스킬.",
       "descEn": "An AI agent skill that scans Reddit/X/YouTube/HN/Polymarket plus the web to produce a grounded summary of the last 30 days.",
-      "stars": 65449,
+      "stars": 65689,
       "addedAt": "2026-07-15T09:00:00Z"
     },
     {
@@ -163,7 +185,7 @@
       "name": "Diagram Design",
       "descKo": "Claude Code·Codex·Copilot·Cursor 등에서 쓰는 45가지 다이어그램 유형의 에디토리얼 도해 스킬. 단독 HTML+SVG로 출력.",
       "descEn": "Editorial diagram design for Claude Code, Codex, Copilot, Cursor and more: 45 diagram types as self-contained HTML plus SVG.",
-      "stars": 61041,
+      "stars": 61767,
       "addedAt": "2026-10-25T23:13:26Z"
     },
     {
@@ -174,7 +196,7 @@
       "name": "Humanizer",
       "descKo": "글에서 AI 티가 나는 흔적을 제거해 자연스럽게 다듬는 Claude Code 스킬.",
       "descEn": "Claude Code skill that removes signs of AI-generated writing from text.",
-      "stars": 60570,
+      "stars": 61482,
       "addedAt": "2026-07-11T00:00:00Z"
     },
     {
@@ -185,7 +207,7 @@
       "name": "Marketing Skills",
       "descKo": "CRO·카피라이팅·SEO·분석·그로스 엔지니어링을 다루는 Claude Code·AI 에이전트용 마케팅 스킬 모음.",
       "descEn": "Marketing skills for Claude Code and AI agents covering CRO, copywriting, SEO, analytics, and growth engineering.",
-      "stars": 56521,
+      "stars": 56899,
       "addedAt": "2026-10-25T23:13:26Z"
     },
     {
@@ -196,30 +218,8 @@
       "name": "Scientific Agent Skills",
       "descKo": "생물학·화학·의학·신약개발 등 165개 스킬과 100여 개 과학 데이터베이스를 묶은 'AI 과학자' 스킬 라이브러리. 클로드 코드·코덱스·Cursor 등과 호환.",
       "descEn": "An 'AI scientist' skills library bundling 165 skills and 100+ scientific databases across biology, chemistry, medicine, and drug discovery, compatible with Claude Code, Codex, Cursor, and more.",
-      "stars": 54579,
+      "stars": 54945,
       "addedAt": "2026-08-07T23:11:03Z"
-    },
-    {
-      "id": "obsidian-skills",
-      "repo": "kepano/obsidian-skills",
-      "author": "kepano",
-      "category": "automation",
-      "name": "Obsidian Skills",
-      "descKo": "에이전트가 Obsidian CLI·마크다운·Bases·Canvas를 다루는 법을 가르치는 스킬.",
-      "descEn": "Teaches agents to work with Obsidian's CLI, Markdown, Bases, and Canvas.",
-      "stars": 50075,
-      "addedAt": "2026-07-15T09:00:00Z"
-    },
-    {
-      "id": "cloudflare-security-audit-skill",
-      "repo": "cloudflare/security-audit-skill",
-      "author": "cloudflare",
-      "category": "security",
-      "name": "Security Audit Skill (Cloudflare)",
-      "descKo": "Cloudflare가 공개한 6단계 보안 감사 스킬. 격리된 에이전트가 정찰·탐색·검증을 나눠 맡고 독립 검증된 결과를 JSON 보고서로 남긴다.",
-      "descEn": "Cloudflare's six-phase security audit skill: isolated agents split reconnaissance, hunting, and validation, and leave independently verified findings as JSON reports.",
-      "stars": 46788,
-      "addedAt": "2026-09-20T23:15:26Z"
     }
   ]
 }

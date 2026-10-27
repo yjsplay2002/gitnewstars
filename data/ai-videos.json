@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-10-25T23:13:26Z",
+  "generatedAt": "2026-10-27T23:14:01Z",
   "videos": [
+    {
+      "id": "vid-sourcenoli-math-verification-skills-ko",
+      "youtubeId": "xAoB4EqzlyU",
+      "category": "tip",
+      "title": "바이브코딩 회귀 버그를 수학 검증 스킬로 잡기",
+      "titleEn": "바이브코딩 망가지면 처음부터 만들지 마세요. 수학 검증 도구로 해결하기!",
+      "descKo": "테스트로 못 잡는 동시성·회귀 버그를 수학 검증 스킬로 잡고, 복잡한 코드에서만 쓰게 AGENTS.md에 지침을 두는 요령을 10분에 정리.",
+      "descEn": "A 10-minute Korean talk on catching concurrency and regression bugs that tests miss with math-verification skills, invoked only for complex code via an AGENTS.md rule.",
+      "channel": "소스놀이터",
+      "publishedAt": "2026-10-27T13:03:37Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
+    {
+      "id": "vid-dalbi-7-traits-heavy-ai-users-ko",
+      "youtubeId": "KDe2QsoXaWw",
+      "category": "tip",
+      "title": "AI를 극한으로 쓰는 사람들의 7가지 특징",
+      "titleEn": "AI를 극한으로 쓰는 사람들의 7가지 특징 (5,700만원 쓰고 알게 됐습니다)",
+      "descKo": "같은 실수 막기, 지시 나눠 주기, 결과가 갈리는 이유, AI를 먼저 붙일 곳을 논문 출처와 함께 16분에 정리.",
+      "descEn": "A 16-minute Korean talk, with paper sources, on stopping repeated AI mistakes, splitting instructions, why results differ and where to attach AI first.",
+      "channel": "달비의 작업실 | AI 자동화",
+      "publishedAt": "2026-10-27T09:23:38Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
+    {
+      "id": "vid-vibelabs-anthropic-sdlc-playbook-ko",
+      "youtubeId": "5zjGk7H5xLQ",
+      "category": "tip",
+      "title": "Anthropic SDLC 플레이북으로 바이브 코딩 버그 잡기",
+      "titleEn": "엔트로픽 SDLC 플레이북으로 바이브 코딩 버그를 잡아보자!",
+      "descKo": "테스트는 통과했는데 기능이 실패하는 문제를 intent.md·spec.md·독립 QC·버그 티켓 절차로 푸는 16분 실험.",
+      "descEn": "A 16-minute Korean experiment using intent.md, spec.md, an independent QC and bug tickets to catch features that pass tests but still fail.",
+      "channel": "바이브랩스",
+      "publishedAt": "2026-10-26T10:17:03Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
+    {
+      "id": "vid-jjong-ai-browser-compare-ko",
+      "youtubeId": "sD-jl4OCOEc",
+      "category": "usecase",
+      "title": "어사이드·ego lite·Claude in Chrome 자동화 브라우저 비교",
+      "titleEn": "당신의 AI 브라우저는? 어사이드·ego lite·클로드 인 크롬 브라우저 한 번에 비교 총 정리! 채팅에서부터 헤르메스까지 딱 정해드립니다!",
+      "descKo": "같은 카페 수집 과제로 세 브라우저를 비교하고 사용 단계별 선택 기준과 비용 이야기를 22분에 정리.",
+      "descEn": "A 22-minute Korean comparison of three AI browsers on one scraping task, with selection rules by usage stage and a cost story.",
+      "channel": "쫑대표의 딸깍일기",
+      "publishedAt": "2026-10-26T23:30:35Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
+    {
+      "id": "vid-codegganneun-claude-code-50min-ko",
+      "youtubeId": "xjHR00fV-XQ",
+      "category": "lecture",
+      "title": "클로드 코드 50분 마스터: 바이브코딩 완전 초보자용",
+      "titleEn": "클로드코드 50분 마스터 | 바이브코딩 완전 초보자용",
+      "descKo": "터미널 설치부터 첫 요청, 진행 줄 읽기, 권한 모드(Shift+Tab)까지 초보자를 위한 50분 Claude Code 입문.",
+      "descEn": "A 50-minute Korean beginner course on Claude Code: terminal install, first requests, reading progress lines and permission modes with Shift+Tab.",
+      "channel": "코드깎는노인",
+      "publishedAt": "2026-10-26T10:29:53Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
+    {
+      "id": "vid-honjapseu-vibe-coding-principles-90min-ko",
+      "youtubeId": "bB37cJ-13pI",
+      "category": "lecture",
+      "title": "바이브코딩 원리 90분 총정리: HTML부터 Git까지",
+      "titleEn": "바이브코딩 원리는 알고 하세요 | 모든개발 지식부터 도구까지 이거 하나로 이해하기 90분 총정리",
+      "descKo": "웹 서비스를 식당에 빗대 HTML·CSS·서버·DB·HTTP·로그인·클라우드·Git까지 개발 지식 12가지를 1시간 23분에 훑는 강의.",
+      "descEn": "A 1h23m Korean primer mapping a web service to a restaurant to cover HTML, CSS, servers, databases, HTTP, login, cloud and Git for vibe coders.",
+      "channel": "혼잡스",
+      "publishedAt": "2026-10-26T10:15:23Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
+    {
+      "id": "vid-aishreganti-agentic-system-design-20min",
+      "youtubeId": "Mv7eiQFQQ1E",
+      "category": "lecture",
+      "title": "에이전트 AI 시스템 설계 20분 총정리: 범위부터 최적화까지",
+      "titleEn": "2,000+ Hours of Learning Agentic AI System Design in 20 Minutes",
+      "descKo": "범위·가정, 아키텍처, 관측성, 제품·운영, 최적화의 5개 레이어로 에이전트 시스템 설계를 20분에 설명.",
+      "descEn": "Twenty minutes on agentic AI system design in five layers: scope and assumptions, architecture, observability, product and ops, and optimization.",
+      "channel": "Aish Reganti",
+      "publishedAt": "2026-10-22T14:31:59Z",
+      "addedAt": "2026-10-27T23:14:01Z"
+    },
     {
       "id": "vid-ailabs-google-egm-claude-code",
       "youtubeId": "xxf6D9jynFw",
@@ -62,18 +146,6 @@
       "addedAt": "2026-10-25T23:13:26Z"
     },
     {
-      "id": "vid-tusol-claude-code-80-percent-2h-ko",
-      "youtubeId": "t5wgKwVIUgY",
-      "category": "lecture",
-      "title": "클로드 코드 80% 마스터: 2시간 풀코스",
-      "titleEn": "2027년이 오기전 클로드 코드의 80%를 마스터 하세요 [2시간 풀코스]",
-      "descKo": "설치·CLAUDE.md·컨텍스트 관리부터 MCP·스킬·서브에이전트·훅·HANDOFF.md 세션 인계까지 1시간 47분에 훑는 입문 풀코스.",
-      "descEn": "A 1h47m Korean beginner course from install, CLAUDE.md and context management to MCP, skills, subagents, hooks and HANDOFF.md session handoff.",
-      "channel": "투쏠ㅣAI 에이전트",
-      "publishedAt": "2026-10-21T09:31:58Z",
-      "addedAt": "2026-10-25T23:13:26Z"
-    },
-    {
       "id": "vid-litmus-rea-reverse-engineer-office-ko",
       "youtubeId": "g6yLR8sNTyk",
       "category": "usecase",
@@ -83,18 +155,6 @@
       "descEn": "A 22-minute Korean experiment running the open-source REA through Claude Code and Codex to rebuild Office apps and lift a Notion clone from 38 to 96 points.",
       "channel": "리트머스",
       "publishedAt": "2026-10-23T09:02:30Z",
-      "addedAt": "2026-10-24T23:14:15Z"
-    },
-    {
-      "id": "vid-dante-ponytail-reuse-code-ko",
-      "youtubeId": "fQZbSjmg9lg",
-      "category": "tip",
-      "title": "포니테일로 기존 코드를 재사용시켜 작업 시간 42% 줄이기",
-      "titleEn": "포니테일 넣었더니 코딩 시간 42% 줄었다? 실제 앱으로 비교했습니다 | Claude Code",
-      "descKo": "Claude Code에 포니테일을 설치하고 북마크 서비스 linkding에서 3회씩 돌려 시간·비용을 비교한 7분 실습.",
-      "descEn": "A 7-minute Korean hands-on installing Ponytail in Claude Code and comparing time and cost over three runs each on the linkding bookmark app.",
-      "channel": "단테",
-      "publishedAt": "2026-10-22T09:00:11Z",
       "addedAt": "2026-10-24T23:14:15Z"
     },
     {
@@ -110,18 +170,6 @@
       "addedAt": "2026-10-24T23:14:15Z"
     },
     {
-      "id": "vid-googlecloudtech-ai-harness-crash-course",
-      "youtubeId": "2C_CefSQEAQ",
-      "category": "lecture",
-      "title": "AI 하네스 속성 강의: 컨텍스트·도구·샌드박스·평가",
-      "titleEn": "AI harness crash course",
-      "descKo": "작업 하나를 따라가며 하네스의 네 부분(컨텍스트와 메모리, 도구와 실행 흐름, 런타임·보안, 평가)을 9분에 설명.",
-      "descEn": "Nine minutes following one task through the four parts of an AI harness: context and memory, tools and execution flow, runtime and security, and evaluation.",
-      "channel": "Google Cloud Tech",
-      "publishedAt": "2026-10-22T15:55:11Z",
-      "addedAt": "2026-10-24T23:14:15Z"
-    },
-    {
       "id": "vid-dante-herdr-agent-workflow-ko",
       "youtubeId": "-Fj8hMkNOvc",
       "category": "lecture",
@@ -132,54 +180,6 @@
       "channel": "단테",
       "publishedAt": "2026-10-22T22:00:27Z",
       "addedAt": "2026-10-23T23:13:00Z"
-    },
-    {
-      "id": "vid-gcreator-claude-code-codex-cross-verify-ko",
-      "youtubeId": "4BDNTubxwP4",
-      "category": "tip",
-      "title": "클로드 코드에 코덱스 붙여 AI끼리 교차 검증하기",
-      "titleEn": "클로드 코드에 코덱스를 붙였더니? AI가 서로 검증합니다 (Claude Code × Codex)",
-      "descKo": "Codex 플러그인 설치, rescue 위임, adversarial-review, 검토 자동화 훅을 13분에 실습.",
-      "descEn": "A 13-minute Korean walkthrough of installing the Codex plugin, delegating with rescue, adversarial review and an auto-review hook.",
-      "channel": "G-CREATOR",
-      "publishedAt": "2026-10-22T23:00:08Z",
-      "addedAt": "2026-10-23T23:13:00Z"
-    },
-    {
-      "id": "vid-aituterlab-gemini-7-work-uses-ko",
-      "youtubeId": "V33Sqr3FA_I",
-      "category": "usecase",
-      "title": "제미나이로 업무 결과물 만드는 7가지",
-      "titleEn": "상위 1%처럼 제미나이 쓰는 법 : 업무 활용 7가지 ｜프롬프트 무료 배포",
-      "descKo": "워드 보고서·PDF 전자책·엑셀·PPT·웹앱·Gmail 연동·AI 비서 만들기를 14분에 실습.",
-      "descEn": "A 14-minute Korean demo of Gemini producing Word reports, e-books, Excel, PPT, web apps, Gmail automation and an AI assistant.",
-      "channel": "AI튜터랩",
-      "publishedAt": "2026-10-22T10:15:45Z",
-      "addedAt": "2026-10-23T23:13:00Z"
-    },
-    {
-      "id": "vid-aicodeking-opus-55-real-engineering",
-      "youtubeId": "Xm_Sf2qxRW4",
-      "category": "tip",
-      "title": "Opus 5.5로 실제 엔지니어링하는 워크플로우",
-      "titleEn": "Here's how I do Real Engineering with Opus 5.5 (Workflow w/ Tools)",
-      "descKo": "단순한 프롬프트, 벤치마크 먼저 쓰기, 소량의 테스트, 아키텍트·워커·리뷰어 에이전트 팀을 12분에 소개.",
-      "descEn": "Twelve minutes on simple prompts, writing benchmarks first, a few thoughtful tests and an architect-worker-reviewer agent team.",
-      "channel": "AICodeKing",
-      "publishedAt": "2026-10-23T10:00:33Z",
-      "addedAt": "2026-10-23T23:13:00Z"
-    },
-    {
-      "id": "vid-pyeongbeom-codex-harness-app-server-ko",
-      "youtubeId": "Q2J6njY5Mkc",
-      "category": "lecture",
-      "title": "Codex 하네스와 App Server 구조 이해하기",
-      "titleEn": "AI는 모델만으로 일하지 않습니다｜Codex 하네스의 역할",
-      "descKo": "OpenAI 발표를 번역·해설해 모델·하네스·앱 서버의 역할과 내 앱 연결법을 22분에 설명.",
-      "descEn": "A 22-minute Korean walkthrough of an OpenAI talk on how the model, harness and App Server fit together and connect to your own app.",
-      "channel": "평범한 사업가 | AI SuperUser",
-      "publishedAt": "2026-10-21T00:00:00Z",
-      "addedAt": "2026-10-21T23:12:00Z"
     }
   ]
 }
