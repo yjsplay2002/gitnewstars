@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-10-27T23:14:01Z",
+  "generatedAt": "2026-10-28T23:15:34Z",
   "videos": [
+    {
+      "id": "vid-nullnull-compaction-rejected-alternatives-ko",
+      "youtubeId": "vQB3HAhPuKw",
+      "category": "tip",
+      "title": "바이브 코딩 중 AI가 말을 까먹는 이유와 대응",
+      "titleEn": "바이브 코딩 할 때, AI가 당신 말을 까먹는 이유",
+      "descKo": "압축에서 사라지는 거부된 대안, 매 턴 들어가는 고정 컨텍스트, 결정을 파일로 남기는 법을 18분에 설명.",
+      "descEn": "An 18-minute Korean explainer on how compaction drops rejected alternatives, what the fixed context contains and why decisions belong in files.",
+      "channel": "널널한 개발자 TV",
+      "publishedAt": "2026-10-28T11:45:24Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
+    {
+      "id": "vid-cheotcode-claude-code-limit-98pct-ko",
+      "youtubeId": "pTMeVO-fhs8",
+      "category": "tip",
+      "title": "Claude Code 한도 아끼기: 입력의 98%는 앞 대화 재독",
+      "titleEn": "클로드 코드 한도가 매번 부족하다고요? 이걸 몰라서예요 | 바이브코딩 Claude Code 토큰 아끼는 법",
+      "descKo": "7일 치 대화 기록을 직접 분석해 새 대화·/compact·모델 선택 세 가지 습관으로 한도를 아끼는 방법을 9분에 정리.",
+      "descEn": "A 9-minute Korean talk analyzing seven days of own logs and saving limits with three habits: new chats, /compact before breaks and picking the model up front.",
+      "channel": "첫코드 | AI 바이브코딩",
+      "publishedAt": "2026-10-25T03:30:42Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
+    {
+      "id": "vid-citizendev-ai-dashboard-claude-codex-ko",
+      "youtubeId": "yXt2Xxju5Rs",
+      "category": "usecase",
+      "title": "클로드·코덱스로 대시보드 분석부터 시각화까지",
+      "titleEn": "아직 대시보드 직접 만드세요? 클로드·코덱스로 분석부터 시각화까지 한번에!",
+      "descKo": "BigQuery 판매 데이터를 Claude와 Codex에 연결해 질문하며 대시보드를 만들고 공유·예약 갱신까지 보여 주는 30분 실습.",
+      "descEn": "A 30-minute Korean hands-on connecting BigQuery sales data to Claude and Codex, building a dashboard by asking questions, then sharing and scheduling refreshes.",
+      "channel": "시민개발자 구씨",
+      "publishedAt": "2026-10-24T05:00:20Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
+    {
+      "id": "vid-toylee-unreal-claude-mcp-ko",
+      "youtubeId": "kwdcAn0Ex3M",
+      "category": "usecase",
+      "title": "언리얼엔진에 Claude MCP 연결해 도시 만들기",
+      "titleEn": "언리얼엔진 클로드 MCP 이렇게 안쓰면 크레딧 녹아내려요! 무조건 써야하는 이 방법!",
+      "descKo": "UE 5.6에서 Claude Desktop과 MCP로 박스형 결과를 에셋 폴더·시안 이미지 지정과 PCG 구성으로 바꾸는 8분 실습.",
+      "descEn": "An 8-minute Korean hands-on connecting Claude Desktop to Unreal Engine 5.6 over MCP and fixing box-shaped output with asset folders, reference images and PCG.",
+      "channel": "언리얼 토이리 (Unreal ToyLee)",
+      "publishedAt": "2026-10-27T00:16:14Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
+    {
+      "id": "vid-erictech-cloudflare-security-audit-skill",
+      "youtubeId": "8-NrvPP5e80",
+      "category": "usecase",
+      "title": "Cloudflare 보안 감사 스킬로 실제 앱의 버그 21개 찾기",
+      "titleEn": "This Claude Code Security Skill Found 21 Real Bugs",
+      "descKo": "Cloudflare security-audit 스킬을 6개월 된 실사용 앱에 돌려 26건 중 21건을 확인하고 티켓·수정·재감사까지 7분에 시연.",
+      "descEn": "Seven minutes running Cloudflare's security-audit skill on a six-month-old live app: 21 of 26 findings real, then tickets, fixes and a verifying re-audit.",
+      "channel": "Eric Tech",
+      "publishedAt": "2026-10-27T06:04:42Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
+    {
+      "id": "vid-maddyzhang-harness-loop-graph-9min",
+      "youtubeId": "VioTvuDS23k",
+      "category": "lecture",
+      "title": "에이전트 엔지니어링 9분 총정리: 하네스·루프·그래프",
+      "titleEn": "900+ hours of Learning AI Agents in 9 Minutes",
+      "descKo": "하네스 엔지니어링으로 에이전트 하나를, 루프로 자율 작업을, 그래프로 여러 에이전트 조율을 설계하는 법을 10분에 정리.",
+      "descEn": "Ten minutes on harness engineering for one agent, loop engineering for autonomous work and graph engineering for coordinating many agents.",
+      "channel": "Maddy Zhang",
+      "publishedAt": "2026-10-25T16:00:02Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
+    {
+      "id": "vid-googlecloudtech-ai-harness-crash-course",
+      "youtubeId": "2C_CefSQEAQ",
+      "category": "lecture",
+      "title": "AI 하네스 속성 과정: 컨텍스트·도구·샌드박스·평가",
+      "titleEn": "AI harness crash course",
+      "descKo": "컨텍스트와 메모리, 도구·실행 흐름, 런타임·보안·프라이버시, 평가의 네 부분으로 AI 하네스 설계를 9분에 설명.",
+      "descEn": "Nine minutes on designing an AI harness in four parts: context and memory, tools and execution flow, runtime, security and privacy, and evaluation.",
+      "channel": "Google Cloud Tech",
+      "publishedAt": "2026-10-22T15:55:11Z",
+      "addedAt": "2026-10-28T23:15:34Z"
+    },
     {
       "id": "vid-sourcenoli-math-verification-skills-ko",
       "youtubeId": "xAoB4EqzlyU",
@@ -74,18 +158,6 @@
       "addedAt": "2026-10-27T23:14:01Z"
     },
     {
-      "id": "vid-aishreganti-agentic-system-design-20min",
-      "youtubeId": "Mv7eiQFQQ1E",
-      "category": "lecture",
-      "title": "에이전트 AI 시스템 설계 20분 총정리: 범위부터 최적화까지",
-      "titleEn": "2,000+ Hours of Learning Agentic AI System Design in 20 Minutes",
-      "descKo": "범위·가정, 아키텍처, 관측성, 제품·운영, 최적화의 5개 레이어로 에이전트 시스템 설계를 20분에 설명.",
-      "descEn": "Twenty minutes on agentic AI system design in five layers: scope and assumptions, architecture, observability, product and ops, and optimization.",
-      "channel": "Aish Reganti",
-      "publishedAt": "2026-10-22T14:31:59Z",
-      "addedAt": "2026-10-27T23:14:01Z"
-    },
-    {
       "id": "vid-ailabs-google-egm-claude-code",
       "youtubeId": "xxf6D9jynFw",
       "category": "tip",
@@ -108,78 +180,6 @@
       "channel": "개발동생",
       "publishedAt": "2026-10-25T08:42:21Z",
       "addedAt": "2026-10-25T23:13:26Z"
-    },
-    {
-      "id": "vid-codegganneun-vibe-coder-24-terms-ko",
-      "youtubeId": "mlhKEy-2bgI",
-      "category": "tip",
-      "title": "바이브코더 필수 UI 용어 24가지와 AI 요청 문장",
-      "titleEn": "바이브코더가 반드시 알아야 할 필수 용어 24가지",
-      "descKo": "레이아웃·컴포넌트·효과 용어 24개를 움직이는 화면과 AI에게 그대로 쓸 요청 문장, 치트시트로 12분에 정리.",
-      "descEn": "A 12-minute Korean guide to 24 layout, component and effect terms with live examples, paste-ready AI request sentences and a cheat sheet.",
-      "channel": "코드깎는노인",
-      "publishedAt": "2026-10-25T03:58:07Z",
-      "addedAt": "2026-10-25T23:13:26Z"
-    },
-    {
-      "id": "vid-betterstack-orca-agent-ide",
-      "youtubeId": "8QgBcI40VC8",
-      "category": "usecase",
-      "title": "Orca: Claude Code·Codex를 한 창에서 돌리는 에이전트 IDE",
-      "titleEn": "The Best Agent IDE I've ever used (Orca)",
-      "descKo": "worktree, 내장 브라우저, 사용량 추적, Claude·Codex 멀티 에이전트 오케스트레이션을 묶은 무료 오픈소스 Orca를 7분에 소개.",
-      "descEn": "Seven minutes on Orca, a free open-source app wrapping worktrees, a built-in browser, usage tracking and Claude-plus-Codex orchestration around a plain terminal.",
-      "channel": "Better Stack",
-      "publishedAt": "2026-10-23T21:00:22Z",
-      "addedAt": "2026-10-25T23:13:26Z"
-    },
-    {
-      "id": "vid-kimflip-pstack-deep-dive-ko",
-      "youtubeId": "u2oDdU6z4Bw",
-      "category": "usecase",
-      "title": "pstack 직접 뜯어보기: 투두앱으로 0~7단계 실습",
-      "titleEn": "요즘 자꾸 뜨는 pstack 어설프게 말고 제대로 파헤쳐 보기",
-      "descKo": "pstack을 Claude Code에 설치해 디자인·검증 스킬·기능·버그 수정·리팩터링·야간 위임까지 투두앱으로 따라 하는 24분 실습.",
-      "descEn": "A 24-minute Korean hands-on installing pstack in Claude Code and running a todo app through design, verification skill, features, bug fixes, refactoring and overnight delegation.",
-      "channel": "김플립 - LLM 코딩",
-      "publishedAt": "2026-10-23T00:00:08Z",
-      "addedAt": "2026-10-25T23:13:26Z"
-    },
-    {
-      "id": "vid-litmus-rea-reverse-engineer-office-ko",
-      "youtubeId": "g6yLR8sNTyk",
-      "category": "usecase",
-      "title": "REA로 엑셀·워드·PPT·노션을 AI로 똑같이 만들기",
-      "titleEn": "엑셀·워드·PPT·노션까지 AI로 똑같이 만들어봤습니다 (리버스 엔지니어링, Claude Code·Codex)",
-      "descKo": "오픈소스 REA를 Claude Code·Codex로 돌려 노션 클론 기능 테스트를 38점에서 96점으로 올린 22분 실험.",
-      "descEn": "A 22-minute Korean experiment running the open-source REA through Claude Code and Codex to rebuild Office apps and lift a Notion clone from 38 to 96 points.",
-      "channel": "리트머스",
-      "publishedAt": "2026-10-23T09:02:30Z",
-      "addedAt": "2026-10-24T23:14:15Z"
-    },
-    {
-      "id": "vid-techwithtim-learn-99-claude-code",
-      "youtubeId": "3TwbE7gv6qo",
-      "category": "lecture",
-      "title": "Claude Code 99%를 한 영상으로: 설정부터 서브에이전트·MCP·훅까지",
-      "titleEn": "Learn 99% Of Claude Code in One Video",
-      "descKo": "모델·effort·권한 모드·CLAUDE.md·메모리·스킬·서브에이전트·MCP·훅·병렬 세션·루틴을 48분에 훑는 설정 강의.",
-      "descEn": "A 48-minute setup course covering models, effort, permission modes, CLAUDE.md, memory, skills, subagents, MCP, hooks, parallel sessions and routines.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-10-24T14:00:00Z",
-      "addedAt": "2026-10-24T23:14:15Z"
-    },
-    {
-      "id": "vid-dante-herdr-agent-workflow-ko",
-      "youtubeId": "-Fj8hMkNOvc",
-      "category": "lecture",
-      "title": "Herdr로 Claude Code·Codex 동시에 쓰기 (1시간 무료 강의)",
-      "titleEn": "에이전트 워크플로우 최강 도구 Herdr 완벽 가이드 | Claude Code·Codex 동시에 쓰기 (1시간 무료 강의)",
-      "descKo": "Herdr 설치부터 worktree 병렬 개발, 교차 리뷰, 조정자 패턴, 휴대폰 이어 하기까지 61분에 정리한 무료 강의.",
-      "descEn": "A free 61-minute Korean course on Herdr: setup, worktree parallel development, cross-model review, the coordinator pattern and continuing from your phone.",
-      "channel": "단테",
-      "publishedAt": "2026-10-22T22:00:27Z",
-      "addedAt": "2026-10-23T23:13:00Z"
     }
   ]
 }
