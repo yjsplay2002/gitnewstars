@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-10-28T23:15:34Z",
+  "generatedAt": "2026-10-30T23:19:16Z",
   "videos": [
+    {
+      "id": "vid-alex-ai-code-security-5-checks-ko",
+      "youtubeId": "hZcI0Tpfko4",
+      "category": "tip",
+      "title": "AI가 짠 코드 보안 점검 5가지: 소스 노출부터 SQL 인젝션까지",
+      "titleEn": "5 Things to Check in AI-Generated Code | Security Audit | A Must-Watch for Vibe Coding",
+      "descKo": "프론트 소스·API 키·HTTPS·방화벽 포트·JWT·인증/인가·SQL 인젝션을 17분 안에 짚는 배포 전 체크리스트.",
+      "descEn": "A 17-minute pre-deploy checklist covering frontend source, API keys, HTTPS, firewall ports, JWT, authN/authZ and SQL injection.",
+      "channel": "기술노트with 알렉",
+      "publishedAt": "2026-10-30T13:46:08Z",
+      "addedAt": "2026-10-30T23:19:16Z"
+    },
+    {
+      "id": "vid-cheotcode-claude-md-6-secrets-ko",
+      "youtubeId": "FEDtKRyQ1A4",
+      "category": "tip",
+      "title": "CLAUDE.md를 써도 클로드가 까먹는 이유 6가지",
+      "titleEn": "Why Claude Forgets Even a Carefully Written CLAUDE.md: 6 Secrets",
+      "descKo": "1,350줄 삭제 실험·파일 분할·한국어/영어 선택·훅으로 규칙 강제까지 12분에 정리.",
+      "descEn": "A 12-minute tour of the 1,350-line deletion experiment, splitting files, Korean vs English and enforcing rules with hooks.",
+      "channel": "첫코드 | AI 바이브코딩",
+      "publishedAt": "2026-10-28T14:57:15Z",
+      "addedAt": "2026-10-30T23:19:16Z"
+    },
+    {
+      "id": "vid-codefactory-herdr-llm-orchestration-ko",
+      "youtubeId": "1AlbTXb8oPc",
+      "category": "usecase",
+      "title": "Herdr로 여러 코딩 에이전트 한 화면에서 오케스트레이션",
+      "titleEn": "The Essentials of LLM Orchestration with Herdr",
+      "descKo": "화면 분할·워크트리 분리·병렬 작업·원격 에이전트 등록과 Tailscale 연결을 21분에 시연.",
+      "descEn": "A 21-minute demo of split-screen agents, worktrees, parallel tasks, remote agents and a Tailscale connection.",
+      "channel": "코드팩토리",
+      "publishedAt": "2026-10-29T12:18:42Z",
+      "addedAt": "2026-10-30T23:19:16Z"
+    },
+    {
+      "id": "vid-dante-ontology-vs-sdd-experiment-ko",
+      "youtubeId": "bZJa_I8EnUc",
+      "category": "usecase",
+      "title": "온톨로지 꼭 써야 할까? 클로드 코드로 직접 잰 실험",
+      "titleEn": "Do You Really Need an Ontology? Measured with Claude Code (Small Task vs Company Data)",
+      "descKo": "같은 내용을 온톨로지와 PRD·SDD로 비교한 뒤 보험 데이터 챗봇을 44문항으로 채점한 39분 실험.",
+      "descEn": "A 39-minute experiment comparing an ontology with PRD/SDD on the same content, then grading an insurance-data chatbot on 44 questions.",
+      "channel": "단테",
+      "publishedAt": "2026-10-29T10:00:23Z",
+      "addedAt": "2026-10-30T23:19:16Z"
+    },
+    {
+      "id": "vid-dante-figma-design-harness-ko",
+      "youtubeId": "4tVZV_EtLc4",
+      "category": "usecase",
+      "title": "클로드 코드 + 피그마 디자인 하네스로 들쭉날쭉한 AI 디자인 잡기",
+      "titleEn": "Claude Code + Figma 'Design Harness' - Taming Inconsistent AI Design with Rules",
+      "descKo": "하네스 유무를 같은 스크립트로 비교하고 8단계 검사·figma-guard 훅·npm run metrics 지표를 14분에 소개.",
+      "descEn": "A 14-minute comparison with and without a harness, covering an 8-step check, the figma-guard hook and npm run metrics.",
+      "channel": "단테",
+      "publishedAt": "2026-10-28T10:00:19Z",
+      "addedAt": "2026-10-30T23:19:16Z"
+    },
+    {
+      "id": "vid-damiangalarza-agentic-engineering-stack",
+      "youtubeId": "0OvbSRoiR0Q",
+      "category": "lecture",
+      "title": "에이전틱 엔지니어링 스택: 스펙에서 출시까지",
+      "titleEn": "The Agentic Engineering Stack: From Spec to Ship",
+      "descKo": "스펙 작성부터 배포까지 에이전트 중심 개발 스택을 42분 분량으로 설명한 강의.",
+      "descEn": "A 42-minute talk on an agent-centred development stack from writing the spec to shipping.",
+      "channel": "Damian Galarza",
+      "publishedAt": "2026-10-29T16:00:22Z",
+      "addedAt": "2026-10-30T23:19:16Z"
+    },
     {
       "id": "vid-nullnull-compaction-rejected-alternatives-ko",
       "youtubeId": "vQB3HAhPuKw",
@@ -26,30 +98,6 @@
       "addedAt": "2026-10-28T23:15:34Z"
     },
     {
-      "id": "vid-citizendev-ai-dashboard-claude-codex-ko",
-      "youtubeId": "yXt2Xxju5Rs",
-      "category": "usecase",
-      "title": "클로드·코덱스로 대시보드 분석부터 시각화까지",
-      "titleEn": "아직 대시보드 직접 만드세요? 클로드·코덱스로 분석부터 시각화까지 한번에!",
-      "descKo": "BigQuery 판매 데이터를 Claude와 Codex에 연결해 질문하며 대시보드를 만들고 공유·예약 갱신까지 보여 주는 30분 실습.",
-      "descEn": "A 30-minute Korean hands-on connecting BigQuery sales data to Claude and Codex, building a dashboard by asking questions, then sharing and scheduling refreshes.",
-      "channel": "시민개발자 구씨",
-      "publishedAt": "2026-10-24T05:00:20Z",
-      "addedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "vid-toylee-unreal-claude-mcp-ko",
-      "youtubeId": "kwdcAn0Ex3M",
-      "category": "usecase",
-      "title": "언리얼엔진에 Claude MCP 연결해 도시 만들기",
-      "titleEn": "언리얼엔진 클로드 MCP 이렇게 안쓰면 크레딧 녹아내려요! 무조건 써야하는 이 방법!",
-      "descKo": "UE 5.6에서 Claude Desktop과 MCP로 박스형 결과를 에셋 폴더·시안 이미지 지정과 PCG 구성으로 바꾸는 8분 실습.",
-      "descEn": "An 8-minute Korean hands-on connecting Claude Desktop to Unreal Engine 5.6 over MCP and fixing box-shaped output with asset folders, reference images and PCG.",
-      "channel": "언리얼 토이리 (Unreal ToyLee)",
-      "publishedAt": "2026-10-27T00:16:14Z",
-      "addedAt": "2026-10-28T23:15:34Z"
-    },
-    {
       "id": "vid-erictech-cloudflare-security-audit-skill",
       "youtubeId": "8-NrvPP5e80",
       "category": "usecase",
@@ -59,30 +107,6 @@
       "descEn": "Seven minutes running Cloudflare's security-audit skill on a six-month-old live app: 21 of 26 findings real, then tickets, fixes and a verifying re-audit.",
       "channel": "Eric Tech",
       "publishedAt": "2026-10-27T06:04:42Z",
-      "addedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "vid-maddyzhang-harness-loop-graph-9min",
-      "youtubeId": "VioTvuDS23k",
-      "category": "lecture",
-      "title": "에이전트 엔지니어링 9분 총정리: 하네스·루프·그래프",
-      "titleEn": "900+ hours of Learning AI Agents in 9 Minutes",
-      "descKo": "하네스 엔지니어링으로 에이전트 하나를, 루프로 자율 작업을, 그래프로 여러 에이전트 조율을 설계하는 법을 10분에 정리.",
-      "descEn": "Ten minutes on harness engineering for one agent, loop engineering for autonomous work and graph engineering for coordinating many agents.",
-      "channel": "Maddy Zhang",
-      "publishedAt": "2026-10-25T16:00:02Z",
-      "addedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "vid-googlecloudtech-ai-harness-crash-course",
-      "youtubeId": "2C_CefSQEAQ",
-      "category": "lecture",
-      "title": "AI 하네스 속성 과정: 컨텍스트·도구·샌드박스·평가",
-      "titleEn": "AI harness crash course",
-      "descKo": "컨텍스트와 메모리, 도구·실행 흐름, 런타임·보안·프라이버시, 평가의 네 부분으로 AI 하네스 설계를 9분에 설명.",
-      "descEn": "Nine minutes on designing an AI harness in four parts: context and memory, tools and execution flow, runtime, security and privacy, and evaluation.",
-      "channel": "Google Cloud Tech",
-      "publishedAt": "2026-10-22T15:55:11Z",
       "addedAt": "2026-10-28T23:15:34Z"
     },
     {
@@ -122,18 +146,6 @@
       "addedAt": "2026-10-27T23:14:01Z"
     },
     {
-      "id": "vid-jjong-ai-browser-compare-ko",
-      "youtubeId": "sD-jl4OCOEc",
-      "category": "usecase",
-      "title": "어사이드·ego lite·Claude in Chrome 자동화 브라우저 비교",
-      "titleEn": "당신의 AI 브라우저는? 어사이드·ego lite·클로드 인 크롬 브라우저 한 번에 비교 총 정리! 채팅에서부터 헤르메스까지 딱 정해드립니다!",
-      "descKo": "같은 카페 수집 과제로 세 브라우저를 비교하고 사용 단계별 선택 기준과 비용 이야기를 22분에 정리.",
-      "descEn": "A 22-minute Korean comparison of three AI browsers on one scraping task, with selection rules by usage stage and a cost story.",
-      "channel": "쫑대표의 딸깍일기",
-      "publishedAt": "2026-10-26T23:30:35Z",
-      "addedAt": "2026-10-27T23:14:01Z"
-    },
-    {
       "id": "vid-codegganneun-claude-code-50min-ko",
       "youtubeId": "xjHR00fV-XQ",
       "category": "lecture",
@@ -156,18 +168,6 @@
       "channel": "혼잡스",
       "publishedAt": "2026-10-26T10:15:23Z",
       "addedAt": "2026-10-27T23:14:01Z"
-    },
-    {
-      "id": "vid-ailabs-google-egm-claude-code",
-      "youtubeId": "xxf6D9jynFw",
-      "category": "tip",
-      "title": "구글의 EGM: 코드 짜기 전에 설계서를 먼저 깨 보는 Claude Code 워크플로",
-      "titleEn": "EGM: Google's New Way To Use Claude Code Is Insane",
-      "descKo": "맥락 깊은 코끼리 에이전트가 설계서를 쓰고 맥락 없는 금붕어 서브에이전트가 검토하는 EGM 설치부터 드리프트 리포트까지 16분.",
-      "descEn": "Sixteen minutes on Google's EGM plugin: an elephant agent drafts the spec, zero-context goldfish subagents review it, from install to drift report.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-10-25T15:01:21Z",
-      "addedAt": "2026-10-25T23:13:26Z"
     },
     {
       "id": "vid-gaebaldongsaeng-review-md-7-layers-ko",
