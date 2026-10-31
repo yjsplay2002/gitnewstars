@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-10-30T23:19:16Z",
+  "generatedAt": "2026-10-31T23:12:20Z",
   "videos": [
+    {
+      "id": "vid-betterstack-worktrunk-parallel-agents",
+      "youtubeId": "mNo24Omj8X4",
+      "category": "tip",
+      "title": "Worktrunk로 에이전트 여러 개를 워크트리에 나눠 병렬로 돌리기",
+      "titleEn": "The Best Git Worktree Tool I've Used (Worktrunk)",
+      "descKo": "Claude Code 에이전트 3개를 브랜치별 워크트리에서 돌리고 wt list·wt merge로 관리하는 흐름과 한계를 7분에 정리.",
+      "descEn": "A 7-minute test of running three Claude Code agents in separate worktrees and managing them with wt list and wt merge, limits included.",
+      "channel": "Better Stack",
+      "publishedAt": "2026-10-31T08:15:19Z",
+      "addedAt": "2026-10-31T23:12:20Z"
+    },
+    {
+      "id": "vid-sonoeno-mcp-vs-api-ko",
+      "youtubeId": "eT31Ow_ROYk",
+      "category": "lecture",
+      "title": "MCP vs API 차이: 클로드 커넥터로 처음 MCP 연결하기",
+      "titleEn": "클로드, 챗GPT 쓴다면 반드시 알아야 합니다 | MCP vs API 뭐가 다른데?",
+      "descKo": "콘센트와 돼지코 비유로 MCP와 API의 차이를 풀고 커넥터 연결, 미리캔버스·카카오 PlayMCP 활용을 9분에 소개.",
+      "descEn": "A 9-minute Korean beginner explainer on MCP versus API using a power-adapter analogy, plus connecting MCP in Claude and using Miricanvas and Kakao PlayMCP.",
+      "channel": "소소한 AI 입문노트 | 소에노",
+      "publishedAt": "2026-10-31T05:26:28Z",
+      "addedAt": "2026-10-31T23:12:20Z"
+    },
+    {
+      "id": "vid-ailabs-claude-code-review-system",
+      "youtubeId": "S49gppZl8H0",
+      "category": "tip",
+      "title": "Claude Code 팀의 검증 방식: Evals 스킬·별도 리뷰어·리뷰 루프",
+      "titleEn": "Anthropic Just Released A New System For Using Claude Code",
+      "descKo": "Review.md, 리뷰 루프, 위험도 단계, 루프 중단 조건 등 Claude Code가 끝났다고 한 일을 증명하게 만드는 설정을 16분에 정리.",
+      "descEn": "A 16-minute rundown of skills, hooks and a review loop (Review.md, risk levels, stopping rules) that make Claude Code prove each feature works.",
+      "channel": "AI LABS",
+      "publishedAt": "2026-10-30T15:18:27Z",
+      "addedAt": "2026-10-31T23:12:20Z"
+    },
     {
       "id": "vid-alex-ai-code-security-5-checks-ko",
       "youtubeId": "hZcI0Tpfko4",
@@ -14,15 +50,15 @@
       "addedAt": "2026-10-30T23:19:16Z"
     },
     {
-      "id": "vid-cheotcode-claude-md-6-secrets-ko",
-      "youtubeId": "FEDtKRyQ1A4",
-      "category": "tip",
-      "title": "CLAUDE.md를 써도 클로드가 까먹는 이유 6가지",
-      "titleEn": "Why Claude Forgets Even a Carefully Written CLAUDE.md: 6 Secrets",
-      "descKo": "1,350줄 삭제 실험·파일 분할·한국어/영어 선택·훅으로 규칙 강제까지 12분에 정리.",
-      "descEn": "A 12-minute tour of the 1,350-line deletion experiment, splitting files, Korean vs English and enforcing rules with hooks.",
-      "channel": "첫코드 | AI 바이브코딩",
-      "publishedAt": "2026-10-28T14:57:15Z",
+      "id": "vid-damiangalarza-agentic-engineering-stack",
+      "youtubeId": "0OvbSRoiR0Q",
+      "category": "lecture",
+      "title": "에이전틱 엔지니어링 스택: 스펙에서 출시까지",
+      "titleEn": "The Agentic Engineering Stack: From Spec to Ship",
+      "descKo": "스펙 작성부터 배포까지 에이전트 중심 개발 스택을 42분 분량으로 설명한 강의.",
+      "descEn": "A 42-minute talk on an agent-centred development stack from writing the spec to shipping.",
+      "channel": "Damian Galarza",
+      "publishedAt": "2026-10-29T16:00:22Z",
       "addedAt": "2026-10-30T23:19:16Z"
     },
     {
@@ -50,27 +86,27 @@
       "addedAt": "2026-10-30T23:19:16Z"
     },
     {
-      "id": "vid-dante-figma-design-harness-ko",
-      "youtubeId": "4tVZV_EtLc4",
-      "category": "usecase",
-      "title": "클로드 코드 + 피그마 디자인 하네스로 들쭉날쭉한 AI 디자인 잡기",
-      "titleEn": "Claude Code + Figma 'Design Harness' - Taming Inconsistent AI Design with Rules",
-      "descKo": "하네스 유무를 같은 스크립트로 비교하고 8단계 검사·figma-guard 훅·npm run metrics 지표를 14분에 소개.",
-      "descEn": "A 14-minute comparison with and without a harness, covering an 8-step check, the figma-guard hook and npm run metrics.",
-      "channel": "단테",
-      "publishedAt": "2026-10-28T10:00:19Z",
-      "addedAt": "2026-10-30T23:19:16Z"
+      "id": "vid-codekkaknun-codex-1hour-master-ko",
+      "youtubeId": "zmpXdQmLeYA",
+      "category": "lecture",
+      "title": "코덱스 1시간 마스터: 설치부터 /goal·서브에이전트까지",
+      "titleEn": "코덱스 1시간 마스터 | 바이브코딩 완전 초보자용",
+      "descKo": "권한·샌드박스, Plan 모드, /review, AGENTS.md, /goal, 서브에이전트, imagegen까지 13장을 1시간 9분에 따라 하는 Codex 입문.",
+      "descEn": "A 1h09m Korean beginner course on Codex in 13 chapters: permissions and sandbox, Plan mode, /review, AGENTS.md, /goal, subagents and imagegen.",
+      "channel": "코드깎는노인",
+      "publishedAt": "2026-10-29T03:05:46Z",
+      "addedAt": "2026-10-31T23:12:20Z"
     },
     {
-      "id": "vid-damiangalarza-agentic-engineering-stack",
-      "youtubeId": "0OvbSRoiR0Q",
-      "category": "lecture",
-      "title": "에이전틱 엔지니어링 스택: 스펙에서 출시까지",
-      "titleEn": "The Agentic Engineering Stack: From Spec to Ship",
-      "descKo": "스펙 작성부터 배포까지 에이전트 중심 개발 스택을 42분 분량으로 설명한 강의.",
-      "descEn": "A 42-minute talk on an agent-centred development stack from writing the spec to shipping.",
-      "channel": "Damian Galarza",
-      "publishedAt": "2026-10-29T16:00:22Z",
+      "id": "vid-cheotcode-claude-md-6-secrets-ko",
+      "youtubeId": "FEDtKRyQ1A4",
+      "category": "tip",
+      "title": "CLAUDE.md를 써도 클로드가 까먹는 이유 6가지",
+      "titleEn": "Why Claude Forgets Even a Carefully Written CLAUDE.md: 6 Secrets",
+      "descKo": "1,350줄 삭제 실험·파일 분할·한국어/영어 선택·훅으로 규칙 강제까지 12분에 정리.",
+      "descEn": "A 12-minute tour of the 1,350-line deletion experiment, splitting files, Korean vs English and enforcing rules with hooks.",
+      "channel": "첫코드 | AI 바이브코딩",
+      "publishedAt": "2026-10-28T14:57:15Z",
       "addedAt": "2026-10-30T23:19:16Z"
     },
     {
@@ -86,16 +122,16 @@
       "addedAt": "2026-10-28T23:15:34Z"
     },
     {
-      "id": "vid-cheotcode-claude-code-limit-98pct-ko",
-      "youtubeId": "pTMeVO-fhs8",
-      "category": "tip",
-      "title": "Claude Code 한도 아끼기: 입력의 98%는 앞 대화 재독",
-      "titleEn": "클로드 코드 한도가 매번 부족하다고요? 이걸 몰라서예요 | 바이브코딩 Claude Code 토큰 아끼는 법",
-      "descKo": "7일 치 대화 기록을 직접 분석해 새 대화·/compact·모델 선택 세 가지 습관으로 한도를 아끼는 방법을 9분에 정리.",
-      "descEn": "A 9-minute Korean talk analyzing seven days of own logs and saving limits with three habits: new chats, /compact before breaks and picking the model up front.",
-      "channel": "첫코드 | AI 바이브코딩",
-      "publishedAt": "2026-10-25T03:30:42Z",
-      "addedAt": "2026-10-28T23:15:34Z"
+      "id": "vid-dante-figma-design-harness-ko",
+      "youtubeId": "4tVZV_EtLc4",
+      "category": "usecase",
+      "title": "클로드 코드 + 피그마 디자인 하네스로 들쭉날쭉한 AI 디자인 잡기",
+      "titleEn": "Claude Code + Figma 'Design Harness' - Taming Inconsistent AI Design with Rules",
+      "descKo": "하네스 유무를 같은 스크립트로 비교하고 8단계 검사·figma-guard 훅·npm run metrics 지표를 14분에 소개.",
+      "descEn": "A 14-minute comparison with and without a harness, covering an 8-step check, the figma-guard hook and npm run metrics.",
+      "channel": "단테",
+      "publishedAt": "2026-10-28T10:00:19Z",
+      "addedAt": "2026-10-30T23:19:16Z"
     },
     {
       "id": "vid-erictech-cloudflare-security-audit-skill",
@@ -110,76 +146,40 @@
       "addedAt": "2026-10-28T23:15:34Z"
     },
     {
-      "id": "vid-sourcenoli-math-verification-skills-ko",
-      "youtubeId": "xAoB4EqzlyU",
-      "category": "tip",
-      "title": "바이브코딩 회귀 버그를 수학 검증 스킬로 잡기",
-      "titleEn": "바이브코딩 망가지면 처음부터 만들지 마세요. 수학 검증 도구로 해결하기!",
-      "descKo": "테스트로 못 잡는 동시성·회귀 버그를 수학 검증 스킬로 잡고, 복잡한 코드에서만 쓰게 AGENTS.md에 지침을 두는 요령을 10분에 정리.",
-      "descEn": "A 10-minute Korean talk on catching concurrency and regression bugs that tests miss with math-verification skills, invoked only for complex code via an AGENTS.md rule.",
-      "channel": "소스놀이터",
-      "publishedAt": "2026-10-27T13:03:37Z",
-      "addedAt": "2026-10-27T23:14:01Z"
+      "id": "vid-rosajang-agent-workflow-ko",
+      "youtubeId": "uxykTb1gf5I",
+      "category": "usecase",
+      "title": "로사장 김다솔이 에이전트로 일하는 법: 자료·지시·인수인계",
+      "titleEn": "대기업과 일하는 AI 전문가가 에이전트로 일하는 법｜로사장 김다솔",
+      "descKo": "AI 에이전시 대표가 자료 정리, '80점 이하면 가져오지 마' 식 업무 지시, AI끼리 인수인계, 영상 제작 위임을 71분에 시연.",
+      "descEn": "A 71-minute Korean talk where an AI agency founder shows organizing source material, quality-bar instructions, agent-to-agent handoffs and delegating video production.",
+      "channel": "다독다독",
+      "publishedAt": "2026-10-26T14:05:07Z",
+      "addedAt": "2026-10-31T23:12:20Z"
     },
     {
-      "id": "vid-dalbi-7-traits-heavy-ai-users-ko",
-      "youtubeId": "KDe2QsoXaWw",
-      "category": "tip",
-      "title": "AI를 극한으로 쓰는 사람들의 7가지 특징",
-      "titleEn": "AI를 극한으로 쓰는 사람들의 7가지 특징 (5,700만원 쓰고 알게 됐습니다)",
-      "descKo": "같은 실수 막기, 지시 나눠 주기, 결과가 갈리는 이유, AI를 먼저 붙일 곳을 논문 출처와 함께 16분에 정리.",
-      "descEn": "A 16-minute Korean talk, with paper sources, on stopping repeated AI mistakes, splitting instructions, why results differ and where to attach AI first.",
-      "channel": "달비의 작업실 | AI 자동화",
-      "publishedAt": "2026-10-27T09:23:38Z",
-      "addedAt": "2026-10-27T23:14:01Z"
+      "id": "vid-techsnail-claude-ai-agent-5steps-ko",
+      "youtubeId": "urlbNkusl1Q",
+      "category": "usecase",
+      "title": "비개발자가 클로드로 AI 에이전트 회사 만든 5단계",
+      "titleEn": "AI 에이전트, 진작 만들어볼걸… | 구독자 무료 자료 제공, 클로드로 ai 에이전트 만들기 활용법 총정리",
+      "descKo": "채팅 AI와 에이전트의 차이, 준비물 2가지, 5단계 시작법과 직원 23명 규모의 'AI 회사' 구성을 17분에 공개.",
+      "descEn": "A 17-minute Korean walkthrough by a non-developer: chat AI versus agents, two prerequisites, a five-step start and a 23-agent 'AI company'.",
+      "channel": "테크달팽이",
+      "publishedAt": "2026-10-25T10:12:16Z",
+      "addedAt": "2026-10-31T23:12:20Z"
     },
     {
-      "id": "vid-vibelabs-anthropic-sdlc-playbook-ko",
-      "youtubeId": "5zjGk7H5xLQ",
-      "category": "tip",
-      "title": "Anthropic SDLC 플레이북으로 바이브 코딩 버그 잡기",
-      "titleEn": "엔트로픽 SDLC 플레이북으로 바이브 코딩 버그를 잡아보자!",
-      "descKo": "테스트는 통과했는데 기능이 실패하는 문제를 intent.md·spec.md·독립 QC·버그 티켓 절차로 푸는 16분 실험.",
-      "descEn": "A 16-minute Korean experiment using intent.md, spec.md, an independent QC and bug tickets to catch features that pass tests but still fail.",
-      "channel": "바이브랩스",
-      "publishedAt": "2026-10-26T10:17:03Z",
-      "addedAt": "2026-10-27T23:14:01Z"
-    },
-    {
-      "id": "vid-codegganneun-claude-code-50min-ko",
-      "youtubeId": "xjHR00fV-XQ",
+      "id": "vid-techwithtim-learn-claude-code-99pct",
+      "youtubeId": "3TwbE7gv6qo",
       "category": "lecture",
-      "title": "클로드 코드 50분 마스터: 바이브코딩 완전 초보자용",
-      "titleEn": "클로드코드 50분 마스터 | 바이브코딩 완전 초보자용",
-      "descKo": "터미널 설치부터 첫 요청, 진행 줄 읽기, 권한 모드(Shift+Tab)까지 초보자를 위한 50분 Claude Code 입문.",
-      "descEn": "A 50-minute Korean beginner course on Claude Code: terminal install, first requests, reading progress lines and permission modes with Shift+Tab.",
-      "channel": "코드깎는노인",
-      "publishedAt": "2026-10-26T10:29:53Z",
-      "addedAt": "2026-10-27T23:14:01Z"
-    },
-    {
-      "id": "vid-honjapseu-vibe-coding-principles-90min-ko",
-      "youtubeId": "bB37cJ-13pI",
-      "category": "lecture",
-      "title": "바이브코딩 원리 90분 총정리: HTML부터 Git까지",
-      "titleEn": "바이브코딩 원리는 알고 하세요 | 모든개발 지식부터 도구까지 이거 하나로 이해하기 90분 총정리",
-      "descKo": "웹 서비스를 식당에 빗대 HTML·CSS·서버·DB·HTTP·로그인·클라우드·Git까지 개발 지식 12가지를 1시간 23분에 훑는 강의.",
-      "descEn": "A 1h23m Korean primer mapping a web service to a restaurant to cover HTML, CSS, servers, databases, HTTP, login, cloud and Git for vibe coders.",
-      "channel": "혼잡스",
-      "publishedAt": "2026-10-26T10:15:23Z",
-      "addedAt": "2026-10-27T23:14:01Z"
-    },
-    {
-      "id": "vid-gaebaldongsaeng-review-md-7-layers-ko",
-      "youtubeId": "J6MsYjDB93k",
-      "category": "tip",
-      "title": "Claude Code 팀의 코드 리뷰 7개 레이어와 REVIEW.md",
-      "titleEn": "클로드 코드 팀은 이제 코드를 안 읽습니다 | REVIEW.md와 7개 리뷰 레이어",
-      "descKo": "PR 전 검증부터 AI 리뷰, 보안 리뷰, 필수 CI, 위험도별 사람 승인, 복구까지 7개 레이어와 REVIEW.md 작성법을 21분에 정리.",
-      "descEn": "A 21-minute Korean walkthrough of the Claude Code team's seven review layers, from pre-PR checks and AI review to risk-based approval and recovery, plus how to write REVIEW.md.",
-      "channel": "개발동생",
-      "publishedAt": "2026-10-25T08:42:21Z",
-      "addedAt": "2026-10-25T23:13:26Z"
+      "title": "Claude Code 99% 총정리: 모델·권한·CLAUDE.md·스킬·MCP·훅",
+      "titleEn": "Learn 99% Of Claude Code in One Video",
+      "descKo": "모델·effort·Plan 모드·CLAUDE.md·메모리·settings.json·스킬·서브에이전트·MCP·훅·루틴을 48분에 훑는 설정 강의.",
+      "descEn": "A 48-minute setup course covering models, effort, Plan mode, CLAUDE.md, memory, settings.json, skills, subagents, MCP, hooks and routines.",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-10-24T14:00:00Z",
+      "addedAt": "2026-10-31T23:12:20Z"
     }
   ]
 }
