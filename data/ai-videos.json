@@ -1,6 +1,30 @@
 {
-  "generatedAt": "2026-10-31T23:12:20Z",
+  "generatedAt": "2026-11-01T23:21:43Z",
   "videos": [
+    {
+      "id": "vid-johnkim-anthropic-code-review-layers",
+      "youtubeId": "4m8mq42M_3E",
+      "category": "tip",
+      "title": "Anthropic은 AI 코드를 어떻게 리뷰하나: 7개 검토 층과 사고 기반 평가셋",
+      "titleEn": "How Anthropic Engineers Review AI Code",
+      "descKo": "Claude Code 팀의 코드 리뷰 글을 섹션별로 읽으며 7개 검토 층, 위험도별 승인, 사고를 AI 리뷰어 평가셋으로 쓰는 법을 39분에 정리.",
+      "descEn": "A 39-minute section-by-section reaction to the Claude Code team's code review article: seven review layers, risk-tiered approval and turning incidents into an eval set for the AI reviewer.",
+      "channel": "John Kim",
+      "publishedAt": "2026-11-01T15:00:32Z",
+      "addedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "vid-bytegrad-levelsio-vps-claude-code",
+      "youtubeId": "SZX1mZiJWPA",
+      "category": "usecase",
+      "title": "levelsio식 VPS 세팅으로 폰에서 Claude Code 돌리기: tmux·Tailscale·Cloudflare Tunnel",
+      "titleEn": "I tried levelsio VPS setup and... (Termius, tmux, Tailscale, Claude Code, Cloudflare Tunnel)",
+      "descKo": "VPS에 Claude Code를 설치하고 tmux로 세션을 유지한 뒤 Tailscale·Termius로 아이폰에서 접속하고 Cloudflare Tunnel로 도메인을 연결하는 과정을 25분에 시연(VPS 업체 협찬 영상).",
+      "descEn": "A 25-minute walkthrough of running Claude Code on a VPS: tmux to keep sessions alive, Tailscale and Termius to code from an iPhone, and a Cloudflare Tunnel for a custom domain (sponsored by a VPS host).",
+      "channel": "ByteGrad",
+      "publishedAt": "2026-11-01T08:00:19Z",
+      "addedAt": "2026-11-01T23:21:43Z"
+    },
     {
       "id": "vid-betterstack-worktrunk-parallel-agents",
       "youtubeId": "mNo24Omj8X4",
@@ -26,6 +50,18 @@
       "addedAt": "2026-10-31T23:12:20Z"
     },
     {
+      "id": "vid-yulpro-gemini-5-features-ko",
+      "youtubeId": "93qxT-Hmgpc",
+      "category": "tip",
+      "title": "제미나이 핵심 기능 5가지: 예약됨·Gems+스킬·노트북·딥 리서치",
+      "titleEn": "[Gemini] 그냥 쓰면 90% 손해입니다! 일잘러가 반드시 쓰는 구글 제미나이 핵심 기능 5가지 마스터",
+      "descKo": "이미지 메뉴, '예약됨' 자동 비서, Gems와 스킬, 최대 50개 소스 노트북, 딥 리서치를 화면과 함께 17분에 짚는 제미나이 업무 활용 팁.",
+      "descEn": "A 17-minute Korean tour of Gemini work features: the image menu, 'Scheduled' automations, Gems and skills, notebooks with up to 50 sources and Deep Research.",
+      "channel": "율프로교실",
+      "publishedAt": "2026-10-31T04:08:05Z",
+      "addedAt": "2026-11-01T23:21:43Z"
+    },
+    {
       "id": "vid-ailabs-claude-code-review-system",
       "youtubeId": "S49gppZl8H0",
       "category": "tip",
@@ -48,6 +84,18 @@
       "channel": "기술노트with 알렉",
       "publishedAt": "2026-10-30T13:46:08Z",
       "addedAt": "2026-10-30T23:19:16Z"
+    },
+    {
+      "id": "vid-kakaotech-viking-vibe-coding-platform-ko",
+      "youtubeId": "e_RDlflNs9Q",
+      "category": "usecase",
+      "title": "카카오 사내 바이브코딩 플랫폼 Viking: 한 달 만에 1,900명·앱 700개 배포",
+      "titleEn": "Viking: 개발 지식은 아무것도 몰라도 되는 카카오의 바이브코딩 플랫폼 탄생기 | AI-DLC",
+      "descKo": "git·k8s를 몰라도 지침만으로 20분 만에 앱을 만들고 배포하는 카카오 커머스의 사내 플랫폼 도입기를 이프카카오 발표로 26분에 소개.",
+      "descEn": "A 26-minute if(kakao)26 talk on Kakao Commerce's in-house platform where instructions alone get an app built and deployed in about 20 minutes, with 1,900 users and 700 apps in a month.",
+      "channel": "kakao tech",
+      "publishedAt": "2026-10-30T06:00:07Z",
+      "addedAt": "2026-11-01T23:21:43Z"
     },
     {
       "id": "vid-damiangalarza-agentic-engineering-stack",
@@ -86,6 +134,18 @@
       "addedAt": "2026-10-30T23:19:16Z"
     },
     {
+      "id": "vid-techyoo-fold-subagents-ko",
+      "youtubeId": "Uyj2Lg6sn8g",
+      "category": "tip",
+      "title": "AI 에이전트 많을수록 좋을까? 서브에이전트를 합칠 때와 나눌 때",
+      "titleEn": "AI 에이전트, 많을수록 좋을까? 앤트로픽이 ‘합쳐보라’고 한 이유",
+      "descKo": "Anthropic의 서브에이전트 통합 글을 바탕으로 인수인계 손실, 스킬로 대체하기, 나눠야 할 경우, 작은 평가로 비교하는 법을 9분에 설명.",
+      "descEn": "A 9-minute Korean explainer on Anthropic's fold-subagents article: handoff losses, replacing role agents with skills, when to keep multi-agent, and comparing with a small eval.",
+      "channel": "techyoo",
+      "publishedAt": "2026-10-29T08:15:29Z",
+      "addedAt": "2026-11-01T23:21:43Z"
+    },
+    {
       "id": "vid-codekkaknun-codex-1hour-master-ko",
       "youtubeId": "zmpXdQmLeYA",
       "category": "lecture",
@@ -108,66 +168,6 @@
       "channel": "첫코드 | AI 바이브코딩",
       "publishedAt": "2026-10-28T14:57:15Z",
       "addedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "vid-nullnull-compaction-rejected-alternatives-ko",
-      "youtubeId": "vQB3HAhPuKw",
-      "category": "tip",
-      "title": "바이브 코딩 중 AI가 말을 까먹는 이유와 대응",
-      "titleEn": "바이브 코딩 할 때, AI가 당신 말을 까먹는 이유",
-      "descKo": "압축에서 사라지는 거부된 대안, 매 턴 들어가는 고정 컨텍스트, 결정을 파일로 남기는 법을 18분에 설명.",
-      "descEn": "An 18-minute Korean explainer on how compaction drops rejected alternatives, what the fixed context contains and why decisions belong in files.",
-      "channel": "널널한 개발자 TV",
-      "publishedAt": "2026-10-28T11:45:24Z",
-      "addedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "vid-dante-figma-design-harness-ko",
-      "youtubeId": "4tVZV_EtLc4",
-      "category": "usecase",
-      "title": "클로드 코드 + 피그마 디자인 하네스로 들쭉날쭉한 AI 디자인 잡기",
-      "titleEn": "Claude Code + Figma 'Design Harness' - Taming Inconsistent AI Design with Rules",
-      "descKo": "하네스 유무를 같은 스크립트로 비교하고 8단계 검사·figma-guard 훅·npm run metrics 지표를 14분에 소개.",
-      "descEn": "A 14-minute comparison with and without a harness, covering an 8-step check, the figma-guard hook and npm run metrics.",
-      "channel": "단테",
-      "publishedAt": "2026-10-28T10:00:19Z",
-      "addedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "vid-erictech-cloudflare-security-audit-skill",
-      "youtubeId": "8-NrvPP5e80",
-      "category": "usecase",
-      "title": "Cloudflare 보안 감사 스킬로 실제 앱의 버그 21개 찾기",
-      "titleEn": "This Claude Code Security Skill Found 21 Real Bugs",
-      "descKo": "Cloudflare security-audit 스킬을 6개월 된 실사용 앱에 돌려 26건 중 21건을 확인하고 티켓·수정·재감사까지 7분에 시연.",
-      "descEn": "Seven minutes running Cloudflare's security-audit skill on a six-month-old live app: 21 of 26 findings real, then tickets, fixes and a verifying re-audit.",
-      "channel": "Eric Tech",
-      "publishedAt": "2026-10-27T06:04:42Z",
-      "addedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "vid-rosajang-agent-workflow-ko",
-      "youtubeId": "uxykTb1gf5I",
-      "category": "usecase",
-      "title": "로사장 김다솔이 에이전트로 일하는 법: 자료·지시·인수인계",
-      "titleEn": "대기업과 일하는 AI 전문가가 에이전트로 일하는 법｜로사장 김다솔",
-      "descKo": "AI 에이전시 대표가 자료 정리, '80점 이하면 가져오지 마' 식 업무 지시, AI끼리 인수인계, 영상 제작 위임을 71분에 시연.",
-      "descEn": "A 71-minute Korean talk where an AI agency founder shows organizing source material, quality-bar instructions, agent-to-agent handoffs and delegating video production.",
-      "channel": "다독다독",
-      "publishedAt": "2026-10-26T14:05:07Z",
-      "addedAt": "2026-10-31T23:12:20Z"
-    },
-    {
-      "id": "vid-techsnail-claude-ai-agent-5steps-ko",
-      "youtubeId": "urlbNkusl1Q",
-      "category": "usecase",
-      "title": "비개발자가 클로드로 AI 에이전트 회사 만든 5단계",
-      "titleEn": "AI 에이전트, 진작 만들어볼걸… | 구독자 무료 자료 제공, 클로드로 ai 에이전트 만들기 활용법 총정리",
-      "descKo": "채팅 AI와 에이전트의 차이, 준비물 2가지, 5단계 시작법과 직원 23명 규모의 'AI 회사' 구성을 17분에 공개.",
-      "descEn": "A 17-minute Korean walkthrough by a non-developer: chat AI versus agents, two prerequisites, a five-step start and a 23-agent 'AI company'.",
-      "channel": "테크달팽이",
-      "publishedAt": "2026-10-25T10:12:16Z",
-      "addedAt": "2026-10-31T23:12:20Z"
     },
     {
       "id": "vid-techwithtim-learn-claude-code-99pct",

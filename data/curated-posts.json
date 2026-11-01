@@ -1,6 +1,97 @@
 {
-  "generatedAt": "2026-10-31T23:12:20Z",
+  "generatedAt": "2026-11-01T23:21:43Z",
   "posts": [
+    {
+      "id": "curated-20261102-johnkim-anthropic-code-review-layers",
+      "title": "John Kim: Anthropic은 AI가 쓴 코드를 이렇게 리뷰한다 — 7단계 검토 층, 사고 기록을 AI 리뷰어의 매일 평가셋으로, 위험도별 사람 승인 39분",
+      "body": "John Kim이 39분 6초 동안 Claude Code 팀의 코드 리뷰 글(Addy Osmani 등 공저, 10월 15일)을 섹션별로 읽으며 자기 리뷰 방식과 견줍니다. 글에 따르면 6~9월 Claude Code에 병합된 PR은 2배 넘게 늘었고 되돌린 비율은 40% 넘게 줄었는데, 리뷰를 없앤 게 아니라 읽는 일을 기계에 맡기고 사람의 주의는 사람만 정할 수 있는 결정에 남겼다는 설명입니다. 영상은 PR 전 검증, 모든 PR의 AI 리뷰, 차단형 보안 리뷰, CI, 위험도별 사람 승인(낮음 0명·중간 1명·높음 2명), 머지 큐와 플래그, 빠른 롤백까지 7개 층(10:45~)을 훑고 과거 사고와 리버트를 AI 리뷰어의 매일 평가셋으로 쓰는 법(25:38)과 'you land it, you own it'(33:21)을 짚습니다. 짧은 REVIEW.md와 PR 템플릿의 Testing·Risk·How to revert 칸처럼 바로 따라 할 항목은 도입 챕터(35:24)와 원문에서 볼 수 있습니다.",
+      "titleEn": "John Kim: how Anthropic reviews AI-written code - seven review layers, past incidents as a daily eval for the AI reviewer, and risk-tiered human approval in 39 minutes",
+      "bodyEn": "In 39m06s John Kim reads the Claude Code team's code review article (by Addy Osmani and colleagues, October 15) section by section and compares it with his own review workflow. According to the article, merged PRs to Claude Code more than doubled from June to September while the reverted share fell by over 40%: review was not removed, the reading was moved to machines and human attention was kept for decisions only people can make. The video walks the seven layers (from 10:45) - verification before the PR, AI review on every PR, a blocking security review, CI, risk-tiered human approval (no human for low risk once checks pass, one for medium, two for high), a merge queue with flags, and fast rollback - then covers using past incidents and reverts as a daily eval for the AI reviewer (25:38) and 'you land it, you own it' (33:21). Copyable details such as a short REVIEW.md and PR template sections for Testing, Risk and How to revert are in the adoption chapter (35:24) and the original article.",
+      "sourceName": "YouTube · John Kim",
+      "sourceUrl": "https://www.youtube.com/watch?v=4m8mq42M_3E",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=4m8mq42M_3E",
+      "createdAt": "2026-11-01T15:00:32Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "curated-20261102-hn-memdoor-team-solve-five-small-models",
+      "title": "Memdoor team-solve: 작은 Qwen3.8-27B 5역할(플래너·아이디어 2·솔버·검토·수리)이 LiveCodeBench Hard에서 Fable 5 단일 호출을 앞섰다는 YAML 워크플로",
+      "body": "Memdoor의 team-solve 예제는 한 문제에 작은 모델 5역할(플래너, 병렬 아이디어 2, 솔버, 검토자, 수리)을 붙이는 8개 YAML 단계 파일로, 코드 없이 논문의 방법을 재현합니다. 각 역할은 새 컨텍스트로 시작해 디스크의 파일로만 소통하고 샘플 테스트를 돌리는 스크립트가 성공 여부를 정하는데, LiveCodeBench Hard 앞 10문제를 5번씩 돌린 평균은 이 워크플로 9.8/10, 저자 하네스 9.6/10, Fable 5 단일 호출 8.0/10입니다. 다만 표본이 10문제뿐이고 2025년 봄 대회라 오염을 배제하지 못하며 Fable 5 수치는 저자 파일에서 가져왔고, 저자의 전체 100문제 수치는 92.4와 90.4로 격차가 거의 없습니다. OpenRouter 기준 1회 중앙값 40분·0.39달러(50회 35.79달러)이며, team-solve를 ~/.memdoor/workflows/에 복사하고 task.md와 tests/N.in·N.out을 둔 뒤 memdoor workflow run team-solve --wait로 돌립니다. Hacker News에서 419점을 받았습니다.",
+      "titleEn": "Memdoor team-solve: a YAML workflow where five small Qwen3.8-27B roles (planner, two ideators, solver, reviewer, repair) beat a single Fable 5 call on LiveCodeBench Hard",
+      "bodyEn": "Memdoor's team-solve example puts five small-model roles on one problem - a planner, two parallel ideators, a solver, a manager (reviewer) and a repair worker - as eight YAML step files with no code, reproducing a paper's method. Each role starts from a fresh context and communicates only through files on disk, and a script that runs the sample tests decides success; on the first 10 LiveCodeBench Hard problems, 5 passes each, the mean is 9.8/10 for this workflow, 9.6/10 for the authors' harness and 8.0/10 for a single Fable 5 call. Caveats: only 10 problems, spring-2025 contests so contamination is not ruled out, Fable 5 figures taken from the authors' files rather than run in this harness, and the authors' own full 100-problem figures (92.4 and 90.4) show almost no gap. A run took a median of 40 minutes and $0.39 on OpenRouter ($35.79 for 50 runs); copy team-solve into ~/.memdoor/workflows/, add task.md and tests/N.in and N.out, and run memdoor workflow run team-solve --wait. It scored 419 points on Hacker News.",
+      "sourceName": "Hacker News",
+      "sourceUrl": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-31T22:46:12Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "curated-20261102-yulpro-gemini-5-features-ko",
+      "title": "율프로교실: 제미나이 핵심 기능 5가지 — 이미지 메뉴, '예약됨' 자동 비서, Gems+스킬, 노트북(최대 50개 소스), 딥 리서치 17분",
+      "body": "율프로교실이 16분 57초 동안 제미나이를 요약·번역에만 쓰는 사람을 위해 숨은 기능 5가지를 화면과 함께 보여 줍니다. 사이드바 이미지 메뉴에서 스타일 템플릿과 비율을 골라 생성하고(1:47), '예약됨'으로 이메일 확인·브리핑 같은 루틴 업무를 정해 둔 시간에 처리시키며(3:51), Gems와 스킬로 반복 업무를 슬래시(/) 명령 기반 맞춤 챗봇으로 만들고(6:12), 노트북에 PDF·링크 등 최대 50개 소스를 넣어 오디오·슬라이드·마인드맵으로 바꾸고(9:22), 딥 리서치가 다단계 계획과 교차 검증으로 쓰는 심층 보고서를 15분 만에 받는 흐름(12:52)입니다. 제미나이를 업무 워크플로에 처음 붙이는 사람이 순서대로 따라 하기 좋은 입문 영상이며, 쓴 프롬프트는 댓글로 요청하면 알려 준다고 합니다.",
+      "titleEn": "Yulpro Class: 5 core Gemini features - the image menu, 'Scheduled' auto-assistant, Gems + skills, notebooks with up to 50 sources, and Deep Research in 17 minutes",
+      "bodyEn": "In 16m57s the Korean channel Yulpro Class (율프로교실) shows five lesser-used Gemini features on screen for people who only use it to summarize and translate. It covers the sidebar image menu with style templates and aspect ratios (1:47), the 'Scheduled' feature that runs routine jobs such as email checks and briefings at set times (3:51), Gems plus skills for turning repeat tasks into slash-command custom chatbots (6:12), notebooks that take up to 50 sources such as PDFs and links and convert them into audio, slides and mind maps (9:22), and Deep Research, which plans in several steps and cross-checks to produce a long report in about 15 minutes (12:52). A good follow-along for someone attaching Gemini to a work routine for the first time; the creator says the prompts used are available by asking in the comments.",
+      "sourceName": "YouTube · 율프로교실",
+      "sourceUrl": "https://www.youtube.com/watch?v=93qxT-Hmgpc",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=93qxT-Hmgpc",
+      "createdAt": "2026-10-31T04:08:05Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "curated-20261102-geeknews-furtherai-ai-native-engineering-org-ko",
+      "title": "FurtherAI의 AI 네이티브 엔지니어링 조직 — 코딩·테스트·리뷰·CI·버그 접수를 단계별로 자동화해 엔지니어당 하루 병합 약 5배, 규칙 21개를 코드로 검사",
+      "body": "FurtherAI가 1월 이후 코딩만이 아니라 전달 과정 전체를 바꿨다고 밝힌 글(GeekNews 10월 31일)로, 엔지니어 1인당 하루 병합이 약 5배가 되고 되돌림 비율은 0.5% 미만이라는 회사 자체 수치입니다. 단계는 에이전트가 거의 모든 코드를 쓰기(3월), 테스트를 포함한 변경 15%→91%(4월), 사람보다 먼저 AI가 리뷰 60%→99%(5월), 영향받는 테스트만 병렬 실행(6월), Slack 버그 접수를 ClaudeTag가 중복 확인·티켓 생성·담당 배정(7월), 암묵지를 작은 Python 검사 규칙 21개로 바꿔 모든 커밋에서 실행하고 위험이 낮은 변경은 자동 병합(8월, 전체의 최대 3분의 1)입니다. 코딩이 빨라지면 병목이 기획과 리뷰로 옮겨 가 구현이 3.5배 빨라져도 전체는 약 1.75배라는 계산도 나옵니다. 댓글에서는 매출·품질 지표 없이 산출량만 보고한다는 점과, 사용자 버그 신고가 배포를 움직이면 프롬프트 인젝션 위험이 있다는 점을 지적합니다.",
+      "titleEn": "FurtherAI's AI-native engineering org - automating coding, tests, review, CI and bug intake in stages for about 5x merges per engineer per day, with 21 rules enforced as code",
+      "bodyEn": "FurtherAI says it has redesigned its whole delivery process, not just coding, since January: merges per engineer per day rose about 5x with a revert rate under 0.5% (self-reported figures; shared on GeekNews on October 31). The stages: agents write nearly all code (March), changes that include tests go from 15% to 91% (April), AI reviews before humans from 60% to 99% (May), parallelized CI that runs only affected tests (June), Slack bug reports triaged by a ClaudeTag agent that dedupes, files tickets and assigns owners (July), and tacit knowledge turned into 21 small Python checks run on every commit, plus auto-merge for low-risk changes, up to a third of all changes (August). With coding faster, the bottleneck moves to planning and review - in their example a 3.5x faster implementation yields only about 1.75x overall. Commenters note the post reports output rather than revenue or quality, and that letting user bug reports drive deploys invites prompt injection.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36328",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-31T00:00:00Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "curated-20261102-kakaotech-viking-vibe-coding-platform-ko",
+      "title": "카카오 Viking: 개발 지식 없이 20분 만에 앱을 만들고 배포하는 사내 바이브코딩 플랫폼 — 오픈 한 달 만에 사내 1,900명, 앱 700개 배포",
+      "body": "이프카카오 2026 발표 영상(kakao tech 채널, 25분 45초)으로, 카카오 커머스 구성원이 현장 문제를 풀려고 자발적으로 모여 만든 바이브코딩 플랫폼 Viking의 탄생기입니다. git이나 k8s를 몰라도 지침만 전달하면 AI 에이전트와 함께 20분 만에 앱을 만들고 바로 배포할 수 있다고 소개하며, 오픈 한 달 만에 사내 회원 1,900명이 앱 700개를 배포해 전사 플랫폼으로 자리 잡았다고 합니다. 발표자 임희섭(카카오)은 커머스 AX 프로젝트를 이끌고 있고, 수치는 발표자가 직접 밝힌 값이며 영상 설명란에 챕터는 없지만, 비개발자에게 에이전트 개발 환경을 열어 주려는 조직이 도입 과정을 참고하기 좋습니다.",
+      "titleEn": "Kakao's Viking: an in-house vibe-coding platform where no dev knowledge gets you an app in 20 minutes - 1,900 employees and 700 deployed apps in the first month",
+      "bodyEn": "From the if(kakao)26 conference (kakao tech channel, 25m45s), this is the origin story of Viking, a vibe-coding platform that Kakao Commerce staff built after gathering voluntarily to solve problems on the job. The pitch is that with no knowledge of git or Kubernetes you hand over instructions and an AI agent builds and deploys an app in about 20 minutes; the talk says that within a month of opening, 1,900 employees had deployed 700 apps and it had become a company-wide platform. The speaker, Hee-seop Im of Kakao, leads Kakao Commerce's AX (AI transformation) project; the figures are the speaker's own and the description has no chapters, but organizations opening an agent dev environment to non-developers can borrow the adoption story.",
+      "sourceName": "YouTube · kakao tech",
+      "sourceUrl": "https://www.youtube.com/watch?v=e_RDlflNs9Q",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=e_RDlflNs9Q",
+      "createdAt": "2026-10-30T06:00:07Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "curated-20261102-geeknews-lethain-verification-pattern-ko",
+      "title": "검증 패턴 도입기: PR마다 verifications/{PR번호}.md에 에이전트가 검증한 것과 못 한 것을 적게 하기 — 파일이 없으면 draft에서 ready로 못 바꾼다",
+      "body": "Will Larson(lethain.com)이 10월 30일 쓴 글을 GeekNews가 11월 1일 소개했습니다. 규칙은 하나로, 모든 PR은 verifications/{PR 번호}.md를 만들어 하네스가 수행한 검증 단계와 검증하지 못한 항목을 적어야 하고 파일이 없으면 draft에서 ready로 바꿀 수 없습니다. 루프는 구현 → 로컬 검증 후 PR → ai-code-review 자동 리뷰 → 피드백 반영 또는 /dismiss {이유}로 기각 → 매일 유지보수(/maintain-verification-skill로 기능 맵 갱신, 검증 파일의 빈틈을 이슈로 등록, 리뷰 지침 다듬기) 5단계이고, 프런트엔드·백엔드·데이터·네이티브 영역마다 아침에 개선 PR이 4~6개 쌓인다고 합니다. 저자는 하네스가 한 일을 보여 주거나 건너뛰었다고 인정하게 만드는 Chain-of-Thought 같은 장치라고 설명하지만, 기록이 하네스의 자기 보고라는 점과 중앙화를 어디까지 할지 확신하지 못한다는 점도 밝힙니다.",
+      "titleEn": "Adopting a verification pattern: make the agent record what it verified and could not verify in verifications/{PR number}.md - no file, no draft-to-ready",
+      "bodyEn": "Will Larson (lethain.com) wrote this post on October 30 and GeekNews shared it on November 1. There is one rule: every PR must produce a verifications/{PR number}.md listing the verification steps the harness took and what it could not verify, and a PR cannot move from draft to ready without it. The loop has five steps - implement, verify locally and open the PR, automatic review by an ai-code-review tool, incorporate feedback or dismiss it with /dismiss {reason}, and daily maintenance (updating feature maps with /maintain-verification-skill, filing issues for gaps found in the verification files, and tightening review guidance) - and each area (frontend, backend, data, native) wakes up to 4-6 maintenance PRs to review. He likens it to chain-of-thought for the harness, which has to show its work or admit it skipped it, but he acknowledges the records are the harness's own reports and that he is unsure how far to centralize.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36369",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-10-30T00:00:00Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "curated-20261102-techyoo-fold-subagents-ko",
+      "title": "techyoo: AI 에이전트, 많을수록 좋을까? — Anthropic이 서브에이전트를 하나의 루프와 스킬로 합쳐 보라는 이유와 합칠지 나눌지 정하는 기준 9분",
+      "body": "techyoo가 9분 19초 동안 Anthropic이 10월 22일 올린 글 'When to fold subagents into your main agent loop'를 풀어 줍니다. 역할마다 에이전트를 나누면 인수인계에서 중요한 조건이 사라지므로(1:33), 담당자를 스킬과 도구로 바꿔 필요한 정보만 불러오는 단일 에이전트부터 시작하고(3:20~4:07), 도구 병렬 호출과 멀티 에이전트를 구분해(5:13) 멀티 에이전트가 필요한 경우(5:40)를 따지라고 합니다. 원문에는 골든 예시 10개 안팎의 작은 평가를 만들어 서브에이전트를 하나씩 합치며 점수를 비교하는 방법, 한 고객 사례에서 단일 루프가 약 2배 빨랐다는 수치, Claude Code 시스템 프롬프트를 80% 넘게 줄였다는 설명이 있습니다. 문맥 분리·병렬 조사처럼 서브에이전트를 남길 이유도 함께 다뤄, 에이전트 구조를 고민하는 사람이 내 작업에 맞는 쪽을 판단하기 좋습니다.",
+      "titleEn": "techyoo: are more AI agents better? - why Anthropic says to fold subagents into one loop with skills, and the criteria for folding or splitting, in 9 minutes",
+      "bodyEn": "In 9m19s the Korean channel techyoo unpacks Anthropic's October 22 article 'When to fold subagents into your main agent loop'. Splitting an agent per role lets important conditions drop out in the handoff (1:33), so start with a single agent that swaps role-owners for skills and tools and loads only the information it needs (3:20-4:07), tell parallel tool calls apart from multi-agent setups (5:13), and weigh when multi-agent is really needed (5:40). The article itself describes a small eval of around 10 golden examples to fold in one subagent at a time and compare scores, one customer whose single loop ran roughly 2x faster, and Anthropic cutting Claude Code's system prompt by over 80%. The video also covers reasons to keep subagents, such as context isolation and parallel research, which helps you judge which structure fits your own work.",
+      "sourceName": "YouTube · techyoo",
+      "sourceUrl": "https://www.youtube.com/watch?v=Uyj2Lg6sn8g",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=Uyj2Lg6sn8g",
+      "createdAt": "2026-10-29T08:15:29Z",
+      "curatedAt": "2026-11-01T23:21:43Z"
+    },
     {
       "id": "curated-20261101-betterstack-worktrunk-parallel-agents",
       "title": "Better Stack: Worktrunk로 Claude Code 에이전트 3개를 워크트리에 나눠 돌리기 — wt list로 상태 보고 wt merge 한 번으로 합치기, 단점까지 짚는 7분",
@@ -93,19 +184,6 @@
       "curatedAt": "2026-10-31T23:12:20Z"
     },
     {
-      "id": "curated-20261101-geeknews-ai-promised-less-work-ko",
-      "title": "AI는 일을 줄여준다고 약속했다. 나는 그 어느 때보다 많이 일하고 있다 — 에이전트 병렬 위임의 맥락 전환 비용과 GeekNews 댓글의 대처법",
-      "body": "Bold.org 기술 VP가 모든 엔지니어링 업무에 에이전트를 쓰다 보니 구현 비용이 줄수록 맡는 일이 오히려 늘었다고 쓴 글입니다. 여러 에이전트에 작업을 병렬로 위임하면 질문·계획 승인·코드 검토 요청이 끊임없이 와 맥락 전환이 잦아지고, 2026년 10월 27일까지 GitHub 기여가 2,102건으로 2021~2025년 어느 해 전체보다 많다고 하지만 기여 수는 대략적인 신호일 뿐이라고 단서를 붙입니다. GeekNews 댓글에서는 하루치 할 일 목록을 먼저 쓰고 그 일만 하기, 종이와 펜으로 다시 계획하기, 30분 단위 시간 기록, 여러 AI 대화방의 질문을 모아 사람이 정할 것만 남기는 공지판 운영 같은 대처법이 나왔습니다. GeekNews 22포인트.",
-      "titleEn": "AI promised less work, yet I am working more than ever - the context-switching cost of delegating to agents in parallel, and the coping tips from GeekNews comments",
-      "bodyEn": "A Bold.org VP of engineering who uses agents for all engineering work writes that cheaper implementation made him take on more, not less. Delegating to several agents in parallel brings a constant stream of questions, plan approvals and code reviews, so context switching rises; by October 27, 2026 his GitHub contributions reached 2,102, more than any full year from 2021 to 2025, though he stresses contribution counts are only a rough signal. Commenters on GeekNews suggested writing the day's to-do list first and doing only that, re-planning with pen and paper, keeping 30-minute time logs and running a bulletin board that gathers questions from many AI chats so only the human decisions remain. It has 22 points on GeekNews.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36113",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-27T00:00:00Z",
-      "curatedAt": "2026-10-31T23:12:20Z"
-    },
-    {
       "id": "curated-20261031-alex-ai-code-security-5-checks-ko",
       "title": "기술노트with 알렉: AI가 짠 코드, 이 5가지는 꼭 확인하세요 — 프론트 소스 노출·API 키·HTTPS·방화벽 포트·JWT·인증과 인가·SQL 인젝션",
       "body": "기술노트with 알렉이 16분 56초 동안 바이브코딩으로 만든 앱을 배포하기 전에 확인할 보안 항목을 순서대로 짚습니다. F12로 누구나 볼 수 있는 프론트엔드 소스(0:15)와 앱 디컴파일 시 API 키가 드러나는 문제(1:02), HTTPS와 인증서(2:07), 방화벽과 80·443·22 포트 및 기본 포트·비밀번호의 위험(4:20~6:34), 백엔드 API 키(7:36), JWT 만료와 갱신(8:27), 인증과 인가(13:02), SQL 인젝션과 AI에게 구체적으로 요청하는 법(15:47)이 챕터입니다. 배포 전에 AI가 만든 코드를 이 목록으로 훑어 보는 체크리스트로 쓰기 좋습니다.",
@@ -182,84 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-10-29T00:00:00Z",
       "curatedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "curated-20261031-cheotcode-claude-md-6-secrets-ko",
-      "title": "첫코드: CLAUDE.md 열심히 써도 클로드가 까먹는 이유 6가지 — 1,350줄 지워 본 실험, 파일 분할·언어 선택, 꼭 지킬 규칙은 훅으로 검사",
-      "body": "첫코드가 12분 3초 동안 CLAUDE.md를 직원 책상의 메모에 빗대어 6가지 질문으로 풀어 줍니다. 꼭 써야 하는지, 쓰면 뭐가 좋은지, 무엇을 쓸지(1,350줄을 지워 본 개발자의 실험과 Boris Cherny식으로 지우고 다시 쓰기), 파일을 나눠 쓰면 달라지는지, 한국어와 영어 중 무엇을 쓸지, 적어 두면 다 지키는지가 순서입니다. 마지막 질문에서는 \"내가 허락할게\"라는 한마디에 규칙이 뚫린 실험을 보여 주고, 꼭 지켜야 하는 규칙은 훅으로 검사하는 방법과 오늘 내 CLAUDE.md에 할 일을 정리합니다. 설명란에 공식 문서 링크와 실험 자료 저장소가 있습니다.",
-      "titleEn": "Cheotcode: 6 reasons Claude forgets even a carefully written CLAUDE.md - the 1,350-line deletion experiment, splitting files, language choice, and enforcing must-follow rules with hooks",
-      "bodyEn": "In 12 minutes 3 seconds, Cheotcode (첫코드) compares CLAUDE.md to a note on an employee's desk and works through six questions: whether you need one, what it buys you, what to put in it (a developer's experiment deleting 1,350 lines and a delete-and-rewrite exercise in the style of Boris Cherny), whether splitting files changes anything, Korean versus English, and whether writing a rule means it is followed. The last part shows an experiment where a single \"I allow it\" got around a rule, then covers checking must-follow rules with a hook and a to-do list for your own CLAUDE.md today. The description links the official docs and the experiment repository.",
-      "sourceName": "YouTube · 첫코드 | AI 바이브코딩",
-      "sourceUrl": "https://www.youtube.com/watch?v=FEDtKRyQ1A4",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=FEDtKRyQ1A4",
-      "createdAt": "2026-10-28T14:57:15Z",
-      "curatedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "curated-20261029-nullnull-compaction-rejected-alternatives-ko",
-      "title": "널널한 개발자 TV: 바이브 코딩 중 AI가 말을 까먹는 이유 — 압축에서 사라지는 '거부된 대안'과 결정을 파일로 남기는 법",
-      "body": "널널한 개발자 TV가 18분 23초 동안 Claude Code가 지시를 잊고 이미 버린 방식을 다시 제안하는 원인을 설명합니다. 사용자가 A를 거부하고 B로 바꾼 뒤 컨텍스트가 압축되면 'A를 왜 버렸는지'가 사라져 A가 되살아나고, AI는 결과 코드만 보고 합리화하며 사용자도 그 결정을 잊어 같은 실수가 반복된다고 합니다. 시스템 프롬프트·내장 도구·MCP 도구 정의·스킬 목록·CLAUDE.md·MEMORY.md는 매 턴 들어가는 고정 컨텍스트이고 자동 압축은 대략 80% 전후에서 시작한다고 하며, 해법으로 결정과 기각 이유를 파일에 남기고 AI가 그 파일을 스스로 찾게 만들 것, 압축해 이어 가는 것이 항상 정답은 아니니 새 세션으로 비우는 선택지도 둘 것, TDD·SDD를 쓰고 DB만은 직접 다룰 것을 권합니다. Claude Code 소스가 올해 3월 유출돼 구조가 알려졌다는 설명은 본인의 말이며, 영상 끝은 본인 강의 홍보입니다.",
-      "titleEn": "Nullnull Developer TV: why AI forgets what you said while vibe coding - the 'rejected alternatives' lost in compaction and keeping decisions in files",
-      "bodyEn": "In 18m23s the Korean channel Nullnull Developer TV explains why Claude Code forgets instructions and re-proposes approaches you already rejected. When you reject A for B and the context is later compacted, the reason A was dropped disappears, so A resurfaces; the AI also rationalizes whatever code exists and you forget the decision too, so the same mistake repeats. The system prompt, built-in tools, MCP tool definitions, skill list, CLAUDE.md and MEMORY.md form a fixed context injected every turn, and auto-compaction starts at roughly 80% full, he says. His fixes: record decisions and rejection reasons in files the AI can find on its own, remember that compacting and continuing is not always right and a clean session is sometimes better, use TDD/SDD and handle the database by hand. His claim that Claude Code's source leaked in March 2026 is his own statement, and the video ends with a pitch for his course.",
-      "sourceName": "YouTube · 널널한 개발자 TV",
-      "createdAt": "2026-10-28T11:45:24Z",
-      "sourceUrl": "https://www.youtube.com/watch?v=vQB3HAhPuKw",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=vQB3HAhPuKw",
-      "curatedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "curated-20261029-erictech-cloudflare-security-audit-skill",
-      "title": "Eric Tech: 6개월 된 실사용 앱에 Cloudflare 보안 감사 스킬을 돌렸더니 — 26건 중 21건이 진짜 문제, 티켓으로 고치고 재감사로 검증",
-      "body": "Eric Tech가 6분 58초 동안 Cloudflare가 공개한 coding-agent용 security-audit 스킬을 출시 6개월 된 자기 앱(실사용자 있음)에 돌립니다. 감사에서 문제 26건이 나왔고 그중 21건이 실제 문제였으며(2:27), 보고서를 티켓으로 바꿔 소프트웨어 팩토리의 AI 에이전트가 고치게 한 뒤 같은 감사를 다시 돌려 확인합니다(3:27). 마지막에는 Anthropic의 Claude Code Security Review와 언제 어느 쪽을 쓸지 비교합니다(5:32). 스킬은 MIT 라이선스이며 GitHub의 cloudflare/security-audit-skill에서 받을 수 있습니다.",
-      "titleEn": "Eric Tech: running Cloudflare's security-audit skill on a six-month-old live app - 21 of 26 findings were real, fixed through tickets and verified by a re-audit",
-      "bodyEn": "In 6m58s Eric Tech runs Cloudflare's open-source security-audit skill for coding agents on his own app, which is six months old and has real users. The audit raised 26 problems and 21 turned out to be real (2:27); he turned the report into tickets, let AI agents in his software factory fix them, then re-ran the same audit to verify (3:27). He closes by comparing it with Anthropic's Claude Code Security Review and when to use each (5:32). The skill is MIT-licensed at cloudflare/security-audit-skill on GitHub.",
-      "sourceName": "YouTube · Eric Tech",
-      "createdAt": "2026-10-27T06:04:42Z",
-      "sourceUrl": "https://www.youtube.com/watch?v=8-NrvPP5e80",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=8-NrvPP5e80",
-      "curatedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "curated-20261029-hn-here-be-monsters-agents-ownership",
-      "title": "에이전트가 일할 때 개발자가 여전히 알아야 할 것 — 기본기·넓은 시스템 지도·필요할 때 깊이 파기, 테스트 통과 너머 복잡도까지 검토",
-      "body": "에이전트가 코드를 대부분 쓰는 시대에 시스템을 '소유'한다는 것은 모든 모듈을 아는 것이 아니라 어디에 괴물이 사는지 아는 것이라는 글입니다. 필요한 지식을 기본기(자료구조·알고리즘·네트워크·동시성·분산 시스템), 전체 시스템 지도와 인접 분야에 대한 폭, 문제가 생겼을 때 낯선 코드를 파고드는 즉시 깊이 세 가지로 나눕니다. 에이전트 결과물은 테스트 통과만 보지 말고 정확성과 복잡도를 함께 검토하라며, 한 줄에 컴포넌트 약 15개가 몰려 있던 약 30줄짜리 App.tsx를 SonarQube가 잡아내 에이전트에게 10개 파일로 나누게 한 사례를 듭니다. 장애가 반복되면 처음 원리로 돌아가라며 쿠버네티스 책의 level-triggered state machine 개념으로 에이전트 오케스트레이터 구조를 다시 설계했다고 합니다. Hacker News에서 196점을 받았습니다.",
-      "titleEn": "Here be monsters: what you still need to know when agents do the work - fundamentals, breadth and just-in-time depth, and reviewing complexity beyond passing tests",
-      "bodyEn": "This post argues that when agents write most of the code, owning a system means knowing where the monsters live, not knowing every module. It splits the needed knowledge into fundamentals (data structures, algorithms, networking, concurrency, distributed systems), breadth (a map of the whole system plus adjacent fields) and just-in-time depth (digging into unfamiliar code when something breaks). Review agent output for correctness and complexity, not just passing tests; in one example SonarQube flagged a roughly 30-line App.tsx with about 15 components crammed onto single lines, and the author had the agent split it into 10 files. When failures keep recurring, go back to first principles - the author used the level-triggered state machine idea from a Kubernetes book to redesign an agent orchestrator. It scored 196 points on Hacker News.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://blog.adrq.dev/here-be-monsters-what-do-you-still-need-to-know-when-agents-do-the-work",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-27T00:00:00Z",
-      "curatedAt": "2026-10-28T23:15:34Z"
-    },
-    {
-      "id": "curated-20261028-sourcenoli-math-verification-skills-ko",
-      "title": "소스놀이터: 바이브코딩이 자꾸 망가질 때 — 테스트만 쌓지 말고 수학 검증 스킬을 복잡한 코드와 동시성 문제에만 쓰는 법",
-      "body": "24년차 풀스택 개발자 소스놀이터가 9분 48초 동안 바이브 코딩이 커질수록 반복되는 회귀 버그를 다룹니다. AI는 좁은 부분만 깊게 보고 고치기 때문에 테스트를 아무리 쌓아도 동시성처럼 경우의 수가 폭발하는 문제는 놓치는데, 영상은 10월 22일 앤트로픽 연구진이 공개한 수학적 증명 기반 버그 탐지(오픈소스 라이브러리 123개에서 239곳의 버그 발견)를 소개합니다. 그 서비스는 신청자에게만 열려 있어 대신 Claude Code·Codex에서 쓰는 무료 수학 검증 스킬을 권하며, 스킬 개발사 실험 기준으로 시간은 약 2.4배, 토큰은 약 2.2배 들지만 검증된 경우의 수가 54%에서 98%로 늘었다고 합니다. 매번 쓰면 과소비라서 기능이 복잡하게 얽히거나 동시성 문제가 있을 때만 쓰도록 AGENTS.md에 지침을 넣어 두었고, 그 지침은 댓글에 공개했다고 합니다.",
-      "titleEn": "Sourcenoli: when vibe-coded apps keep breaking, don't just pile on tests - use a math-verification skill only for tangled or concurrent code",
-      "bodyEn": "In 9m48s a 24-year full-stack developer who has vibe-coded for a year explains why regression bugs keep coming back as a project grows. The AI inspects only a narrow slice when it edits, so even a big test suite misses combinatorial problems like concurrency; the video points to the proof-based bug finding Anthropic researchers published on October 22, which reportedly found 239 bugs across 123 open-source libraries. That service is limited to applicants, so he recommends free math-verification skills for Claude Code and Codex instead - in the skill maker's own test they cost about 2.4x the time and 2.2x the tokens but raised the share of cases verified from 54% to 98%. Because using them every time is overkill, he put a rule in AGENTS.md to invoke them only for tangled features or concurrency, and says he shared that rule in the comments.",
-      "sourceName": "YouTube · 소스놀이터",
-      "sourceUrl": "https://www.youtube.com/watch?v=xAoB4EqzlyU",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=xAoB4EqzlyU",
-      "createdAt": "2026-10-27T13:03:37Z",
-      "curatedAt": "2026-10-27T23:14:01Z"
-    },
-    {
-      "id": "curated-20261014-agent-15-failure-patterns-ko",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "title": "코딩 에이전트가 실제 저장소에서 실패하는 15가지 패턴과 가드레일",
-      "body": "결과가 반영되지 않는 원인은 모델보다 운영 설정인 경우가 많다는 글입니다. 완료 기준에 실행한 명령과 실제 결과를 넣고 수정 시도는 3회로 제한하며, 금지 규칙은 프롬프트 대신 약 20줄짜리 PreToolUse 훅(exit 2)으로 강제합니다. 리뷰어 서브에이전트에는 편집 권한을 주지 않고, 기억은 턴 로그·하루 요약(40줄 이하)·장기 기억(120줄 이하) 3층으로 나눕니다.",
-      "titleEn": "15 ways AI coding agents fail in real repos, and the guardrails that fix them",
-      "bodyEn": "The post argues failures are usually operational, not model problems. Put the commands run and real results into the definition of done, cap fix attempts at 3, and enforce prohibitions with a ~20-line PreToolUse hook (exit 2) instead of prompt rules. Give reviewer sub-agents no edit rights and split memory into turn logs, a daily summary (40 lines max) and long-term memory (120 lines max).",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=35266",
-      "createdAt": "2026-10-13T00:00:00Z",
-      "curatedAt": "2026-10-13T23:14:23Z"
     }
   ]
 }
