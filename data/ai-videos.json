@@ -1,6 +1,54 @@
 {
-  "generatedAt": "2026-11-01T23:21:43Z",
+  "generatedAt": "2026-11-03T23:14:31Z",
   "videos": [
+    {
+      "id": "vid-mildcode-claude-md-hooks-skills-ko",
+      "youtubeId": "nf4AWqLMME0",
+      "category": "tip",
+      "title": "CLAUDE.md 규칙이 안 지켜지는 이유: 훅·스킬·서브에이전트로 하네스 다시 짜기",
+      "titleEn": "Why the Lead Architect of Claude Code No Longer Uses CLAUDE.md",
+      "descKo": "CLAUDE.md가 컨텍스트에 통째로 올라가는 구조와 규칙 무시 원인, 훅으로 강제·스킬로 절차 분리·서브에이전트 위임, /doctor로 규칙 정리하는 법을 11분에 설명(유료 강의 홍보 포함).",
+      "descEn": "An 11-minute explainer on why CLAUDE.md rules get ignored: enforce with hooks, move procedures to skills, delegate to subagents and prune rules with /doctor (includes a paid-course plug).",
+      "channel": "마일드코드",
+      "publishedAt": "2026-11-03T11:56:21Z",
+      "addedAt": "2026-11-03T23:14:31Z"
+    },
+    {
+      "id": "vid-conanssam-codex-app-7-tips-ko",
+      "youtubeId": "6KU-_0ZbhRU",
+      "category": "tip",
+      "title": "코덱스 앱 실전 7가지: 클로드 세션 불러오기부터 Stop 훅 검증 게이트까지",
+      "titleEn": "7 Hands-on Codex App Tricks | From Importing Claude Sessions to Verification Gates",
+      "descKo": "클로드 세션 가져오기, 사이드 채팅, 캐시 유지, 반복 작업 스킬 녹화, Stop 훅, 워크트리, 대화 드래그 참조를 작은 웹앱으로 7분에 시연.",
+      "descEn": "A 7-minute demo with a small web app: importing Claude sessions, side chat, cache keeping, recording a repeated task as a skill, a Stop hook, worktrees and dragging conversations in as references.",
+      "channel": "코난쌤 conanssam",
+      "publishedAt": "2026-11-03T11:31:20Z",
+      "addedAt": "2026-11-03T23:14:31Z"
+    },
+    {
+      "id": "vid-dante-felix-ambition-claude-code-ko",
+      "youtubeId": "p7M6BrwGWq8",
+      "category": "tip",
+      "title": "Claude Code로 더 야심 차게: 목표 한 줄·깊이 프롬프트·Codex 바깥 심판·분야별 서브에이전트",
+      "titleEn": "How Anthropic Engineers Use Claude Code - 3 Methods of the Top 1%",
+      "descKo": "Felix Rieseberg의 글을 따라 할 일에 목표 한 줄 붙이기, 깊이 프롬프트, Codex 바깥 심판, 분야별 서브에이전트를 오픈소스 프로젝트에 적용하는 과정을 18분에 시연.",
+      "descEn": "An 18-minute demo applying Felix Rieseberg's three methods to an open-source project: a goal line on each to-do, a depth prompt, Codex as an outside judge and one subagent per area.",
+      "channel": "단테",
+      "publishedAt": "2026-11-03T11:00:36Z",
+      "addedAt": "2026-11-03T23:14:31Z"
+    },
+    {
+      "id": "vid-devdongsaeng-manager-agent-ko",
+      "youtubeId": "NoatYSA9RyU",
+      "category": "usecase",
+      "title": "에이전트 관리의 표준 후보, 매니저 에이전트: 3단 구조와 승인 카드",
+      "titleEn": "I Think This Will Become the Standard for Agent Management | Manager Agent",
+      "descKo": "결정 대기 세션 13개 중 사람이 볼 것은 6개였다는 실측과 매니저·코디네이터·코딩 에이전트 3단 구조, 승인 카드, pstack 검사 전환을 23분에 설명.",
+      "descEn": "A 23-minute talk on a manager / coordinator / coding-agent hierarchy, including a measurement that only 6 of 13 sessions waiting on decisions needed a human, approval cards and turning mistakes into pstack checks.",
+      "channel": "개발동생",
+      "publishedAt": "2026-11-03T10:16:44Z",
+      "addedAt": "2026-11-03T23:14:31Z"
+    },
     {
       "id": "vid-johnkim-anthropic-code-review-layers",
       "youtubeId": "4m8mq42M_3E",
@@ -24,6 +72,18 @@
       "channel": "ByteGrad",
       "publishedAt": "2026-11-01T08:00:19Z",
       "addedAt": "2026-11-01T23:21:43Z"
+    },
+    {
+      "id": "vid-jinhanbyeol-claude-work-automation-ko",
+      "youtubeId": "Mq4XScPxSEM",
+      "category": "lecture",
+      "title": "클로드 업무 자동화 최신 기능 6가지: 프로젝트·코워크·스킬·예약 작업·아티팩트",
+      "titleEn": "(Nov 2026 Update) 6 Latest Claude Features That Finish Your Work Automation | Follow Along",
+      "descKo": "채팅 엑셀 분석, 프로젝트 지침, 코워크 폴더 연결, 경비 정산 자동화 실습, 스킬, 예약 작업, 아티팩트 대시보드를 12분에 따라 하는 비개발자용 실습(기업 교육 안내 포함).",
+      "descEn": "A 12-minute follow-along for non-developers: Excel analysis in chat, project instructions, connecting a folder with Cowork, an expense-settlement automation exercise, skills, scheduled tasks and an Artifacts dashboard (includes a corporate-training pitch).",
+      "channel": "진한별의 AI 연구소",
+      "publishedAt": "2026-11-01T07:39:22Z",
+      "addedAt": "2026-11-03T23:14:31Z"
     },
     {
       "id": "vid-betterstack-worktrunk-parallel-agents",
@@ -62,18 +122,6 @@
       "addedAt": "2026-11-01T23:21:43Z"
     },
     {
-      "id": "vid-ailabs-claude-code-review-system",
-      "youtubeId": "S49gppZl8H0",
-      "category": "tip",
-      "title": "Claude Code 팀의 검증 방식: Evals 스킬·별도 리뷰어·리뷰 루프",
-      "titleEn": "Anthropic Just Released A New System For Using Claude Code",
-      "descKo": "Review.md, 리뷰 루프, 위험도 단계, 루프 중단 조건 등 Claude Code가 끝났다고 한 일을 증명하게 만드는 설정을 16분에 정리.",
-      "descEn": "A 16-minute rundown of skills, hooks and a review loop (Review.md, risk levels, stopping rules) that make Claude Code prove each feature works.",
-      "channel": "AI LABS",
-      "publishedAt": "2026-10-30T15:18:27Z",
-      "addedAt": "2026-10-31T23:12:20Z"
-    },
-    {
       "id": "vid-alex-ai-code-security-5-checks-ko",
       "youtubeId": "hZcI0Tpfko4",
       "category": "tip",
@@ -98,42 +146,6 @@
       "addedAt": "2026-11-01T23:21:43Z"
     },
     {
-      "id": "vid-damiangalarza-agentic-engineering-stack",
-      "youtubeId": "0OvbSRoiR0Q",
-      "category": "lecture",
-      "title": "에이전틱 엔지니어링 스택: 스펙에서 출시까지",
-      "titleEn": "The Agentic Engineering Stack: From Spec to Ship",
-      "descKo": "스펙 작성부터 배포까지 에이전트 중심 개발 스택을 42분 분량으로 설명한 강의.",
-      "descEn": "A 42-minute talk on an agent-centred development stack from writing the spec to shipping.",
-      "channel": "Damian Galarza",
-      "publishedAt": "2026-10-29T16:00:22Z",
-      "addedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "vid-codefactory-herdr-llm-orchestration-ko",
-      "youtubeId": "1AlbTXb8oPc",
-      "category": "usecase",
-      "title": "Herdr로 여러 코딩 에이전트 한 화면에서 오케스트레이션",
-      "titleEn": "The Essentials of LLM Orchestration with Herdr",
-      "descKo": "화면 분할·워크트리 분리·병렬 작업·원격 에이전트 등록과 Tailscale 연결을 21분에 시연.",
-      "descEn": "A 21-minute demo of split-screen agents, worktrees, parallel tasks, remote agents and a Tailscale connection.",
-      "channel": "코드팩토리",
-      "publishedAt": "2026-10-29T12:18:42Z",
-      "addedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "vid-dante-ontology-vs-sdd-experiment-ko",
-      "youtubeId": "bZJa_I8EnUc",
-      "category": "usecase",
-      "title": "온톨로지 꼭 써야 할까? 클로드 코드로 직접 잰 실험",
-      "titleEn": "Do You Really Need an Ontology? Measured with Claude Code (Small Task vs Company Data)",
-      "descKo": "같은 내용을 온톨로지와 PRD·SDD로 비교한 뒤 보험 데이터 챗봇을 44문항으로 채점한 39분 실험.",
-      "descEn": "A 39-minute experiment comparing an ontology with PRD/SDD on the same content, then grading an insurance-data chatbot on 44 questions.",
-      "channel": "단테",
-      "publishedAt": "2026-10-29T10:00:23Z",
-      "addedAt": "2026-10-30T23:19:16Z"
-    },
-    {
       "id": "vid-techyoo-fold-subagents-ko",
       "youtubeId": "Uyj2Lg6sn8g",
       "category": "tip",
@@ -156,18 +168,6 @@
       "channel": "코드깎는노인",
       "publishedAt": "2026-10-29T03:05:46Z",
       "addedAt": "2026-10-31T23:12:20Z"
-    },
-    {
-      "id": "vid-cheotcode-claude-md-6-secrets-ko",
-      "youtubeId": "FEDtKRyQ1A4",
-      "category": "tip",
-      "title": "CLAUDE.md를 써도 클로드가 까먹는 이유 6가지",
-      "titleEn": "Why Claude Forgets Even a Carefully Written CLAUDE.md: 6 Secrets",
-      "descKo": "1,350줄 삭제 실험·파일 분할·한국어/영어 선택·훅으로 규칙 강제까지 12분에 정리.",
-      "descEn": "A 12-minute tour of the 1,350-line deletion experiment, splitting files, Korean vs English and enforcing rules with hooks.",
-      "channel": "첫코드 | AI 바이브코딩",
-      "publishedAt": "2026-10-28T14:57:15Z",
-      "addedAt": "2026-10-30T23:19:16Z"
     },
     {
       "id": "vid-techwithtim-learn-claude-code-99pct",
