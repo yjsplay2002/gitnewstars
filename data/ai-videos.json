@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-03T23:14:31Z",
+  "generatedAt": "2026-11-05T23:14:15Z",
   "videos": [
+    {
+      "id": "vid-davelee-claude-code-new-features-ko",
+      "youtubeId": "F15aMeaHOII",
+      "category": "tip",
+      "title": "클로드 코드 신기능 정리: Mods·MCP Tasks·ultrathink·advisor·에이전트 뷰",
+      "titleEn": "Latest Claude Code New Features, Just These 6 (Clean Summary)",
+      "descKo": "최근 한 달 새로 들어온 Claude Code 기능을 맥북 화면으로 챕터별 시연하고 공식 문서 링크를 모은 10분 정리(강의 사이트 홍보 포함).",
+      "descEn": "A 10-minute on-screen tour of Claude Code features added in the last month, chapter by chapter, with official docs links (includes a course-site plug).",
+      "channel": "잔재미코딩(DaveLee)",
+      "publishedAt": "2026-11-05T11:20:04Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
+    {
+      "id": "vid-jaychoi-pickle-agent-ko",
+      "youtubeId": "Gbj_dWfvprM",
+      "category": "usecase",
+      "title": "피클 핵심 가이드: 쿠팡·KTX·정부24·전화까지 맡기는 AI 에이전트",
+      "titleEn": "Pickle Essential Guide: An AI Agent for Coupang, KTX and Gov24",
+      "descKo": "한국 팀이 만든 AI 에이전트 피클에 쇼핑·식사·교통·영화·행정·전화·예약 실행을 어디까지 맡길 수 있는지 8분에 시연하고 주의사항을 짚음.",
+      "descEn": "An 8-minute demo of how far the Korean-built AI agent Pickle can handle shopping, meals, transport, movies, government paperwork, phone calls and scheduled runs, ending with cautions.",
+      "channel": "Jay Choi | 인디해커 라이프",
+      "publishedAt": "2026-11-05T10:00:18Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
+    {
+      "id": "vid-codefactory-orca-orchestration-ko",
+      "youtubeId": "d893Vei2Ll4",
+      "category": "usecase",
+      "title": "Orca로 LLM 오케스트레이션: Claude 5개 병렬 실행부터 Worker 위임·SSH까지",
+      "titleEn": "Orca LLM Orchestration Essentials",
+      "descKo": "Claude 5개를 한 화면에서 돌리고 Run·Task·Worker로 Claude와 Codex에 병렬 검토를 맡기며 내장 브라우저·SSH·모바일 연결까지 18분에 시연(강의·채용 안내 포함).",
+      "descEn": "An 18-minute demo of running five Claude sessions in one window, handing parallel reviews to Claude and Codex via Run / Task / Worker, plus the built-in browser, SSH and mobile (includes course and hiring links).",
+      "channel": "코드팩토리",
+      "publishedAt": "2026-11-05T09:30:36Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
+    {
+      "id": "vid-mse-tdd-with-ai-agents",
+      "youtubeId": "a6HYpocKwXU",
+      "category": "tip",
+      "title": "AI 에이전트와 TDD: 예시 매핑·예측형 TDD로 품질 지키기",
+      "titleEn": "How to Use Test-Driven Development with AI Agents (Without Lowering Code Quality)",
+      "descKo": "Emily Bache가 codecentric의 두 아키텍트와 예시 매핑, 예측형 TDD, 서브에이전트 vs 단일 컨텍스트, 사람 개입 자율성을 다루는 17분 인터뷰(정확도 최대 80% 향상은 출연자 주장).",
+      "descEn": "A 17-minute interview where Emily Bache and two codecentric architects cover example mapping, predictive TDD, subagents versus a single context and human-in-the-loop autonomy (the up-to-80% correctness gain is the guests' claim).",
+      "channel": "Modern Software Engineering",
+      "publishedAt": "2026-11-04T19:00:17Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
+    {
+      "id": "vid-chatdaeri-multi-agent-test-ko",
+      "youtubeId": "cIGRF-acSzs",
+      "category": "tip",
+      "title": "멀티 에이전트 쓰지 마세요: 단독 세션 vs 에이전트 팀 실측 비교",
+      "titleEn": "Don't Use Multi-Agent (Real Test Results)",
+      "descKo": "단독 세션·5인 에이전트 팀·리뷰어만 붙인 2인 체제에 같은 과제를 맡겨 시간·토큰·정답 테스트 점수를 비교하고 에이전트를 부를 시점을 정리한 9분 실험.",
+      "descEn": "A 9-minute experiment giving the same tasks to a solo session, a 5-agent team and a two-person setup with only a reviewer, comparing time, tokens and answer-test scores and when to call an agent.",
+      "channel": "챗대리의 AI연구소",
+      "publishedAt": "2026-11-04T13:00:17Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
+    {
+      "id": "vid-devdongsaeng-paseo-ko",
+      "youtubeId": "gBPeholAEpg",
+      "category": "usecase",
+      "title": "Paseo로 에이전트 관리하기: 채팅 화면·모바일 연동·데몬을 고른 이유",
+      "titleEn": "Honestly, Paseo Is the Best - Here's Why",
+      "descKo": "어디서든 일을 시키고 검토 부담이 적은 도구라는 기준으로 Orca·Herdr와 Paseo를 화면 비교하고, 앱을 닫아도 데몬 유지하기와 폰 연결(릴레이·Tailscale)을 15분에 설명(협찬 아님).",
+      "descEn": "A 15-minute comparison of Orca, Herdr and Paseo against two criteria (assign work anywhere, low review load), plus keeping the daemon alive after closing the app and connecting a phone via relay or Tailscale (not sponsored).",
+      "channel": "개발동생",
+      "publishedAt": "2026-11-04T10:48:52Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
     {
       "id": "vid-mildcode-claude-md-hooks-skills-ko",
       "youtubeId": "nf4AWqLMME0",
@@ -50,6 +122,18 @@
       "addedAt": "2026-11-03T23:14:31Z"
     },
     {
+      "id": "vid-jinyongseong-claude-full-course-ko",
+      "youtubeId": "eKasugoHjj4",
+      "category": "lecture",
+      "title": "클로드의 모든 것: 비개발자를 위한 기초부터 바이브코딩까지 2시간 49분 강의",
+      "titleEn": "[2027 Full Version] Everything About Claude: From Basics to Vibe Coding (for Non-Developers)",
+      "descKo": "아티팩트·커넥터·스킬·예약됨·플러그인·Dispatch를 설명하고 데이터 정리·문서·엑셀 실습에서 Claude Code 설치와 게임 만들기까지 챕터로 따라 하는 기업 교육 커리큘럼(Claude Pro 이상 필요).",
+      "descEn": "A 2h49m corporate-training curriculum for non-developers: Artifacts, connectors, skills, Scheduled, plugins and Dispatch, then data, document and Excel exercises through installing Claude Code and building a game (Claude Pro or above required).",
+      "channel": "진용성",
+      "publishedAt": "2026-11-03T06:20:01Z",
+      "addedAt": "2026-11-05T23:14:15Z"
+    },
+    {
       "id": "vid-johnkim-anthropic-code-review-layers",
       "youtubeId": "4m8mq42M_3E",
       "category": "tip",
@@ -59,18 +143,6 @@
       "descEn": "A 39-minute section-by-section reaction to the Claude Code team's code review article: seven review layers, risk-tiered approval and turning incidents into an eval set for the AI reviewer.",
       "channel": "John Kim",
       "publishedAt": "2026-11-01T15:00:32Z",
-      "addedAt": "2026-11-01T23:21:43Z"
-    },
-    {
-      "id": "vid-bytegrad-levelsio-vps-claude-code",
-      "youtubeId": "SZX1mZiJWPA",
-      "category": "usecase",
-      "title": "levelsio식 VPS 세팅으로 폰에서 Claude Code 돌리기: tmux·Tailscale·Cloudflare Tunnel",
-      "titleEn": "I tried levelsio VPS setup and... (Termius, tmux, Tailscale, Claude Code, Cloudflare Tunnel)",
-      "descKo": "VPS에 Claude Code를 설치하고 tmux로 세션을 유지한 뒤 Tailscale·Termius로 아이폰에서 접속하고 Cloudflare Tunnel로 도메인을 연결하는 과정을 25분에 시연(VPS 업체 협찬 영상).",
-      "descEn": "A 25-minute walkthrough of running Claude Code on a VPS: tmux to keep sessions alive, Tailscale and Termius to code from an iPhone, and a Cloudflare Tunnel for a custom domain (sponsored by a VPS host).",
-      "channel": "ByteGrad",
-      "publishedAt": "2026-11-01T08:00:19Z",
       "addedAt": "2026-11-01T23:21:43Z"
     },
     {
@@ -84,66 +156,6 @@
       "channel": "진한별의 AI 연구소",
       "publishedAt": "2026-11-01T07:39:22Z",
       "addedAt": "2026-11-03T23:14:31Z"
-    },
-    {
-      "id": "vid-betterstack-worktrunk-parallel-agents",
-      "youtubeId": "mNo24Omj8X4",
-      "category": "tip",
-      "title": "Worktrunk로 에이전트 여러 개를 워크트리에 나눠 병렬로 돌리기",
-      "titleEn": "The Best Git Worktree Tool I've Used (Worktrunk)",
-      "descKo": "Claude Code 에이전트 3개를 브랜치별 워크트리에서 돌리고 wt list·wt merge로 관리하는 흐름과 한계를 7분에 정리.",
-      "descEn": "A 7-minute test of running three Claude Code agents in separate worktrees and managing them with wt list and wt merge, limits included.",
-      "channel": "Better Stack",
-      "publishedAt": "2026-10-31T08:15:19Z",
-      "addedAt": "2026-10-31T23:12:20Z"
-    },
-    {
-      "id": "vid-sonoeno-mcp-vs-api-ko",
-      "youtubeId": "eT31Ow_ROYk",
-      "category": "lecture",
-      "title": "MCP vs API 차이: 클로드 커넥터로 처음 MCP 연결하기",
-      "titleEn": "클로드, 챗GPT 쓴다면 반드시 알아야 합니다 | MCP vs API 뭐가 다른데?",
-      "descKo": "콘센트와 돼지코 비유로 MCP와 API의 차이를 풀고 커넥터 연결, 미리캔버스·카카오 PlayMCP 활용을 9분에 소개.",
-      "descEn": "A 9-minute Korean beginner explainer on MCP versus API using a power-adapter analogy, plus connecting MCP in Claude and using Miricanvas and Kakao PlayMCP.",
-      "channel": "소소한 AI 입문노트 | 소에노",
-      "publishedAt": "2026-10-31T05:26:28Z",
-      "addedAt": "2026-10-31T23:12:20Z"
-    },
-    {
-      "id": "vid-yulpro-gemini-5-features-ko",
-      "youtubeId": "93qxT-Hmgpc",
-      "category": "tip",
-      "title": "제미나이 핵심 기능 5가지: 예약됨·Gems+스킬·노트북·딥 리서치",
-      "titleEn": "[Gemini] 그냥 쓰면 90% 손해입니다! 일잘러가 반드시 쓰는 구글 제미나이 핵심 기능 5가지 마스터",
-      "descKo": "이미지 메뉴, '예약됨' 자동 비서, Gems와 스킬, 최대 50개 소스 노트북, 딥 리서치를 화면과 함께 17분에 짚는 제미나이 업무 활용 팁.",
-      "descEn": "A 17-minute Korean tour of Gemini work features: the image menu, 'Scheduled' automations, Gems and skills, notebooks with up to 50 sources and Deep Research.",
-      "channel": "율프로교실",
-      "publishedAt": "2026-10-31T04:08:05Z",
-      "addedAt": "2026-11-01T23:21:43Z"
-    },
-    {
-      "id": "vid-alex-ai-code-security-5-checks-ko",
-      "youtubeId": "hZcI0Tpfko4",
-      "category": "tip",
-      "title": "AI가 짠 코드 보안 점검 5가지: 소스 노출부터 SQL 인젝션까지",
-      "titleEn": "5 Things to Check in AI-Generated Code | Security Audit | A Must-Watch for Vibe Coding",
-      "descKo": "프론트 소스·API 키·HTTPS·방화벽 포트·JWT·인증/인가·SQL 인젝션을 17분 안에 짚는 배포 전 체크리스트.",
-      "descEn": "A 17-minute pre-deploy checklist covering frontend source, API keys, HTTPS, firewall ports, JWT, authN/authZ and SQL injection.",
-      "channel": "기술노트with 알렉",
-      "publishedAt": "2026-10-30T13:46:08Z",
-      "addedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "vid-kakaotech-viking-vibe-coding-platform-ko",
-      "youtubeId": "e_RDlflNs9Q",
-      "category": "usecase",
-      "title": "카카오 사내 바이브코딩 플랫폼 Viking: 한 달 만에 1,900명·앱 700개 배포",
-      "titleEn": "Viking: 개발 지식은 아무것도 몰라도 되는 카카오의 바이브코딩 플랫폼 탄생기 | AI-DLC",
-      "descKo": "git·k8s를 몰라도 지침만으로 20분 만에 앱을 만들고 배포하는 카카오 커머스의 사내 플랫폼 도입기를 이프카카오 발표로 26분에 소개.",
-      "descEn": "A 26-minute if(kakao)26 talk on Kakao Commerce's in-house platform where instructions alone get an app built and deployed in about 20 minutes, with 1,900 users and 700 apps in a month.",
-      "channel": "kakao tech",
-      "publishedAt": "2026-10-30T06:00:07Z",
-      "addedAt": "2026-11-01T23:21:43Z"
     },
     {
       "id": "vid-techyoo-fold-subagents-ko",
@@ -167,18 +179,6 @@
       "descEn": "A 1h09m Korean beginner course on Codex in 13 chapters: permissions and sandbox, Plan mode, /review, AGENTS.md, /goal, subagents and imagegen.",
       "channel": "코드깎는노인",
       "publishedAt": "2026-10-29T03:05:46Z",
-      "addedAt": "2026-10-31T23:12:20Z"
-    },
-    {
-      "id": "vid-techwithtim-learn-claude-code-99pct",
-      "youtubeId": "3TwbE7gv6qo",
-      "category": "lecture",
-      "title": "Claude Code 99% 총정리: 모델·권한·CLAUDE.md·스킬·MCP·훅",
-      "titleEn": "Learn 99% Of Claude Code in One Video",
-      "descKo": "모델·effort·Plan 모드·CLAUDE.md·메모리·settings.json·스킬·서브에이전트·MCP·훅·루틴을 48분에 훑는 설정 강의.",
-      "descEn": "A 48-minute setup course covering models, effort, Plan mode, CLAUDE.md, memory, settings.json, skills, subagents, MCP, hooks and routines.",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-10-24T14:00:00Z",
       "addedAt": "2026-10-31T23:12:20Z"
     }
   ]
