@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-05T23:14:15Z",
+  "generatedAt": "2026-11-06T23:12:14Z",
   "videos": [
+    {
+      "id": "vid-directorsai-token-saving-setup-ko",
+      "youtubeId": "2780spHyWE8",
+      "category": "tip",
+      "title": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지: 지침 파일·인수인계서·해결 기록",
+      "titleEn": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지 정리법",
+      "descKo": "예약 앱 예시로 개발 기준을 지침 파일에 남기고, 새 채팅과 인수인계서로 작업을 나누고, 해결 기록을 옵시디언으로 다시 찾는 법을 15분에 시연(복사용 프롬프트·유료 제품 안내 포함).",
+      "descEn": "A 15-minute walkthrough on a booking-app example: keep standards in instruction files, split work into new chats with a handoff note, and retrieve solved-problem logs through Obsidian (includes copyable prompts and a product plug).",
+      "channel": "디렉터스AI",
+      "publishedAt": "2026-11-06T12:00:31Z",
+      "addedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "vid-5pm-claude-token-diet-ko",
+      "youtubeId": "X2FUntuozPc",
+      "category": "tip",
+      "title": "클로드 토큰 다이어트: /context·/compact·/clear로 컨텍스트 91%를 13%로",
+      "titleEn": "클로드 필수 신기능! 토큰 다이어트 91% → 13% 직접 해 봤습니다",
+      "descKo": "대화가 길면 답할 때마다 앞 대화를 통째로 다시 읽는 원리와 /context로 재고 /compact로 접고 /clear로 비우는 법, /btw·/goal 팁을 7분에 직접 측정하며 설명(압축하면 세부 내용을 잊는다는 주의 포함).",
+      "descEn": "A 7-minute measured demo of why long chats re-read the whole history on every reply, and how to measure with /context, fold with /compact and reset with /clear, plus /btw and /goal tips (with the caveat that compaction forgets detail).",
+      "channel": "오후다섯씨",
+      "publishedAt": "2026-11-06T12:05:26Z",
+      "addedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "vid-layperson-gemini-10-free-features-ko",
+      "youtubeId": "-G5VUwiYG6I",
+      "category": "tip",
+      "title": "퇴근을 앞당기는 제미나이 무료 기능 10가지: 오디오 개요·딥 리서치·캔버스·예약 작업",
+      "titleEn": "퇴근 시간을 확 앞당겨주는 제미나이 신기능 활용 10가지 + 무료프롬프트 자료 제공",
+      "descKo": "워크숍 준비 하나를 예로 오디오 개요, 딥 리서치 계획 수정, 만들기 버튼 웹페이지, 캔버스 슬라이드, 엑셀 다운로드, 예약 작업 등 제미나이 무료 기능 10가지를 12분에 시연(유료 보너스 2가지 포함).",
+      "descEn": "A 12-minute demo of 10 free Gemini features through one workshop-prep task: Audio Overview, editing the Deep Research plan, Create-button web pages, Canvas slides, Excel downloads and scheduled tasks (plus 2 paid bonuses).",
+      "channel": "문외인 Layperson",
+      "publishedAt": "2026-11-06T15:01:14Z",
+      "addedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "vid-connectailab-blender-mcp-autopilot-ko",
+      "youtubeId": "Yz3124ulHKE",
+      "category": "usecase",
+      "title": "영상을 생성하지 말고 바이브 코딩하기: Blender MCP로 매일 아침 자동 영상 만드는 AI 콘텐츠 팀",
+      "titleEn": "AI 직원들이 밤새 영상 만드는 1인 기업 | 영상 바이브코딩으로 AI 자율 회사 만들기",
+      "descKo": "Blender MCP를 Claude·Codex·Antigravity에 연결해 3D 자산을 한 번 만들어 재활용하고 매일 아침 8시에 자동 렌더링하는 오토파일럿까지 35분에 시연(멤버십 안내 포함).",
+      "descEn": "A 35-minute demo connecting Blender MCP to Claude, Codex and Antigravity, building a 3D asset once, reusing it, and rendering a new video automatically every morning at 8am (includes a membership plug).",
+      "channel": "CONNECT AI LAB",
+      "publishedAt": "2026-11-06T03:34:08Z",
+      "addedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "vid-lifehacker-claude-code-kakao-automation-ko",
+      "youtubeId": "G8r6UIfhWt0",
+      "category": "usecase",
+      "title": "클로드 코드로 카톡 보내기 자동화: 설치부터 명령어 한 줄까지 9분",
+      "titleEn": "아직도 카톡을 손으로 보내세요? | 2027 클로드코드 카톡 자동화 왕초보 9분 완성",
+      "descKo": "Claude Code 설치, 모델 고르기, 명령어 한 줄로 카카오톡 전송을 자동화하고 응용법까지 짚는 9분 입문 시연(무료 AI 특강 안내 포함).",
+      "descEn": "A 9-minute beginner demo of installing Claude Code, choosing a model and automating KakaoTalk sending with a single command, ending with ways to extend it (includes a free AI lecture promo).",
+      "channel": "라이프해커,자청",
+      "publishedAt": "2026-11-05T09:00:02Z",
+      "addedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "vid-googlecloud-3-agent-architectures",
+      "youtubeId": "czosBPhFnDI",
+      "category": "lecture",
+      "title": "에이전트 시스템 설계 3가지: 단일 에이전트·에이전트 팀·그래프 워크플로우",
+      "titleEn": "3 ways to design your agentic system",
+      "descKo": "고객 지원 예시로 단일 에이전트, 전문화된 에이전트 팀, 결정적 규칙을 위한 그래프 워크플로우를 비교하고 구조를 고르는 기준을 9분에 설명(Google ADK 기준).",
+      "descEn": "A 9-minute comparison, on a customer-support example, of a single agent, a specialized agent team and a graph workflow for deterministic rules, ending with how to choose (shown with Google's ADK).",
+      "channel": "Google Cloud Tech",
+      "publishedAt": "2026-11-05T17:00:05Z",
+      "addedAt": "2026-11-06T23:12:14Z"
+    },
     {
       "id": "vid-davelee-claude-code-new-features-ko",
       "youtubeId": "F15aMeaHOII",
@@ -86,42 +158,6 @@
       "addedAt": "2026-11-03T23:14:31Z"
     },
     {
-      "id": "vid-conanssam-codex-app-7-tips-ko",
-      "youtubeId": "6KU-_0ZbhRU",
-      "category": "tip",
-      "title": "코덱스 앱 실전 7가지: 클로드 세션 불러오기부터 Stop 훅 검증 게이트까지",
-      "titleEn": "7 Hands-on Codex App Tricks | From Importing Claude Sessions to Verification Gates",
-      "descKo": "클로드 세션 가져오기, 사이드 채팅, 캐시 유지, 반복 작업 스킬 녹화, Stop 훅, 워크트리, 대화 드래그 참조를 작은 웹앱으로 7분에 시연.",
-      "descEn": "A 7-minute demo with a small web app: importing Claude sessions, side chat, cache keeping, recording a repeated task as a skill, a Stop hook, worktrees and dragging conversations in as references.",
-      "channel": "코난쌤 conanssam",
-      "publishedAt": "2026-11-03T11:31:20Z",
-      "addedAt": "2026-11-03T23:14:31Z"
-    },
-    {
-      "id": "vid-dante-felix-ambition-claude-code-ko",
-      "youtubeId": "p7M6BrwGWq8",
-      "category": "tip",
-      "title": "Claude Code로 더 야심 차게: 목표 한 줄·깊이 프롬프트·Codex 바깥 심판·분야별 서브에이전트",
-      "titleEn": "How Anthropic Engineers Use Claude Code - 3 Methods of the Top 1%",
-      "descKo": "Felix Rieseberg의 글을 따라 할 일에 목표 한 줄 붙이기, 깊이 프롬프트, Codex 바깥 심판, 분야별 서브에이전트를 오픈소스 프로젝트에 적용하는 과정을 18분에 시연.",
-      "descEn": "An 18-minute demo applying Felix Rieseberg's three methods to an open-source project: a goal line on each to-do, a depth prompt, Codex as an outside judge and one subagent per area.",
-      "channel": "단테",
-      "publishedAt": "2026-11-03T11:00:36Z",
-      "addedAt": "2026-11-03T23:14:31Z"
-    },
-    {
-      "id": "vid-devdongsaeng-manager-agent-ko",
-      "youtubeId": "NoatYSA9RyU",
-      "category": "usecase",
-      "title": "에이전트 관리의 표준 후보, 매니저 에이전트: 3단 구조와 승인 카드",
-      "titleEn": "I Think This Will Become the Standard for Agent Management | Manager Agent",
-      "descKo": "결정 대기 세션 13개 중 사람이 볼 것은 6개였다는 실측과 매니저·코디네이터·코딩 에이전트 3단 구조, 승인 카드, pstack 검사 전환을 23분에 설명.",
-      "descEn": "A 23-minute talk on a manager / coordinator / coding-agent hierarchy, including a measurement that only 6 of 13 sessions waiting on decisions needed a human, approval cards and turning mistakes into pstack checks.",
-      "channel": "개발동생",
-      "publishedAt": "2026-11-03T10:16:44Z",
-      "addedAt": "2026-11-03T23:14:31Z"
-    },
-    {
       "id": "vid-jinyongseong-claude-full-course-ko",
       "youtubeId": "eKasugoHjj4",
       "category": "lecture",
@@ -132,42 +168,6 @@
       "channel": "진용성",
       "publishedAt": "2026-11-03T06:20:01Z",
       "addedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "vid-johnkim-anthropic-code-review-layers",
-      "youtubeId": "4m8mq42M_3E",
-      "category": "tip",
-      "title": "Anthropic은 AI 코드를 어떻게 리뷰하나: 7개 검토 층과 사고 기반 평가셋",
-      "titleEn": "How Anthropic Engineers Review AI Code",
-      "descKo": "Claude Code 팀의 코드 리뷰 글을 섹션별로 읽으며 7개 검토 층, 위험도별 승인, 사고를 AI 리뷰어 평가셋으로 쓰는 법을 39분에 정리.",
-      "descEn": "A 39-minute section-by-section reaction to the Claude Code team's code review article: seven review layers, risk-tiered approval and turning incidents into an eval set for the AI reviewer.",
-      "channel": "John Kim",
-      "publishedAt": "2026-11-01T15:00:32Z",
-      "addedAt": "2026-11-01T23:21:43Z"
-    },
-    {
-      "id": "vid-jinhanbyeol-claude-work-automation-ko",
-      "youtubeId": "Mq4XScPxSEM",
-      "category": "lecture",
-      "title": "클로드 업무 자동화 최신 기능 6가지: 프로젝트·코워크·스킬·예약 작업·아티팩트",
-      "titleEn": "(Nov 2026 Update) 6 Latest Claude Features That Finish Your Work Automation | Follow Along",
-      "descKo": "채팅 엑셀 분석, 프로젝트 지침, 코워크 폴더 연결, 경비 정산 자동화 실습, 스킬, 예약 작업, 아티팩트 대시보드를 12분에 따라 하는 비개발자용 실습(기업 교육 안내 포함).",
-      "descEn": "A 12-minute follow-along for non-developers: Excel analysis in chat, project instructions, connecting a folder with Cowork, an expense-settlement automation exercise, skills, scheduled tasks and an Artifacts dashboard (includes a corporate-training pitch).",
-      "channel": "진한별의 AI 연구소",
-      "publishedAt": "2026-11-01T07:39:22Z",
-      "addedAt": "2026-11-03T23:14:31Z"
-    },
-    {
-      "id": "vid-techyoo-fold-subagents-ko",
-      "youtubeId": "Uyj2Lg6sn8g",
-      "category": "tip",
-      "title": "AI 에이전트 많을수록 좋을까? 서브에이전트를 합칠 때와 나눌 때",
-      "titleEn": "AI 에이전트, 많을수록 좋을까? 앤트로픽이 ‘합쳐보라’고 한 이유",
-      "descKo": "Anthropic의 서브에이전트 통합 글을 바탕으로 인수인계 손실, 스킬로 대체하기, 나눠야 할 경우, 작은 평가로 비교하는 법을 9분에 설명.",
-      "descEn": "A 9-minute Korean explainer on Anthropic's fold-subagents article: handoff losses, replacing role agents with skills, when to keep multi-agent, and comparing with a small eval.",
-      "channel": "techyoo",
-      "publishedAt": "2026-10-29T08:15:29Z",
-      "addedAt": "2026-11-01T23:21:43Z"
     },
     {
       "id": "vid-codekkaknun-codex-1hour-master-ko",

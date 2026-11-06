@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-11-05T23:14:15Z",
+  "generatedAt": "2026-11-06T23:14:47Z",
   "posts": [
+    {
+      "id": "curated-20261107-directorsai-token-saving-setup-ko",
+      "title": "디렉터스AI: 코덱스·클로드 코드 토큰 낭비 줄이는 3가지 — 지침 파일에 기준 남기기, 새 채팅과 인수인계서, 해결 기록은 옵시디언에 15분",
+      "body": "디렉터스AI가 14분 52초 동안 Codex·Antigravity·Claude Code로 개발하면서 같은 설명을 반복하고 이미 실패한 방법을 또 시도하게 만드는 낭비를 줄이는 세 가지를 예약 앱 예시로 보여 줍니다. 매번 말하던 개발 기준을 전역·프로젝트 지침 파일(마스터 프롬프트)에 남기고(1:06), 작업이 바뀌면 새 채팅으로 나누되 현재 목표·변경 파일·확정한 결정·실패한 시도와 이유·테스트 결과·다음 행동을 적은 인수인계서로 이어 가며(3:03~5:53), 해결한 문제를 기록해 옵시디언으로 장기 기억처럼 다시 찾아 씁니다(8:58~11:54). 설명란에 복사용 인수인계 프롬프트와 자료 페이지가 있고, 운영자의 유료 제품·전자책 안내도 함께 들어 있으니 감안하세요.",
+      "titleEn": "Directors AI: three ways to stop wasting tokens in Codex and Claude Code - keep standards in an instruction file, split chats with a handoff note, and log solved problems in Obsidian (15 minutes)",
+      "bodyEn": "In 14m52s the Korean channel Directors AI (디렉터스AI) uses a booking-app example to show three ways to stop repeating yourself to Codex, Antigravity and Claude Code and stop letting them retry methods that already failed. Put the development standards you keep restating into global and project instruction files (a 'master prompt') (1:06); when the task changes, start a new chat and carry over only a handoff note listing the current goal, changed files, decisions made, failed attempts and why, test results and the next action (3:03-5:53); and record solved problems so they can be found again, with Obsidian acting as long-term memory (8:58-11:54). The description has a copyable handoff prompt and a resource page, and also plugs the creator's paid product and ebook.",
+      "sourceName": "YouTube · 디렉터스AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
+      "createdAt": "2026-11-06T12:00:31Z",
+      "curatedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "curated-20261107-hn-hightouch-cheap-judge-opus-hybrid",
+      "title": "Hightouch: 값싼 신뢰도 모델이 먼저 판정하고 애매한 22%만 Opus에게 — 정확도 98.8%(Opus 단독 99.0%)에 비용은 1,000건당 3.86달러에서 0.88달러로",
+      "body": "Hightouch가 사람 프로필 1,000건의 잘못된 병합(over-merge) 여부를 가리는 과제로, 0~1 신뢰도 점수를 돌려주는 '결정 모델' Jev와 GPT-6 Luna를 Opus 5.5와 견줬습니다(HN 11월 6일, 232점). 단독으로는 Opus 5.5가 99.0%에 건당 2.2초·1,000건 3.86달러, Jev는 95.7%에 0.15초·0.05달러였지만, 신뢰도 30~90% 구간(전체의 22%)만 Opus에게 넘기는 하이브리드는 98.8%에 0.88달러였습니다. 더 어려운 시험에서는 Opus 단독 95.1%(5.39달러)보다 하이브리드 Jev가 95.3%(2.94달러)로 앞섰는데, 틀릴 때 신뢰도가 낮아지는 Jev와 달리 Luna는 확신에 차서 틀려 하이브리드 효과가 작았습니다. 값싼 모델 뒤에 비싼 모델을 두는 에이전트 구성의 임계값을 잡을 때 참고할 수치지만, 가상 마을 합성 데이터에 한 회사의 자체 측정이고 글이 채용 안내를 겸한다는 점은 감안하세요.",
+      "titleEn": "Hightouch: let a cheap confidence model judge first and send only the uncertain 22% to Opus - 98.8% accuracy (Opus alone 99.0%) at $0.88 instead of $3.86 per 1,000",
+      "bodyEn": "Hightouch compared Opus 5.5 with two 'decision models' that return a 0-1 confidence score, Jev and GPT-6 Luna, on judging whether 1,000 people profiles were wrongly merged (HN, November 6, 232 points). Alone, Opus 5.5 scored 99.0% at 2.2 s per profile and $3.86 per 1,000, while Jev scored 95.7% at 0.15 s and $0.05; a hybrid that forwards only the 30-90% confidence band (22% of cases) to Opus reached 98.8% for $0.88. On a harder test, hybrid Jev scored 95.3% for $2.94 against Opus alone at 95.1% for $5.39, and Luna helped the hybrid much less because it is confidently wrong where Jev's mistakes come with low confidence. Useful numbers when tuning the threshold for a cheap-model-first, expensive-model-second agent setup, but it is synthetic data on a fictional town, one company's own measurement, and the post doubles as a hiring pitch.",
+      "sourceName": "Hacker News · Hightouch",
+      "sourceUrl": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-06T19:48:51Z",
+      "curatedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "curated-20261107-connectailab-blender-mcp-autopilot-ko",
+      "title": "CONNECT AI LAB: 영상을 생성하지 말고 바이브 코딩하라 — Blender MCP를 Claude·Codex·Antigravity에 연결하고 매일 아침 8시 자동 렌더링하는 AI 콘텐츠 팀 35분",
+      "body": "CONNECT AI LAB이 35분 24초 동안 영상을 매번 생성하는 대신 3D 모델을 한 번 만들어 재활용해 매일 영상을 자동으로 뽑는 '영상 바이브 코딩' 구성을 보여 줍니다. GitHub의 Blender MCP를 Claude, ChatGPT Codex, Antigravity에 연결해(11:37~12:46) 말로 시키면 도구를 찾아 코딩하게 하고, 빨간 공과 무지개·떨어지는 천·이미지 배경을 세 AI가 나눠 만든 뒤(14:42~18:20) 카메라 무빙 프롬프트로 영상을 렌더링합니다(21:33). 파일 하나가 곧 자산이라 재사용으로 비용을 줄이고, 매일 아침 8시에 AI가 새 영상을 만드는 오토파일럿 프롬프트(28:12)까지 다룹니다. 프롬프트와 파일은 GitHub 저장소 wonseokjung/blender-mcp-vibecoding에 공개돼 있고, 설명란에 11~12월 멤버십 프로젝트 안내가 있습니다.",
+      "titleEn": "CONNECT AI LAB: don't generate video, vibe-code it - connect Blender MCP to Claude, Codex and Antigravity and render a new video every morning at 8am with an AI content team (35 minutes)",
+      "bodyEn": "In 35m24s the Korean channel CONNECT AI LAB shows 'video vibe coding': instead of generating video each time, build a 3D asset once, reuse it, and let AI render a video automatically every day. It connects the Blender MCP from GitHub to Claude, ChatGPT Codex and Antigravity (11:37-12:46) so plain-language requests find the tools and write the code, has the three AIs split a red ball and rainbow, a falling cloth and an image background (14:42-18:20), then renders video from camera-move prompts (21:33). Because one file is the asset, reuse keeps costs down, and the autopilot prompt that makes a new video at 8am each day is at 28:12. The prompts and files are open-sourced in the wonseokjung/blender-mcp-vibecoding repo, and the description also promotes a November-December membership project.",
+      "sourceName": "YouTube · CONNECT AI LAB",
+      "sourceUrl": "https://www.youtube.com/watch?v=Yz3124ulHKE",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=Yz3124ulHKE",
+      "createdAt": "2026-11-06T03:34:08Z",
+      "curatedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "curated-20261107-geeknews-pragmatic-engineer-two-eras-ko",
+      "title": "소프트웨어 엔지니어링은 어떻게 달라지고 있나: 월 PR 19개에서 207개로 — 에이전트 3~5개 병렬, PR마다 HTML 결과물, 자동 리뷰만 거치는 병합과 장애를 검사 항목으로 되돌리기",
+      "body": "The Pragmatic Engineer 에세이 공모(125편)의 우승작으로, Bloomberg·PostHog·Tano를 거친 엔지니어의 월간 PR이 AI 도입 전 약 19개에서 207개로 11배 늘었다는 경험담입니다(GeekNews 11월 6일). Claude Code Desktop으로 한 번에 3~5개 작업을 돌리며 계획만 검토하고 PR마다 읽기 쉬운 HTML 결과물을 만들게 해 확인하며, Claude Code GitHub Actions 리뷰 에이전트가 모든 PR에서 CI로 돌아 사람 리뷰는 코드베이스에 익숙해진 약 3~8주 뒤부터 선택 사항이 됩니다. 모든 통화에 100을 곱한 코드나 600만 행 테이블의 쓰기 차단 마이그레이션 같은 장애는 리뷰 에이전트의 검사 항목으로 되돌려 넣었고, 동시 작업 제한과 퇴근 후 차단이 필요할 만큼 피로도 컸다고 합니다. PR 수는 사업 성과가 아니며 AI만의 효과를 분리한 비교도 아니라는 단서가 붙습니다.",
+      "titleEn": "How software engineering is changing: from 19 to 207 PRs a month - 3-5 parallel agents, an HTML artifact per PR, merges gated only by automated review, and turning outages into review checks",
+      "bodyEn": "This winner of The Pragmatic Engineer's essay challenge (125 entries; shared on GeekNews on November 6) follows one engineer across Bloomberg, PostHog and Tano, whose monthly PRs rose about 11x, from roughly 19 before AI to 207. He runs 3-5 tasks at once in Claude Code Desktop, reviewing the plan and having each PR produce a readable HTML artifact; a Claude Code GitHub Actions review agent runs on every PR as part of CI, and human review becomes optional once the codebase feels familiar, about 3 weeks in and up to 8. Failures such as code that multiplied every currency by 100 and a write-blocking migration on a 6-million-row table were fed back into the review agent's checklist, and the fatigue was real enough to call for a cap on concurrent work and no after-hours work. He cautions that PR count is not business performance and that the comparison does not isolate AI's effect.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36685",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-06T01:16:28Z",
+      "curatedAt": "2026-11-06T23:12:14Z"
+    },
     {
       "id": "curated-20261106-davelee-claude-code-new-features-ko",
       "title": "잔재미코딩: 최근 한 달 클로드 코드 신기능 정리 — Mods, MCP Tasks, ultrathink, advisor, 에이전트 뷰, /usage 10분",
@@ -208,58 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-10-31T00:00:00Z",
       "curatedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "curated-20261031-alex-ai-code-security-5-checks-ko",
-      "title": "기술노트with 알렉: AI가 짠 코드, 이 5가지는 꼭 확인하세요 — 프론트 소스 노출·API 키·HTTPS·방화벽 포트·JWT·인증과 인가·SQL 인젝션",
-      "body": "기술노트with 알렉이 16분 56초 동안 바이브코딩으로 만든 앱을 배포하기 전에 확인할 보안 항목을 순서대로 짚습니다. F12로 누구나 볼 수 있는 프론트엔드 소스(0:15)와 앱 디컴파일 시 API 키가 드러나는 문제(1:02), HTTPS와 인증서(2:07), 방화벽과 80·443·22 포트 및 기본 포트·비밀번호의 위험(4:20~6:34), 백엔드 API 키(7:36), JWT 만료와 갱신(8:27), 인증과 인가(13:02), SQL 인젝션과 AI에게 구체적으로 요청하는 법(15:47)이 챕터입니다. 배포 전에 AI가 만든 코드를 이 목록으로 훑어 보는 체크리스트로 쓰기 좋습니다.",
-      "titleEn": "Alex's Tech Notes: 5 things to check in AI-generated code - frontend source exposure, API keys, HTTPS, firewall ports, JWT, authN/authZ and SQL injection",
-      "bodyEn": "In 16 minutes 56 seconds, the Korean channel Alex's Tech Notes (기술노트with 알렉) goes through what to check before shipping an app built by vibe coding. The chapters cover frontend source anyone can read with F12 (0:15), API keys exposed by app decompilation (1:02), HTTPS and certificates (2:07), firewalls, ports 80/443/22 and the danger of default ports and passwords (4:20-6:34), backend API keys (7:36), JWT expiry and renewal (8:27), authentication versus authorization (13:02) and SQL injection plus how to ask the AI for specific fixes (15:47). A handy pre-deploy checklist for reviewing AI-written code.",
-      "sourceName": "YouTube · 기술노트with 알렉",
-      "sourceUrl": "https://www.youtube.com/watch?v=hZcI0Tpfko4",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=hZcI0Tpfko4",
-      "createdAt": "2026-10-30T13:46:08Z",
-      "curatedAt": "2026-10-30T23:19:16Z"
-    },
-    {
-      "id": "curated-20261102-geeknews-lethain-verification-pattern-ko",
-      "title": "검증 패턴 도입기: PR마다 verifications/{PR번호}.md에 에이전트가 검증한 것과 못 한 것을 적게 하기 — 파일이 없으면 draft에서 ready로 못 바꾼다",
-      "body": "Will Larson(lethain.com)이 10월 30일 쓴 글을 GeekNews가 11월 1일 소개했습니다. 규칙은 하나로, 모든 PR은 verifications/{PR 번호}.md를 만들어 하네스가 수행한 검증 단계와 검증하지 못한 항목을 적어야 하고 파일이 없으면 draft에서 ready로 바꿀 수 없습니다. 루프는 구현 → 로컬 검증 후 PR → ai-code-review 자동 리뷰 → 피드백 반영 또는 /dismiss {이유}로 기각 → 매일 유지보수(/maintain-verification-skill로 기능 맵 갱신, 검증 파일의 빈틈을 이슈로 등록, 리뷰 지침 다듬기) 5단계이고, 프런트엔드·백엔드·데이터·네이티브 영역마다 아침에 개선 PR이 4~6개 쌓인다고 합니다. 저자는 하네스가 한 일을 보여 주거나 건너뛰었다고 인정하게 만드는 Chain-of-Thought 같은 장치라고 설명하지만, 기록이 하네스의 자기 보고라는 점과 중앙화를 어디까지 할지 확신하지 못한다는 점도 밝힙니다.",
-      "titleEn": "Adopting a verification pattern: make the agent record what it verified and could not verify in verifications/{PR number}.md - no file, no draft-to-ready",
-      "bodyEn": "Will Larson (lethain.com) wrote this post on October 30 and GeekNews shared it on November 1. There is one rule: every PR must produce a verifications/{PR number}.md listing the verification steps the harness took and what it could not verify, and a PR cannot move from draft to ready without it. The loop has five steps - implement, verify locally and open the PR, automatic review by an ai-code-review tool, incorporate feedback or dismiss it with /dismiss {reason}, and daily maintenance (updating feature maps with /maintain-verification-skill, filing issues for gaps found in the verification files, and tightening review guidance) - and each area (frontend, backend, data, native) wakes up to 4-6 maintenance PRs to review. He likens it to chain-of-thought for the harness, which has to show its work or admit it skipped it, but he acknowledges the records are the harness's own reports and that he is unsure how far to centralize.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36369",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-30T00:00:00Z",
-      "curatedAt": "2026-11-01T23:21:43Z"
-    },
-    {
-      "id": "curated-20261102-techyoo-fold-subagents-ko",
-      "title": "techyoo: AI 에이전트, 많을수록 좋을까? — Anthropic이 서브에이전트를 하나의 루프와 스킬로 합쳐 보라는 이유와 합칠지 나눌지 정하는 기준 9분",
-      "body": "techyoo가 9분 19초 동안 Anthropic이 10월 22일 올린 글 'When to fold subagents into your main agent loop'를 풀어 줍니다. 역할마다 에이전트를 나누면 인수인계에서 중요한 조건이 사라지므로(1:33), 담당자를 스킬과 도구로 바꿔 필요한 정보만 불러오는 단일 에이전트부터 시작하고(3:20~4:07), 도구 병렬 호출과 멀티 에이전트를 구분해(5:13) 멀티 에이전트가 필요한 경우(5:40)를 따지라고 합니다. 원문에는 골든 예시 10개 안팎의 작은 평가를 만들어 서브에이전트를 하나씩 합치며 점수를 비교하는 방법, 한 고객 사례에서 단일 루프가 약 2배 빨랐다는 수치, Claude Code 시스템 프롬프트를 80% 넘게 줄였다는 설명이 있습니다. 문맥 분리·병렬 조사처럼 서브에이전트를 남길 이유도 함께 다뤄, 에이전트 구조를 고민하는 사람이 내 작업에 맞는 쪽을 판단하기 좋습니다.",
-      "titleEn": "techyoo: are more AI agents better? - why Anthropic says to fold subagents into one loop with skills, and the criteria for folding or splitting, in 9 minutes",
-      "bodyEn": "In 9m19s the Korean channel techyoo unpacks Anthropic's October 22 article 'When to fold subagents into your main agent loop'. Splitting an agent per role lets important conditions drop out in the handoff (1:33), so start with a single agent that swaps role-owners for skills and tools and loads only the information it needs (3:20-4:07), tell parallel tool calls apart from multi-agent setups (5:13), and weigh when multi-agent is really needed (5:40). The article itself describes a small eval of around 10 golden examples to fold in one subagent at a time and compare scores, one customer whose single loop ran roughly 2x faster, and Anthropic cutting Claude Code's system prompt by over 80%. The video also covers reasons to keep subagents, such as context isolation and parallel research, which helps you judge which structure fits your own work.",
-      "sourceName": "YouTube · techyoo",
-      "sourceUrl": "https://www.youtube.com/watch?v=Uyj2Lg6sn8g",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=Uyj2Lg6sn8g",
-      "createdAt": "2026-10-29T08:15:29Z",
-      "curatedAt": "2026-11-01T23:21:43Z"
-    },
-    {
-      "id": "curated-20261101-codekkaknun-codex-1hour-master-ko",
-      "title": "코드깎는노인: 코덱스 1시간 마스터 — 권한·샌드박스, Esc 두 번 되감기, /review, Plan 모드, AGENTS.md, /goal과 서브에이전트, imagegen까지 13장",
-      "body": "코드깎는노인이 1시간 8분 49초 동안 Codex(codex-cli 0.164.0)를 실제로 실행하며 초보자가 부딪히는 13번의 순간을 장별로 짚습니다. 권한·샌드박스와 검토 AI를 붙이는 'Approve for me'(14:00~19:34), 일하는 중 Esc 중단·Enter 끼어들기·Tab 예약(20:57~), Esc 두 번 되감기와 git 커밋 세이브 포인트(24:35~28:00), /review(29:34), Plan 모드(33:11), /init 초안을 고치는 AGENTS.md(43:53), /compact와 /side(46:39~), /goal과 codex agents·서브에이전트(49:23~54:14), 나만의 스킬과 codex exec(58:07~), imagegen(60:00)이 이어집니다. 설명란에 공식 문서 링크가 모여 있고 마지막에 상황별 정리표가 있어 Codex를 처음 켜는 사람이 그대로 따라 하기 좋습니다.",
-      "titleEn": "Code-Carving Elder: Codex in one hour - permissions and sandbox, double-Esc rewind, /review, Plan mode, AGENTS.md, /goal and subagents, imagegen in 13 chapters",
-      "bodyEn": "In 1h08m49s the Korean channel Code-Carving Elder (코드깎는노인) runs Codex (codex-cli 0.164.0) live and walks through the 13 moments a beginner hits, chapter by chapter. It covers permissions, the sandbox and 'Approve for me', which adds a reviewing AI (14:00-19:34); interrupting with Esc, cutting in with Enter and queuing with Tab (20:57-); double-Esc rewind and git commits as save points (24:35-28:00); /review (29:34); Plan mode (33:11); AGENTS.md by fixing the /init draft (43:53); /compact and /side (46:39-); /goal, codex agents and subagents (49:23-54:14); your own skills and codex exec (58:07-); and imagegen (60:00). The description collects the official docs links and the video ends with a situation-by-situation summary table, so a first-time Codex user can follow along step by step.",
-      "sourceName": "YouTube · 코드깎는노인",
-      "sourceUrl": "https://www.youtube.com/watch?v=zmpXdQmLeYA",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=zmpXdQmLeYA",
-      "createdAt": "2026-10-29T03:05:46Z",
-      "curatedAt": "2026-10-31T23:12:20Z"
     }
   ]
 }
