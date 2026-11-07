@@ -1,17 +1,53 @@
 {
-  "generatedAt": "2026-11-06T23:12:14Z",
+  "generatedAt": "2026-11-07T23:24:35Z",
   "videos": [
     {
-      "id": "vid-directorsai-token-saving-setup-ko",
-      "youtubeId": "2780spHyWE8",
+      "id": "vid-dalbee-claude-code-29-usecases-ko",
+      "youtubeId": "1pp0uNCjvdk",
+      "category": "usecase",
+      "title": "클로드 코드 잘 쓰는 사람들은 뭘 만들었을까: 실제 활용 사례 29개",
+      "titleEn": "What Did People Who Are Good at Claude Code Actually Build? (29 Real Cases)",
+      "descKo": "집 TV 광고 끄기·9살 웹사이트·구독료 절감·몰래 감시 점검·업무·과학 연구까지 X에 공개된 Claude Code 사례 29개를 7개 묶음으로 17분에 정리(사례마다 원본 링크, 카톡방 안내 포함).",
+      "descEn": "A 17-minute tour of 29 Claude Code cases shared on X in seven groups, from killing TV ads and a 9-year-old's website to cutting subscriptions, finding hidden surveillance, work and science (original link for every case; includes a chat-community plug).",
+      "channel": "달비의 작업실",
+      "publishedAt": "2026-11-07T09:00:33Z",
+      "addedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "vid-sysmaker-vibecoding-free-lecture-5-8-ko",
+      "youtubeId": "yPmTPWstN50",
+      "category": "lecture",
+      "title": "바이브코딩 왕초보 무료강의 5~8강: 지침·스킬·서브에이전트부터 MCP·깃허브·라이선스까지",
+      "titleEn": "Vibe Coding Beginner Free Course, Lessons 5-8: Instructions, Skills and Subagents to MCP, GitHub and Licenses",
+      "descKo": "지침·스킬·서브에이전트 비교, MCP·커넥터·플러그인·API 구분과 API 키 보관, 깃 커밋·브랜치·PR로 되돌리기, 오픈소스 라이선스 네 가지를 강마다 무료 자료와 함께 39분에 정리.",
+      "descEn": "A 39-minute bundle of four lessons: instructions vs skills vs subagents, MCP vs connectors vs plugins vs API and keeping API keys safe, undoing mistakes with git commits, branches and PRs, and four open-source licenses, each with a free handout.",
+      "channel": "AI 시스메이커",
+      "publishedAt": "2026-11-07T09:00:19Z",
+      "addedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "vid-layperson-gemini-10-free-features-ko",
+      "youtubeId": "-G5VUwiYG6I",
       "category": "tip",
-      "title": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지: 지침 파일·인수인계서·해결 기록",
-      "titleEn": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지 정리법",
-      "descKo": "예약 앱 예시로 개발 기준을 지침 파일에 남기고, 새 채팅과 인수인계서로 작업을 나누고, 해결 기록을 옵시디언으로 다시 찾는 법을 15분에 시연(복사용 프롬프트·유료 제품 안내 포함).",
-      "descEn": "A 15-minute walkthrough on a booking-app example: keep standards in instruction files, split work into new chats with a handoff note, and retrieve solved-problem logs through Obsidian (includes copyable prompts and a product plug).",
-      "channel": "디렉터스AI",
-      "publishedAt": "2026-11-06T12:00:31Z",
+      "title": "퇴근을 앞당기는 제미나이 무료 기능 10가지: 오디오 개요·딥 리서치·캔버스·예약 작업",
+      "titleEn": "퇴근 시간을 확 앞당겨주는 제미나이 신기능 활용 10가지 + 무료프롬프트 자료 제공",
+      "descKo": "워크숍 준비 하나를 예로 오디오 개요, 딥 리서치 계획 수정, 만들기 버튼 웹페이지, 캔버스 슬라이드, 엑셀 다운로드, 예약 작업 등 제미나이 무료 기능 10가지를 12분에 시연(유료 보너스 2가지 포함).",
+      "descEn": "A 12-minute demo of 10 free Gemini features through one workshop-prep task: Audio Overview, editing the Deep Research plan, Create-button web pages, Canvas slides, Excel downloads and scheduled tasks (plus 2 paid bonuses).",
+      "channel": "문외인 Layperson",
+      "publishedAt": "2026-11-06T15:01:14Z",
       "addedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "vid-jsmastery-docker-sandbox-agents-saas",
+      "youtubeId": "Nq8uOOMH9fg",
+      "category": "usecase",
+      "title": "코딩 에이전트 3개에 전체 권한 주기: Docker 샌드박스에서 풀스택 SaaS 만들고 배포하기",
+      "titleEn": "I Gave 3 Coding Agents Full Access | Build and Deploy a Full Stack SaaS",
+      "descKo": "리드 에이전트 1개가 계획하고 개발 에이전트 2개가 각자 Docker 샌드박스에서 나란히 코딩해 AI 지원 챗봇 AskWell을 만들고 배포하는 2시간 59분 실습(전체 권한을 안전하게 주고 작업을 나누는 법, 협찬 링크 포함).",
+      "descEn": "A 2h59m build where one lead agent plans and two developer agents code side by side, each in its own Docker sandbox, to ship the AskWell AI support chatbot (how to grant full access safely and split work so agents don't break each other; includes sponsor links).",
+      "channel": "JavaScript Mastery",
+      "publishedAt": "2026-11-06T14:35:12Z",
+      "addedAt": "2026-11-07T23:24:35Z"
     },
     {
       "id": "vid-5pm-claude-token-diet-ko",
@@ -26,15 +62,15 @@
       "addedAt": "2026-11-06T23:12:14Z"
     },
     {
-      "id": "vid-layperson-gemini-10-free-features-ko",
-      "youtubeId": "-G5VUwiYG6I",
+      "id": "vid-directorsai-token-saving-setup-ko",
+      "youtubeId": "2780spHyWE8",
       "category": "tip",
-      "title": "퇴근을 앞당기는 제미나이 무료 기능 10가지: 오디오 개요·딥 리서치·캔버스·예약 작업",
-      "titleEn": "퇴근 시간을 확 앞당겨주는 제미나이 신기능 활용 10가지 + 무료프롬프트 자료 제공",
-      "descKo": "워크숍 준비 하나를 예로 오디오 개요, 딥 리서치 계획 수정, 만들기 버튼 웹페이지, 캔버스 슬라이드, 엑셀 다운로드, 예약 작업 등 제미나이 무료 기능 10가지를 12분에 시연(유료 보너스 2가지 포함).",
-      "descEn": "A 12-minute demo of 10 free Gemini features through one workshop-prep task: Audio Overview, editing the Deep Research plan, Create-button web pages, Canvas slides, Excel downloads and scheduled tasks (plus 2 paid bonuses).",
-      "channel": "문외인 Layperson",
-      "publishedAt": "2026-11-06T15:01:14Z",
+      "title": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지: 지침 파일·인수인계서·해결 기록",
+      "titleEn": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지 정리법",
+      "descKo": "예약 앱 예시로 개발 기준을 지침 파일에 남기고, 새 채팅과 인수인계서로 작업을 나누고, 해결 기록을 옵시디언으로 다시 찾는 법을 15분에 시연(복사용 프롬프트·유료 제품 안내 포함).",
+      "descEn": "A 15-minute walkthrough on a booking-app example: keep standards in instruction files, split work into new chats with a handoff note, and retrieve solved-problem logs through Obsidian (includes copyable prompts and a product plug).",
+      "channel": "디렉터스AI",
+      "publishedAt": "2026-11-06T12:00:31Z",
       "addedAt": "2026-11-06T23:12:14Z"
     },
     {
@@ -50,16 +86,16 @@
       "addedAt": "2026-11-06T23:12:14Z"
     },
     {
-      "id": "vid-lifehacker-claude-code-kakao-automation-ko",
-      "youtubeId": "G8r6UIfhWt0",
-      "category": "usecase",
-      "title": "클로드 코드로 카톡 보내기 자동화: 설치부터 명령어 한 줄까지 9분",
-      "titleEn": "아직도 카톡을 손으로 보내세요? | 2027 클로드코드 카톡 자동화 왕초보 9분 완성",
-      "descKo": "Claude Code 설치, 모델 고르기, 명령어 한 줄로 카카오톡 전송을 자동화하고 응용법까지 짚는 9분 입문 시연(무료 AI 특강 안내 포함).",
-      "descEn": "A 9-minute beginner demo of installing Claude Code, choosing a model and automating KakaoTalk sending with a single command, ending with ways to extend it (includes a free AI lecture promo).",
-      "channel": "라이프해커,자청",
-      "publishedAt": "2026-11-05T09:00:02Z",
-      "addedAt": "2026-11-06T23:12:14Z"
+      "id": "vid-vibemafia-pm-theory-harness-live-ko",
+      "youtubeId": "lIZvLVESRoE",
+      "category": "lecture",
+      "title": "바이브코더를 위한 PM 이론 + 하네스 구축하기: 비전 문서부터 작업 예측 하네스까지 2시간 42분 라이브",
+      "titleEn": "PM Theory for Vibe Coders + Building a Harness (AI Native Engineer live)",
+      "descKo": "Berkun의 PM 이론을 비전 문서·목표 3계층·좋은 스펙으로 정리하고 CLAUDE.md→AGENTS.md 다이어트, 세션 충돌 방지, 30·50·80% 작업 예측 하네스를 라이브로 구현(앞 17분은 대기, 유료 강의·멤버십 안내 포함).",
+      "descEn": "A 2h42m live that turns Berkun's PM theory (vision doc, three goal layers, good specs) into practice: trimming CLAUDE.md to AGENTS.md, preventing session conflicts and building a harness that predicts task time at 30/50/80% (first ~17 minutes are waiting time; includes paid course and membership plugs).",
+      "channel": "바이브마피아",
+      "publishedAt": "2026-11-06T02:00:03Z",
+      "addedAt": "2026-11-07T23:24:35Z"
     },
     {
       "id": "vid-googlecloud-3-agent-architectures",
@@ -86,18 +122,6 @@
       "addedAt": "2026-11-05T23:14:15Z"
     },
     {
-      "id": "vid-jaychoi-pickle-agent-ko",
-      "youtubeId": "Gbj_dWfvprM",
-      "category": "usecase",
-      "title": "피클 핵심 가이드: 쿠팡·KTX·정부24·전화까지 맡기는 AI 에이전트",
-      "titleEn": "Pickle Essential Guide: An AI Agent for Coupang, KTX and Gov24",
-      "descKo": "한국 팀이 만든 AI 에이전트 피클에 쇼핑·식사·교통·영화·행정·전화·예약 실행을 어디까지 맡길 수 있는지 8분에 시연하고 주의사항을 짚음.",
-      "descEn": "An 8-minute demo of how far the Korean-built AI agent Pickle can handle shopping, meals, transport, movies, government paperwork, phone calls and scheduled runs, ending with cautions.",
-      "channel": "Jay Choi | 인디해커 라이프",
-      "publishedAt": "2026-11-05T10:00:18Z",
-      "addedAt": "2026-11-05T23:14:15Z"
-    },
-    {
       "id": "vid-codefactory-orca-orchestration-ko",
       "youtubeId": "d893Vei2Ll4",
       "category": "usecase",
@@ -110,16 +134,16 @@
       "addedAt": "2026-11-05T23:14:15Z"
     },
     {
-      "id": "vid-mse-tdd-with-ai-agents",
-      "youtubeId": "a6HYpocKwXU",
-      "category": "tip",
-      "title": "AI 에이전트와 TDD: 예시 매핑·예측형 TDD로 품질 지키기",
-      "titleEn": "How to Use Test-Driven Development with AI Agents (Without Lowering Code Quality)",
-      "descKo": "Emily Bache가 codecentric의 두 아키텍트와 예시 매핑, 예측형 TDD, 서브에이전트 vs 단일 컨텍스트, 사람 개입 자율성을 다루는 17분 인터뷰(정확도 최대 80% 향상은 출연자 주장).",
-      "descEn": "A 17-minute interview where Emily Bache and two codecentric architects cover example mapping, predictive TDD, subagents versus a single context and human-in-the-loop autonomy (the up-to-80% correctness gain is the guests' claim).",
-      "channel": "Modern Software Engineering",
-      "publishedAt": "2026-11-04T19:00:17Z",
-      "addedAt": "2026-11-05T23:14:15Z"
+      "id": "vid-lifehacker-claude-code-kakao-automation-ko",
+      "youtubeId": "G8r6UIfhWt0",
+      "category": "usecase",
+      "title": "클로드 코드로 카톡 보내기 자동화: 설치부터 명령어 한 줄까지 9분",
+      "titleEn": "아직도 카톡을 손으로 보내세요? | 2027 클로드코드 카톡 자동화 왕초보 9분 완성",
+      "descKo": "Claude Code 설치, 모델 고르기, 명령어 한 줄로 카카오톡 전송을 자동화하고 응용법까지 짚는 9분 입문 시연(무료 AI 특강 안내 포함).",
+      "descEn": "A 9-minute beginner demo of installing Claude Code, choosing a model and automating KakaoTalk sending with a single command, ending with ways to extend it (includes a free AI lecture promo).",
+      "channel": "라이프해커,자청",
+      "publishedAt": "2026-11-05T09:00:02Z",
+      "addedAt": "2026-11-06T23:12:14Z"
     },
     {
       "id": "vid-chatdaeri-multi-agent-test-ko",
@@ -134,28 +158,16 @@
       "addedAt": "2026-11-05T23:14:15Z"
     },
     {
-      "id": "vid-devdongsaeng-paseo-ko",
-      "youtubeId": "gBPeholAEpg",
-      "category": "usecase",
-      "title": "Paseo로 에이전트 관리하기: 채팅 화면·모바일 연동·데몬을 고른 이유",
-      "titleEn": "Honestly, Paseo Is the Best - Here's Why",
-      "descKo": "어디서든 일을 시키고 검토 부담이 적은 도구라는 기준으로 Orca·Herdr와 Paseo를 화면 비교하고, 앱을 닫아도 데몬 유지하기와 폰 연결(릴레이·Tailscale)을 15분에 설명(협찬 아님).",
-      "descEn": "A 15-minute comparison of Orca, Herdr and Paseo against two criteria (assign work anywhere, low review load), plus keeping the daemon alive after closing the app and connecting a phone via relay or Tailscale (not sponsored).",
-      "channel": "개발동생",
-      "publishedAt": "2026-11-04T10:48:52Z",
-      "addedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "vid-mildcode-claude-md-hooks-skills-ko",
-      "youtubeId": "nf4AWqLMME0",
+      "id": "vid-pragmatic-dev-claude-code-5-basics-ko",
+      "youtubeId": "7RtfHTjK9ao",
       "category": "tip",
-      "title": "CLAUDE.md 규칙이 안 지켜지는 이유: 훅·스킬·서브에이전트로 하네스 다시 짜기",
-      "titleEn": "Why the Lead Architect of Claude Code No Longer Uses CLAUDE.md",
-      "descKo": "CLAUDE.md가 컨텍스트에 통째로 올라가는 구조와 규칙 무시 원인, 훅으로 강제·스킬로 절차 분리·서브에이전트 위임, /doctor로 규칙 정리하는 법을 11분에 설명(유료 강의 홍보 포함).",
-      "descEn": "An 11-minute explainer on why CLAUDE.md rules get ignored: enforce with hooks, move procedures to skills, delegate to subagents and prune rules with /doctor (includes a paid-course plug).",
-      "channel": "마일드코드",
-      "publishedAt": "2026-11-03T11:56:21Z",
-      "addedAt": "2026-11-03T23:14:31Z"
+      "title": "개발자 몸값을 높이는 클로드코드 기본기 5가지: 동작 원리·컨텍스트·스킬/훅 선택·검증·실무 증명",
+      "titleEn": "Claude Code Fundamentals That Raise a Developer's Market Value: 5 Things to Know",
+      "descKo": "동작 원리, 컨텍스트·CLAUDE.md 관리, 스킬·훅·플러그인 고르는 기준, 실수를 막는 강제와 검증, 실무 적용과 AI 활용 경험 증명까지 기본기 5가지를 14분에 정리(자사 강의 홍보 포함).",
+      "descEn": "A 14-minute rundown of five fundamentals: how Claude Code works, managing context and CLAUDE.md, choosing between skills, hooks and plugins, enforcement and verification that prevent mistakes, and proving AI-assisted work in practice (includes a course plug).",
+      "channel": "실용주의 개발",
+      "publishedAt": "2026-11-03T09:49:23Z",
+      "addedAt": "2026-11-07T23:24:35Z"
     },
     {
       "id": "vid-jinyongseong-claude-full-course-ko",
@@ -168,18 +180,6 @@
       "channel": "진용성",
       "publishedAt": "2026-11-03T06:20:01Z",
       "addedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "vid-codekkaknun-codex-1hour-master-ko",
-      "youtubeId": "zmpXdQmLeYA",
-      "category": "lecture",
-      "title": "코덱스 1시간 마스터: 설치부터 /goal·서브에이전트까지",
-      "titleEn": "코덱스 1시간 마스터 | 바이브코딩 완전 초보자용",
-      "descKo": "권한·샌드박스, Plan 모드, /review, AGENTS.md, /goal, 서브에이전트, imagegen까지 13장을 1시간 9분에 따라 하는 Codex 입문.",
-      "descEn": "A 1h09m Korean beginner course on Codex in 13 chapters: permissions and sandbox, Plan mode, /review, AGENTS.md, /goal, subagents and imagegen.",
-      "channel": "코드깎는노인",
-      "publishedAt": "2026-10-29T03:05:46Z",
-      "addedAt": "2026-10-31T23:12:20Z"
     }
   ]
 }

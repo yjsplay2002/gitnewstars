@@ -1,18 +1,96 @@
 {
-  "generatedAt": "2026-11-06T23:14:47Z",
+  "generatedAt": "2026-11-07T23:24:35Z",
   "posts": [
     {
-      "id": "curated-20261107-directorsai-token-saving-setup-ko",
-      "title": "디렉터스AI: 코덱스·클로드 코드 토큰 낭비 줄이는 3가지 — 지침 파일에 기준 남기기, 새 채팅과 인수인계서, 해결 기록은 옵시디언에 15분",
-      "body": "디렉터스AI가 14분 52초 동안 Codex·Antigravity·Claude Code로 개발하면서 같은 설명을 반복하고 이미 실패한 방법을 또 시도하게 만드는 낭비를 줄이는 세 가지를 예약 앱 예시로 보여 줍니다. 매번 말하던 개발 기준을 전역·프로젝트 지침 파일(마스터 프롬프트)에 남기고(1:06), 작업이 바뀌면 새 채팅으로 나누되 현재 목표·변경 파일·확정한 결정·실패한 시도와 이유·테스트 결과·다음 행동을 적은 인수인계서로 이어 가며(3:03~5:53), 해결한 문제를 기록해 옵시디언으로 장기 기억처럼 다시 찾아 씁니다(8:58~11:54). 설명란에 복사용 인수인계 프롬프트와 자료 페이지가 있고, 운영자의 유료 제품·전자책 안내도 함께 들어 있으니 감안하세요.",
-      "titleEn": "Directors AI: three ways to stop wasting tokens in Codex and Claude Code - keep standards in an instruction file, split chats with a handoff note, and log solved problems in Obsidian (15 minutes)",
-      "bodyEn": "In 14m52s the Korean channel Directors AI (디렉터스AI) uses a booking-app example to show three ways to stop repeating yourself to Codex, Antigravity and Claude Code and stop letting them retry methods that already failed. Put the development standards you keep restating into global and project instruction files (a 'master prompt') (1:06); when the task changes, start a new chat and carry over only a handoff note listing the current goal, changed files, decisions made, failed attempts and why, test results and the next action (3:03-5:53); and record solved problems so they can be found again, with Obsidian acting as long-term memory (8:58-11:54). The description has a copyable handoff prompt and a resource page, and also plugs the creator's paid product and ebook.",
-      "sourceName": "YouTube · 디렉터스AI",
-      "sourceUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
+      "id": "curated-20261108-hn-apiiro-claude-code-dont-ask-again-secrets",
+      "title": "Apiiro: Claude Code '다시 묻지 않기'가 비밀번호를 GitHub에 흘린다 — settings.local.json 공개 파일 1,122개, .gitignore 추가와 secret scanning부터",
+      "body": "Apiiro가 공개 GitHub에서 커밋된 .claude/settings.local.json·settings.json을 찾아 보니 자격 증명이 든 파일이 1,122개였다는 글입니다(HN 11월 7일, 61점). 명령을 승인하며 '다시 묻지 않기'를 고르면 허용 규칙이 파일에 저장되는데, 명령에 비밀번호나 키가 그대로 들어 있으면 함께 기록되고, 실제 비밀이 든 1,105개 저장소 중 539곳에서는 Claude 공동 작성 커밋이 이 파일을 바꿨다고 합니다. 스레드의 대응책은 저장소 .gitignore에 .claude/settings.local.json 추가, GitHub secret scanning 켜기, Bash(python:*)·Bash(node:*) 같은 넓은 허용 규칙 피하기, 비밀번호 관리자 CLI로 자격 증명 가져오기입니다. Claude Code 팀은 settings.local.json은 Claude가 만들 때 자동으로 gitignore되므로 수동 생성·커밋된 파일일 것이라고 답했고 사용자 책임이라는 반론도 많으니, 점검표로만 받아들이세요.",
+      "titleEn": "Apiiro: Claude Code's 'Don't ask again' leaks passwords to GitHub - 1,122 public settings.local.json files; start with a .gitignore entry and secret scanning",
+      "bodyEn": "Apiiro searched public GitHub for committed .claude/settings.local.json and settings.json files and found 1,122 containing credentials (HN, November 7, 61 points). Choosing 'Don't ask again' when approving a command saves an allow rule to the file, and if the command contains a password or key inline it is saved too; in 539 of the 1,105 repositories holding real secrets, a Claude co-authored commit had changed the file. The thread's mitigations are adding .claude/settings.local.json to the repo's .gitignore, turning on GitHub secret scanning, avoiding broad allow rules such as Bash(python:*) and Bash(node:*), and fetching credentials through a password-manager CLI. The Claude Code team replied that settings.local.json is auto-gitignored when Claude creates it, so these were likely created or committed manually, and many commenters say this is user error, so treat it as a checklist rather than a verdict.",
+      "sourceName": "Hacker News · Apiiro",
+      "sourceUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-07T20:45:32Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "curated-20261108-dalbee-claude-code-29-usecases-ko",
+      "title": "달비의 작업실: 클로드 코드 잘 쓰는 사람들은 뭘 만들었을까 — 집 TV 광고 끄기·구독료 줄이기·하루 만에 서비스 만들기 등 실제 사례 29개 17분",
+      "body": "달비의 작업실이 17분 38초 동안 X에 공개된 Claude Code 활용 사례 29개를 집 물건·가족·돈·몰래 감시·내 일·과학·만들기 7개 묶음으로 정리합니다. 집 TV 광고를 없애는 법(0:31), 9살 아이의 웹사이트 만들기(4:20), 구독료 줄이기(5:47), 차·호텔의 몰래 감시 찾기(8:39), 업무 활용(10:13), 과학 연구(12:59), 서비스를 하루 만에 만들기(14:03)가 챕터로 나뉩니다. 설명란에 사례마다 원본 X 게시글 링크가 달려 있어 따라 해 볼 만한 것만 골라 원문을 확인할 수 있고, 운영자의 카톡방 안내도 함께 들어 있습니다.",
+      "titleEn": "Dalbee's Workshop: what do people who are good at Claude Code actually build - 29 real cases from killing TV ads at home and cutting subscriptions to shipping a service in a day (17 minutes)",
+      "bodyEn": "In 17m38s the Korean channel Dalbee's Workshop (달비의 작업실) sorts 29 Claude Code use cases shared on X into seven groups: home gear, family, money, hidden surveillance, my work, science and building things. Chapters cover removing TV ads at home (0:31), a 9-year-old building a website (4:20), cutting subscription costs (5:47), finding hidden surveillance in a car or hotel (8:39), using it for your own work (10:13), science research (12:59) and building a service in a day (14:03). The description links the original X post for every case so you can pick the ones worth copying and read the source, and it also plugs the creator's chat community.",
+      "sourceName": "YouTube · 달비의 작업실",
+      "sourceUrl": "https://www.youtube.com/watch?v=1pp0uNCjvdk",
       "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
-      "createdAt": "2026-11-06T12:00:31Z",
-      "curatedAt": "2026-11-06T23:12:14Z"
+      "mediaUrl": "https://www.youtube.com/watch?v=1pp0uNCjvdk",
+      "createdAt": "2026-11-07T09:00:33Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "curated-20261108-sysmaker-vibecoding-free-lecture-5-8-ko",
+      "title": "AI 시스메이커: 바이브코딩 왕초보 무료강의 5~8강 — 지침·스킬·서브에이전트 비교, MCP·커넥터·플러그인·API 구분, 깃으로 되돌리기, 라이선스 40분",
+      "body": "AI 시스메이커가 39분 29초 동안 클로드를 몇 번 써 본 초보자를 위한 무료강의 5~8강을 한 편으로 묶었습니다. 5강은 매번 설명하지 않게 만드는 세 가지, 즉 지침(책상 위 메모, 2:04)·스킬(서랍 속 매뉴얼, 3:34)·서브에이전트(심부름 가는 직원, 4:43)를 한 장으로 비교하고, 6강은 MCP·커넥터·플러그인·API를 한 표로 가르며 API 키 보관법을 짚습니다(10:48~16:22). 7강은 커밋·브랜치·PR을 말로 쓰고 망가져도 어제로 되돌리는 법(19:30~), 8강은 대표 오픈소스 라이선스 네 가지와 '코드 라이선스는 모델 라이선스와 다르다'는 점을 다룹니다(32:30~36:10). 강마다 무료 자료(첫 스킬 「주간 보고 정리」 등)가 있고, 앱 화면·요금제·라이선스 조건은 2026년 10~11월 기준이라 바뀔 수 있다는 안내가 붙어 있습니다.",
+      "titleEn": "AI Sysmaker: free vibe-coding beginner course, lessons 5-8 - instructions vs skills vs subagents, MCP vs connectors vs plugins vs API, undoing mistakes with git, and licenses (40 minutes)",
+      "bodyEn": "In 39m29s the Korean channel AI Sysmaker (AI 시스메이커) bundles lessons 5-8 of its free beginner course for people who have tried Claude a few times. Lesson 5 compares the three ways to stop re-explaining yourself on one page: instructions (a memo on your desk, 2:04), skills (a manual in a drawer, 3:34) and subagents (a staffer sent on an errand, 4:43). Lesson 6 separates MCP, connectors, plugins and the API in one table and covers keeping API keys safe (10:48-16:22); lesson 7 puts commits, branches and PRs into plain words and shows how to roll back to yesterday (19:30-); and lesson 8 covers four common open-source licenses and why a code license is not a model license (32:30-36:10). Each lesson has a free handout (such as a first skill, 'weekly report summary'), and the video notes that app screens, pricing and license terms are as of October-November 2026 and may change.",
+      "sourceName": "YouTube · AI 시스메이커",
+      "sourceUrl": "https://www.youtube.com/watch?v=yPmTPWstN50",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=yPmTPWstN50",
+      "createdAt": "2026-11-07T09:00:19Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "curated-20261108-geeknews-doordash-search-gateway-ko",
+      "title": "DoorDash: LLM 내장 웹 검색을 떼어 내 검색 비용 98% 절감 — 공유 검색 게이트웨이(MCP 호환), 공급자 교체, 2단계 캐시로 적중률 6.2%→99.4%",
+      "body": "DoorDash 기술 블로그 글(GeekNews 11월 7일)은 검색 의도 분류 시스템에서 모델 내장 웹 검색을 쓰는 대신 에이전트·모델과 검색 공급자 사이에 공유 검색 게이트웨이(DSG)를 둔 사례입니다. Serper·BrightData·Firecrawl·Exa·Tavily를 YAML 어댑터로 바꿔 끼우고 시간 초과 시 다음 공급자로 넘기며, 정확 일치와 임베딩 유사도 2단계 캐시로 적중률을 6.2%에서 99.4%로, 평균 지연을 68% 줄였습니다. 일반 소매 7,988건에서 정확도는 DSG+Serper 93.90%, 내장 검색 93.40%였고 검색 비용은 1,000건당 0.70달러 미만으로 98% 이상 줄었습니다(모델 추론 비용 제외). 다만 최신성이 중요한 FreshQA에서는 5개 모델 모두 내장 검색이 앞섰고 검색 공급자에 대한 의존이 생긴다는 한계도 밝힙니다.",
+      "titleEn": "DoorDash: pulling LLM built-in web search out into a gateway cut search cost by 98% - a shared MCP-compatible search gateway, swappable providers and a two-tier cache (hit rate 6.2% to 99.4%)",
+      "bodyEn": "A DoorDash engineering post (shared on GeekNews on November 7) describes putting a shared search gateway (DSG) between agents or models and the search providers in its query-intent system, instead of using each model's built-in web search. Serper, BrightData, Firecrawl, Exa and Tavily plug in through YAML adapters with fallback to the next provider on timeout, and a two-tier cache (exact match, then embedding similarity) raised the hit rate from 6.2% to 99.4% and cut average latency by 68%. On 7,988 general retail queries accuracy was 93.90% for DSG+Serper against 93.40% for built-in search, and search cost fell by more than 98% to under $0.70 per 1,000 queries (model inference excluded). It also reports limits: built-in search won for all five models on the freshness-focused FreshQA, and you take on a dependency on third-party search providers.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36733",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-07T00:00:00Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "curated-20261108-vibemafia-pm-theory-harness-live-ko",
+      "title": "바이브마피아: 바이브코더를 위한 PM 이론 + 하네스 구축 — AI가 작업 시간·토큰을 30·50·80% 세 가지로 예측하고 실측으로 고치는 구조, 2시간 42분 라이브",
+      "body": "바이브마피아가 2시간 41분 56초 라이브에서 Scott Berkun의 『The Art of Project Management』로 PM 이론을 정리하고 실제 앱 프로젝트에 적용합니다. 비전 문서를 가장 먼저 쓰고(54:51), 목표를 비즈니스·팀·개인 세 계층으로 나누며(57:07), 좋은 스펙을 쓰는 법과 AI에게 지시하는 법(1:10:05~1:12:03)을 거쳐 CLAUDE.md를 AGENTS.md로 줄이는 루트 지침 다이어트(1:23:07)와 여러 세션이 동시에 일할 때 충돌 막기(1:36:05)를 보여 줍니다. 후반부에는 요구사항→예측→수행→실측 구조로 30·50·80% 세 가지 예측을 내게 하는 작업 예측 하네스를 라이브로 만들고(1:45:12), 예측보다 빨리 끝난 결과(2:17:22)와 예측·실측 장부로 스스로 고치는 엔진(2:26:45)을 확인합니다. 앞쪽 약 17분은 대기 시간이고 설명란에 유료 강의·멤버십 안내가 있으니 챕터로 건너뛰며 보세요.",
+      "titleEn": "Vibe Mafia: PM theory plus building a harness for vibe coders - AI predicts task time and tokens at 30/50/80% and corrects itself from measured results (2h42m live)",
+      "bodyEn": "In a 2h41m56s live stream the Korean channel Vibe Mafia (바이브마피아) summarizes PM theory from Scott Berkun's 'The Art of Project Management' and applies it to a real app project. It writes the vision document first (54:51), splits goals into business, team and personal layers (57:07), covers writing a good spec and instructing the AI (1:10:05-1:12:03), then shows trimming the root instructions from CLAUDE.md to AGENTS.md (1:23:07) and avoiding conflicts when several sessions work at once (1:36:05). The second half builds, live, a task-prediction harness with a requirements, prediction, execution, measurement loop that gives three estimates at 30%, 50% and 80% (1:45:12), then checks that the task finished faster than predicted (2:17:22) and explains the engine that fixes itself from a prediction-versus-actual ledger (2:26:45). The first ~17 minutes are waiting time and the description promotes paid courses and a membership, so jump by chapter.",
+      "sourceName": "YouTube · 바이브마피아",
+      "sourceUrl": "https://www.youtube.com/watch?v=lIZvLVESRoE",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=lIZvLVESRoE",
+      "createdAt": "2026-11-06T02:00:03Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "curated-20261108-geeknews-google-agent-distraction-todo-ko",
+      "title": "Google: 코드에 남은 낡은 TODO가 코딩 에이전트를 샛길로 빠뜨린다 — 우회 세션은 스텝 70%·토큰 77%·대기 105% 증가, 죽은 TODO 정리 에이전트 승인율 95%",
+      "body": "Google 개발자 블로그 「Agent Distraction」(11월 6일, GeekNews 소개)은 사내 코딩 에이전트의 실행 기록을 분석합니다. 파일을 읽은 세션의 약 13%가 TODO(bug/...)·FIXME(bug/...) 주석을 만났고, 그중 6%에서만 에이전트가 해당 버그를 따라갔지만 그 행동의 83%는 사용자가 시키지 않은 것이었으며 시키지 않은 우회의 약 41%는 이미 닫힌 버그를 향했습니다. 이런 우회가 생긴 세션은 다른 요인을 통제해도 스텝 70%·토큰 77%·대기 시간 105%가 늘었습니다. 대응으로 버그 상태와 TODO를 대조해 낡은 참조를 지우는 정리 에이전트를 6개월 운영해 수천 건을 제거했고 사람 리뷰어 승인율이 95%를 넘었으니, 삭제 전에 버그·파일 이력을 확인하고 변경은 리뷰로 올리라는 권고입니다.",
+      "titleEn": "Google: stale TODOs left in code send coding agents down side paths - detour sessions took 70% more steps, 77% more tokens and 105% more wait time, and a dead-TODO cleanup agent got 95% reviewer acceptance",
+      "bodyEn": "Google's developer blog post 'Agent Distraction' (November 6, shared on GeekNews) analyzes execution logs from its internal coding agents. About 13% of file-reading sessions met a TODO(bug/...) or FIXME(bug/...) comment; agents followed the referenced bug in only 6% of those encounters, but 83% of that action was unprompted and about 41% of the unprompted detours targeted bugs that were already closed. Sessions with such a detour took 70% more steps, 77% more tokens and 105% more wait time after controlling for other factors. In response, a cleanup agent that cross-checks bug status against TODOs and deletes stale references ran for six months, removed thousands and got over 95% human reviewer acceptance; the advice is to check bug and file history before deleting and to submit the changes for review.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36749",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-06T00:00:00Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
+    },
+    {
+      "id": "curated-20261108-geeknews-claude-code-routine-bid-notices-ko",
+      "title": "Claude Code 루틴으로 매일 공공데이터 입찰공고 자동 수집 — 아침 7시 20분 시작, 7시 30분 일일 리포트, 클라우드 실행은 두 달간 누락 없음",
+      "body": "위키독스 글(GeekNews 11월 5일 소개)은 Claude Code의 '루틴' 기능으로 공공데이터포털의 입찰공고를 매일 무인으로 모으는 구성을 소개합니다. 작성자 댓글에 따르면 아침 7시 20분에 시작해 7시 30분까지 밤사이 갱신된 공고를 요약한 일일 리포트를 내놓고 트렌드 기사 분석도 함께 하며, 관련 공고의 첨부파일 내려받기와 분석은 GitHub Actions로 이어 갑니다. 클라우드 실행은 약 두 달간 일정을 놓친 적이 없었다는 반면, 한 댓글은 로컬 루틴은 밤사이 컴퓨터가 재시작되면 조용히 멈출 수 있어 아침 확인 단계를 둔다고 합니다. 나라장터 API가 물품·용역·공사·외자로 나뉘어 있어 CLAUDE.md에 '입찰공고 조회'처럼 모호하게 쓰면 한 분류만 확인할 수 있다는 지적도 있으니 분류를 구체적으로 적으세요. 글에 프롬프트나 코드는 없고 작성자도 설계를 단순화해 설명했다고 밝힙니다.",
+      "titleEn": "Collecting public procurement bid notices every day with Claude Code Routines - starts 7:20am, daily report by 7:30am, cloud runs have not missed a schedule in two months",
+      "bodyEn": "A WikiDocs post (shared on GeekNews on November 5) describes using Claude Code's Routine feature to collect bid notices from Korea's Public Data Portal every day, unattended. According to the author's comment it starts at 7:20am and finishes by 7:30am with a daily report summarizing notices updated overnight plus analysis of trend articles, and relevant notices are passed on to GitHub Actions to download and analyze attachments. Cloud runs have not missed a schedule in about two months, while one commenter notes a local routine can silently stall if the computer restarts overnight and so adds a morning check; another points out that the procurement API is split into goods, services, construction and foreign procurement, so a vague 'bid notice lookup' in CLAUDE.md may check only one category - name the categories explicitly. The post contains no prompts or code, and the author says the design is simplified for explanation.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36633",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-05T00:00:00Z",
+      "curatedAt": "2026-11-07T23:24:35Z"
     },
     {
       "id": "curated-20261107-hn-hightouch-cheap-judge-opus-hybrid",
@@ -25,6 +103,19 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-11-06T19:48:51Z",
+      "curatedAt": "2026-11-06T23:12:14Z"
+    },
+    {
+      "id": "curated-20261107-directorsai-token-saving-setup-ko",
+      "title": "디렉터스AI: 코덱스·클로드 코드 토큰 낭비 줄이는 3가지 — 지침 파일에 기준 남기기, 새 채팅과 인수인계서, 해결 기록은 옵시디언에 15분",
+      "body": "디렉터스AI가 14분 52초 동안 Codex·Antigravity·Claude Code로 개발하면서 같은 설명을 반복하고 이미 실패한 방법을 또 시도하게 만드는 낭비를 줄이는 세 가지를 예약 앱 예시로 보여 줍니다. 매번 말하던 개발 기준을 전역·프로젝트 지침 파일(마스터 프롬프트)에 남기고(1:06), 작업이 바뀌면 새 채팅으로 나누되 현재 목표·변경 파일·확정한 결정·실패한 시도와 이유·테스트 결과·다음 행동을 적은 인수인계서로 이어 가며(3:03~5:53), 해결한 문제를 기록해 옵시디언으로 장기 기억처럼 다시 찾아 씁니다(8:58~11:54). 설명란에 복사용 인수인계 프롬프트와 자료 페이지가 있고, 운영자의 유료 제품·전자책 안내도 함께 들어 있으니 감안하세요.",
+      "titleEn": "Directors AI: three ways to stop wasting tokens in Codex and Claude Code - keep standards in an instruction file, split chats with a handoff note, and log solved problems in Obsidian (15 minutes)",
+      "bodyEn": "In 14m52s the Korean channel Directors AI (디렉터스AI) uses a booking-app example to show three ways to stop repeating yourself to Codex, Antigravity and Claude Code and stop letting them retry methods that already failed. Put the development standards you keep restating into global and project instruction files (a 'master prompt') (1:06); when the task changes, start a new chat and carry over only a handoff note listing the current goal, changed files, decisions made, failed attempts and why, test results and the next action (3:03-5:53); and record solved problems so they can be found again, with Obsidian acting as long-term memory (8:58-11:54). The description has a copyable handoff prompt and a resource page, and also plugs the creator's paid product and ebook.",
+      "sourceName": "YouTube · 디렉터스AI",
+      "sourceUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
+      "createdAt": "2026-11-06T12:00:31Z",
       "curatedAt": "2026-11-06T23:12:14Z"
     },
     {
@@ -119,19 +210,6 @@
       "curatedAt": "2026-11-05T23:14:15Z"
     },
     {
-      "id": "curated-20261106-geeknews-addy-critical-thinking-agents-ko",
-      "title": "Addy Osmani: 에이전트가 일할 때의 비판적 사고 — 위임과 항복의 차이, 질문 전에 가설 세우기, 검증 완료 기준은 미리 정의",
-      "body": "Addy Osmani의 글(GeekNews 요약 기준)은 에이전트의 답이 빠르고 매끄럽고 대체로 맞을수록 사람이 다시 살필 계기가 줄어든다고 짚습니다. 작업을 맡기고도 주도권을 유지하는 '인지적 위임'과 확인 없이 AI 출력을 내 생각으로 받아들이는 '인지적 항복'을 구분하고, 에이전트의 도움으로도 결과를 설명하지 못하면 주도권을 넘긴 상태라고 봅니다. 바로 쓸 점검표로는 사소하지 않은 작업을 맡기기 전에 예상 답을 먼저 적기, '이 답이 틀리려면 무엇이 참이어야 하나'를 실제 테스트로 확인하기, 여러 모델에게 반대 논리 요청하기, 에이전트에 검증 수단(종단 간·속성 기반 테스트, 실제 앱 조작)을 주고 검증 완료 기준을 사전에 정의하기가 있습니다. 통과 표시 하나는 한 가지 속성만 입증하므로 무엇을 입증했고 무엇을 확인하지 않았는지 물어야 한다고 강조합니다.",
-      "titleEn": "Addy Osmani: critical thinking while agents do the work - delegation versus surrender, form a hypothesis before you ask, and define 'verified' up front",
-      "bodyEn": "Addy Osmani's piece (as summarized on GeekNews) notes that the faster, smoother and more often correct an agent's answer is, the fewer reasons a person has to look again. He separates 'cognitive offloading', handing off work while keeping ownership of the result, from 'cognitive surrender', adopting AI output as your own thinking without checking, and says that if you cannot explain a result even with the agent's help you have handed over control. His checklist: write down an expected answer before delegating non-trivial work, test 'what would have to be true for this answer to be wrong' with a real test, ask several models for the opposing argument, give the agent verification tools (end-to-end and property-based tests, real app interaction) and define what 'verified' means in advance. A single green check proves only one property, so ask what was proven and what was not checked.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36547",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-03T22:04:49Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
-    },
-    {
       "id": "curated-20261104-mildcode-claude-md-hooks-skills-ko",
       "title": "마일드코드: 규칙을 CLAUDE.md에 적어도 안 지키는 이유 — 지킬 규칙은 훅, 절차는 스킬, 결과만 받을 일은 서브에이전트로 나누는 11분",
       "body": "마일드코드가 11분 2초 동안 Anthropic Claude Code 팀 엔지니어 Daisy Hollman의 NDC Copenhagen 2026 강연과 Code w/ Claude 2026 런던 워크숍을 근거로, 적어 둔 규칙을 클로드 코드가 안 지키는 이유를 풉니다. CLAUDE.md는 대화마다 컨텍스트 윈도우에 전부 올라가고 강제가 아니라 참고를 부탁하는 문서라서(0:36, 2:25), 꼭 지킬 규칙은 훅으로 비밀 키 노출과 복구할 수 없는 삭제를 실행 직전에 막고(3:48) 길어진 절차는 스킬로 빼며(4:45) 결과만 필요한 일은 서브에이전트에 맡기고(5:30) CLAUDE.md에는 모든 작업에 공통인 몇 줄만 남기라고 합니다(6:59). /doctor로 지울 후보를 받는 방법(7:27)도 보여 주는데, 영상 설명란에 크리에이터의 유료 강의 홍보가 들어 있으니 감안하고 보세요.",
@@ -158,19 +236,6 @@
       "curatedAt": "2026-11-03T23:14:03Z"
     },
     {
-      "id": "curated-20261104-dante-felix-ambition-claude-code-ko",
-      "title": "단테: Claude Code로 더 야심 차게 — 할 일에 목표 한 줄 붙이기, 깊이 프롬프트와 Codex 바깥 심판, 동사로 설명하고 분야별 서브에이전트 18분",
-      "body": "단테가 18분 40초 동안 Claude.ai·Cowork·Claude Code Desktop 개발을 이끈 Felix Rieseberg의 글 「How to be more ambitious」의 방법 세 가지를 사려는 가구를 우리 집에 미리 놓아 보는 오픈소스 3D 편집기 ComfySims에 하나씩 적용합니다. 고도는 할 일에 목표 한 줄을 붙이는 것으로(3:26) 같은 요약 패널이 '사기 전에 정할 것'을 알려 주는 패널로 바뀌고, 깊이는 깊이 프롬프트로 부탁을 다시 쓰게 해 새 세션에서 끝까지 만든 뒤(8:36) Codex CLI를 바깥 심판으로 붙여 지적 7개를 하나씩 재현하고 고칩니다(11:39). 범위는 프로젝트를 명사 말고 동사로 설명하고 분야마다 서브에이전트가 차례로 보고 고치게 하는 방식(13:50)이며, 영상 속 프롬프트 원문은 GitHub의 PROMPTS.md(dante01yoon/claude-ambition-practice)에서 받을 수 있습니다.",
-      "titleEn": "Dante: being more ambitious with Claude Code - add a goal line to a to-do, a depth prompt with Codex as outside judge, and verb-based scope with per-area subagents in 18 minutes",
-      "bodyEn": "In 18m40s Dante applies, one at a time, the three methods from Felix Rieseberg's article 'How to be more ambitious' (Rieseberg led development of Claude.ai, Cowork and Claude Code Desktop at Anthropic) to ComfySims, an open-source 3D editor for trying out furniture in your home before you buy it. Altitude: adding one goal line to a to-do (3:26) turns the same summary panel into one that tells you what to decide before buying. Depth: a depth prompt rewrites the request and a fresh session builds it through (8:36), then Codex CLI acts as an outside judge whose seven findings are reproduced and fixed one by one (11:39). Scope: describe the project with verbs instead of nouns and let a subagent per area review and fix in turn (13:50); the prompts used are in PROMPTS.md in the dante01yoon/claude-ambition-practice repo on GitHub.",
-      "sourceName": "YouTube · 단테",
-      "sourceUrl": "https://www.youtube.com/watch?v=p7M6BrwGWq8",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=p7M6BrwGWq8",
-      "createdAt": "2026-11-03T11:00:36Z",
-      "curatedAt": "2026-11-03T23:14:03Z"
-    },
-    {
       "id": "curated-20261104-devdongsaeng-manager-agent-ko",
       "title": "개발동생: 에이전트 관리는 매니저 에이전트가 표준이 된다 — 결정 대기 13개 중 내가 볼 건 6개, 매니저·코디네이터·코딩 에이전트 3단 구조와 승인 카드 23분",
       "body": "개발동생이 22분 55초 동안 Claude Code·Codex·Cursor 세션을 여러 개 돌리면 병목이 사람이 되는 문제를, 사람과 코딩 에이전트 사이에 매니저 에이전트를 두는 구조로 풉니다. 본인 실측으로 결정을 기다리던 세션 13개 중 직접 판단할 것은 6개뿐이었고(1:43), 구조는 매니저(그록봇)·코디네이터(Cursor Projects, Claude Code Projects)·코딩 에이전트 3단이며 위 두 층은 코딩하지 않고 일을 나눠 주고 결과만 확인합니다(4:39~6:51). 무엇을 물어보게 할지 정하는 승인 카드와 신뢰 역피라미드(16:31~), pstack의 /correct로 실수를 검사로 바꿔 16분 뒤 다른 세션의 같은 실수를 CI가 잡은 사례(19:02~20:16)도 다룹니다. 관제실 역할을 하는 매니저를 비밀번호 없이 인터넷에 열어 둔 자기 실수를 짚으며 Tailscale 같은 사설망 안에서만 쓰라고 당부합니다(20:38).",
@@ -184,58 +249,6 @@
       "curatedAt": "2026-11-03T23:14:03Z"
     },
     {
-      "id": "curated-20261104-geeknews-caddie-agent-principles-ko",
-      "title": "에이전트와 함께 개발하기 위한 실용 원칙 — 병목은 사람의 주의력, 고객 페르소나 20~30개로 감사, 자가 치유 PR만 자동 병합, 스킬은 작업 종류마다 하나",
-      "body": "Caddie 팀이 쓴 글(GeekNews 11월 3일)로, 에이전트가 코드를 거의 다 쓰면 병목이 코딩이 아니라 작업 선택·검증·좋은 결과 가르치기에 쓰는 사람의 주의력으로 옮겨 간다고 봅니다. 문제 보고부터 고객이 만족할 때까지를 5분으로 잡는 'time to happy'를 지표로 삼고, 기능 점검표 대신 20~30개 페르소나 라이브러리(느린 폰, 3G, 스크린 리더 등)에서 고른 4~5명이 8~12단계를 밟는 과정을 에이전트가 코드로 추적하게 하며, 성능·반복 오류·DB 정리 같은 자가 치유 PR은 검증 뒤 자동 병합하고 기능 PR은 사람이 리뷰합니다. 스킬에는 참고 예시·건너뛸 수 없는 순서·이유·날짜별 학습 로그를 담아 작업 종류마다 하나씩 두고, 매주 에이전트 실행 트레이스를 검토해 규칙으로 바꾸라고 권합니다. 받아쓰기 실험은 개인 음성 클립 8개로 단어 오류율을 13.3%에서 7.0%로 낮췄지만 표본이 매우 작고, 글이 자사 제품 소개를 겸한다는 점은 감안해야 합니다.",
-      "titleEn": "Practical principles for developing with agents - the bottleneck is human attention, audits with 20-30 customer personas, only self-healing PRs auto-merge, one skill per task type",
-      "bodyEn": "Caddie's team argues (shared on GeekNews on November 3) that once agents write most of the code, the bottleneck moves from coding to the human attention spent choosing tasks, verifying results and teaching what good looks like. They track 'time to happy' - from a problem report until the customer is satisfied, targeting 5 minutes - and replace feature checklists with 4-5 personas per feature picked from a library of 20-30 (a slow phone, a 3G connection, a screen-reader user), each traced through 8-12 steps in the code; self-healing PRs (performance, repeated errors, DB cleanup) auto-merge after verification while feature PRs get human review. Skills hold reference examples, ordered steps that cannot be skipped, the reasons and a dated learning log, one skill per task type, and they recommend reviewing agent traces weekly and turning patterns into rules. A dictation experiment cut word error rate from 13.3% to 7.0% but on only 8 personal clips, and the post doubles as a pitch for their own product.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36502",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-03T00:00:00Z",
-      "curatedAt": "2026-11-03T23:14:03Z"
-    },
-    {
-      "id": "curated-20261106-brunch-napkin-to-instrument-agentic-coding-ko",
-      "title": "냅킨에서 악기까지: 손으로 코드 한 줄 없이 웹 전자악기 만들기 — 규칙 파일 먼저, 논문 그라운딩과 역인터뷰, 귀로 검증하는 4단계",
-      "body": "스탠퍼드 CCRMA Music 220A 특강을 위해 쓴 글(GeekNews 11월 3일 소개)로, 종이 냅킨 스케치와 빈티지 악기 사진 한 장에서 시작해 스마트폰에서 소리 나는 웹 전자악기를 '직접 코딩하지 않기' 규칙으로 배포합니다. 4단계는 빈 폴더에 코드를 채우기 전에 구획과 프로젝트 규칙 파일부터 세우는 작업대 정리, 악기 음색을 분석한 논문을 주고 역질문으로 모호한 디자인 결정을 빠르게 내리는 그라운딩, 화려한 Rust WASM 대신 가벼운 웹 표준 조합을 고르는 현실적 기술 선택, 귀로 직접 들으며 조율하는 검증 루프입니다. 에이전트가 시키지도 않은 파일을 잔뜩 만들자 '요청받은 것만 한다'를 규칙 파일에 적어 재발을 막은 일화처럼 바로 따라 할 습관이 담겨 있고, 작은 웹 악기가 큰 서비스에도 통하는지는 이 글이 답하려는 질문이 아니라고 글쓴이가 선을 긋습니다.",
-      "titleEn": "From napkin to instrument: building a web synth without hand-writing a line of code - rules file first, paper grounding and reverse interview, and an ear-checked loop in four steps",
-      "bodyEn": "Written for a guest lecture in Stanford CCRMA's Music 220A (shared on GeekNews on November 3), the post starts from a paper-napkin sketch and one photo of a vintage synth and ships a web instrument that sounds good on a phone under a 'no hand-written code' rule. The four steps: scaffolding - set up the folder structure and a project rules file before filling anything with code; grounding - give the agent a paper analysing the instrument's timbre and let its reverse questions settle vague design decisions quickly; a realistic tech choice - plain web standards instead of a flashier Rust WASM stack; and a loop verified by ear. When the agent filled the project with files nobody asked for, the author wrote 'do only what was asked' into the rules file to stop it recurring - a habit you can copy - and he states plainly that whether this holds for large services is not the question the post tries to answer.",
-      "sourceName": "Brunch · @hongchanchoi",
-      "sourceUrl": "https://brunch.co.kr/@hongchanchoi/19",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-02T14:00:35Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "curated-20261104-geeknews-openqodex-review-verifier-ko",
-      "title": "OpenQodex: 코딩 에이전트의 변경을 한 세션이 찾고 다른 세션이 검증하는 코드 리뷰 도구 — 내장 스캐너 22개, Claude Code·Codex가 리뷰어, Apache-2.0",
-      "body": "GeekNews(11월 2일)에 소개된 OpenQodex는 푸시하지 않은 커밋과 커밋하지 않은 변경 전체를 기본 범위로, 기존 로그인 계정으로 Claude Code나 Codex 프로세스를 리뷰어로 띄우는 도구입니다. 문제를 찾는 세션과 검증 세션을 나눠, 검증 쪽이 호출부를 살피고 정적 분석 결과를 확인하거나 반박하며 인용한 코드가 실제로 있는지, 변경 구간이 리뷰에 빠짐없이 전달됐는지까지 검사합니다. 비밀키·보안·의존성·린트·CI·SQL 등 내장 스캐너 22개, CLI와 MCP로 제공되는 코드 그래프(호출 관계·관련 테스트·영향 범위), 코드 diff가 있는 HTML과 Markdown·JSON·SARIF 출력, 푸시 전 심각도별 차단을 지원하고 macOS와 Linux 기준입니다. 댓글에서는 검증 세션이 테스트를 직접 돌리는지 README에 설명이 없다는 점과, 리뷰어와 수정 라운드마다 전체 테스트를 돌려 에이전트 시간 대부분이 테스트에 쓰인다는 경험담이 나옵니다.",
-      "titleEn": "OpenQodex: a code review tool where one session finds issues in your coding agent's changes and another verifies them - 22 built-in scanners, Claude Code or Codex as reviewer, Apache-2.0",
-      "bodyEn": "OpenQodex, shared on GeekNews on November 2, reviews your unpushed commits and uncommitted changes by default, launching a Claude Code or Codex process as the reviewer through your existing login. The finding session and the verification session are separate: the verifier looks at the changed code and its call sites, confirms or rebuts static-analysis results, and checks that quoted code actually exists and that every changed hunk reached the review. It ships 22 built-in scanners (secrets, security, dependencies, lint, CI, SQL and more), a code graph over CLI and MCP (call relations, related tests, impact), HTML/Markdown/JSON/SARIF output with a severity-based pre-push gate, and targets macOS and Linux. A commenter notes the README does not say whether the verifier runs tests, and that reviewer and fix rounds each running the full suite made tests most of the agent's time.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36426",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-02T00:00:00Z",
-      "curatedAt": "2026-11-03T23:14:03Z"
-    },
-    {
-      "id": "curated-20261102-johnkim-anthropic-code-review-layers",
-      "title": "John Kim: Anthropic은 AI가 쓴 코드를 이렇게 리뷰한다 — 7단계 검토 층, 사고 기록을 AI 리뷰어의 매일 평가셋으로, 위험도별 사람 승인 39분",
-      "body": "John Kim이 39분 6초 동안 Claude Code 팀의 코드 리뷰 글(Addy Osmani 등 공저, 10월 15일)을 섹션별로 읽으며 자기 리뷰 방식과 견줍니다. 글에 따르면 6~9월 Claude Code에 병합된 PR은 2배 넘게 늘었고 되돌린 비율은 40% 넘게 줄었는데, 리뷰를 없앤 게 아니라 읽는 일을 기계에 맡기고 사람의 주의는 사람만 정할 수 있는 결정에 남겼다는 설명입니다. 영상은 PR 전 검증, 모든 PR의 AI 리뷰, 차단형 보안 리뷰, CI, 위험도별 사람 승인(낮음 0명·중간 1명·높음 2명), 머지 큐와 플래그, 빠른 롤백까지 7개 층(10:45~)을 훑고 과거 사고와 리버트를 AI 리뷰어의 매일 평가셋으로 쓰는 법(25:38)과 'you land it, you own it'(33:21)을 짚습니다. 짧은 REVIEW.md와 PR 템플릿의 Testing·Risk·How to revert 칸처럼 바로 따라 할 항목은 도입 챕터(35:24)와 원문에서 볼 수 있습니다.",
-      "titleEn": "John Kim: how Anthropic reviews AI-written code - seven review layers, past incidents as a daily eval for the AI reviewer, and risk-tiered human approval in 39 minutes",
-      "bodyEn": "In 39m06s John Kim reads the Claude Code team's code review article (by Addy Osmani and colleagues, October 15) section by section and compares it with his own review workflow. According to the article, merged PRs to Claude Code more than doubled from June to September while the reverted share fell by over 40%: review was not removed, the reading was moved to machines and human attention was kept for decisions only people can make. The video walks the seven layers (from 10:45) - verification before the PR, AI review on every PR, a blocking security review, CI, risk-tiered human approval (no human for low risk once checks pass, one for medium, two for high), a merge queue with flags, and fast rollback - then covers using past incidents and reverts as a daily eval for the AI reviewer (25:38) and 'you land it, you own it' (33:21). Copyable details such as a short REVIEW.md and PR template sections for Testing, Risk and How to revert are in the adoption chapter (35:24) and the original article.",
-      "sourceName": "YouTube · John Kim",
-      "sourceUrl": "https://www.youtube.com/watch?v=4m8mq42M_3E",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=4m8mq42M_3E",
-      "createdAt": "2026-11-01T15:00:32Z",
-      "curatedAt": "2026-11-01T23:21:43Z"
-    },
-    {
       "id": "curated-20261102-yulpro-gemini-5-features-ko",
       "title": "율프로교실: 제미나이 핵심 기능 5가지 — 이미지 메뉴, '예약됨' 자동 비서, Gems+스킬, 노트북(최대 50개 소스), 딥 리서치 17분",
       "body": "율프로교실이 16분 57초 동안 제미나이를 요약·번역에만 쓰는 사람을 위해 숨은 기능 5가지를 화면과 함께 보여 줍니다. 사이드바 이미지 메뉴에서 스타일 템플릿과 비율을 골라 생성하고(1:47), '예약됨'으로 이메일 확인·브리핑 같은 루틴 업무를 정해 둔 시간에 처리시키며(3:51), Gems와 스킬로 반복 업무를 슬래시(/) 명령 기반 맞춤 챗봇으로 만들고(6:12), 노트북에 PDF·링크 등 최대 50개 소스를 넣어 오디오·슬라이드·마인드맵으로 바꾸고(9:22), 딥 리서치가 다단계 계획과 교차 검증으로 쓰는 심층 보고서를 15분 만에 받는 흐름(12:52)입니다. 제미나이를 업무 워크플로에 처음 붙이는 사람이 순서대로 따라 하기 좋은 입문 영상이며, 쓴 프롬프트는 댓글로 요청하면 알려 준다고 합니다.",
@@ -247,19 +260,6 @@
       "mediaUrl": "https://www.youtube.com/watch?v=93qxT-Hmgpc",
       "createdAt": "2026-10-31T04:08:05Z",
       "curatedAt": "2026-11-01T23:21:43Z"
-    },
-    {
-      "id": "curated-20261106-geeknews-stolovitz-how-i-use-ai-oct-2026-ko",
-      "title": "내가 AI를 쓰는 방식, 2026년 10월 — 에이전트 5~6개를 worktree마다 하나씩, 월 토큰 약 3,000달러, AI가 만든 4,000줄을 직접 쓴 수백 줄로 교체",
-      "body": "Salesforce AI Research 연구 엔지니어 Ben Stolovitz가 10월 31일 쓴 글(GeekNews 11월 4일 소개)로, 1년 전 자동완성 중심이던 작업이 지금은 Claude Code·OpenCode·Codex·Pi 에이전트 5~6개를 돌리는 일로 바뀌었다고 정리합니다. 에이전트마다 별도 Git worktree를 주고 기능 구현·버그 재현·테스트·PR 작성까지 맡기며, 신기능 시제품은 약 20분에 나오지만 월 토큰 비용은 약 3,000달러입니다. 리뷰는 줄 단위 대신 아키텍처와 반복 패턴을 보고, 반복되는 문제는 코드 리뷰 에이전트 규칙('Claude스러운 주석 감지기' 스킬 등)으로 만들며, 올해 가장 성공적이었던 작업은 AI가 만든 약 4,000줄을 직접 쓴 수백 줄로 바꾼 일이었습니다. 6개 대화를 동시에 다루는 피로도 솔직히 적었고, 요약·받아쓰기에는 로컬 모델을 쓰며, 전부 개인 경험과 의견이라는 단서가 붙습니다.",
-      "titleEn": "How I use AI, October 2026 - 5-6 agents each in its own worktree, about $3,000 a month in tokens, and ~4,000 AI-written lines replaced by a few hundred hand-written ones",
-      "bodyEn": "Ben Stolovitz, a research engineer at Salesforce AI Research, wrote this on October 31 (shared on GeekNews on November 4): a year after autocomplete was the centre of his workflow, he now manages 5-6 Claude Code, OpenCode, Codex or Pi agents. Each agent gets its own Git worktree and handles feature work, bug reproduction, tests and PRs; a new-feature prototype takes about 20 minutes and the token bill is about $3,000 a month. He reviews architecture and recurring patterns rather than line by line, turns repeated problems into code-review agent rules (such as a 'Claude-y comment detector' skill), and says his most successful work this year was replacing roughly 4,000 lines of AI-written code with a few hundred he wrote himself. He is candid about the fatigue of juggling six conversations, uses local models for summarization and transcription, and frames everything as personal experience and opinion.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36586",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-10-31T00:00:00Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
     }
   ]
 }
