@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-11-07T23:24:35Z",
+  "generatedAt": "2026-11-08T23:12:37Z",
   "posts": [
+    {
+      "id": "curated-20261109-metacode-claude-mods-free-lecture-ko",
+      "title": "메타코드M: 클로드 코드 Mods 50분 무료강의 — Skills·MCP·Hooks와 Mods의 차이, 사용량·PC 상태 표시, PRD 기반 진행 추적, 개인정보 마스킹 등 7가지 실습",
+      "body": "메타코드M(박성훈 강사)이 51분 23초 동안 Claude Code의 Mods 기능을 개념부터 7가지 실습까지 따라 하게 구성한 무료강의입니다. Skills·MCP·Hooks·Mods의 차이(11:27)를 먼저 짚은 뒤 사용량·PC 상태 표시(17:09), 강아지 진행률과 다마고치(21:12), 퇴근 카운터와 Mods 관리 패널(28:58), PRD 기반 프로젝트 진행 상황 추적(34:21), 개인정보 마스킹(39:17), 모든 세션에 Mods 적용(43:26)을 차례로 만듭니다. 설명란에서 실습자료를 내려받을 수 있고 마지막 챕터(50:15)에서 사용 시 주의사항을 다루며, 강사의 기업교육 문의 안내도 함께 들어 있습니다.",
+      "titleEn": "Metacode M: a 50-minute free Claude Code Mods course - how Mods differ from Skills, MCP and Hooks, a usage and PC status bar, PRD-based progress tracking and privacy masking in 7 exercises",
+      "bodyEn": "In 51m23s the Korean channel Metacode M (메타코드M, instructor Park Sung-hoon) takes you from the idea behind Claude Code Mods through seven hands-on exercises in a free course. It first separates Skills, MCP, Hooks and Mods (11:27), then builds a usage and PC status display (17:09), a puppy progress bar and Tamagotchi (21:12), a leave-work counter and a Mods management panel (28:58), PRD-based project progress tracking (34:21), personal-data masking (39:17) and applying Mods to every session (43:26). The description links downloadable exercise files, the last chapter (50:15) covers cautions when using Mods, and the instructor's corporate-training contact is also included.",
+      "sourceName": "YouTube · 메타코드M",
+      "sourceUrl": "https://www.youtube.com/watch?v=06FDOn1i6x8",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=06FDOn1i6x8",
+      "createdAt": "2026-11-08T11:22:44Z",
+      "curatedAt": "2026-11-08T23:12:37Z"
+    },
+    {
+      "id": "curated-20261109-5pm-thanks-token-cost-ko",
+      "title": "오후다섯씨: '고마워' 한 줄에 토큰 3만 9천 개 — 긴 대화 38,865 대 새 대화 2,843(14배), 수정 요청은 한 번에 묶어 보내기 4분",
+      "body": "오후다섯씨가 4분 3초 동안 클로드에 '고마워' 한 줄을 보냈을 때 드는 토큰을 직접 재 봅니다. 긴 대화에서는 38,865토큰, 새 대화에서는 2,843토큰으로 약 14배 차이였고, 두 번에 나눠 보내면 77,784토큰인 것이 한 번에 묶으면 38,882로, 세 번 고쳐 달라고 하면 117,829인 것이 한 번에 다 말하면 38,954로 줄었습니다. 까닭은 클로드가 대답할 때마다 앞 대화를 통째로 다시 읽기 때문이라는 설명이며, 같은 채널의 토큰 다이어트(91%→13%) 영상과 이어 보기를 권합니다. 한 사람이 잰 수치이니 비율의 감을 잡는 용도로 보세요.",
+      "titleEn": "Mr. 5pm: one 'thanks' line cost 39,000 tokens - 38,865 in a long chat vs 2,843 in a fresh one (14x), and batching your edit requests into one message (4 minutes)",
+      "bodyEn": "In 4m03s the Korean channel Mr. 5pm (오후다섯씨) measures what a single 'thanks' line costs in Claude. It was 38,865 tokens in a long conversation versus 2,843 in a new one, about 14x; sending two messages cost 77,784 tokens against 38,882 when batched into one, and asking for three separate fixes cost 117,829 against 38,954 when everything was said at once. The explanation is that Claude re-reads the whole earlier conversation every time it answers, and the video points to the channel's earlier token-diet video (91% to 13%) as a companion. It is one person's measurement, so use it to get a feel for the ratios.",
+      "sourceName": "YouTube · 오후다섯씨",
+      "sourceUrl": "https://www.youtube.com/watch?v=om3rpjpT6r4",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=om3rpjpT6r4",
+      "createdAt": "2026-11-08T10:15:14Z",
+      "curatedAt": "2026-11-08T23:12:37Z"
+    },
+    {
+      "id": "curated-20261109-geeknews-anthropic-agent-memory-dreaming-ko",
+      "title": "Anthropic: 에이전트 메모리 설계 — 세션 사이 '드리밍'으로 틀린 메모를 대화 로그와 대조해 고치고, 검색+위키 병용으로 채점 충족률 53%→61%·질문당 2만 토큰 절약",
+      "body": "Anthropic이 에이전트가 다음 세션을 위해 무엇을 기억하고 쌓인 기억을 어떻게 정리할지 Claude로 실험한 글입니다(GeekNews 11월 8일 소개). 세션 사이에 노트를 원본 대화 기록과 대조해 오류를 고치고 흩어진 노트를 위키로 묶는 '드리밍'을 쓰자, Stainless 내부 문서 약 35만 파일 평가에서 검색만 쓸 때 53%이던 채점 기준 충족률이 검색+위키로 최대 61%가 됐고 질문당 약 2만 토큰이 줄었습니다. 최신 모델에는 '요청받았거나 명백히 기억할 가치가 있을 때 노트를 만들라'는 단순한 지침이 낫고 '실패만 기록하라' 같은 고정 규칙은 이득을 크게 줄였으며, 항상 불러오는 상위 메모리(Claude Code는 MEMORY.md 첫 200줄·25KB)는 작게 유지하라고 합니다. 한 문서로 답이 나오는 과제에서는 위키의 이득이 뚜렷하지 않았고 틀린 메모도 다음 세션에 전달될 수 있어 무엇을 얼마나 자주 검증할지는 남은 설계 과제입니다.",
+      "titleEn": "Anthropic on agent memory design - 'dreaming' between sessions checks wrong notes against conversation logs, and search plus a wiki lifted rubric coverage from 53% to 61% while saving about 20K tokens per question",
+      "bodyEn": "Anthropic experimented with Claude on what an agent should remember for its next session and how to tidy accumulated memory (shared on GeekNews on November 8). Using 'dreaming' - between sessions, notes are checked against the raw conversation log to fix errors and scattered notes are linked into a wiki - an evaluation over roughly 350,000 internal Stainless files lifted rubric coverage from 53% with search alone to up to 61% with search plus the wiki, and saved about 20K tokens per question. For recent models a plain instruction to write notes when asked or when something is clearly worth remembering worked better, a fixed rule such as 'record only failures' greatly reduced the gain, and the always-loaded top tier should stay small (Claude Code loads only the first 200 lines or 25KB of MEMORY.md). The wiki showed no clear gain on tasks answerable from a single document, and wrong notes can still carry into later sessions, so how much and how often to verify remains an open design problem.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36775",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-07T20:51:20Z",
+      "curatedAt": "2026-11-08T23:12:37Z"
+    },
+    {
+      "id": "curated-20261109-techwithtim-codex-99-percent",
+      "title": "Tech With Tim: Codex 99%를 한 영상에 — 모델·노력 수준·권한 모드, AGENTS.md, 스킬, 서브에이전트, Goal 모드, 자동화를 배울 순서대로 48분",
+      "body": "Tech With Tim이 47분 49초 동안 Codex를 열어 프롬프트만 치고 끝내는 사람을 위해 배워야 할 순서대로 기능을 훑습니다. 모델 선택(13:02)과 노력 수준·Fast 모드(16:27), 권한 모드(17:48), 계획 만들기(19:42), 플러그인·커넥터 연결(22:19)에 이어 앱을 만들고 AGENTS.md를 쓰며(29:53) 브라우저·컴퓨터 사용(32:59), 세션·컨텍스트 관리(36:13), 스킬(39:52), 서브에이전트(43:25), Goal 모드(45:28), 자동화(46:16)까지 챕터로 나뉩니다. 영어 영상이며 설명란에 Hostinger VPS 배포 제휴 코드와 AI 에이전트 강의 홍보가 들어 있으니 감안하세요.",
+      "titleEn": "Tech With Tim: learn 99% of Codex in one video - models, effort levels, permission modes, AGENTS.md, skills, subagents, Goal mode and automations in the order to learn them (48 minutes)",
+      "bodyEn": "In 47m49s Tech With Tim walks through Codex features in the order you should learn them, aimed at people who open it, type a prompt and never touch the rest. Chapters cover model selection (13:02), effort levels and Fast mode (16:27), permission modes (17:48), creating a plan (19:42) and connecting plugins and connectors (22:19), then building an app and writing AGENTS.md (29:53), browser and computer use (32:59), session and context management (36:13), skills (39:52), subagents (43:25), Goal mode (45:28) and automations (46:16). The video is in English, and the description includes a Hostinger VPS affiliate code and a plug for an AI-agent course.",
+      "sourceName": "YouTube · Tech With Tim",
+      "sourceUrl": "https://www.youtube.com/watch?v=oBvuhcdSsuw",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=oBvuhcdSsuw",
+      "createdAt": "2026-11-06T13:56:35Z",
+      "curatedAt": "2026-11-08T23:12:37Z"
+    },
+    {
+      "id": "curated-20261109-steve-claude-aside-inbox-assistant-ko",
+      "title": "스티브의 파도타기: 카톡·메일·문자·홈페이지 연락을 한 곳에 모으는 AI 비서 — 클로드+Aside로 4단계 연결, 1~2시간 걸리던 확인 작업 비교 12분",
+      "body": "스티브의 파도타기가 11분 39초 동안 여러 곳으로 흩어진 고객 연락을 클로드와 Aside로 한 화면에 모으는 AI 비서를 만들어 보입니다. 메일 연결(0:51)을 먼저 하고 문제 정의 기획(1:41), 홈페이지 연결(2:31), 카톡 연결(4:17), 문자·전화 연결(7:11) 순으로 붙여 가며, 기존 방식에서 최소 1~2시간 걸리던 확인 작업 시간이 어떻게 바뀌는지 결과 정리(8:43)에서 견줍니다. 아버지 회사에서 일하며 겪은 불편에서 출발한 사례라 소규모 사업장의 응대 업무에 옮겨 보기 좋고, 설명란에 무료 AX 사전 진단 신청 안내가 있습니다.",
+      "titleEn": "Steve's Wave Riding: an AI assistant that gathers KakaoTalk, email, text and website inquiries in one place - four connection steps with Claude and Aside, compared with 1-2 hours of manual checking (12 minutes)",
+      "bodyEn": "In 11m39s the Korean channel Steve's Wave Riding (스티브의 파도타기) builds an AI assistant that pulls customer contacts scattered across channels into one view using Claude and Aside. It connects email first (0:51), then frames the problem (1:41), and adds the website (2:31), KakaoTalk (4:17) and text messages and calls (7:11); the wrap-up (8:43) compares how the checking time, which used to take at least 1-2 hours, changes. It grew out of the creator's frustration working at their father's company, so it maps well onto front-desk work at a small business, and the description includes a free AX (AI transformation) pre-diagnosis signup.",
+      "sourceName": "YouTube · 스티브의 파도타기",
+      "sourceUrl": "https://www.youtube.com/watch?v=-ANcJq8xuzs",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=-ANcJq8xuzs",
+      "createdAt": "2026-11-06T13:36:16Z",
+      "curatedAt": "2026-11-08T23:12:37Z"
+    },
+    {
+      "id": "curated-20261109-hn-stroq-coding-agent-audit",
+      "title": "Show HN Stroq: 코딩 에이전트가 한 일을 로컬에서 감사하고 위험한 명령은 실행 전에 막는다 — npx 한 줄로 최근 30일 세션 점검, 알려진 공격 36개 재현",
+      "body": "Stroq(HN 11월 5일, 93점)는 Claude Code·Cursor·Codex·Copilot CLI·Windsurf·Antigravity용 오픈소스(Apache-2.0) 로컬 보안 도구입니다. npx @stroq/cli 한 줄이면 최근 30일 에이전트 세션을 읽어 실행한 명령 수, 에이전트가 읽은 글에서 비롯된 명령 수, 밖으로 나갔을 수 있는 키 이름(값은 보여 주지 않음)을 보여 주고, init으로 훅을 설치하면 curl | sh와 알려진 비밀이 실린 외부 호출을 막고 에이전트가 읽은 글을 되풀이하는 명령은 먼저 묻습니다. stroq attack은 알려진 공격 36개를 재현해 0.30.0 기준 15개 거부·21개 확인·0개 통과라고 작성자가 밝히지만, 훅은 호스트가 넘겨주는 정보만 보고 텍스트 일치로 추적하는 필터일 뿐 샌드박스가 아니라는 한계도 적혀 있습니다(Node.js 22 이상 필요).",
+      "titleEn": "Show HN Stroq: audit what your coding agent did locally and block risky commands before they run - check 30 days of sessions with one npx line, replay 36 known attacks",
+      "bodyEn": "Stroq (HN, November 5, 93 points) is an open-source (Apache-2.0) local security tool for Claude Code, Cursor, Codex, Copilot CLI, Windsurf and Antigravity. A single npx @stroq/cli command reads the last 30 days of agent sessions and reports how many commands ran, how many came from text the agent had read, and which key names may have left the machine (names only, never values); init installs hooks that deny curl | sh and outbound calls carrying a known secret, and ask first when a command repeats text the agent read. stroq attack replays 36 known attacks and the author reports 15 denied, 21 asked about and 0 passed on version 0.30.0, but the project states its limits: hooks see only what the host agent sends them, tracing is text-level matching, and it is a filter rather than a sandbox (Node.js 22 or newer required).",
+      "sourceName": "Hacker News · Stroq",
+      "sourceUrl": "https://github.com/AGGIB/Stroq",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-05T15:54:41Z",
+      "curatedAt": "2026-11-08T23:12:37Z"
+    },
     {
       "id": "curated-20261108-hn-apiiro-claude-code-dont-ask-again-secrets",
       "title": "Apiiro: Claude Code '다시 묻지 않기'가 비밀번호를 GitHub에 흘린다 — settings.local.json 공개 파일 1,122개, .gitignore 추가와 secret scanning부터",
@@ -145,32 +223,6 @@
       "curatedAt": "2026-11-06T23:12:14Z"
     },
     {
-      "id": "curated-20261106-davelee-claude-code-new-features-ko",
-      "title": "잔재미코딩: 최근 한 달 클로드 코드 신기능 정리 — Mods, MCP Tasks, ultrathink, advisor, 에이전트 뷰, /usage 10분",
-      "body": "잔재미코딩(DaveLee)이 9분 53초 동안 맥북에서 직접 써 본 화면으로 Claude Code의 최근 신기능을 챕터별로 짚습니다. Mods로 클로드 코드의 화면과 동작 바꾸기(0:33), 긴 테스트를 서버에 맡겨 두는 MCP Tasks(1:36), 일하다 나에게 되묻는 엘리시테이션 창(2:48), 그 요청만 xhigh로 돌리는 ultrathink(3:30), 중요할 때만 Opus에게 조언을 받는 advisor(4:26), 서브에이전트 effort를 말로 정하기(5:30), 세션 여러 개를 한 화면에서 보는 에이전트 뷰(6:09), 쉬는 동안 자동 정리(7:21), 사용량 원인을 알려 주는 /usage(7:58)가 담겼습니다. 설명란에 Mods·MCP Tasks·엘리시테이션·ultrathink 공식 문서 링크가 있어 따라 해 보기 좋고, 운영자의 강의 사이트 홍보도 함께 들어 있습니다.",
-      "titleEn": "Jan-jaemi Coding: Claude Code's new features from the last month - Mods, MCP Tasks, ultrathink, advisor, agent view and /usage in 10 minutes",
-      "bodyEn": "In 9m53s the Korean channel Jan-jaemi Coding (잔재미코딩, DaveLee) walks through Claude Code's recent additions on screen on a MacBook, chapter by chapter: Mods that change how Claude Code looks and behaves (0:33), MCP Tasks that hand long tests off to the server (1:36), an elicitation window that asks you questions mid-task (2:48), ultrathink to run just that request at xhigh (3:30), advisor that consults Opus only when it matters (4:26), setting subagent effort in plain words (5:30), an agent view that shows several sessions on one screen (6:09), automatic cleanup while you are away (7:21) and /usage to see what is eating your quota (7:58). The description links the official docs for Mods, MCP Tasks, elicitation and ultrathink, and also plugs the creator's course site.",
-      "sourceName": "YouTube · 잔재미코딩",
-      "sourceUrl": "https://www.youtube.com/watch?v=F15aMeaHOII",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=F15aMeaHOII",
-      "createdAt": "2026-11-05T11:20:04Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "curated-20261106-codefactory-orca-orchestration-ko",
-      "title": "코드팩토리: Orca로 Claude 5개를 한 화면에서 — Claude·Codex에게 사이트 병렬 검토 맡기기, 내장 브라우저 수정 요청, SSH·모바일 연결 18분",
-      "body": "코드팩토리가 18분 31초 동안 여러 코딩 에이전트를 터미널 패널로 관리하는 Orca 앱으로 LLM 오케스트레이션을 시연합니다. 프로젝트를 열어 터미널을 나누고 Claude 5개를 한꺼번에 띄운 뒤(4:45), Orchestration을 켜고 스킬을 설치해 Run·Task·Worker 개념으로 Claude와 Codex에게 사이트를 병렬 검토시키고(6:00~6:55) 리서치·구현·디버깅을 여러 모델에 나눕니다(8:58). 내장 브라우저에서 요소를 골라 수정을 요청하고(9:52) 코드에 단 메모를 에이전트에 보내는 법(12:21), 계정 전환과 사용량 확인(13:12), SSH·Tailscale·모바일 앱 연결과 한계(14:55~16:08), 반복 지시를 스킬로 정리하는 법(17:09)까지 챕터로 나뉩니다. 설명란에 채널의 강의와 채용 안내가 함께 있습니다.",
-      "titleEn": "Code Factory: running five Claude sessions in one Orca window - parallel site review by Claude and Codex, edit requests from the built-in browser, SSH and mobile (18 minutes)",
-      "bodyEn": "In 18m31s the Korean channel Code Factory (코드팩토리) demonstrates LLM orchestration in Orca, an app that manages several coding agents through terminal panes. It opens a project, splits the terminal and launches five Claude sessions at once (4:45), then turns on Orchestration and installs a skill so the Run / Task / Worker model can have Claude and Codex review a site in parallel (6:00-6:55) and split research, implementation and debugging across models (8:58). Chapters also cover picking an element in the built-in browser to request a fix (9:52), sending inline code notes to an agent (12:21), switching accounts and checking usage (13:12), SSH, Tailscale and the mobile app with its limits (14:55-16:08), and turning repeated instructions into a skill (17:09). The description also carries the channel's course and hiring links.",
-      "sourceName": "YouTube · 코드팩토리",
-      "sourceUrl": "https://www.youtube.com/watch?v=d893Vei2Ll4",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=d893Vei2Ll4",
-      "createdAt": "2026-11-05T09:30:36Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
-    },
-    {
       "id": "curated-20261106-geeknews-ibare-one-year-with-agents-ko",
       "title": "ibare: AI 에이전트와 혼자 개발한 1년 — 설계·구현·검증이 규칙 개선으로 돌아오는 닫힌 루프, 구현 맥락 밖의 독립 세션이 리뷰",
       "body": "ibare가 AI 에이전트와 1년여 혼자 개발하며 코드 작성보다 에이전트의 진행과 결과를 통제하고 개선하는 개발 과정을 만드는 데 집중한 경험을 연재 첫 편으로 풀었습니다(GeekNews 11월 5일). 구현 맥락을 공유한 리뷰어는 사각지대도 공유하기 쉬우니 고정된 코드 스냅샷을 독립 세션에서 검토하고, 별도 검증자가 지적의 근거를 다시 확인하며, 구현 중 쌓인 규칙 위반 기록으로 규칙을 신설·개정·폐지합니다. PR마다 지적 장부를 두어 이전 지적의 해결 여부부터 확인하고 수정하지 않은 코드의 새 지적은 심각한 것만 허용해 리뷰가 끝없이 반복되는 일을 줄이며, 머지 뒤에는 코드 생존율과 복잡도 추이를 봅니다. 에이전트의 완료 보고 대신 실행 기록과 코드 변경을 확인하라는 점과, 사람의 시간이 코드 작성에서 스펙 정의로 옮겨 갔다는 결론이 핵심입니다.",
@@ -181,19 +233,6 @@
       "mediaType": "none",
       "mediaUrl": "",
       "createdAt": "2026-11-05T09:26:27Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
-    },
-    {
-      "id": "curated-20261106-hn-ask-current-ai-agentic-setup",
-      "title": "Ask HN: 지금 쓰는 AI 에이전트 세팅은? — 완료 조건을 구체적으로 말하기, 일 5개 이상 동시에, nono.sh·Docker 샌드박스 격리, Claude가 Codex를 조율",
-      "body": "작성자가 구독, 모델, 하네스, 오케스트레이션 도구, 에이전트 플랫폼 다섯 가지를 묻자 497점과 수백 개의 댓글이 달린 스레드입니다. 한 댓글은 '끝났을 때 어떤 모습인지'를 아주 구체적으로 알려 주고 최소 다섯 가지 일을 동시에 돌리라고 하고, 다른 댓글은 nono.sh로 네트워크와 파일 접근을 제한하며 프록시 뒤에서 서비스별로 권한을 줄인 API 키를 써 모델이 키를 보지 못하게 한다고 합니다. 읽기 전용 도구 호출 허용 목록과 Docker Sandbox 마이크로VM에서만 yolo 모드를 돌리는 방식, Claude가 여러 Codex 서브에이전트를 조율하는 동시에 검증자 노릇을 하는 구성, git worktree 기반 Conductor·T3 Code 같은 프런트엔드 사례도 나옵니다. 구독을 하나도 안 쓴다는 댓글과 세팅 최적화는 자잘한 개선일 뿐이라는 반론도 있으니 개인 경험 모음으로 읽으세요.",
-      "titleEn": "Ask HN: What's your current AI agentic setup? - state exactly what done looks like, run 5+ things in parallel, sandbox with nono.sh or Docker, let Claude coordinate Codex",
-      "bodyEn": "The asker's five questions - subscriptions, models, harnesses, orchestration tools and agent platforms - drew 497 points and hundreds of comments. One commenter says to tell the agent very specifically what 'complete' looks like and to run at least five things at once; another restricts network and file access with nono.sh and puts per-service, permission-limited API keys behind a proxy so the model never sees them. Others describe an allowlist of read-only tool calls with yolo mode only inside a Docker Sandbox microVM, Claude coordinating several Codex subagents while also acting as a verifier, and git-worktree front ends such as Conductor and T3 Code. Some say they use no subscription at all and one calls setup tuning bikeshedding, so read it as a collection of personal experiences.",
-      "sourceName": "Hacker News",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50366117",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-04T14:37:22Z",
       "curatedAt": "2026-11-05T23:14:15Z"
     },
     {
@@ -221,45 +260,6 @@
       "mediaUrl": "https://www.youtube.com/watch?v=nf4AWqLMME0",
       "createdAt": "2026-11-03T11:56:21Z",
       "curatedAt": "2026-11-03T23:14:03Z"
-    },
-    {
-      "id": "curated-20261104-conanssam-codex-app-7-tips-ko",
-      "title": "코난쌤: 코덱스 앱 실전 7가지 — 클로드 세션 불러오기, 사이드 채팅, 캐시 유지, 반복 작업을 스킬로 녹화, Stop 훅 검증 게이트, 워크트리 7분",
-      "body": "코난쌤이 7분 19초 동안 작은 웹앱 하나로 Claude Code에서 세운 계획을 Codex 앱으로 이어 구현하는 일곱 가지 기능을 보여 줍니다: 설정의 '가져오기'로 클로드 세션 불러오기(0:30), 흐름을 끊지 않는 사이드 채팅(1:10), 추론 수준을 바꿔도 캐시 유지(2:00), 반복 작업을 녹화해 스킬로 만들기(2:58), 테스트가 실패하면 턴 종료를 막는 Stop 훅(4:00), 포크·워크트리에서 작업한 뒤 머지(5:08), 대화 드래그로 참조하기(6:00). 설명란에 따르면 캐시 유지 설정 reasoning_effort_override는 실험 기능이고, 클로드에서 가져온 대화는 영상 실행에서 참조 오류가 났으며, 핸드오프 플러그인 ide-mod는 Claude Code의 early access function hooks(시험 버전 2.1.290)에 의존하므로 따라 하기 전에 호환성을 확인해야 합니다.",
-      "titleEn": "Conan-ssam: 7 hands-on Codex app tricks - importing Claude sessions, side chat, keeping the cache, recording a repeated task as a skill, a Stop-hook verification gate and worktrees in 7 minutes",
-      "bodyEn": "In 7m19s the Korean channel Conan-ssam (코난쌤) uses one small web app to show seven features for continuing a plan made in Claude Code inside the Codex app: importing a Claude session from Settings > Import (0:30), a side chat that keeps your flow (1:10), keeping the prompt cache when you change reasoning level (2:00), recording a repeated task as a skill (2:58), a Stop hook that blocks ending a turn while tests fail (4:00), working in a fork or worktree and merging (5:08), and dragging a conversation in as a reference (6:00). The description warns that the cache setting reasoning_effort_override is experimental, that a conversation imported from Claude gave a reference error in the video's run, and that the ide-mod handoff plugin relies on Claude Code's early-access function hooks (tested on 2.1.290), so check compatibility before following along.",
-      "sourceName": "YouTube · 코난쌤",
-      "sourceUrl": "https://www.youtube.com/watch?v=6KU-_0ZbhRU",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=6KU-_0ZbhRU",
-      "createdAt": "2026-11-03T11:31:20Z",
-      "curatedAt": "2026-11-03T23:14:03Z"
-    },
-    {
-      "id": "curated-20261104-devdongsaeng-manager-agent-ko",
-      "title": "개발동생: 에이전트 관리는 매니저 에이전트가 표준이 된다 — 결정 대기 13개 중 내가 볼 건 6개, 매니저·코디네이터·코딩 에이전트 3단 구조와 승인 카드 23분",
-      "body": "개발동생이 22분 55초 동안 Claude Code·Codex·Cursor 세션을 여러 개 돌리면 병목이 사람이 되는 문제를, 사람과 코딩 에이전트 사이에 매니저 에이전트를 두는 구조로 풉니다. 본인 실측으로 결정을 기다리던 세션 13개 중 직접 판단할 것은 6개뿐이었고(1:43), 구조는 매니저(그록봇)·코디네이터(Cursor Projects, Claude Code Projects)·코딩 에이전트 3단이며 위 두 층은 코딩하지 않고 일을 나눠 주고 결과만 확인합니다(4:39~6:51). 무엇을 물어보게 할지 정하는 승인 카드와 신뢰 역피라미드(16:31~), pstack의 /correct로 실수를 검사로 바꿔 16분 뒤 다른 세션의 같은 실수를 CI가 잡은 사례(19:02~20:16)도 다룹니다. 관제실 역할을 하는 매니저를 비밀번호 없이 인터넷에 열어 둔 자기 실수를 짚으며 Tailscale 같은 사설망 안에서만 쓰라고 당부합니다(20:38).",
-      "titleEn": "Dev Dongsaeng: manager agents as the standard for managing agents - 6 of 13 pending decisions needed a human, a three-tier manager / coordinator / coding-agent setup and approval cards (23 minutes)",
-      "bodyEn": "In 22m55s the Korean channel Dev Dongsaeng (개발동생) takes on the problem that once you run several Claude Code, Codex and Cursor sessions the bottleneck becomes you, by putting a manager agent between the human and the coding agents. In the creator's own measurement only 6 of 13 sessions waiting on a decision actually needed a human (1:43); the structure is a manager (Grok Bot), coordinators (Cursor Projects, Claude Code Projects) and coding agents, where the top two layers do not code and only hand out work and check results (4:39-6:51). It also covers approval cards that decide what agents must ask about and a trust inverted pyramid (16:31-), and a case where pstack's /correct turned a mistake into a check so CI caught the same mistake in another session 16 minutes later (19:02-20:16). The creator owns up to leaving his own manager open to the internet without a password and urges running it only inside a private network such as Tailscale (20:38).",
-      "sourceName": "YouTube · 개발동생",
-      "sourceUrl": "https://www.youtube.com/watch?v=NoatYSA9RyU",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=NoatYSA9RyU",
-      "createdAt": "2026-11-03T10:16:44Z",
-      "curatedAt": "2026-11-03T23:14:03Z"
-    },
-    {
-      "id": "curated-20261102-yulpro-gemini-5-features-ko",
-      "title": "율프로교실: 제미나이 핵심 기능 5가지 — 이미지 메뉴, '예약됨' 자동 비서, Gems+스킬, 노트북(최대 50개 소스), 딥 리서치 17분",
-      "body": "율프로교실이 16분 57초 동안 제미나이를 요약·번역에만 쓰는 사람을 위해 숨은 기능 5가지를 화면과 함께 보여 줍니다. 사이드바 이미지 메뉴에서 스타일 템플릿과 비율을 골라 생성하고(1:47), '예약됨'으로 이메일 확인·브리핑 같은 루틴 업무를 정해 둔 시간에 처리시키며(3:51), Gems와 스킬로 반복 업무를 슬래시(/) 명령 기반 맞춤 챗봇으로 만들고(6:12), 노트북에 PDF·링크 등 최대 50개 소스를 넣어 오디오·슬라이드·마인드맵으로 바꾸고(9:22), 딥 리서치가 다단계 계획과 교차 검증으로 쓰는 심층 보고서를 15분 만에 받는 흐름(12:52)입니다. 제미나이를 업무 워크플로에 처음 붙이는 사람이 순서대로 따라 하기 좋은 입문 영상이며, 쓴 프롬프트는 댓글로 요청하면 알려 준다고 합니다.",
-      "titleEn": "Yulpro Class: 5 core Gemini features - the image menu, 'Scheduled' auto-assistant, Gems + skills, notebooks with up to 50 sources, and Deep Research in 17 minutes",
-      "bodyEn": "In 16m57s the Korean channel Yulpro Class (율프로교실) shows five lesser-used Gemini features on screen for people who only use it to summarize and translate. It covers the sidebar image menu with style templates and aspect ratios (1:47), the 'Scheduled' feature that runs routine jobs such as email checks and briefings at set times (3:51), Gems plus skills for turning repeat tasks into slash-command custom chatbots (6:12), notebooks that take up to 50 sources such as PDFs and links and convert them into audio, slides and mind maps (9:22), and Deep Research, which plans in several steps and cross-checks to produce a long report in about 15 minutes (12:52). A good follow-along for someone attaching Gemini to a work routine for the first time; the creator says the prompts used are available by asking in the comments.",
-      "sourceName": "YouTube · 율프로교실",
-      "sourceUrl": "https://www.youtube.com/watch?v=93qxT-Hmgpc",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=93qxT-Hmgpc",
-      "createdAt": "2026-10-31T04:08:05Z",
-      "curatedAt": "2026-11-01T23:21:43Z"
     }
   ]
 }
