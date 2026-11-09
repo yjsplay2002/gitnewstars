@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-11-08T23:12:37Z",
+  "generatedAt": "2026-11-09T23:13:33Z",
   "posts": [
+    {
+      "id": "curated-20261110-hn-anthropic-fable-mythos-5-2-model-routing",
+      "title": "Anthropic, Claude Fable 5.2·Mythos 5.2 공개 — 일상 작업은 Opus 5.5부터 시작해 위아래로 옮기고 Fable은 Advisor·Orchestrator로, 입력 8달러·출력 40달러",
+      "body": "Anthropic이 Claude Fable 5.2와 Mythos 5.2를 공개했습니다(HN 11월 9일, 817점). 둘은 같은 모델이고 사이버·생물 안전장치를 건 Fable이 모든 사용자에게 열리며, 5.1보다 출력이 최대 30% 빠르면서 100만 토큰당 입력 8달러·출력 40달러로 값이 내렸고 빠른 모드는 최대 2.5배 속도에 16달러·80달러입니다. 대부분의 코딩·지식 작업은 Opus 5.5부터 시작해 필요하면 Fable·Mythos로 올리거나 Sonnet 5.5·Haiku 5.5로 내리라는 권고이고, Fable은 작은 모델이 어려운 문제를 묻는 Advisor나 쉬운 일을 작은 모델에 나눠 주는 Orchestrator로도 쓸 수 있다고 합니다. Claude Code 기본 노력 수준은 Medium이며 FrontierCode 2.0에서 Fable 5.2 High가 Opus 5.5 Max와 비슷한 점수를 약 절반 비용으로 냈다는 수치는 Anthropic 자체 측정이고, HN 댓글에는 5.2가 5.5보다 낫다는 이름 체계가 헷갈린다는 지적도 있습니다.",
+      "titleEn": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 - start everyday work on Opus 5.5 and move up or down, use Fable as Advisor or Orchestrator, $8 in / $40 out per million tokens",
+      "bodyEn": "Anthropic released Claude Fable 5.2 and Mythos 5.2 (HN, November 9, 817 points). They are the same underlying model; Fable carries cybersecurity and biology safeguards and is open to all users, generates up to 30% faster than 5.1 and costs less at $8 per million input and $40 per million output tokens, with an optional fast mode of up to 2.5x speed at $16 and $80. For most coding and knowledge work Anthropic recommends starting on Opus 5.5 and moving up to Fable or Mythos, or down to Sonnet 5.5 or Haiku 5.5, and says Fable can act as an Advisor that smaller models consult on hard problems or as an Orchestrator that hands simpler tasks to smaller models. Claude Code's default effort is Medium, and the claim that Fable 5.2 at High matched Opus 5.5 at Max on FrontierCode 2.0 for about half the cost per task is Anthropic's own measurement; HN commenters also point out that the naming, with 5.2 beating 5.5, is confusing.",
+      "sourceName": "Hacker News · Anthropic",
+      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-09T18:56:29Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-dalbee-ego-lite-browser-automation-ko",
+      "title": "달비의 작업실: 클로드 코드 브라우저 자동화 27번 비교 — Chrome(CDP)·Aside·ego lite, 같은 일에 평균 19분·17분·11분, 한 번 비용 3.4달러·3.2달러·1.9달러 12분",
+      "body": "달비의 작업실이 11분 39초 동안 Claude Code로 매일 하는 브라우저 일 세 가지를 Chrome(CDP)·Aside·ego lite에 같은 모델·같은 프롬프트로 세 번씩, 모두 27번 시켜 비교했습니다. 유튜브 스튜디오 질문 4개를 파일 하나에 모으는 일은 12분 20초·9분 30초·6분 40초(ego lite)였고 에이전트와 브라우저가 주고받은 횟수도 37번 대 22번이었으며, 쓰레드 인기글 10개 찾기는 CDP 26분·Aside 최대 28분·ego lite 평균 14분 20초였습니다. 세 작업 평균은 19분·17분·11분, 한 번 비용은 3.4달러·3.2달러·1.9달러였고, 코드가 도는 동안 AI가 화면을 보지 못해 오류가 나면 되돌아와 고치는 왕복이 많아서라는 설명입니다. ego lite 한 번은 비용이 더 나온 적도 있고 ego lite의 지원을 받아 만든 영상이니, 한 사람의 3회 평균으로 감을 잡는 용도로 보세요.",
+      "titleEn": "Dalbee's Workshop: 27 Claude Code browser-automation runs compared - Chrome (CDP), Aside and ego lite averaged 19, 17 and 11 minutes per task at $3.4, $3.2 and $1.9 a run (12 minutes)",
+      "bodyEn": "In 11m39s Dalbee's Workshop (달비의 작업실) gives Claude Code three browser chores it does every day to Chrome (CDP), Aside and ego lite - same model, same prompt, three runs each, 27 in total. Gathering four YouTube Studio answers into one file took 12m20s, 9m30s and 6m40s (ego lite), with 37 agent-browser round trips for Chrome against 22 for ego lite; finding ten fast-rising Threads posts took 26 minutes for CDP, up to 28 for Aside and 14m20s on average for ego lite. Across the three tasks the averages were 19, 17 and 11 minutes and $3.4, $3.2 and $1.9 per run, which the creator attributes to the AI being unable to see the page while its code runs, so errors force extra round trips. One ego lite run did cost more and the video was made with support from ego lite, so treat it as one creator's three-run averages.",
+      "sourceName": "YouTube · 달비의 작업실",
+      "sourceUrl": "https://www.youtube.com/watch?v=6rFAiXvLGN4",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=6rFAiXvLGN4",
+      "createdAt": "2026-11-09T09:00:29Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-teo-mcp-api-cli-morning-briefing-ko",
+      "title": "태오의 실행 비즈니스: MCP·API·CLI를 나눠 쓰는 기준 — 구글은 CLI, 유튜브 수치는 API, 노션·카톡은 MCP로 묶은 아침 8시 브리핑 13분",
+      "body": "태오의 실행 비즈니스가 13분 29초 동안 API·MCP·CLI를 신입사원 비유로 가르고, 하나로 통일하지 않고 일에 맞게 섞어 쓰는 아침 8시 브리핑을 보여 줍니다. 구글 메일·일정은 GWS CLI(메일은 읽기·목록만, 일정은 읽기만), 유튜브 채널 수치는 API, 댓글·자막과 노션 쓰기는 MCP, 요약 전달은 카카오 PlayMCP의 '나에게 보내기'로 맡기고 브리핑에 필요한 도구만 열어 토큰 사용과 부작용을 줄였습니다. 카톡 한 번에 200자 제한이 있어 4개로 나눠 보내게 했고 노션은 연·월·일 페이지가 자동으로 생기게 고쳤으며, 클로드 데스크톱 커넥터에 노션을 붙이는 순서(8:29)도 화면으로 따라 합니다. 연결 기준표는 운영자의 오픈채팅방 공지로만 받을 수 있습니다.",
+      "titleEn": "Teo's Execution Business: how to choose between MCP, API and CLI - Google via CLI, YouTube numbers via API, Notion and KakaoTalk via MCP in an 8am morning briefing (13 minutes)",
+      "bodyEn": "In 13m29s the Korean channel Teo's Execution Business (태오의 실행 비즈니스) explains API, MCP and CLI with a new-hire analogy and shows an 8am briefing that mixes all three instead of standardizing on one. Google mail and calendar go through the GWS CLI (mail read and list only, calendar read only), channel numbers through the YouTube API, comments, subtitles and Notion writes through MCP, and the summary arrives via Kakao PlayMCP's send-to-me tool; only the tools the briefing needs are exposed to save tokens and limit side effects. Because that tool allows 200 characters per message the briefing is split into four texts, Notion pages were changed to build year, month and day automatically, and the steps for adding Notion as a connector in Claude Desktop are shown on screen (8:29). The connection-criteria table is only available through the creator's open chat room.",
+      "sourceName": "YouTube · 태오의 실행 비즈니스",
+      "sourceUrl": "https://www.youtube.com/watch?v=Gj2NptppUtg",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=Gj2NptppUtg",
+      "createdAt": "2026-11-08T23:45:42Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-geeknews-ai-brain-fry-git-queue-ko",
+      "title": "나는 AI로 인한 두뇌 과부하에 이렇게 대처한다 — 티켓은 git의 마크다운 큐로, 에이전트는 주기마다 돌고, 사람 판단만 '오너 인박스'로 모아 한 번에 하나씩 닫기",
+      "body": "Sergey Kuhne가 Claude Code·Codex 탭 20개를 오가다 머릿속 맥락이 바닥나는 '두뇌 과부하'를 우선순위 큐로 푼 방법입니다(GeekNews 11월 9일). 티켓을 코드 옆 마크다운 파일로 git에 두어 세션이 죽어도 큐가 남게 하고, 에이전트는 주기마다 새 티켓 조사, 사람이 안전하다고 표시한 티켓 구현, 테스트·브라우저 확인, 배포본 검증을 하되 민감한 코드는 브랜치에서 만들며 먼저 묻고 운영 배포는 절대 하지 않습니다. 사람의 판단이 필요한 항목은 스크립트가 '오너 인박스'로 우선순위순으로 모으고, git에서 매번 다시 만드는 Claude 아티팩트 한 장에서 변경 내용을 읽고 판정하면 결과가 카드에 기록됩니다. 항목 하나를 열어 결정하고 큐로 되돌려 닫는 것이 핵심이라지만, 측정값 없는 개인 실험이고 여전히 피곤하며 맥락을 빠르게 불러오는 도구와 판정 대기로 막힌 티켓의 무한 반복이 남은 과제라고 합니다.",
+      "titleEn": "How I'm fighting AI brain fry - tickets as a markdown queue in git, an agent that works the board in cycles, and only human decisions collected in an 'owner inbox' and closed one at a time",
+      "bodyEn": "Sergey Kuhne describes how he tamed the 'brain fry' of hopping between 20 Claude Code and Codex tabs by running his work like a priority queue (shared on GeekNews on November 9). Tickets are markdown files in git next to the code, so the queue survives a dead session; an agent works the board in cycles - researching new tickets, building the ones a human tagged as safe, running tests and a browser check, and verifying what is deployed - building sensitive changes on a branch and asking first, and never deploying to production. A script gathers everything that needs his judgment into a prioritized 'owner inbox', he reads each change on a single Claude artifact rebuilt from git every cycle, and his verdict is written back onto the card. The point is to open one item, decide, and close it by putting it back in the queue; it is an unmeasured personal experiment, still tiring, and the open problems are serving context quickly and tickets that loop while blocked on a ruling only he can give.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/topic?id=36842",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-08T21:55:36Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-hn-ask-agent-context-across-clients",
+      "title": "Ask HN: 고객·프로젝트가 여럿일 때 에이전트 맥락 관리법 — gitignore한 ADR 폴더와 상태 문서, 위키+QMD 검색에 갱신 확인 게이트, Johnny.Decimal+옵시디언",
+      "body": "Ask HN(11월 7일, 86점)에서 고객·프로젝트가 여럿일 때 에이전트에게 맥락과 지난 결정을 매번 다시 설명하는 비용을 어떻게 줄이는지 물었고, 최상위 댓글 45개가 답했습니다. 한 사용자는 저장소마다 gitignore한 ADR(설계 결정 기록) 폴더와 '어디까지 했는지' 상태 문서를 두고, 다른 사용자는 카파시식 LLM 위키에 QMD 의미 검색을 붙여 AGENTS.md가 큰 작업 전에 위키를 찾게 하고 gatekeeper.py가 위키 갱신을 확인해야만 라운드를 끝내게 합니다(토큰은 들지만 어느 단계든 재현할 수 있다고). 그 밖에 Johnny.Decimal ID로 옵시디언 노트·폴더·CLI를 잇는 방식, OpenSpec 같은 스펙 주도 개발, 자체 호스팅 Gitea 위키, Matt Pocock의 스킬 모음이 나왔는데, 개인 경험담이고 일부는 본인 도구 소개이니 한두 가지만 골라 시험해 보세요.",
+      "titleEn": "Ask HN: how to manage agent context across clients and projects - a gitignored ADR folder plus status doc, a wiki with QMD search and a gate that checks the wiki was updated, Johnny.Decimal with Obsidian",
+      "bodyEn": "An Ask HN thread (November 7, 86 points) asked how people avoid re-explaining context and past decisions to agents across several clients and projects, and drew 45 top-level comments. One commenter keeps a gitignored ADR (architecture decision record) folder and a 'where I left off' status doc in each repo; another pairs a Karpathy-style LLM wiki with QMD semantic search, has AGENTS.md tell the agent to search the wiki before significant work, and uses a gatekeeper.py script that blocks finishing a round until the wiki is updated (token-hungry, but any stage can be reproduced). Others mention Johnny.Decimal IDs linking Obsidian notes, folders and a CLI, spec-driven development such as OpenSpec, a self-hosted Gitea wiki and Matt Pocock's skills library. These are personal anecdotes and some are self-promotion, so pick one or two ideas to test.",
+      "sourceName": "Hacker News · Ask HN",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50403153",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-07T10:01:48Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-davelee-claude-code-6-features-ko",
+      "title": "잔재미코딩: 최근 한 달 클로드 코드 신기능 6가지 — Mods로 rm -rf 막기, MCP Tasks로 긴 테스트 맡기기, ultrathink·advisor로 어려운 요청만 깊게 10분",
+      "body": "잔재미코딩이 9분 53초 동안 최근 한 달 사이 Claude Code에 들어온 기능 6가지를 직접 실험으로 보여 줍니다. 위험한 rm -rf를 실행 전에 잡는 Mod를 만들어 빌드 폴더 삭제를 멈춰 세웠고(0:33), MCP Tasks로 테스트 105개를 외부 서비스에 맡긴 뒤 Claude Code를 껐다 켜도 결과를 이어서 받았으며(1:36), ultrathink는 세션이 Low여도 그 요청만 xhigh로 올리고(3:30), advisor로 Sonnet이 Opus의 조언을 받아 버그 3개를 모두 고쳤습니다(4:26). 이어 서브에이전트 effort를 말로 정하고 /tasks로 확인하기(5:30), claude agents 화면에서 세션 여러 개에 한 번에 답하기(6:09), 한 시간쯤 자리를 비우면 긴 대화가 약 1/5로 자동 요약되는 기능(7:21), /usage로 사용량 원인 보기(7:58)를 다루며, 설명란에 공식 문서 링크가 모여 있고 운영자의 강의 사이트 안내도 들어 있습니다.",
+      "titleEn": "Janjaemi Coding (DaveLee): six Claude Code features from the past month - block rm -rf with a Mod, hand long tests to MCP Tasks, go deep only on hard requests with ultrathink and advisor (10 minutes)",
+      "bodyEn": "In 9m53s the Korean channel Janjaemi Coding (잔재미코딩, DaveLee) tests six features added to Claude Code in the past month. It builds a Mod that catches a dangerous rm -rf before it runs and stops a build-folder deletion (0:33), hands 105 tests to an external service through MCP Tasks and still gets the result after closing and reopening Claude Code (1:36), shows ultrathink raising only that request to xhigh while the session stays on Low (3:30), and has Sonnet take advice from Opus through advisor to fix all three bugs (4:26). It then covers setting a subagent's effort in plain words and verifying it with /tasks (5:30), answering several sessions from the claude agents view (6:09), automatic summarizing that shrank a long conversation to about a fifth after an hour idle (7:21), and finding what drives usage with /usage (7:58); the description collects the official docs links and also plugs the creator's course site.",
+      "sourceName": "YouTube · 잔재미코딩(DaveLee)",
+      "sourceUrl": "https://www.youtube.com/watch?v=F15aMeaHOII",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=F15aMeaHOII",
+      "createdAt": "2026-11-05T11:20:04Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-hud-kakaotalk-ax-macro-ko",
+      "title": "허드의 AI딸깍: 카카오톡 자동화는 접근성 트리 매크로로 — 할 일 정리 컴퓨터 유즈 65초 대 37초, 대화 파일·서버 직접 접속은 이용 제한 10분",
+      "body": "허드의 AI딸깍이 9분 53초 동안 AI가 앱을 다루는 방법을 S(API·MCP·CLI)·A(웹 DOM)·B(접근성 트리)·C(화면 클릭) 네 등급으로 나누고, 카카오톡 자동화로 B를 S처럼 쓰게 만든 사례를 보여 줍니다. 처음에는 암호화된 대화 파일을 읽고 서버에 직접 붙어 보냈다가 서비스 운영 정책 위반으로 사용이 임시 제한됐고, 이후 공식 맥 앱의 접근성 트리만 쓰되 방 목록·방 열기·메시지 읽기·검색 등 12개 동작을 매크로 명령(kax)으로 묶었습니다. 같은 에이전트·모델로 세 번씩 18번 돌린 결과 할 일 정리는 컴퓨터 유즈 65초 대 kax 37초, 다른 방에 보내기는 34초 대 22초였고 단계가 많을수록 1.5~1.7배 차이, 도구 호출은 최대 2~3배 적었습니다. 코드(kax, MIT)와 맥용 mac-app-ax 스킬이 GitHub에 공개돼 있지만 계정 제재 가능성이 0%는 아니니, 다른 사람의 대화를 모으는 데는 쓰지 말라고 당부합니다.",
+      "titleEn": "Hud's AI Ddalkkak: automate KakaoTalk with an accessibility-tree macro - 65s vs 37s for a to-do summary against computer use, and why reading chat files or hitting the server directly got the account restricted (10 minutes)",
+      "bodyEn": "In 9m53s the Korean channel Hud's AI Ddalkkak (허드의 AI딸깍) ranks the ways an AI can drive an app - S (API, MCP, CLI), A (web DOM), B (accessibility tree) and C (screen clicking) - and shows how it lifted KakaoTalk automation from tier B to feel like tier S. His first approach, reading the encrypted chat file and sending straight to the server, got his account temporarily restricted for a service-policy violation; he then switched to the official Mac app's accessibility tree only and bundled 12 actions such as listing rooms, opening a room, reading messages and searching into macro commands called kax. In 18 runs (three each) with the same agent and model, a to-do summary took 65s with computer use against 37s with kax and sending to another room took 34s against 22s, the gap grew to 1.5-1.7x on multi-step tasks, and tool calls dropped by up to 2-3x. The code (kax, MIT) and a Mac-only mac-app-ax skill are on GitHub, but he warns that an account restriction is still possible and asks viewers not to use it to collect other people's chats.",
+      "sourceName": "YouTube · 허드의 AI딸깍",
+      "sourceUrl": "https://www.youtube.com/watch?v=h1TV_GRnp-A",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=h1TV_GRnp-A",
+      "createdAt": "2026-11-04T21:00:28Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "curated-20261110-hn-ask-current-agentic-setup",
+      "title": "Ask HN: 당신의 현재 AI 에이전트 구성은? — 스킬을 버리고 '끝난 모습'만 구체적으로 적기, Claude가 Codex 에이전트를 조율, nono.sh 샌드박스와 서비스별 제한 API 키",
+      "body": "Ask HN(11월 4일, 569점, 최상위 댓글 400여 개)에서 구독, 하네스, 샌드박스, 맥락 관리까지 현재 AI 에이전트 구성을 물었습니다. 한 사용자는 Opus 5.5가 나온 뒤 스킬을 모두 지우고 노력 수준을 Medium으로 둔 채 큰 방향만 말하되 '끝났을 때 어떤 모습인지'를 구체적으로 적는 것이 가장 큰 요령이라고 했고, 다른 사용자는 Claude가 Codex 에이전트 묶음을 조율하며 두 번째 검증자 역할을 맡게 합니다. 샌드박스 질문이 가장 활발했는데, 한 답은 nono.sh로 네트워크·파일 접근을 막고 프록시를 거쳐 LLM이 API 키를 보지 못하게 하며 서비스마다 권한을 줄인 키를 따로 발급한다고 했습니다. 또 다른 사용자는 20달러 요금제로 빌드 머신 VM의 Claude Code를 폰 앱으로 원격 조작해 안드로이드 앱을 빌드·설치합니다. 개인 경험담이라 구독료와 도구 선택은 참고만 하세요.",
+      "titleEn": "Ask HN: what's your current AI agentic setup? - drop the skills and describe only what 'done' looks like, Claude coordinating Codex agents, a nono.sh sandbox and per-service restricted API keys",
+      "bodyEn": "An Ask HN thread (November 4, 569 points, 400-plus top-level comments) asked about everyone's current AI agent setup, from subscriptions and harnesses to sandboxing and context. One commenter deleted all skills after Opus 5.5 shipped, runs at Medium effort, states only the big goal and says the biggest trick is describing in detail what 'complete' looks like; another has Claude coordinate a group of Codex agents and act as a second verifier. Sandboxing was the busiest question; one answer uses nono.sh to restrict network and file access, with a proxy so the LLM never sees API keys and a separately scoped key per service. Another commenter, on the $20 plan, drives Claude Code on a build-machine VM from a phone app to build and install Android apps. These are personal anecdotes, so treat subscription and tool choices as inspiration only.",
+      "sourceName": "Hacker News · Ask HN",
+      "sourceUrl": "https://news.ycombinator.com/item?id=50366117",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-04T14:37:22Z",
+      "curatedAt": "2026-11-09T23:13:33Z"
+    },
     {
       "id": "curated-20261109-metacode-claude-mods-free-lecture-ko",
       "title": "메타코드M: 클로드 코드 Mods 50분 무료강의 — Skills·MCP·Hooks와 Mods의 차이, 사용량·PC 상태 표시, PRD 기반 진행 추적, 개인정보 마스킹 등 7가지 실습",
@@ -41,19 +145,6 @@
       "curatedAt": "2026-11-08T23:12:37Z"
     },
     {
-      "id": "curated-20261109-techwithtim-codex-99-percent",
-      "title": "Tech With Tim: Codex 99%를 한 영상에 — 모델·노력 수준·권한 모드, AGENTS.md, 스킬, 서브에이전트, Goal 모드, 자동화를 배울 순서대로 48분",
-      "body": "Tech With Tim이 47분 49초 동안 Codex를 열어 프롬프트만 치고 끝내는 사람을 위해 배워야 할 순서대로 기능을 훑습니다. 모델 선택(13:02)과 노력 수준·Fast 모드(16:27), 권한 모드(17:48), 계획 만들기(19:42), 플러그인·커넥터 연결(22:19)에 이어 앱을 만들고 AGENTS.md를 쓰며(29:53) 브라우저·컴퓨터 사용(32:59), 세션·컨텍스트 관리(36:13), 스킬(39:52), 서브에이전트(43:25), Goal 모드(45:28), 자동화(46:16)까지 챕터로 나뉩니다. 영어 영상이며 설명란에 Hostinger VPS 배포 제휴 코드와 AI 에이전트 강의 홍보가 들어 있으니 감안하세요.",
-      "titleEn": "Tech With Tim: learn 99% of Codex in one video - models, effort levels, permission modes, AGENTS.md, skills, subagents, Goal mode and automations in the order to learn them (48 minutes)",
-      "bodyEn": "In 47m49s Tech With Tim walks through Codex features in the order you should learn them, aimed at people who open it, type a prompt and never touch the rest. Chapters cover model selection (13:02), effort levels and Fast mode (16:27), permission modes (17:48), creating a plan (19:42) and connecting plugins and connectors (22:19), then building an app and writing AGENTS.md (29:53), browser and computer use (32:59), session and context management (36:13), skills (39:52), subagents (43:25), Goal mode (45:28) and automations (46:16). The video is in English, and the description includes a Hostinger VPS affiliate code and a plug for an AI-agent course.",
-      "sourceName": "YouTube · Tech With Tim",
-      "sourceUrl": "https://www.youtube.com/watch?v=oBvuhcdSsuw",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=oBvuhcdSsuw",
-      "createdAt": "2026-11-06T13:56:35Z",
-      "curatedAt": "2026-11-08T23:12:37Z"
-    },
-    {
       "id": "curated-20261109-steve-claude-aside-inbox-assistant-ko",
       "title": "스티브의 파도타기: 카톡·메일·문자·홈페이지 연락을 한 곳에 모으는 AI 비서 — 클로드+Aside로 4단계 연결, 1~2시간 걸리던 확인 작업 비교 12분",
       "body": "스티브의 파도타기가 11분 39초 동안 여러 곳으로 흩어진 고객 연락을 클로드와 Aside로 한 화면에 모으는 AI 비서를 만들어 보입니다. 메일 연결(0:51)을 먼저 하고 문제 정의 기획(1:41), 홈페이지 연결(2:31), 카톡 연결(4:17), 문자·전화 연결(7:11) 순으로 붙여 가며, 기존 방식에서 최소 1~2시간 걸리던 확인 작업 시간이 어떻게 바뀌는지 결과 정리(8:43)에서 견줍니다. 아버지 회사에서 일하며 겪은 불편에서 출발한 사례라 소규모 사업장의 응대 업무에 옮겨 보기 좋고, 설명란에 무료 AX 사전 진단 신청 안내가 있습니다.",
@@ -64,19 +155,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=-ANcJq8xuzs",
       "createdAt": "2026-11-06T13:36:16Z",
-      "curatedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "curated-20261109-hn-stroq-coding-agent-audit",
-      "title": "Show HN Stroq: 코딩 에이전트가 한 일을 로컬에서 감사하고 위험한 명령은 실행 전에 막는다 — npx 한 줄로 최근 30일 세션 점검, 알려진 공격 36개 재현",
-      "body": "Stroq(HN 11월 5일, 93점)는 Claude Code·Cursor·Codex·Copilot CLI·Windsurf·Antigravity용 오픈소스(Apache-2.0) 로컬 보안 도구입니다. npx @stroq/cli 한 줄이면 최근 30일 에이전트 세션을 읽어 실행한 명령 수, 에이전트가 읽은 글에서 비롯된 명령 수, 밖으로 나갔을 수 있는 키 이름(값은 보여 주지 않음)을 보여 주고, init으로 훅을 설치하면 curl | sh와 알려진 비밀이 실린 외부 호출을 막고 에이전트가 읽은 글을 되풀이하는 명령은 먼저 묻습니다. stroq attack은 알려진 공격 36개를 재현해 0.30.0 기준 15개 거부·21개 확인·0개 통과라고 작성자가 밝히지만, 훅은 호스트가 넘겨주는 정보만 보고 텍스트 일치로 추적하는 필터일 뿐 샌드박스가 아니라는 한계도 적혀 있습니다(Node.js 22 이상 필요).",
-      "titleEn": "Show HN Stroq: audit what your coding agent did locally and block risky commands before they run - check 30 days of sessions with one npx line, replay 36 known attacks",
-      "bodyEn": "Stroq (HN, November 5, 93 points) is an open-source (Apache-2.0) local security tool for Claude Code, Cursor, Codex, Copilot CLI, Windsurf and Antigravity. A single npx @stroq/cli command reads the last 30 days of agent sessions and reports how many commands ran, how many came from text the agent had read, and which key names may have left the machine (names only, never values); init installs hooks that deny curl | sh and outbound calls carrying a known secret, and ask first when a command repeats text the agent read. stroq attack replays 36 known attacks and the author reports 15 denied, 21 asked about and 0 passed on version 0.30.0, but the project states its limits: hooks see only what the host agent sends them, tracing is text-level matching, and it is a filter rather than a sandbox (Node.js 22 or newer required).",
-      "sourceName": "Hacker News · Stroq",
-      "sourceUrl": "https://github.com/AGGIB/Stroq",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-05T15:54:41Z",
       "curatedAt": "2026-11-08T23:12:37Z"
     },
     {
@@ -119,19 +197,6 @@
       "curatedAt": "2026-11-07T23:24:35Z"
     },
     {
-      "id": "curated-20261108-geeknews-doordash-search-gateway-ko",
-      "title": "DoorDash: LLM 내장 웹 검색을 떼어 내 검색 비용 98% 절감 — 공유 검색 게이트웨이(MCP 호환), 공급자 교체, 2단계 캐시로 적중률 6.2%→99.4%",
-      "body": "DoorDash 기술 블로그 글(GeekNews 11월 7일)은 검색 의도 분류 시스템에서 모델 내장 웹 검색을 쓰는 대신 에이전트·모델과 검색 공급자 사이에 공유 검색 게이트웨이(DSG)를 둔 사례입니다. Serper·BrightData·Firecrawl·Exa·Tavily를 YAML 어댑터로 바꿔 끼우고 시간 초과 시 다음 공급자로 넘기며, 정확 일치와 임베딩 유사도 2단계 캐시로 적중률을 6.2%에서 99.4%로, 평균 지연을 68% 줄였습니다. 일반 소매 7,988건에서 정확도는 DSG+Serper 93.90%, 내장 검색 93.40%였고 검색 비용은 1,000건당 0.70달러 미만으로 98% 이상 줄었습니다(모델 추론 비용 제외). 다만 최신성이 중요한 FreshQA에서는 5개 모델 모두 내장 검색이 앞섰고 검색 공급자에 대한 의존이 생긴다는 한계도 밝힙니다.",
-      "titleEn": "DoorDash: pulling LLM built-in web search out into a gateway cut search cost by 98% - a shared MCP-compatible search gateway, swappable providers and a two-tier cache (hit rate 6.2% to 99.4%)",
-      "bodyEn": "A DoorDash engineering post (shared on GeekNews on November 7) describes putting a shared search gateway (DSG) between agents or models and the search providers in its query-intent system, instead of using each model's built-in web search. Serper, BrightData, Firecrawl, Exa and Tavily plug in through YAML adapters with fallback to the next provider on timeout, and a two-tier cache (exact match, then embedding similarity) raised the hit rate from 6.2% to 99.4% and cut average latency by 68%. On 7,988 general retail queries accuracy was 93.90% for DSG+Serper against 93.40% for built-in search, and search cost fell by more than 98% to under $0.70 per 1,000 queries (model inference excluded). It also reports limits: built-in search won for all five models on the freshness-focused FreshQA, and you take on a dependency on third-party search providers.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36733",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-07T00:00:00Z",
-      "curatedAt": "2026-11-07T23:24:35Z"
-    },
-    {
       "id": "curated-20261108-vibemafia-pm-theory-harness-live-ko",
       "title": "바이브마피아: 바이브코더를 위한 PM 이론 + 하네스 구축 — AI가 작업 시간·토큰을 30·50·80% 세 가지로 예측하고 실측으로 고치는 구조, 2시간 42분 라이브",
       "body": "바이브마피아가 2시간 41분 56초 라이브에서 Scott Berkun의 『The Art of Project Management』로 PM 이론을 정리하고 실제 앱 프로젝트에 적용합니다. 비전 문서를 가장 먼저 쓰고(54:51), 목표를 비즈니스·팀·개인 세 계층으로 나누며(57:07), 좋은 스펙을 쓰는 법과 AI에게 지시하는 법(1:10:05~1:12:03)을 거쳐 CLAUDE.md를 AGENTS.md로 줄이는 루트 지침 다이어트(1:23:07)와 여러 세션이 동시에 일할 때 충돌 막기(1:36:05)를 보여 줍니다. 후반부에는 요구사항→예측→수행→실측 구조로 30·50·80% 세 가지 예측을 내게 하는 작업 예측 하네스를 라이브로 만들고(1:45:12), 예측보다 빨리 끝난 결과(2:17:22)와 예측·실측 장부로 스스로 고치는 엔진(2:26:45)을 확인합니다. 앞쪽 약 17분은 대기 시간이고 설명란에 유료 강의·멤버십 안내가 있으니 챕터로 건너뛰며 보세요.",
@@ -142,19 +207,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=lIZvLVESRoE",
       "createdAt": "2026-11-06T02:00:03Z",
-      "curatedAt": "2026-11-07T23:24:35Z"
-    },
-    {
-      "id": "curated-20261108-geeknews-google-agent-distraction-todo-ko",
-      "title": "Google: 코드에 남은 낡은 TODO가 코딩 에이전트를 샛길로 빠뜨린다 — 우회 세션은 스텝 70%·토큰 77%·대기 105% 증가, 죽은 TODO 정리 에이전트 승인율 95%",
-      "body": "Google 개발자 블로그 「Agent Distraction」(11월 6일, GeekNews 소개)은 사내 코딩 에이전트의 실행 기록을 분석합니다. 파일을 읽은 세션의 약 13%가 TODO(bug/...)·FIXME(bug/...) 주석을 만났고, 그중 6%에서만 에이전트가 해당 버그를 따라갔지만 그 행동의 83%는 사용자가 시키지 않은 것이었으며 시키지 않은 우회의 약 41%는 이미 닫힌 버그를 향했습니다. 이런 우회가 생긴 세션은 다른 요인을 통제해도 스텝 70%·토큰 77%·대기 시간 105%가 늘었습니다. 대응으로 버그 상태와 TODO를 대조해 낡은 참조를 지우는 정리 에이전트를 6개월 운영해 수천 건을 제거했고 사람 리뷰어 승인율이 95%를 넘었으니, 삭제 전에 버그·파일 이력을 확인하고 변경은 리뷰로 올리라는 권고입니다.",
-      "titleEn": "Google: stale TODOs left in code send coding agents down side paths - detour sessions took 70% more steps, 77% more tokens and 105% more wait time, and a dead-TODO cleanup agent got 95% reviewer acceptance",
-      "bodyEn": "Google's developer blog post 'Agent Distraction' (November 6, shared on GeekNews) analyzes execution logs from its internal coding agents. About 13% of file-reading sessions met a TODO(bug/...) or FIXME(bug/...) comment; agents followed the referenced bug in only 6% of those encounters, but 83% of that action was unprompted and about 41% of the unprompted detours targeted bugs that were already closed. Sessions with such a detour took 70% more steps, 77% more tokens and 105% more wait time after controlling for other factors. In response, a cleanup agent that cross-checks bug status against TODOs and deletes stale references ran for six months, removed thousands and got over 95% human reviewer acceptance; the advice is to check bug and file history before deleting and to submit the changes for review.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36749",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-06T00:00:00Z",
       "curatedAt": "2026-11-07T23:24:35Z"
     },
     {
@@ -171,45 +223,6 @@
       "curatedAt": "2026-11-07T23:24:35Z"
     },
     {
-      "id": "curated-20261107-hn-hightouch-cheap-judge-opus-hybrid",
-      "title": "Hightouch: 값싼 신뢰도 모델이 먼저 판정하고 애매한 22%만 Opus에게 — 정확도 98.8%(Opus 단독 99.0%)에 비용은 1,000건당 3.86달러에서 0.88달러로",
-      "body": "Hightouch가 사람 프로필 1,000건의 잘못된 병합(over-merge) 여부를 가리는 과제로, 0~1 신뢰도 점수를 돌려주는 '결정 모델' Jev와 GPT-6 Luna를 Opus 5.5와 견줬습니다(HN 11월 6일, 232점). 단독으로는 Opus 5.5가 99.0%에 건당 2.2초·1,000건 3.86달러, Jev는 95.7%에 0.15초·0.05달러였지만, 신뢰도 30~90% 구간(전체의 22%)만 Opus에게 넘기는 하이브리드는 98.8%에 0.88달러였습니다. 더 어려운 시험에서는 Opus 단독 95.1%(5.39달러)보다 하이브리드 Jev가 95.3%(2.94달러)로 앞섰는데, 틀릴 때 신뢰도가 낮아지는 Jev와 달리 Luna는 확신에 차서 틀려 하이브리드 효과가 작았습니다. 값싼 모델 뒤에 비싼 모델을 두는 에이전트 구성의 임계값을 잡을 때 참고할 수치지만, 가상 마을 합성 데이터에 한 회사의 자체 측정이고 글이 채용 안내를 겸한다는 점은 감안하세요.",
-      "titleEn": "Hightouch: let a cheap confidence model judge first and send only the uncertain 22% to Opus - 98.8% accuracy (Opus alone 99.0%) at $0.88 instead of $3.86 per 1,000",
-      "bodyEn": "Hightouch compared Opus 5.5 with two 'decision models' that return a 0-1 confidence score, Jev and GPT-6 Luna, on judging whether 1,000 people profiles were wrongly merged (HN, November 6, 232 points). Alone, Opus 5.5 scored 99.0% at 2.2 s per profile and $3.86 per 1,000, while Jev scored 95.7% at 0.15 s and $0.05; a hybrid that forwards only the 30-90% confidence band (22% of cases) to Opus reached 98.8% for $0.88. On a harder test, hybrid Jev scored 95.3% for $2.94 against Opus alone at 95.1% for $5.39, and Luna helped the hybrid much less because it is confidently wrong where Jev's mistakes come with low confidence. Useful numbers when tuning the threshold for a cheap-model-first, expensive-model-second agent setup, but it is synthetic data on a fictional town, one company's own measurement, and the post doubles as a hiring pitch.",
-      "sourceName": "Hacker News · Hightouch",
-      "sourceUrl": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-06T19:48:51Z",
-      "curatedAt": "2026-11-06T23:12:14Z"
-    },
-    {
-      "id": "curated-20261107-directorsai-token-saving-setup-ko",
-      "title": "디렉터스AI: 코덱스·클로드 코드 토큰 낭비 줄이는 3가지 — 지침 파일에 기준 남기기, 새 채팅과 인수인계서, 해결 기록은 옵시디언에 15분",
-      "body": "디렉터스AI가 14분 52초 동안 Codex·Antigravity·Claude Code로 개발하면서 같은 설명을 반복하고 이미 실패한 방법을 또 시도하게 만드는 낭비를 줄이는 세 가지를 예약 앱 예시로 보여 줍니다. 매번 말하던 개발 기준을 전역·프로젝트 지침 파일(마스터 프롬프트)에 남기고(1:06), 작업이 바뀌면 새 채팅으로 나누되 현재 목표·변경 파일·확정한 결정·실패한 시도와 이유·테스트 결과·다음 행동을 적은 인수인계서로 이어 가며(3:03~5:53), 해결한 문제를 기록해 옵시디언으로 장기 기억처럼 다시 찾아 씁니다(8:58~11:54). 설명란에 복사용 인수인계 프롬프트와 자료 페이지가 있고, 운영자의 유료 제품·전자책 안내도 함께 들어 있으니 감안하세요.",
-      "titleEn": "Directors AI: three ways to stop wasting tokens in Codex and Claude Code - keep standards in an instruction file, split chats with a handoff note, and log solved problems in Obsidian (15 minutes)",
-      "bodyEn": "In 14m52s the Korean channel Directors AI (디렉터스AI) uses a booking-app example to show three ways to stop repeating yourself to Codex, Antigravity and Claude Code and stop letting them retry methods that already failed. Put the development standards you keep restating into global and project instruction files (a 'master prompt') (1:06); when the task changes, start a new chat and carry over only a handoff note listing the current goal, changed files, decisions made, failed attempts and why, test results and the next action (3:03-5:53); and record solved problems so they can be found again, with Obsidian acting as long-term memory (8:58-11:54). The description has a copyable handoff prompt and a resource page, and also plugs the creator's paid product and ebook.",
-      "sourceName": "YouTube · 디렉터스AI",
-      "sourceUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=2780spHyWE8",
-      "createdAt": "2026-11-06T12:00:31Z",
-      "curatedAt": "2026-11-06T23:12:14Z"
-    },
-    {
-      "id": "curated-20261107-connectailab-blender-mcp-autopilot-ko",
-      "title": "CONNECT AI LAB: 영상을 생성하지 말고 바이브 코딩하라 — Blender MCP를 Claude·Codex·Antigravity에 연결하고 매일 아침 8시 자동 렌더링하는 AI 콘텐츠 팀 35분",
-      "body": "CONNECT AI LAB이 35분 24초 동안 영상을 매번 생성하는 대신 3D 모델을 한 번 만들어 재활용해 매일 영상을 자동으로 뽑는 '영상 바이브 코딩' 구성을 보여 줍니다. GitHub의 Blender MCP를 Claude, ChatGPT Codex, Antigravity에 연결해(11:37~12:46) 말로 시키면 도구를 찾아 코딩하게 하고, 빨간 공과 무지개·떨어지는 천·이미지 배경을 세 AI가 나눠 만든 뒤(14:42~18:20) 카메라 무빙 프롬프트로 영상을 렌더링합니다(21:33). 파일 하나가 곧 자산이라 재사용으로 비용을 줄이고, 매일 아침 8시에 AI가 새 영상을 만드는 오토파일럿 프롬프트(28:12)까지 다룹니다. 프롬프트와 파일은 GitHub 저장소 wonseokjung/blender-mcp-vibecoding에 공개돼 있고, 설명란에 11~12월 멤버십 프로젝트 안내가 있습니다.",
-      "titleEn": "CONNECT AI LAB: don't generate video, vibe-code it - connect Blender MCP to Claude, Codex and Antigravity and render a new video every morning at 8am with an AI content team (35 minutes)",
-      "bodyEn": "In 35m24s the Korean channel CONNECT AI LAB shows 'video vibe coding': instead of generating video each time, build a 3D asset once, reuse it, and let AI render a video automatically every day. It connects the Blender MCP from GitHub to Claude, ChatGPT Codex and Antigravity (11:37-12:46) so plain-language requests find the tools and write the code, has the three AIs split a red ball and rainbow, a falling cloth and an image background (14:42-18:20), then renders video from camera-move prompts (21:33). Because one file is the asset, reuse keeps costs down, and the autopilot prompt that makes a new video at 8am each day is at 28:12. The prompts and files are open-sourced in the wonseokjung/blender-mcp-vibecoding repo, and the description also promotes a November-December membership project.",
-      "sourceName": "YouTube · CONNECT AI LAB",
-      "sourceUrl": "https://www.youtube.com/watch?v=Yz3124ulHKE",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=Yz3124ulHKE",
-      "createdAt": "2026-11-06T03:34:08Z",
-      "curatedAt": "2026-11-06T23:12:14Z"
-    },
-    {
       "id": "curated-20261107-geeknews-pragmatic-engineer-two-eras-ko",
       "title": "소프트웨어 엔지니어링은 어떻게 달라지고 있나: 월 PR 19개에서 207개로 — 에이전트 3~5개 병렬, PR마다 HTML 결과물, 자동 리뷰만 거치는 병합과 장애를 검사 항목으로 되돌리기",
       "body": "The Pragmatic Engineer 에세이 공모(125편)의 우승작으로, Bloomberg·PostHog·Tano를 거친 엔지니어의 월간 PR이 AI 도입 전 약 19개에서 207개로 11배 늘었다는 경험담입니다(GeekNews 11월 6일). Claude Code Desktop으로 한 번에 3~5개 작업을 돌리며 계획만 검토하고 PR마다 읽기 쉬운 HTML 결과물을 만들게 해 확인하며, Claude Code GitHub Actions 리뷰 에이전트가 모든 PR에서 CI로 돌아 사람 리뷰는 코드베이스에 익숙해진 약 3~8주 뒤부터 선택 사항이 됩니다. 모든 통화에 100을 곱한 코드나 600만 행 테이블의 쓰기 차단 마이그레이션 같은 장애는 리뷰 에이전트의 검사 항목으로 되돌려 넣었고, 동시 작업 제한과 퇴근 후 차단이 필요할 만큼 피로도 컸다고 합니다. PR 수는 사업 성과가 아니며 AI만의 효과를 분리한 비교도 아니라는 단서가 붙습니다.",
@@ -221,19 +234,6 @@
       "mediaUrl": "",
       "createdAt": "2026-11-06T01:16:28Z",
       "curatedAt": "2026-11-06T23:12:14Z"
-    },
-    {
-      "id": "curated-20261106-geeknews-ibare-one-year-with-agents-ko",
-      "title": "ibare: AI 에이전트와 혼자 개발한 1년 — 설계·구현·검증이 규칙 개선으로 돌아오는 닫힌 루프, 구현 맥락 밖의 독립 세션이 리뷰",
-      "body": "ibare가 AI 에이전트와 1년여 혼자 개발하며 코드 작성보다 에이전트의 진행과 결과를 통제하고 개선하는 개발 과정을 만드는 데 집중한 경험을 연재 첫 편으로 풀었습니다(GeekNews 11월 5일). 구현 맥락을 공유한 리뷰어는 사각지대도 공유하기 쉬우니 고정된 코드 스냅샷을 독립 세션에서 검토하고, 별도 검증자가 지적의 근거를 다시 확인하며, 구현 중 쌓인 규칙 위반 기록으로 규칙을 신설·개정·폐지합니다. PR마다 지적 장부를 두어 이전 지적의 해결 여부부터 확인하고 수정하지 않은 코드의 새 지적은 심각한 것만 허용해 리뷰가 끝없이 반복되는 일을 줄이며, 머지 뒤에는 코드 생존율과 복잡도 추이를 봅니다. 에이전트의 완료 보고 대신 실행 기록과 코드 변경을 확인하라는 점과, 사람의 시간이 코드 작성에서 스펙 정의로 옮겨 갔다는 결론이 핵심입니다.",
-      "titleEn": "ibare: one year developing solo with AI agents - a closed loop where design, implementation and verification feed back into rules, with independent sessions reviewing outside the implementation context",
-      "bodyEn": "In the first post of a planned series (shared on GeekNews on November 5), ibare describes a year of solo development with AI agents, focused less on writing code than on building a process that controls and improves what the agents do. A reviewer who shared the implementation context tends to share its blind spots, so a frozen code snapshot is reviewed in an independent session, a separate verifier rechecks the evidence behind each finding, and the rule violations logged during implementation are used to add, revise or retire rules. Each PR keeps a ledger of findings that first checks whether earlier ones were resolved, and new findings on code that was not changed are limited to serious ones so reviews stop looping; after merge, code survival and complexity trends are watched. Key points: check execution records and code changes instead of the agent's completion report, and human time shifts from writing code to defining specs.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36647",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-05T09:26:27Z",
-      "curatedAt": "2026-11-05T23:14:15Z"
     },
     {
       "id": "curated-20261106-chatdaeri-multi-agent-test-ko",

@@ -1,6 +1,42 @@
 {
-  "generatedAt": "2026-11-08T23:12:37Z",
+  "generatedAt": "2026-11-09T23:13:33Z",
   "videos": [
+    {
+      "id": "vid-milan-claude-code-usage-tracker-timescaledb",
+      "youtubeId": "ke-gFRP6TJ8",
+      "category": "usecase",
+      "title": "클로드 코드 사용량 추적기 만들기: OpenTelemetry·TimescaleDB·MCP로 모델별 사용량 보기",
+      "titleEn": "I Built a Claude Code Usage Tracker with TimescaleDB",
+      "descKo": "월 200달러 구독 사용량이 API 가격으로 얼마일지 보려고 .NET 앱 TokenScope를 만들어 Claude Code 요청을 OpenTelemetry로 모으고 TimescaleDB 집계로 보여 주며 MCP로 질의하는 과정을 30분에 시연(Tiger Data 협찬, 영어).",
+      "descEn": "A 30-minute build of TokenScope, a .NET app that collects Claude Code requests with OpenTelemetry, rolls them up with TimescaleDB continuous aggregates and lets Claude query the totals over MCP, to see what a $200/month plan costs at API prices (sponsored by Tiger Data).",
+      "channel": "Milan Jovanović",
+      "publishedAt": "2026-11-09T11:53:03Z",
+      "addedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "vid-dalbee-ego-lite-browser-automation-27-runs-ko",
+      "youtubeId": "6rFAiXvLGN4",
+      "category": "usecase",
+      "title": "클로드 코드 브라우저 자동화 27번 비교: Chrome(CDP)·Aside·ego lite의 시간과 비용",
+      "titleEn": "AI Automation | ego lite Hands-On: I Compared It With Chrome and Aside Across 27 Runs",
+      "descKo": "유튜브 스튜디오 질문, 쓰레드 글 수집, 인기글 찾기 세 작업을 같은 모델·프롬프트로 세 번씩 돌려 평균 19분·17분·11분, 한 번 3.4·3.2·1.9달러를 비교한 12분 실험(ego lite 지원 영상).",
+      "descEn": "A 12-minute experiment running YouTube Studio questions, Threads post collection and trending-post search three times each with the same model and prompt, comparing averages of 19, 17 and 11 minutes and $3.4, $3.2 and $1.9 per run (made with support from ego lite).",
+      "channel": "달비의 작업실",
+      "publishedAt": "2026-11-09T09:00:29Z",
+      "addedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "vid-teo-mcp-api-cli-morning-briefing-ko",
+      "youtubeId": "Gj2NptppUtg",
+      "category": "tip",
+      "title": "MCP·API·CLI 차이와 나눠 쓰는 법: 노션·유튜브·구글·카톡을 묶은 아침 8시 브리핑",
+      "titleEn": "AI Agents | The Difference Between MCP, API and CLI and How I Actually Split Them | 3 Claude Connection Cases",
+      "descKo": "API·MCP·CLI를 신입사원 비유로 가르고 노션 기획 담당 에이전트, 유튜브 댓글·수치 기반 영상 기획, 아침 8시 브리핑 세 가지 연결 사례와 클로드 데스크톱 연결 순서를 13분에 시연(연결 기준표는 오픈채팅방 안내).",
+      "descEn": "A 13-minute walkthrough that explains API, MCP and CLI with a new-hire analogy, then shows a Notion planning agent, YouTube comment and data based video planning and an 8am briefing, plus the Claude Desktop connection steps (the criteria table is shared in an open chat room).",
+      "channel": "태오의 실행 비즈니스",
+      "publishedAt": "2026-11-08T23:45:42Z",
+      "addedAt": "2026-11-09T23:13:33Z"
+    },
     {
       "id": "vid-betterstack-tokeneconomizer-claude-code",
       "youtubeId": "P5QCrpdr9gU",
@@ -38,40 +74,16 @@
       "addedAt": "2026-11-08T23:12:37Z"
     },
     {
-      "id": "vid-techwithtim-codex-99-percent",
-      "youtubeId": "oBvuhcdSsuw",
+      "id": "vid-sysmaker-vibecoding-free-lecture-9-ko",
+      "youtubeId": "Cv3-aT9kgEE",
       "category": "lecture",
-      "title": "Codex 99%를 한 영상에: 모델·권한·AGENTS.md·스킬·서브에이전트·자동화 48분 강의",
-      "titleEn": "Learn 99% of Codex in One Video",
-      "descKo": "Codex를 처음 설정하는 사람을 위해 모델과 노력 수준, 권한 모드, 계획, 커넥터, AGENTS.md, 스킬, 서브에이전트, Goal 모드, 자동화를 배울 순서대로 47분에 설명(영어, 제휴 코드 포함).",
-      "descEn": "A 47-minute English walkthrough in learning order: models and effort levels, permission modes, plans, connectors, AGENTS.md, skills, subagents, Goal mode and automations (includes an affiliate code).",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-11-06T13:56:35Z",
-      "addedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "vid-steve-claude-aside-inbox-assistant-ko",
-      "youtubeId": "-ANcJq8xuzs",
-      "category": "usecase",
-      "title": "카톡·메일·문자·홈페이지 연락을 한 곳에 모으는 AI 비서 만들기 (클로드+Aside)",
-      "titleEn": "I Built an AI Assistant That Gathers KakaoTalk, Email and Text Messages in One Place (Claude + Aside)",
-      "descKo": "메일·홈페이지·카톡·문자와 전화를 4단계로 연결해 흩어진 고객 연락을 한 화면에 모으고, 1~2시간 걸리던 확인 작업이 어떻게 달라지는지 12분에 시연(AX 진단 신청 안내 포함).",
-      "descEn": "A 12-minute demo connecting email, website, KakaoTalk, and texts and calls in four steps to gather scattered customer contacts in one view and compare it with 1-2 hours of manual checking (includes an AX diagnosis signup).",
-      "channel": "스티브의 파도타기 | AI 시대 일하는 법",
-      "publishedAt": "2026-11-06T13:36:16Z",
-      "addedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "vid-directorsai-claude-codex-antigravity-team-ko",
-      "youtubeId": "_dN-RMh0Tl0",
-      "category": "usecase",
-      "title": "클로드·코덱스·안티그래비티를 한 팀으로 돌리는 법: 지휘·구현·검수 역할 분리와 검증기",
-      "titleEn": "How to Run Claude, Codex and Antigravity as One Team",
-      "descKo": "Codex·Antigravity·Claude가 지휘·구현·검수를 나눠 맡고 AI가 아닌 검증기가 테스트를 돌려 숫자로 확인하며, 격리 작업공간·백업·롤백을 프롬프트가 아니라 프로그램이 강제하는 구조를 19분에 소개(소스 공개, 전자책·제품 안내 포함).",
-      "descEn": "A 19-minute tour of a setup where Codex, Antigravity and Claude split command, build and review, a non-AI verifier runs the tests, and isolation, backups and rollback are enforced by the program rather than the prompt (source published; includes ebook and product plugs).",
-      "channel": "디렉터스AI",
-      "publishedAt": "2026-11-04T12:00:06Z",
-      "addedAt": "2026-11-08T23:12:37Z"
+      "title": "바이브코딩 왕초보 무료강의 9강: 클로드로 만든 html을 친구 폰에서도 열리게 하는 배포·서버·도메인",
+      "titleEn": "Vibe Coding Beginner Free Course, Lesson 9: Making Your Claude-Built HTML Open on a Friend's Phone - Deployment, Servers and Domains",
+      "descKo": "배포를 가게 차리기에 빗대 프런트엔드·백엔드, 서버·DB, 호스팅·도메인, 내 컴퓨터와 배포 화면이 다른 이유를 10분에 짚고 클로드에게 첫 배포 방법을 묻는 문장과 무료 체크리스트를 제공(협찬·광고 없음).",
+      "descEn": "A 10-minute lesson that likens deployment to opening a shop - front end vs back end, servers and databases, hosting and domains, and why your own computer shows something different - with a sentence to ask Claude for a first deployment and a free checklist (no sponsorship or ads).",
+      "channel": "AI 시스메이커",
+      "publishedAt": "2026-11-08T03:30:36Z",
+      "addedAt": "2026-11-09T23:13:33Z"
     },
     {
       "id": "vid-dalbee-claude-code-29-usecases-ko",
@@ -110,76 +122,64 @@
       "addedAt": "2026-11-06T23:12:14Z"
     },
     {
-      "id": "vid-jsmastery-docker-sandbox-agents-saas",
-      "youtubeId": "Nq8uOOMH9fg",
-      "category": "usecase",
-      "title": "코딩 에이전트 3개에 전체 권한 주기: Docker 샌드박스에서 풀스택 SaaS 만들고 배포하기",
-      "titleEn": "I Gave 3 Coding Agents Full Access | Build and Deploy a Full Stack SaaS",
-      "descKo": "리드 에이전트 1개가 계획하고 개발 에이전트 2개가 각자 Docker 샌드박스에서 나란히 코딩해 AI 지원 챗봇 AskWell을 만들고 배포하는 2시간 59분 실습(전체 권한을 안전하게 주고 작업을 나누는 법, 협찬 링크 포함).",
-      "descEn": "A 2h59m build where one lead agent plans and two developer agents code side by side, each in its own Docker sandbox, to ship the AskWell AI support chatbot (how to grant full access safely and split work so agents don't break each other; includes sponsor links).",
-      "channel": "JavaScript Mastery",
-      "publishedAt": "2026-11-06T14:35:12Z",
-      "addedAt": "2026-11-07T23:24:35Z"
-    },
-    {
-      "id": "vid-5pm-claude-token-diet-ko",
-      "youtubeId": "X2FUntuozPc",
-      "category": "tip",
-      "title": "클로드 토큰 다이어트: /context·/compact·/clear로 컨텍스트 91%를 13%로",
-      "titleEn": "클로드 필수 신기능! 토큰 다이어트 91% → 13% 직접 해 봤습니다",
-      "descKo": "대화가 길면 답할 때마다 앞 대화를 통째로 다시 읽는 원리와 /context로 재고 /compact로 접고 /clear로 비우는 법, /btw·/goal 팁을 7분에 직접 측정하며 설명(압축하면 세부 내용을 잊는다는 주의 포함).",
-      "descEn": "A 7-minute measured demo of why long chats re-read the whole history on every reply, and how to measure with /context, fold with /compact and reset with /clear, plus /btw and /goal tips (with the caveat that compaction forgets detail).",
-      "channel": "오후다섯씨",
-      "publishedAt": "2026-11-06T12:05:26Z",
-      "addedAt": "2026-11-06T23:12:14Z"
-    },
-    {
-      "id": "vid-directorsai-token-saving-setup-ko",
-      "youtubeId": "2780spHyWE8",
-      "category": "tip",
-      "title": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지: 지침 파일·인수인계서·해결 기록",
-      "titleEn": "코덱스·클로드 코드 토큰 낭비 줄이는 3가지 정리법",
-      "descKo": "예약 앱 예시로 개발 기준을 지침 파일에 남기고, 새 채팅과 인수인계서로 작업을 나누고, 해결 기록을 옵시디언으로 다시 찾는 법을 15분에 시연(복사용 프롬프트·유료 제품 안내 포함).",
-      "descEn": "A 15-minute walkthrough on a booking-app example: keep standards in instruction files, split work into new chats with a handoff note, and retrieve solved-problem logs through Obsidian (includes copyable prompts and a product plug).",
-      "channel": "디렉터스AI",
-      "publishedAt": "2026-11-06T12:00:31Z",
-      "addedAt": "2026-11-06T23:12:14Z"
-    },
-    {
-      "id": "vid-connectailab-blender-mcp-autopilot-ko",
-      "youtubeId": "Yz3124ulHKE",
-      "category": "usecase",
-      "title": "영상을 생성하지 말고 바이브 코딩하기: Blender MCP로 매일 아침 자동 영상 만드는 AI 콘텐츠 팀",
-      "titleEn": "AI 직원들이 밤새 영상 만드는 1인 기업 | 영상 바이브코딩으로 AI 자율 회사 만들기",
-      "descKo": "Blender MCP를 Claude·Codex·Antigravity에 연결해 3D 자산을 한 번 만들어 재활용하고 매일 아침 8시에 자동 렌더링하는 오토파일럿까지 35분에 시연(멤버십 안내 포함).",
-      "descEn": "A 35-minute demo connecting Blender MCP to Claude, Codex and Antigravity, building a 3D asset once, reusing it, and rendering a new video automatically every morning at 8am (includes a membership plug).",
-      "channel": "CONNECT AI LAB",
-      "publishedAt": "2026-11-06T03:34:08Z",
-      "addedAt": "2026-11-06T23:12:14Z"
-    },
-    {
-      "id": "vid-vibemafia-pm-theory-harness-live-ko",
-      "youtubeId": "lIZvLVESRoE",
+      "id": "vid-techwithtim-codex-99-percent",
+      "youtubeId": "oBvuhcdSsuw",
       "category": "lecture",
-      "title": "바이브코더를 위한 PM 이론 + 하네스 구축하기: 비전 문서부터 작업 예측 하네스까지 2시간 42분 라이브",
-      "titleEn": "PM Theory for Vibe Coders + Building a Harness (AI Native Engineer live)",
-      "descKo": "Berkun의 PM 이론을 비전 문서·목표 3계층·좋은 스펙으로 정리하고 CLAUDE.md→AGENTS.md 다이어트, 세션 충돌 방지, 30·50·80% 작업 예측 하네스를 라이브로 구현(앞 17분은 대기, 유료 강의·멤버십 안내 포함).",
-      "descEn": "A 2h42m live that turns Berkun's PM theory (vision doc, three goal layers, good specs) into practice: trimming CLAUDE.md to AGENTS.md, preventing session conflicts and building a harness that predicts task time at 30/50/80% (first ~17 minutes are waiting time; includes paid course and membership plugs).",
-      "channel": "바이브마피아",
-      "publishedAt": "2026-11-06T02:00:03Z",
-      "addedAt": "2026-11-07T23:24:35Z"
+      "title": "Codex 99%를 한 영상에: 모델·권한·AGENTS.md·스킬·서브에이전트·자동화 48분 강의",
+      "titleEn": "Learn 99% of Codex in One Video",
+      "descKo": "Codex를 처음 설정하는 사람을 위해 모델과 노력 수준, 권한 모드, 계획, 커넥터, AGENTS.md, 스킬, 서브에이전트, Goal 모드, 자동화를 배울 순서대로 47분에 설명(영어, 제휴 코드 포함).",
+      "descEn": "A 47-minute English walkthrough in learning order: models and effort levels, permission modes, plans, connectors, AGENTS.md, skills, subagents, Goal mode and automations (includes an affiliate code).",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-11-06T13:56:35Z",
+      "addedAt": "2026-11-08T23:12:37Z"
     },
     {
-      "id": "vid-chatdaeri-multi-agent-test-ko",
-      "youtubeId": "cIGRF-acSzs",
+      "id": "vid-steve-claude-aside-inbox-assistant-ko",
+      "youtubeId": "-ANcJq8xuzs",
+      "category": "usecase",
+      "title": "카톡·메일·문자·홈페이지 연락을 한 곳에 모으는 AI 비서 만들기 (클로드+Aside)",
+      "titleEn": "I Built an AI Assistant That Gathers KakaoTalk, Email and Text Messages in One Place (Claude + Aside)",
+      "descKo": "메일·홈페이지·카톡·문자와 전화를 4단계로 연결해 흩어진 고객 연락을 한 화면에 모으고, 1~2시간 걸리던 확인 작업이 어떻게 달라지는지 12분에 시연(AX 진단 신청 안내 포함).",
+      "descEn": "A 12-minute demo connecting email, website, KakaoTalk, and texts and calls in four steps to gather scattered customer contacts in one view and compare it with 1-2 hours of manual checking (includes an AX diagnosis signup).",
+      "channel": "스티브의 파도타기 | AI 시대 일하는 법",
+      "publishedAt": "2026-11-06T13:36:16Z",
+      "addedAt": "2026-11-08T23:12:37Z"
+    },
+    {
+      "id": "vid-davelee-claude-code-6-features-ko",
+      "youtubeId": "F15aMeaHOII",
       "category": "tip",
-      "title": "멀티 에이전트 쓰지 마세요: 단독 세션 vs 에이전트 팀 실측 비교",
-      "titleEn": "Don't Use Multi-Agent (Real Test Results)",
-      "descKo": "단독 세션·5인 에이전트 팀·리뷰어만 붙인 2인 체제에 같은 과제를 맡겨 시간·토큰·정답 테스트 점수를 비교하고 에이전트를 부를 시점을 정리한 9분 실험.",
-      "descEn": "A 9-minute experiment giving the same tasks to a solo session, a 5-agent team and a two-person setup with only a reviewer, comparing time, tokens and answer-test scores and when to call an agent.",
-      "channel": "챗대리의 AI연구소",
-      "publishedAt": "2026-11-04T13:00:17Z",
-      "addedAt": "2026-11-05T23:14:15Z"
+      "title": "최근 한 달 클로드 코드 신기능 6가지: Mods·MCP Tasks·ultrathink·advisor까지 직접 실험",
+      "titleEn": "Latest Claude Code New Features Roundup: Just These 6 Are Enough",
+      "descKo": "Mods로 위험 명령 확인창 만들기, MCP Tasks로 긴 테스트 맡기기, ultrathink·advisor, 에이전트 뷰, 쉬는 동안 자동 정리, /usage를 10분에 직접 시연(공식 문서 링크, 강의 사이트 안내 포함).",
+      "descEn": "A 10-minute hands-on tour of Mods that catch dangerous commands, MCP Tasks for long tests, ultrathink and advisor, the agent view, idle auto-compaction and /usage (official docs linked; includes a course-site plug).",
+      "channel": "잔재미코딩(DaveLee)",
+      "publishedAt": "2026-11-05T11:20:04Z",
+      "addedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "vid-hud-kakaotalk-ax-macro-ko",
+      "youtubeId": "h1TV_GRnp-A",
+      "category": "usecase",
+      "title": "카카오톡 자동화는 컴퓨터 유즈 말고 접근성 트리 매크로로: kax와 mac-app-ax 스킬",
+      "titleEn": "카카오톡 자동화 이렇게 하셔야 합니다 (컴퓨터 유즈 아님) - How to Automate KakaoTalk Without Computer Use",
+      "descKo": "AI가 앱을 다루는 네 등급을 정리하고 접근성 트리를 12개 매크로 명령으로 묶은 kax가 컴퓨터 유즈보다 빠른 것(할 일 정리 65초→37초)을 10분에 시연(계정 제재 가능성 경고, 코드·스킬 공개).",
+      "descEn": "A 10-minute demo ranking four ways an AI can drive an app and showing kax, which bundles the accessibility tree into 12 macro commands and beats computer use (65s to 37s on a to-do summary); warns about possible account restriction and links the open-source code and skill.",
+      "channel": "허드의 AI딸깍",
+      "publishedAt": "2026-11-04T21:00:28Z",
+      "addedAt": "2026-11-09T23:13:33Z"
+    },
+    {
+      "id": "vid-graycat-claude-code-codex-orca-real-feature",
+      "youtubeId": "3hF2lVNsXuo",
+      "category": "usecase",
+      "title": "Claude Code와 Codex로 실제 기능 하나 만들기: Codex가 계획·PR 리뷰, Orca 워크트리 병렬 버그 수정, 리뷰 3회 상한",
+      "titleEn": "How I Use Claude Code and Codex on a Real Feature in late 2026",
+      "descKo": "영상 편집기에 AI 줌·금색 하이라이트를 Claude Code로 구현하고 Codex가 계획과 PR을 리뷰하며, 독립 버그 3건을 Orca 워크트리에 나눠 처리하는 과정을 11분에 시연(기능 세션 약 3시간·API 가격 환산 약 54달러, 영어).",
+      "descEn": "An 11-minute walkthrough of building AI zooms and gold highlights for a video editor with Claude Code while Codex reviews the plan and PR, then fixing three independent bugs in separate Orca worktrees with an orchestrator and a three-round review cap (about 3 hours and roughly $54 at API prices for the feature session).",
+      "channel": "The Gray Cat",
+      "publishedAt": "2026-11-03T17:00:35Z",
+      "addedAt": "2026-11-09T23:13:33Z"
     }
   ]
 }
