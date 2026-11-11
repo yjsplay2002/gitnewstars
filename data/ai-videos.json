@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-11-10T23:13:42Z",
+  "generatedAt": "2026-11-11T23:14:26Z",
   "videos": [
+    {
+      "id": "vid-claude-fable-52-or-opus-claude-code",
+      "youtubeId": "C33hJGt-ySg",
+      "category": "tip",
+      "title": "Fable 5.2 vs Opus: Claude Code에서 모델을 언제 바꿀까 — Opus 5.5로 시작해 위아래로 옮기는 기준",
+      "titleEn": "Fable 5.2 or Opus? When to use each model in Claude Code",
+      "descKo": "Anthropic 공식 3분 28초 영상으로, Opus 5.5로 시작할 때·Fable 5.2로 올릴 때·Sonnet 5.5나 Haiku 5.5로 내릴 때·한 작업을 여러 모델에 나눌 때의 기준을 챕터별로 설명(영어, 한도는 요금제별로 다름).",
+      "descEn": "A 3-minute official Anthropic video on when to start on Opus 5.5, move up to Fable 5.2, drop to Sonnet 5.5 or Haiku 5.5, and split one job across models, chapter by chapter (usage limits vary by plan).",
+      "channel": "Claude",
+      "publishedAt": "2026-11-11T17:30:20Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "vid-wdyo-claude-code-obsidian-family-brain",
+      "youtubeId": "wdyOjcCj2hw",
+      "category": "usecase",
+      "title": "Claude Code + Obsidian으로 만든 우리 집 AI 두뇌: 가전·보증서·보험 문서와 가족 할 일을 마크다운으로",
+      "titleEn": "Claude Code + Obsidian: My family's AI brain",
+      "descKo": "수학 교사 Scott Farrar가 가전, 보증서, 보험 문서, 가족 할 일 목록을 마크다운 폴더에 모아 Obsidian으로 보는 '집 두뇌'를 Claude Code로 만들어 자동차 보험 비교, 수리 계획, 아내와의 공유, 벽걸이 디스플레이까지 34분에 시연(영어, 스폰서 광고 포함).",
+      "descEn": "A 34-minute walkthrough of math educator Scott Farrar's household brain: a folder of Markdown files viewed in Obsidian covering appliances, warranties, insurance documents and the family to-do list, used for car-insurance shopping, repair planning, sharing with his wife and a wall display (includes sponsor ads).",
+      "channel": "How I AI",
+      "publishedAt": "2026-11-11T13:00:06Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "vid-ijltc-gemini-carbon-vs-fable-cost-ko",
+      "youtubeId": "ijLTC-d1TMs",
+      "category": "usecase",
+      "title": "구글 카본 vs 클로드 페이블 5.2: 도시 로봇 만들기부터 코드 수정 과제까지 코딩 실력과 실제 비용 비교",
+      "titleEn": "New AI Model Showdown | Google Carbon vs Claude Fable 5.2 | We Compared Their Coding Skills and Real Costs",
+      "descKo": "같은 지도 데이터로 만든 도시 로봇과 실제 코드 수정 과제로 두 모델의 결과를 비교하고, 비슷한 최고점이 나온 평가에서 비용이 달랐던 이유와 카본 출시 할인·캐시·하네스가 청구액에 주는 영향을 8분에 정리.",
+      "descEn": "An 8-minute comparison of Gemini 4 Carbon and Fable 5.2 using a city robot built from the same map data and real code-fixing tasks, plus why costs differed on an evaluation with similar top scores and how the launch discount, caching and the harness affect your bill.",
+      "channel": "안될공학 - IT 테크 신기술",
+      "publishedAt": "2026-11-11T07:43:53Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "vid-hmeq-cole-medin-11-tiny-agent-fixes",
+      "youtubeId": "hMEQ4rdaOLw",
+      "category": "tip",
+      "title": "코딩 에이전트의 작은 문제 11가지와 효과 큰 해결책: 거짓 완료, 통과하는데 깨진 앱, 규칙 무시",
+      "titleEn": "11 More Tiny Coding Agent Fixes With A Stupid Amount Of Payoff (Learn These Now)",
+      "descKo": "'다 했다'는 거짓 보고, 증명 없는 완료, 통과하는데 깨진 테스트, 규칙 무시, 한도 소진 등 에이전트가 반복하는 11가지 문제의 해결책을 스킬·규칙·훅에 넣는 법을 24분 챕터별로 시연(영어, 협찬·강의 홍보 포함).",
+      "descEn": "A 24-minute, chapter-per-problem guide to 11 recurring agent failures - false 'done' claims, no proof of working, passing tests on a broken app, ignored rules, hitting limits - and how to build each fix into skills, rules and hooks (includes a sponsor and course plugs).",
+      "channel": "Cole Medin",
+      "publishedAt": "2026-11-10T22:57:03Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "vid-hgom-sysmaker-vibecoding-free-lecture-10-ko",
+      "youtubeId": "hGOmx5Tt-nY",
+      "category": "lecture",
+      "title": "바이브코딩 왕초보 무료강의 10강: API 키 하나 흘리면 내 돈이 나갑니다, 초보가 지킬 안전·비용 5가지",
+      "titleEn": "Vibe Coding Beginner Free Course, Lesson 10: Leak One API Key and It's Your Money - 5 Safety and Cost Rules for Beginners",
+      "descKo": ".env 금고와 .gitignore, 이미 올렸다면 키 교체, 읽기는 넓게·바꾸기는 좁게 자동 허용, 고객 정보 가리기, 구독 대 사용량 과금 상한, 커밋과 사본까지 5가지를 10분에 정리하고 기초 1~10강을 돌아봄(협찬·광고 없음).",
+      "descEn": "A 10-minute lesson on five rules - keys in .env and out of git, rotate rather than delete a leaked key, auto-allow reads widely and writes narrowly, mask customer data, cap usage-based billing, and keep commits plus a second copy - ending with a recap of basics lessons 1-10 (no sponsorship or ads).",
+      "channel": "AI 시스메이커",
+      "publishedAt": "2026-11-10T09:00:28Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "vid-kxux-fable-52-orchestrator-cost-ko",
+      "youtubeId": "KxUxK3NE2ZQ",
+      "category": "tip",
+      "title": "Fable 5.2 써보니 성능은 1위, 그런데 태스크당 26달러? Opus 5.5와 똑똑하게 나눠 쓰는 법",
+      "titleEn": "Claude Fable 5.2 Review: #1 in Performance, but $26 per Task? How to Use It Smartly",
+      "descKo": "출시 당일 3D 맨션·펠리컨 SVG·물리엔진·닌자 게임으로 시험하고, Artificial Analysis 1위와 태스크당 26달러를 근거로 일상은 Opus 5.5 Medium, 대규모 작업은 Fable 5.2 오케스트레이터와 하위 모델 서브에이전트로 나누는 법을 18분에 정리(멤버십 안내 포함).",
+      "descEn": "An 18-minute launch-day test with a 3D mansion, pelican SVG, physics engine and ninja game, then a split strategy from the Artificial Analysis #1 ranking and $26-per-task cost: Opus 5.5 at Medium for daily work, Fable 5.2 as orchestrator over lower-model subagents for big jobs (includes a membership plug).",
+      "channel": "AI 겸임교수 이종범",
+      "publishedAt": "2026-11-09T23:10:56Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "vid-7d9e-multi-agent-token-test-ko",
+      "youtubeId": "7d9ET7XGdxA",
+      "category": "tip",
+      "title": "멀티 에이전트 켰다가 토큰 5배 날렸다: 클로드 코드 혼자 vs 여럿 직접 비교",
+      "titleEn": "I Turned On Multi-Agent and Burned 5x the Tokens: Claude Code Solo vs Many, Tested",
+      "descKo": "같은 Claude Code·Sonnet 5.5로 게임 만들기, 회사 조사, 코드 리뷰, 웹 앱 5개를 혼자와 서브에이전트로 시켜 시간·토큰을 재고, 맞물린 일은 혼자가 빠르고 떼어지는 일은 여럿이 빠르다는 기준과 켜기 전 세 질문을 12분에 정리.",
+      "descEn": "A 12-minute test giving Claude Code (Sonnet 5.5) a game, company research, a code review and five web apps solo versus with subagents, measuring time and tokens: coupled work is faster alone, separable work is faster split, plus three questions to ask before enabling multi-agent.",
+      "channel": "옆자리 연구원",
+      "publishedAt": "2026-11-09T09:30:38Z",
+      "addedAt": "2026-11-11T23:14:26Z"
+    },
     {
       "id": "vid-witteveen-gemini-4-carbon-live",
       "youtubeId": "l32KKNKdpIk",
@@ -26,18 +110,6 @@
       "addedAt": "2026-11-10T23:13:42Z"
     },
     {
-      "id": "vid-techwithtim-agent-ide-jetbrains",
-      "youtubeId": "5z5aoqMURFM",
-      "category": "tip",
-      "title": "AI 에이전트에게 내 IDE를 줬더니: 터미널 에이전트 vs IDE 도구, 22만 줄 실서비스 코드 시험",
-      "titleEn": "I Gave My AI Agent My IDE. Here's What Changed.",
-      "descKo": "터미널 에이전트는 텍스트를 뒤지며 눈감고 코딩한다는 문제에서 출발해, 에이전트에 IDE가 아는 코드 정보를 연결하고 작은 파이썬 프로젝트와 약 22만 줄 실서비스 코드베이스에서 시험한 결과와 사람 리뷰 단계를 17분에 정리(영어, JetBrains 홍보 링크 포함).",
-      "descEn": "A 17-minute test of giving a coding agent the IDE's code understanding instead of text search, first on a small Python project and then on a real ~220,000-line production codebase, ending with the human review layer (English; includes JetBrains promo links).",
-      "channel": "Tech With Tim",
-      "publishedAt": "2026-11-09T15:11:46Z",
-      "addedAt": "2026-11-10T23:13:42Z"
-    },
-    {
       "id": "vid-mindung-claude-code-12-basics-ko",
       "youtubeId": "2g6j_JX-n_o",
       "category": "tip",
@@ -59,18 +131,6 @@
       "descEn": "A 10-minute explainer that gives the same shipping-fee bug to both tools, counts 4 model calls for Claude Code and 5 for Codex, finds the loop in the Codex source and covers token budget, compaction, approvals and sandbox, and checkpoints vs git undo (includes paid-course plugs).",
       "channel": "단테",
       "publishedAt": "2026-11-08T11:00:24Z",
-      "addedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "vid-directorsai-claude-codex-antigravity-team-ko",
-      "youtubeId": "_dN-RMh0Tl0",
-      "category": "usecase",
-      "title": "클로드·코덱스·안티그래비티를 한 팀으로 돌리는 법: 지휘·구현·검수 삼권분립과 AI 아닌 검증기",
-      "titleEn": "How to Run Claude, Codex and Antigravity as One Team",
-      "descKo": "비개발자가 코드를 거의 쓰지 않고 쓰는 AI DEV DIRECTOR를 처음부터 끝까지 보여 주며, 지휘·구현·검수를 Codex·Antigravity·Claude가 나눠 맡고 AI가 아닌 검증기가 테스트를 돌려 애매하면 불통과로 처리하는 구조를 19분에 설명(소스 공개, 자체 서비스 홍보 포함).",
-      "descEn": "A 19-minute walkthrough of AI DEV DIRECTOR, built by a non-developer who barely writes code: Codex, Antigravity and Claude split command, build and review, and a non-AI verifier runs the tests and fails anything ambiguous (source code released; includes plugs for the creator's own products).",
-      "channel": "디렉터스AI",
-      "publishedAt": "2026-11-04T12:00:06Z",
       "addedAt": "2026-11-10T23:13:42Z"
     },
     {
@@ -110,18 +170,6 @@
       "addedAt": "2026-11-09T23:13:33Z"
     },
     {
-      "id": "vid-betterstack-tokeneconomizer-claude-code",
-      "youtubeId": "P5QCrpdr9gU",
-      "category": "tip",
-      "title": "클로드 코드가 토큰을 낭비한다: Microsoft의 TokenEconomizer 플러그인 설치와 테스트",
-      "titleEn": "Claude Code Is Wasting Tokens... Microsoft Built a Fix",
-      "descKo": "Microsoft Research·UC Berkeley의 무료 오픈소스 TokenEconomizer를 Claude Code에 설치해 마이크로 스킬·도구 가지치기·실패 루프 감지를 시험하고 SWE-Bench 비용 18~31% 절감 주장을 7분에 검토.",
-      "descEn": "A 7-minute install and test of the free open-source TokenEconomizer from Microsoft Research and UC Berkeley in Claude Code - micro-skills, tool pruning and failure-loop detection - weighing its claimed 18-31% SWE-Bench cost cut.",
-      "channel": "Better Stack",
-      "publishedAt": "2026-11-08T12:15:31Z",
-      "addedAt": "2026-11-08T23:12:37Z"
-    },
-    {
       "id": "vid-metacode-claude-mods-free-lecture-ko",
       "youtubeId": "06FDOn1i6x8",
       "category": "lecture",
@@ -132,54 +180,6 @@
       "channel": "메타코드M",
       "publishedAt": "2026-11-08T11:22:44Z",
       "addedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "vid-5pm-thanks-token-cost-ko",
-      "youtubeId": "om3rpjpT6r4",
-      "category": "tip",
-      "title": "'고마워' 한 줄에 토큰 3만 9천 개: 긴 대화와 새 대화의 14배 차이",
-      "titleEn": "One 'Thanks' Line Cost 39,000 Tokens - I Measured It (How to Save Claude Tokens)",
-      "descKo": "긴 대화 38,865토큰 대 새 대화 2,843토큰을 직접 재고, 나눠 보내기 77,784→한 번에 묶기 38,882처럼 요청을 한 번에 모아 토큰을 아끼는 법을 4분에 보여 줌.",
-      "descEn": "A 4-minute measured demo: 38,865 tokens in a long chat vs 2,843 in a new one, and how batching requests (77,784 split vs 38,882 combined) saves tokens.",
-      "channel": "오후다섯씨",
-      "publishedAt": "2026-11-08T10:15:14Z",
-      "addedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "vid-sysmaker-vibecoding-free-lecture-9-ko",
-      "youtubeId": "Cv3-aT9kgEE",
-      "category": "lecture",
-      "title": "바이브코딩 왕초보 무료강의 9강: 클로드로 만든 html을 친구 폰에서도 열리게 하는 배포·서버·도메인",
-      "titleEn": "Vibe Coding Beginner Free Course, Lesson 9: Making Your Claude-Built HTML Open on a Friend's Phone - Deployment, Servers and Domains",
-      "descKo": "배포를 가게 차리기에 빗대 프런트엔드·백엔드, 서버·DB, 호스팅·도메인, 내 컴퓨터와 배포 화면이 다른 이유를 10분에 짚고 클로드에게 첫 배포 방법을 묻는 문장과 무료 체크리스트를 제공(협찬·광고 없음).",
-      "descEn": "A 10-minute lesson that likens deployment to opening a shop - front end vs back end, servers and databases, hosting and domains, and why your own computer shows something different - with a sentence to ask Claude for a first deployment and a free checklist (no sponsorship or ads).",
-      "channel": "AI 시스메이커",
-      "publishedAt": "2026-11-08T03:30:36Z",
-      "addedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "vid-dalbee-claude-code-29-usecases-ko",
-      "youtubeId": "1pp0uNCjvdk",
-      "category": "usecase",
-      "title": "클로드 코드 잘 쓰는 사람들은 뭘 만들었을까: 실제 활용 사례 29개",
-      "titleEn": "What Did People Who Are Good at Claude Code Actually Build? (29 Real Cases)",
-      "descKo": "집 TV 광고 끄기·9살 웹사이트·구독료 절감·몰래 감시 점검·업무·과학 연구까지 X에 공개된 Claude Code 사례 29개를 7개 묶음으로 17분에 정리(사례마다 원본 링크, 카톡방 안내 포함).",
-      "descEn": "A 17-minute tour of 29 Claude Code cases shared on X in seven groups, from killing TV ads and a 9-year-old's website to cutting subscriptions, finding hidden surveillance, work and science (original link for every case; includes a chat-community plug).",
-      "channel": "달비의 작업실",
-      "publishedAt": "2026-11-07T09:00:33Z",
-      "addedAt": "2026-11-07T23:24:35Z"
-    },
-    {
-      "id": "vid-sysmaker-vibecoding-free-lecture-5-8-ko",
-      "youtubeId": "yPmTPWstN50",
-      "category": "lecture",
-      "title": "바이브코딩 왕초보 무료강의 5~8강: 지침·스킬·서브에이전트부터 MCP·깃허브·라이선스까지",
-      "titleEn": "Vibe Coding Beginner Free Course, Lessons 5-8: Instructions, Skills and Subagents to MCP, GitHub and Licenses",
-      "descKo": "지침·스킬·서브에이전트 비교, MCP·커넥터·플러그인·API 구분과 API 키 보관, 깃 커밋·브랜치·PR로 되돌리기, 오픈소스 라이선스 네 가지를 강마다 무료 자료와 함께 39분에 정리.",
-      "descEn": "A 39-minute bundle of four lessons: instructions vs skills vs subagents, MCP vs connectors vs plugins vs API and keeping API keys safe, undoing mistakes with git commits, branches and PRs, and four open-source licenses, each with a free handout.",
-      "channel": "AI 시스메이커",
-      "publishedAt": "2026-11-07T09:00:19Z",
-      "addedAt": "2026-11-07T23:24:35Z"
     }
   ]
 }

@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-11-10T23:13:42Z",
+  "generatedAt": "2026-11-11T23:14:26Z",
   "posts": [
+    {
+      "id": "curated-20261112-hn-gemini-decisions-api-routing",
+      "title": "Google, Gemini Decisions API 공개 — 도구 선택·정책 점검·모델 라우팅 같은 '정해진 선택지' 판단을 150~250ms, 입력 100만 토큰당 0.10달러에",
+      "body": "Google이 문장을 생성하지 않고 후보 선택지의 점수만 한 번에 계산하는 Gemini Decisions API(모델 gemini-decision-1)를 공개했습니다(HN 11월 11일, 186점·댓글 60개). 도구 선택, 정책 점검, 모델 라우팅, 컨텍스트 채점처럼 답이 정해진 판단용으로, 입력 하나(텍스트·이미지·오디오·영상·PDF)에 질문을 최대 1,000개 묶어 예/아니오, 선택지 2~255개 객관식, 등급 채점을 한 번에 요청하면 확률과 0~1 신뢰도가 돌아옵니다. 응답은 처음부터 끝까지 150~250ms, 요금은 입력 100만 토큰당 0.10달러에 출력 토큰은 과금하지 않아서, 에이전트의 분기 단계에 끼워 넣고 신뢰도가 낮은 건은 폴백 모델이나 사람에게 넘기는 설계를 권합니다. Gemini 3.5 Flash-Lite보다 약 5배 저렴하다는 비교는 Google이 자체 벤치마크로 낸 수치입니다.",
+      "titleEn": "Google launches the Gemini Decisions API - closed-set decisions like tool selection, policy checks and model routing in 150-250 ms at $0.10 per million input tokens",
+      "bodyEn": "Google released the Gemini Decisions API (model gemini-decision-1), which scores a fixed set of candidate options in one forward pass instead of generating text (HN, November 11, 186 points, 60 comments). It targets bounded calls such as tool selection, policy checks, model routing and context grading: send one input (text, images, audio, video or PDF) with up to 1,000 independent questions - yes/no, multiple choice with 2-255 options, or an ordered rubric score - and get back probabilities with a 0-1 confidence score for each. End-to-end latency is 150-250 ms and pricing is $0.10 per million input tokens with no output tokens billed, so the intended pattern is to put it at the branching steps of an agent and send low-confidence cases to a fallback model or a human. The claim of being nearly 5x cheaper than Gemini 3.5 Flash-Lite on a shared benchmark is Google's own measurement.",
+      "sourceName": "Hacker News · Google",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-11T18:00:00Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-hn-aws-emulator-spec-tests-merge-gate",
+      "title": "AWS Emulator와 '에이전트가 코드를 쓸 때 엔지니어의 일' — 스펙·실서비스 대조 테스트·머지 게이트를 먼저 깔자 4개월 걸렸던 재작성이 2시간으로",
+      "body": "Amazon이 코딩 에이전트가 로컬에서 테스트할 AWS 복제본 AWS Emulator를 공개하며 Swami Sivasubramanian이 쓴 글입니다(HN 11월 11일, 블로그 글 108점·저장소 스레드 543점). 서비스 API 모델 400개 이상(서비스 200개 넘게)을 스펙으로 삼고, 실제 AWS에 먼저 통과시켜 정답으로 굳힌 '충실도 테스트'를 에이전트가 통과할 때까지 에뮬레이터를 만들게 했으며, SQS 하나는 프롬프트 한 번에 약 15분 만에 쓸 만한 첫 버전이 나왔습니다. 글쓴이가 에이전트로 옛 복제 엔진을 다시 짤 때는 결과를 검증할 방법이 없어 4일 밤을 지켜봤지만, 스펙과 테스트 환경을 주자 약 2시간에 끝났다고 하고(처음엔 약 4개월), 보안 에이전트 여러 개가 적대적으로 보는 머지 게이트와 건드리면 안 되는 코드를 막는 결정적 검사를 함께 둡니다. 코드는 CC0로 공개돼 무료로 오프라인에서 돌릴 수 있지만 Amazon이 자사 제품을 설명하는 글이라 수치는 회사 측 설명으로 읽으세요.",
+      "titleEn": "AWS Emulator and the engineer's job when agents write the code - spec, real-AWS fidelity tests and a merge gate first, so a rebuild that took four months by hand took two hours",
+      "bodyEn": "This guest post by Swami Sivasubramanian accompanies the launch of AWS Emulator, a local copy of AWS that coding agents can test against (HN, November 11; 108 points for the blog post and 543 for the repository thread). The agents used more than 400 public API models covering over 200 services as the spec, wrote fidelity tests first and corrected them until they passed against real AWS, then built the emulator until it passed the same tests; a single prompt to Kiro produced a passable SQS emulator in about 15 minutes. The author also says that when he had an agent rebuild an old replication engine, he watched it for four nights before realizing it had no way to check its results, and once it had a spec and a test environment the rebuild took about two hours versus roughly four months originally; the guardrails include a merge gate with several adversarial security agents plus deterministic checks that block edits to protected code. The code is CC0 and runs free and offline, but this is Amazon describing its own product, so treat the numbers as the company's account.",
+      "sourceName": "Hacker News · All Things Distributed",
+      "sourceUrl": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-11T06:30:00Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-hn-maya-site-lidar-agents",
+      "title": "AI 에이전트 48개가 NASA 라이다를 훑어 마야 유적을 찾았다 — 이미지로 바꿔 나눠 보게 하고 문헌 대조까지 맡긴 72시간, 알고 보니 재발견",
+      "body": "Pietro Miotti가 공개 라이다 자료(약 1,200km² 정글)를 이미지로 바꾸고, 에이전트 48개가 하나씩 보며 피라미드·단·광장을 찾고 자연 언덕·싱크홀·길은 걸러 내게 했습니다(HN 11월 11일, 899점·댓글 328개). 별도 모델이나 분류기 없이 정확한 안내문만 주고 밤새 돌렸더니 아침에 후보 보고서가 쌓였고, 이어 '문헌과 기록에서 아직 등록 안 된 곳을 확인해 달라'고 시켜 언덕 하나를 골랐으며, 원시 점구름 단면으로 나무가 만든 착시가 아닌지까지 에이전트가 검증했습니다. 신고 절차를 묻고 보고서를 스페인어로 번역시켜 보내자 사흘 안에 멕시코 INAH가 등록된 유적이 없다고 답했지만, 글쓴이가 11월 11일 덧붙인 정정에 따르면 이미 2025년 논문에 지도화돼 있었고 에이전트가 문헌 검색에서 놓친 것이었습니다. 고고학자가 아닌 사람의 사례이고 발견이 아닌 재발견이니, 대량 이미지 검토를 병렬 에이전트에 맡기는 방식과 문헌 대조의 빈틈을 함께 참고하세요.",
+      "titleEn": "48 AI agents combed NASA lidar and found a Maya site - turn data into images, split the review across agents and have them cross-check the literature, in 72 hours (it was a rediscovery)",
+      "bodyEn": "Pietro Miotti turned public lidar coverage (about 1,200 km² of jungle) into images and had 48 agents look at them one by one for pyramids, platforms and plazas while filtering out natural hills, sinkholes and roads (HN, November 11, 899 points, 328 comments). There was no special model or classifier, only a precise guide and an overnight run; in the morning he asked the agents to check the candidates against the literature and archives, picked one hilltop, and had them verify against raw point-cloud slices that the shapes were ground rather than trees. After asking how to report it and having the report translated into Spanish, he heard back from Mexico's INAH within three days that no site was registered, but his November 11 update says the site had already been mapped in a 2025 paper that the agents missed during their literature search. It is a non-archaeologist's account and a rediscovery rather than a discovery, so take away the pattern of parallel image review and the gap in literature cross-checking.",
+      "sourceName": "Hacker News · pietromiotti.com",
+      "sourceUrl": "https://pietromiotti.com/latest/maya-site",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-11T12:05:00Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-yt-cole-medin-11-agent-fixes",
+      "title": "Cole Medin: 코딩 에이전트의 반복되는 짜증 11가지와 작은 해결책 — 안 끝났는데 '다 했다'고 말함, 통과하는데 깨진 테스트, 규칙 무시, 곁길 (24분)",
+      "body": "Cole Medin이 24분 38초 동안 코딩 에이전트가 되풀이하는 문제 11가지를 챕터별로 짚고, 각각의 작은 해결책을 스킬·규칙·훅에 넣는 법을 보여 줍니다. 안 끝났는데 끝났다고 말함(1:49), 동작을 증명하지 않음(4:45), 테스트는 통과하는데 앱이 깨짐(6:30), 규칙을 무시함(8:25), 규칙을 늘릴수록 결과가 나빠짐(12:37), 대화가 길수록 나빠짐(13:59), 작은 요청이 큰 변경이 됨(17:28), 한도 소진(19:07), 곁길로 샘(22:41) 순서입니다. 에이전트와 대화하며 변경 하나하나를 직접 승인하는 방식으로 AI 레이어를 고치라고 하고, 그가 쓰는 ablate-ai-layer 스킬은 GitHub coleam00/skills에 공개돼 있습니다. 영어 영상이며 중간에 Arcade 협찬 구간과 설명란의 유료 강의 안내가 있고, 개인 경험에 바탕한 조언입니다.",
+      "titleEn": "Cole Medin: 11 recurring coding-agent annoyances and small fixes - saying 'done' when it isn't, passing tests on a broken app, ignored rules, tangents (24 minutes)",
+      "bodyEn": "In 24m38s Cole Medin goes through 11 problems coding agents keep repeating and the small fix for each, built into skills, rules and hooks. The chapters cover claiming it is done when it isn't (1:49), never proving anything works (4:45), tests that pass while the app is broken (6:30), ignored rules (8:25), more rules giving worse results (12:37), quality dropping as a conversation grows (13:59), a small request turning into a huge change (17:28), hitting usage limits (19:07) and chasing tangents (22:41). He makes each change through a conversation with the agent in which you review and sign off on every edit, and the ablate-ai-layer skill he uses is published at github.com/coleam00/skills. There is an Arcade sponsor segment and a course plug in the description, and the advice is based on his own experience.",
+      "sourceName": "YouTube · Cole Medin",
+      "sourceUrl": "https://www.youtube.com/watch?v=hMEQ4rdaOLw",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=hMEQ4rdaOLw",
+      "createdAt": "2026-11-10T22:57:03Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-sysmaker-vibecoding-lesson10-api-key-safety-ko",
+      "title": "AI 시스메이커: 바이브코딩 무료강의 10강 — API 키는 .env 금고에, 이미 올렸다면 파일 삭제가 아니라 키 교체, 자동 허용은 읽기만 넓게 (10분)",
+      "body": "AI 시스메이커가 10분 18초 동안 기초 마지막 강의로 초보가 지킬 안전·비용 수칙 5가지를 정리합니다. API 키는 .env에 두고 .gitignore로 깃허브에 올리지 않기(1:15), 이미 올렸다면 파일을 지우는 게 아니라 키를 바꾸기, 자동 허용은 읽기는 넓게 바꾸기는 좁게(2:41), 고객 명단은 가짜 값으로 가려서 쓰기(3:42), 무제한 구독과 사용량 과금을 구분해 상한 걸기(4:41), 커밋 한 벌에 다른 곳 사본 한 벌 더(6:17) 순서입니다. 오늘 숙제로 작업 폴더에서 클로드에게 '비밀번호나 키가 그대로 적힌 파일이 있는지 고치지 말고 읽기만 해서 알려 줘, 값은 가리고'라고 시켜 보게 하며, 협찬·광고는 없고 환경변수 API 키 설명은 터미널의 Claude Code 기준이라는 안내가 붙어 있습니다.",
+      "titleEn": "AI Sysmaker: free vibe-coding course, lesson 10 - keep API keys in a .env vault, rotate a key instead of deleting the file, auto-allow reads widely and writes narrowly (10 minutes)",
+      "bodyEn": "In 10m18s AI Sysmaker (AI 시스메이커) closes the basics of its free beginner course with five safety and cost rules. Keep API keys in .env and out of GitHub with .gitignore (1:15), and if one was already pushed, change the key rather than deleting the file; auto-allow reading broadly but writing narrowly (2:41); mask customer lists with fake values (3:42); tell flat-rate subscriptions from usage-based billing and set a cap (4:41); and keep a commit plus a second copy somewhere else (6:17). The homework is to ask Claude in your project folder to read, not fix, and report any files containing passwords or keys with the values hidden. The video carries no sponsorship, and it notes that the environment-variable API key advice applies to Claude Code in the terminal.",
+      "sourceName": "YouTube · AI 시스메이커",
+      "sourceUrl": "https://www.youtube.com/watch?v=hGOmx5Tt-nY",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=hGOmx5Tt-nY",
+      "createdAt": "2026-11-10T09:00:28Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-geeknews-fable-52-nephew-game-one-shot-ko",
+      "title": "Fable 5.2, 조카가 그린 도안으로 12스테이지 게임을 하룻밤에 — 프롬프트 한 번, 이미지 175장·효과음 140개, 봇으로 전 스테이지 자동 플레이 점검",
+      "body": "GeekNews(11월 10일 전후)가 소개한 Lex의 글에서, 6월에 Claude Code(Opus 4.8·Fable 5)로 만든 밋밋한 첫 버전을 Fable 5.2 얼리 액세스로 완성하게 했습니다. 잠들기 전에 조카의 도안이 든 폴더와 이미지·효과음 생성 키 경로를 알려 주고 '최대한 재미있게, 커밋하며 진행하고 기존 코드는 버려도 된다'고만 시켰는데, 아침에 코드 대부분을 갈아엎은 12스테이지 비트뎀업이 이미지 약 175장과 오디오 약 140개, 요청하지 않은 컷신·부술 수 있는 상자·엔딩까지 갖추고 있었습니다. 추론 기록을 보니 에이전트가 게임을 자동으로 플레이하는 봇을 만들어 헤드리스 브라우저에서 12개 스테이지를 끝까지 돌리고 스크린샷으로 문제를 점검했습니다. 출시 전 얼리 액세스로 써 본 글쓴이의 사례 하나이고 벤치마크가 아니며, 이후 가족 캐릭터 추가는 사진 몇 장과 필살기 설명으로 처리했다고 합니다.",
+      "titleEn": "Fable 5.2 one-shotted a 12-stage game from a nephew's drawings overnight - one prompt, about 175 images and 140 sound clips, and a bot that plays every stage to check it",
+      "bodyEn": "In a post shared on GeekNews around November 10, Lex had Fable 5.2 (early access) finish a game whose dull first version, built in June with Claude Code, Opus 4.8 and Fable 5, was not worth playing for more than a couple of minutes. Before bed he pointed it to the folder of his nephew's scanned drawings and the paths to image and sound-generation keys and asked for the most fun game possible, committing as it went and free to throw away existing code; by morning most of the code had been rewritten into a 12-stage beat 'em up with about 175 images, 140 audio clips, and cutscenes, smashable crates and an ending nobody asked for. The reasoning traces show the agent wrote a bot that played all twelve stages in a headless browser and checked screenshots for problems, and later family characters were added from a few photos and a described special move. It is one early-access anecdote from the author, not a benchmark.",
+      "sourceName": "GeekNews · Notes by Lex",
+      "sourceUrl": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-10T00:00:00Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-yt-jongbeom-fable-52-orchestrator-cost-ko",
+      "title": "AI 겸임교수 이종범: Fable 5.2는 성능 1위지만 태스크당 26달러 — 일상은 Opus 5.5 Medium, 크고 어려운 일만 Fable을 오케스트레이터로 (18분)",
+      "body": "AI 겸임교수 이종범이 17분 56초 동안 출시 당일 Fable 5.2를 써 보고 Opus 5.5와 나눠 쓰는 법을 정리합니다. 노력(Effort)을 낮음부터 맥스까지 고를 수 있게 됐고(0:36), 사용량 화면에 Fable 사용량이 다시 생겼으며, 이용 기간에 따라 Fable 리셋권이 1~3장 지급되고 Max 200 요금제는 가격 그대로 Ultra로 이름이 바뀌었다고 합니다. 3D 맨션·펠리컨 SVG·물리엔진·닌자 게임을 직접 시켜 봤고(2:12~), Artificial Analysis 지능 지수는 1위지만 태스크당 비용이 26달러로 가장 비싸(9:47) 결론은 일상 업무는 Opus 5.5 Medium, 어렵고 오래 걸리는 대규모 작업은 Fable 5.2를 지휘자로 두고 서브에이전트를 Opus·Sonnet·Haiku에 맡기는 방식입니다(13:34). 출시 당일의 한 사람 인상이고 설명란에 유료 멤버십 안내가 있습니다.",
+      "titleEn": "AI adjunct professor Lee Jong-beom: Fable 5.2 is #1 but $26 per task - Opus 5.5 Medium for everyday work, Fable as orchestrator only for big hard jobs (18 minutes)",
+      "bodyEn": "In 17m56s the Korean channel AI Adjunct Professor Lee Jong-beom (AI 겸임교수 이종범) tries Fable 5.2 on launch day and works out how to split work with Opus 5.5. Effort can now be set from low to max (0:36), the usage screen shows Fable usage again, 1-3 Fable reset tickets are being issued depending on subscription length, and the Max 200 plan was renamed Ultra at the same price. He tests a 3D mansion, a pelican SVG, a physics engine and a ninja game (from 2:12); it ranks first on the Artificial Analysis intelligence index but at about $26 per task is the most expensive (9:47), so his conclusion is Opus 5.5 at Medium for daily work and Fable 5.2 as the conductor for large, long jobs with subagents on Opus, Sonnet and Haiku (13:34). These are one person's launch-day impressions and the description plugs a paid membership.",
+      "sourceName": "YouTube · AI 겸임교수 이종범",
+      "sourceUrl": "https://www.youtube.com/watch?v=KxUxK3NE2ZQ",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=KxUxK3NE2ZQ",
+      "createdAt": "2026-11-09T23:10:56Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
+    {
+      "id": "curated-20261112-yt-yeopjari-multi-agent-token-test-ko",
+      "title": "옆자리 연구원: 멀티 에이전트를 켰다가 토큰 5배 — 맞물린 게임은 혼자가 2배 넘게 빠르고, 서로 관계없는 웹 앱 5개는 여럿이 약 2배 빠르다 (12분)",
+      "body": "옆자리 연구원이 11분 36초 동안 같은 Claude Code·같은 모델(Sonnet 5.5)에 혼자(서브에이전트 금지)와 관리자+서브에이전트로 게임 만들기, 회사 조사, 12파일 2,474줄 코드 리뷰(숨긴 버그 12개), 서로 관계없는 웹 앱 5개를 똑같이 시켜 시간과 토큰을 쟀습니다. 맞물린 게임은 혼자가 2배 넘게 빠르고 토큰은 5분의 1이었고 앱 5개는 멀티가 약 2배 빨랐는데, 에이전트 하나도 검색과 문서 읽기는 한꺼번에 하므로 나눠서 빨라지는 일은 써 낼 양이 많고 서로 떼어지는 일이라는 설명입니다. 앤트로픽 리서치 기능이 90.2% 더 나았지만 토큰이 약 15배였다는 사례(2:14), 켜기 전에 던질 세 가지 질문(7:42), Claude Code에서 나눠 맡기는 법(8:49)도 다룹니다. 조건마다 두 번씩 돌린 작은 실험이라 다시 돌리면 숫자가 달라질 수 있다고 밝힙니다.",
+      "titleEn": "Side-Seat Researcher: turning on multi-agent burned 5x the tokens - solo was over 2x faster on a tightly coupled game, while five unrelated web apps ran about 2x faster in parallel (12 minutes)",
+      "bodyEn": "In 11m36s the Korean channel Side-Seat Researcher (옆자리 연구원) gives the same Claude Code and model (Sonnet 5.5) a task alone, with subagents banned, and as a manager with subagents: building a game, researching companies, reviewing 12 files and 2,474 lines for 12 hidden bugs, and building five unrelated web apps, measuring time and tokens. The interlocked game was over 2x faster solo using one fifth of the tokens, while the five unrelated apps were about 2x faster with multiple agents; his explanation is that a single agent already searches and reads in parallel, so splitting only helps when there is a lot to write and the pieces are separable. It also covers Anthropic's research feature (90.2% better but about 15x the tokens, 2:14), three questions to ask before enabling it (7:42) and how to delegate in Claude Code (8:49). Each condition was run twice in a small experiment, so the numbers may differ if you rerun it.",
+      "sourceName": "YouTube · 옆자리 연구원",
+      "sourceUrl": "https://www.youtube.com/watch?v=7d9ET7XGdxA",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=7d9ET7XGdxA",
+      "createdAt": "2026-11-09T09:30:38Z",
+      "curatedAt": "2026-11-11T23:14:26Z"
+    },
     {
       "id": "curated-20261111-hn-gemini-4-carbon-argon-antigravity-swarm",
       "title": "Google, Gemini 4 Carbon 공개 — 어려운 코딩·검증 루프용이고 일상 작업은 Argon, 입력 2달러·출력 10달러는 11월 30일까지, Antigravity /swarm으로 에이전트 팀 구성",
@@ -80,19 +184,6 @@
       "curatedAt": "2026-11-10T23:13:42Z"
     },
     {
-      "id": "curated-20261111-google-stale-todo-agent-distraction",
-      "title": "Google: 낡은 TODO 주석이 코딩 에이전트를 샛길로 보낸다 — 버그 번호 TODO를 만난 세션 13%, 그중 41%는 이미 닫힌 버그를 쫓아 토큰 77%·대기 105% 증가",
-      "body": "Google이 사내 코딩 에이전트 실행 기록을 분석한 글입니다(Google Developers Blog 11월 6일, GeekNews 소개). 파일을 읽은 세션의 13%가 TODO(bug/...)·FIXME를 만났고, 6%에서 에이전트가 그 버그를 조사하거나 고치려 했으며 그 83%는 사용자가 시키지 않은 일이었습니다. 샛길의 41%는 이미 닫힌 버그를 쫓은 것이었고, 이런 세션은 다른 요인을 통제해도 단계 70%·토큰 77%·대기 시간 105%가 늘었습니다. Google은 버그 상태와 TODO를 대조해 죽은 참조를 지우는 정리 에이전트를 6개월 돌려 수천 건을 제거했고 사람 리뷰어 승인율이 95% 이상이었으니, 버그 추적기와 대조하는 TODO 스캔과 사람이 리뷰하는 PR로 우리 저장소에도 따라 해 볼 만합니다. 사내 데이터 기반 자체 분석이라 다른 환경에서 같은 수치가 나온다는 보장은 없습니다.",
-      "titleEn": "Google: stale TODO comments send coding agents on detours - 13% of sessions hit a bug-numbered TODO, 41% of the detours chased closed bugs, and tokens rose 77% and wait time 105%",
-      "bodyEn": "Google analyzed its internal coding-agent logs (Google Developers Blog, November 6; shared on GeekNews). 13% of sessions that read files met a TODO(bug/...) or FIXME, in 6% of those the agent investigated or tried to fix the referenced bug, and 83% of that was unprompted. 41% of the detours chased bugs that were already closed, and even after controlling for other factors those sessions took 70% more steps, 77% more tokens and 105% more wait time. Google ran a cleanup agent for six months that cross-checks TODOs against bug status and removes dead references, deleting thousands with over 95% human-reviewer approval, so a TODO scan against your bug tracker plus a human-reviewed PR is a pattern you can copy. It is Google's own analysis of internal data, so the same numbers are not guaranteed elsewhere.",
-      "sourceName": "GeekNews · Google",
-      "sourceUrl": "https://developers.googleblog.com/agent-distraction/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-06T00:00:00Z",
-      "curatedAt": "2026-11-10T23:13:42Z"
-    },
-    {
       "id": "curated-20261110-hn-anthropic-fable-mythos-5-2-model-routing",
       "title": "Anthropic, Claude Fable 5.2·Mythos 5.2 공개 — 일상 작업은 Opus 5.5부터 시작해 위아래로 옮기고 Fable은 Advisor·Orchestrator로, 입력 8달러·출력 40달러",
       "body": "Anthropic이 Claude Fable 5.2와 Mythos 5.2를 공개했습니다(HN 11월 9일, 817점). 둘은 같은 모델이고 사이버·생물 안전장치를 건 Fable이 모든 사용자에게 열리며, 5.1보다 출력이 최대 30% 빠르면서 100만 토큰당 입력 8달러·출력 40달러로 값이 내렸고 빠른 모드는 최대 2.5배 속도에 16달러·80달러입니다. 대부분의 코딩·지식 작업은 Opus 5.5부터 시작해 필요하면 Fable·Mythos로 올리거나 Sonnet 5.5·Haiku 5.5로 내리라는 권고이고, Fable은 작은 모델이 어려운 문제를 묻는 Advisor나 쉬운 일을 작은 모델에 나눠 주는 Orchestrator로도 쓸 수 있다고 합니다. Claude Code 기본 노력 수준은 Medium이며 FrontierCode 2.0에서 Fable 5.2 High가 Opus 5.5 Max와 비슷한 점수를 약 절반 비용으로 냈다는 수치는 Anthropic 자체 측정이고, HN 댓글에는 5.2가 5.5보다 낫다는 이름 체계가 헷갈린다는 지적도 있습니다.",
@@ -158,45 +249,6 @@
       "curatedAt": "2026-11-09T23:13:33Z"
     },
     {
-      "id": "curated-20261110-hn-ask-current-agentic-setup",
-      "title": "Ask HN: 당신의 현재 AI 에이전트 구성은? — 스킬을 버리고 '끝난 모습'만 구체적으로 적기, Claude가 Codex 에이전트를 조율, nono.sh 샌드박스와 서비스별 제한 API 키",
-      "body": "Ask HN(11월 4일, 569점, 최상위 댓글 400여 개)에서 구독, 하네스, 샌드박스, 맥락 관리까지 현재 AI 에이전트 구성을 물었습니다. 한 사용자는 Opus 5.5가 나온 뒤 스킬을 모두 지우고 노력 수준을 Medium으로 둔 채 큰 방향만 말하되 '끝났을 때 어떤 모습인지'를 구체적으로 적는 것이 가장 큰 요령이라고 했고, 다른 사용자는 Claude가 Codex 에이전트 묶음을 조율하며 두 번째 검증자 역할을 맡게 합니다. 샌드박스 질문이 가장 활발했는데, 한 답은 nono.sh로 네트워크·파일 접근을 막고 프록시를 거쳐 LLM이 API 키를 보지 못하게 하며 서비스마다 권한을 줄인 키를 따로 발급한다고 했습니다. 또 다른 사용자는 20달러 요금제로 빌드 머신 VM의 Claude Code를 폰 앱으로 원격 조작해 안드로이드 앱을 빌드·설치합니다. 개인 경험담이라 구독료와 도구 선택은 참고만 하세요.",
-      "titleEn": "Ask HN: what's your current AI agentic setup? - drop the skills and describe only what 'done' looks like, Claude coordinating Codex agents, a nono.sh sandbox and per-service restricted API keys",
-      "bodyEn": "An Ask HN thread (November 4, 569 points, 400-plus top-level comments) asked about everyone's current AI agent setup, from subscriptions and harnesses to sandboxing and context. One commenter deleted all skills after Opus 5.5 shipped, runs at Medium effort, states only the big goal and says the biggest trick is describing in detail what 'complete' looks like; another has Claude coordinate a group of Codex agents and act as a second verifier. Sandboxing was the busiest question; one answer uses nono.sh to restrict network and file access, with a proxy so the LLM never sees API keys and a separately scoped key per service. Another commenter, on the $20 plan, drives Claude Code on a build-machine VM from a phone app to build and install Android apps. These are personal anecdotes, so treat subscription and tool choices as inspiration only.",
-      "sourceName": "Hacker News · Ask HN",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50366117",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-04T14:37:22Z",
-      "curatedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "curated-20261109-metacode-claude-mods-free-lecture-ko",
-      "title": "메타코드M: 클로드 코드 Mods 50분 무료강의 — Skills·MCP·Hooks와 Mods의 차이, 사용량·PC 상태 표시, PRD 기반 진행 추적, 개인정보 마스킹 등 7가지 실습",
-      "body": "메타코드M(박성훈 강사)이 51분 23초 동안 Claude Code의 Mods 기능을 개념부터 7가지 실습까지 따라 하게 구성한 무료강의입니다. Skills·MCP·Hooks·Mods의 차이(11:27)를 먼저 짚은 뒤 사용량·PC 상태 표시(17:09), 강아지 진행률과 다마고치(21:12), 퇴근 카운터와 Mods 관리 패널(28:58), PRD 기반 프로젝트 진행 상황 추적(34:21), 개인정보 마스킹(39:17), 모든 세션에 Mods 적용(43:26)을 차례로 만듭니다. 설명란에서 실습자료를 내려받을 수 있고 마지막 챕터(50:15)에서 사용 시 주의사항을 다루며, 강사의 기업교육 문의 안내도 함께 들어 있습니다.",
-      "titleEn": "Metacode M: a 50-minute free Claude Code Mods course - how Mods differ from Skills, MCP and Hooks, a usage and PC status bar, PRD-based progress tracking and privacy masking in 7 exercises",
-      "bodyEn": "In 51m23s the Korean channel Metacode M (메타코드M, instructor Park Sung-hoon) takes you from the idea behind Claude Code Mods through seven hands-on exercises in a free course. It first separates Skills, MCP, Hooks and Mods (11:27), then builds a usage and PC status display (17:09), a puppy progress bar and Tamagotchi (21:12), a leave-work counter and a Mods management panel (28:58), PRD-based project progress tracking (34:21), personal-data masking (39:17) and applying Mods to every session (43:26). The description links downloadable exercise files, the last chapter (50:15) covers cautions when using Mods, and the instructor's corporate-training contact is also included.",
-      "sourceName": "YouTube · 메타코드M",
-      "sourceUrl": "https://www.youtube.com/watch?v=06FDOn1i6x8",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=06FDOn1i6x8",
-      "createdAt": "2026-11-08T11:22:44Z",
-      "curatedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "curated-20261109-5pm-thanks-token-cost-ko",
-      "title": "오후다섯씨: '고마워' 한 줄에 토큰 3만 9천 개 — 긴 대화 38,865 대 새 대화 2,843(14배), 수정 요청은 한 번에 묶어 보내기 4분",
-      "body": "오후다섯씨가 4분 3초 동안 클로드에 '고마워' 한 줄을 보냈을 때 드는 토큰을 직접 재 봅니다. 긴 대화에서는 38,865토큰, 새 대화에서는 2,843토큰으로 약 14배 차이였고, 두 번에 나눠 보내면 77,784토큰인 것이 한 번에 묶으면 38,882로, 세 번 고쳐 달라고 하면 117,829인 것이 한 번에 다 말하면 38,954로 줄었습니다. 까닭은 클로드가 대답할 때마다 앞 대화를 통째로 다시 읽기 때문이라는 설명이며, 같은 채널의 토큰 다이어트(91%→13%) 영상과 이어 보기를 권합니다. 한 사람이 잰 수치이니 비율의 감을 잡는 용도로 보세요.",
-      "titleEn": "Mr. 5pm: one 'thanks' line cost 39,000 tokens - 38,865 in a long chat vs 2,843 in a fresh one (14x), and batching your edit requests into one message (4 minutes)",
-      "bodyEn": "In 4m03s the Korean channel Mr. 5pm (오후다섯씨) measures what a single 'thanks' line costs in Claude. It was 38,865 tokens in a long conversation versus 2,843 in a new one, about 14x; sending two messages cost 77,784 tokens against 38,882 when batched into one, and asking for three separate fixes cost 117,829 against 38,954 when everything was said at once. The explanation is that Claude re-reads the whole earlier conversation every time it answers, and the video points to the channel's earlier token-diet video (91% to 13%) as a companion. It is one person's measurement, so use it to get a feel for the ratios.",
-      "sourceName": "YouTube · 오후다섯씨",
-      "sourceUrl": "https://www.youtube.com/watch?v=om3rpjpT6r4",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=om3rpjpT6r4",
-      "createdAt": "2026-11-08T10:15:14Z",
-      "curatedAt": "2026-11-08T23:12:37Z"
-    },
-    {
       "id": "curated-20261109-geeknews-anthropic-agent-memory-dreaming-ko",
       "title": "Anthropic: 에이전트 메모리 설계 — 세션 사이 '드리밍'으로 틀린 메모를 대화 로그와 대조해 고치고, 검색+위키 병용으로 채점 충족률 53%→61%·질문당 2만 토큰 절약",
       "body": "Anthropic이 에이전트가 다음 세션을 위해 무엇을 기억하고 쌓인 기억을 어떻게 정리할지 Claude로 실험한 글입니다(GeekNews 11월 8일 소개). 세션 사이에 노트를 원본 대화 기록과 대조해 오류를 고치고 흩어진 노트를 위키로 묶는 '드리밍'을 쓰자, Stainless 내부 문서 약 35만 파일 평가에서 검색만 쓸 때 53%이던 채점 기준 충족률이 검색+위키로 최대 61%가 됐고 질문당 약 2만 토큰이 줄었습니다. 최신 모델에는 '요청받았거나 명백히 기억할 가치가 있을 때 노트를 만들라'는 단순한 지침이 낫고 '실패만 기록하라' 같은 고정 규칙은 이득을 크게 줄였으며, 항상 불러오는 상위 메모리(Claude Code는 MEMORY.md 첫 200줄·25KB)는 작게 유지하라고 합니다. 한 문서로 답이 나오는 과제에서는 위키의 이득이 뚜렷하지 않았고 틀린 메모도 다음 세션에 전달될 수 있어 무엇을 얼마나 자주 검증할지는 남은 설계 과제입니다.",
@@ -208,58 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-11-07T20:51:20Z",
       "curatedAt": "2026-11-08T23:12:37Z"
-    },
-    {
-      "id": "curated-20261108-hn-apiiro-claude-code-dont-ask-again-secrets",
-      "title": "Apiiro: Claude Code '다시 묻지 않기'가 비밀번호를 GitHub에 흘린다 — settings.local.json 공개 파일 1,122개, .gitignore 추가와 secret scanning부터",
-      "body": "Apiiro가 공개 GitHub에서 커밋된 .claude/settings.local.json·settings.json을 찾아 보니 자격 증명이 든 파일이 1,122개였다는 글입니다(HN 11월 7일, 61점). 명령을 승인하며 '다시 묻지 않기'를 고르면 허용 규칙이 파일에 저장되는데, 명령에 비밀번호나 키가 그대로 들어 있으면 함께 기록되고, 실제 비밀이 든 1,105개 저장소 중 539곳에서는 Claude 공동 작성 커밋이 이 파일을 바꿨다고 합니다. 스레드의 대응책은 저장소 .gitignore에 .claude/settings.local.json 추가, GitHub secret scanning 켜기, Bash(python:*)·Bash(node:*) 같은 넓은 허용 규칙 피하기, 비밀번호 관리자 CLI로 자격 증명 가져오기입니다. Claude Code 팀은 settings.local.json은 Claude가 만들 때 자동으로 gitignore되므로 수동 생성·커밋된 파일일 것이라고 답했고 사용자 책임이라는 반론도 많으니, 점검표로만 받아들이세요.",
-      "titleEn": "Apiiro: Claude Code's 'Don't ask again' leaks passwords to GitHub - 1,122 public settings.local.json files; start with a .gitignore entry and secret scanning",
-      "bodyEn": "Apiiro searched public GitHub for committed .claude/settings.local.json and settings.json files and found 1,122 containing credentials (HN, November 7, 61 points). Choosing 'Don't ask again' when approving a command saves an allow rule to the file, and if the command contains a password or key inline it is saved too; in 539 of the 1,105 repositories holding real secrets, a Claude co-authored commit had changed the file. The thread's mitigations are adding .claude/settings.local.json to the repo's .gitignore, turning on GitHub secret scanning, avoiding broad allow rules such as Bash(python:*) and Bash(node:*), and fetching credentials through a password-manager CLI. The Claude Code team replied that settings.local.json is auto-gitignored when Claude creates it, so these were likely created or committed manually, and many commenters say this is user error, so treat it as a checklist rather than a verdict.",
-      "sourceName": "Hacker News · Apiiro",
-      "sourceUrl": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-07T20:45:32Z",
-      "curatedAt": "2026-11-07T23:24:35Z"
-    },
-    {
-      "id": "curated-20261108-dalbee-claude-code-29-usecases-ko",
-      "title": "달비의 작업실: 클로드 코드 잘 쓰는 사람들은 뭘 만들었을까 — 집 TV 광고 끄기·구독료 줄이기·하루 만에 서비스 만들기 등 실제 사례 29개 17분",
-      "body": "달비의 작업실이 17분 38초 동안 X에 공개된 Claude Code 활용 사례 29개를 집 물건·가족·돈·몰래 감시·내 일·과학·만들기 7개 묶음으로 정리합니다. 집 TV 광고를 없애는 법(0:31), 9살 아이의 웹사이트 만들기(4:20), 구독료 줄이기(5:47), 차·호텔의 몰래 감시 찾기(8:39), 업무 활용(10:13), 과학 연구(12:59), 서비스를 하루 만에 만들기(14:03)가 챕터로 나뉩니다. 설명란에 사례마다 원본 X 게시글 링크가 달려 있어 따라 해 볼 만한 것만 골라 원문을 확인할 수 있고, 운영자의 카톡방 안내도 함께 들어 있습니다.",
-      "titleEn": "Dalbee's Workshop: what do people who are good at Claude Code actually build - 29 real cases from killing TV ads at home and cutting subscriptions to shipping a service in a day (17 minutes)",
-      "bodyEn": "In 17m38s the Korean channel Dalbee's Workshop (달비의 작업실) sorts 29 Claude Code use cases shared on X into seven groups: home gear, family, money, hidden surveillance, my work, science and building things. Chapters cover removing TV ads at home (0:31), a 9-year-old building a website (4:20), cutting subscription costs (5:47), finding hidden surveillance in a car or hotel (8:39), using it for your own work (10:13), science research (12:59) and building a service in a day (14:03). The description links the original X post for every case so you can pick the ones worth copying and read the source, and it also plugs the creator's chat community.",
-      "sourceName": "YouTube · 달비의 작업실",
-      "sourceUrl": "https://www.youtube.com/watch?v=1pp0uNCjvdk",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=1pp0uNCjvdk",
-      "createdAt": "2026-11-07T09:00:33Z",
-      "curatedAt": "2026-11-07T23:24:35Z"
-    },
-    {
-      "id": "curated-20261108-sysmaker-vibecoding-free-lecture-5-8-ko",
-      "title": "AI 시스메이커: 바이브코딩 왕초보 무료강의 5~8강 — 지침·스킬·서브에이전트 비교, MCP·커넥터·플러그인·API 구분, 깃으로 되돌리기, 라이선스 40분",
-      "body": "AI 시스메이커가 39분 29초 동안 클로드를 몇 번 써 본 초보자를 위한 무료강의 5~8강을 한 편으로 묶었습니다. 5강은 매번 설명하지 않게 만드는 세 가지, 즉 지침(책상 위 메모, 2:04)·스킬(서랍 속 매뉴얼, 3:34)·서브에이전트(심부름 가는 직원, 4:43)를 한 장으로 비교하고, 6강은 MCP·커넥터·플러그인·API를 한 표로 가르며 API 키 보관법을 짚습니다(10:48~16:22). 7강은 커밋·브랜치·PR을 말로 쓰고 망가져도 어제로 되돌리는 법(19:30~), 8강은 대표 오픈소스 라이선스 네 가지와 '코드 라이선스는 모델 라이선스와 다르다'는 점을 다룹니다(32:30~36:10). 강마다 무료 자료(첫 스킬 「주간 보고 정리」 등)가 있고, 앱 화면·요금제·라이선스 조건은 2026년 10~11월 기준이라 바뀔 수 있다는 안내가 붙어 있습니다.",
-      "titleEn": "AI Sysmaker: free vibe-coding beginner course, lessons 5-8 - instructions vs skills vs subagents, MCP vs connectors vs plugins vs API, undoing mistakes with git, and licenses (40 minutes)",
-      "bodyEn": "In 39m29s the Korean channel AI Sysmaker (AI 시스메이커) bundles lessons 5-8 of its free beginner course for people who have tried Claude a few times. Lesson 5 compares the three ways to stop re-explaining yourself on one page: instructions (a memo on your desk, 2:04), skills (a manual in a drawer, 3:34) and subagents (a staffer sent on an errand, 4:43). Lesson 6 separates MCP, connectors, plugins and the API in one table and covers keeping API keys safe (10:48-16:22); lesson 7 puts commits, branches and PRs into plain words and shows how to roll back to yesterday (19:30-); and lesson 8 covers four common open-source licenses and why a code license is not a model license (32:30-36:10). Each lesson has a free handout (such as a first skill, 'weekly report summary'), and the video notes that app screens, pricing and license terms are as of October-November 2026 and may change.",
-      "sourceName": "YouTube · AI 시스메이커",
-      "sourceUrl": "https://www.youtube.com/watch?v=yPmTPWstN50",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=yPmTPWstN50",
-      "createdAt": "2026-11-07T09:00:19Z",
-      "curatedAt": "2026-11-07T23:24:35Z"
-    },
-    {
-      "id": "curated-20261107-geeknews-pragmatic-engineer-two-eras-ko",
-      "title": "소프트웨어 엔지니어링은 어떻게 달라지고 있나: 월 PR 19개에서 207개로 — 에이전트 3~5개 병렬, PR마다 HTML 결과물, 자동 리뷰만 거치는 병합과 장애를 검사 항목으로 되돌리기",
-      "body": "The Pragmatic Engineer 에세이 공모(125편)의 우승작으로, Bloomberg·PostHog·Tano를 거친 엔지니어의 월간 PR이 AI 도입 전 약 19개에서 207개로 11배 늘었다는 경험담입니다(GeekNews 11월 6일). Claude Code Desktop으로 한 번에 3~5개 작업을 돌리며 계획만 검토하고 PR마다 읽기 쉬운 HTML 결과물을 만들게 해 확인하며, Claude Code GitHub Actions 리뷰 에이전트가 모든 PR에서 CI로 돌아 사람 리뷰는 코드베이스에 익숙해진 약 3~8주 뒤부터 선택 사항이 됩니다. 모든 통화에 100을 곱한 코드나 600만 행 테이블의 쓰기 차단 마이그레이션 같은 장애는 리뷰 에이전트의 검사 항목으로 되돌려 넣었고, 동시 작업 제한과 퇴근 후 차단이 필요할 만큼 피로도 컸다고 합니다. PR 수는 사업 성과가 아니며 AI만의 효과를 분리한 비교도 아니라는 단서가 붙습니다.",
-      "titleEn": "How software engineering is changing: from 19 to 207 PRs a month - 3-5 parallel agents, an HTML artifact per PR, merges gated only by automated review, and turning outages into review checks",
-      "bodyEn": "This winner of The Pragmatic Engineer's essay challenge (125 entries; shared on GeekNews on November 6) follows one engineer across Bloomberg, PostHog and Tano, whose monthly PRs rose about 11x, from roughly 19 before AI to 207. He runs 3-5 tasks at once in Claude Code Desktop, reviewing the plan and having each PR produce a readable HTML artifact; a Claude Code GitHub Actions review agent runs on every PR as part of CI, and human review becomes optional once the codebase feels familiar, about 3 weeks in and up to 8. Failures such as code that multiplied every currency by 100 and a write-blocking migration on a 6-million-row table were fed back into the review agent's checklist, and the fatigue was real enough to call for a cap on concurrent work and no after-hours work. He cautions that PR count is not business performance and that the comparison does not isolate AI's effect.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36685",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-06T01:16:28Z",
-      "curatedAt": "2026-11-06T23:12:14Z"
     }
   ]
 }
