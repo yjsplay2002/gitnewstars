@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-11-11T23:14:26Z",
+  "generatedAt": "2026-11-12T23:13:49Z",
   "videos": [
+    {
+      "id": "vid-sz8a-gimflip-fable-52-prompt-cautions-ko",
+      "youtubeId": "sZ8APQ7OfIM",
+      "category": "tip",
+      "title": "Fable 5.2 Opus 때처럼 그대로 쓰면 손해: 프롬프트·CLAUDE.md에서 넣을 문장과 지울 문장 7가지",
+      "titleEn": "Fable 5.2 - Using It Just Like Opus 5.5 Will Cost You (7 Cautions)",
+      "descKo": "Anthropic 공식 Fable 5.2 프롬프트 가이드에서 추린 7가지 — effort는 high까지, '끝까지 해'·'이 코드는 네 거야'는 넣고 '무조건 서브에이전트 써'·오래된 경고·'생각 과정 다 적어 줘'는 지우기 — 를 14분에 설명(진행자 책·사이트 홍보 포함).",
+      "descEn": "A 14-minute walkthrough of seven items from Anthropic's official Fable 5.2 prompting guide - cap effort at high, add 'finish it all the way' and 'this code is yours', delete 'always use subagents', outdated warnings and 'write out all your reasoning' (includes a plug for the host's book and site).",
+      "channel": "김플립 - LLM 코딩",
+      "publishedAt": "2026-11-12T00:00:31Z",
+      "addedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "vid-vlfc-lydia-hallie-claude-code-best-practices",
+      "youtubeId": "vlfCjWuv4es",
+      "category": "tip",
+      "title": "Claude Code 모범 사례 다시 생각하기: Anthropic Lydia Hallie가 말하는 5.5 모델에서 계속 둘 것과 버릴 것",
+      "titleEn": "Rethinking Claude Code Best Practices - Lydia Hallie, Anthropic",
+      "descKo": "Claude Code 개발자 관계를 맡은 Lydia Hallie가 지난 1년간 Claude Code 설정에 더한 것 대부분이 이제 모델의 발목을 잡는다며, 5.5 모델에서 계속 둘 것과 더는 신경 쓰지 않아도 될 것을 17분에 다룬 AI Engineer 발표(영어).",
+      "descEn": "A 17-minute AI Engineer talk in which Anthropic's Lydia Hallie, who works on developer relations for Claude Code, argues that most of what we added to Claude Code setups over the past year now holds the models back, and covers what is still worth keeping and what you no longer need for the 5.5 models.",
+      "channel": "AI Engineer",
+      "publishedAt": "2026-11-12T03:26:55Z",
+      "addedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "vid-wyps-monyagu-gemini-carbon-swarm-ko",
+      "youtubeId": "WYPSXLiCxg0",
+      "category": "usecase",
+      "title": "제미나이 4 카본 스웜 해부: 에펠탑 3D 시연의 AI 31개가 지휘·작업·검증으로 일을 나누는 방식",
+      "titleEn": "Gemini 4 Carbon Swarm: Two Years of Eiffel Tower Construction in 3D from One Prompt Line? How 31 AIs Split the Work and Picked at Each Other",
+      "descKo": "구글 공식 영상과 Antigravity 문서로 /swarm 시연을 뜯어보며 지휘·작업·검증 세 역할, git 워크트리 사본, 덧붙이기 전용 게시판, 옛 사진 겹쳐 보기 검증, 프롬프트가 정말 한 줄이었는지를 13분에 짚음.",
+      "descEn": "A 13-minute breakdown of Google's /swarm demo from the official video and Antigravity docs: the conductor, worker and verifier roles, per-agent git worktree copies, an append-only bulletin board, verification by overlaying old photos, and whether the prompt was really one line.",
+      "channel": "모냐구",
+      "publishedAt": "2026-11-12T13:57:31Z",
+      "addedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "vid-ggrv-better-stack-theo-tstack-skills",
+      "youtubeId": "GGrvSnpPTGo",
+      "category": "usecase",
+      "title": "Theo의 tstack 스킬 9개: Claude Code·Codex가 코드 작성 뒤 테스트·PR·CI 감시·병합까지 맡게 하기",
+      "titleEn": "Claude Code Writes the Code... Theo's Skills Ship It",
+      "descKo": "Better Stack이 Theo가 공개한 tstack을 설치해 Full-Stop 스킬을 실제 작업에 돌리고 Full-Send·Council·Sol-Loop·Babysit-PR·Takeover의 역할을 8분에 설명(영어).",
+      "descEn": "An 8-minute test of Theo's open-source tstack: installing it, running the Full-Stop skill on a real workflow, and breaking down Full-Send, Council, Sol-Loop, Babysit-PR and Takeover, including how Council has Claude, GPT and Gemini review code before merge.",
+      "channel": "Better Stack",
+      "publishedAt": "2026-11-12T12:15:11Z",
+      "addedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "vid-7mgy-sinyoungsun-claude-code-instagram-automation-ko",
+      "youtubeId": "7MGY09neWho",
+      "category": "usecase",
+      "title": "클로드 코드 인스타 자동화 작업 화면 공개: 아침 7시 레퍼런스 수집부터 카드뉴스 제작까지",
+      "titleEn": "Two AI Creators' Daily Claude Code Instagram Workflow Revealed | From Reference Collection to Card News",
+      "descKo": "두 크리에이터가 아침 7시에 해외 레퍼런스를 모아 카드뉴스까지 만드는 자동화, 터진 릴스를 후킹·대본·화면 단위로 뜯는 대시보드, 캐러셀 복제 흐름을 37분에 보여 줌(강의·커뮤니티 홍보 포함).",
+      "descEn": "A 37-minute look at two creators' Claude Code setup for Instagram: an automation that collects references at 7am and produces card news, a dashboard that breaks viral Reels into hook, script and visuals, and carousel duplication (includes course and community plugs).",
+      "channel": "신영선의 AI탐구",
+      "publishedAt": "2026-11-10T13:00:01Z",
+      "addedAt": "2026-11-12T23:13:49Z"
+    },
     {
       "id": "vid-claude-fable-52-or-opus-claude-code",
       "youtubeId": "C33hJGt-ySg",
@@ -23,18 +83,6 @@
       "descEn": "A 34-minute walkthrough of math educator Scott Farrar's household brain: a folder of Markdown files viewed in Obsidian covering appliances, warranties, insurance documents and the family to-do list, used for car-insurance shopping, repair planning, sharing with his wife and a wall display (includes sponsor ads).",
       "channel": "How I AI",
       "publishedAt": "2026-11-11T13:00:06Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "vid-ijltc-gemini-carbon-vs-fable-cost-ko",
-      "youtubeId": "ijLTC-d1TMs",
-      "category": "usecase",
-      "title": "구글 카본 vs 클로드 페이블 5.2: 도시 로봇 만들기부터 코드 수정 과제까지 코딩 실력과 실제 비용 비교",
-      "titleEn": "New AI Model Showdown | Google Carbon vs Claude Fable 5.2 | We Compared Their Coding Skills and Real Costs",
-      "descKo": "같은 지도 데이터로 만든 도시 로봇과 실제 코드 수정 과제로 두 모델의 결과를 비교하고, 비슷한 최고점이 나온 평가에서 비용이 달랐던 이유와 카본 출시 할인·캐시·하네스가 청구액에 주는 영향을 8분에 정리.",
-      "descEn": "An 8-minute comparison of Gemini 4 Carbon and Fable 5.2 using a city robot built from the same map data and real code-fixing tasks, plus why costs differed on an evaluation with similar top scores and how the launch discount, caching and the harness affect your bill.",
-      "channel": "안될공학 - IT 테크 신기술",
-      "publishedAt": "2026-11-11T07:43:53Z",
       "addedAt": "2026-11-11T23:14:26Z"
     },
     {
@@ -62,18 +110,6 @@
       "addedAt": "2026-11-11T23:14:26Z"
     },
     {
-      "id": "vid-kxux-fable-52-orchestrator-cost-ko",
-      "youtubeId": "KxUxK3NE2ZQ",
-      "category": "tip",
-      "title": "Fable 5.2 써보니 성능은 1위, 그런데 태스크당 26달러? Opus 5.5와 똑똑하게 나눠 쓰는 법",
-      "titleEn": "Claude Fable 5.2 Review: #1 in Performance, but $26 per Task? How to Use It Smartly",
-      "descKo": "출시 당일 3D 맨션·펠리컨 SVG·물리엔진·닌자 게임으로 시험하고, Artificial Analysis 1위와 태스크당 26달러를 근거로 일상은 Opus 5.5 Medium, 대규모 작업은 Fable 5.2 오케스트레이터와 하위 모델 서브에이전트로 나누는 법을 18분에 정리(멤버십 안내 포함).",
-      "descEn": "An 18-minute launch-day test with a 3D mansion, pelican SVG, physics engine and ninja game, then a split strategy from the Artificial Analysis #1 ranking and $26-per-task cost: Opus 5.5 at Medium for daily work, Fable 5.2 as orchestrator over lower-model subagents for big jobs (includes a membership plug).",
-      "channel": "AI 겸임교수 이종범",
-      "publishedAt": "2026-11-09T23:10:56Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
       "id": "vid-7d9e-multi-agent-token-test-ko",
       "youtubeId": "7d9ET7XGdxA",
       "category": "tip",
@@ -84,18 +120,6 @@
       "channel": "옆자리 연구원",
       "publishedAt": "2026-11-09T09:30:38Z",
       "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "vid-witteveen-gemini-4-carbon-live",
-      "youtubeId": "l32KKNKdpIk",
-      "category": "usecase",
-      "title": "Gemini 4 Carbon 공개: Argon과 다른 점, 가격, 3D·맥 앱·옵시디언 앱 데모",
-      "titleEn": "Gemini 4 Carbon is Live!",
-      "descKo": "Carbon이 만들어진 네 가지 용도, 벤치마크와 Fable 5.2 비교, 작업당 비용·가격을 짚고 3D 마리나 베이 샌즈, 한 프롬프트 포모도로 맥 앱, Bear+옵시디언 합친 앱 데모 세 가지를 16분에 시연(영어).",
-      "descEn": "A 16-minute look at the four things Carbon is built for, benchmarks, Carbon vs Fable 5.2, cost per task and pricing, then three demos: a 3D Marina Bay Sands, a Pomodoro Mac app from one prompt and a Bear + Obsidian app.",
-      "channel": "Sam Witteveen",
-      "publishedAt": "2026-11-10T16:03:17Z",
-      "addedAt": "2026-11-10T23:13:42Z"
     },
     {
       "id": "vid-freecodecamp-codex-agentic-coding-course",
@@ -132,30 +156,6 @@
       "channel": "단테",
       "publishedAt": "2026-11-08T11:00:24Z",
       "addedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "vid-milan-claude-code-usage-tracker-timescaledb",
-      "youtubeId": "ke-gFRP6TJ8",
-      "category": "usecase",
-      "title": "클로드 코드 사용량 추적기 만들기: OpenTelemetry·TimescaleDB·MCP로 모델별 사용량 보기",
-      "titleEn": "I Built a Claude Code Usage Tracker with TimescaleDB",
-      "descKo": "월 200달러 구독 사용량이 API 가격으로 얼마일지 보려고 .NET 앱 TokenScope를 만들어 Claude Code 요청을 OpenTelemetry로 모으고 TimescaleDB 집계로 보여 주며 MCP로 질의하는 과정을 30분에 시연(Tiger Data 협찬, 영어).",
-      "descEn": "A 30-minute build of TokenScope, a .NET app that collects Claude Code requests with OpenTelemetry, rolls them up with TimescaleDB continuous aggregates and lets Claude query the totals over MCP, to see what a $200/month plan costs at API prices (sponsored by Tiger Data).",
-      "channel": "Milan Jovanović",
-      "publishedAt": "2026-11-09T11:53:03Z",
-      "addedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "vid-dalbee-ego-lite-browser-automation-27-runs-ko",
-      "youtubeId": "6rFAiXvLGN4",
-      "category": "usecase",
-      "title": "클로드 코드 브라우저 자동화 27번 비교: Chrome(CDP)·Aside·ego lite의 시간과 비용",
-      "titleEn": "AI Automation | ego lite Hands-On: I Compared It With Chrome and Aside Across 27 Runs",
-      "descKo": "유튜브 스튜디오 질문, 쓰레드 글 수집, 인기글 찾기 세 작업을 같은 모델·프롬프트로 세 번씩 돌려 평균 19분·17분·11분, 한 번 3.4·3.2·1.9달러를 비교한 12분 실험(ego lite 지원 영상).",
-      "descEn": "A 12-minute experiment running YouTube Studio questions, Threads post collection and trending-post search three times each with the same model and prompt, comparing averages of 19, 17 and 11 minutes and $3.4, $3.2 and $1.9 per run (made with support from ego lite).",
-      "channel": "달비의 작업실",
-      "publishedAt": "2026-11-09T09:00:29Z",
-      "addedAt": "2026-11-09T23:13:33Z"
     },
     {
       "id": "vid-teo-mcp-api-cli-morning-briefing-ko",

@@ -1,6 +1,97 @@
 {
-  "generatedAt": "2026-11-11T23:14:26Z",
+  "generatedAt": "2026-11-12T23:13:49Z",
   "posts": [
+    {
+      "id": "curated-20261113-hn-gemini-4-hydrogen-orchestrator",
+      "title": "Google, Gemini 4 Hydrogen과 Antigravity Orchestrator 공개 — Carbon이 읽기 전용으로 계획하고 Hydrogen이 수정·테스트하다 막히면 다시 Carbon으로, 할당량 24% 절감",
+      "body": "Google이 Antigravity에서 Gemini 4 Hydrogen을 내놓았습니다(HN 11월 12일, 214점·댓글 50여 개). 사고 수준은 낮음·중간·높음(기본)에 새 xhigh가 더해졌고, Artificial Analysis 지능 지수 51(최고 설정 54)로 Argon의 50을 넘으며 Terminal-Bench 4.1은 57%라고 합니다. 모델 선택창의 Orchestrator는 한 작업 안에서 Carbon이 먼저 읽기 전용으로 의존성을 살피고 재계획 조건이 담긴 계획을 세우면 Hydrogen이 편집·패키지 갱신·테스트를 맡고, 막히면 Carbon이 상태를 점검해 계획을 고치는 방식이며, Carbon에 가까운 성공률에 할당량은 평균 24% 덜 쓰고 19% 빨리 끝났다는 수치는 Google 자체 측정입니다. Hydrogen은 Pro·Ultra에, Orchestrator는 Ultra에 순차 제공 중이라 댓글에는 Pro에서 Orchestrator가 안 보인다는 말, 서브에이전트 모델은 직접 고르는 편이 낫다는 의견, 구독 대비 가치가 낮아 Opus나 GPT Sol이 낫다는 반응이 함께 나왔습니다.",
+      "titleEn": "Google ships Gemini 4 Hydrogen and Antigravity's Orchestrator - Carbon plans read-only, Hydrogen edits and tests and hands back to Carbon when stuck, using 24% less quota",
+      "bodyEn": "Google released Gemini 4 Hydrogen in Antigravity (HN, November 12, 214 points, about 50 comments). It has four thinking levels - low, medium, high (default) and a new xhigh - and Google reports 51 on the Artificial Analysis Intelligence Index (54 at its highest setting), ahead of Argon's 50, plus 57% on Terminal-Bench 4.1. The Orchestrator option in the model selector switches models inside one task: Carbon first explores dependencies read-only and writes a plan with explicit re-planning triggers, Hydrogen then makes edits, updates packages and runs tests, and if it hits friction Carbon inspects the state and repairs the plan; near-Carbon success with 24% less quota and tasks finishing 19% faster on average are Google's own measurements. Hydrogen is rolling out to Pro and Ultra and Orchestrator to Ultra, and the comments mixed reports that Pro users cannot see Orchestrator, a preference for choosing subagent models by hand, and the view that the subscription value is too poor to beat Opus or GPT Sol.",
+      "sourceName": "Hacker News · Google Antigravity",
+      "sourceUrl": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-12T18:52:01Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "curated-20261113-yt-monyagu-gemini-carbon-swarm-ko",
+      "title": "모냐구: 제미나이 4 카본 스웜 해부 — 에펠탑 공사 3D 시연의 AI 31개는 지휘·작업·검증으로 나뉘고, 각자 git 워크트리 사본에서 일하며 덧붙이기 전용 게시판으로 맞물린다 (13분)",
+      "body": "모냐구가 12분 33초 동안 Gemini 4 Carbon의 Antigravity /swarm 시연(1887~1889년 에펠탑 공사를 3D 전시로 구현)을 구글 공식 영상과 문서로 뜯어봅니다. 공식 영상 집계판의 숫자로 AI 31개가 자료를 오리고 3D에 세우고 탑을 채운 순서를 따라가고(1:13), 스웜을 지휘·작업·검증 세 역할로(3:37), 각자의 사본인 git 워크트리(5:10)와 덧붙이기만 되는 게시판(6:22, 1970년대 '칠판' 구조)으로 설명합니다. 옛 사진에 겹쳐 3D 탑이 맞는지 확인하는 검증 과정(7:45), 공식 영상 속 프롬프트를 멈춰 놓고 읽으면 한 줄이 아니었다는 점, 비용과 실패 연구로 본 다른 시각도 다룹니다(9:15). 공식 자료를 근거로 한 분석이고 직접 반복 실험한 결과는 아니라는 점을 감안하세요.",
+      "titleEn": "Monyagu on Gemini 4 Carbon swarm - the 31 AIs in the Eiffel Tower 3D demo split into conductor, worker and verifier, each in its own git worktree, tied together by an append-only board (13 minutes)",
+      "bodyEn": "In 12m33s the Korean channel Monyagu (모냐구) takes apart the Gemini 4 Carbon /swarm demo in Antigravity, which builds the 1887-1889 construction of the Eiffel Tower as a 3D exhibit, using Google's official video and docs. It follows the order in which 31 AIs cut up source material, stood it up in 3D and filled in the tower, based on the numbers in the official video's tally (1:13), then explains the swarm as three roles - conductor, worker, verifier (3:37) - with each agent in its own git worktree copy (5:10) and an append-only bulletin board modeled on the 1970s 'blackboard' architecture (6:22). It also covers checking the 3D tower by overlaying old photographs (7:45), the point that the demo prompt, paused and read closely, was not one line, and a different view drawn from cost and failure research (9:15). It is analysis built on official material rather than the creator's own repeated experiments, so weigh it accordingly.",
+      "sourceName": "YouTube · 모냐구",
+      "sourceUrl": "https://www.youtube.com/watch?v=WYPSXLiCxg0",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=WYPSXLiCxg0",
+      "createdAt": "2026-11-12T13:57:31Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "curated-20261113-yt-better-stack-theo-tstack-skills",
+      "title": "Better Stack: Theo가 공개한 tstack — 코드를 쓴 뒤 테스트·리뷰·PR·CI 감시·병합까지 이어 주는 에이전트 스킬 9개, 서로 다른 회사 모델 3곳이 합의할 때까지 도는 Council (8분)",
+      "body": "Better Stack이 8분 4초 동안 Theo가 MIT로 공개한 tstack을 설치해 Full-Stop 스킬을 실제 작업에 돌려 보고 Full-Send, Council, Sol-Loop, Babysit-PR, Takeover의 역할을 설명합니다. 저장소(t3dotgg/tstack, 별 약 3,600개)의 스킬 9개 중 full-send는 검증·리뷰·PR 생성·감시·병합까지, full-stop은 병합 직전까지 진행하고, council은 서로 다른 제공사 모델 세 곳의 리뷰가 합의될 때까지 반복하며, babysit-pr은 CI와 리뷰 봇을 지켜보다 타당한 지적을 고치고, takeover는 남의 PR이나 브랜치를 이어받아 마무리합니다. 설치는 저장소를 clone해 skills 폴더를 ~/.claude/skills(Claude Code)나 ~/.codex/skills(Codex)에 복사하면 되고, 인증된 gh CLI와 babysit-pr용 python3, council·sol-loop용으로 다른 제공사 모델을 돌릴 서브에이전트 환경이 필요합니다. 영어 영상이고 도구 소개 중심이니, 자동 병합이 부담스럽다면 full-stop부터 써 보세요.",
+      "titleEn": "Better Stack on Theo's tstack - 9 agent skills that carry code past writing into tests, review, PR, CI monitoring and merge, plus a Council that loops until three models from different providers agree (8 minutes)",
+      "bodyEn": "In 8m04s Better Stack installs tstack, the MIT-licensed skill set Theo open-sourced, runs the Full-Stop skill on a real task, and explains Full-Send, Council, Sol-Loop, Babysit-PR and Takeover. Of the nine skills in the repo (t3dotgg/tstack, about 3,600 stars), full-send takes a change through verification, review, PR creation, monitoring and merge, full-stop does the same but stops when the PR is ready for you to merge, council repeats reviews from three models across different providers until they agree, babysit-pr watches CI and review bots and fixes the valid findings, and takeover finishes someone else's PR or branch. Install by cloning the repo and copying its skills folder into ~/.claude/skills for Claude Code or ~/.codex/skills for Codex; you need an authenticated gh CLI, python3 for babysit-pr, and a subagent setup that can run other providers' models for council and sol-loop. The video is in English and tool-focused, so if auto-merge makes you nervous, start with full-stop.",
+      "sourceName": "YouTube · Better Stack",
+      "sourceUrl": "https://www.youtube.com/watch?v=GGrvSnpPTGo",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=GGrvSnpPTGo",
+      "createdAt": "2026-11-12T12:15:11Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "curated-20261113-geeknews-git-push-agent-era-ko",
+      "title": "AI 시대, git push 앞뒤에서 바뀌는 것들 — Anthropic 모노레포 하루 병합 2,500건에서 3만 건으로, 에이전트 병렬 작업에 worktree·머지 큐·합친 결과 검증이 필요한 이유",
+      "body": "GeekNews(11월 12일)가 정리한 글은 병렬 에이전트가 Git 인프라에 주는 부하를 클라이언트·프로토콜, 서버·저장소, 협업 흐름 세 층으로 나눠 사례를 비교합니다. Anthropic 모노레포의 하루 병합이 2026년 5월 약 2,500건에서 9월 3만 건 넘게(약 12배) 늘었고 CI 체크아웃은 하루 약 2,500만 건이며, GitHub는 저장소 하나가 초당 7,200 푸시를 처리하고 Anthropic은 Git 대신 자체 시스템 Scion을 쓴다고 합니다. 개인이 바로 가져올 부분은 git worktree로 에이전트마다 브랜치와 파일을 나누는 것, 머지 큐로 합친 상태에서 검사를 돌리는 것, 브랜치별 테스트가 통과해도 합친 결과는 따로 검증하는 것(한 에이전트가 응답 형식을 바꾸고 다른 에이전트는 옛 형식을 가정하는 경우)입니다. Scion은 온라인 연결이 필요하고 Anthropic도 대부분의 저장소에는 Git이 맞는다고 하니 초대형 모노레포 사례로 읽으세요.",
+      "titleEn": "What changes around git push in the AI era - Anthropic's monorepo went from 2,500 to 30,000 merges a day, and why parallel agents need worktrees, merge queues and checks on the combined result",
+      "bodyEn": "A GeekNews write-up (November 12) compares how companies respond to the load parallel agents put on Git infrastructure, split into three layers: client and protocol, server and storage, and collaboration flow. Daily merges in Anthropic's monorepo rose from about 2,500 in May 2026 to over 30,000 in September (roughly 12x), CI checkouts run at about 25 million a day, GitHub's new storage handles 7,200 pushes per second for a single repository, and Anthropic uses its own system, Scion, instead of Git. What an individual can borrow: git worktree so each agent gets its own branch and files, a merge queue that runs checks on the combined state, and a separate check of the merged result even when each branch passes (for example, one agent changes an API response format while another assumes the old one). Scion needs an online connection and Anthropic says Git still fits most repositories, so read this as a very-large-monorepo case.",
+      "sourceName": "GeekNews",
+      "sourceUrl": "https://news.hada.io/article/git-push-in-the-agent-era",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-12T00:00:00Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "curated-20261113-yt-gimflip-fable-52-prompt-cautions-ko",
+      "title": "김플립: Fable 5.2에 Opus 때 프롬프트·CLAUDE.md를 그대로 쓰면 손해 — effort는 high까지, '끝까지 해'와 '이 코드는 네 거야'는 넣고 서브에이전트 강제 등 3가지는 지우기 (14분)",
+      "body": "김플립이 13분 31초 동안 Anthropic이 Fable 5.2와 함께 올린 공식 프롬프트 가이드에서 꼭 필요한 7가지만 추려, Opus 때 쓰던 프롬프트와 CLAUDE.md를 그대로 들고 오면 왜 손해인지 풀어 줍니다. 설정·넣을 문장 쪽은 effort는 high까지만 쓰기(1:27), effort는 '고민하는 시간'일 뿐이라는 점(3:10), 넣을 문장 '끝까지 해'(4:00)와 '이 코드는 네 거야'(4:57)이고, 지울 문장은 '무조건 서브에이전트 써'(7:46), 오래된 경고(9:13), '생각 과정 다 적어 줘'(11:26)입니다. 결론은 한 번에 하나씩만 바꿔 보고 평소에는 Opus 5.5를 쓰라는 것(12:38)이며, 설명란에 진행자의 책과 사이트 홍보가 있고 개인 해석이 섞여 있으니 공식 가이드와 함께 보세요.",
+      "titleEn": "Gimflip: using Fable 5.2 with your Opus-era prompts and CLAUDE.md costs you - cap effort at high, add 'finish it' and 'this code is yours', and delete three habits like forced subagents (14 minutes)",
+      "bodyEn": "In 13m31s the Korean channel Gimflip (김플립 - LLM 코딩) picks the seven items that matter from the official prompting guide Anthropic published with Fable 5.2 and explains why carrying your Opus-era prompts and CLAUDE.md over unchanged costs you. The settings and lines to add are: use effort only up to high (1:27), effort is just 'thinking time' (3:10), add 'finish it all the way' (4:00) and 'this code is yours' (4:57); the lines to delete are 'always use subagents' (7:46), outdated warnings (9:13) and 'write out all your reasoning' (11:26). His conclusion is to change one thing at a time and stay on Opus 5.5 for everyday work (12:38); the description plugs his book and site and the advice mixes in personal interpretation, so read it alongside the official guide.",
+      "sourceName": "YouTube · 김플립 - LLM 코딩",
+      "sourceUrl": "https://www.youtube.com/watch?v=sZ8APQ7OfIM",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=sZ8APQ7OfIM",
+      "createdAt": "2026-11-12T00:00:31Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "curated-20261113-yt-jangpm-agent-harness-five-steps-ko",
+      "title": "일잘러 장피엠: 같은 그림판 과제를 AI 에이전트로 다섯 번 — 설정 없이에서 목표·기준, 사고 수준 최대, 도구, 스킬로 작업 기준을 문서화한 하네스까지 단계별 비교 (13분)",
+      "body": "일잘러 장피엠이 12분 44초 동안 같은 사진과 같은 그림판 과제를 에이전트로 다섯 번 그리게 하며 설정을 하나씩 더할 때 결과가 어떻게 달라지는지 보여 줍니다. 에이전트를 모델·도구·하네스로 나눠 설명한 뒤(1:07) 아무 설정 없이 시켜 보고(2:31), 프롬프트에 목표와 기준 적기(3:26), 사고 수준 최대로 올리기(4:27), 도구 제공(6:20), 스킬로 작업 기준을 문서화하는 하네스 세팅(8:00)으로 이어지고 마지막에 하네스를 세팅한 에이전트의 결과를 보여 줍니다(9:19). 하네스 엔지니어링이 결과물은 높이고 비용과 시간은 줄인다는 주장이 중심이며, 한 가지 과제로 본 시연이라는 점은 감안하세요.",
+      "titleEn": "Jangpm: redrawing the same canvas task with an AI agent five times - no setup, then goal and criteria, max thinking, tools, and a harness that documents work standards as a skill (13 minutes)",
+      "bodyEn": "In 12m44s the Korean channel Jangpm (일잘러 장피엠) has an agent redraw the same photo on the same drawing canvas five times, adding one setting at a time to show how the result changes. After splitting an agent into model, tools and harness (1:07), he runs it with no setup (2:31), then adds a goal and criteria to the prompt (3:26), raises thinking to the maximum (4:27), provides tools (6:20) and finally sets up a harness that documents the work standards as a skill (8:00), ending with the harnessed agent's result (9:19). The central claim is that harness engineering raises output quality while cutting cost and time; it is a demonstration on a single task, so keep that in mind.",
+      "sourceName": "YouTube · 일잘러 장피엠",
+      "sourceUrl": "https://www.youtube.com/watch?v=-cNmsRZQuGk",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=-cNmsRZQuGk",
+      "createdAt": "2026-11-11T08:00:08Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
+    {
+      "id": "curated-20261113-hn-jane-street-socratic-tutor-skill",
+      "title": "Jane Street의 Socratic Tutor 스킬 — 질문은 한 번에 하나, 틀려도 답 대신 더 좁은 질문, 진단 3~5문항에서 0~5 스킬 맵·복습·최종 평가까지 가는 학습용 에이전트 스킬",
+      "body": "Jane Street가 agent_skills 저장소에 올린 socratic-tutor 스킬이 HN에서 645점·댓글 153개를 받았습니다(11월 10일). '가르쳐 줘·퀴즈 내 줘·마스터하게 도와줘'처럼 배우겠다고 할 때만 작동해, 주제를 하위 기술 4~10개로 쪼개고 쉬운 것부터 어려운 순서의 진단 질문 3~5개로 현재 수준을 0~5점 지도로 보여 준 뒤, 질문 하나를 던지고 답을 기다리는 루프로 가르칩니다. 틀리면 답을 말하지 않고 더 좁은 질문을 던지며(두세 번 실패하면 직접 설명), 앞서 배운 항목을 예고 없이 다시 묻고 수준은 독립된 확인 두 번 이상으로만 올리고, 마지막에 전체 혼합 평가로 끝냅니다. 댓글에는 Opus 5.5 Medium으로 일주일 써 보니 과잉 친절이 줄었다는 후기와 '틀리면 답 대신 모순을 드러내는 좁은 질문을 하라'는 한 줄만으로도 효과 대부분을 낼 수 있다는 의견, 스킬은 결국 프롬프트일 뿐이라는 회의론이 함께 있었습니다.",
+      "titleEn": "Jane Street's Socratic Tutor skill - one question at a time, a narrower question instead of the answer when you're wrong, and a 0-5 skill map from 3-5 diagnostic questions through reviews to a final assessment",
+      "bodyEn": "The socratic-tutor skill Jane Street published in its agent_skills repository drew 645 points and 153 comments on HN (November 10). It only activates when you say you want to learn something ('teach me', 'quiz me', 'help me master'): it breaks the topic into 4-10 subskills, runs 3-5 diagnostic questions from easy to hard to place you on a 0-5 skill map, then teaches in a loop of asking one question and waiting for your answer. When you are wrong it asks a narrower question instead of giving the answer (explaining directly only after two or three failed attempts), retests earlier subskills without warning, raises your level only after at least two independent checks, and ends with a mixed final assessment. Commenters included one who used it with Opus 5.5 on Medium for a week and found it cut the usual handholding, one who said a single line - when the user is wrong, ask a narrower question that exposes the contradiction - reproduces most of the effect, and skeptics who see skills as just prompts.",
+      "sourceName": "Hacker News · Jane Street",
+      "sourceUrl": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-10T10:18:22Z",
+      "curatedAt": "2026-11-12T23:13:49Z"
+    },
     {
       "id": "curated-20261112-hn-gemini-decisions-api-routing",
       "title": "Google, Gemini Decisions API 공개 — 도구 선택·정책 점검·모델 라우팅 같은 '정해진 선택지' 판단을 150~250ms, 입력 100만 토큰당 0.10달러에",
@@ -106,19 +197,6 @@
       "curatedAt": "2026-11-11T23:14:26Z"
     },
     {
-      "id": "curated-20261111-hn-gemini-4-carbon-argon-antigravity-swarm",
-      "title": "Google, Gemini 4 Carbon 공개 — 어려운 코딩·검증 루프용이고 일상 작업은 Argon, 입력 2달러·출력 10달러는 11월 30일까지, Antigravity /swarm으로 에이전트 팀 구성",
-      "body": "Google이 가장 강한 모델 Gemini 4 Carbon을 일반 공개했습니다(HN 11월 10일, 266점·댓글 145개). 여러 단계 코딩·디버깅, 패키지 여러 개를 건드리는 마이그레이션, 장시간 에이전트 작업처럼 어려운 일에 쓰고 대부분의 개발·지식 작업은 Argon을 권하며, 모델 ID는 gemini-4-carbon, 도입가는 Argon과 같은 100만 토큰당 입력 2달러·출력 10달러지만 11월 30일 이후 4달러·20달러로 오릅니다. Antigravity의 /swarm(프리뷰)은 한 프롬프트를 에이전트 팀으로 나눠 Carbon이 설계·조율·감사를 맡고 가벼운 모델이 격리된 작업 공간에서 병렬로 일하며 검증 에이전트가 변경을 확인합니다. HN 댓글은 Ultra 요금제나 계정에 따라 아직 안 보인다는 보고가 많았고, 한 사용자는 Fable 5.2와 품질은 비슷하지만 더 느리고 비싸다고 했으며, Pro 사용자는 Argon만으로도 일주일에 프롬프트 10개 안팎에서 한도에 닿는다는 후기를 남겼습니다. 작업당 비용 비교는 Google 자체 발표입니다.",
-      "titleEn": "Google releases Gemini 4 Carbon - for hard coding and long verification loops, Argon for everyday work, $2 in / $10 out per million tokens until November 30, and Antigravity /swarm to run a team of agents",
-      "bodyEn": "Google made its strongest model, Gemini 4 Carbon, generally available (HN, November 10, 266 points, 145 comments). It is aimed at multi-step coding and debugging, migrations that touch several packages and long-running agent work, while Google recommends Argon for most software and knowledge work; the model ID is gemini-4-carbon and the introductory price matches Argon at $2 per million input and $10 per million output tokens, rising to $4 and $20 after November 30. Antigravity's /swarm (preview) turns one prompt into a team of agents: Carbon handles design, coordination and auditing while lighter models work in parallel in isolated workspaces and a verification agent checks each change. HN comments were dominated by access complaints (Ultra-only in places, differing by account), one user found it matched Fable 5.2 on quality but ran slower and cost more, and a Pro user reported hitting limits after about 10 prompts a week even on Argon. The cost-per-task comparisons are Google's own claims.",
-      "sourceName": "Hacker News · Google",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-10T16:07:15Z",
-      "curatedAt": "2026-11-10T23:13:42Z"
-    },
-    {
       "id": "curated-20261111-hn-modern-web-guidance-legacy-scan",
       "title": "Show HN: 코딩 에이전트를 2019년식 자바스크립트에서 꺼내기 — Chrome·Firefox·MDN·Edge가 만든 웹 표준 가이드 250개 기능과 legacy-scan, npx 한 줄 설치",
       "body": "Chrome 팀이 Firefox·MDN·Edge와 함께 만든 Modern Web Guidance 1.0이 Show HN에 올랐습니다(11월 10일, 211점·댓글 58개). CSS 140개·JS 74개·HTML 36개, 모두 250개 웹 기능과 개발자 사용 사례 203개를 에이전트 스킬과 CLI로 주며, npx modern-web-guidance@latest install로 설치하고 Claude Code·Codex·Gemini CLI용 플러그인 설정이 들어 있습니다. legacy-scan . 으로 코드베이스의 낡은 패턴을 찾을 수 있고, 작성자는 내부 평가에서 에이전트 통과율이 55%에서 92%로 올랐다고 밝혔는데 자체 측정입니다. 댓글에는 Chrome 주도라는 우려와 Chrome 전용 기능이 섞였다는 지적(가이드에 브라우저 지원 표와 대안이 있다는 답)이 있었고, 인덱스의 토큰 비용 때문에 상시 사용은 권하지 않는다는 설명도 있으니 프런트엔드 작업에서만 켜서 써 보세요.",
@@ -145,32 +223,6 @@
       "curatedAt": "2026-11-10T23:13:42Z"
     },
     {
-      "id": "curated-20261111-geeknews-ramp-company-brain-context-ko",
-      "title": "Ramp: AI에 회사 맥락을 주는 법 — 1~2쪽 컨텍스트 문서, 연결 도구 2~3개부터, 정답 질문 10~20개로 검증하는 '회사 두뇌' 만들기",
-      "body": "GeekNews(11월 9일)가 소개한 Ramp 글은 AI가 회사에 맞는 답을 내려면 지표 정의·정책·업무 방식 같은 맥락을 문서로 남기고 업무 도구에 연결해 팀이 함께 쓰게 하라고 말합니다. 순서는 새 입사자의 첫 주 질문을 기준으로 회사 개요·용어집·지표 정의·고객군·정책·업무 방식·문체 7개 항목을 1~2쪽에 쓰고, 영업은 통화 기록·지원은 티켓처럼 결정이 나는 도구 2~3개부터 연결하되 연결 전에 폴더·채널 공유 권한을 점검하는 것입니다. 정답을 아는 질문 10~20개(예: 1만 5천 달러짜리 소프트웨어 구매 승인자, 회계연도 시작일)를 만들어 맥락이 바뀔 때마다 다시 돌리고, 섹션마다 담당자와 점검 날짜를 두라고 합니다. 자사 제품 Glass를 소개하는 벤더 글이고 파인튜닝은 사실 학습에 믿을 만하지 않다는 주장도 Ramp의 관점이니 참고로 읽으세요.",
-      "titleEn": "Ramp on giving AI company context - a 1-2 page context doc, start with 2-3 connected tools, and check it with 10-20 golden questions to build a 'company brain'",
-      "bodyEn": "A Ramp post shared on GeekNews (November 9) argues that for AI to answer in a company-specific way, the context it cannot guess - metric definitions, policies, ways of working - should be written down, connected to work tools and shared by the whole team. The steps: write a 1-2 page doc from a new hire's first-week questions covering seven sections (overview, glossary, metric definitions, customer segments, policies, ways of working, style); connect only the 2-3 tools where decisions happen, such as call records for sales and tickets for support, after auditing who can see which folders and channels; then keep 10-20 questions with known answers (for example, who approves a $15,000 software purchase, or when the fiscal year starts) and rerun them whenever the context changes, with an owner and review date per section. It is a vendor post that promotes Ramp's own Glass product, and the claim that fine-tuning is unreliable for teaching facts is Ramp's view, so read it as a reference.",
-      "sourceName": "GeekNews · Ramp",
-      "sourceUrl": "https://news.hada.io/topic?id=36856",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-09T00:00:00Z",
-      "curatedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "curated-20261111-dante-claude-code-codex-bug-fix-inside-ko",
-      "title": "단테: AI가 버그를 고칠 때 속에서 벌어지는 일 — Claude Code는 모델 호출 4번, Codex는 5번, 루프·압축·샌드박스·되돌리기까지 9분",
-      "body": "단테가 9분 54초 동안 같은 배송비 버그를 Claude Code와 Codex에 맡기고 안에서 벌어지는 일을 열어 봅니다. 모델은 글만 쓰고 파일 열기와 명령 실행은 도구가 하며, 버그 하나에 Claude Code는 모델을 네 번(1:35), Codex는 다섯 번(2:16) 불렀고 공개된 Codex 소스에서 반복 루프(2:35)를 확인합니다. 모델은 기억이 없어 호출마다 앞 대화를 통째로 다시 보내므로 대화는 예산이라고 설명하고(4:19), 꽉 차면 압축하는 과정(5:04), 같은 자리를 빙빙 도는 이유(5:52), 승인과 샌드박스(6:31), 체크포인트와 git으로 되돌리기(7:46)를 차례로 짚습니다. 실측은 2026년 10월 31일~11월 1일 Claude Code 2.1.316·Codex CLI 0.164.0에서 버그 한 개로 잰 것이고, 설명란에 운영자의 유료 강의 안내가 있습니다.",
-      "titleEn": "Dante: what happens inside when AI fixes a bug - 4 model calls for Claude Code, 5 for Codex, plus the loop, compaction, sandbox and undo (9 minutes)",
-      "bodyEn": "In 9m54s the Korean channel Dante (단테) hands the same shipping-fee bug to Claude Code and Codex and opens up what happens inside. The model only writes text while tools open files and run commands; for one bug Claude Code called the model four times (1:35) and Codex five (2:16), and the video finds the repeat loop in the public Codex source (2:35). Because the model has no memory and every call resends the earlier conversation, he frames the conversation as a budget (4:19), then covers compaction when it fills up (5:04), why agents go in circles (5:52), approvals and the sandbox (6:31) and undoing with checkpoints versus git (7:46). Measurements were taken on October 31 - November 1 with Claude Code 2.1.316 and Codex CLI 0.164.0 on a single bug, and the description plugs the creator's paid courses.",
-      "sourceName": "YouTube · 단테",
-      "sourceUrl": "https://www.youtube.com/watch?v=tzmTUsvJokQ",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=tzmTUsvJokQ",
-      "createdAt": "2026-11-08T11:00:24Z",
-      "curatedAt": "2026-11-10T23:13:42Z"
-    },
-    {
       "id": "curated-20261111-mindung-claude-code-12-basics-ko",
       "title": "민둥이: 클로드 코드 공식 문서 기본기 12가지 9분 총정리 — intent.md와 /plan, 권한·/effort·/advisor, /rewind, 훅·/loop·/schedule, 서브에이전트와 claude -w",
       "body": "민둥이가 9분 18초 동안 Anthropic 공식 문서를 바탕으로 처음 준비부터 일 맡기기·확인·자동화까지 개발 순서대로 12가지를 정리합니다. intent.md에 만들 것을 적고 /plan으로 계획부터 맞추기(0:34), 반복 설명은 /init으로 만든 CLAUDE.md에(1:13), 오토 모드와 /permissions(1:48), /effort low~max·ultrathink·/advisor(2:27), /clear·/compact·/btw 구분과 /context(3:18), Esc와 /rewind(3:53)를 다룹니다. 이어 테스트 먼저·/verify·/simplify·/code-review·/goal로 스스로 검증시키기(4:24), 잘된 절차를 스킬로 저장(5:31), 훅·/loop·/schedule(6:04), MCP(6:37), 서브에이전트와 claude -w 워크트리(7:02), claude -p와 /remote-control(8:07)이 이어지고 마지막에 /insights로 내 사용 기록을 분석해 봅니다(8:45).",
@@ -182,32 +234,6 @@
       "mediaUrl": "https://www.youtube.com/watch?v=2g6j_JX-n_o",
       "createdAt": "2026-11-08T13:59:08Z",
       "curatedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "curated-20261110-hn-anthropic-fable-mythos-5-2-model-routing",
-      "title": "Anthropic, Claude Fable 5.2·Mythos 5.2 공개 — 일상 작업은 Opus 5.5부터 시작해 위아래로 옮기고 Fable은 Advisor·Orchestrator로, 입력 8달러·출력 40달러",
-      "body": "Anthropic이 Claude Fable 5.2와 Mythos 5.2를 공개했습니다(HN 11월 9일, 817점). 둘은 같은 모델이고 사이버·생물 안전장치를 건 Fable이 모든 사용자에게 열리며, 5.1보다 출력이 최대 30% 빠르면서 100만 토큰당 입력 8달러·출력 40달러로 값이 내렸고 빠른 모드는 최대 2.5배 속도에 16달러·80달러입니다. 대부분의 코딩·지식 작업은 Opus 5.5부터 시작해 필요하면 Fable·Mythos로 올리거나 Sonnet 5.5·Haiku 5.5로 내리라는 권고이고, Fable은 작은 모델이 어려운 문제를 묻는 Advisor나 쉬운 일을 작은 모델에 나눠 주는 Orchestrator로도 쓸 수 있다고 합니다. Claude Code 기본 노력 수준은 Medium이며 FrontierCode 2.0에서 Fable 5.2 High가 Opus 5.5 Max와 비슷한 점수를 약 절반 비용으로 냈다는 수치는 Anthropic 자체 측정이고, HN 댓글에는 5.2가 5.5보다 낫다는 이름 체계가 헷갈린다는 지적도 있습니다.",
-      "titleEn": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 - start everyday work on Opus 5.5 and move up or down, use Fable as Advisor or Orchestrator, $8 in / $40 out per million tokens",
-      "bodyEn": "Anthropic released Claude Fable 5.2 and Mythos 5.2 (HN, November 9, 817 points). They are the same underlying model; Fable carries cybersecurity and biology safeguards and is open to all users, generates up to 30% faster than 5.1 and costs less at $8 per million input and $40 per million output tokens, with an optional fast mode of up to 2.5x speed at $16 and $80. For most coding and knowledge work Anthropic recommends starting on Opus 5.5 and moving up to Fable or Mythos, or down to Sonnet 5.5 or Haiku 5.5, and says Fable can act as an Advisor that smaller models consult on hard problems or as an Orchestrator that hands simpler tasks to smaller models. Claude Code's default effort is Medium, and the claim that Fable 5.2 at High matched Opus 5.5 at Max on FrontierCode 2.0 for about half the cost per task is Anthropic's own measurement; HN commenters also point out that the naming, with 5.2 beating 5.5, is confusing.",
-      "sourceName": "Hacker News · Anthropic",
-      "sourceUrl": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-09T18:56:29Z",
-      "curatedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "curated-20261110-dalbee-ego-lite-browser-automation-ko",
-      "title": "달비의 작업실: 클로드 코드 브라우저 자동화 27번 비교 — Chrome(CDP)·Aside·ego lite, 같은 일에 평균 19분·17분·11분, 한 번 비용 3.4달러·3.2달러·1.9달러 12분",
-      "body": "달비의 작업실이 11분 39초 동안 Claude Code로 매일 하는 브라우저 일 세 가지를 Chrome(CDP)·Aside·ego lite에 같은 모델·같은 프롬프트로 세 번씩, 모두 27번 시켜 비교했습니다. 유튜브 스튜디오 질문 4개를 파일 하나에 모으는 일은 12분 20초·9분 30초·6분 40초(ego lite)였고 에이전트와 브라우저가 주고받은 횟수도 37번 대 22번이었으며, 쓰레드 인기글 10개 찾기는 CDP 26분·Aside 최대 28분·ego lite 평균 14분 20초였습니다. 세 작업 평균은 19분·17분·11분, 한 번 비용은 3.4달러·3.2달러·1.9달러였고, 코드가 도는 동안 AI가 화면을 보지 못해 오류가 나면 되돌아와 고치는 왕복이 많아서라는 설명입니다. ego lite 한 번은 비용이 더 나온 적도 있고 ego lite의 지원을 받아 만든 영상이니, 한 사람의 3회 평균으로 감을 잡는 용도로 보세요.",
-      "titleEn": "Dalbee's Workshop: 27 Claude Code browser-automation runs compared - Chrome (CDP), Aside and ego lite averaged 19, 17 and 11 minutes per task at $3.4, $3.2 and $1.9 a run (12 minutes)",
-      "bodyEn": "In 11m39s Dalbee's Workshop (달비의 작업실) gives Claude Code three browser chores it does every day to Chrome (CDP), Aside and ego lite - same model, same prompt, three runs each, 27 in total. Gathering four YouTube Studio answers into one file took 12m20s, 9m30s and 6m40s (ego lite), with 37 agent-browser round trips for Chrome against 22 for ego lite; finding ten fast-rising Threads posts took 26 minutes for CDP, up to 28 for Aside and 14m20s on average for ego lite. Across the three tasks the averages were 19, 17 and 11 minutes and $3.4, $3.2 and $1.9 per run, which the creator attributes to the AI being unable to see the page while its code runs, so errors force extra round trips. One ego lite run did cost more and the video was made with support from ego lite, so treat it as one creator's three-run averages.",
-      "sourceName": "YouTube · 달비의 작업실",
-      "sourceUrl": "https://www.youtube.com/watch?v=6rFAiXvLGN4",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=6rFAiXvLGN4",
-      "createdAt": "2026-11-09T09:00:29Z",
-      "curatedAt": "2026-11-09T23:13:33Z"
     },
     {
       "id": "curated-20261110-teo-mcp-api-cli-morning-briefing-ko",
@@ -234,32 +260,6 @@
       "mediaUrl": "",
       "createdAt": "2026-11-08T21:55:36Z",
       "curatedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "curated-20261110-hn-ask-agent-context-across-clients",
-      "title": "Ask HN: 고객·프로젝트가 여럿일 때 에이전트 맥락 관리법 — gitignore한 ADR 폴더와 상태 문서, 위키+QMD 검색에 갱신 확인 게이트, Johnny.Decimal+옵시디언",
-      "body": "Ask HN(11월 7일, 86점)에서 고객·프로젝트가 여럿일 때 에이전트에게 맥락과 지난 결정을 매번 다시 설명하는 비용을 어떻게 줄이는지 물었고, 최상위 댓글 45개가 답했습니다. 한 사용자는 저장소마다 gitignore한 ADR(설계 결정 기록) 폴더와 '어디까지 했는지' 상태 문서를 두고, 다른 사용자는 카파시식 LLM 위키에 QMD 의미 검색을 붙여 AGENTS.md가 큰 작업 전에 위키를 찾게 하고 gatekeeper.py가 위키 갱신을 확인해야만 라운드를 끝내게 합니다(토큰은 들지만 어느 단계든 재현할 수 있다고). 그 밖에 Johnny.Decimal ID로 옵시디언 노트·폴더·CLI를 잇는 방식, OpenSpec 같은 스펙 주도 개발, 자체 호스팅 Gitea 위키, Matt Pocock의 스킬 모음이 나왔는데, 개인 경험담이고 일부는 본인 도구 소개이니 한두 가지만 골라 시험해 보세요.",
-      "titleEn": "Ask HN: how to manage agent context across clients and projects - a gitignored ADR folder plus status doc, a wiki with QMD search and a gate that checks the wiki was updated, Johnny.Decimal with Obsidian",
-      "bodyEn": "An Ask HN thread (November 7, 86 points) asked how people avoid re-explaining context and past decisions to agents across several clients and projects, and drew 45 top-level comments. One commenter keeps a gitignored ADR (architecture decision record) folder and a 'where I left off' status doc in each repo; another pairs a Karpathy-style LLM wiki with QMD semantic search, has AGENTS.md tell the agent to search the wiki before significant work, and uses a gatekeeper.py script that blocks finishing a round until the wiki is updated (token-hungry, but any stage can be reproduced). Others mention Johnny.Decimal IDs linking Obsidian notes, folders and a CLI, spec-driven development such as OpenSpec, a self-hosted Gitea wiki and Matt Pocock's skills library. These are personal anecdotes and some are self-promotion, so pick one or two ideas to test.",
-      "sourceName": "Hacker News · Ask HN",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50403153",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-07T10:01:48Z",
-      "curatedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "curated-20261109-geeknews-anthropic-agent-memory-dreaming-ko",
-      "title": "Anthropic: 에이전트 메모리 설계 — 세션 사이 '드리밍'으로 틀린 메모를 대화 로그와 대조해 고치고, 검색+위키 병용으로 채점 충족률 53%→61%·질문당 2만 토큰 절약",
-      "body": "Anthropic이 에이전트가 다음 세션을 위해 무엇을 기억하고 쌓인 기억을 어떻게 정리할지 Claude로 실험한 글입니다(GeekNews 11월 8일 소개). 세션 사이에 노트를 원본 대화 기록과 대조해 오류를 고치고 흩어진 노트를 위키로 묶는 '드리밍'을 쓰자, Stainless 내부 문서 약 35만 파일 평가에서 검색만 쓸 때 53%이던 채점 기준 충족률이 검색+위키로 최대 61%가 됐고 질문당 약 2만 토큰이 줄었습니다. 최신 모델에는 '요청받았거나 명백히 기억할 가치가 있을 때 노트를 만들라'는 단순한 지침이 낫고 '실패만 기록하라' 같은 고정 규칙은 이득을 크게 줄였으며, 항상 불러오는 상위 메모리(Claude Code는 MEMORY.md 첫 200줄·25KB)는 작게 유지하라고 합니다. 한 문서로 답이 나오는 과제에서는 위키의 이득이 뚜렷하지 않았고 틀린 메모도 다음 세션에 전달될 수 있어 무엇을 얼마나 자주 검증할지는 남은 설계 과제입니다.",
-      "titleEn": "Anthropic on agent memory design - 'dreaming' between sessions checks wrong notes against conversation logs, and search plus a wiki lifted rubric coverage from 53% to 61% while saving about 20K tokens per question",
-      "bodyEn": "Anthropic experimented with Claude on what an agent should remember for its next session and how to tidy accumulated memory (shared on GeekNews on November 8). Using 'dreaming' - between sessions, notes are checked against the raw conversation log to fix errors and scattered notes are linked into a wiki - an evaluation over roughly 350,000 internal Stainless files lifted rubric coverage from 53% with search alone to up to 61% with search plus the wiki, and saved about 20K tokens per question. For recent models a plain instruction to write notes when asked or when something is clearly worth remembering worked better, a fixed rule such as 'record only failures' greatly reduced the gain, and the always-loaded top tier should stay small (Claude Code loads only the first 200 lines or 25KB of MEMORY.md). The wiki showed no clear gain on tasks answerable from a single document, and wrong notes can still carry into later sessions, so how much and how often to verify remains an open design problem.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36775",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-07T20:51:20Z",
-      "curatedAt": "2026-11-08T23:12:37Z"
     }
   ]
 }
