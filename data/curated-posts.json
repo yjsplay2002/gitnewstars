@@ -1,6 +1,97 @@
 {
-  "generatedAt": "2026-11-12T23:13:49Z",
+  "generatedAt": "2026-11-13T23:18:58Z",
   "posts": [
+    {
+      "id": "curated-20261114-yt-silbaem-claude-code-2026-h2-harness-ko",
+      "title": "실밸개발자: 클로드 코드 2026 하반기 총정리 — 모델이 바뀌어 하네스도 바뀌었으니 오토 모드·자동 압축 40%로 덜고, 6개월마다 CLAUDE.md를 지워 보고, 끝을 검증하도록 설계하기 (37분)",
+      "body": "실밸개발자가 37분 13초 동안 지난 통합본 이후 Claude Code의 기본값이 어떻게 달라졌는지 짚고, 사용법을 바꾸기·덜기·킵·더하기 네 갈래로 정리합니다. 권한은 오토 모드(권한 요청의 97%가 그냥 승인되고 있었다고, 4:36), 서브 에이전트는 백그라운드에서 fork로 맥락을 물려받고(5:15), CLAUDE.md가 없으면 AGENTS.md를 읽으며 /import로 Codex·Gemini CLI·Cursor 설정을 가져올 수 있다고 합니다(5:52). 컨텍스트는 auto compaction을 40%에 걸어 두고 세션을 길게 가져가고(8:33), 최신 모델용 시스템 프롬프트를 80% 넘게 지웠는데 코딩 평가 품질은 그대로였다는 사례를 들어 6개월마다 CLAUDE.md와 스킬을 지워 보고(12:21) 대문자 IMPORTANT와 think hard는 그만하라고(13:15) 권합니다. 더할 것으로 skill doctor·/simplify·code-review·Verify를, 잘 쓰는 사람들의 공통점으로 /goal로 끝을 검증할 수 있게 설계하기(30:40)와 만드는 에이전트·검증하는 에이전트 분리(32:35)를 꼽는데, 영상 속 수치는 진행자가 소개하는 내용이니 공식 문서와 함께 확인하세요.",
+      "titleEn": "Silbaem Developer on Claude Code for 2026 H2 - the model changed so the harness changed: lighten with auto mode and 40% auto-compaction, delete your CLAUDE.md every six months to test it, and design work so the end can be verified (37 minutes)",
+      "bodyEn": "In 37m13s the Korean channel Silbaem Developer (실밸개발자) goes through how Claude Code's defaults changed since his earlier all-in-one video and sorts his own habits into change, remove, keep and add. Permissions move to auto mode (he says 97% of permission requests were being approved anyway, 4:36), subagents run in the background and inherit context via fork (5:15), and Claude Code reads AGENTS.md when there is no CLAUDE.md, with /import pulling in Codex, Gemini CLI and Cursor settings (5:52). He sets auto compaction at 40% and keeps one session running long (8:33), cites the Claude Code team deleting over 80% of the system prompt for the latest model with coding-eval quality unchanged, and so suggests trying to delete your CLAUDE.md and skills every six months (12:21) and dropping capitalized IMPORTANT and 'think hard' (13:15). What he adds is skill doctor, /simplify, code-review and Verify, and what he says good users share is designing work whose end can be verified with /goal (30:40) and separating the agent that builds from the agent that verifies (32:35); the figures are what the host reports in the video, so check them against the official docs.",
+      "sourceName": "YouTube · 실밸개발자",
+      "sourceUrl": "https://www.youtube.com/watch?v=xwx9kHKBPgg",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=xwx9kHKBPgg",
+      "createdAt": "2026-11-13T22:00:34Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "curated-20261114-google-research-antigravity-teamwork",
+      "title": "Google Research, Antigravity의 /teamwork 공개 — 후보를 병렬로 만들고 Lean 4·테스트·시뮬레이터 같은 자동 검증기로 걸러내며, 에이전트마다 필요한 파일만 주고 검수자는 깨끗한 맥락에서 보게 한다",
+      "body": "Google Research가 11월 13일 Gemini 4(Argon·Carbon·Hydrogen) 위에서 도는 Antigravity의 멀티 에이전트 기능 /teamwork를 소개했습니다. 사람이 문제와 제약을 정하면 에이전트가 풀이 코드를 쓰고 후보를 병렬로 늘려 Lean 4·수정하지 않은 테스트 스위트·시뮬레이터로 검증하며, 단계마다 필요한 파일과 도구만 주어 며칠짜리 작업의 맥락 흐트러짐을 줄이고, 지휘자는 새 후임 에이전트에게 일을 넘기고, 비평가는 생산자의 추론을 보지 않은 깨끗한 맥락에서 결과를 검수합니다. 에이전트 30개가 생성·검증 루프를 돈 NMR 구조 결정은 상위 1개 정확도 95%였고, 29개 에이전트가 11.5시간 동안 공개 표 13개로 인과추론 벤치마크 50문항을 만들었다고 합니다. /teamwork와 /boost는 지금 Antigravity에서 외부 사용자도 쓸 수 있고 Deep Review는 주 2회 무료이지만, 수치는 모두 Google과 협력자의 자체 보고이고 일부 패턴은 아직 예정 단계입니다.",
+      "titleEn": "Google Research unveils Antigravity's /teamwork - generate candidates in parallel and filter them with automated checkers like Lean 4, test suites and simulators, give each agent only the files it needs, and have critics review from a clean context",
+      "bodyEn": "On November 13 Google Research described /teamwork, the multi-agent feature in Antigravity that runs on Gemini 4 (Argon, Carbon and Hydrogen). Humans frame the problem and constraints; agents write solvers, generate candidates in parallel and verify them with Lean 4, unmodified test suites and simulators, each step gets only the files and tools it needs to limit context drift over multi-day work, coordinators hand work to fresh successor agents, and critics review results from a clean context that excludes the producer's reasoning. Thirty agents in a generate-and-verify loop reached 95% top-1 accuracy on NMR structure determination, and 29 agents spent 11.5 hours turning 13 public tables into a 50-task causal-inference benchmark. /teamwork and /boost are available to external users in Antigravity now and Deep Review has two free calls a week, but all results are self-reported by Google and its collaborators and some patterns are still marked as coming.",
+      "sourceName": "Google Research",
+      "sourceUrl": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-13T00:00:00Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "curated-20261114-hn-agentrun-self-improving-agents",
+      "title": "Show HN: AgentRun — 기존 코딩 에이전트에 학습·내구 실행·통제를 얹는 오픈소스, 실행이 끝날 때마다 메모·스킬·워크플로우를 제안받아 검증한 뒤 git에 커밋 (npx 한 줄)",
+      "body": "Parcha가 Apache-2.0으로 공개한 AgentRun이 Show HN에 올랐습니다(11월 12일, 133점·댓글 37개). 'learning: true'를 켜면 각 실행 끝에 에이전트가 남길 메모·재사용 스킬·워크플로우를 제안하고, 코드 검사와 채점 에이전트 한 개를 통과한 것만 에이전트의 git 폴더에 커밋해 다음 실행이 거기서 시작하며, 위험한 규칙은 사람 승인을 기다리고 비밀 값이 든 항목은 버립니다. 실행은 SQLite(또는 Postgres)에 저장돼 서버가 재시작돼도 이어지고, 도구마다 허용·승인 필요·거부와 지출 상한을 둘 수 있으며, Node 24.22.3 이상에서 npx @parcha/agentrun으로 시작해 pi·Claude Code·Codex·OpenCode 하네스를 고를 수 있습니다. 코드 리뷰 한 건에 약 0.18달러, 거래처 분류 비용이 0.89달러에서 0.12달러로 줄었다는 수치는 개발사 사례의 자체 보고입니다.",
+      "titleEn": "Show HN: AgentRun - open-source learning, durable execution and control for existing coding agents; each run ends with proposed notes, skills and workflows that are vetted and committed to git (one npx command)",
+      "bodyEn": "Parcha's Apache-2.0 AgentRun hit Show HN (November 12, 133 points, 37 comments). With 'learning: true' each run ends with a turn in which the agent proposes memory notes, reusable skills or workflows; only what passes code checks and a single grader is committed to the agent's git folder so the next run starts from it, risky rules wait for human approval, and items containing secrets are dropped. Runs persist in SQLite (or Postgres) and resume after a server restart, each tool can be set to allow, require approval or deny with spend caps, and on Node 24.22.3 or newer you start with npx @parcha/agentrun and pick the pi, Claude Code, Codex or OpenCode harness. The figures of roughly $0.18 per code review and merchant classification falling from $0.89 to $0.12 are the vendor's own case-study numbers.",
+      "sourceName": "Hacker News · Parcha",
+      "sourceUrl": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-12T18:15:48Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "curated-20261114-yt-mildcode-ai-era-thinking-ko",
+      "title": "마일드코드: 클로드 코드 핵심 개발자의 AI 시대 사고법 — 사람의 생각은 작업 맨 앞의 의도와 맨 끝의 완료 기준에, '알아서 해 줘' 대신 '선택지를 줘', 증거로 판정하기 (18분)",
+      "body": "마일드코드가 17분 49초 동안 AI 활용을 결과 책임이 내게 남는 '인지적 위임'으로 보고, 검토하지 않은 화면 위에 기능을 계속 얹는 '판단의 연기'와 검토조차 못 하는 '판단의 포기'를 경계하라고 말합니다(0:36~2:18). 비개발자가 배울 것은 코드가 아니라 AI 작업을 주도하는 방법이고(3:31) 사람의 사고는 작업의 맨 앞(의도)과 맨 끝(완료 기준)에 둬야 한다며(4:36), 프롬프트 한 줄에서 말하지 않은 부분은 누가 결정했는지 되묻습니다(5:11). 매번 요청서를 쓰는 대신 달성할 것·절대 하지 않을 것·철학을 묻는 인터뷰를 Polaris 플러그인으로 한 번 세팅하는 시스템을 보여 주고(9:44), '알아서 해 줘' 대신 '선택지를 줘'(11:59), 테스트와 스크린샷 같은 증거로 판정하고 완료 기준을 먼저 정하기(12:36~13:39), 틀려도 대가가 크지 않은 일만 위임하기(14:56)를 권하며, 설명란에 유료 강의 안내가 있습니다.",
+      "titleEn": "Mildcode: how a core Claude Code developer thinks in the AI era - put human thinking at the very start (intent) and the very end (completion criteria), ask for options instead of 'figure it out', and judge by evidence (18 minutes)",
+      "bodyEn": "In 17m49s the Korean channel Mildcode (마일드코드) frames AI use as 'cognitive delegation' in which you keep responsibility for the result, and warns against 'deferred judgment' (piling features onto screens you never reviewed) and 'abandoned judgment' (being unable to review at all) (0:36-2:18). What non-developers should learn is how to lead AI work rather than code (3:31), with human thinking placed at the very start (intent) and very end (completion criteria) of a task (4:36), and he asks who decided everything you left out of a one-line prompt (5:11). He shows a system set up once instead of writing a request each time - the Polaris plugin interviews you on what to achieve, what never to do and your philosophy (9:44) - then recommends asking for options instead of 'figure it out' (11:59), judging by evidence such as tests and screenshots with completion criteria defined first (12:36-13:39), and delegating only work where being wrong is cheap (14:56); the description plugs a paid course.",
+      "sourceName": "YouTube · 마일드코드",
+      "sourceUrl": "https://www.youtube.com/watch?v=dhwDv7qUQ90",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=dhwDv7qUQ90",
+      "createdAt": "2026-11-12T11:07:57Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "curated-20261114-blog-newcombe-viral-setup-vs-plain",
+      "title": "유행하는 Claude Code 세팅 vs 맨 세션 — Opus 지휘 + Haiku 하위 에이전트는 38분·4.05달러에 15케이스 전부 통과, 맨 세션은 11.5분·3.14달러에 8개, 리뷰 한 번만 더하면 13개",
+      "body": "Pete Newcombe가 11월 12일 같은 모델·같은 effort·같은 프로젝트 규칙으로 한 버그 수정(도구 호출 뒤 이어지는 응답 문장이 붙어 버리는 채팅 앱 문제, 합치기 15케이스)을 세 번 돌려 비교했습니다. Opus 지휘자와 Haiku 하위 에이전트, 검증 루프, 40% 자동 압축, 자가 개선 스킬을 갖춘 '유행 세팅'은 약 38분·4.05달러에 15개를 통과했고, 맨 세션은 11.5분·3.14달러에 8개, 맨 세션에 리뷰 한 번을 더하면 21.8분·2.82달러에 13개였습니다. 처음 어림한 약 8달러는 로그가 한 응답의 사용량을 여러 줄에 반복해 적는 탓에 틀렸고 메시지 ID당 한 번만 세자 2~3배 줄었으며, 글쓴이는 약 4센트로 진짜 버그를 잡은 싼 리뷰 단계만 남기기로 했습니다. 각 설정을 한 번씩만 돌린 개인 측정이고 지휘 쪽만 대화형으로 돌렸으니 벤치마크가 아니라 하나의 데이터 포인트로 읽으세요.",
+      "titleEn": "A viral Claude Code setup vs a plain session - an Opus orchestrator with Haiku subagents passed all 15 cases in 38 minutes for $4.05, a plain session passed 8 in 11.5 minutes for $3.14, and one extra review pass got it to 13",
+      "bodyEn": "On November 12 Pete Newcombe ran the same bug fix three times with the same model, effort level and project rules (text from consecutive responses running together after tool calls in a chat app, 15 join cases). The 'viral setup' - an Opus orchestrator with Haiku subagents, verification loops, 40% auto-compaction and self-improving skills - passed all 15 in about 38 minutes for $4.05, a plain session passed 8 in 11.5 minutes for $3.14, and a plain session plus one review pass passed 13 in 21.8 minutes for $2.82. His first estimate of about $8 was wrong because Claude Code logs one response's usage across several repeated lines, and counting once per message ID cut the totals by two to three times; he decided to keep only the cheap review step, which cost about four cents and caught a real bug. Each setup ran once as his own measurement and only the orchestrated run was interactive, so read it as one data point rather than a benchmark.",
+      "sourceName": "Pete Newcombe",
+      "sourceUrl": "https://newcombe.dev/articles/a-viral-claude-code-setup-against-a-plain-session/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-12T00:00:00Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "curated-20261114-geeknews-ibare-inertia-agents-ko",
+      "title": "AI와 일할 때 가장 자주 던지는 질문: 지금 관성에 끌려가고 있는가? — 각 단계는 합리적인데 처음 전제를 의심하지 않는 문제, 독립 검토와 리뷰 루프의 멈춤 조건으로 줄이기",
+      "body": "ibare가 AI 에이전트와 1년 넘게 개발하며 할루시네이션보다 자주 만난 문제로 '관성'을 꼽았습니다(GeekNews, 11월 12일 전후, 댓글 4개). 각 단계가 합리적으로 보여도 처음의 전제를 의심하지 않고 계속 나아가는 현상으로, 스킬 정의 기준이 만든 문제를 5개월간 모른 채 그 빈자리를 메울 새 시스템을 설계한 일, 설계 문서를 그래프로 바꾸는 실험을 일치율을 더 올릴 수 있는데도 하루 만에 접은 일, PR 리뷰에서 결함보다 '열린 지적 0개'라는 숫자를 맞추려고 고친 일을 사례로 듭니다. 줄이는 방법은 검토자가 앞선 논의를 보기 전에 독립적으로 판단하게 하고 에이전트 간 리뷰 루프에 멈춤 조건을 두는 것이며, 늘 던지는 질문은 '다음 단계를 요구하는 것이 원래 풀려던 문제인가, 앞선 논의가 남긴 관성인가'입니다. 수치 없이 개인 경험에 바탕한 글이고 저자도 관성이 교묘해 놓치기 쉽다고 답했습니다.",
+      "titleEn": "The question I ask most when working with AI: am I being dragged along by inertia? - each step looks reasonable while the original premise goes unquestioned; cut it with independent review and stop conditions on review loops",
+      "bodyEn": "ibare names 'inertia' as the problem met more often than hallucination in over a year of building with AI agents (GeekNews, around November 12, 4 comments): every step looks reasonable while the original premise is never questioned. The examples are not noticing for five months that a skill-definition criterion was causing a problem and designing a new system to fill the gap, abandoning after a day an experiment converting design documents into graphs even though the match rate could still be raised, and editing a PR review to hit 'zero open comments' rather than fix the defects. The remedies are to have a reviewer judge independently before seeing the earlier discussion and to put stop conditions on review loops between agents, and the question he keeps asking is whether what demands the next step is the original problem or inertia left by earlier discussion. It is an experience-based piece without numbers, and the author replied that inertia is subtle and often hard to catch.",
+      "sourceName": "GeekNews · ibare",
+      "sourceUrl": "https://news.hada.io/topic?id=37030",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-12T00:00:00Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "curated-20261114-aipost-agent-factory-hooks-worktree-ko",
+      "title": "AIPOST: 에이전트 여럿이 코드를 짜고 사람은 결정만 — 멈춤 규칙 16개 중 10개는 코드로 판정, 'merge 금지' 프롬프트 규칙은 3번 중 0번 지켜졌지만 PreToolUse 훅으로 바꾸자 3번 모두 차단",
+      "body": "AIPOST(11월 10일)가 Claude Code로 만든 자동 개발 '공장' 실험을 정리했습니다. 프롬프트 하나로 약 27분 만에 orchestrator 스킬, 에이전트 5종(명세·구현·코드 리뷰·보안 리뷰·승인), 마크다운 상태 파일, 제어 스크립트와 대시보드, 멈춤 규칙 16개(10개는 코드가 판정, 6개는 에이전트 판단)를 갖췄고 첫 기능은 약 38분에 사람이 네 번 개입했습니다. 같은 폴더에서 동시에 일하면 파일이 충돌해 git worktree로 폴더를 나눴고, 'main에 합치지 마'라는 프롬프트 규칙은 3번 시험에서 0번 지켜졌지만 PreToolUse 훅(약 100줄)으로 바꾸자 3번 모두 막혔으며 테스트는 546개에서 739개로 늘었습니다. 연습용 저장소에서 시작하고 절대 규칙은 훅으로 강제하며 결과는 에이전트 보고가 아니라 직접 pytest로 확인하라는 권고인데, 한 사람의 단일 사례이고 구독 한도가 빨리 닳을 수 있다는 주의가 붙어 있습니다.",
+      "titleEn": "AIPOST: several agents write the code and the human only decides - 10 of 16 stop rules judged by code, and a 'never merge' prompt rule held 0 of 3 times until a PreToolUse hook blocked it 3 of 3",
+      "bodyEn": "AIPOST (November 10) writes up an experiment with an automated development 'factory' built in Claude Code. One prompt produced in about 27 minutes an orchestrator skill, five agents (spec writer, builder, code reviewer, security reviewer, approver), markdown state files, a control script and dashboard, and 16 stop rules (10 judged by code, 6 left to agent judgment); the first feature took about 38 minutes with four human interventions. Working in one folder at the same time caused file conflicts, so it split folders with git worktrees, and a prompt rule saying not to merge into main was obeyed 0 times in 3 tests but a PreToolUse hook of about 100 lines blocked it 3 of 3, while tests grew from 546 to 739. The advice is to start in a practice repository, enforce absolute rules with hooks and verify results by running pytest yourself rather than trusting the agent's report; it is one person's single case and the article warns that subscription limits drain quickly with several agents running.",
+      "sourceName": "AIPOST",
+      "sourceUrl": "https://aipost.kr/ko/posts/2026-11-10-claude-code-ai-software-factory-worktree-hooks/",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-10T19:03:01Z",
+      "curatedAt": "2026-11-13T23:18:58Z"
+    },
     {
       "id": "curated-20261113-hn-gemini-4-hydrogen-orchestrator",
       "title": "Google, Gemini 4 Hydrogen과 Antigravity Orchestrator 공개 — Carbon이 읽기 전용으로 계획하고 Hydrogen이 수정·테스트하다 막히면 다시 Carbon으로, 할당량 24% 절감",
@@ -93,19 +184,6 @@
       "curatedAt": "2026-11-12T23:13:49Z"
     },
     {
-      "id": "curated-20261112-hn-gemini-decisions-api-routing",
-      "title": "Google, Gemini Decisions API 공개 — 도구 선택·정책 점검·모델 라우팅 같은 '정해진 선택지' 판단을 150~250ms, 입력 100만 토큰당 0.10달러에",
-      "body": "Google이 문장을 생성하지 않고 후보 선택지의 점수만 한 번에 계산하는 Gemini Decisions API(모델 gemini-decision-1)를 공개했습니다(HN 11월 11일, 186점·댓글 60개). 도구 선택, 정책 점검, 모델 라우팅, 컨텍스트 채점처럼 답이 정해진 판단용으로, 입력 하나(텍스트·이미지·오디오·영상·PDF)에 질문을 최대 1,000개 묶어 예/아니오, 선택지 2~255개 객관식, 등급 채점을 한 번에 요청하면 확률과 0~1 신뢰도가 돌아옵니다. 응답은 처음부터 끝까지 150~250ms, 요금은 입력 100만 토큰당 0.10달러에 출력 토큰은 과금하지 않아서, 에이전트의 분기 단계에 끼워 넣고 신뢰도가 낮은 건은 폴백 모델이나 사람에게 넘기는 설계를 권합니다. Gemini 3.5 Flash-Lite보다 약 5배 저렴하다는 비교는 Google이 자체 벤치마크로 낸 수치입니다.",
-      "titleEn": "Google launches the Gemini Decisions API - closed-set decisions like tool selection, policy checks and model routing in 150-250 ms at $0.10 per million input tokens",
-      "bodyEn": "Google released the Gemini Decisions API (model gemini-decision-1), which scores a fixed set of candidate options in one forward pass instead of generating text (HN, November 11, 186 points, 60 comments). It targets bounded calls such as tool selection, policy checks, model routing and context grading: send one input (text, images, audio, video or PDF) with up to 1,000 independent questions - yes/no, multiple choice with 2-255 options, or an ordered rubric score - and get back probabilities with a 0-1 confidence score for each. End-to-end latency is 150-250 ms and pricing is $0.10 per million input tokens with no output tokens billed, so the intended pattern is to put it at the branching steps of an agent and send low-confidence cases to a fallback model or a human. The claim of being nearly 5x cheaper than Gemini 3.5 Flash-Lite on a shared benchmark is Google's own measurement.",
-      "sourceName": "Hacker News · Google",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-11T18:00:00Z",
-      "curatedAt": "2026-11-11T23:14:26Z"
-    },
-    {
       "id": "curated-20261112-hn-aws-emulator-spec-tests-merge-gate",
       "title": "AWS Emulator와 '에이전트가 코드를 쓸 때 엔지니어의 일' — 스펙·실서비스 대조 테스트·머지 게이트를 먼저 깔자 4개월 걸렸던 재작성이 2시간으로",
       "body": "Amazon이 코딩 에이전트가 로컬에서 테스트할 AWS 복제본 AWS Emulator를 공개하며 Swami Sivasubramanian이 쓴 글입니다(HN 11월 11일, 블로그 글 108점·저장소 스레드 543점). 서비스 API 모델 400개 이상(서비스 200개 넘게)을 스펙으로 삼고, 실제 AWS에 먼저 통과시켜 정답으로 굳힌 '충실도 테스트'를 에이전트가 통과할 때까지 에뮬레이터를 만들게 했으며, SQS 하나는 프롬프트 한 번에 약 15분 만에 쓸 만한 첫 버전이 나왔습니다. 글쓴이가 에이전트로 옛 복제 엔진을 다시 짤 때는 결과를 검증할 방법이 없어 4일 밤을 지켜봤지만, 스펙과 테스트 환경을 주자 약 2시간에 끝났다고 하고(처음엔 약 4개월), 보안 에이전트 여러 개가 적대적으로 보는 머지 게이트와 건드리면 안 되는 코드를 막는 결정적 검사를 함께 둡니다. 코드는 CC0로 공개돼 무료로 오프라인에서 돌릴 수 있지만 Amazon이 자사 제품을 설명하는 글이라 수치는 회사 측 설명으로 읽으세요.",
@@ -119,19 +197,6 @@
       "curatedAt": "2026-11-11T23:14:26Z"
     },
     {
-      "id": "curated-20261112-hn-maya-site-lidar-agents",
-      "title": "AI 에이전트 48개가 NASA 라이다를 훑어 마야 유적을 찾았다 — 이미지로 바꿔 나눠 보게 하고 문헌 대조까지 맡긴 72시간, 알고 보니 재발견",
-      "body": "Pietro Miotti가 공개 라이다 자료(약 1,200km² 정글)를 이미지로 바꾸고, 에이전트 48개가 하나씩 보며 피라미드·단·광장을 찾고 자연 언덕·싱크홀·길은 걸러 내게 했습니다(HN 11월 11일, 899점·댓글 328개). 별도 모델이나 분류기 없이 정확한 안내문만 주고 밤새 돌렸더니 아침에 후보 보고서가 쌓였고, 이어 '문헌과 기록에서 아직 등록 안 된 곳을 확인해 달라'고 시켜 언덕 하나를 골랐으며, 원시 점구름 단면으로 나무가 만든 착시가 아닌지까지 에이전트가 검증했습니다. 신고 절차를 묻고 보고서를 스페인어로 번역시켜 보내자 사흘 안에 멕시코 INAH가 등록된 유적이 없다고 답했지만, 글쓴이가 11월 11일 덧붙인 정정에 따르면 이미 2025년 논문에 지도화돼 있었고 에이전트가 문헌 검색에서 놓친 것이었습니다. 고고학자가 아닌 사람의 사례이고 발견이 아닌 재발견이니, 대량 이미지 검토를 병렬 에이전트에 맡기는 방식과 문헌 대조의 빈틈을 함께 참고하세요.",
-      "titleEn": "48 AI agents combed NASA lidar and found a Maya site - turn data into images, split the review across agents and have them cross-check the literature, in 72 hours (it was a rediscovery)",
-      "bodyEn": "Pietro Miotti turned public lidar coverage (about 1,200 km² of jungle) into images and had 48 agents look at them one by one for pyramids, platforms and plazas while filtering out natural hills, sinkholes and roads (HN, November 11, 899 points, 328 comments). There was no special model or classifier, only a precise guide and an overnight run; in the morning he asked the agents to check the candidates against the literature and archives, picked one hilltop, and had them verify against raw point-cloud slices that the shapes were ground rather than trees. After asking how to report it and having the report translated into Spanish, he heard back from Mexico's INAH within three days that no site was registered, but his November 11 update says the site had already been mapped in a 2025 paper that the agents missed during their literature search. It is a non-archaeologist's account and a rediscovery rather than a discovery, so take away the pattern of parallel image review and the gap in literature cross-checking.",
-      "sourceName": "Hacker News · pietromiotti.com",
-      "sourceUrl": "https://pietromiotti.com/latest/maya-site",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-11T12:05:00Z",
-      "curatedAt": "2026-11-11T23:14:26Z"
-    },
-    {
       "id": "curated-20261112-yt-cole-medin-11-agent-fixes",
       "title": "Cole Medin: 코딩 에이전트의 반복되는 짜증 11가지와 작은 해결책 — 안 끝났는데 '다 했다'고 말함, 통과하는데 깨진 테스트, 규칙 무시, 곁길 (24분)",
       "body": "Cole Medin이 24분 38초 동안 코딩 에이전트가 되풀이하는 문제 11가지를 챕터별로 짚고, 각각의 작은 해결책을 스킬·규칙·훅에 넣는 법을 보여 줍니다. 안 끝났는데 끝났다고 말함(1:49), 동작을 증명하지 않음(4:45), 테스트는 통과하는데 앱이 깨짐(6:30), 규칙을 무시함(8:25), 규칙을 늘릴수록 결과가 나빠짐(12:37), 대화가 길수록 나빠짐(13:59), 작은 요청이 큰 변경이 됨(17:28), 한도 소진(19:07), 곁길로 샘(22:41) 순서입니다. 에이전트와 대화하며 변경 하나하나를 직접 승인하는 방식으로 AI 레이어를 고치라고 하고, 그가 쓰는 ablate-ai-layer 스킬은 GitHub coleam00/skills에 공개돼 있습니다. 영어 영상이며 중간에 Arcade 협찬 구간과 설명란의 유료 강의 안내가 있고, 개인 경험에 바탕한 조언입니다.",
@@ -142,45 +207,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=hMEQ4rdaOLw",
       "createdAt": "2026-11-10T22:57:03Z",
-      "curatedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "curated-20261112-sysmaker-vibecoding-lesson10-api-key-safety-ko",
-      "title": "AI 시스메이커: 바이브코딩 무료강의 10강 — API 키는 .env 금고에, 이미 올렸다면 파일 삭제가 아니라 키 교체, 자동 허용은 읽기만 넓게 (10분)",
-      "body": "AI 시스메이커가 10분 18초 동안 기초 마지막 강의로 초보가 지킬 안전·비용 수칙 5가지를 정리합니다. API 키는 .env에 두고 .gitignore로 깃허브에 올리지 않기(1:15), 이미 올렸다면 파일을 지우는 게 아니라 키를 바꾸기, 자동 허용은 읽기는 넓게 바꾸기는 좁게(2:41), 고객 명단은 가짜 값으로 가려서 쓰기(3:42), 무제한 구독과 사용량 과금을 구분해 상한 걸기(4:41), 커밋 한 벌에 다른 곳 사본 한 벌 더(6:17) 순서입니다. 오늘 숙제로 작업 폴더에서 클로드에게 '비밀번호나 키가 그대로 적힌 파일이 있는지 고치지 말고 읽기만 해서 알려 줘, 값은 가리고'라고 시켜 보게 하며, 협찬·광고는 없고 환경변수 API 키 설명은 터미널의 Claude Code 기준이라는 안내가 붙어 있습니다.",
-      "titleEn": "AI Sysmaker: free vibe-coding course, lesson 10 - keep API keys in a .env vault, rotate a key instead of deleting the file, auto-allow reads widely and writes narrowly (10 minutes)",
-      "bodyEn": "In 10m18s AI Sysmaker (AI 시스메이커) closes the basics of its free beginner course with five safety and cost rules. Keep API keys in .env and out of GitHub with .gitignore (1:15), and if one was already pushed, change the key rather than deleting the file; auto-allow reading broadly but writing narrowly (2:41); mask customer lists with fake values (3:42); tell flat-rate subscriptions from usage-based billing and set a cap (4:41); and keep a commit plus a second copy somewhere else (6:17). The homework is to ask Claude in your project folder to read, not fix, and report any files containing passwords or keys with the values hidden. The video carries no sponsorship, and it notes that the environment-variable API key advice applies to Claude Code in the terminal.",
-      "sourceName": "YouTube · AI 시스메이커",
-      "sourceUrl": "https://www.youtube.com/watch?v=hGOmx5Tt-nY",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=hGOmx5Tt-nY",
-      "createdAt": "2026-11-10T09:00:28Z",
-      "curatedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "curated-20261112-geeknews-fable-52-nephew-game-one-shot-ko",
-      "title": "Fable 5.2, 조카가 그린 도안으로 12스테이지 게임을 하룻밤에 — 프롬프트 한 번, 이미지 175장·효과음 140개, 봇으로 전 스테이지 자동 플레이 점검",
-      "body": "GeekNews(11월 10일 전후)가 소개한 Lex의 글에서, 6월에 Claude Code(Opus 4.8·Fable 5)로 만든 밋밋한 첫 버전을 Fable 5.2 얼리 액세스로 완성하게 했습니다. 잠들기 전에 조카의 도안이 든 폴더와 이미지·효과음 생성 키 경로를 알려 주고 '최대한 재미있게, 커밋하며 진행하고 기존 코드는 버려도 된다'고만 시켰는데, 아침에 코드 대부분을 갈아엎은 12스테이지 비트뎀업이 이미지 약 175장과 오디오 약 140개, 요청하지 않은 컷신·부술 수 있는 상자·엔딩까지 갖추고 있었습니다. 추론 기록을 보니 에이전트가 게임을 자동으로 플레이하는 봇을 만들어 헤드리스 브라우저에서 12개 스테이지를 끝까지 돌리고 스크린샷으로 문제를 점검했습니다. 출시 전 얼리 액세스로 써 본 글쓴이의 사례 하나이고 벤치마크가 아니며, 이후 가족 캐릭터 추가는 사진 몇 장과 필살기 설명으로 처리했다고 합니다.",
-      "titleEn": "Fable 5.2 one-shotted a 12-stage game from a nephew's drawings overnight - one prompt, about 175 images and 140 sound clips, and a bot that plays every stage to check it",
-      "bodyEn": "In a post shared on GeekNews around November 10, Lex had Fable 5.2 (early access) finish a game whose dull first version, built in June with Claude Code, Opus 4.8 and Fable 5, was not worth playing for more than a couple of minutes. Before bed he pointed it to the folder of his nephew's scanned drawings and the paths to image and sound-generation keys and asked for the most fun game possible, committing as it went and free to throw away existing code; by morning most of the code had been rewritten into a 12-stage beat 'em up with about 175 images, 140 audio clips, and cutscenes, smashable crates and an ending nobody asked for. The reasoning traces show the agent wrote a bot that played all twelve stages in a headless browser and checked screenshots for problems, and later family characters were added from a few photos and a described special move. It is one early-access anecdote from the author, not a benchmark.",
-      "sourceName": "GeekNews · Notes by Lex",
-      "sourceUrl": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-10T00:00:00Z",
-      "curatedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "curated-20261112-yt-jongbeom-fable-52-orchestrator-cost-ko",
-      "title": "AI 겸임교수 이종범: Fable 5.2는 성능 1위지만 태스크당 26달러 — 일상은 Opus 5.5 Medium, 크고 어려운 일만 Fable을 오케스트레이터로 (18분)",
-      "body": "AI 겸임교수 이종범이 17분 56초 동안 출시 당일 Fable 5.2를 써 보고 Opus 5.5와 나눠 쓰는 법을 정리합니다. 노력(Effort)을 낮음부터 맥스까지 고를 수 있게 됐고(0:36), 사용량 화면에 Fable 사용량이 다시 생겼으며, 이용 기간에 따라 Fable 리셋권이 1~3장 지급되고 Max 200 요금제는 가격 그대로 Ultra로 이름이 바뀌었다고 합니다. 3D 맨션·펠리컨 SVG·물리엔진·닌자 게임을 직접 시켜 봤고(2:12~), Artificial Analysis 지능 지수는 1위지만 태스크당 비용이 26달러로 가장 비싸(9:47) 결론은 일상 업무는 Opus 5.5 Medium, 어렵고 오래 걸리는 대규모 작업은 Fable 5.2를 지휘자로 두고 서브에이전트를 Opus·Sonnet·Haiku에 맡기는 방식입니다(13:34). 출시 당일의 한 사람 인상이고 설명란에 유료 멤버십 안내가 있습니다.",
-      "titleEn": "AI adjunct professor Lee Jong-beom: Fable 5.2 is #1 but $26 per task - Opus 5.5 Medium for everyday work, Fable as orchestrator only for big hard jobs (18 minutes)",
-      "bodyEn": "In 17m56s the Korean channel AI Adjunct Professor Lee Jong-beom (AI 겸임교수 이종범) tries Fable 5.2 on launch day and works out how to split work with Opus 5.5. Effort can now be set from low to max (0:36), the usage screen shows Fable usage again, 1-3 Fable reset tickets are being issued depending on subscription length, and the Max 200 plan was renamed Ultra at the same price. He tests a 3D mansion, a pelican SVG, a physics engine and a ninja game (from 2:12); it ranks first on the Artificial Analysis intelligence index but at about $26 per task is the most expensive (9:47), so his conclusion is Opus 5.5 at Medium for daily work and Fable 5.2 as the conductor for large, long jobs with subagents on Opus, Sonnet and Haiku (13:34). These are one person's launch-day impressions and the description plugs a paid membership.",
-      "sourceName": "YouTube · AI 겸임교수 이종범",
-      "sourceUrl": "https://www.youtube.com/watch?v=KxUxK3NE2ZQ",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=KxUxK3NE2ZQ",
-      "createdAt": "2026-11-09T23:10:56Z",
       "curatedAt": "2026-11-11T23:14:26Z"
     },
     {
@@ -210,19 +236,6 @@
       "curatedAt": "2026-11-10T23:13:42Z"
     },
     {
-      "id": "curated-20261111-geeknews-ask-gn-agent-shell-permissions-ko",
-      "title": "Ask GN: AI 코딩 에이전트에게 셸 명령 권한을 어디까지 주나 — 명령 이름 차단은 스크립트 속 rm을 놓친다, 훅 차단·worktree 분리·DB 직접 조회 금지 답변 모음",
-      "body": "GeekNews Ask GN(11월 10일, 댓글 10개)에서 에이전트가 홈 폴더나 DB를 지운 사고가 잇따르는데 권한을 매번 확인할지, 일부만 자동 허용할지, 컨테이너 안에서 전부 열지 물었습니다. 한 답변은 명령 이름 차단은 스크립트 안의 rm을 놓치니 실행 환경을 격리하는 편이 확실하다고 했고, 다른 답변은 훅으로 파괴적 동작을 막고 데이터·도구 접근은 MCP를 거치게 합니다. 모든 권한을 열고 git worktree로 세션을 나눠 최대 10개를 동시에 돌린다는 사람, 개인정보가 든 DB는 에이전트가 직접 조회하지 못하게 하고 쿼리를 사람이 검토한다는 사람, 버전 관리가 없는 환경에서는 세션마다 백업을 만들게 한다는 사람도 있었습니다. 글쓴이는 prisma migrate reset이나 git stash drop처럼 rm이 없어도 위험한 명령이 있다고 짚었는데, 검증된 방법이 아니라 개인 경험담이니 환경에 맞춰 골라 보세요.",
-      "titleEn": "Ask GN: how much shell permission do you give an AI coding agent? - blocking by command name misses rm inside scripts; replies on hook blocking, worktree separation and no direct DB queries",
-      "bodyEn": "An Ask GN thread on GeekNews (November 10, 10 comments) asked, after a run of incidents where agents wiped home folders and databases, whether to confirm every command, auto-allow some, or open everything inside a container. One reply says blocking by command name misses an rm hidden in a script, so isolating the execution environment is more reliable; another blocks destructive actions at the hook level and routes data and tool access through MCP. Others grant every permission and split sessions with git worktrees (up to 10 at once), never let the agent query a personal-data database directly and review each query by hand, or tell the agent to make a backup every session where there is no version control. The author points out that commands like prisma migrate reset and git stash drop are dangerous without any rm; these are personal anecdotes rather than proven methods, so pick what fits your environment.",
-      "sourceName": "GeekNews · Ask GN",
-      "sourceUrl": "https://news.hada.io/topic?id=36930",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-10T00:00:00Z",
-      "curatedAt": "2026-11-10T23:13:42Z"
-    },
-    {
       "id": "curated-20261111-mindung-claude-code-12-basics-ko",
       "title": "민둥이: 클로드 코드 공식 문서 기본기 12가지 9분 총정리 — intent.md와 /plan, 권한·/effort·/advisor, /rewind, 훅·/loop·/schedule, 서브에이전트와 claude -w",
       "body": "민둥이가 9분 18초 동안 Anthropic 공식 문서를 바탕으로 처음 준비부터 일 맡기기·확인·자동화까지 개발 순서대로 12가지를 정리합니다. intent.md에 만들 것을 적고 /plan으로 계획부터 맞추기(0:34), 반복 설명은 /init으로 만든 CLAUDE.md에(1:13), 오토 모드와 /permissions(1:48), /effort low~max·ultrathink·/advisor(2:27), /clear·/compact·/btw 구분과 /context(3:18), Esc와 /rewind(3:53)를 다룹니다. 이어 테스트 먼저·/verify·/simplify·/code-review·/goal로 스스로 검증시키기(4:24), 잘된 절차를 스킬로 저장(5:31), 훅·/loop·/schedule(6:04), MCP(6:37), 서브에이전트와 claude -w 워크트리(7:02), claude -p와 /remote-control(8:07)이 이어지고 마지막에 /insights로 내 사용 기록을 분석해 봅니다(8:45).",
@@ -246,19 +259,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=Gj2NptppUtg",
       "createdAt": "2026-11-08T23:45:42Z",
-      "curatedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "curated-20261110-geeknews-ai-brain-fry-git-queue-ko",
-      "title": "나는 AI로 인한 두뇌 과부하에 이렇게 대처한다 — 티켓은 git의 마크다운 큐로, 에이전트는 주기마다 돌고, 사람 판단만 '오너 인박스'로 모아 한 번에 하나씩 닫기",
-      "body": "Sergey Kuhne가 Claude Code·Codex 탭 20개를 오가다 머릿속 맥락이 바닥나는 '두뇌 과부하'를 우선순위 큐로 푼 방법입니다(GeekNews 11월 9일). 티켓을 코드 옆 마크다운 파일로 git에 두어 세션이 죽어도 큐가 남게 하고, 에이전트는 주기마다 새 티켓 조사, 사람이 안전하다고 표시한 티켓 구현, 테스트·브라우저 확인, 배포본 검증을 하되 민감한 코드는 브랜치에서 만들며 먼저 묻고 운영 배포는 절대 하지 않습니다. 사람의 판단이 필요한 항목은 스크립트가 '오너 인박스'로 우선순위순으로 모으고, git에서 매번 다시 만드는 Claude 아티팩트 한 장에서 변경 내용을 읽고 판정하면 결과가 카드에 기록됩니다. 항목 하나를 열어 결정하고 큐로 되돌려 닫는 것이 핵심이라지만, 측정값 없는 개인 실험이고 여전히 피곤하며 맥락을 빠르게 불러오는 도구와 판정 대기로 막힌 티켓의 무한 반복이 남은 과제라고 합니다.",
-      "titleEn": "How I'm fighting AI brain fry - tickets as a markdown queue in git, an agent that works the board in cycles, and only human decisions collected in an 'owner inbox' and closed one at a time",
-      "bodyEn": "Sergey Kuhne describes how he tamed the 'brain fry' of hopping between 20 Claude Code and Codex tabs by running his work like a priority queue (shared on GeekNews on November 9). Tickets are markdown files in git next to the code, so the queue survives a dead session; an agent works the board in cycles - researching new tickets, building the ones a human tagged as safe, running tests and a browser check, and verifying what is deployed - building sensitive changes on a branch and asking first, and never deploying to production. A script gathers everything that needs his judgment into a prioritized 'owner inbox', he reads each change on a single Claude artifact rebuilt from git every cycle, and his verdict is written back onto the card. The point is to open one item, decide, and close it by putting it back in the queue; it is an unmeasured personal experiment, still tiring, and the open problems are serving context quickly and tickets that loop while blocked on a ruling only he can give.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36842",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-08T21:55:36Z",
       "curatedAt": "2026-11-09T23:13:33Z"
     }
   ]

@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-12T23:13:49Z",
+  "generatedAt": "2026-11-13T23:18:58Z",
   "videos": [
+    {
+      "id": "vid-xwx9-silbaem-claude-code-2026-h2-harness-ko",
+      "youtubeId": "xwx9kHKBPgg",
+      "category": "tip",
+      "title": "클로드 코드 2026 하반기 총정리: 하네스가 바뀌었으니 사용법도 바꿔야 합니다 — 오토 모드·40% 자동 압축·CLAUDE.md 덜기",
+      "titleEn": "Claude Code 2026 H2 Roundup | The Harness Changed, So Change How You Use It",
+      "descKo": "오토 모드, fork 서브 에이전트, AGENTS.md와 /import, auto compaction 40%, 시스템 프롬프트 80% 삭제, 6개월마다 CLAUDE.md 지워 보기, skill doctor·Verify, /goal 검증 설계까지 바뀐 기본값과 쓰는 법을 37분에 정리.",
+      "descEn": "A 37-minute roundup of what changed in Claude Code's defaults and habits: auto mode, fork subagents, AGENTS.md and /import, 40% auto compaction, the 80% system-prompt cut, pruning CLAUDE.md every six months, skill doctor and Verify, and designing verifiable work with /goal.",
+      "channel": "실밸개발자",
+      "publishedAt": "2026-11-13T22:00:34Z",
+      "addedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "vid-bv2x-ai-labs-design-workflow-cook-skill",
+      "youtubeId": "-bv2xKQzZio",
+      "category": "usecase",
+      "title": "최고의 디자인 스킬 제작자가 공개한 AI 디자인 워크플로우: AI 티 안 나는 디자인은 긴 프롬프트가 아니라 과정에서 나온다",
+      "titleEn": "Creator Of The Best Design Skill Just Unveiled His AI Design Workflow",
+      "descKo": "GitHub 인기 제작자 Leon Lin의 AI 디자인 과정을 Claude Code에 적용하고, 슬롭을 잡는 디자인 시스템과 기준에 닿을 때까지 제품 디자인을 반복하는 Cook 스킬까지 8가지 팁으로 15분에 정리(영어, 협찬 포함).",
+      "descEn": "A 15-minute breakdown of GitHub trending author Leon Lin's AI design process applied in Claude Code, with eight tips, a design system to catch slop, and the Cook skill that loops product design until it meets your bar (includes a sponsor segment).",
+      "channel": "AI LABS",
+      "publishedAt": "2026-11-12T15:00:34Z",
+      "addedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "vid-dhwd-mildcode-ai-era-thinking-ko",
+      "youtubeId": "dhwDv7qUQ90",
+      "category": "tip",
+      "title": "클로드 코드 핵심 개발자의 AI 시대 초격차 사고법: 작업의 맨 앞(의도)과 맨 끝(완료 기준)에 사람의 생각을",
+      "titleEn": "A Core Claude Code Developer's Way of Thinking for the AI Era",
+      "descKo": "판단의 연기·포기를 경계하고, 한 번 세팅하는 인터뷰형 시스템, '알아서 해 줘' 대신 '선택지를 줘', 테스트·스크린샷 증거로 판정하기, 틀려도 부담 적은 일만 위임하기를 18분에 정리(유료 강의 안내 포함).",
+      "descEn": "An 18-minute talk on avoiding deferred and abandoned judgment, setting up an interview-style system once, asking for options instead of 'figure it out', judging by test and screenshot evidence, and delegating only low-stakes work (includes a paid-course plug).",
+      "channel": "마일드코드",
+      "publishedAt": "2026-11-12T11:07:57Z",
+      "addedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "vid-2y3y-howard-kim-agentic-harness-lecture-ko",
+      "youtubeId": "2Y3y_uMw1iU",
+      "category": "lecture",
+      "title": "에이전틱 AI 하네스 엔지니어링: AI에게 일을 맡기는 사람의 새 기술 — 서울사이버대 특강 45분",
+      "titleEn": "Agentic AI Harness Engineering: The New Skill of Delegating Work to AI | SCU Career Growth Lecture",
+      "descKo": "에이전트 = 모델 + 하네스부터 에이전트가 실패하는 네 가지 방식, Claude 데스크톱·Antigravity 시연, 지시를 줄이고 권한은 필요한 만큼만 주는 하네스 여섯 가지 원칙까지 150분 특강을 45분으로 줄인 편집본.",
+      "descEn": "A 45-minute edit of a 150-minute university lecture covering agent = model + harness, four ways agents fail, Claude Desktop and Antigravity demos, and six harness principles such as fewer instructions and least-necessary permissions.",
+      "channel": "Prof. Howard Kim",
+      "publishedAt": "2026-11-12T01:06:51Z",
+      "addedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "vid-dgi4-stanford-cs329z-ai-agents-lecture-1",
+      "youtubeId": "DGI4vucR71w",
+      "category": "lecture",
+      "title": "AI 에이전트란 무엇인가: 스탠퍼드 CS329Z 1강 — 에이전트 해부, 계획·추론, 메모리, 도구 사용, 워크플로우 vs 에이전트, MCP",
+      "titleEn": "What Are AI Agents? Agentic Systems Explained | Stanford CS329Z Lecture 1 with Diyi Yang",
+      "descKo": "Diyi Yang 교수가 에이전트의 역사, LLM 에이전트 구성(코어·계획·메모리·도구·환경), CoT·ReAct·Reflexion, 멀티 에이전트 토론, 워크플로우와 에이전트의 차이, MCP, 신뢰성·안전 과제를 70분에 강의(영어).",
+      "descEn": "A 70-minute lecture by Prof. Diyi Yang on the history of agents, the anatomy of an LLM agent (core, planning, memory, tools, environment), CoT, ReAct and Reflexion, multi-agent debate, workflows vs agents, MCP, and reliability and safety challenges.",
+      "channel": "Stanford Online",
+      "publishedAt": "2026-11-09T21:00:05Z",
+      "addedAt": "2026-11-13T23:18:58Z"
+    },
+    {
+      "id": "vid-riat-zazencodes-software-factory-claude-code",
+      "youtubeId": "RiaTyJ2POVo",
+      "category": "usecase",
+      "title": "Claude Code로 더 나은 소프트웨어 공장 만들기: 프로젝트에 설치하고 이슈를 하나씩, 이어서 병렬로 돌리는 과정",
+      "titleEn": "Build a Better Software Factory with Claude Code",
+      "descKo": "마인드맵으로 소프트웨어 공장의 구조를 보고, 프로젝트에 설치한 뒤 첫 이슈를 통과시키고 나머지 이슈를 병렬로 돌려 장단점까지 따져 보는 32분 시연(영어, Anthropic 협찬, 커뮤니티 홍보 포함).",
+      "descEn": "A 32-minute walkthrough of a software-factory mind map, installing it in a project, running the first issue through it, running the remaining issues in parallel, and weighing the tradeoffs (sponsored by Anthropic, includes community plugs).",
+      "channel": "ZazenCodes",
+      "publishedAt": "2026-11-09T20:00:09Z",
+      "addedAt": "2026-11-13T23:18:58Z"
+    },
     {
       "id": "vid-sz8a-gimflip-fable-52-prompt-cautions-ko",
       "youtubeId": "sZ8APQ7OfIM",
@@ -62,18 +134,6 @@
       "addedAt": "2026-11-12T23:13:49Z"
     },
     {
-      "id": "vid-claude-fable-52-or-opus-claude-code",
-      "youtubeId": "C33hJGt-ySg",
-      "category": "tip",
-      "title": "Fable 5.2 vs Opus: Claude Code에서 모델을 언제 바꿀까 — Opus 5.5로 시작해 위아래로 옮기는 기준",
-      "titleEn": "Fable 5.2 or Opus? When to use each model in Claude Code",
-      "descKo": "Anthropic 공식 3분 28초 영상으로, Opus 5.5로 시작할 때·Fable 5.2로 올릴 때·Sonnet 5.5나 Haiku 5.5로 내릴 때·한 작업을 여러 모델에 나눌 때의 기준을 챕터별로 설명(영어, 한도는 요금제별로 다름).",
-      "descEn": "A 3-minute official Anthropic video on when to start on Opus 5.5, move up to Fable 5.2, drop to Sonnet 5.5 or Haiku 5.5, and split one job across models, chapter by chapter (usage limits vary by plan).",
-      "channel": "Claude",
-      "publishedAt": "2026-11-11T17:30:20Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
       "id": "vid-wdyo-claude-code-obsidian-family-brain",
       "youtubeId": "wdyOjcCj2hw",
       "category": "usecase",
@@ -95,18 +155,6 @@
       "descEn": "A 24-minute, chapter-per-problem guide to 11 recurring agent failures - false 'done' claims, no proof of working, passing tests on a broken app, ignored rules, hitting limits - and how to build each fix into skills, rules and hooks (includes a sponsor and course plugs).",
       "channel": "Cole Medin",
       "publishedAt": "2026-11-10T22:57:03Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "vid-hgom-sysmaker-vibecoding-free-lecture-10-ko",
-      "youtubeId": "hGOmx5Tt-nY",
-      "category": "lecture",
-      "title": "바이브코딩 왕초보 무료강의 10강: API 키 하나 흘리면 내 돈이 나갑니다, 초보가 지킬 안전·비용 5가지",
-      "titleEn": "Vibe Coding Beginner Free Course, Lesson 10: Leak One API Key and It's Your Money - 5 Safety and Cost Rules for Beginners",
-      "descKo": ".env 금고와 .gitignore, 이미 올렸다면 키 교체, 읽기는 넓게·바꾸기는 좁게 자동 허용, 고객 정보 가리기, 구독 대 사용량 과금 상한, 커밋과 사본까지 5가지를 10분에 정리하고 기초 1~10강을 돌아봄(협찬·광고 없음).",
-      "descEn": "A 10-minute lesson on five rules - keys in .env and out of git, rotate rather than delete a leaked key, auto-allow reads widely and writes narrowly, mask customer data, cap usage-based billing, and keep commits plus a second copy - ending with a recap of basics lessons 1-10 (no sponsorship or ads).",
-      "channel": "AI 시스메이커",
-      "publishedAt": "2026-11-10T09:00:28Z",
       "addedAt": "2026-11-11T23:14:26Z"
     },
     {
@@ -132,54 +180,6 @@
       "channel": "freeCodeCamp.org",
       "publishedAt": "2026-11-10T12:00:39Z",
       "addedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "vid-mindung-claude-code-12-basics-ko",
-      "youtubeId": "2g6j_JX-n_o",
-      "category": "tip",
-      "title": "클로드 코드 공식 교과서: 앤트로픽 공식 문서 기본기 12가지 9분 총정리",
-      "titleEn": "Claude Code Official Textbook | 12 Basics Published by Anthropic [9-Minute Summary]",
-      "descKo": "intent.md와 /plan, CLAUDE.md, 권한, /effort·/advisor, /rewind, 검증 명령, 스킬, 훅·/loop·/schedule, MCP, 서브에이전트·claude -w, claude -p까지 개발 순서대로 12가지를 9분에 정리하고 /insights로 점검.",
-      "descEn": "A 9-minute summary of 12 basics in working order - intent.md and /plan, CLAUDE.md, permissions, /effort and /advisor, /rewind, verification commands, skills, hooks, /loop and /schedule, MCP, subagents and claude -w, claude -p - ending with a /insights check.",
-      "channel": "민둥이 | 쉽게 배우는 AI",
-      "publishedAt": "2026-11-08T13:59:08Z",
-      "addedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "vid-dante-claude-code-codex-bug-fix-inside-ko",
-      "youtubeId": "tzmTUsvJokQ",
-      "category": "lecture",
-      "title": "AI가 버그 고칠 때 속에서 벌어지는 일: Claude Code·Codex의 모델 호출, 루프, 압축, 샌드박스, 되돌리기",
-      "titleEn": "What Happens When AI Fixes a Bug? I Opened Up Claude Code and Codex",
-      "descKo": "같은 배송비 버그를 맡겨 Claude Code는 모델 호출 4번, Codex는 5번을 세고 Codex 소스에서 반복 루프를 확인한 뒤 토큰 예산, 압축, 승인·샌드박스, 체크포인트 대 git 되돌리기를 10분에 설명(유료 강의 안내 포함).",
-      "descEn": "A 10-minute explainer that gives the same shipping-fee bug to both tools, counts 4 model calls for Claude Code and 5 for Codex, finds the loop in the Codex source and covers token budget, compaction, approvals and sandbox, and checkpoints vs git undo (includes paid-course plugs).",
-      "channel": "단테",
-      "publishedAt": "2026-11-08T11:00:24Z",
-      "addedAt": "2026-11-10T23:13:42Z"
-    },
-    {
-      "id": "vid-teo-mcp-api-cli-morning-briefing-ko",
-      "youtubeId": "Gj2NptppUtg",
-      "category": "tip",
-      "title": "MCP·API·CLI 차이와 나눠 쓰는 법: 노션·유튜브·구글·카톡을 묶은 아침 8시 브리핑",
-      "titleEn": "AI Agents | The Difference Between MCP, API and CLI and How I Actually Split Them | 3 Claude Connection Cases",
-      "descKo": "API·MCP·CLI를 신입사원 비유로 가르고 노션 기획 담당 에이전트, 유튜브 댓글·수치 기반 영상 기획, 아침 8시 브리핑 세 가지 연결 사례와 클로드 데스크톱 연결 순서를 13분에 시연(연결 기준표는 오픈채팅방 안내).",
-      "descEn": "A 13-minute walkthrough that explains API, MCP and CLI with a new-hire analogy, then shows a Notion planning agent, YouTube comment and data based video planning and an 8am briefing, plus the Claude Desktop connection steps (the criteria table is shared in an open chat room).",
-      "channel": "태오의 실행 비즈니스",
-      "publishedAt": "2026-11-08T23:45:42Z",
-      "addedAt": "2026-11-09T23:13:33Z"
-    },
-    {
-      "id": "vid-metacode-claude-mods-free-lecture-ko",
-      "youtubeId": "06FDOn1i6x8",
-      "category": "lecture",
-      "title": "클로드 코드 Mods 50분 무료강의: 개념부터 7가지 실습까지",
-      "titleEn": "(Nov 2026) Everything About Claude Code Mods - 50-Minute Free Course with 7 Exercises",
-      "descKo": "Skills·MCP·Hooks·Mods의 차이를 짚고 사용량·PC 상태 표시, PRD 기반 진행 추적, 개인정보 마스킹, 전 세션 적용까지 7가지 실습을 51분에 따라 하는 무료강의(실습자료·기업교육 안내 포함).",
-      "descEn": "A 51-minute free course separating Skills, MCP, Hooks and Mods, then building a usage and PC status display, PRD-based progress tracking, privacy masking and all-session Mods in 7 exercises (includes exercise files and a corporate-training plug).",
-      "channel": "메타코드M",
-      "publishedAt": "2026-11-08T11:22:44Z",
-      "addedAt": "2026-11-08T23:12:37Z"
     }
   ]
 }
