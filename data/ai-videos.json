@@ -1,6 +1,102 @@
 {
-  "generatedAt": "2026-11-13T23:18:58Z",
+  "generatedAt": "2026-11-14T23:16:28Z",
   "videos": [
+    {
+      "id": "vid-9fic-jeonggijeok-claude-code-drop-7-keep-4-ko",
+      "youtubeId": "9FICJzPtlaA",
+      "category": "tip",
+      "title": "클로드 코드 1년 쓴 설정 대부분, 이제 오히려 방해됩니다: 버릴 7개 · 남길 4개",
+      "titleEn": "Most of the Claude Code Setup You Built Over a Year Now Gets in the Way (7 to Drop, 4 to Keep)",
+      "descKo": "Lydia Hallie 발표와 공식 문서를 바탕으로 IMPORTANT 강조·'깊게 생각해'·명령마다 허락 같은 버릴 습관 7개와 코드에 없는 사실·금지 규칙·완료 기준·훅 같은 남길 4개를 /doctor prompt-audit 시연과 함께 12분에 정리(대부분 재현 화면).",
+      "descEn": "A 12-minute list, from Lydia Hallie's talk and the official docs, of seven habits to drop (IMPORTANT shouting, 'think hard', per-command approvals) and four to keep (facts not in code, prohibition rules, a definition of done, hooks), with a /doctor prompt-audit demo (mostly re-created visuals).",
+      "channel": "정기적 자동화",
+      "publishedAt": "2026-11-14T09:00:23Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-eikj-givepro-agent-guardrails-ko",
+      "youtubeId": "EikjRDkIjVw",
+      "category": "tip",
+      "title": "AI가 다 됐다고 할 때, 틀린 자리마다 붙인 장치: 지시 파일·실행 전 훅·실패 0 확인·리뷰어 에이전트",
+      "titleEn": "The Guardrails I Added Wherever the AI Said 'Done' and Was Wrong | Solo Dev Review",
+      "descKo": "1인 게임 개발자가 에이전트의 실수 하나마다 장치 하나를 붙인 순서 — 32KB 제한 지시 파일, 명령 실행 직전에 막는 훅, '실패 0' 줄 확인, 화면 캡처 검사, 리뷰 132개로 만든 리뷰어 기준표와 출시 기준 — 를 7분에 정리.",
+      "descEn": "A 7-minute walk through the guardrails a solo game developer added one mistake at a time: a 32KB-limited instruction file, a hook that blocks commands before they run, a 'zero failures' line check, screen-capture checks, a reviewer rubric built from 132 reviews, and a release bar.",
+      "channel": "GIVEPRO",
+      "publishedAt": "2026-11-09T22:00:01Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-btty-ai-engineer-ryan-carson-20-agents",
+      "youtubeId": "BTtyguoPvBU",
+      "category": "usecase",
+      "title": "창업자 한 명이 AI 코딩 에이전트 20개를 동시에 관리하는 법: 매니저 에이전트·QA·병합 큐·기능 영상 확인",
+      "titleEn": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
+      "descKo": "Untangle의 Ryan Carson이 음성으로 말을 거는 매니저 에이전트 하나가 티켓 보드로 빌더 20개를 관리하고, 15분마다 점검·리뷰 루프·QA 에이전트·병합 큐를 돌리며 출시 전엔 기능 영상을 직접 본다는 운영과 채용 방식을 15분에 소개(영어).",
+      "descEn": "Untangle's Ryan Carson explains in 15 minutes how one voice-driven manager agent runs up to 20 builder agents through a ticket board, with 15-minute check-ins, capped review loops, QA agents and a merge-queue manager, why he watches each feature's video before shipping, and how hiring changed.",
+      "channel": "AI Engineer",
+      "publishedAt": "2026-11-09T18:00:27Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-1pp0-dalbee-claude-code-29-cases-ko",
+      "youtubeId": "1pp0uNCjvdk",
+      "category": "usecase",
+      "title": "클로드 코드 잘 쓰는 사람들은 뭘 만들었을까? 실제 사례 29가지",
+      "titleEn": "What Do People Who Are Good at Claude Code Actually Build? 29 Real Examples",
+      "descKo": "집 물건·가족·돈·몰래 감시·내 일·과학·만들기 7개 묶음으로 TV 광고 끄기, 러닝머신 잠금 풀기, 9살 아이 웹사이트, 치과 전화 예약 봇까지 실제 활용 사례 29가지를 17분에 소개(커뮤니티 안내 포함).",
+      "descEn": "A 17-minute tour of 29 real Claude Code use cases in seven groups - home gear, family, money, hidden surveillance, work, science and building - from killing TV ads and unlocking a treadmill to a 9-year-old's website and a dentist phone-booking bot (includes a community plug).",
+      "channel": "달비의 작업실 | AI 자동화",
+      "publishedAt": "2026-11-07T09:00:33Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-63fe-500-ai-master-claude-codex-3tier-ko",
+      "youtubeId": "63fEJ6DaGHw",
+      "category": "usecase",
+      "title": "Claude Code·Codex 결합형 3계층 AI 작업팀 구성법: 뛰어난 AI 하나보다 잘 짜인 부대",
+      "titleEn": "Building a Claude Code + Codex Three-Tier AI Work Team: A Well-Organized Unit Beats One Great AI",
+      "descKo": "소대장·분대장·분대원으로 모델을 나눠 배정하고 Codex를 파견 분대장으로 편성하며, 중간 결과마다 V1·통합마다 Codex V2로 검증하는 본인 스킬 기반 운용 체계를 12분에 설명(공식 기능 아님).",
+      "descEn": "A 12-minute explanation of the creator's own skill-based setup: models split across platoon leader, squad leaders and squad members, Codex dispatched as a squad leader, V1 checks on intermediate results and a Codex V2 at each integration (not an official feature).",
+      "channel": "500 AI Master",
+      "publishedAt": "2026-11-09T22:13:54Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-5yj9-kimcheonsa-ai-agent-employee-20min-ko",
+      "youtubeId": "5yj9AH9wx1E",
+      "category": "lecture",
+      "title": "AI 에이전트 직원 자동화 20분 강의 풀버전: 작업 폴더·지침 파일·지시문·스킬·커넥터·예약",
+      "titleEn": "AI Agent Employee Automation: 20-Minute Full Lecture (Claude, ChatGPT Codex)",
+      "descKo": "챗봇과 에이전트의 차이부터 작업 폴더, 지침 파일, 지시문(목적·자료·결과물·끝), 스킬, 커넥터, 멀티 에이전트, 예약, 요금, 'AI 신입사원 만들기 7단계'까지 비개발자 눈높이로 22분에 정리.",
+      "descEn": "A 22-minute beginner-friendly lecture from chatbot vs agent through work folders, instruction files, task prompts (goal, materials, deliverable, end), skills, connectors, multi-agent, scheduling, pricing and a seven-step plan for building your own AI employee.",
+      "channel": "김천사 신입사원",
+      "publishedAt": "2026-11-11T08:29:56Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-dhjx-decoding-ai-harness-engineering-course",
+      "youtubeId": "dHJxhvKIMlU",
+      "category": "lecture",
+      "title": "하네스 엔지니어링 풀코스: Claude Code를 첫 원리부터 만들기 — 에이전트 루프·샌드박스·컨텍스트 부패·헤드리스·회귀 테스트",
+      "titleEn": "Harness Engineering Full Course: Claude Code From First Principles",
+      "descKo": "에이전트 루프와 도구 4개(읽기·쓰기·수정·bash)부터 명령 샌드박스, 컨텍스트 부패 대응, 헤드리스·원격 실행, 벤치마크와 회귀 테스트, 실패한 실행을 테스트로 재생하는 법까지 6단계를 2시간 7분에 만드는 무료 오픈소스 강의(영어).",
+      "descEn": "A 2h07m free, open-source course that builds a coding agent in six steps: the agent loop with four core tools (read, write, edit, bash), command sandboxing, fighting context rot, headless and remote runs, benchmarks versus regression tests, and replaying failed runs as tests.",
+      "channel": "Decoding AI",
+      "publishedAt": "2026-11-13T13:26:41Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
+    {
+      "id": "vid-nu2a-stanford-cme295-ai-agents-lecture-6",
+      "youtubeId": "nU2a2lm6vDE",
+      "category": "lecture",
+      "title": "AI 에이전트: 스탠퍼드 CME295 6강 — RAG, 도구 호출, MCP, 하네스 엔지니어링, ReAct, 컨텍스트 압축, 메모리, 코딩 에이전트",
+      "titleEn": "Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 6 - AI Agents",
+      "descKo": "RAG와 검색 평가부터 도구 호출·도구 선택, MCP, 하네스 엔지니어링, ReAct, 컨텍스트 압축, 메모리, 코딩 에이전트까지 에이전트 구성 요소를 1시간 41분에 다룬 스탠퍼드 대학원 강의(영어).",
+      "descEn": "A 1h41m Stanford graduate lecture covering RAG and retrieval evaluation, tool calling and tool selection, MCP, harness engineering, ReAct, context compaction, memory and coding agents.",
+      "channel": "Stanford Online",
+      "publishedAt": "2026-11-13T21:02:37Z",
+      "addedAt": "2026-11-14T23:16:28Z"
+    },
     {
       "id": "vid-xwx9-silbaem-claude-code-2026-h2-harness-ko",
       "youtubeId": "xwx9kHKBPgg",
@@ -50,30 +146,6 @@
       "addedAt": "2026-11-13T23:18:58Z"
     },
     {
-      "id": "vid-dgi4-stanford-cs329z-ai-agents-lecture-1",
-      "youtubeId": "DGI4vucR71w",
-      "category": "lecture",
-      "title": "AI 에이전트란 무엇인가: 스탠퍼드 CS329Z 1강 — 에이전트 해부, 계획·추론, 메모리, 도구 사용, 워크플로우 vs 에이전트, MCP",
-      "titleEn": "What Are AI Agents? Agentic Systems Explained | Stanford CS329Z Lecture 1 with Diyi Yang",
-      "descKo": "Diyi Yang 교수가 에이전트의 역사, LLM 에이전트 구성(코어·계획·메모리·도구·환경), CoT·ReAct·Reflexion, 멀티 에이전트 토론, 워크플로우와 에이전트의 차이, MCP, 신뢰성·안전 과제를 70분에 강의(영어).",
-      "descEn": "A 70-minute lecture by Prof. Diyi Yang on the history of agents, the anatomy of an LLM agent (core, planning, memory, tools, environment), CoT, ReAct and Reflexion, multi-agent debate, workflows vs agents, MCP, and reliability and safety challenges.",
-      "channel": "Stanford Online",
-      "publishedAt": "2026-11-09T21:00:05Z",
-      "addedAt": "2026-11-13T23:18:58Z"
-    },
-    {
-      "id": "vid-riat-zazencodes-software-factory-claude-code",
-      "youtubeId": "RiaTyJ2POVo",
-      "category": "usecase",
-      "title": "Claude Code로 더 나은 소프트웨어 공장 만들기: 프로젝트에 설치하고 이슈를 하나씩, 이어서 병렬로 돌리는 과정",
-      "titleEn": "Build a Better Software Factory with Claude Code",
-      "descKo": "마인드맵으로 소프트웨어 공장의 구조를 보고, 프로젝트에 설치한 뒤 첫 이슈를 통과시키고 나머지 이슈를 병렬로 돌려 장단점까지 따져 보는 32분 시연(영어, Anthropic 협찬, 커뮤니티 홍보 포함).",
-      "descEn": "A 32-minute walkthrough of a software-factory mind map, installing it in a project, running the first issue through it, running the remaining issues in parallel, and weighing the tradeoffs (sponsored by Anthropic, includes community plugs).",
-      "channel": "ZazenCodes",
-      "publishedAt": "2026-11-09T20:00:09Z",
-      "addedAt": "2026-11-13T23:18:58Z"
-    },
-    {
       "id": "vid-sz8a-gimflip-fable-52-prompt-cautions-ko",
       "youtubeId": "sZ8APQ7OfIM",
       "category": "tip",
@@ -98,30 +170,6 @@
       "addedAt": "2026-11-12T23:13:49Z"
     },
     {
-      "id": "vid-wyps-monyagu-gemini-carbon-swarm-ko",
-      "youtubeId": "WYPSXLiCxg0",
-      "category": "usecase",
-      "title": "제미나이 4 카본 스웜 해부: 에펠탑 3D 시연의 AI 31개가 지휘·작업·검증으로 일을 나누는 방식",
-      "titleEn": "Gemini 4 Carbon Swarm: Two Years of Eiffel Tower Construction in 3D from One Prompt Line? How 31 AIs Split the Work and Picked at Each Other",
-      "descKo": "구글 공식 영상과 Antigravity 문서로 /swarm 시연을 뜯어보며 지휘·작업·검증 세 역할, git 워크트리 사본, 덧붙이기 전용 게시판, 옛 사진 겹쳐 보기 검증, 프롬프트가 정말 한 줄이었는지를 13분에 짚음.",
-      "descEn": "A 13-minute breakdown of Google's /swarm demo from the official video and Antigravity docs: the conductor, worker and verifier roles, per-agent git worktree copies, an append-only bulletin board, verification by overlaying old photos, and whether the prompt was really one line.",
-      "channel": "모냐구",
-      "publishedAt": "2026-11-12T13:57:31Z",
-      "addedAt": "2026-11-12T23:13:49Z"
-    },
-    {
-      "id": "vid-ggrv-better-stack-theo-tstack-skills",
-      "youtubeId": "GGrvSnpPTGo",
-      "category": "usecase",
-      "title": "Theo의 tstack 스킬 9개: Claude Code·Codex가 코드 작성 뒤 테스트·PR·CI 감시·병합까지 맡게 하기",
-      "titleEn": "Claude Code Writes the Code... Theo's Skills Ship It",
-      "descKo": "Better Stack이 Theo가 공개한 tstack을 설치해 Full-Stop 스킬을 실제 작업에 돌리고 Full-Send·Council·Sol-Loop·Babysit-PR·Takeover의 역할을 8분에 설명(영어).",
-      "descEn": "An 8-minute test of Theo's open-source tstack: installing it, running the Full-Stop skill on a real workflow, and breaking down Full-Send, Council, Sol-Loop, Babysit-PR and Takeover, including how Council has Claude, GPT and Gemini review code before merge.",
-      "channel": "Better Stack",
-      "publishedAt": "2026-11-12T12:15:11Z",
-      "addedAt": "2026-11-12T23:13:49Z"
-    },
-    {
       "id": "vid-7mgy-sinyoungsun-claude-code-instagram-automation-ko",
       "youtubeId": "7MGY09neWho",
       "category": "usecase",
@@ -132,54 +180,6 @@
       "channel": "신영선의 AI탐구",
       "publishedAt": "2026-11-10T13:00:01Z",
       "addedAt": "2026-11-12T23:13:49Z"
-    },
-    {
-      "id": "vid-wdyo-claude-code-obsidian-family-brain",
-      "youtubeId": "wdyOjcCj2hw",
-      "category": "usecase",
-      "title": "Claude Code + Obsidian으로 만든 우리 집 AI 두뇌: 가전·보증서·보험 문서와 가족 할 일을 마크다운으로",
-      "titleEn": "Claude Code + Obsidian: My family's AI brain",
-      "descKo": "수학 교사 Scott Farrar가 가전, 보증서, 보험 문서, 가족 할 일 목록을 마크다운 폴더에 모아 Obsidian으로 보는 '집 두뇌'를 Claude Code로 만들어 자동차 보험 비교, 수리 계획, 아내와의 공유, 벽걸이 디스플레이까지 34분에 시연(영어, 스폰서 광고 포함).",
-      "descEn": "A 34-minute walkthrough of math educator Scott Farrar's household brain: a folder of Markdown files viewed in Obsidian covering appliances, warranties, insurance documents and the family to-do list, used for car-insurance shopping, repair planning, sharing with his wife and a wall display (includes sponsor ads).",
-      "channel": "How I AI",
-      "publishedAt": "2026-11-11T13:00:06Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "vid-hmeq-cole-medin-11-tiny-agent-fixes",
-      "youtubeId": "hMEQ4rdaOLw",
-      "category": "tip",
-      "title": "코딩 에이전트의 작은 문제 11가지와 효과 큰 해결책: 거짓 완료, 통과하는데 깨진 앱, 규칙 무시",
-      "titleEn": "11 More Tiny Coding Agent Fixes With A Stupid Amount Of Payoff (Learn These Now)",
-      "descKo": "'다 했다'는 거짓 보고, 증명 없는 완료, 통과하는데 깨진 테스트, 규칙 무시, 한도 소진 등 에이전트가 반복하는 11가지 문제의 해결책을 스킬·규칙·훅에 넣는 법을 24분 챕터별로 시연(영어, 협찬·강의 홍보 포함).",
-      "descEn": "A 24-minute, chapter-per-problem guide to 11 recurring agent failures - false 'done' claims, no proof of working, passing tests on a broken app, ignored rules, hitting limits - and how to build each fix into skills, rules and hooks (includes a sponsor and course plugs).",
-      "channel": "Cole Medin",
-      "publishedAt": "2026-11-10T22:57:03Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "vid-7d9e-multi-agent-token-test-ko",
-      "youtubeId": "7d9ET7XGdxA",
-      "category": "tip",
-      "title": "멀티 에이전트 켰다가 토큰 5배 날렸다: 클로드 코드 혼자 vs 여럿 직접 비교",
-      "titleEn": "I Turned On Multi-Agent and Burned 5x the Tokens: Claude Code Solo vs Many, Tested",
-      "descKo": "같은 Claude Code·Sonnet 5.5로 게임 만들기, 회사 조사, 코드 리뷰, 웹 앱 5개를 혼자와 서브에이전트로 시켜 시간·토큰을 재고, 맞물린 일은 혼자가 빠르고 떼어지는 일은 여럿이 빠르다는 기준과 켜기 전 세 질문을 12분에 정리.",
-      "descEn": "A 12-minute test giving Claude Code (Sonnet 5.5) a game, company research, a code review and five web apps solo versus with subagents, measuring time and tokens: coupled work is faster alone, separable work is faster split, plus three questions to ask before enabling multi-agent.",
-      "channel": "옆자리 연구원",
-      "publishedAt": "2026-11-09T09:30:38Z",
-      "addedAt": "2026-11-11T23:14:26Z"
-    },
-    {
-      "id": "vid-freecodecamp-codex-agentic-coding-course",
-      "youtubeId": "ajfQWhGQGLE",
-      "category": "lecture",
-      "title": "Codex로 배우는 에이전틱 코딩 1시간 50분 강의: 프롬프트·AGENTS.md·플랜 모드·스킬·권한·MCP",
-      "titleEn": "Codex & AI Coding Agents - Learn Agentic Coding",
-      "descKo": "Scrimba의 Tom Chant가 프롬프트, AGENTS.md, 플랜 모드, 스킬, 특성화 테스트와 TDD, 안전한 Git, 비밀 키 관리, config.toml, 권한, shadcn을 포함한 MCP를 실습으로 가르치는 1시간 51분 무료 강의(영어, Scrimba 홍보 포함).",
-      "descEn": "A free 1h51m hands-on course by Scrimba's Tom Chant covering prompting, AGENTS.md, Plan Mode, skills, characterization tests and TDD, safe Git, secrets, config.toml, permissions and MCP including shadcn (includes a Scrimba plug).",
-      "channel": "freeCodeCamp.org",
-      "publishedAt": "2026-11-10T12:00:39Z",
-      "addedAt": "2026-11-10T23:13:42Z"
     }
   ]
 }
