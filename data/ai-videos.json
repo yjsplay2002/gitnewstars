@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-11-14T23:16:28Z",
+  "generatedAt": "2026-11-15T23:12:22Z",
   "videos": [
+    {
+      "id": "vid-ukbt-boaz-claude-code-memory-two-enough-ko",
+      "youtubeId": "UKBTlXRTbtE",
+      "category": "tip",
+      "title": "클로드 코드 기억 장치 5가지, 전부 비교했습니다: 2개면 충분 — AGENTS.md·auto memory·보존 지시를 붙인 compact",
+      "titleEn": "I Compared All 5 Claude Code Memory Mechanisms (Conclusion: 2 Are Enough)",
+      "descKo": "CLAUDE.md·rules·auto memory·compact·subagent memory를 레이어 한 장으로 정리하고, AGENTS.md 하나로 규칙 모으기, 기억시킬 때 이유까지 말하기, 보존 지시 한 줄로 compact 세부 보존 67%→90%(개인 실험)를 9분에 소개.",
+      "descEn": "A 9-minute layer diagram of Claude Code's five memory mechanisms, with tips on using AGENTS.md alone for rules, giving the reason when you say 'remember', and a preservation line that raised compact detail retention from 67% to 90% (personal experiment).",
+      "channel": "가장 쉬운 AI 활용 개발 with Boaz",
+      "publishedAt": "2026-11-15T02:00:13Z",
+      "addedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "vid-slmj-ittoktok-antigravity-november-overhaul-ko",
+      "youtubeId": "sLMj6HCperk",
+      "category": "usecase",
+      "title": "말로 시키고 AI 팀이 일한다… 안티그래비티 11월 대변신, 따라 하며 끝내기: 음성 모드·/swarm·/run-workflow",
+      "titleEn": "Give Orders by Voice and an AI Team Works: Antigravity's November Overhaul, Follow Along",
+      "descKo": "지식 업무 화면, 음성 모드, Hydrogen·Orchestrator·Carbon 모델 고르기, /swarm, /run-workflow를 5개 미션으로 따라 하고 국내 요금·할당량 함정과 5분 체크리스트까지 14분에 정리(수치는 구글 자체 발표).",
+      "descEn": "A 14-minute follow-along of Antigravity's new knowledge-work layout, voice mode, choosing between Hydrogen, Orchestrator and Carbon, /swarm and /run-workflow as five missions, plus Korean pricing and quota pitfalls and a five-minute checklist (figures are Google's own).",
+      "channel": "IT톡톡",
+      "publishedAt": "2026-11-15T10:15:00Z",
+      "addedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "vid-jakv-hued-iphone-agent-iph-ko",
+      "youtubeId": "jaKvinAjpqE",
+      "category": "usecase",
+      "title": "AI 에이전트가 내 아이폰을 사용하게 만드는 방법: 오픈소스 iph로 토스 지출 내역 가져오기·당근 물건 올리기",
+      "titleEn": "How to Let an AI Agent Use Your iPhone (Prompt and Skill Included)",
+      "descKo": "Claude Code·Codex가 실제 아이폰을 조작하는 무료 오픈소스 CLI iph를 토스·당근 시연과 phone-harness·mobile-mcp·Poki 직접 비교로 8분에 소개(iOS 27 이상, 개인정보가 민감하면 세컨드 폰 권장).",
+      "descEn": "An 8-minute look at iph, a free open-source CLI that lets Claude Code or Codex operate a real iPhone, with Toss and Daangn demos and a side-by-side against phone-harness, mobile-mcp and Poki (iOS 27 or later; a second phone is advised if your data is sensitive).",
+      "channel": "허드의 AI딸깍",
+      "publishedAt": "2026-11-13T04:54:50Z",
+      "addedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "vid-7sss-ai-saeopilji-workflow-vs-agent-four-questions-ko",
+      "youtubeId": "7sSsD3Lbn8w",
+      "category": "lecture",
+      "title": "AI 에이전트, 비개발자가 만들기 전에 꼭 알아야 할 단 하나의 구분 (앤트로픽 강연): 워크플로 vs 에이전트와 4가지 질문",
+      "titleEn": "The One Distinction to Know Before Building an AI Agent (Anthropic Talk): Workflow vs Agent and Four Questions",
+      "descKo": "Anthropic Barry Zhang의 'How We Build Effective Agents' 강연을 풀어, 정해 둔 순서(워크플로)와 AI가 고르는 길(에이전트)의 차이, 복잡도·돈값·핵심 능력·실수의 값 4가지 질문, 루프 하나에 부품 셋 구조를 10분에 설명.",
+      "descEn": "A 10-minute retelling of Anthropic's Barry Zhang talk 'How We Build Effective Agents': fixed-path workflows versus AI-chosen agents, four questions (complexity, worth the cost, key capability, cost of error) and the one-loop, three-part agent structure.",
+      "channel": "AI 사업일지",
+      "publishedAt": "2026-11-13T22:30:31Z",
+      "addedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "vid-73dr-rob-shocks-orca-agent-ide",
+      "youtubeId": "73DrNNvEKH0",
+      "category": "tip",
+      "title": "2026년 Claude Code를 돌리는 가장 좋은 방법: 오픈소스 Orca로 에이전트마다 worktree·내장 브라우저 주석·원격 VPS",
+      "titleEn": "The Best Way to Run Claude Code in 2026",
+      "descKo": "에이전트 IDE를 다 써 본 Rob Shocks가 MIT 오픈소스 Orca를 기본으로 정한 이유 — 구독 요금으로 아무 CLI 에이전트 실행, 클릭 한 번 worktree, GitHub·Jira·Linear 작업 가져오기, 내장 브라우저 주석, 원격 서버 — 를 10분에 소개(영어, 강의 홍보 포함).",
+      "descEn": "In 10 minutes Rob Shocks explains why the MIT open-source Orca became his default agent environment: any CLI agent on your subscription, one-click worktrees, tasks from GitHub, Jira and Linear, built-in browser annotations and remote servers (includes a course plug).",
+      "channel": "Rob Shocks - Switch Dimension",
+      "publishedAt": "2026-11-14T11:13:38Z",
+      "addedAt": "2026-11-15T23:12:22Z"
+    },
     {
       "id": "vid-9fic-jeonggijeok-claude-code-drop-7-keep-4-ko",
       "youtubeId": "9FICJzPtlaA",
@@ -11,18 +71,6 @@
       "descEn": "A 12-minute list, from Lydia Hallie's talk and the official docs, of seven habits to drop (IMPORTANT shouting, 'think hard', per-command approvals) and four to keep (facts not in code, prohibition rules, a definition of done, hooks), with a /doctor prompt-audit demo (mostly re-created visuals).",
       "channel": "정기적 자동화",
       "publishedAt": "2026-11-14T09:00:23Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "vid-eikj-givepro-agent-guardrails-ko",
-      "youtubeId": "EikjRDkIjVw",
-      "category": "tip",
-      "title": "AI가 다 됐다고 할 때, 틀린 자리마다 붙인 장치: 지시 파일·실행 전 훅·실패 0 확인·리뷰어 에이전트",
-      "titleEn": "The Guardrails I Added Wherever the AI Said 'Done' and Was Wrong | Solo Dev Review",
-      "descKo": "1인 게임 개발자가 에이전트의 실수 하나마다 장치 하나를 붙인 순서 — 32KB 제한 지시 파일, 명령 실행 직전에 막는 훅, '실패 0' 줄 확인, 화면 캡처 검사, 리뷰 132개로 만든 리뷰어 기준표와 출시 기준 — 를 7분에 정리.",
-      "descEn": "A 7-minute walk through the guardrails a solo game developer added one mistake at a time: a 32KB-limited instruction file, a hook that blocks commands before they run, a 'zero failures' line check, screen-capture checks, a reviewer rubric built from 132 reviews, and a release bar.",
-      "channel": "GIVEPRO",
-      "publishedAt": "2026-11-09T22:00:01Z",
       "addedAt": "2026-11-14T23:16:28Z"
     },
     {
@@ -47,18 +95,6 @@
       "descEn": "A 17-minute tour of 29 real Claude Code use cases in seven groups - home gear, family, money, hidden surveillance, work, science and building - from killing TV ads and unlocking a treadmill to a 9-year-old's website and a dentist phone-booking bot (includes a community plug).",
       "channel": "달비의 작업실 | AI 자동화",
       "publishedAt": "2026-11-07T09:00:33Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "vid-63fe-500-ai-master-claude-codex-3tier-ko",
-      "youtubeId": "63fEJ6DaGHw",
-      "category": "usecase",
-      "title": "Claude Code·Codex 결합형 3계층 AI 작업팀 구성법: 뛰어난 AI 하나보다 잘 짜인 부대",
-      "titleEn": "Building a Claude Code + Codex Three-Tier AI Work Team: A Well-Organized Unit Beats One Great AI",
-      "descKo": "소대장·분대장·분대원으로 모델을 나눠 배정하고 Codex를 파견 분대장으로 편성하며, 중간 결과마다 V1·통합마다 Codex V2로 검증하는 본인 스킬 기반 운용 체계를 12분에 설명(공식 기능 아님).",
-      "descEn": "A 12-minute explanation of the creator's own skill-based setup: models split across platoon leader, squad leaders and squad members, Codex dispatched as a squad leader, V1 checks on intermediate results and a Codex V2 at each integration (not an official feature).",
-      "channel": "500 AI Master",
-      "publishedAt": "2026-11-09T22:13:54Z",
       "addedAt": "2026-11-14T23:16:28Z"
     },
     {
@@ -144,42 +180,6 @@
       "channel": "Prof. Howard Kim",
       "publishedAt": "2026-11-12T01:06:51Z",
       "addedAt": "2026-11-13T23:18:58Z"
-    },
-    {
-      "id": "vid-sz8a-gimflip-fable-52-prompt-cautions-ko",
-      "youtubeId": "sZ8APQ7OfIM",
-      "category": "tip",
-      "title": "Fable 5.2 Opus 때처럼 그대로 쓰면 손해: 프롬프트·CLAUDE.md에서 넣을 문장과 지울 문장 7가지",
-      "titleEn": "Fable 5.2 - Using It Just Like Opus 5.5 Will Cost You (7 Cautions)",
-      "descKo": "Anthropic 공식 Fable 5.2 프롬프트 가이드에서 추린 7가지 — effort는 high까지, '끝까지 해'·'이 코드는 네 거야'는 넣고 '무조건 서브에이전트 써'·오래된 경고·'생각 과정 다 적어 줘'는 지우기 — 를 14분에 설명(진행자 책·사이트 홍보 포함).",
-      "descEn": "A 14-minute walkthrough of seven items from Anthropic's official Fable 5.2 prompting guide - cap effort at high, add 'finish it all the way' and 'this code is yours', delete 'always use subagents', outdated warnings and 'write out all your reasoning' (includes a plug for the host's book and site).",
-      "channel": "김플립 - LLM 코딩",
-      "publishedAt": "2026-11-12T00:00:31Z",
-      "addedAt": "2026-11-12T23:13:49Z"
-    },
-    {
-      "id": "vid-vlfc-lydia-hallie-claude-code-best-practices",
-      "youtubeId": "vlfCjWuv4es",
-      "category": "tip",
-      "title": "Claude Code 모범 사례 다시 생각하기: Anthropic Lydia Hallie가 말하는 5.5 모델에서 계속 둘 것과 버릴 것",
-      "titleEn": "Rethinking Claude Code Best Practices - Lydia Hallie, Anthropic",
-      "descKo": "Claude Code 개발자 관계를 맡은 Lydia Hallie가 지난 1년간 Claude Code 설정에 더한 것 대부분이 이제 모델의 발목을 잡는다며, 5.5 모델에서 계속 둘 것과 더는 신경 쓰지 않아도 될 것을 17분에 다룬 AI Engineer 발표(영어).",
-      "descEn": "A 17-minute AI Engineer talk in which Anthropic's Lydia Hallie, who works on developer relations for Claude Code, argues that most of what we added to Claude Code setups over the past year now holds the models back, and covers what is still worth keeping and what you no longer need for the 5.5 models.",
-      "channel": "AI Engineer",
-      "publishedAt": "2026-11-12T03:26:55Z",
-      "addedAt": "2026-11-12T23:13:49Z"
-    },
-    {
-      "id": "vid-7mgy-sinyoungsun-claude-code-instagram-automation-ko",
-      "youtubeId": "7MGY09neWho",
-      "category": "usecase",
-      "title": "클로드 코드 인스타 자동화 작업 화면 공개: 아침 7시 레퍼런스 수집부터 카드뉴스 제작까지",
-      "titleEn": "Two AI Creators' Daily Claude Code Instagram Workflow Revealed | From Reference Collection to Card News",
-      "descKo": "두 크리에이터가 아침 7시에 해외 레퍼런스를 모아 카드뉴스까지 만드는 자동화, 터진 릴스를 후킹·대본·화면 단위로 뜯는 대시보드, 캐러셀 복제 흐름을 37분에 보여 줌(강의·커뮤니티 홍보 포함).",
-      "descEn": "A 37-minute look at two creators' Claude Code setup for Instagram: an automation that collects references at 7am and produces card news, a dashboard that breaks viral Reels into hook, script and visuals, and carousel duplication (includes course and community plugs).",
-      "channel": "신영선의 AI탐구",
-      "publishedAt": "2026-11-10T13:00:01Z",
-      "addedAt": "2026-11-12T23:13:49Z"
     }
   ]
 }

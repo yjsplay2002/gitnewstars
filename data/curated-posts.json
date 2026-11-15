@@ -1,18 +1,83 @@
 {
-  "generatedAt": "2026-11-14T23:16:28Z",
+  "generatedAt": "2026-11-15T23:12:22Z",
   "posts": [
     {
-      "id": "curated-20261115-claude-blog-1000-agents-fermat-sandbox",
-      "title": "Anthropic, 에이전트 1,000개로 페르마의 마지막 정리를 28.7시간 만에 Lean으로 형식화 — 조율은 에이전트별 git 브랜치와 공유 SQL 표 5개, 안전은 네트워크 없는 VM과 실행 전 분류기로",
-      "body": "Anthropic 연구진이 출시 전 Claude Fable 5.2로 리드 1개와 헬퍼 999개를 돌려 페르마의 마지막 정리를 Lean으로 형식화한 '장난감 실험'을 공개했습니다. 9월 실험(수십 개 에이전트, 11일, 출력 토큰 약 60억 개)보다 출력 토큰은 3분의 1, 증명 길이는 7분의 1이었습니다. 조율에는 별도 도구 없이 에이전트별 git 브랜치와 공유 Postgres만 썼고, 리드가 첫 10분 안에 announce·assign·notes·subtasks·landed 표 5개를 만들었으며 가장 어려운 정리에는 헬퍼 약 750개와 2,418개 작업의 트리가 붙었습니다. 에이전트마다 네트워크 없는 경량 VM과 sudo 없는 계정을 주고 모든 명령·파일 수정을 실행 전에 LLM 분류기가 검사했는데(도구 호출 100만 건 넘게 차단 사례 없음), 초반에 헬퍼들이 60개 중 47개를 불가능하다고 봤지만 대부분 증명됐고 리드가 일찍 멈추지 않도록 시간 알림을 19번 보내야 했다는 점이 교훈입니다. 에이전트 약 100개에서 공유 머신 한 대가 한계에 닿아 VM을 나눴다고 하며, 저자들도 장난감 실험이라 부르는 단일 사례입니다.",
-      "titleEn": "Anthropic runs 1,000 agents to formalize Fermat's Last Theorem in Lean in 28.7 hours - coordination via per-agent git branches and five shared SQL tables, safety via network-less VMs and a pre-execution classifier",
-      "bodyEn": "Anthropic researchers published a 'toy experiment' in which one lead and 999 helpers on an early Claude Fable 5.2 formalized Fermat's Last Theorem in Lean. Compared with the September run (dozens of agents, 11 days, about 6 billion output tokens) it used one third of the output tokens and produced a proof one seventh the length. Coordination used no special tooling, only a git branch per agent and a shared Postgres; the lead built five tables - announce, assign, notes, subtasks, landed - within the first 10 minutes, and the hardest theorem got about 750 helpers and a task tree of 2,418 tasks. Each agent got a network-less lightweight VM and an account without sudo, an LLM classifier checked every command and file edit before it ran (nothing in over a million tool calls met the blocking bar), and early on the helpers judged 47 of 60 statements infeasible yet most were proved, while the harness had to send the lead 19 automatic time reminders so it would not stop early - the lesson being not to trust an agent's 'impossible' verdict. A single shared machine hit its limits at around 100 agents, which is why each helper got its own VM; the authors themselves call it a toy, single-case experiment.",
-      "sourceName": "Anthropic · Claude Blog",
-      "sourceUrl": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "id": "curated-20261116-yt-boaz-claude-code-memory-two-enough-ko",
+      "title": "가장 쉬운 AI 활용 개발 with Boaz: 클로드 코드 기억 장치 5가지 중 2개면 충분 — AGENTS.md 하나로 규칙을 모으고, auto memory엔 이유까지 말하고, compact엔 보존 지시 한 줄 (9분)",
+      "body": "Boaz가 9분 2초 동안 Claude Code의 기억 관리 5가지(CLAUDE.md·AGENTS.md, rules, auto memory, compact, subagent memory)를 레이어 한 장으로 정리하고 자신은 2개만 쓴다고 말합니다(0:00). Claude Code가 이제 AGENTS.md도 읽어 Codex 같은 다른 도구와 규칙을 공유할 수 있지만 같은 폴더나 상위 폴더에 CLAUDE.md가 있으면 AGENTS.md를 건너뛰므로, 둘 다 써야 하면 CLAUDE.md에 @AGENTS.md로 불러오고 /memory로 실제로 읽히는지 확인하라고 합니다(1:46). auto memory는 '기억해'라고 할 때 이유까지 말하면 규칙·이유·적용 방법이 함께 저장돼 처음 보는 상황에서도 판단한다는 팁(3:43)이고, compact는 직접 실험에서 결정·제약은 거의 지켜졌지만 세부 수치를 잃었으며 보존 지시 한 줄을 붙이자 세부사항 보존이 67%에서 90%로 올랐다고 합니다(5:13, 조건별 2~3회 반복한 개인 실험). rules와 subagent memory를 무엇으로 대체하는지는 6:48에 나오고, 다음 날 이어 하거나 다른 도구로 넘길 때는 handoff 문서를 스킬로 만들어 두라는 조언입니다.",
+      "titleEn": "Boaz on Claude Code's five memory mechanisms - two are enough: one AGENTS.md for rules, give the reason when you say 'remember', and add one preservation line when you compact (9 minutes)",
+      "bodyEn": "In 9m02s the Korean channel Boaz ('The easiest AI-assisted development') lays out Claude Code's five memory mechanisms - CLAUDE.md/AGENTS.md, rules, auto memory, compact and subagent memory - as one layer diagram and says he only uses two (0:00). Claude Code now reads AGENTS.md so you can share rules with tools like Codex, but it skips AGENTS.md when a CLAUDE.md exists in the same or a parent folder, so if you need both, import it with @AGENTS.md inside CLAUDE.md and check with /memory that it is really being read (1:46). For auto memory, give the reason when you say 'remember' so the rule, the reason and how to apply it are stored together and still guide judgment in unfamiliar situations (3:43); for compact, his own experiment found decisions and constraints survived almost entirely while specific figures were lost, and adding one preservation line raised detail retention from 67% to 90% (5:13, two to three runs per condition, a personal experiment). What replaces rules and subagent memory comes at 6:48, and for resuming the next day or switching tools he suggests turning a handoff document into a skill.",
+      "sourceName": "YouTube · 가장 쉬운 AI 활용 개발 with Boaz",
+      "sourceUrl": "https://www.youtube.com/watch?v=UKBTlXRTbtE",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=UKBTlXRTbtE",
+      "createdAt": "2026-11-15T02:00:13Z",
+      "curatedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "curated-20261116-yt-ittoktok-antigravity-november-overhaul-ko",
+      "title": "IT톡톡: 안티그래비티 11월 열흘 변화 따라 하기 — 지식 업무 화면·음성 모드·Hydrogen/Orchestrator/Carbon 고르기·/swarm·/run-workflow까지 5개 미션 (14분)",
+      "body": "IT톡톡이 14분 18초 동안 구글이 11월 3~13일(미국 시간) 열흘 사이 안티그래비티에 음성 모드, 지식 업무 레이아웃, /swarm, Gemini 4 Carbon·Hydrogen과 Orchestrator, 다이내믹 워크플로를 연달아 내놓은 것을 공식 문서·변경 기록·실사용 후기 11편을 바탕으로 따라 할 수 있는 순서로 정리합니다. 미션 1 화면 바꾸기(2:28), 2 말로 일 시키기(3:52), 3 상황별 모델 고르기(5:46), 4 /swarm으로 AI 팀 부리기(7:46), 5 /run-workflow 자동화 대본(10:11) 순이고, 11:25에 국내 요금과 할당량 함정을, 12:57에 오늘 해 볼 5분 체크리스트를 다룹니다. 설명란은 벤치마크·속도·할당량 절감 수치가 구글 자체 발표이고 요금·기능 범위는 11월 15일 확인 기준이라 계정과 순차 배포에 따라 다를 수 있다고 밝히며, 인용한 실사용 후기도 개인 경험입니다.",
+      "titleEn": "IT Toktok on Antigravity's ten-day November overhaul, step by step - the knowledge-work layout, voice mode, choosing between Hydrogen, Orchestrator and Carbon, /swarm and /run-workflow as five missions (14 minutes)",
+      "bodyEn": "In 14m18s the Korean channel IT Toktok (IT톡톡) walks through the features Google shipped in Antigravity between November 3 and 13 (US time) - voice mode, a knowledge-work layout, /swarm, Gemini 4 Carbon and Hydrogen with Orchestrator, and dynamic workflows - in an order you can follow along with, based on the official docs, the changelog and 11 hands-on reviews. The five missions are changing the screen (2:28), giving orders by voice (3:52), picking a model by situation (5:46), running an AI team with /swarm (7:46) and an automation script with /run-workflow (10:11), followed by Korean pricing and quota pitfalls (11:25) and a five-minute checklist to try today (12:57). The description says the benchmark, speed and quota-saving figures are Google's own announcements, that pricing and feature availability reflect November 15 and may differ by account and staged rollout, and that the reviews it cites are personal experiences.",
+      "sourceName": "YouTube · IT톡톡",
+      "sourceUrl": "https://www.youtube.com/watch?v=sLMj6HCperk",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=sLMj6HCperk",
+      "createdAt": "2026-11-15T10:15:00Z",
+      "curatedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "curated-20261116-geeknews-agent-standup-ko",
+      "title": "Show GN: Agent Standup — Claude Code·Codex 세션을 화상회의 화면으로 모아 보기: 일하는 에이전트는 화면 공유, 허락을 기다리면 손 들기, 서브에이전트도 참가자로, 무료 MIT",
+      "body": "GeekNews Show GN(11월 15일)에 에이전트를 여러 개 돌릴 때 탭을 오가며 끝났는지·막혔는지·내 답을 기다리는지 확인하는 수고를 줄이는 도구가 올라왔습니다. 내 컴퓨터의 Claude Code, Codex, Mistral Vibe 세션을 실시간 화상회의로 보여 주고, 일하는 에이전트는 실제 명령 출력·적용한 diff·테스트 실행을 화면 공유하며, 권한 승인이나 질문을 기다리는 에이전트는 손을 들고, 서브에이전트도 참가자로 나와 누가 누구에게 일을 맡겼는지 보입니다. 각 도구가 이미 디스크에 쓰는 세션 파일을 읽기만 해서 토큰을 쓰지 않고 기본적으로 외부로 아무것도 보내지 않으며, 1.47부터는 한국어 번역·음성도 지원하는데 번역에는 Claude Code 로그인이 필요하고 음성은 약 400MB를 더 내려받습니다. Node 18 이상에서 npx @double_geste/agent-standup@latest --open으로 설치 없이 써 볼 수 있고(VS Code·Cursor 확장도 있음), 별 376개의 공개 초기 프로젝트이며 한국어 문장 속 파일 이름은 아직 어색하게 읽힐 때가 있다고 글쓴이가 밝혔습니다.",
+      "titleEn": "Show GN: Agent Standup - see your Claude Code and Codex sessions as a video call: working agents share their screen, agents waiting on you raise a hand, subagents join as participants, free and MIT",
+      "bodyEn": "A GeekNews Show GN post (November 15) presents a tool that cuts the tab-hopping needed to see whether each of several running agents has finished, is stuck or is waiting for your answer. It shows the Claude Code, Codex and Mistral Vibe sessions on your computer as a live video meeting: working agents share their screen with the real command output, applied diffs and test runs, agents waiting for a permission approval or a question raise a hand, and subagents appear as participants so you can see who delegated to whom. It only reads the session files each tool already writes to disk, so it spends no tokens and sends nothing out by default, and from version 1.47 it can run the meeting in Korean - translation needs a Claude Code login and the voice is about a 400MB extra download. You can try it without installing via npx @double_geste/agent-standup@latest --open on Node 18 or newer (there are also VS Code and Cursor extensions); it is an early project with 376 GitHub stars, and the author notes that file names inside Korean sentences are still sometimes read awkwardly.",
+      "sourceName": "GeekNews · Show GN",
+      "sourceUrl": "https://news.hada.io/topic?id=37203",
       "mediaType": "none",
       "mediaUrl": "",
-      "createdAt": "2026-11-09T00:00:00Z",
-      "curatedAt": "2026-11-14T23:16:28Z"
+      "createdAt": "2026-11-15T13:31:35Z",
+      "curatedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "curated-20261116-yt-rob-shocks-orca-agent-ide",
+      "title": "Rob Shocks: 에이전트 IDE를 다 써 본 끝에 Orca로 — 구독 요금으로 아무 CLI 에이전트나 돌리고, 에이전트마다 worktree를 클릭으로 만들고, 내장 브라우저 페이지에 주석을 달아 지시 (10분, 영어)",
+      "body": "Switch Dimension의 Rob Shocks가 10분 25초 동안 여러 에이전트 개발 환경을 써 본 끝에 최근 업데이트 뒤 기본으로 쓰게 됐다는 오픈소스 Orca(MIT, GitHub 별 약 12만 6천 개)를 소개합니다. Codex·Gemini·OpenCode 등 어떤 CLI 에이전트든 돌리고(1:47) API 과금 대신 구독 요금제를 쓰며(1:58), 에이전트마다 worktree를 클릭 한 번으로 만들고(4:03) GitHub·Jira·Linear 작업을 가져오며(4:40), 내장 브라우저에서 페이지에 주석을 달아 지시하고(5:15), 원격 VPS에서도 일할 수 있습니다(6:36). 터미널 모드와 채팅 모드의 지연 비교(6:48), 워크스페이스 보드(7:16), 스킬 공유와 세션 검색(8:38)도 다루는데, 한 사람의 사용 소감이고 설명란에 강의·커뮤니티 홍보가 있으니 기능은 공식 저장소에서 확인하세요.",
+      "titleEn": "Rob Shocks: after trying every agent IDE, he settles on Orca - run any CLI agent on your subscription, one worktree per agent in a click, and annotate pages in the built-in browser to direct the agent (10 minutes)",
+      "bodyEn": "In 10m25s Rob Shocks of Switch Dimension explains why, after trying many agentic development environments, the open-source Orca (MIT, about 125,700 GitHub stars) became his default following its recent updates. It runs any CLI agent such as Codex, Gemini or OpenCode (1:47) on your subscription plan instead of API pricing (1:58), creates one worktree per agent in a click (4:03), pulls tasks from GitHub, Jira and Linear (4:40), lets you annotate pages in a built-in browser to instruct the agent (5:15), and works on a remote VPS (6:36). He also covers terminal-versus-chat latency (6:48), a workspace board (7:16), and shared skills with session search (8:38); it is one person's impression and the description carries a course and community plug, so check the features in the official repository.",
+      "sourceName": "YouTube · Rob Shocks - Switch Dimension",
+      "sourceUrl": "https://www.youtube.com/watch?v=73DrNNvEKH0",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=73DrNNvEKH0",
+      "createdAt": "2026-11-14T11:13:38Z",
+      "curatedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "curated-20261116-yt-ai-saeopilji-workflow-vs-agent-four-questions-ko",
+      "title": "AI 사업일지: 에이전트는 모든 일에 만들지 마라 — 정해 둔 순서면 워크플로, AI가 다음 걸음을 고르면 에이전트, 복잡도·돈값·핵심 능력·실수의 값 4가지 질문을 통과한 일에만 (11분)",
+      "body": "AI 사업일지가 10분 40초 동안 Anthropic 응용 AI팀 Barry Zhang의 AI Engineer Summit 강연 'How We Build Effective Agents'를 풀어 줍니다(「AI 기본기」 8강). 정해 둔 순서로 AI를 여러 번 부르면 워크플로, 다음 걸음을 AI가 스스로 고르면 에이전트이며(0:46), 고를 권한을 줄수록 할 수 있는 일은 늘지만 비용·지연·실수의 대가도 같이 커진다는 설명입니다. 복잡도, 돈값, 핵심 능력, 실수의 값 4가지 질문을 다 통과한 일에만 에이전트를 쓰고(1:43), 에이전트는 루프 하나에 부품 셋으로 단순하게 만들며(4:07) 엉뚱하게 굴면 에이전트의 창 안에 직접 들어가 보라고 합니다(5:37). 2025년 6월 Anthropic의 멀티 에이전트 구조가 내부 평가에서 90.2% 앞섰지만 토큰은 일반 채팅의 약 15배였다는 수치도 소개하고, 숙제는 매주 하는 일 하나를 포스트잇에 순서대로 적고 판단이 필요한 칸에만 동그라미를 치는 것(7:36)입니다. 2025년 초 강연을 푼 영상이라 2026년 현재의 변화는 마지막 챕터(8:03)를 같이 보세요.",
+      "titleEn": "AI Business Diary: don't build an agent for everything - a fixed sequence is a workflow, an AI that picks its own next step is an agent, and only use one for work that passes four questions: complexity, worth the cost, key capability, cost of error (11 minutes)",
+      "bodyEn": "In 10m40s the Korean channel AI Business Diary (AI 사업일지) unpacks Anthropic applied-AI engineer Barry Zhang's AI Engineer Summit talk 'How We Build Effective Agents' as lesson 8 of its 'AI Basics' series. Calling the AI several times in a sequence you fixed is a workflow, while letting the AI choose its next step is an agent (0:46); the more choosing power you hand over, the more it can do but the cost, latency and price of mistakes grow with it. Use an agent only for work that passes all four questions - complexity, worth the cost, key capability and cost of error (1:43) - build it simply as one loop with three parts (4:07), and when it misbehaves, step into the agent's own window (5:37). It also quotes the June 2025 figure that Anthropic's multi-agent structure came out 90.2% ahead on internal evaluation while using about 15 times the tokens of a normal chat, and the homework is to write one weekly task on sticky notes in order and circle only the steps that need judgment (7:36). Because it retells an early-2025 talk, watch the last chapter (8:03, 'Now in 2026') for what has changed since.",
+      "sourceName": "YouTube · AI 사업일지",
+      "sourceUrl": "https://www.youtube.com/watch?v=7sSsD3Lbn8w",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=7sSsD3Lbn8w",
+      "createdAt": "2026-11-13T22:30:31Z",
+      "curatedAt": "2026-11-15T23:12:22Z"
+    },
+    {
+      "id": "curated-20261116-yt-hued-iphone-agent-iph-ko",
+      "title": "허드의 AI딸깍: Claude Code·Codex가 내 실제 아이폰을 직접 쓰게 하는 오픈소스 iph — 토스 지출 내역 가져오기·당근 물건 올리기, 화면은 그림이 아니라 접근성 트리로 읽는다 (9분)",
+      "body": "허드의 AI딸깍이 8분 34초 동안 무료 오픈소스 아이폰 자동화 CLI iph(GitHub HyunSeob/iphone-cli, MIT, 별 25개의 초기 프로젝트)로 Claude Code·Codex 같은 에이전트가 실제 아이폰을 조작하게 만드는 방법을 보여 줍니다. 웹으로는 안 되고 앱으로만 되는 일, 예컨대 토스 지출 내역 가져오기와 당근에 물건 올리기를 시연하고(0:21), 아이폰 미러링·컴퓨터 유즈(phone-harness), mobile-mcp, Poki와 무엇이 다른지 같은 요청으로 직접 비교합니다(2:03~5:28). 설명란에 따르면 화면을 그림이 아니라 앱 접근성 트리로 읽어 빠르고 정확하며 Xcode 설치 없이 윈도우에서도 쓸 수 있고, 설치 프롬프트는 고정 댓글에 있습니다(5:28). 다만 iOS 27 이상 아이폰만 지원하고 폰을 에이전트에게 맡기는 일이라 개인정보가 민감하면 세컨드 폰을 권한다는 주의가 붙어 있습니다(7:23).",
+      "titleEn": "Hued's AI Ddalkkak: let Claude Code or Codex drive your real iPhone with the open-source iph - pull Toss spending history, list an item on Daangn, reading the screen through the accessibility tree rather than as an image (9 minutes)",
+      "bodyEn": "In 8m34s the Korean channel Hued's AI Ddalkkak (허드의 AI딸깍) shows how to let agents such as Claude Code and Codex operate a real iPhone with iph, a free open-source iPhone automation CLI (GitHub HyunSeob/iphone-cli, MIT, an early project with 25 stars). It demos tasks that only work in apps rather than on the web, such as pulling Toss spending history and listing an item on Daangn (0:21), then compares iph on the same request with iPhone mirroring plus computer use (phone-harness), mobile-mcp and Poki (2:03-5:28). According to the description it reads the screen through the app's accessibility tree instead of as an image, which it says is faster and more accurate, needs no Xcode install and also works on Windows, with an install prompt in the pinned comment (5:28). The caveats are that it only supports iPhones on iOS 27 or later and that you are handing your phone to an agent, so a second phone is recommended if your data is sensitive (7:23).",
+      "sourceName": "YouTube · 허드의 AI딸깍",
+      "sourceUrl": "https://www.youtube.com/watch?v=jaKvinAjpqE",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=jaKvinAjpqE",
+      "createdAt": "2026-11-13T04:54:50Z",
+      "curatedAt": "2026-11-15T23:12:22Z"
     },
     {
       "id": "curated-20261115-hn-claude-code-projects-coordinator",
@@ -28,19 +93,6 @@
       "curatedAt": "2026-11-14T23:16:28Z"
     },
     {
-      "id": "curated-20261115-yt-ai-engineer-ryan-carson-20-agents",
-      "title": "AI Engineer: Ryan Carson이 매니저 에이전트 하나로 빌더 에이전트 20개를 굴리는 법 — 티켓 보드·15분마다 점검·QA 에이전트·병합 큐, 출시 전엔 기능 영상을 직접 본다 (15분)",
-      "body": "AI Engineer 채널에서 Untangle 창업자 Ryan Carson이 15분 28초 동안 클라우드 에이전트로 개발을 돌리는 방식을 보여 줍니다. 주로 음성으로 말을 거는 '엔지니어링 매니저' 에이전트 하나가 티켓 보드를 통해 최대 20개의 빌더 에이전트를 관리하고(3:29), 15분마다 모든 빌더를 점검하는 자동화와 횟수를 제한한 리뷰 루프, QA 에이전트(5:05), 병합 큐 매니저(9:46)를 둡니다. 사람이 건너뛰지 않는 단계는 출시 전에 기능별 영상을 직접 보는 것이고(6:24), 채용도 지원자가 에이전트로 실제 기능을 만드는 영상을 올리면 에이전트가 순위를 매겨 상위 5명이 유급 시범 프로젝트를 하는 방식으로 바꿨다고 합니다(11:07~13:24). 한 회사의 자기 보고 사례이고 서밋 홍보가 설명란에 붙어 있습니다.",
-      "titleEn": "AI Engineer: Ryan Carson runs 20 builder agents from one manager agent - a ticket board, 15-minute check-ins, QA agents and a merge queue, and he still watches each feature's video before it ships (15 minutes)",
-      "bodyEn": "In 15m28s on the AI Engineer channel, Untangle founder Ryan Carson shows how his team runs development with cloud agents. One 'engineering manager' agent, which he mostly talks to by voice, manages up to 20 builder agents through a ticket board (3:29), backed by an automation that checks every builder every 15 minutes, review loops with a cap on rounds, QA agents (5:05) and a merge-queue manager (9:46). The human step he will not skip is watching the video of each feature before it ships (6:24), and he says hiring changed too: candidates record themselves shipping a real feature with an agent, an agent ranks the videos, and the top five do a paid trial project (11:07-13:24). It is one company's self-reported setup, and the description carries a summit plug.",
-      "sourceName": "YouTube · AI Engineer",
-      "sourceUrl": "https://www.youtube.com/watch?v=BTtyguoPvBU",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=BTtyguoPvBU",
-      "createdAt": "2026-11-09T18:00:27Z",
-      "curatedAt": "2026-11-14T23:16:28Z"
-    },
-    {
       "id": "curated-20261115-yt-jeonggijeok-claude-code-drop-7-keep-4-ko",
       "title": "정기적 자동화: 클로드 코드 1년 쓴 설정, 이제 버릴 7개와 남길 4개 — IMPORTANT 강조·'깊게 생각해'·명령마다 허락은 빼고, 코드에 없는 사실·금지 규칙·'다 됐다'의 기준·훅은 남기기 (12분)",
       "body": "정기적 자동화가 11분 44초 동안 Anthropic의 Lydia Hallie 발표와 공식 문서를 바탕으로 이제 버려도 되는 클로드 코드 습관 7개와 남길 4개를 정리합니다. 버릴 것은 CLAUDE.md의 IMPORTANT·느낌표 강조(1:40), 프로젝트 설명 적기 대신 /doctor prompt-audit(2:26, Claude Code 2.1.283 이상), '깊게 생각해' 대신 effort 단계(3:18), '끝까지 해' 대신 통과 검사(3:47), 명령마다 허락 누르기 대신 오토 모드(4:20), 일이 바뀔 때만 /clear(5:43), 하위 AI 남발(6:12)입니다. 남길 것은 코드에 없는 사실만 적기(7:05), 영구 삭제·비밀 노출처럼 되돌릴 수 없는 일은 금지 규칙으로(7:42), 맡길 때 '다 됐다'의 모습과 통과·실패 검사를 알려 주기(9:09), 꼭 해야 하는 검사는 훅으로 강제하기(10:10)입니다. 화면 대부분이 발표 내용을 다시 그린 재현 화면이고 /doctor 화면만 연습 폴더에서 실제로 돌린 것이라 영상에 나온 숫자는 공식 문서와 함께 확인하세요.",
@@ -51,45 +103,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=9FICJzPtlaA",
       "createdAt": "2026-11-14T09:00:23Z",
-      "curatedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "curated-20261115-yt-givepro-agent-guardrails-ko",
-      "title": "GIVEPRO: AI가 '다 됐다'고 할 때 틀린 자리마다 붙인 장치 — 32KB를 넘으면 실패하는 지시 파일 테스트, 실행 직전에 막는 훅, '실패 0' 줄 확인, 리뷰 132개로 만든 리뷰어 기준표 (7분)",
-      "body": "1인 게임 개발자 GIVEPRO가 7분 5초 동안 Claude Code와 Codex 여러 에이전트에게 개발을 맡기며 에이전트가 틀린 자리마다 장치를 하나씩 붙인 과정을 순서대로 말합니다. 영상에 따르면 지시 파일이 143KB까지 커지자 Codex는 앞 32KB만 읽어서 영역별 파일로 쪼갰고 32KB를 넘으면 테스트가 실패하게 했으며, 스크린샷 149개를 한꺼번에 커밋한 사고 뒤에는 명령 실행 직전에 규칙과 비교해 막고 이유와 대안을 알려 주는 훅을 달았습니다(Codex가 일하던 다른 폴더에서 훅이 안 돌아 어느 폴더에서나 같은 규칙이 돌게 고침). 테스트 두 개가 실패했는데 커밋된 일 뒤로는 '실패 0' 줄이 있어야 통과로 치고, 화면 테스트 15개가 전부 통과했는데 실제로는 결함이 3개 나와 화면 캡처 확인을 따로 두었으며, 자기 게임 리뷰 132개로 기준표를 만든 리뷰어 에이전트가 처음 하는 사람처럼 플레이해 별점과 지적을 쓰고 다른 AI 모델에도 같은 화면을 보여 줘 다시 해서도 똑같이 나온 지적만 고칩니다. 출시 기준은 별점·리뷰 4점 이상에 재현되는 결함 0이고, 한 사람의 단일 사례이며 수치는 본인이 말한 내용입니다.",
-      "titleEn": "GIVEPRO: a guardrail for every spot where the AI said 'done' and was wrong - an instruction file that fails tests past 32KB, a hook that blocks commands before they run, a 'zero failures' line check, and a reviewer rubric built from 132 reviews (7 minutes)",
-      "bodyEn": "In 7m05s the solo game developer GIVEPRO describes, in order, how he added one guardrail each time the agents he runs in parallel (Claude Code and Codex) got something wrong. According to the video, when the instruction file grew to 143KB Codex only read the first 32KB, so he split it into per-area files and made tests fail if any file passes 32KB; after 149 screenshots were committed in one go he added a hook that compares each command with the rules just before it runs and explains why it was blocked and what to use instead (it first failed to run in a different folder Codex was working in, so he made the same rules apply in every folder). After a commit went through with two failing tests, a pass now requires an explicit 'zero failures' line; when all 15 screen tests passed yet three real defects appeared, he added a separate check on captured screens; and a reviewer agent with a rubric built from 132 reviews of his own game plays like a first-time user and writes ratings and findings, a second AI model sees the same screens, and only findings that reproduce on a rerun get fixed. His release bar is a rating of 4 or higher with zero reproducible defects; it is one person's single case and the figures are as he states them.",
-      "sourceName": "YouTube · GIVEPRO",
-      "sourceUrl": "https://www.youtube.com/watch?v=EikjRDkIjVw",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=EikjRDkIjVw",
-      "createdAt": "2026-11-09T22:00:01Z",
-      "curatedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "curated-20261115-yt-500-ai-master-claude-codex-3tier-ko",
-      "title": "500 AI Master: Claude Code·Codex 결합형 3계층 AI 작업팀 — 소대장·분대장·분대원으로 모델을 나누고, 중간 결과마다 V1, 통합 때마다 작업에 빠진 Codex가 V2로 검증 (12분)",
-      "body": "500 AI Master가 11분 39초 동안 AI에게 일을 시키다 도달한 군대식 3계층 편제를 설명합니다. 사람은 목표와 완료 기준만 정하고 소대장(큰 모델)이 일을 나눠 배정·통합하며, 분대장은 Claude Code 팀메이트와 Codex 파견 분대장 두 종류로 각자 부문을 맡고(3:56), 분대원은 범위가 분명한 단일 임무를 받아 보고 후 사라집니다(5:55). Codex는 호출마다 프로세스가 끝나도 같은 세션을 이어 가 반려 사유와 이전 시도를 잃지 않게 하고(5:18), 검증자는 직접 고치지 않고 통과·반려와 필수 수정만 보고하는데 중간 결과물마다 작업에 참여하지 않은 Claude 세션이 V1(8:34), 누적 통합 때마다 작업에 빠진 Codex가 V2(9:16)를 맡습니다. 독립 작업이 둘 이상이거나 산출물이 길고 다시 만드는 비용이 큰 일에만 쓰라고 하고, 공식 통합 기능이 아니라 본인이 만든 스킬(claude-codex-3tier-team)로 이어 붙인 운용 체계이며 효과는 본인 설명뿐입니다.",
-      "titleEn": "500 AI Master: a Claude Code + Codex three-tier AI work team - split models across platoon leader, squad leaders and squad members, with V1 checks on each intermediate result and a Codex that sat out the work running V2 at every integration (12 minutes)",
-      "bodyEn": "In 11m39s the Korean channel 500 AI Master explains the military-style three-tier structure he says he ended up with when delegating to AI. The human sets only the goal and completion criteria, a platoon leader (the largest model) splits, assigns and integrates the work, squad leaders come in two kinds - Claude Code teammates and dispatched Codex squad leaders - each owning a part of the work (3:56), and squad members take a clearly scoped single task, report back and vanish (5:55). Codex keeps the same session across calls even though each call's process ends, so rejection reasons and earlier attempts are not lost (5:18); verifiers never edit, they only report pass or reject and the required fixes, with a separate Claude session that did not take part doing V1 on every meaningful intermediate result (8:34) and a Codex that did not take part doing V2 on each cumulative integration (9:16). He says to use it only when there are two or more independent tasks, the output is long, or rebuilding is costly. It is not an official integration but his own skill (claude-codex-3tier-team) tying the two together, the benefits are his own description.",
-      "sourceName": "YouTube · 500 AI Master",
-      "sourceUrl": "https://www.youtube.com/watch?v=63fEJ6DaGHw",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=63fEJ6DaGHw",
-      "createdAt": "2026-11-09T22:13:54Z",
-      "curatedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "curated-20261115-geeknews-ask-agent-shell-permissions-ko",
-      "title": "Ask GN: AI 코딩 에이전트에 셸 권한을 어디까지 주나 — 일 단위 스냅샷 깔고 전부 허용, 훅으로 파괴 명령 차단, 허용 목록, '스크립트 안의 삭제'는 격리로 막자는 의견까지 (댓글 20개)",
-      "body": "GeekNews Ask GN(11월 10일)에 Claude Code·Codex·Cursor에 셸 권한을 어디까지 주는지, 무인으로 돌릴 때 가장 위험한 명령과 스크립트 안의 삭제를 어떻게 막는지 묻는 글이 올라 댓글 20개가 달렸습니다. 글쓴이는 prisma migrate reset이나 git stash drop처럼 무해해 보이는 명령이 사고를 낸 사례를 들었고, 댓글에는 일 단위 디스크 스냅샷(3일 보관)을 믿고 전부 허용하거나 git worktree에서 세션 10개를 동시에 돌리는 방식, 훅에서 명령 이름과 경로를 함께 검사하고 스크립트 실행은 파괴 명령을 먼저 훑는 도구 하나로만 통과시키는 방식, 일부만 자동 허용하고 DB 쿼리는 직접 못 돌리게 하는 허용 목록 방식이 나왔습니다. 훅은 명령줄만 보고 스크립트 내용은 못 보므로 이름 필터보다 실행 환경 격리가 확실하다는 반론도 있었고, 메일 발송처럼 되돌릴 수 없는 일 앞에서만 멈추게 하는 사용자도 있었는데 컨테이너·VM·별도 계정 중 무엇이 낫다는 합의는 없었습니다.",
-      "titleEn": "Ask GN: how much shell access do you give AI coding agents - daily snapshots with everything allowed, hooks that block destructive commands, allowlists, and the view that isolation is the answer for deletions hidden inside scripts (20 comments)",
-      "bodyEn": "A GeekNews Ask GN thread (November 10) asked how much shell access people give Claude Code, Codex and Cursor, which unattended commands are most dangerous and how to stop deletions that happen inside scripts, and drew 20 comments. The author cited incidents with harmless-looking commands such as prisma migrate reset and git stash drop, and the replies included allowing everything because daily disk snapshots (kept for three days) cover recovery or running up to 10 sessions in git worktrees, blocking destructive actions in hooks by checking both command name and path while routing script execution through a single tool that scans for destructive commands first, and auto-allowing only some commands while never letting the agent run database queries directly. One commenter argued that hooks only see the command line, not script contents, so isolating the execution environment beats filtering names, and another only pauses the agent before irreversible actions like sending email; there was no consensus on containers versus VMs versus separate accounts.",
-      "sourceName": "GeekNews",
-      "sourceUrl": "https://news.hada.io/topic?id=36930",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-10T00:00:00Z",
       "curatedAt": "2026-11-14T23:16:28Z"
     },
     {
@@ -220,19 +233,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=-cNmsRZQuGk",
       "createdAt": "2026-11-11T08:00:08Z",
-      "curatedAt": "2026-11-12T23:13:49Z"
-    },
-    {
-      "id": "curated-20261113-hn-jane-street-socratic-tutor-skill",
-      "title": "Jane Street의 Socratic Tutor 스킬 — 질문은 한 번에 하나, 틀려도 답 대신 더 좁은 질문, 진단 3~5문항에서 0~5 스킬 맵·복습·최종 평가까지 가는 학습용 에이전트 스킬",
-      "body": "Jane Street가 agent_skills 저장소에 올린 socratic-tutor 스킬이 HN에서 645점·댓글 153개를 받았습니다(11월 10일). '가르쳐 줘·퀴즈 내 줘·마스터하게 도와줘'처럼 배우겠다고 할 때만 작동해, 주제를 하위 기술 4~10개로 쪼개고 쉬운 것부터 어려운 순서의 진단 질문 3~5개로 현재 수준을 0~5점 지도로 보여 준 뒤, 질문 하나를 던지고 답을 기다리는 루프로 가르칩니다. 틀리면 답을 말하지 않고 더 좁은 질문을 던지며(두세 번 실패하면 직접 설명), 앞서 배운 항목을 예고 없이 다시 묻고 수준은 독립된 확인 두 번 이상으로만 올리고, 마지막에 전체 혼합 평가로 끝냅니다. 댓글에는 Opus 5.5 Medium으로 일주일 써 보니 과잉 친절이 줄었다는 후기와 '틀리면 답 대신 모순을 드러내는 좁은 질문을 하라'는 한 줄만으로도 효과 대부분을 낼 수 있다는 의견, 스킬은 결국 프롬프트일 뿐이라는 회의론이 함께 있었습니다.",
-      "titleEn": "Jane Street's Socratic Tutor skill - one question at a time, a narrower question instead of the answer when you're wrong, and a 0-5 skill map from 3-5 diagnostic questions through reviews to a final assessment",
-      "bodyEn": "The socratic-tutor skill Jane Street published in its agent_skills repository drew 645 points and 153 comments on HN (November 10). It only activates when you say you want to learn something ('teach me', 'quiz me', 'help me master'): it breaks the topic into 4-10 subskills, runs 3-5 diagnostic questions from easy to hard to place you on a 0-5 skill map, then teaches in a loop of asking one question and waiting for your answer. When you are wrong it asks a narrower question instead of giving the answer (explaining directly only after two or three failed attempts), retests earlier subskills without warning, raises your level only after at least two independent checks, and ends with a mixed final assessment. Commenters included one who used it with Opus 5.5 on Medium for a week and found it cut the usual handholding, one who said a single line - when the user is wrong, ask a narrower question that exposes the contradiction - reproduces most of the effect, and skeptics who see skills as just prompts.",
-      "sourceName": "Hacker News · Jane Street",
-      "sourceUrl": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-10T10:18:22Z",
       "curatedAt": "2026-11-12T23:13:49Z"
     },
     {
