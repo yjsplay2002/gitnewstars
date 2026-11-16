@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-15T23:12:22Z",
+  "generatedAt": "2026-11-16T23:17:17Z",
   "videos": [
+    {
+      "id": "vid-4upu-cloudxberry-spec-driven-development",
+      "youtubeId": "4uPU1Q5hlFA",
+      "category": "tip",
+      "title": "스펙 주도 개발(SDD) 쉽게 설명: 바이브 코딩을 멈춰야 할 때 — 실제 기능으로 보는 네 단계와 Kiro·Spec Kit·지침 파일",
+      "titleEn": "Spec-Driven Development (SDD) Explained: STOP Vibe Coding",
+      "descKo": "바이브 코딩의 강점과 한계에서 출발해 스펙 주도 개발의 네 단계를 실제 기능으로 보여 주고, Kiro·Spec Kit·지침 파일, 모든 일에 스펙이 필요한지, '다 됐다'를 확인 가능하게 만드는 법을 11분에 소개(영어, 챕터 기준 요약).",
+      "descEn": "An 11-minute beginner-friendly explainer that goes from vibe coding's strengths and limits to the four steps of spec-driven development on a real feature, tools like Kiro, Spec Kit and instruction files, whether every task needs a spec, and making 'done' checkable (summarized from chapters).",
+      "channel": "Cloud X Berry",
+      "publishedAt": "2026-11-16T12:45:14Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
+    {
+      "id": "vid-u8np-jjong-hermes-15-bots-three-leaks-ko",
+      "youtubeId": "u8np18LTK4s",
+      "category": "usecase",
+      "title": "헤르메스 에이전트로 AI 직원 15명 굴리며 배운 3가지, 'SYNC!' — 비용 중간 확인·통과시킨 일 재심사 잠그기·지침 정기적으로 지우기",
+      "titleEn": "3 Things I Learned Running 15 AI Employees on Hermes Agent: 'SYNC!' (feat. the book 'Agent Workflow')",
+      "descKo": "텔레그램 봇 15개를 굴리며 업무 카드가 60장에서 263장으로 폭증하고 공통 규칙 파일이 일주일에 16.4KB→28.1KB로 커졌던 경험과 막은 방법을 12분에 정리(영상 속 본인 집계, 책·멤버십 홍보 포함).",
+      "descEn": "A 12-minute account of running 15 Telegram bots - work cards ballooning from 60 to 263 and a shared rules file growing from 16.4KB to 28.1KB in a week - and how he plugged each leak (the host's own tallies; includes a book and membership plug).",
+      "channel": "쫑대표의 딸깍일기",
+      "publishedAt": "2026-11-15T23:30:22Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
+    {
+      "id": "vid-lx6l-cheotcode-claude-md-desk-drawer-lock-ko",
+      "youtubeId": "lX6LTfKHnSg",
+      "category": "tip",
+      "title": "아직도 CLAUDE.md 한 파일에 전부 적고 계세요? CLAUDE.md 제대로 쓰는 법 — 책상 메모·서랍(규칙 폴더 paths)·자물쇠(훅)",
+      "titleEn": "Still Putting Everything Into One CLAUDE.md File? How to Use CLAUDE.md Properly with Claude Code",
+      "descKo": "같은 규칙 25개를 CLAUDE.md·@ 불러오기·표시 없는 규칙 폴더·paths 붙인 규칙 폴더에 두고 읽는 토큰을 쟀더니 1,280·1,363·1,322·13이었다는 직접 측정과, '내가 허락할게'에 뚫리지 않게 훅으로 막는 법을 16분에 정리.",
+      "descEn": "A 16-minute walkthrough of where to put instructions: the same 25 rules measured at 1,280, 1,363, 1,322 and 13 tokens across CLAUDE.md, an @ import, an unmarked rules folder and a rules folder with paths, plus blocking rules that 'I allow it' would bypass with hooks (personal measurements).",
+      "channel": "첫코드 | AI 바이브코딩",
+      "publishedAt": "2026-11-15T03:32:45Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
+    {
+      "id": "vid-jcpl-stanford-cs329z-agent-design-patterns",
+      "youtubeId": "JC_pLC5EX_w",
+      "category": "lecture",
+      "title": "AI 에이전트 설계 패턴: 스탠퍼드 CS329Z 6강 — Anthropic 워크플로 패턴 5가지, ReAct·Reflexion·CodeAct·ReWOO, 컨텍스트 관리, Pi 하네스 사례",
+      "titleEn": "AI Agent Design Patterns: ReAct, CodeAct & More | Stanford CS329Z Lecture 6 with Michael Ryan",
+      "descKo": "워크플로 대신 에이전트를 만들 때와 Anthropic의 워크플로 패턴 5가지, 추론·행동 패턴, 이벤트 로그·압축·관찰 마스킹·서브에이전트·스킬 같은 컨텍스트 관리, 최소 하네스 Pi 사례까지 1시간 17분에 다룬 강의(영어).",
+      "descEn": "A 1h17m Stanford lecture on when to build an agent instead of a workflow, Anthropic's five workflow patterns, reasoning-and-acting patterns, context management (event logs, compaction, observation masking, subagents, skills) and a case study of the minimal Pi harness.",
+      "channel": "Stanford Online",
+      "publishedAt": "2026-11-14T21:00:05Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
+    {
+      "id": "vid-7mgy-sinyoungseon-claude-code-instagram-automation-ko",
+      "youtubeId": "7MGY09neWho",
+      "category": "usecase",
+      "title": "AI 크리에이터 2명이 매일 쓰는 클로드코드 인스타 작업 화면 공개: 레퍼런스 수집부터 카드뉴스 제작까지",
+      "titleEn": "Two AI Creators' Daily Claude Code Instagram Workspace: From Reference Collection to Card News",
+      "descKo": "아침 7시에 해외 레퍼런스를 모으고 카드뉴스를 만드는 자동화 구조, 릴스 스킬과 대시보드, 캐러셀 복제, 100% AI 강의 영상까지 두 크리에이터의 실제 작업 화면을 37분에 공개(무료 강의 홍보 포함).",
+      "descEn": "A 37-minute look at two creators' real Claude Code workspace for Instagram: a 7 a.m. job that gathers overseas references and builds card news, a Reels skill and dashboard, carousel duplication and a fully AI-made lecture video (includes a free-course plug).",
+      "channel": "신영선의 AI탐구",
+      "publishedAt": "2026-11-10T13:00:01Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
+    {
+      "id": "vid-ajfq-freecodecamp-codex-agentic-coding-course",
+      "youtubeId": "ajfQWhGQGLE",
+      "category": "lecture",
+      "title": "Codex와 AI 코딩 에이전트로 배우는 에이전틱 코딩: 프롬프트·AGENTS.md·Plan 모드·스킬·테스트·Git·권한·MCP 1시간 50분 무료 코스",
+      "titleEn": "Codex & AI Coding Agents - Learn Agentic Coding",
+      "descKo": "Scrimba의 Tom Chant가 프롬프트 기초, 폴더별 AGENTS.md, Plan 모드, 스킬 실습, 특성화 테스트와 TDD, Git 위생, 시크릿, 권한, config.toml, MCP 설정까지 Codex로 따라 하는 무료 코스(영어).",
+      "descEn": "Scrimba's Tom Chant teaches agentic coding hands-on with Codex in 1h50m: prompting basics, per-folder AGENTS.md, plan mode, skills exercises, characterization tests and TDD, Git hygiene, secrets, permissions, config.toml and MCP setup (free, English).",
+      "channel": "freeCodeCamp.org",
+      "publishedAt": "2026-11-10T12:00:39Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
     {
       "id": "vid-ukbt-boaz-claude-code-memory-two-enough-ko",
       "youtubeId": "UKBTlXRTbtE",
@@ -50,18 +122,6 @@
       "addedAt": "2026-11-15T23:12:22Z"
     },
     {
-      "id": "vid-73dr-rob-shocks-orca-agent-ide",
-      "youtubeId": "73DrNNvEKH0",
-      "category": "tip",
-      "title": "2026년 Claude Code를 돌리는 가장 좋은 방법: 오픈소스 Orca로 에이전트마다 worktree·내장 브라우저 주석·원격 VPS",
-      "titleEn": "The Best Way to Run Claude Code in 2026",
-      "descKo": "에이전트 IDE를 다 써 본 Rob Shocks가 MIT 오픈소스 Orca를 기본으로 정한 이유 — 구독 요금으로 아무 CLI 에이전트 실행, 클릭 한 번 worktree, GitHub·Jira·Linear 작업 가져오기, 내장 브라우저 주석, 원격 서버 — 를 10분에 소개(영어, 강의 홍보 포함).",
-      "descEn": "In 10 minutes Rob Shocks explains why the MIT open-source Orca became his default agent environment: any CLI agent on your subscription, one-click worktrees, tasks from GitHub, Jira and Linear, built-in browser annotations and remote servers (includes a course plug).",
-      "channel": "Rob Shocks - Switch Dimension",
-      "publishedAt": "2026-11-14T11:13:38Z",
-      "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
       "id": "vid-9fic-jeonggijeok-claude-code-drop-7-keep-4-ko",
       "youtubeId": "9FICJzPtlaA",
       "category": "tip",
@@ -71,18 +131,6 @@
       "descEn": "A 12-minute list, from Lydia Hallie's talk and the official docs, of seven habits to drop (IMPORTANT shouting, 'think hard', per-command approvals) and four to keep (facts not in code, prohibition rules, a definition of done, hooks), with a /doctor prompt-audit demo (mostly re-created visuals).",
       "channel": "정기적 자동화",
       "publishedAt": "2026-11-14T09:00:23Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "vid-btty-ai-engineer-ryan-carson-20-agents",
-      "youtubeId": "BTtyguoPvBU",
-      "category": "usecase",
-      "title": "창업자 한 명이 AI 코딩 에이전트 20개를 동시에 관리하는 법: 매니저 에이전트·QA·병합 큐·기능 영상 확인",
-      "titleEn": "How One Founder Manages 20 AI Coding Agents at Once - Ryan Carson, Untangle",
-      "descKo": "Untangle의 Ryan Carson이 음성으로 말을 거는 매니저 에이전트 하나가 티켓 보드로 빌더 20개를 관리하고, 15분마다 점검·리뷰 루프·QA 에이전트·병합 큐를 돌리며 출시 전엔 기능 영상을 직접 본다는 운영과 채용 방식을 15분에 소개(영어).",
-      "descEn": "Untangle's Ryan Carson explains in 15 minutes how one voice-driven manager agent runs up to 20 builder agents through a ticket board, with 15-minute check-ins, capped review loops, QA agents and a merge-queue manager, why he watches each feature's video before shipping, and how hiring changed.",
-      "channel": "AI Engineer",
-      "publishedAt": "2026-11-09T18:00:27Z",
       "addedAt": "2026-11-14T23:16:28Z"
     },
     {
@@ -122,18 +170,6 @@
       "addedAt": "2026-11-14T23:16:28Z"
     },
     {
-      "id": "vid-nu2a-stanford-cme295-ai-agents-lecture-6",
-      "youtubeId": "nU2a2lm6vDE",
-      "category": "lecture",
-      "title": "AI 에이전트: 스탠퍼드 CME295 6강 — RAG, 도구 호출, MCP, 하네스 엔지니어링, ReAct, 컨텍스트 압축, 메모리, 코딩 에이전트",
-      "titleEn": "Stanford CME295 Transformers & LLMs | Autumn 2026 | Lecture 6 - AI Agents",
-      "descKo": "RAG와 검색 평가부터 도구 호출·도구 선택, MCP, 하네스 엔지니어링, ReAct, 컨텍스트 압축, 메모리, 코딩 에이전트까지 에이전트 구성 요소를 1시간 41분에 다룬 스탠퍼드 대학원 강의(영어).",
-      "descEn": "A 1h41m Stanford graduate lecture covering RAG and retrieval evaluation, tool calling and tool selection, MCP, harness engineering, ReAct, context compaction, memory and coding agents.",
-      "channel": "Stanford Online",
-      "publishedAt": "2026-11-13T21:02:37Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
       "id": "vid-xwx9-silbaem-claude-code-2026-h2-harness-ko",
       "youtubeId": "xwx9kHKBPgg",
       "category": "tip",
@@ -143,42 +179,6 @@
       "descEn": "A 37-minute roundup of what changed in Claude Code's defaults and habits: auto mode, fork subagents, AGENTS.md and /import, 40% auto compaction, the 80% system-prompt cut, pruning CLAUDE.md every six months, skill doctor and Verify, and designing verifiable work with /goal.",
       "channel": "실밸개발자",
       "publishedAt": "2026-11-13T22:00:34Z",
-      "addedAt": "2026-11-13T23:18:58Z"
-    },
-    {
-      "id": "vid-bv2x-ai-labs-design-workflow-cook-skill",
-      "youtubeId": "-bv2xKQzZio",
-      "category": "usecase",
-      "title": "최고의 디자인 스킬 제작자가 공개한 AI 디자인 워크플로우: AI 티 안 나는 디자인은 긴 프롬프트가 아니라 과정에서 나온다",
-      "titleEn": "Creator Of The Best Design Skill Just Unveiled His AI Design Workflow",
-      "descKo": "GitHub 인기 제작자 Leon Lin의 AI 디자인 과정을 Claude Code에 적용하고, 슬롭을 잡는 디자인 시스템과 기준에 닿을 때까지 제품 디자인을 반복하는 Cook 스킬까지 8가지 팁으로 15분에 정리(영어, 협찬 포함).",
-      "descEn": "A 15-minute breakdown of GitHub trending author Leon Lin's AI design process applied in Claude Code, with eight tips, a design system to catch slop, and the Cook skill that loops product design until it meets your bar (includes a sponsor segment).",
-      "channel": "AI LABS",
-      "publishedAt": "2026-11-12T15:00:34Z",
-      "addedAt": "2026-11-13T23:18:58Z"
-    },
-    {
-      "id": "vid-dhwd-mildcode-ai-era-thinking-ko",
-      "youtubeId": "dhwDv7qUQ90",
-      "category": "tip",
-      "title": "클로드 코드 핵심 개발자의 AI 시대 초격차 사고법: 작업의 맨 앞(의도)과 맨 끝(완료 기준)에 사람의 생각을",
-      "titleEn": "A Core Claude Code Developer's Way of Thinking for the AI Era",
-      "descKo": "판단의 연기·포기를 경계하고, 한 번 세팅하는 인터뷰형 시스템, '알아서 해 줘' 대신 '선택지를 줘', 테스트·스크린샷 증거로 판정하기, 틀려도 부담 적은 일만 위임하기를 18분에 정리(유료 강의 안내 포함).",
-      "descEn": "An 18-minute talk on avoiding deferred and abandoned judgment, setting up an interview-style system once, asking for options instead of 'figure it out', judging by test and screenshot evidence, and delegating only low-stakes work (includes a paid-course plug).",
-      "channel": "마일드코드",
-      "publishedAt": "2026-11-12T11:07:57Z",
-      "addedAt": "2026-11-13T23:18:58Z"
-    },
-    {
-      "id": "vid-2y3y-howard-kim-agentic-harness-lecture-ko",
-      "youtubeId": "2Y3y_uMw1iU",
-      "category": "lecture",
-      "title": "에이전틱 AI 하네스 엔지니어링: AI에게 일을 맡기는 사람의 새 기술 — 서울사이버대 특강 45분",
-      "titleEn": "Agentic AI Harness Engineering: The New Skill of Delegating Work to AI | SCU Career Growth Lecture",
-      "descKo": "에이전트 = 모델 + 하네스부터 에이전트가 실패하는 네 가지 방식, Claude 데스크톱·Antigravity 시연, 지시를 줄이고 권한은 필요한 만큼만 주는 하네스 여섯 가지 원칙까지 150분 특강을 45분으로 줄인 편집본.",
-      "descEn": "A 45-minute edit of a 150-minute university lecture covering agent = model + harness, four ways agents fail, Claude Desktop and Antigravity demos, and six harness principles such as fewer instructions and least-necessary permissions.",
-      "channel": "Prof. Howard Kim",
-      "publishedAt": "2026-11-12T01:06:51Z",
       "addedAt": "2026-11-13T23:18:58Z"
     }
   ]
