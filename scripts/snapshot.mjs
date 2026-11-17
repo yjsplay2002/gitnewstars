@@ -24,12 +24,52 @@ function parseCount(raw) {
   return cleaned.includes("k") ? Math.round(v * 1000) : Math.round(v);
 }
 
+const TRENDING_URL = "https://github.com/trending?since=weekly";
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * Fetch the trending page, retrying transient upstream failures
+ * (GitHub serves 5xx / 429 now and then, e.g. the 504 that lost 2026-W45).
+ */
+async function fetchTrendingHtml(attempts = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    let res;
+    try {
+      res = await fetch(TRENDING_URL, {
+        headers: { "User-Agent": UA, Accept: "text/html" },
+      });
+    } catch (e) {
+      lastError = e; // network error — worth retrying
+    }
+    if (res) {
+      if (res.ok) {
+        try {
+          return await res.text();
+        } catch (e) {
+          lastError = e;
+        }
+      } else if (res.status >= 500 || res.status === 429) {
+        lastError = new Error(`trending fetch failed: ${res.status}`); // transient
+      } else {
+        // Anything else (403, 404, …) will not fix itself — fail fast.
+        throw new Error(`trending fetch failed: ${res.status}`);
+      }
+    }
+    if (attempt < attempts) {
+      const backoff = 5000 * 2 ** (attempt - 1); // 5s, 10s, 20s
+      console.warn(
+        `${lastError?.message} (attempt ${attempt}/${attempts}) — retrying in ${backoff / 1000}s`
+      );
+      await sleep(backoff);
+    }
+  }
+  throw lastError ?? new Error("trending fetch failed: unknown error");
+}
+
 async function getTrending(limit = 10) {
-  const res = await fetch("https://github.com/trending?since=weekly", {
-    headers: { "User-Agent": UA, Accept: "text/html" },
-  });
-  if (!res.ok) throw new Error(`trending fetch failed: ${res.status}`);
-  const $ = cheerio.load(await res.text());
+  const html = await fetchTrendingHtml();
+  const $ = cheerio.load(html);
   const repos = [];
 
   $("article.Box-row").each((_, el) => {
