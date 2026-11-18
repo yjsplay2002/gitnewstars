@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-11-16T23:17:17Z",
+  "generatedAt": "2026-11-18T23:13:20Z",
   "videos": [
+    {
+      "id": "vid-dy5a-mirapartners-claude-first-terminal-ko",
+      "youtubeId": "_dy5ar94Ktk",
+      "category": "usecase",
+      "title": "메일도 캘린더도 안 엽니다, 터미널로 출근하는 회사 — Claude First 2주: Domain.md·Todo.md로 기억 잇기와 '왜 안 돼?' 되묻기",
+      "titleEn": "We Don't Open Mail or Calendar Anymore - A Company That Starts Work in the Terminal | Claude First",
+      "descKo": "메일·캘린더·드라이브를 AI가 열고, 대화가 길어지면 인수인계 문서로 새 창에 넘기며, 프로젝트 폴더의 Domain.md·Todo.md로 기억을 잇는 한 회사의 2주를 28분에 정리(챕터·설명란 기준, VC 백오피스 상담 홍보 포함).",
+      "descEn": "A 28-minute account of one company's first two weeks of Claude First: the AI opens mail, calendar and Drive, hands long chats over via a handover document, and Domain.md and Todo.md in the project folder carry memory (summarized from chapters and description; includes a VC back-office consultation plug).",
+      "channel": "MIRA PARTNERS",
+      "publishedAt": "2026-11-18T09:37:35Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
+    {
+      "id": "vid-n2cf-mahlerlab-researcher-codex-agents-ko",
+      "youtubeId": "n_2cfdt8j3A",
+      "category": "usecase",
+      "title": "연구자를 위한 AI 에이전트 활용 실전 요령(2026.11) — Codex로 연구 폴더·AGENTS.md·예약 작업·Skill 만들기와 Reference audit",
+      "titleEn": "Practical Tips for Using AI Agents for Researchers (11/2026)",
+      "descKo": "연구 폴더와 AGENTS.md 세팅, 작은 표본 먼저 시험, 근거 표시, Reference audit·Writing audit, 예약 작업과 Skill 만들기까지 Codex 화면으로 보여 주는 62분 강의(개인 경험 기반).",
+      "descEn": "A 62-minute walkthrough in Codex of a research folder and AGENTS.md setup, testing on a small sample first, flagging evidence, reference and writing audits, scheduled tasks and building Skills (based on personal experience).",
+      "channel": "MahlerLab",
+      "publishedAt": "2026-11-17T06:45:59Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
+    {
+      "id": "vid-baqf-dailyaiminute-claude-code-codex-gemini-same-request",
+      "youtubeId": "BAQF3J7B09w",
+      "category": "usecase",
+      "title": "Claude Code vs Codex vs Gemini, 같은 요청 하나로 비교 — Joshua Tree 별 관측 페이지를 5분 42초·57초·18분 16초에 완성",
+      "titleEn": "Claude Code vs Codex vs Gemini: the same request, 57 seconds vs 18 minutes",
+      "descKo": "Claude Code(Opus 5.5)·Codex(GPT-6.1 Terra)·Gemini 4 Argon(Antigravity CLI)에 같은 요청으로 Open-Meteo 예보 기반 별 관측 페이지를 만들게 해 시간과 달 계산 정확도, 판정 기준을 7분에 비교(작업 1개·도구당 2~3회 시도의 소규모 실험).",
+      "descEn": "A 7-minute comparison of Claude Code (Opus 5.5), Codex (GPT-6.1 Terra) and Gemini 4 Argon (Antigravity CLI) building the same Open-Meteo-based stargazing page, timing each and checking the moon calculation and verdict rules (one task, two or three tries per tool - a small experiment).",
+      "channel": "Daily AI Minute",
+      "publishedAt": "2026-11-15T15:00:39Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
+    {
+      "id": "vid-rqfp-gisulnote-vibe-coding-design-doc-ko",
+      "youtubeId": "rqfpDT5FtIo",
+      "category": "tip",
+      "title": "한 두 달 안 되던 게 1:1 바이브코딩할 때 몇 시간 만에 되는 이유 — 설계서 한 장(기능·화면·데이터·보안 세 줄)과 막혔을 때 4단계",
+      "titleEn": "Why Something That Took Months Takes Hours With 1:1 Vibe Coding (Design Doc + Security Basics)",
+      "descKo": "한 줄 지시와 설계서+질문부터 시키는 방식을 비교하고, 기능·화면·데이터에 키 보관·로그인 권한·DB 규칙 세 줄을 더한 설계서.md 템플릿과 막혔을 때 설계서부터 고치는 요령을 9분에 소개(AI로 복제한 내레이션).",
+      "descEn": "A 9-minute comparison of a one-line prompt against a design doc plus questions-first, with a 설계서.md template (features, screens, data and three security lines for key storage, login permissions and DB rules) and a fix-the-doc-first routine when stuck (AI-cloned narration).",
+      "channel": "기술노트with 알렉",
+      "publishedAt": "2026-11-14T13:49:07Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
+    {
+      "id": "vid-6jwn-tokentangjin-claude-code-docs-in-work-order-ko",
+      "youtubeId": "6JwnNQQ8Enc",
+      "category": "tip",
+      "title": "Claude Code 공식 문서에서 찾은 기능, 일하는 순서대로 — 되돌리기·대기열·/goal·Stop 훅·--worktree·Remote Control",
+      "titleEn": "Claude Code Features Found in the Official Docs, in the Order You Work",
+      "descKo": "공식 문서 곳곳에 흩어진 기능을 되돌리기(Esc 두 번·/branch), 일하는 중 말 걸기, 끝났는지 확인(/goal·Stop 훅·/code-review), 동시 작업(--worktree), 자리 비워도(Remote Control) 순서로 묶은 7분 정리(출처 code.claude.com/docs).",
+      "descEn": "A 7-minute grouping of docs features in working order: undo (double Esc, /branch), talking to Claude mid-task, checking it's done (/goal, Stop hook, /code-review), parallel work (--worktree) and staying connected away from the desk (Remote Control), citing code.claude.com/docs.",
+      "channel": "토큰탕진",
+      "publishedAt": "2026-11-14T08:18:53Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
+    {
+      "id": "vid-vlfc-lydia-hallie-rethinking-claude-code-best-practices",
+      "youtubeId": "vlfCjWuv4es",
+      "category": "lecture",
+      "title": "Claude Code 모범 사례 다시 보기 — Lydia Hallie(Anthropic) 발표: 오토 모드·샌드박스·클라우드 환경·검증 전략·CI/PR 확장·오케스트레이션",
+      "titleEn": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+      "descKo": "모델이 좋아져 지난 1년간 더한 Claude Code 설정 대부분이 오히려 발목을 잡는다는 전제로, 오토 모드 관리·안전과 환경·클라우드 환경·검증 전략·CI와 PR 확장·오케스트레이션을 17분 31초에 다룬 AI Engineer 발표(영어).",
+      "descEn": "A 17m31s AI Engineer talk arguing that most of what was added to Claude Code setups over the past year now holds the models back, covering managing auto mode, safety and environment, cloud environments, verification strategies, scaling with CI and PRs, and orchestration.",
+      "channel": "AI Engineer",
+      "publishedAt": "2026-11-12T03:26:55Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
+    {
+      "id": "vid-95aa-judata-claude-code-data-analysis-workflow-ko",
+      "youtubeId": "95aaDzi-uyY",
+      "category": "lecture",
+      "title": "클로드 코드로 데이터 분석 워크플로우 만들기 — AI-ready Data·CLAUDE.md 체크리스트·시맨틱 레이어(metrics.yaml)·Skill·Hooks·실습 데모·Evals",
+      "titleEn": "Building a Data-Analysis Workflow With Claude Code: From Design to Automation",
+      "descKo": "같은 질문에 AI가 매번 다른 숫자를 주는 문제에서 출발해 CLAUDE.md 작성 체크리스트, metrics.yaml·quality_rules.yaml, 반복 분석 Skill, Hooks, 전체 파이프라인 실습과 Evals를 1시간 웨비나로 정리(강의 홍보 포함).",
+      "descEn": "A one-hour webinar starting from AI giving different numbers for the same question: a CLAUDE.md checklist, metrics.yaml and quality_rules.yaml, a repeat-analysis Skill, Hooks, a full-pipeline demo and Evals (includes a course plug).",
+      "channel": "주데이터",
+      "publishedAt": "2026-11-11T22:14:26Z",
+      "addedAt": "2026-11-18T23:13:20Z"
+    },
     {
       "id": "vid-4upu-cloudxberry-spec-driven-development",
       "youtubeId": "4uPU1Q5hlFA",
@@ -11,18 +95,6 @@
       "descEn": "An 11-minute beginner-friendly explainer that goes from vibe coding's strengths and limits to the four steps of spec-driven development on a real feature, tools like Kiro, Spec Kit and instruction files, whether every task needs a spec, and making 'done' checkable (summarized from chapters).",
       "channel": "Cloud X Berry",
       "publishedAt": "2026-11-16T12:45:14Z",
-      "addedAt": "2026-11-16T23:17:17Z"
-    },
-    {
-      "id": "vid-u8np-jjong-hermes-15-bots-three-leaks-ko",
-      "youtubeId": "u8np18LTK4s",
-      "category": "usecase",
-      "title": "헤르메스 에이전트로 AI 직원 15명 굴리며 배운 3가지, 'SYNC!' — 비용 중간 확인·통과시킨 일 재심사 잠그기·지침 정기적으로 지우기",
-      "titleEn": "3 Things I Learned Running 15 AI Employees on Hermes Agent: 'SYNC!' (feat. the book 'Agent Workflow')",
-      "descKo": "텔레그램 봇 15개를 굴리며 업무 카드가 60장에서 263장으로 폭증하고 공통 규칙 파일이 일주일에 16.4KB→28.1KB로 커졌던 경험과 막은 방법을 12분에 정리(영상 속 본인 집계, 책·멤버십 홍보 포함).",
-      "descEn": "A 12-minute account of running 15 Telegram bots - work cards ballooning from 60 to 263 and a shared rules file growing from 16.4KB to 28.1KB in a week - and how he plugged each leak (the host's own tallies; includes a book and membership plug).",
-      "channel": "쫑대표의 딸깍일기",
-      "publishedAt": "2026-11-15T23:30:22Z",
       "addedAt": "2026-11-16T23:17:17Z"
     },
     {
@@ -38,6 +110,18 @@
       "addedAt": "2026-11-16T23:17:17Z"
     },
     {
+      "id": "vid-ukbt-boaz-claude-code-memory-two-enough-ko",
+      "youtubeId": "UKBTlXRTbtE",
+      "category": "tip",
+      "title": "클로드 코드 기억 장치 5가지, 전부 비교했습니다: 2개면 충분 — AGENTS.md·auto memory·보존 지시를 붙인 compact",
+      "titleEn": "I Compared All 5 Claude Code Memory Mechanisms (Conclusion: 2 Are Enough)",
+      "descKo": "CLAUDE.md·rules·auto memory·compact·subagent memory를 레이어 한 장으로 정리하고, AGENTS.md 하나로 규칙 모으기, 기억시킬 때 이유까지 말하기, 보존 지시 한 줄로 compact 세부 보존 67%→90%(개인 실험)를 9분에 소개.",
+      "descEn": "A 9-minute layer diagram of Claude Code's five memory mechanisms, with tips on using AGENTS.md alone for rules, giving the reason when you say 'remember', and a preservation line that raised compact detail retention from 67% to 90% (personal experiment).",
+      "channel": "가장 쉬운 AI 활용 개발 with Boaz",
+      "publishedAt": "2026-11-15T02:00:13Z",
+      "addedAt": "2026-11-15T23:12:22Z"
+    },
+    {
       "id": "vid-jcpl-stanford-cs329z-agent-design-patterns",
       "youtubeId": "JC_pLC5EX_w",
       "category": "lecture",
@@ -47,18 +131,6 @@
       "descEn": "A 1h17m Stanford lecture on when to build an agent instead of a workflow, Anthropic's five workflow patterns, reasoning-and-acting patterns, context management (event logs, compaction, observation masking, subagents, skills) and a case study of the minimal Pi harness.",
       "channel": "Stanford Online",
       "publishedAt": "2026-11-14T21:00:05Z",
-      "addedAt": "2026-11-16T23:17:17Z"
-    },
-    {
-      "id": "vid-7mgy-sinyoungseon-claude-code-instagram-automation-ko",
-      "youtubeId": "7MGY09neWho",
-      "category": "usecase",
-      "title": "AI 크리에이터 2명이 매일 쓰는 클로드코드 인스타 작업 화면 공개: 레퍼런스 수집부터 카드뉴스 제작까지",
-      "titleEn": "Two AI Creators' Daily Claude Code Instagram Workspace: From Reference Collection to Card News",
-      "descKo": "아침 7시에 해외 레퍼런스를 모으고 카드뉴스를 만드는 자동화 구조, 릴스 스킬과 대시보드, 캐러셀 복제, 100% AI 강의 영상까지 두 크리에이터의 실제 작업 화면을 37분에 공개(무료 강의 홍보 포함).",
-      "descEn": "A 37-minute look at two creators' real Claude Code workspace for Instagram: a 7 a.m. job that gathers overseas references and builds card news, a Reels skill and dashboard, carousel duplication and a fully AI-made lecture video (includes a free-course plug).",
-      "channel": "신영선의 AI탐구",
-      "publishedAt": "2026-11-10T13:00:01Z",
       "addedAt": "2026-11-16T23:17:17Z"
     },
     {
@@ -74,90 +146,6 @@
       "addedAt": "2026-11-16T23:17:17Z"
     },
     {
-      "id": "vid-ukbt-boaz-claude-code-memory-two-enough-ko",
-      "youtubeId": "UKBTlXRTbtE",
-      "category": "tip",
-      "title": "클로드 코드 기억 장치 5가지, 전부 비교했습니다: 2개면 충분 — AGENTS.md·auto memory·보존 지시를 붙인 compact",
-      "titleEn": "I Compared All 5 Claude Code Memory Mechanisms (Conclusion: 2 Are Enough)",
-      "descKo": "CLAUDE.md·rules·auto memory·compact·subagent memory를 레이어 한 장으로 정리하고, AGENTS.md 하나로 규칙 모으기, 기억시킬 때 이유까지 말하기, 보존 지시 한 줄로 compact 세부 보존 67%→90%(개인 실험)를 9분에 소개.",
-      "descEn": "A 9-minute layer diagram of Claude Code's five memory mechanisms, with tips on using AGENTS.md alone for rules, giving the reason when you say 'remember', and a preservation line that raised compact detail retention from 67% to 90% (personal experiment).",
-      "channel": "가장 쉬운 AI 활용 개발 with Boaz",
-      "publishedAt": "2026-11-15T02:00:13Z",
-      "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
-      "id": "vid-slmj-ittoktok-antigravity-november-overhaul-ko",
-      "youtubeId": "sLMj6HCperk",
-      "category": "usecase",
-      "title": "말로 시키고 AI 팀이 일한다… 안티그래비티 11월 대변신, 따라 하며 끝내기: 음성 모드·/swarm·/run-workflow",
-      "titleEn": "Give Orders by Voice and an AI Team Works: Antigravity's November Overhaul, Follow Along",
-      "descKo": "지식 업무 화면, 음성 모드, Hydrogen·Orchestrator·Carbon 모델 고르기, /swarm, /run-workflow를 5개 미션으로 따라 하고 국내 요금·할당량 함정과 5분 체크리스트까지 14분에 정리(수치는 구글 자체 발표).",
-      "descEn": "A 14-minute follow-along of Antigravity's new knowledge-work layout, voice mode, choosing between Hydrogen, Orchestrator and Carbon, /swarm and /run-workflow as five missions, plus Korean pricing and quota pitfalls and a five-minute checklist (figures are Google's own).",
-      "channel": "IT톡톡",
-      "publishedAt": "2026-11-15T10:15:00Z",
-      "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
-      "id": "vid-jakv-hued-iphone-agent-iph-ko",
-      "youtubeId": "jaKvinAjpqE",
-      "category": "usecase",
-      "title": "AI 에이전트가 내 아이폰을 사용하게 만드는 방법: 오픈소스 iph로 토스 지출 내역 가져오기·당근 물건 올리기",
-      "titleEn": "How to Let an AI Agent Use Your iPhone (Prompt and Skill Included)",
-      "descKo": "Claude Code·Codex가 실제 아이폰을 조작하는 무료 오픈소스 CLI iph를 토스·당근 시연과 phone-harness·mobile-mcp·Poki 직접 비교로 8분에 소개(iOS 27 이상, 개인정보가 민감하면 세컨드 폰 권장).",
-      "descEn": "An 8-minute look at iph, a free open-source CLI that lets Claude Code or Codex operate a real iPhone, with Toss and Daangn demos and a side-by-side against phone-harness, mobile-mcp and Poki (iOS 27 or later; a second phone is advised if your data is sensitive).",
-      "channel": "허드의 AI딸깍",
-      "publishedAt": "2026-11-13T04:54:50Z",
-      "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
-      "id": "vid-7sss-ai-saeopilji-workflow-vs-agent-four-questions-ko",
-      "youtubeId": "7sSsD3Lbn8w",
-      "category": "lecture",
-      "title": "AI 에이전트, 비개발자가 만들기 전에 꼭 알아야 할 단 하나의 구분 (앤트로픽 강연): 워크플로 vs 에이전트와 4가지 질문",
-      "titleEn": "The One Distinction to Know Before Building an AI Agent (Anthropic Talk): Workflow vs Agent and Four Questions",
-      "descKo": "Anthropic Barry Zhang의 'How We Build Effective Agents' 강연을 풀어, 정해 둔 순서(워크플로)와 AI가 고르는 길(에이전트)의 차이, 복잡도·돈값·핵심 능력·실수의 값 4가지 질문, 루프 하나에 부품 셋 구조를 10분에 설명.",
-      "descEn": "A 10-minute retelling of Anthropic's Barry Zhang talk 'How We Build Effective Agents': fixed-path workflows versus AI-chosen agents, four questions (complexity, worth the cost, key capability, cost of error) and the one-loop, three-part agent structure.",
-      "channel": "AI 사업일지",
-      "publishedAt": "2026-11-13T22:30:31Z",
-      "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
-      "id": "vid-9fic-jeonggijeok-claude-code-drop-7-keep-4-ko",
-      "youtubeId": "9FICJzPtlaA",
-      "category": "tip",
-      "title": "클로드 코드 1년 쓴 설정 대부분, 이제 오히려 방해됩니다: 버릴 7개 · 남길 4개",
-      "titleEn": "Most of the Claude Code Setup You Built Over a Year Now Gets in the Way (7 to Drop, 4 to Keep)",
-      "descKo": "Lydia Hallie 발표와 공식 문서를 바탕으로 IMPORTANT 강조·'깊게 생각해'·명령마다 허락 같은 버릴 습관 7개와 코드에 없는 사실·금지 규칙·완료 기준·훅 같은 남길 4개를 /doctor prompt-audit 시연과 함께 12분에 정리(대부분 재현 화면).",
-      "descEn": "A 12-minute list, from Lydia Hallie's talk and the official docs, of seven habits to drop (IMPORTANT shouting, 'think hard', per-command approvals) and four to keep (facts not in code, prohibition rules, a definition of done, hooks), with a /doctor prompt-audit demo (mostly re-created visuals).",
-      "channel": "정기적 자동화",
-      "publishedAt": "2026-11-14T09:00:23Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "vid-1pp0-dalbee-claude-code-29-cases-ko",
-      "youtubeId": "1pp0uNCjvdk",
-      "category": "usecase",
-      "title": "클로드 코드 잘 쓰는 사람들은 뭘 만들었을까? 실제 사례 29가지",
-      "titleEn": "What Do People Who Are Good at Claude Code Actually Build? 29 Real Examples",
-      "descKo": "집 물건·가족·돈·몰래 감시·내 일·과학·만들기 7개 묶음으로 TV 광고 끄기, 러닝머신 잠금 풀기, 9살 아이 웹사이트, 치과 전화 예약 봇까지 실제 활용 사례 29가지를 17분에 소개(커뮤니티 안내 포함).",
-      "descEn": "A 17-minute tour of 29 real Claude Code use cases in seven groups - home gear, family, money, hidden surveillance, work, science and building - from killing TV ads and unlocking a treadmill to a 9-year-old's website and a dentist phone-booking bot (includes a community plug).",
-      "channel": "달비의 작업실 | AI 자동화",
-      "publishedAt": "2026-11-07T09:00:33Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "vid-5yj9-kimcheonsa-ai-agent-employee-20min-ko",
-      "youtubeId": "5yj9AH9wx1E",
-      "category": "lecture",
-      "title": "AI 에이전트 직원 자동화 20분 강의 풀버전: 작업 폴더·지침 파일·지시문·스킬·커넥터·예약",
-      "titleEn": "AI Agent Employee Automation: 20-Minute Full Lecture (Claude, ChatGPT Codex)",
-      "descKo": "챗봇과 에이전트의 차이부터 작업 폴더, 지침 파일, 지시문(목적·자료·결과물·끝), 스킬, 커넥터, 멀티 에이전트, 예약, 요금, 'AI 신입사원 만들기 7단계'까지 비개발자 눈높이로 22분에 정리.",
-      "descEn": "A 22-minute beginner-friendly lecture from chatbot vs agent through work folders, instruction files, task prompts (goal, materials, deliverable, end), skills, connectors, multi-agent, scheduling, pricing and a seven-step plan for building your own AI employee.",
-      "channel": "김천사 신입사원",
-      "publishedAt": "2026-11-11T08:29:56Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
       "id": "vid-dhjx-decoding-ai-harness-engineering-course",
       "youtubeId": "dHJxhvKIMlU",
       "category": "lecture",
@@ -170,16 +158,28 @@
       "addedAt": "2026-11-14T23:16:28Z"
     },
     {
-      "id": "vid-xwx9-silbaem-claude-code-2026-h2-harness-ko",
-      "youtubeId": "xwx9kHKBPgg",
-      "category": "tip",
-      "title": "클로드 코드 2026 하반기 총정리: 하네스가 바뀌었으니 사용법도 바꿔야 합니다 — 오토 모드·40% 자동 압축·CLAUDE.md 덜기",
-      "titleEn": "Claude Code 2026 H2 Roundup | The Harness Changed, So Change How You Use It",
-      "descKo": "오토 모드, fork 서브 에이전트, AGENTS.md와 /import, auto compaction 40%, 시스템 프롬프트 80% 삭제, 6개월마다 CLAUDE.md 지워 보기, skill doctor·Verify, /goal 검증 설계까지 바뀐 기본값과 쓰는 법을 37분에 정리.",
-      "descEn": "A 37-minute roundup of what changed in Claude Code's defaults and habits: auto mode, fork subagents, AGENTS.md and /import, 40% auto compaction, the 80% system-prompt cut, pruning CLAUDE.md every six months, skill doctor and Verify, and designing verifiable work with /goal.",
-      "channel": "실밸개발자",
-      "publishedAt": "2026-11-13T22:00:34Z",
-      "addedAt": "2026-11-13T23:18:58Z"
+      "id": "vid-u8np-jjong-hermes-15-bots-three-leaks-ko",
+      "youtubeId": "u8np18LTK4s",
+      "category": "usecase",
+      "title": "헤르메스 에이전트로 AI 직원 15명 굴리며 배운 3가지, 'SYNC!' — 비용 중간 확인·통과시킨 일 재심사 잠그기·지침 정기적으로 지우기",
+      "titleEn": "3 Things I Learned Running 15 AI Employees on Hermes Agent: 'SYNC!' (feat. the book 'Agent Workflow')",
+      "descKo": "텔레그램 봇 15개를 굴리며 업무 카드가 60장에서 263장으로 폭증하고 공통 규칙 파일이 일주일에 16.4KB→28.1KB로 커졌던 경험과 막은 방법을 12분에 정리(영상 속 본인 집계, 책·멤버십 홍보 포함).",
+      "descEn": "A 12-minute account of running 15 Telegram bots - work cards ballooning from 60 to 263 and a shared rules file growing from 16.4KB to 28.1KB in a week - and how he plugged each leak (the host's own tallies; includes a book and membership plug).",
+      "channel": "쫑대표의 딸깍일기",
+      "publishedAt": "2026-11-15T23:30:22Z",
+      "addedAt": "2026-11-16T23:17:17Z"
+    },
+    {
+      "id": "vid-slmj-ittoktok-antigravity-november-overhaul-ko",
+      "youtubeId": "sLMj6HCperk",
+      "category": "usecase",
+      "title": "말로 시키고 AI 팀이 일한다… 안티그래비티 11월 대변신, 따라 하며 끝내기: 음성 모드·/swarm·/run-workflow",
+      "titleEn": "Give Orders by Voice and an AI Team Works: Antigravity's November Overhaul, Follow Along",
+      "descKo": "지식 업무 화면, 음성 모드, Hydrogen·Orchestrator·Carbon 모델 고르기, /swarm, /run-workflow를 5개 미션으로 따라 하고 국내 요금·할당량 함정과 5분 체크리스트까지 14분에 정리(수치는 구글 자체 발표).",
+      "descEn": "A 14-minute follow-along of Antigravity's new knowledge-work layout, voice mode, choosing between Hydrogen, Orchestrator and Carbon, /swarm and /run-workflow as five missions, plus Korean pricing and quota pitfalls and a five-minute checklist (figures are Google's own).",
+      "channel": "IT톡톡",
+      "publishedAt": "2026-11-15T10:15:00Z",
+      "addedAt": "2026-11-15T23:12:22Z"
     }
   ]
 }
