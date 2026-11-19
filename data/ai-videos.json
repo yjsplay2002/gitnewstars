@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-11-18T23:13:20Z",
+  "generatedAt": "2026-11-19T23:18:25Z",
   "videos": [
+    {
+      "id": "vid-klr7-builderjosh-claude-code-aside-80days-ko",
+      "youtubeId": "KLR7GoH-Sco",
+      "category": "usecase",
+      "title": "클로드 코드에 어사이드 브라우저 붙여 쓰는 법, 반복 루틴 12개와 스킬로 일을 통째로 맡기는 과정 — 80일·태스크 1,524개 기록",
+      "titleEn": "How to Use the Aside Browser With Claude Code: 12 Recurring Routines and Skills to Hand Off Whole Jobs",
+      "descKo": "Claude Code에 aside CLI를 연결해 80일간 태스크 1,524개·루틴 12개를 돌린 기록으로, 되는 일을 스킬로 묶고 루틴으로 올리는 순서와 허위 보고·중복 실행·계정 정지 시행착오를 42분에 정리(스폰서 링크 포함, 수치는 본인 집계).",
+      "descEn": "A 42-minute record of connecting the aside CLI to Claude Code and running 1,524 tasks and 12 routines over 80 days: bundle what works into a skill, promote it to a routine, and the false reports, duplicate runs and account suspension along the way (includes a sponsor link; figures are his own tallies).",
+      "channel": "빌더 조쉬 Builder Josh",
+      "publishedAt": "2026-11-19T06:07:02Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
+    {
+      "id": "vid-d7zg-dante-google-harness-squared-ko",
+      "youtubeId": "d7zGxl4FFgQ",
+      "category": "lecture",
+      "title": "구글 Harness², AI 에이전트가 자기 하네스를 스스로 고친다 — 개념부터 직접 실행까지",
+      "titleEn": "Google Harness²: AI Agents That Fix Their Own Harness - From Concept to Hands-On Run",
+      "descKo": "에이전트가 일을 받을 때마다 하네스의 여덟 칸을 정답지 없이 제안·시험·합치기로 고치는 Harness²를 GLM-5.3 실행과 결과 파일 분석으로 15분에 설명(과제 1개×2회라 논문 수치와 직접 비교 불가, 강의 홍보 포함).",
+      "descEn": "A 15-minute explanation of Harness², where an agent repairs eight slots of its own harness per task by propose, test and merge with no answer key, with a GLM-5.3 run and a look at the result files (one task run twice, so not comparable with the paper's figures; includes a course plug).",
+      "channel": "단테",
+      "publishedAt": "2026-11-19T09:00:32Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
+    {
+      "id": "vid-4lin-ibm-four-agent-loops",
+      "youtubeId": "4LINhsEZEDI",
+      "category": "lecture",
+      "title": "AI 에이전트 루프 4가지: 사람이 이끄는 방식부터 자율 방식까지 — 대화형·위임형·예약형·이벤트형",
+      "titleEn": "4 Types of AI Agent Loops: From Human-Led to Autonomous",
+      "descKo": "목표·행동·관찰·조정 사이클을 누가 쥐느냐로 에이전트 루프를 대화형·위임형·예약형·이벤트형으로 나누고 두 번째 에이전트 검토와 예외 상향까지 9분에 설명한 IBM 영상(영어, 챕터 기준 요약).",
+      "descEn": "A 9-minute IBM explainer that sorts agent loops into interactive, delegated, scheduled and event-driven by who controls the goal, act, observe and adjust cycle, plus second-agent review and escalating exceptions to humans (summarized from chapters).",
+      "channel": "IBM Technology",
+      "publishedAt": "2026-11-19T12:00:08Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
+    {
+      "id": "vid-o3tb-gptpark-gemini-gems-to-skills-ko",
+      "youtubeId": "O3TbK1zeGC8",
+      "category": "tip",
+      "title": "제미나이 젬이 스킬로 바뀌었습니다 — 내 젬 옮기는 법과 링크 하나로 스킬 추가, 캔버스 꿀팁",
+      "titleEn": "Gemini Gems Became Skills: How to Move Your Gems + 20 Free Skills (Canvas Tips)",
+      "descKo": "젬이 스킬로 자동 이전되는 변화와 내 젬을 직접 옮기는 법, 링크 하나로 스킬을 추가하는 법, 캔버스 기반 스킬 사용 시 사고 수준 설정과 자주 하는 실수 4가지를 11분에 시연(2026년 11월 촬영 기준, 도서 유료 프로모션 포함).",
+      "descEn": "An 11-minute demo of Gems being migrated to skills, moving your own Gem, adding a skill from one link, thinking-level settings for canvas-based skills and four common mistakes (shot in November 2026; includes a paid book promotion).",
+      "channel": "GPT PARK의 AI팩트",
+      "publishedAt": "2026-11-18T09:30:21Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
+    {
+      "id": "vid-dfao-techwithtim-five-concepts-coding-agents",
+      "youtubeId": "DfAOBID70Q0",
+      "category": "tip",
+      "title": "AI 에이전트로 코딩할 때 알아야 할 5가지 개념 — 잊어버림·'다 했다'며 안 되는 일·시키지 않은 수정의 공통 원인",
+      "titleEn": "5 Concepts to Know for Coding with AI Agents",
+      "descKo": "코딩 에이전트가 파일을 읽고 명령을 실행하고 출력을 보며 도는 루프를 설명하고, '내가 한 말을 잊었다'·'끝났다더니 안 된다'·'시키지 않은 5곳을 바꿨다'는 불만이 같은 5가지 개념에서 나온다며 데모로 설정법을 20분에 소개(영어, 챕터에는 개념 이름 없음).",
+      "descEn": "A 20-minute demo-driven talk on how a coding agent loops through reading files, running commands and checking output, arguing that complaints like 'it forgot what I told it', 'it said done but nothing works' and 'it changed 5 things I never asked for' trace back to five concepts (the chapters don't name the concepts).",
+      "channel": "Tech With Tim",
+      "publishedAt": "2026-11-17T13:00:33Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
+    {
+      "id": "vid-nxpl-rootai-claude-16-features-workers-ko",
+      "youtubeId": "NXpLy2b88Cg",
+      "category": "lecture",
+      "title": "클로드가 완전히 달라졌습니다 — 직장인이 꼭 알아야 할 16가지 기능 총정리 (메일 브리핑·스킬·Claude in Chrome)",
+      "titleEn": "Claude Has Completely Changed: 16 Features Every Office Worker Should Know (2026)",
+      "descKo": "메일 브리핑 자동화(커넥터·예약 작업)부터 메모리·프로젝트·딥 리서치·슬랙 연동·스킬·슬라이드·대시보드·영수증 정리·Claude in Chrome까지 16가지를 업무 시나리오로 25분에 정리(강의 자료는 오픈채팅 안내).",
+      "descEn": "A 25-minute run through 16 Claude features by workplace scenario, from mail-briefing automation (connectors and scheduled tasks) to memory, projects, deep research, Slack, skills, slides, dashboards, receipt cleanup and Claude in Chrome (course materials via an open chat room).",
+      "channel": "이동훈의 루트AI",
+      "publishedAt": "2026-11-15T08:58:16Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
+    {
+      "id": "vid-nxpi-citizendev9c-claude-code-no-raw-data-ko",
+      "youtubeId": "nXpInKYlRfs",
+      "category": "usecase",
+      "title": "회사 데이터, AI에 그냥 올려도 될까? 원본 없이 Claude Code로 분석 — 열 이름만 건네 열 설명서·가짜 데이터·분석 화면 만들기",
+      "titleEn": "Is It Safe to Upload Company Data to AI? Analyze With Claude Code Without the Original File",
+      "descKo": "개인정보가 든 엑셀·CSV 원본은 내 컴퓨터에 두고 Claude Code에는 열 이름 첫 줄·업무 규칙·가짜 데이터만 건네 인사이트 설계서와 인터넷 없이 여는 분석 화면을 만든 뒤 와이파이를 끄고 진짜 데이터로 돌리는 과정을 22분에 시연(호스팅 제휴 링크 포함).",
+      "descEn": "A 22-minute demo of keeping a personal-data spreadsheet on your own machine while handing Claude Code only the header row, business rules and synthetic data, building an insight design doc and an offline analysis screen, then running real data with Wi-Fi off (includes a hosting affiliate link).",
+      "channel": "Citizen Developer 9c",
+      "publishedAt": "2026-11-14T03:30:27Z",
+      "addedAt": "2026-11-19T23:18:25Z"
+    },
     {
       "id": "vid-dy5a-mirapartners-claude-first-terminal-ko",
       "youtubeId": "_dy5ar94Ktk",
@@ -26,30 +110,6 @@
       "addedAt": "2026-11-18T23:13:20Z"
     },
     {
-      "id": "vid-baqf-dailyaiminute-claude-code-codex-gemini-same-request",
-      "youtubeId": "BAQF3J7B09w",
-      "category": "usecase",
-      "title": "Claude Code vs Codex vs Gemini, 같은 요청 하나로 비교 — Joshua Tree 별 관측 페이지를 5분 42초·57초·18분 16초에 완성",
-      "titleEn": "Claude Code vs Codex vs Gemini: the same request, 57 seconds vs 18 minutes",
-      "descKo": "Claude Code(Opus 5.5)·Codex(GPT-6.1 Terra)·Gemini 4 Argon(Antigravity CLI)에 같은 요청으로 Open-Meteo 예보 기반 별 관측 페이지를 만들게 해 시간과 달 계산 정확도, 판정 기준을 7분에 비교(작업 1개·도구당 2~3회 시도의 소규모 실험).",
-      "descEn": "A 7-minute comparison of Claude Code (Opus 5.5), Codex (GPT-6.1 Terra) and Gemini 4 Argon (Antigravity CLI) building the same Open-Meteo-based stargazing page, timing each and checking the moon calculation and verdict rules (one task, two or three tries per tool - a small experiment).",
-      "channel": "Daily AI Minute",
-      "publishedAt": "2026-11-15T15:00:39Z",
-      "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-rqfp-gisulnote-vibe-coding-design-doc-ko",
-      "youtubeId": "rqfpDT5FtIo",
-      "category": "tip",
-      "title": "한 두 달 안 되던 게 1:1 바이브코딩할 때 몇 시간 만에 되는 이유 — 설계서 한 장(기능·화면·데이터·보안 세 줄)과 막혔을 때 4단계",
-      "titleEn": "Why Something That Took Months Takes Hours With 1:1 Vibe Coding (Design Doc + Security Basics)",
-      "descKo": "한 줄 지시와 설계서+질문부터 시키는 방식을 비교하고, 기능·화면·데이터에 키 보관·로그인 권한·DB 규칙 세 줄을 더한 설계서.md 템플릿과 막혔을 때 설계서부터 고치는 요령을 9분에 소개(AI로 복제한 내레이션).",
-      "descEn": "A 9-minute comparison of a one-line prompt against a design doc plus questions-first, with a 설계서.md template (features, screens, data and three security lines for key storage, login permissions and DB rules) and a fix-the-doc-first routine when stuck (AI-cloned narration).",
-      "channel": "기술노트with 알렉",
-      "publishedAt": "2026-11-14T13:49:07Z",
-      "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
       "id": "vid-6jwn-tokentangjin-claude-code-docs-in-work-order-ko",
       "youtubeId": "6JwnNQQ8Enc",
       "category": "tip",
@@ -60,42 +120,6 @@
       "channel": "토큰탕진",
       "publishedAt": "2026-11-14T08:18:53Z",
       "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-vlfc-lydia-hallie-rethinking-claude-code-best-practices",
-      "youtubeId": "vlfCjWuv4es",
-      "category": "lecture",
-      "title": "Claude Code 모범 사례 다시 보기 — Lydia Hallie(Anthropic) 발표: 오토 모드·샌드박스·클라우드 환경·검증 전략·CI/PR 확장·오케스트레이션",
-      "titleEn": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
-      "descKo": "모델이 좋아져 지난 1년간 더한 Claude Code 설정 대부분이 오히려 발목을 잡는다는 전제로, 오토 모드 관리·안전과 환경·클라우드 환경·검증 전략·CI와 PR 확장·오케스트레이션을 17분 31초에 다룬 AI Engineer 발표(영어).",
-      "descEn": "A 17m31s AI Engineer talk arguing that most of what was added to Claude Code setups over the past year now holds the models back, covering managing auto mode, safety and environment, cloud environments, verification strategies, scaling with CI and PRs, and orchestration.",
-      "channel": "AI Engineer",
-      "publishedAt": "2026-11-12T03:26:55Z",
-      "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-95aa-judata-claude-code-data-analysis-workflow-ko",
-      "youtubeId": "95aaDzi-uyY",
-      "category": "lecture",
-      "title": "클로드 코드로 데이터 분석 워크플로우 만들기 — AI-ready Data·CLAUDE.md 체크리스트·시맨틱 레이어(metrics.yaml)·Skill·Hooks·실습 데모·Evals",
-      "titleEn": "Building a Data-Analysis Workflow With Claude Code: From Design to Automation",
-      "descKo": "같은 질문에 AI가 매번 다른 숫자를 주는 문제에서 출발해 CLAUDE.md 작성 체크리스트, metrics.yaml·quality_rules.yaml, 반복 분석 Skill, Hooks, 전체 파이프라인 실습과 Evals를 1시간 웨비나로 정리(강의 홍보 포함).",
-      "descEn": "A one-hour webinar starting from AI giving different numbers for the same question: a CLAUDE.md checklist, metrics.yaml and quality_rules.yaml, a repeat-analysis Skill, Hooks, a full-pipeline demo and Evals (includes a course plug).",
-      "channel": "주데이터",
-      "publishedAt": "2026-11-11T22:14:26Z",
-      "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-4upu-cloudxberry-spec-driven-development",
-      "youtubeId": "4uPU1Q5hlFA",
-      "category": "tip",
-      "title": "스펙 주도 개발(SDD) 쉽게 설명: 바이브 코딩을 멈춰야 할 때 — 실제 기능으로 보는 네 단계와 Kiro·Spec Kit·지침 파일",
-      "titleEn": "Spec-Driven Development (SDD) Explained: STOP Vibe Coding",
-      "descKo": "바이브 코딩의 강점과 한계에서 출발해 스펙 주도 개발의 네 단계를 실제 기능으로 보여 주고, Kiro·Spec Kit·지침 파일, 모든 일에 스펙이 필요한지, '다 됐다'를 확인 가능하게 만드는 법을 11분에 소개(영어, 챕터 기준 요약).",
-      "descEn": "An 11-minute beginner-friendly explainer that goes from vibe coding's strengths and limits to the four steps of spec-driven development on a real feature, tools like Kiro, Spec Kit and instruction files, whether every task needs a spec, and making 'done' checkable (summarized from chapters).",
-      "channel": "Cloud X Berry",
-      "publishedAt": "2026-11-16T12:45:14Z",
-      "addedAt": "2026-11-16T23:17:17Z"
     },
     {
       "id": "vid-lx6l-cheotcode-claude-md-desk-drawer-lock-ko",
@@ -120,30 +144,6 @@
       "channel": "가장 쉬운 AI 활용 개발 with Boaz",
       "publishedAt": "2026-11-15T02:00:13Z",
       "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
-      "id": "vid-jcpl-stanford-cs329z-agent-design-patterns",
-      "youtubeId": "JC_pLC5EX_w",
-      "category": "lecture",
-      "title": "AI 에이전트 설계 패턴: 스탠퍼드 CS329Z 6강 — Anthropic 워크플로 패턴 5가지, ReAct·Reflexion·CodeAct·ReWOO, 컨텍스트 관리, Pi 하네스 사례",
-      "titleEn": "AI Agent Design Patterns: ReAct, CodeAct & More | Stanford CS329Z Lecture 6 with Michael Ryan",
-      "descKo": "워크플로 대신 에이전트를 만들 때와 Anthropic의 워크플로 패턴 5가지, 추론·행동 패턴, 이벤트 로그·압축·관찰 마스킹·서브에이전트·스킬 같은 컨텍스트 관리, 최소 하네스 Pi 사례까지 1시간 17분에 다룬 강의(영어).",
-      "descEn": "A 1h17m Stanford lecture on when to build an agent instead of a workflow, Anthropic's five workflow patterns, reasoning-and-acting patterns, context management (event logs, compaction, observation masking, subagents, skills) and a case study of the minimal Pi harness.",
-      "channel": "Stanford Online",
-      "publishedAt": "2026-11-14T21:00:05Z",
-      "addedAt": "2026-11-16T23:17:17Z"
-    },
-    {
-      "id": "vid-ajfq-freecodecamp-codex-agentic-coding-course",
-      "youtubeId": "ajfQWhGQGLE",
-      "category": "lecture",
-      "title": "Codex와 AI 코딩 에이전트로 배우는 에이전틱 코딩: 프롬프트·AGENTS.md·Plan 모드·스킬·테스트·Git·권한·MCP 1시간 50분 무료 코스",
-      "titleEn": "Codex & AI Coding Agents - Learn Agentic Coding",
-      "descKo": "Scrimba의 Tom Chant가 프롬프트 기초, 폴더별 AGENTS.md, Plan 모드, 스킬 실습, 특성화 테스트와 TDD, Git 위생, 시크릿, 권한, config.toml, MCP 설정까지 Codex로 따라 하는 무료 코스(영어).",
-      "descEn": "Scrimba's Tom Chant teaches agentic coding hands-on with Codex in 1h50m: prompting basics, per-folder AGENTS.md, plan mode, skills exercises, characterization tests and TDD, Git hygiene, secrets, permissions, config.toml and MCP setup (free, English).",
-      "channel": "freeCodeCamp.org",
-      "publishedAt": "2026-11-10T12:00:39Z",
-      "addedAt": "2026-11-16T23:17:17Z"
     },
     {
       "id": "vid-dhjx-decoding-ai-harness-engineering-course",
