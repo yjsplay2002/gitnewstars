@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-11-19T23:18:25Z",
+  "generatedAt": "2026-11-20T23:13:48Z",
   "videos": [
+    {
+      "id": "vid-mu8w-networkchuck-pocock-code-with-ai",
+      "youtubeId": "mU8WKII1gpk",
+      "category": "lecture",
+      "title": "AI와 제대로 코딩하는 법 (Matt Pocock 출연) — Grill with Docs 스킬, 스펙·티켓·워크트리 서브에이전트·리뷰 루프, 신뢰 사다리",
+      "titleEn": "How to Actually Code with AI (ft. Matt Pocock)",
+      "descKo": "Matt Pocock이 코드 전에 에이전트에게 질문부터 받는 Grill with Docs 스킬과 스펙→티켓→워크트리 서브에이전트→리뷰→회고 루프, 테스트·타입 기반 신뢰 사다리를 2시간 2분에 시연(영어, 스폰서 링크 포함, 설명란·챕터 기준 요약).",
+      "descEn": "A 2h02m demo of Matt Pocock's Grill with Docs skill that makes the agent question you before any code, his grill, spec, tickets, subagents-in-worktrees, review and retro loop, and a trust ladder built on tests and types (includes sponsor links; summarized from the description and chapters).",
+      "channel": "NetworkChuck",
+      "publishedAt": "2026-11-20T17:25:28Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
+    {
+      "id": "vid-hppu-directors-ai-gemini4-orchestrator-ko",
+      "youtubeId": "hPPUL4du09I",
+      "category": "usecase",
+      "title": "아르곤·하이드로겐·네온 실측 비교, 제미나이 네온 오케스트레이터로 일 시켜 봤다 — 모션 그래픽·게임·기획서·글쓰기·알고리즘 3파전",
+      "titleEn": "Argon vs Hydrogen vs Neon Tested: Putting the Gemini Neon Orchestrator to Work",
+      "descKo": "같은 프롬프트를 제미나이 4 세 모델에 블라인드로 주고 결과를 비교한 뒤, 네온 오케스트레이터가 세 모델에 일을 나눠 시키고 결과를 한 화면에 정리하는 과정과 복사용 요청문 3개를 25분에 시연(영상 속 자체 테스트, 자사 제품·전자책 홍보 포함).",
+      "descEn": "A 25-minute test giving Gemini 4's three models the same prompts blind, then showing the Neon orchestrator hand out the work and collect the results on one screen, with three copy-ready prompts (the video's own tests; includes product and e-book plugs).",
+      "channel": "디렉터스AI",
+      "publishedAt": "2026-11-20T12:00:24Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
+    {
+      "id": "vid-oyzl-gongyeosa-claude-code-beginner-ko",
+      "youtubeId": "oYZl2zabPNQ",
+      "category": "lecture",
+      "title": "요즘 일할 때 클로드부터 켜는 이유 — 10분 만에 따라 하는 AI 업무 자동화 (바탕화면·영수증·엑셀 지출 내역, 무료 실습 파일)",
+      "titleEn": "Why I Open Claude First When I Work Now: 10-Minute AI Work Automation (Free Practice File)",
+      "descKo": "클로드 코드 왕초보 실습으로 설치와 작업 폴더 제한부터 바탕화면 정리, 영수증 사진 35장 정리, 엑셀 지출 내역 만들기까지 10분에 따라 하고 '신입사원에게 시키듯 구체적으로' 말하는 법을 소개(무료 실습 파일, 책·웨비나 홍보 포함).",
+      "descEn": "A 10-minute beginner practice in Claude Code, from installing and limiting the work folder to tidying the desktop, sorting 35 receipt photos and building an expense spreadsheet, with the advice to be as specific as you'd be with a new hire (free practice file; includes book and webinar plugs).",
+      "channel": "공여사들",
+      "publishedAt": "2026-11-20T11:00:10Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
+    {
+      "id": "vid-hu7c-jamwithai-claude-code-10-levels",
+      "youtubeId": "h_U-7ci4aF0",
+      "category": "tip",
+      "title": "Claude Code 1,000시간 쓴 사람이 17분에 정리 — 설정·메모리·MCP·스킬·훅·서브에이전트·예약 실행까지 10단계",
+      "titleEn": "1,000+ hours of Claude Code in 17 mins",
+      "descKo": "빈 저장소에서 시작해 설정·메모리·CLAUDE.md·워크트리·MCP·스킬·훅·서브에이전트·/goal·예약 실행·Remote Control까지 10단계를 17분에 쌓아 가는 입문 영상으로, 1~4단계는 오늘 바로 해 보고 서드파티 도구는 설치 전 확인하라고 안내(영어).",
+      "descEn": "A 17-minute beginner walkthrough that starts from an empty repo and climbs 10 levels - setup, memory, CLAUDE.md, worktrees, MCP, skills, hooks, subagents, /goal, scheduled runs and Remote Control - advising you to do levels 1 to 4 today and to check any third-party tool before installing.",
+      "channel": "Jam With AI | Shirin Khosravi Jam",
+      "publishedAt": "2026-11-18T08:05:26Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
+    {
+      "id": "vid-fseb-shawn-codex-full-course",
+      "youtubeId": "fsEbDUVjFUE",
+      "category": "lecture",
+      "title": "OpenAI Codex 풀코스 (2시간) — 웹앱을 만들어 배포하고 브라우저 자동화·스킬·서브에이전트·론칭 영상까지",
+      "titleEn": "OpenAI Codex Full Course: Beginner to Advanced (2 Hours)",
+      "descKo": "AI 구인 대시보드를 계획·구현해 GitHub와 Vercel에 배포하고, 야간 코드 리뷰 예약, Codex Browser·Record & Replay로 만든 스킬, 서브에이전트와 커스텀 에이전트, 론칭 영상까지 1시간 59분에 안내하는 무료 강의(영어, 무료 프롬프트 제공).",
+      "descEn": "A free 1h59m course that plans and builds an AI jobs dashboard and deploys it via GitHub and Vercel, then covers scheduled nightly code reviews, Codex Browser and Record & Replay turned into a skill, subagents and custom agents, and a launch video (free prompts provided).",
+      "channel": "Shawn's AI Builds",
+      "publishedAt": "2026-11-17T14:00:20Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
+    {
+      "id": "vid-8pg6-nateherk-claude-code-five-jobs",
+      "youtubeId": "8Pg6G5h05hk",
+      "category": "tip",
+      "title": "Anthropic이 말하는 Claude Code 새 규칙 — 방향 잡기·승인·거절·검증·세션 시작을 이제 무엇이 맡는지",
+      "titleEn": "Anthropic Just Released the New Rules of Claude Code",
+      "descKo": "Claude Code 팀 Lydia Hallie의 발표를 풀어 세션마다 사람이 하던 다섯 일을 모델·오토 모드·deny 규칙과 샌드박스·테스트와 훅과 CI·Projects가 어떻게 넘겨받았는지 9분에 정리(영어, 호스팅 제휴 링크 포함).",
+      "descEn": "A 9-minute breakdown of a talk by Lydia Hallie of the Claude Code team on how the model, auto mode, deny rules and the sandbox, tests, hooks and CI, and Projects have taken over the five jobs you used to do every session (includes a hosting affiliate link).",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-11-17T13:26:00Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
+    {
+      "id": "vid-6ijj-shinssam-ego-lite-claude-codex-ko",
+      "youtubeId": "6IjJJGlEuH8",
+      "category": "usecase",
+      "title": "무료 AI 브라우저 에고라이트 사용법 — 클로드 코드·코덱스 연결해서 업무 자동화하기 (설치부터 활용까지)",
+      "titleEn": "How to Use the Free AI Browser Ego Lite: Connect Claude Code and Codex to Automate Work (From Install to Use)",
+      "descKo": "에고라이트에 클로드 코드·코덱스를 /ego로 연결해 내 로그인 상태 그대로 네이버 뉴스 정리, 유튜브 댓글 답글 초안, 맥미니 최저가 6곳 비교 후 엑셀 저장, 신청서 제출 직전에 멈추기를 9분에 시연(2026년 11월 Windows 베타 기준, 제작사 유료 광고 포함).",
+      "descEn": "A 9-minute demo of connecting Claude Code and Codex to Ego Lite with /ego so the AI works in your logged-in browser: summarizing Naver news, drafting YouTube reply comments, comparing Mac mini prices at six shops into a spreadsheet, and stopping just before submitting a form (shot on the November 2026 Windows beta; includes a paid ad from the maker).",
+      "channel": "유튜브신쌤",
+      "publishedAt": "2026-11-17T11:00:26Z",
+      "addedAt": "2026-11-20T23:13:48Z"
+    },
     {
       "id": "vid-klr7-builderjosh-claude-code-aside-80days-ko",
       "youtubeId": "KLR7GoH-Sco",
@@ -96,90 +180,6 @@
       "channel": "MIRA PARTNERS",
       "publishedAt": "2026-11-18T09:37:35Z",
       "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-n2cf-mahlerlab-researcher-codex-agents-ko",
-      "youtubeId": "n_2cfdt8j3A",
-      "category": "usecase",
-      "title": "연구자를 위한 AI 에이전트 활용 실전 요령(2026.11) — Codex로 연구 폴더·AGENTS.md·예약 작업·Skill 만들기와 Reference audit",
-      "titleEn": "Practical Tips for Using AI Agents for Researchers (11/2026)",
-      "descKo": "연구 폴더와 AGENTS.md 세팅, 작은 표본 먼저 시험, 근거 표시, Reference audit·Writing audit, 예약 작업과 Skill 만들기까지 Codex 화면으로 보여 주는 62분 강의(개인 경험 기반).",
-      "descEn": "A 62-minute walkthrough in Codex of a research folder and AGENTS.md setup, testing on a small sample first, flagging evidence, reference and writing audits, scheduled tasks and building Skills (based on personal experience).",
-      "channel": "MahlerLab",
-      "publishedAt": "2026-11-17T06:45:59Z",
-      "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-6jwn-tokentangjin-claude-code-docs-in-work-order-ko",
-      "youtubeId": "6JwnNQQ8Enc",
-      "category": "tip",
-      "title": "Claude Code 공식 문서에서 찾은 기능, 일하는 순서대로 — 되돌리기·대기열·/goal·Stop 훅·--worktree·Remote Control",
-      "titleEn": "Claude Code Features Found in the Official Docs, in the Order You Work",
-      "descKo": "공식 문서 곳곳에 흩어진 기능을 되돌리기(Esc 두 번·/branch), 일하는 중 말 걸기, 끝났는지 확인(/goal·Stop 훅·/code-review), 동시 작업(--worktree), 자리 비워도(Remote Control) 순서로 묶은 7분 정리(출처 code.claude.com/docs).",
-      "descEn": "A 7-minute grouping of docs features in working order: undo (double Esc, /branch), talking to Claude mid-task, checking it's done (/goal, Stop hook, /code-review), parallel work (--worktree) and staying connected away from the desk (Remote Control), citing code.claude.com/docs.",
-      "channel": "토큰탕진",
-      "publishedAt": "2026-11-14T08:18:53Z",
-      "addedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "vid-lx6l-cheotcode-claude-md-desk-drawer-lock-ko",
-      "youtubeId": "lX6LTfKHnSg",
-      "category": "tip",
-      "title": "아직도 CLAUDE.md 한 파일에 전부 적고 계세요? CLAUDE.md 제대로 쓰는 법 — 책상 메모·서랍(규칙 폴더 paths)·자물쇠(훅)",
-      "titleEn": "Still Putting Everything Into One CLAUDE.md File? How to Use CLAUDE.md Properly with Claude Code",
-      "descKo": "같은 규칙 25개를 CLAUDE.md·@ 불러오기·표시 없는 규칙 폴더·paths 붙인 규칙 폴더에 두고 읽는 토큰을 쟀더니 1,280·1,363·1,322·13이었다는 직접 측정과, '내가 허락할게'에 뚫리지 않게 훅으로 막는 법을 16분에 정리.",
-      "descEn": "A 16-minute walkthrough of where to put instructions: the same 25 rules measured at 1,280, 1,363, 1,322 and 13 tokens across CLAUDE.md, an @ import, an unmarked rules folder and a rules folder with paths, plus blocking rules that 'I allow it' would bypass with hooks (personal measurements).",
-      "channel": "첫코드 | AI 바이브코딩",
-      "publishedAt": "2026-11-15T03:32:45Z",
-      "addedAt": "2026-11-16T23:17:17Z"
-    },
-    {
-      "id": "vid-ukbt-boaz-claude-code-memory-two-enough-ko",
-      "youtubeId": "UKBTlXRTbtE",
-      "category": "tip",
-      "title": "클로드 코드 기억 장치 5가지, 전부 비교했습니다: 2개면 충분 — AGENTS.md·auto memory·보존 지시를 붙인 compact",
-      "titleEn": "I Compared All 5 Claude Code Memory Mechanisms (Conclusion: 2 Are Enough)",
-      "descKo": "CLAUDE.md·rules·auto memory·compact·subagent memory를 레이어 한 장으로 정리하고, AGENTS.md 하나로 규칙 모으기, 기억시킬 때 이유까지 말하기, 보존 지시 한 줄로 compact 세부 보존 67%→90%(개인 실험)를 9분에 소개.",
-      "descEn": "A 9-minute layer diagram of Claude Code's five memory mechanisms, with tips on using AGENTS.md alone for rules, giving the reason when you say 'remember', and a preservation line that raised compact detail retention from 67% to 90% (personal experiment).",
-      "channel": "가장 쉬운 AI 활용 개발 with Boaz",
-      "publishedAt": "2026-11-15T02:00:13Z",
-      "addedAt": "2026-11-15T23:12:22Z"
-    },
-    {
-      "id": "vid-dhjx-decoding-ai-harness-engineering-course",
-      "youtubeId": "dHJxhvKIMlU",
-      "category": "lecture",
-      "title": "하네스 엔지니어링 풀코스: Claude Code를 첫 원리부터 만들기 — 에이전트 루프·샌드박스·컨텍스트 부패·헤드리스·회귀 테스트",
-      "titleEn": "Harness Engineering Full Course: Claude Code From First Principles",
-      "descKo": "에이전트 루프와 도구 4개(읽기·쓰기·수정·bash)부터 명령 샌드박스, 컨텍스트 부패 대응, 헤드리스·원격 실행, 벤치마크와 회귀 테스트, 실패한 실행을 테스트로 재생하는 법까지 6단계를 2시간 7분에 만드는 무료 오픈소스 강의(영어).",
-      "descEn": "A 2h07m free, open-source course that builds a coding agent in six steps: the agent loop with four core tools (read, write, edit, bash), command sandboxing, fighting context rot, headless and remote runs, benchmarks versus regression tests, and replaying failed runs as tests.",
-      "channel": "Decoding AI",
-      "publishedAt": "2026-11-13T13:26:41Z",
-      "addedAt": "2026-11-14T23:16:28Z"
-    },
-    {
-      "id": "vid-u8np-jjong-hermes-15-bots-three-leaks-ko",
-      "youtubeId": "u8np18LTK4s",
-      "category": "usecase",
-      "title": "헤르메스 에이전트로 AI 직원 15명 굴리며 배운 3가지, 'SYNC!' — 비용 중간 확인·통과시킨 일 재심사 잠그기·지침 정기적으로 지우기",
-      "titleEn": "3 Things I Learned Running 15 AI Employees on Hermes Agent: 'SYNC!' (feat. the book 'Agent Workflow')",
-      "descKo": "텔레그램 봇 15개를 굴리며 업무 카드가 60장에서 263장으로 폭증하고 공통 규칙 파일이 일주일에 16.4KB→28.1KB로 커졌던 경험과 막은 방법을 12분에 정리(영상 속 본인 집계, 책·멤버십 홍보 포함).",
-      "descEn": "A 12-minute account of running 15 Telegram bots - work cards ballooning from 60 to 263 and a shared rules file growing from 16.4KB to 28.1KB in a week - and how he plugged each leak (the host's own tallies; includes a book and membership plug).",
-      "channel": "쫑대표의 딸깍일기",
-      "publishedAt": "2026-11-15T23:30:22Z",
-      "addedAt": "2026-11-16T23:17:17Z"
-    },
-    {
-      "id": "vid-slmj-ittoktok-antigravity-november-overhaul-ko",
-      "youtubeId": "sLMj6HCperk",
-      "category": "usecase",
-      "title": "말로 시키고 AI 팀이 일한다… 안티그래비티 11월 대변신, 따라 하며 끝내기: 음성 모드·/swarm·/run-workflow",
-      "titleEn": "Give Orders by Voice and an AI Team Works: Antigravity's November Overhaul, Follow Along",
-      "descKo": "지식 업무 화면, 음성 모드, Hydrogen·Orchestrator·Carbon 모델 고르기, /swarm, /run-workflow를 5개 미션으로 따라 하고 국내 요금·할당량 함정과 5분 체크리스트까지 14분에 정리(수치는 구글 자체 발표).",
-      "descEn": "A 14-minute follow-along of Antigravity's new knowledge-work layout, voice mode, choosing between Hydrogen, Orchestrator and Carbon, /swarm and /run-workflow as five missions, plus Korean pricing and quota pitfalls and a five-minute checklist (figures are Google's own).",
-      "channel": "IT톡톡",
-      "publishedAt": "2026-11-15T10:15:00Z",
-      "addedAt": "2026-11-15T23:12:22Z"
     }
   ]
 }
