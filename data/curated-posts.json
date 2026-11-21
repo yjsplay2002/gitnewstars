@@ -1,6 +1,84 @@
 {
-  "generatedAt": "2026-11-20T23:13:48Z",
+  "generatedAt": "2026-11-21T23:10:36Z",
   "posts": [
+    {
+      "id": "curated-20261122-geeknews-always-on-agents-ko",
+      "title": "항상 작동하는 에이전트 만드는 법 — 이벤트 수신함·타이머·메모리·권한·발신함 다섯 조각으로 '대기하다 깨어나 짧게 일하는' 구조를 짜고, 승인이 필요한 도구 호출은 세션을 저장해 보류한다 (GeekNews·Claude)",
+      "body": "GeekNews(11월 21일)가 소개한 Claude의 글은 상시 작동 에이전트가 새로운 루프가 아니라 기존 루프를 둘러싼 구조라고 설명합니다. 에이전트는 대부분 대기하다가 이벤트가 오면 깨어나 짧게 일하는 '실행'을 되풀이하는데, 이를 위해 웹훅·예약 작업·사용자 메시지를 한곳에 쌓는 영속 이벤트 수신함(DB 테이블+핸들러+워커, 수신함당 활성 워커 1개, 연속 메시지는 묶어 처리), 후속 확인과 반복 일정용 타이머, 사용자 지시·메모·이미 보낸 내용·작업 진행 상황을 남기는 메모리 파일, 도구 호출마다 자율 진행·차단·승인 대기를 정하는 권한, 알림 빈도를 조절하는 발신함을 두라고 합니다. 자격 증명은 에이전트 밖의 프록시가 요청에 넣어 주게 하고, 승인이 필요한 호출은 세션 상태를 저장해 보류했다가 사용자 답변이 수신함 이벤트로 돌아오면 재개해 기다리는 동안에도 다른 이벤트를 처리합니다. 한 장기 코딩 벤치마크에서 Opus 5.5의 해결 작업당 비용이 Opus 5보다 78% 낮았다는 수치는 Anthropic 자체 주장이고, 알림은 조용하게 시작해 평가로 빈도를 맞추라고 권합니다.",
+      "titleEn": "How to build an always-on agent - an event inbox, timers, memory, permissions and an outbox make an agent that sleeps, wakes and works briefly, and tool calls that need approval are parked with the session saved (GeekNews, Claude)",
+      "bodyEn": "A Claude article featured on GeekNews (November 21) argues an always-on agent is not a new loop but the architecture wrapped around the usual one: it mostly waits, wakes on an event and does a short 'run', then goes back to waiting. To support that it calls for a durable event inbox that collects webhooks, scheduled jobs and user messages (a database table plus a handler and a worker, one active worker per inbox, back-to-back messages batched into one run), timers for follow-ups and recurring schedules, memory files for user instructions, notes, what has already been sent and task progress, permissions that decide per tool call whether to proceed, block or wait for approval, and an outbox that throttles notifications. Credentials should be injected by a proxy outside the agent's environment, and a call that needs approval is deferred with the session state saved, then resumed when the answer returns as an inbox event, so the worker can handle other events in the meantime. The figure that Opus 5.5 cost 78% less per solved task than Opus 5 on one long-running coding benchmark is Anthropic's own claim, and the article advises starting quiet and tuning notification frequency with evals.",
+      "sourceName": "GeekNews · claude.com",
+      "sourceUrl": "https://news.hada.io/topic?id=37550",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-21T00:20:02Z",
+      "curatedAt": "2026-11-21T23:10:36Z"
+    },
+    {
+      "id": "curated-20261122-yt-kimflip-mattpocock-skills-ko",
+      "title": "김플립: pstack 다음은 맷 포콕 스킬 — 만들기 전에 AI가 '정확히 뭘 원하세요?'를 먼저 묻게 하는 질문 폭격·우리끼리 쓰는 단어장·기억은 이슈 트래커에 두는 세 가지 원리, 투두앱 실습까지 (22분)",
+      "body": "김플립이 22분 31초 동안 Matt Pocock의 스킬 묶음(mattpocock/skills)을 원리부터 실전까지 뜯어봅니다. 지난 pstack 영상이 일의 끝에서 '고쳤다는 증거'를 잡는 법이었다면 이번엔 시작 쪽으로, 일을 시작하기 전에 AI가 먼저 질문을 쏟아 내게 하는 방법(4:45), 사람과 AI가 같은 뜻으로 쓰는 우리끼리의 단어장(8:06), 기억을 이슈 트래커에 두는 방식(9:22)을 특징 세 가지로 꼽습니다. 이어 투두앱에 반복 할 일을 붙이는 실전(12:35), 정직하게 덧붙일 점(18:46), 하네스는 기억을 바깥에 둔다는 원리(20:30)를 다루고, 설명란에 Claude Code 설치 명령(claude plugin install mattpocock-skills@claude-plugins-official)이 있습니다. 설명란에 저자의 책 홍보가 붙어 있고 이 요약은 설명란과 챕터 기준이니, 실제 결과는 영상에서 확인하세요.",
+      "titleEn": "Kimflip: after pstack, Matt Pocock's skills - make the AI ask 'what exactly do you want?' before building: the question barrage, a shared glossary and memory kept in the issue tracker, with a to-do app demo (22 minutes)",
+      "bodyEn": "In 22m31s the Korean channel Kimflip - LLM Coding (김플립 - LLM 코딩) takes apart Matt Pocock's skill bundle (mattpocock/skills) from principle to practice. Where the previous pstack video was about catching 'proof it's fixed' at the end of a job, this one is about the start, and it names three traits: a barrage of questions before work begins (4:45), a glossary the human and the AI share (8:06) and memory kept in the issue tracker (9:22). It continues with a practical run adding recurring tasks to a to-do app (12:35), an honest list of caveats (18:46) and the principle that a harness keeps its memory outside the model (20:30), and the description gives the Claude Code install command (claude plugin install mattpocock-skills@claude-plugins-official). The description plugs the author's book and this summary follows the description and chapters, so check the video for actual results.",
+      "sourceName": "YouTube · 김플립 - LLM 코딩",
+      "sourceUrl": "https://www.youtube.com/watch?v=2C3xTY10QR0",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=2C3xTY10QR0",
+      "createdAt": "2026-11-21T00:00:23Z",
+      "curatedAt": "2026-11-21T23:10:36Z"
+    },
+    {
+      "id": "curated-20261122-yt-aiwithsurya-antigravity-seven-agent-modes",
+      "title": "AI with Surya: 구글 안티그래비티에서 AI 에이전트 팀을 부리는 7가지 방법과 '쓰지 말아야 할 때' — 그냥 묻기·서브에이전트·오케스트레이터(네온이 계획, 하이드로겐이 실행)·워크플로·스웜·부스트·팀워크를 이사 준비 하나로 비교 (16분, 영어)",
+      "body": "AI with Surya가 15분 47초 동안 Antigravity의 에이전트 작업 방식을 사다리처럼 7단계로 정리하고, 샌프란시스코로 이사하는 한 사람의 일을 같은 예시로 비교합니다. 그냥 묻기(3:39), 서브에이전트(4:02), 계획은 똑똑한 네온이 하고 실행은 빠른 하이드로겐이 맡는 오케스트레이터(5:45), 아파트 매물 20개를 한꺼번에 점검해 사기 매물을 걸러 낸 워크플로(7:35), 검사자가 입주일 문제를 잡아낸 스웜(9:23), 부스트(11:20), 먼저 인터뷰하고 며칠씩 도는 팀워크(12:04) 순이며, 각각 언제 쓰지 말아야 하는지와 모든 방식에 붙는 추가 기능 4가지, 방금 나온 /btw 사이드 스레드(14:19)도 다룹니다. 데모 데이터는 영상용으로 만든 가짜 매물과 견적서이고 설명란에 소속과 무관한 개인 의견이라고 밝혔으니, 방식을 고르는 기준(14:35)으로 참고하세요.",
+      "titleEn": "AI with Surya: seven ways to run an AI agent team in Google Antigravity and when not to - just ask, subagents, orchestrator (Neon plans, Hydrogen executes), workflows, swarm, boost and teamwork, compared on one apartment move (16 minutes)",
+      "bodyEn": "In 15m47s AI with Surya lays out Antigravity's ways of working with agents as a seven-step ladder and compares them on one example, a person moving apartments in San Francisco. They are Just Ask (3:39), Subagents (4:02), an Orchestrator in which the smart Neon plans and the fast Hydrogen executes (5:45), Workflows that checked 20 apartment listings at once and caught the scams (7:35), a Swarm whose checker caught a move-in date problem (9:23), Boost (11:20) and Teamwork, which interviews you first and runs for days (12:04); for each it covers when not to use it, plus four extras that work with all of them and the new /btw side threads (14:19). The demo data is made-up listings, quotes and a lease, and the description says the opinions are the host's own and not his employer's - use the which-to-use-when section (14:35) as a selection guide.",
+      "sourceName": "YouTube · AI with Surya",
+      "sourceUrl": "https://www.youtube.com/watch?v=HANILv4mTzk",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=HANILv4mTzk",
+      "createdAt": "2026-11-21T01:00:37Z",
+      "curatedAt": "2026-11-21T23:10:36Z"
+    },
+    {
+      "id": "curated-20261122-hn-developer-to-architect",
+      "title": "우리는 개발자들에게 알리지도 않고 아키텍트로 승진시켰다 — 요구사항만 넘기면 AI가 아키텍처까지 정해 버려, 정적인 환영 화면이 15초 걸린 Google Forms 애드온 사례와 '데이터 모델은 사람이 먼저' 규칙 (HN 573점)",
+      "body": "HN에서 573점·댓글 306개를 받은 글(11월 20일, GeekNews에도 소개)은 Google Forms 애드온에서 바이브 코딩으로 쓴 설치 로그 코드가 사용자 이메일과 ID를 try/catch로 차례로 조회하며 Google 서버 API를 여러 번 호출해, 정적인 환영 화면에 15초가 걸린 사례로 시작합니다. 필자는 AI가 사업·사용자 맥락을 모르고 요구에 맞추려는 성향 때문에 요구사항에 제동을 걸지 않으며, 아키텍처를 지정하지 않으면 AI가 대신 정한다고 봅니다. 올바른 해법은 설치 시각만 기록하고 환영 화면을 먼저 띄우는 것이었고, 바로 따라 할 규칙은 데이터 모델과 아키텍처를 사람이 먼저 정의하고, 설계를 바꾸는 요구사항은 AI가 임의로 바꾸지 못하게 먼저 승인받게 하며, 하위 호환성용 중복 테이블·로직을 언제 유지하고 언제 지울지 명시하는 것입니다. 한 팀의 사례 하나라 일반화하긴 어렵지만, 개발자의 일이 구현에서 설계 제약 설정과 코드 검토로 옮겨 간다는 관점을 정리하는 데 좋습니다.",
+      "titleEn": "We promoted developers into architects without telling them - hand an AI only requirements and it picks the architecture too: a Google Forms add-on whose static welcome screen took 15 seconds, and the rule that humans define the data model first (HN, 573 points)",
+      "bodyEn": "A post that drew 573 points and 306 comments on HN (November 20, also featured on GeekNews) starts from a Google Forms add-on where vibe-coded install-logging code looked up the user's email and then ID in chained try/catch blocks, making several Google server API calls and turning a static welcome screen into a 15-second wait. The author argues the AI knows neither the business nor the user context and tends to please rather than push back on requirements, so if you don't specify the architecture the AI decides it for you. The right fix was to log only the install time and show the welcome screen first; the rules to copy are to define the data model and architecture yourself first, make the tool ask for approval before it changes a design, and spell out when to keep duplicate tables and logic for backward compatibility and when to delete them. It is one team's single case so it doesn't generalize by itself, but it frames the shift from writing code to setting design constraints and reviewing.",
+      "sourceName": "Hacker News · manidoraisamy.com",
+      "sourceUrl": "https://manidoraisamy.com/developer-to-architect.html",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-20T18:17:51Z",
+      "curatedAt": "2026-11-21T23:10:36Z"
+    },
+    {
+      "id": "curated-20261122-yt-betterstack-claude-code-code-mode",
+      "title": "Better Stack: Claude Code의 숨은 설정 Code Mode를 6번 돌려 보니 — 도구를 하나씩 부르는 대신 작은 JavaScript로 묶어 같은 비용에 약 18% 빠르고 더 일정했다, 자동 모드와 함께 쓸 때의 걸림돌과 로그 44MB 시험까지 (9분, 영어)",
+      "body": "Better Stack이 9분 20초 동안 Claude Code의 숨은 설정 Code Mode(Claude가 도구를 한 번에 하나씩 부르지 않고 작은 JavaScript 프로그램으로 한꺼번에 몰고 가는 방식)를 켠 채 3번, 끈 채 3번 같은 리팩터링을 돌려 비교합니다. 설명란에 따르면 수치를 Claude Code 자체 로그로 확인했고 같은 비용에 약 18% 빨랐으며 훨씬 일정했고(4:04), 켜지 않았을 때는 Claude가 파이썬 스크립트로 파일 53개를 고쳤는데 Claude Code는 0줄 변경이라고 보고한 경우도 있었다고 합니다(5:12). 켜는 법은 1:57, 로그 44MB를 읽히는 시험은 6:03, 자동 모드와 함께 쓸 때의 걸림돌은 6:55에 나옵니다. 프로젝트 하나에 실행 6번인 개인 시험이라 일반화하기는 어렵고, 설명란이 Code Mode 공식 문서(code.claude.com/docs/en/code-mode)를 안내합니다.",
+      "titleEn": "Better Stack: testing Claude Code's hidden Code Mode six times - instead of calling tools one at a time Claude drives them with a small JavaScript program: about 18% faster and more consistent at the same cost, plus a catch with auto mode and a 44 MB log test (9 minutes)",
+      "bodyEn": "In 9m20s Better Stack runs the same refactor three times with Claude Code's hidden Code Mode on and three times off - a setting where Claude writes a small JavaScript program that drives its tools in one go rather than making one call at a time. According to the description it checked every number against Claude Code's own logs and found it about 18% faster and much more consistent at the same cost (4:04), while without it Claude once edited 53 files with a Python script and Claude Code reported 0 lines changed (5:12). How to turn it on is at 1:57, a 44 MB log test at 6:03 and a catch when combined with auto mode at 6:55. It is one project and six runs, so don't generalize, and the description points to the official Code Mode docs (code.claude.com/docs/en/code-mode).",
+      "sourceName": "YouTube · Better Stack",
+      "sourceUrl": "https://www.youtube.com/watch?v=nraROC2wl8s",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=nraROC2wl8s",
+      "createdAt": "2026-11-20T03:06:15Z",
+      "curatedAt": "2026-11-21T23:10:36Z"
+    },
+    {
+      "id": "curated-20261122-yt-agentos-openai-codex-six-ways",
+      "title": "AgentOS: OpenAI 개발자 경험 팀이 Codex로 일하는 6가지 방식 — 자정 문서 배포 위임, 계획은 저장소 밖 공유 페이지에, 추론 강도는 낮추고 '사용법에 정들지 마라' (43분, 원본 영어 워크숍의 한국어판)",
+      "body": "AgentOS가 AI Engineer에 올라온 OpenAI의 Dominik Kundel·Charlie Guo 워크숍(New Ways of Working with Codex)을 한국어로 옮긴 43분 영상입니다(메타데이터상 한국어이고 영어 오디오 트랙도 함께 있어 번역·더빙판으로 보입니다). 대충 말해도 알아듣게 맥락을 모아 주는 법(0:00), 자정 문서 배포를 맡긴 날(5:55), 스크린샷 대신 Appshots(8:10), 계획을 저장소 밖 공유 페이지에 두는 법(13:03), Ultrafast를 켜는 때(16:28), 노트북을 덮어도 도는 Codex Cloud 작업(24:13), 음성·전화·상시 에이전트 Dots(32:27~36:34)를 차례로 다룹니다. 끝에는 추론 강도를 낮춰라(39:00)와 사용법에 정들지 마라(41:34)가 있고, 원본 영상과 워크숍 자료 링크가 설명란에 있습니다. 챕터와 설명란 기준 요약이고 원본이 OpenAI 직원들의 시연이라 제품 소개 성격이 있으니 감안하세요.",
+      "titleEn": "AgentOS: six ways OpenAI's developer experience team works with Codex - delegating a midnight docs deploy, plans on a shared page outside the repo, lower reasoning effort and 'don't get attached to how you use it' (43 minutes, Korean-language edition)",
+      "bodyEn": "AgentOS's 43-minute Korean-language edition of the OpenAI workshop 'New Ways of Working with Codex' by Dominik Kundel and Charlie Guo from AI Engineer (the metadata lists Korean with an English audio track as well, so it looks like a translated or dubbed version). It covers gathering context so a rough request is understood (0:00), the day a midnight docs deploy was delegated (5:55), Appshots instead of screenshots (8:10), keeping plans on a shared page outside the repo (13:03), when to switch on Ultrafast (16:28), Codex Cloud work that keeps running with the laptop closed (24:13) and voice, phone calls and the always-on agent Dots (32:27-36:34). It ends with lowering reasoning effort (39:00) and not getting attached to how you use the tools (41:34), and the description links the original video and workshop materials. This is summarized from chapters and the description, and since the original is a demo by OpenAI staff it has a product-pitch flavor.",
+      "sourceName": "YouTube · AgentOS",
+      "sourceUrl": "https://www.youtube.com/watch?v=_AqzRDkw8Vs",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=_AqzRDkw8Vs",
+      "createdAt": "2026-11-19T11:36:29Z",
+      "curatedAt": "2026-11-21T23:10:36Z"
+    },
     {
       "id": "curated-20261121-yt-networkchuck-pocock-code-with-ai",
       "title": "NetworkChuck × Matt Pocock: AI와 제대로 코딩하는 법 — 코드를 쓰기 전에 에이전트가 질문부터 퍼붓게 하는 'Grill with Docs' 스킬, 스펙→티켓→워크트리 서브에이전트→리뷰 루프, 컨텍스트를 '스마트 존'에 두기 (2시간 2분, 영어)",
@@ -54,45 +132,6 @@
       "curatedAt": "2026-11-20T23:13:48Z"
     },
     {
-      "id": "curated-20261121-geeknews-posthog-decision-models-ko",
-      "title": "PostHog가 알려 주는 '모든 작업에 LLM이 필요한 건 아니다' — 개인정보 검사를 예/아니오 질문 2개로 쪼개 요약의 98.7%가 LLM 호출을 건너뛰고, 모델 라우터는 선택 질문 하나로 가장 싼 모델을 고른다 (GeekNews)",
-      "body": "GeekNews(11월 19일)가 소개한 PostHog 뉴스레터 글(원문은 11월 9일)은 예/아니오나 정해진 선택지와 그 확률을 돌려주는 '의사결정 모델'(Jev 등)을 프로덕션에 쓴 경험입니다. 세션 요약의 개인정보 검사를 '실제 사람 이름이 있는가?'와 '연락처나 ID가 있는가?' 두 질문으로 쪼개자 잘못된 탐지가 약 10분의 1로 줄었고, 하나라도 0.4 이상일 때만 Gemini가 다시 쓰게 해 프로덕션에서 98.7%가 LLM 호출을 건너뛴다고 합니다. 임계값은 틀렸을 때의 비용으로 정해서 놓치면 안 되는 개인정보는 낮은 0.4, 쓸데없이 끼어들면 곤란한 Slack 봇은 높은 0.85를 쓰고, 모델 라우터는 '가장 싸면서 한 번에 끝낼 모델을 골라라'는 선택 질문 하나로 후보 모델을 고릅니다. 비용 최대 444.6배 절감·속도 193.6배 같은 수치는 모델 제작사 TypeSafe AI의 주장이고, 모델이나 버전이 바뀌면 같은 점수의 의미도 달라지니 정답을 붙인 데이터로 임계값을 다시 보정하고 다단계 추론이나 개방형 작업은 LLM에 맡기라고 합니다.",
-      "titleEn": "PostHog on 'not everything needs an LLM' - splitting a PII check into two yes/no questions lets 98.7% of summaries skip the LLM call, and a model router picks the cheapest model with a single choice question (GeekNews)",
-      "bodyEn": "A PostHog newsletter post (originally November 9), featured on GeekNews on November 19, describes putting 'decision models' (such as Jev) - which return a typed answer such as yes/no or a choice along with a probability - into production. Splitting the personal-info check on session summaries into two questions, 'does this name a real person?' and 'does this show contact details or an ID?', cut false flags to about a tenth, and only when either scores 0.4 or higher does Gemini rewrite the summary, so in production 98.7% skip the LLM call. Thresholds are set by the cost of a mistake - a low 0.4 for PII that must not be missed, a high 0.85 for a Slack bot that would be annoying if it chimed in needlessly - and the model router picks among candidates with one choice question, 'pick the cheapest option that will most likely finish the task correctly on the first try'. The cost cut of up to 444.6x and speedup of 193.6x are claims from the model's maker TypeSafe AI; the same score can mean something different after a model or version change, so recalibrate thresholds on labeled data, and leave multi-step reasoning and open-ended work to an LLM.",
-      "sourceName": "GeekNews · PostHog",
-      "sourceUrl": "https://news.hada.io/topic?id=37415",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-18T16:33:33Z",
-      "curatedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "curated-20261121-yt-nateherk-claude-code-five-jobs",
-      "title": "Nate Herk: Anthropic이 말하는 Claude Code 새 규칙 — 세션마다 사람이 하던 다섯 일(방향 잡기·승인·거절·검증·세션 시작)을 이제 모델·오토 모드·deny 규칙·훅/CI·Projects가 맡는다 (10분, 영어)",
-      "body": "Nate Herk가 9분 40초 동안 Claude Code 팀 Lydia Hallie의 발표를 풀어, Anthropic의 하루 코드 변경이 5월 약 2,500건에서 9월 3만 건 넘게 늘었다는 배경과 함께 세션마다 사람이 직접 하던 다섯 일을 지금은 무엇이 맡는지 정리합니다. 방향 잡기는 이제 모델이 맡고(0:26), 승인은 오토 모드로(1:40), 거절은 deny 규칙과 샌드박스로(3:04), '다 됐는지' 확인은 테스트·훅·CI로(5:19), 세션 시작은 Claude Code Projects로 넘깁니다(7:52). 설명란은 오늘 복사해 쓸 수 있는 deny 규칙·오토 모드 설정·훅까지 보여 준다고 소개하는데, 설명란에 본인 커뮤니티와 호스팅 제휴 링크가 붙어 있고 원 발표를 따로 볼 수 있게 안내하니 수치는 발표 쪽 주장으로 보세요.",
-      "titleEn": "Nate Herk: Anthropic's new rules for Claude Code - the five jobs you used to do every session (steering, approving, saying no, checking, starting sessions) now handled by the model, auto mode, deny rules, hooks and CI, and Projects (10 minutes)",
-      "bodyEn": "In 9m40s Nate Herk unpacks a talk by Lydia Hallie of the Claude Code team - with the background that Anthropic went from about 2,500 code changes a day in May to more than 30,000 a day in September - and sorts out what now handles the five jobs you used to do yourself in every session. Steering is now the model (0:26), approving is auto mode (1:40), saying no is deny rules and the sandbox (3:04), checking it's done is tests, hooks and CI (5:19), and starting sessions moves to Claude Code Projects (7:52). The description says it shows the deny rules, auto mode settings and hooks you can copy today; it carries his community and a hosting affiliate link and points to the original talk, so treat the figures as the talk's own claims.",
-      "sourceName": "YouTube · Nate Herk | AI Automation",
-      "sourceUrl": "https://www.youtube.com/watch?v=8Pg6G5h05hk",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=8Pg6G5h05hk",
-      "createdAt": "2026-11-17T13:26:00Z",
-      "curatedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "curated-20261120-yt-ibm-four-agent-loops",
-      "title": "IBM Technology: AI 에이전트 루프 4가지 — 사람이 이끄는 대화형, 멈춤 조건을 AI에 맡기는 위임형, 정해 둔 시간에 도는 예약형, 사건이 터지면 켜지는 이벤트형 (9분, 영어)",
-      "body": "IBM Technology의 Martin Keen이 9분 8초 동안 모든 에이전트에 같은 자율성을 주지 말라며, 목표→행동→관찰→조정 사이클을 누가 쥐느냐에 따라 에이전트 루프를 네 가지로 나눕니다(0:19~1:12). 사람이 이끄는 일엔 대화형(1:31), 멈춤 조건을 AI에 넘기는 위임형(3:30), 반복 작업엔 예약형(5:17), 사건이 터질 때 켜지는 이벤트형(6:40)이고, 목표·트리거·멈춤 조건·사람의 검토가 각 워크플로를 어떻게 바꾸는지 설명합니다. 두 번째 에이전트에게 결과를 검토시키는 방법(7:15), 예외를 사람에게 올리는 방법(8:01), 네 유형 비교(8:32)로 이어집니다. 설명란이 대본과 메타데이터 제작에 AI를 썼다고 밝혔고 이 요약은 챕터와 설명란 기준이니, 구체적인 사례는 영상에서 확인하세요.",
-      "titleEn": "IBM Technology: 4 types of AI agent loops - interactive and human-led, delegated with AI-owned stopping conditions, scheduled, and event-triggered (9 minutes)",
-      "bodyEn": "In 9m08s IBM Technology's Martin Keen argues that not every AI agent should have the same autonomy and sorts agent loops into four types by who controls the goal, act, observe and adjust cycle (0:19-1:12). Interactive loops suit human-led tasks (1:31), delegated loops hand the stopping condition to the AI (3:30), scheduled loops run recurring work (5:17) and event-driven loops are triggered when something happens (6:40), with goals, triggers, stopping conditions and human review shaping each workflow. It continues with reviewing the work using a second agent (7:15), escalating exceptions to humans (8:01) and a comparison of the four types (8:32). The description says AI was used to create the transcript and metadata and this summary follows the chapters and description, so check the video for concrete examples.",
-      "sourceName": "YouTube · IBM Technology",
-      "sourceUrl": "https://www.youtube.com/watch?v=4LINhsEZEDI",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=4LINhsEZEDI",
-      "createdAt": "2026-11-19T12:00:08Z",
-      "curatedAt": "2026-11-19T23:18:25Z"
-    },
-    {
       "id": "curated-20261120-yt-dante-google-harness-squared-ko",
       "title": "단테: 구글 Harness² — 에이전트가 일을 받을 때마다 자기 하네스를 스스로 고친다, 정답지 없이 '제안·시험·합치기'로 고치는 여덟 칸과 직접 돌려 본 결과 (15분)",
       "body": "단테가 15분 18초 동안 구글 클라우드 AI 리서치와 노스웨스턴 대학이 공개한 Harness²(arXiv 2610.14224)를 개념부터 직접 실행까지 보여 줍니다. 기성품 하네스(지시문·도구·규칙)는 같은 모델이어도 분야마다 앞서는 쪽이 달라서, Harness²는 일을 받을 때마다 고칠 수 있는 여덟 칸(2:29)을 정답지 없이 제안·시험·합치기로 고치고(4:47) 교훈을 다음 과제로 넘깁니다(6:18). 영상은 OpenRouter의 GLM-5.3으로 JobBench 회계 과제를 돌려 결과 파일과 채점표를 열어 보고(8:47~10:39), 비용과 인터넷 의존에서 어디가 깨지는지(13:38), 에이전트에 바로 쓸 네 가지(14:21)로 마무리합니다. 설명란에 따르면 실측은 과제 1개를 2번 돌린 것이라 논문의 3회 평균 수치와 직접 비교할 수 없고, 끝에 채널의 유료 강의 소개가 붙어 있습니다.",
@@ -132,19 +171,6 @@
       "curatedAt": "2026-11-19T23:18:25Z"
     },
     {
-      "id": "curated-20261120-yt-gptpark-gemini-gems-to-skills-ko",
-      "title": "GPT PARK의 AI팩트: 제미나이 젬이 '스킬'로 바뀌었다 — 내 젬을 스킬로 옮기고, 링크 하나로 스킬을 추가하고, 캔버스 기반 스킬엔 사고 수준을 보통 이상으로 (11분)",
-      "body": "GPT PARK의 AI팩트가 11분 16초 동안 제미나이의 젬(Gems)이 스킬로 바뀐 것을 화면으로 보여 줍니다. 기존 젬이 스킬로 자동 이전되는 변화(0:58), 내가 만든 젬을 직접 스킬로 옮기는 법(1:49), 공유받은 젬을 링크 하나로 스킬에 추가하는 법(3:58)을 차례로 다루고 '시각화 블로그 생성기 v2'와 '만능양식생성기'로 실제 결과물을 만듭니다(5:54~8:02). 설명란에 따르면 두 스킬은 캔버스 기반이라 무료 사용자는 사고 수준을 보통 이상(높음 추천)으로 두어야 하고, 만능양식생성기는 요청 뒤에 '캔버스로 만들어줘'를 붙였을 때 캔버스 앱으로 만들어졌으며(본인 테스트 기준), 자주 하는 실수 4가지(9:24)도 정리합니다. 채널이 젬 20여 개를 스킬로 바꿔 자기 사이트에 무료로 올렸고 도서 유료 프로모션 태그가 붙어 있으며, 2026년 11월 촬영 기준이라 화면과 메뉴 이름은 바뀔 수 있습니다.",
-      "titleEn": "GPT PARK's AI Fact: Gemini Gems became 'skills' - move your own Gem over, add a skill with one link, and set the thinking level to normal or higher for canvas-based skills (11 minutes)",
-      "bodyEn": "In 11m16s the Korean channel GPT PARK's AI Fact (GPT PARK의 AI팩트) shows on screen how Gemini's Gems turned into skills. He covers existing Gems being migrated to skills automatically (0:58), moving a Gem you made yourself (1:49) and adding a shared Gem to your skills with a single link (3:58), then builds real output with a visualization blog generator v2 and an all-purpose form generator (5:54-8:02). According to the description both are canvas-based, so free users should set the thinking level to normal or higher (high recommended), the form generator only became a canvas app when 'make it with canvas' was added to the request (by his own testing), and there are four common mistakes (9:24). The channel rebuilt about 20 of its Gems as skills and posted them free on its own site; the video carries a paid book-promotion tag and was shot in November 2026, so screens and menu names may change.",
-      "sourceName": "YouTube · GPT PARK의 AI팩트",
-      "sourceUrl": "https://www.youtube.com/watch?v=O3TbK1zeGC8",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=O3TbK1zeGC8",
-      "createdAt": "2026-11-18T09:30:21Z",
-      "curatedAt": "2026-11-19T23:18:25Z"
-    },
-    {
       "id": "curated-20261120-geeknews-agent-deletion-incidents-shell-ko",
       "title": "코딩 에이전트 삭제 사고 10건을 실행된 셸 명령으로 뜯어보니 — 대부분 넓게 지운 게 아니라 셸을 두 번 거치며 변수가 빈 값이 되거나 역슬래시가 드라이브 루트로 읽혀 다른 대상을 지웠다 (GeekNews·velog)",
       "body": "GeekNews(11월 17일)에 소개된 velog 글은 올해 9~11월 Claude Code·Codex·Antigravity·opencode에서 공개된 삭제 사고 10건을 원문 이슈와 실제로 실행된 명령까지 확인해 셸 수준의 원인으로 정리했습니다. 가장 많은 유형은 명령이 셸을 두 번 거치는 경우로, wsl -- bash -lc '... $R ...'에서 바깥 셸이 $R을 빈 값으로 먼저 펼쳐 rsync --delete가 /를 대상으로 돌았고, PowerShell에서 역슬래시로 따옴표를 감싼 cmd /c rmdir은 Antigravity와 Codex에서 각각 드라이브 루트 삭제로 이어졌습니다. 그 밖에 Git Bash의 cygpath가 /c/를 돌려줘 약 600GB가 지워진 사례, 공백에서 경로가 쪼개진 xargs가 macOS의 ~/Library를 지운 사례, --force를 붙인 git worktree remove가 정션 너머 파일을 지운 사례가 있고 10건 중 7건이 Windows였습니다. 대책으로 ${VAR:?}·-print0 | xargs -0·Remove-Item -LiteralPath·--force 없는 worktree remove 같은 습관과 권한 확인 창·샌드박스/VM·저장소 밖 백업·실행 전 훅을 비교하는데(확인 창은 계산 전의 식을 보여 주고, Claude Code 샌드박스는 Windows 직접 실행에는 적용되지 않고, 훅은 스크립트 파일 안의 명령을 못 본다고), 필자가 글에서 다룬 훅 도구 claude-bulkhead를 직접 만든다는 점은 감안하세요.",
@@ -169,32 +195,6 @@
       "mediaUrl": "",
       "createdAt": "2026-11-17T02:19:23Z",
       "curatedAt": "2026-11-19T23:18:25Z"
-    },
-    {
-      "id": "curated-20261119-hn-mastra-factory-agent-kanban",
-      "title": "Mastra Factory — Mastra 팀이 직접 쓰는 오픈소스 '소프트웨어 공장': 지난주 에이전트가 PR 238개를 머지(사람은 630개), Slack @멘션으로 칸반 작업을 굴리고 외부 기여는 이슈 재현만 받는다",
-      "body": "Show HN(11월 18일, 74점)에 올라온 Mastra Factory는 TypeScript 에이전트 프레임워크 Mastra 팀이 저장소를 유지하려고 만든 에이전트형 칸반 보드입니다. 팀 설명으로는 지난주 Factory가 PR 238개를 열어 머지했고 사람이 머지한 PR은 630개였으며, 처음엔 분류·계획·구현·리뷰·출시 흐름으로 시작해 3개월 뒤에는 대부분 Slack에서 @멘션으로 부린다고 합니다. 안에는 내구성 있는 에이전트, 대화 메모리, 출처를 다는 마크다운 위키, PR 코멘트 신호, 맞춤 클라우드 샌드박스와 코딩 하네스가 들어 있고(Claude Code·Codex 지원은 진행 중), npm create factory로 시작해 자체 인프라에서 돌릴 수 있습니다. 저장소를 외부 기여자에게 닫고 자세한 이슈 재현만 받는 방침도 눈에 띄는데, 댓글에서는 에이전트가 만든 UX 결과를 어떻게 검증하는지 답이 나오지 않았고 PR 수치는 팀 자체 집계입니다.",
-      "titleEn": "Mastra Factory - the open-source 'software factory' the Mastra team uses on itself: agents merged 238 PRs last week (humans merged 630), work runs as a kanban board driven by Slack @-mentions, and outside contributors are asked only for issue repros",
-      "bodyEn": "Mastra Factory, a Show HN on November 18 (74 points), is an agentic kanban board that the team behind the TypeScript agent framework Mastra built to maintain its own repo. By the team's account Factory opened and merged 238 PRs last week alongside 630 human-merged ones; it began as a triage, plan, build, review, shipped workflow and after three months is mostly driven through Slack @-mentions. Under the hood are durable agents, conversational memory, a markdown wiki with source citations, PR-comment signals, and a customizable cloud sandbox with a coding harness (Claude Code and Codex support is in progress), and you can start with npm create factory and run it on your own infrastructure. The repo is now closed to outside contributors, who are asked to write detailed issue repros instead; in the comments nobody answered how UX output built by agents gets verified, and the PR figures are the team's own tally.",
-      "sourceName": "Hacker News · Show HN",
-      "sourceUrl": "https://news.ycombinator.com/item?id=50548660",
-      "mediaType": "none",
-      "mediaUrl": "",
-      "createdAt": "2026-11-18T16:53:42Z",
-      "curatedAt": "2026-11-18T23:13:20Z"
-    },
-    {
-      "id": "curated-20261119-yt-mirapartners-claude-first-terminal-ko",
-      "title": "미라파트너스: 메일도 캘린더도 안 열고 터미널로 출근하는 회사 'Claude First' 2주 — Domain.md·Todo.md로 세션이 끊겨도 기억을 잇고, AI가 안 된다고 하면 '왜 안 돼?'를 한 번 더 묻는다 (28분)",
-      "body": "미라파트너스가 28분 25초 동안 'Claude First'를 시작한 지 2주 된 회사의 변화를 박미라 대표와 김시윤 팀장의 대화로 보여 줍니다. 자리에 앉으면 터미널부터 켜고 메일·캘린더·구글 드라이브를 직접 열지 않으며(1:26), 대화가 길어지면 AI가 인수인계 문서를 만들어 새 창으로 넘기고(3:21), 프로젝트 폴더에 Domain.md(규칙)와 Todo.md(할 일)를 남겨 세션을 껐다 켜도 기억을 잇는다고 합니다(5:01). 설명란이 권하는 한 가지는 긴 작업을 시작할 때 '이 작업의 규칙은 Domain.md에, 할 일은 Todo.md에 정리하고 기록해 놔'라고 시키고, AI가 안 된다고 하면 '왜 안 돼? 되는 방법은 없어?'를 한 번 더 묻는 것(9:16)이며, 매니저들의 사례 발표(17:51)와 다음 단계인 LLM Wiki(21:56)도 다룹니다. 챕터와 설명란을 기준으로 정리해 구체적인 수치는 확인하지 못했고, 설명란에는 VC 백오피스 상담 홍보가 붙어 있습니다.",
-      "titleEn": "MIRA Partners: a company that starts work in the terminal and never opens mail or calendar, two weeks into 'Claude First' - Domain.md and Todo.md carry memory across sessions, and when the AI says it can't, ask 'why not?' once more (28 minutes)",
-      "bodyEn": "In 28m25s the Korean channel MIRA Partners shows, through a conversation between CEO Park Mira and team lead Kim Siyoon, what changed two weeks after the company adopted 'Claude First'. They open the terminal as soon as they sit down and no longer open mail, calendar or Google Drive themselves (1:26); when a chat gets long the AI writes a handover document and passes it to a new window (3:21); and a Domain.md (rules) and Todo.md (to-dos) left in the project folder let memory survive restarting a session (5:01). The one thing the description tells you to try is to start a long task by saying 'put this task's rules in Domain.md and the to-dos in Todo.md and keep them updated', and when the AI says it can't do something, ask 'why not? is there a way?' once more (9:16); it also covers the managers' use-case presentations (17:51) and the next step, an LLM Wiki (21:56). This is summarized from the chapters and description, so I could not verify concrete figures, and the description carries a plug for a VC back-office consultation.",
-      "sourceName": "YouTube · MIRA PARTNERS",
-      "sourceUrl": "https://www.youtube.com/watch?v=_dy5ar94Ktk",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=_dy5ar94Ktk",
-      "createdAt": "2026-11-18T09:37:35Z",
-      "curatedAt": "2026-11-18T23:13:20Z"
     },
     {
       "id": "curated-20261119-geeknews-frontierharness-harness-by-model-ko",
