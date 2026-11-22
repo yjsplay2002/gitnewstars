@@ -1,6 +1,78 @@
 {
-  "generatedAt": "2026-11-21T23:10:36Z",
+  "generatedAt": "2026-11-22T23:14:55Z",
   "videos": [
+    {
+      "id": "vid-e4f6-devbrother-coordinator-agent-ko",
+      "youtubeId": "e4F6vEOoSoo",
+      "category": "usecase",
+      "title": "에이전트를 여러 개 돌리면 내가 병목이 된다 — 매니저·코디네이터·코딩 에이전트 세 계층과 난이도 A~D 모델 배정표",
+      "titleEn": "Why You Need a Coordinator Agent | Watch This If You're the Bottleneck",
+      "descKo": "일감을 물어오는 매니저, 어느 세션·모델에 맡길지 정하는 코디네이터, 계정 사용량과 기기 여유 분배, 사람은 '내 결정' 카드만 보는 칸반과 Paseo 플러그인 설치를 26분에 정리(설명란·챕터 기준, 배정표는 본인 작업 기준 예시).",
+      "descEn": "A 26-minute look at a manager that fetches work, a coordinator that picks the session and model, splitting by account usage and machine capacity, and a kanban where you only see 'my decision' cards, plus the Paseo plugin install (summarized from the description and chapters; the grading table is an example from his own work).",
+      "channel": "개발동생",
+      "publishedAt": "2026-11-22T14:34:19Z",
+      "addedAt": "2026-11-22T23:14:55Z"
+    },
+    {
+      "id": "vid-bksi-qjc-121-agents-company-ko",
+      "youtubeId": "bkSiof_CDDM",
+      "category": "usecase",
+      "title": "AI 에이전트로 일하는 법, 에이전트 121개가 굴리는 회사 직접 공개 — 컴퓨터 5대·자동 작업 119개·모델 라우팅",
+      "titleEn": "How to Work With AI Agents: A Look Inside the Company Run by 121 Agents",
+      "descKo": "컴퓨터 다섯 대를 한 사무실처럼 묶은 구조, 아침 보고 자동 작업 119개, 월 약 천만 원의 구독료와 모델 라우팅·부서 나누기로 비용 줄이기, 한 대로 시작하는 법을 21분에 공개(설명란·챕터 기준, 과정·멤버십 홍보 포함, 수치는 본인 운영 기준).",
+      "descEn": "A 21-minute tour of five computers wired like one office, 119 automated morning-report jobs, a subscription bill of about 10 million won a month, cutting cost with model routing and departments, and how to start with one machine (summarized from the description and chapters; includes course and membership plugs; figures are his own).",
+      "channel": "QJC 퀀텀점프클럽",
+      "publishedAt": "2026-11-21T12:00:32Z",
+      "addedAt": "2026-11-22T23:14:55Z"
+    },
+    {
+      "id": "vid-wpke-ddalkak-design-doc-first-ko",
+      "youtubeId": "wpKEY8OOfOI",
+      "category": "tip",
+      "title": "클로드 코드 잘하는 사람은 뭐가 다를까? 바이브 코딩 실전 워크플로우 — 설계서 먼저, 승인 전엔 한 줄도 금지",
+      "titleEn": "What Makes People Good at Claude Code Different? A Practical Vibe Coding Workflow",
+      "descKo": "업무 프로그램 200개 넘게 만들며 알게 된 무너지는 이유와 순서(현장 조사→설계서와 빨간펜→도면대로 제작), AI가 안 시킨 기능 6개를 2개로 거르는 장면을 15분에 정리(설명란·챕터 기준, 외주 서비스 홍보 포함).",
+      "descEn": "A 15-minute walk through why vibe-coded programs collapse and the order that prevents it after building 200+ work programs - site survey, a design doc with red-pen review, then building to the blueprint - including trimming 6 unrequested features to 2 (summarized from the description and chapters; includes a plug for the channel's outsourcing service).",
+      "channel": "딸깍 사장 - AI 바이브 코딩 자동화 전문가",
+      "publishedAt": "2026-11-18T05:57:27Z",
+      "addedAt": "2026-11-22T23:14:55Z"
+    },
+    {
+      "id": "vid-0rf9-natherk-claude-token-limit",
+      "youtubeId": "0RF9ml43ups",
+      "category": "tip",
+      "title": "Anthropic 엔지니어가 알려 주는 Claude 토큰 한도에 자꾸 걸리는 이유 — 작은 습관 3가지, 싼 모델로 바꾸면 오히려 더 든다",
+      "titleEn": "Anthropic Engineer Explains: How to Stop Hitting Claude's Token Limit",
+      "descKo": "Claude Code 개발에 참여한 Anthropic 엔지니어의 설명을 소개하며, 한도에 걸리는 건 많이 써서가 아니라 Claude가 두 배로 일하게 만드는 습관 3가지 때문이고 쉬운 질문에 싼 모델로 바꾸면 오히려 비용이 늘 수 있다는 내용을 12분에 정리(영어, 설명란·챕터 기준, 커뮤니티 홍보 포함).",
+      "descEn": "A 12-minute video relaying an Anthropic engineer who helped build Claude Code: hitting limits is likely down to three small habits that make Claude work twice as hard, and switching to a cheaper model for an easy question can cost more (English; summarized from the description and chapters; includes community plugs).",
+      "channel": "Nate Herk | AI Automation",
+      "publishedAt": "2026-11-22T15:39:28Z",
+      "addedAt": "2026-11-22T23:14:55Z"
+    },
+    {
+      "id": "vid-ualt-kimedu-claude-code-groq-classifier-ko",
+      "youtubeId": "uALt3JLvguA",
+      "category": "lecture",
+      "title": "[현장강의] 클로드 코드 + 무료 Groq API로 고객 문의 자동 분류기 만들기 — .env 키 보안부터 .exe 패키징까지",
+      "titleEn": "[Live Class] Claude Code: A Customer Inquiry Auto-Classifier That Runs on $0 Claude Credits - Claude Code + Free Groq API Python Program",
+      "descKo": "OAuth·API·MCP 개념 차이, 로컬 환경 세팅, Groq 키를 .env로 분리 보관, 고객 문의 CSV 자동 분류와 엑셀 저장, PyInstaller로 .exe 배포까지 5단계를 1시간 2분에 따라 하는 입문 강의(설명란 기준).",
+      "descEn": "A 1h02m beginner class in five steps: the difference between OAuth, API and MCP, local setup, keeping the Groq key in a .env file, auto-classifying customer-inquiry CSVs into an Excel file, and packaging an .exe with PyInstaller (summarized from the description).",
+      "channel": "KimEdu: Making AI Simple (김에듀)",
+      "publishedAt": "2026-11-22T02:05:03Z",
+      "addedAt": "2026-11-22T23:14:55Z"
+    },
+    {
+      "id": "vid-4upu-cloudxberry-spec-driven-development",
+      "youtubeId": "4uPU1Q5hlFA",
+      "category": "lecture",
+      "title": "스펙 주도 개발(SDD) 쉽게 설명 — 바이브 코딩 그만하고 '완료'를 확인할 수 있게 만드는 4단계",
+      "titleEn": "Spec-Driven Development (SDD) Explained: STOP Vibe Coding",
+      "descKo": "바이브 코딩이 잘하는 일과 한 곳을 고치면 다른 화면이 깨지는 순간, 스펙 주도 개발의 4단계를 실제 기능 예시로 풀고 Kiro·Spec Kit·지침 파일 같은 도구와 '완료'를 확인 가능하게 만드는 법을 11분에 설명(영어, 챕터 기준).",
+      "descEn": "An 11-minute explainer on what vibe coding is good at, the moment one fix breaks another screen, the four steps of spec-driven development worked on a real feature, tools such as Kiro, Spec Kit and instruction files, and making 'done' something you can check (English; summarized from the chapters).",
+      "channel": "Cloud X Berry",
+      "publishedAt": "2026-11-16T12:45:14Z",
+      "addedAt": "2026-11-22T23:14:55Z"
+    },
     {
       "id": "vid-2c3x-kimflip-mattpocock-skills-ko",
       "youtubeId": "2C3xTY10QR0",
@@ -38,18 +110,6 @@
       "addedAt": "2026-11-21T23:10:36Z"
     },
     {
-      "id": "vid-aqzr-agentos-openai-codex-six-ways",
-      "youtubeId": "_AqzRDkw8Vs",
-      "category": "tip",
-      "title": "OpenAI 개발자 경험 팀이 Codex로 일하는 6가지 방식 — 자정 배포 위임부터 새 모델마다 습관 버리기까지",
-      "titleEn": "6 Ways the OpenAI Developer Experience Team Works with Codex - From Delegating Midnight Deploys to Dropping Habits With Every New Model",
-      "descKo": "OpenAI의 Dominik Kundel·Charlie Guo 워크숍의 한국어판으로 맥락 모으기·자정 배포 위임·Appshots·저장소 밖 계획 페이지·Codex Cloud·음성과 Dots·추론 강도 낮추기를 43분에 정리(챕터·설명란 기준).",
-      "descEn": "A 43-minute Korean-language edition of the OpenAI workshop by Dominik Kundel and Charlie Guo: gathering context, delegating a midnight deploy, Appshots, plans on a shared page outside the repo, Codex Cloud, voice and Dots, and lowering reasoning effort (summarized from chapters and description).",
-      "channel": "AgentOS",
-      "publishedAt": "2026-11-19T11:36:29Z",
-      "addedAt": "2026-11-21T23:10:36Z"
-    },
-    {
       "id": "vid-v5i0-nateb-long-running-agents",
       "youtubeId": "v5I0nOoqAV4",
       "category": "tip",
@@ -74,18 +134,6 @@
       "addedAt": "2026-11-21T23:10:36Z"
     },
     {
-      "id": "vid-vlfc-aie-lydia-hallie-claude-code-best-practices",
-      "youtubeId": "vlfCjWuv4es",
-      "category": "tip",
-      "title": "Claude Code 베스트 프랙티스 다시 생각하기 — 모델이 좋아져 이제 필요 없는 것과 유지할 것 (Anthropic Lydia Hallie)",
-      "titleEn": "Rethinking Claude Code Best Practices - Lydia Hallie, Anthropic",
-      "descKo": "Claude 5.5 모델 기준으로 오토 모드 관리·안전과 환경·클라우드 환경·검증 전략·CI와 PR 확장·오케스트레이션을 짚으며, 지난 1년간 쌓은 설정 중 무엇이 오히려 발목을 잡는지 17분에 설명하는 Anthropic 발표(영어).",
-      "descEn": "A 17-minute Anthropic talk on what Claude Code best practices look like for the Claude 5.5 models - auto mode, safety and environment, cloud environments, verification, scaling with CI and PRs and orchestration - and which of last year's setup now holds the models back.",
-      "channel": "AI Engineer",
-      "publishedAt": "2026-11-12T03:26:55Z",
-      "addedAt": "2026-11-21T23:10:36Z"
-    },
-    {
       "id": "vid-mu8w-networkchuck-pocock-code-with-ai",
       "youtubeId": "mU8WKII1gpk",
       "category": "lecture",
@@ -95,18 +143,6 @@
       "descEn": "A 2h02m demo of Matt Pocock's Grill with Docs skill that makes the agent question you before any code, his grill, spec, tickets, subagents-in-worktrees, review and retro loop, and a trust ladder built on tests and types (includes sponsor links; summarized from the description and chapters).",
       "channel": "NetworkChuck",
       "publishedAt": "2026-11-20T17:25:28Z",
-      "addedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "vid-hppu-directors-ai-gemini4-orchestrator-ko",
-      "youtubeId": "hPPUL4du09I",
-      "category": "usecase",
-      "title": "아르곤·하이드로겐·네온 실측 비교, 제미나이 네온 오케스트레이터로 일 시켜 봤다 — 모션 그래픽·게임·기획서·글쓰기·알고리즘 3파전",
-      "titleEn": "Argon vs Hydrogen vs Neon Tested: Putting the Gemini Neon Orchestrator to Work",
-      "descKo": "같은 프롬프트를 제미나이 4 세 모델에 블라인드로 주고 결과를 비교한 뒤, 네온 오케스트레이터가 세 모델에 일을 나눠 시키고 결과를 한 화면에 정리하는 과정과 복사용 요청문 3개를 25분에 시연(영상 속 자체 테스트, 자사 제품·전자책 홍보 포함).",
-      "descEn": "A 25-minute test giving Gemini 4's three models the same prompts blind, then showing the Neon orchestrator hand out the work and collect the results on one screen, with three copy-ready prompts (the video's own tests; includes product and e-book plugs).",
-      "channel": "디렉터스AI",
-      "publishedAt": "2026-11-20T12:00:24Z",
       "addedAt": "2026-11-20T23:13:48Z"
     },
     {
@@ -134,18 +170,6 @@
       "addedAt": "2026-11-19T23:18:25Z"
     },
     {
-      "id": "vid-d7zg-dante-google-harness-squared-ko",
-      "youtubeId": "d7zGxl4FFgQ",
-      "category": "lecture",
-      "title": "구글 Harness², AI 에이전트가 자기 하네스를 스스로 고친다 — 개념부터 직접 실행까지",
-      "titleEn": "Google Harness²: AI Agents That Fix Their Own Harness - From Concept to Hands-On Run",
-      "descKo": "에이전트가 일을 받을 때마다 하네스의 여덟 칸을 정답지 없이 제안·시험·합치기로 고치는 Harness²를 GLM-5.3 실행과 결과 파일 분석으로 15분에 설명(과제 1개×2회라 논문 수치와 직접 비교 불가, 강의 홍보 포함).",
-      "descEn": "A 15-minute explanation of Harness², where an agent repairs eight slots of its own harness per task by propose, test and merge with no answer key, with a GLM-5.3 run and a look at the result files (one task run twice, so not comparable with the paper's figures; includes a course plug).",
-      "channel": "단테",
-      "publishedAt": "2026-11-19T09:00:32Z",
-      "addedAt": "2026-11-19T23:18:25Z"
-    },
-    {
       "id": "vid-fseb-shawn-codex-full-course",
       "youtubeId": "fsEbDUVjFUE",
       "category": "lecture",
@@ -155,30 +179,6 @@
       "descEn": "A free 1h59m course that plans and builds an AI jobs dashboard and deploys it via GitHub and Vercel, then covers scheduled nightly code reviews, Codex Browser and Record & Replay turned into a skill, subagents and custom agents, and a launch video (free prompts provided).",
       "channel": "Shawn's AI Builds",
       "publishedAt": "2026-11-17T14:00:20Z",
-      "addedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "vid-6ijj-shinssam-ego-lite-claude-codex-ko",
-      "youtubeId": "6IjJJGlEuH8",
-      "category": "usecase",
-      "title": "무료 AI 브라우저 에고라이트 사용법 — 클로드 코드·코덱스 연결해서 업무 자동화하기 (설치부터 활용까지)",
-      "titleEn": "How to Use the Free AI Browser Ego Lite: Connect Claude Code and Codex to Automate Work (From Install to Use)",
-      "descKo": "에고라이트에 클로드 코드·코덱스를 /ego로 연결해 내 로그인 상태 그대로 네이버 뉴스 정리, 유튜브 댓글 답글 초안, 맥미니 최저가 6곳 비교 후 엑셀 저장, 신청서 제출 직전에 멈추기를 9분에 시연(2026년 11월 Windows 베타 기준, 제작사 유료 광고 포함).",
-      "descEn": "A 9-minute demo of connecting Claude Code and Codex to Ego Lite with /ego so the AI works in your logged-in browser: summarizing Naver news, drafting YouTube reply comments, comparing Mac mini prices at six shops into a spreadsheet, and stopping just before submitting a form (shot on the November 2026 Windows beta; includes a paid ad from the maker).",
-      "channel": "유튜브신쌤",
-      "publishedAt": "2026-11-17T11:00:26Z",
-      "addedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "vid-hu7c-jamwithai-claude-code-10-levels",
-      "youtubeId": "h_U-7ci4aF0",
-      "category": "tip",
-      "title": "Claude Code 1,000시간 쓴 사람이 17분에 정리 — 설정·메모리·MCP·스킬·훅·서브에이전트·예약 실행까지 10단계",
-      "titleEn": "1,000+ hours of Claude Code in 17 mins",
-      "descKo": "빈 저장소에서 시작해 설정·메모리·CLAUDE.md·워크트리·MCP·스킬·훅·서브에이전트·/goal·예약 실행·Remote Control까지 10단계를 17분에 쌓아 가는 입문 영상으로, 1~4단계는 오늘 바로 해 보고 서드파티 도구는 설치 전 확인하라고 안내(영어).",
-      "descEn": "A 17-minute beginner walkthrough that starts from an empty repo and climbs 10 levels - setup, memory, CLAUDE.md, worktrees, MCP, skills, hooks, subagents, /goal, scheduled runs and Remote Control - advising you to do levels 1 to 4 today and to check any third-party tool before installing.",
-      "channel": "Jam With AI | Shirin Khosravi Jam",
-      "publishedAt": "2026-11-18T08:05:26Z",
       "addedAt": "2026-11-20T23:13:48Z"
     }
   ]
