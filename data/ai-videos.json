@@ -1,6 +1,90 @@
 {
-  "generatedAt": "2026-11-22T23:14:55Z",
+  "generatedAt": "2026-11-23T23:18:38Z",
   "videos": [
+    {
+      "id": "vid-tkoa-mindung-boris-prompt-three-things-ko",
+      "youtubeId": "TkOaKEM47lk",
+      "category": "tip",
+      "title": "클로드 코드 만든 보리스가 공개한 진짜 사용법 — 길게 쓰지 말고 무엇을·얼마나 공들일지·어떻게 확인할지 세 가지만",
+      "titleEn": "The Real Way to Use Claude Code, From Its Creator Boris (Top 0.1%)",
+      "descKo": "긴 프롬프트 대신 무엇을 시킬지·얼마나 공들일지·어떻게 확인할지 세 가지만 알려 주고, 매번 하는 말은 CLAUDE.md에 잘된 작업은 스킬로 남기는 법을 11분에 정리(설명란·챕터 기준).",
+      "descEn": "An 11-minute summary of Boris Cherny's prompting style: tell Claude Code only what to do, how much care to take and how to check, keep repeated instructions in CLAUDE.md and turn work that went well into a skill (summarized from the description and chapters).",
+      "channel": "민둥이 | 쉽게 배우는 AI",
+      "publishedAt": "2026-11-23T12:38:12Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
+    {
+      "id": "vid-h4th-ibm-vibe-coding-vs-agentic-coding",
+      "youtubeId": "h4tHDFCPmQE",
+      "category": "lecture",
+      "title": "바이브 코딩 vs 에이전틱 코딩, 무엇을 써야 할까 — 맥락·계획·테스트·검증·보안 비교",
+      "titleEn": "Vibe Coding vs. Agentic Coding: Which Should You Use?",
+      "descKo": "프로토타입·프로덕션 기능·복잡한 코드 변경에 바이브 코딩과 에이전틱 코딩 중 무엇이 맞는지 맥락·계획·테스트·검증·보안 기준으로 비교하고, 집중된 맥락 주기와 가드레일을 8분에 설명(영어, 챕터 기준).",
+      "descEn": "An 8-minute IBM Technology explainer comparing vibe coding with agentic coding across context, planning, testing, validation and security, covering which fits prototypes versus production features, focused context for coding agents and guardrails (English; summarized from the description and chapters).",
+      "channel": "IBM Technology",
+      "publishedAt": "2026-11-23T12:00:09Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
+    {
+      "id": "vid-qfve-toeai-claude-code-kakao-assistant-ko",
+      "youtubeId": "qFvEqpR_Ax8",
+      "category": "usecase",
+      "title": "이제 클로드 코드가 카톡을 보냅니다 — 카카오 PlayMCP 커넥터로 업계 브리핑·환율·월말 마감 알림 비서 만들기 (퇴사한아빠의 클로드 코드 완전정복 2)",
+      "titleEn": "Claude Code Now Sends You KakaoTalk Messages: Build a Work Assistant With Kakao PlayMCP",
+      "descKo": "카카오톡 나챗방 도구와 클로드 커스텀 커넥터를 붙여 문장 하나로 아침 업계 브리핑·환율·월말 마감 비서를 만들고, 첫 카톡이 '확인 못 함'으로 온 뒤 고치는 과정과 알아 둘 5가지를 9분에 보여 줌(설명란·챕터 기준, 무료 프롬프트 신청 안내 포함).",
+      "descEn": "A 9-minute demo of connecting Kakao's KakaoTalk My Chatroom tool to a Claude custom connector and building morning-briefing, exchange-rate and month-end assistants from one sentence, including how the first 'could not verify' message gets fixed and five cautions (summarized from the description and chapters; includes a free-prompt offer).",
+      "channel": "퇴사한아빠",
+      "publishedAt": "2026-11-23T08:30:12Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
+    {
+      "id": "vid-jz4q-erictech-claude-code-10min-smarter",
+      "youtubeId": "Jz4QT0vH-MU",
+      "category": "tip",
+      "title": "10분이면 클로드 코드가 100배 똑똑해진다 — 7칸 브리프·통과/실패 확인·작은 CLAUDE.md·스킬·노력 수준 5가지",
+      "titleEn": "Give Me 10 Minutes and I'll Make Claude Code 100x Smarter",
+      "descKo": "긴 프롬프트를 쓰지 말라며 보리스의 프롬프트 방식과 7칸 브리프(2:57), 통과/실패 확인(3:34), 작은 CLAUDE.md(4:36), 반복 업무용 스킬(6:05), 노력 수준 고르기(7:20)를 10분에 설명(영어, 설명란·챕터 기준, 커뮤니티 홍보 포함).",
+      "descEn": "A 10-minute talk on dropping long prompts: how Boris prompts, a seven-part brief, a pass-or-fail check, a small CLAUDE.md, skills for repeat work and picking the right effort level (English; summarized from the description and chapters; includes community plugs).",
+      "channel": "Eric Tech",
+      "publishedAt": "2026-11-22T18:35:17Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
+    {
+      "id": "vid-qv3j-ddalkak-build-own-ai-agent-ko",
+      "youtubeId": "Qv3J47JUNOc",
+      "category": "usecase",
+      "title": "AI 써도 일이 안 줄었던 이유 — 클로드 데스크톱 앱에서 10분 만에 나만의 AI 에이전트 만들기 (맥락·설계 프롬프트·카드뉴스·기억 파일)",
+      "titleEn": "Why Using AI Didn't Reduce Your Workload | Build Your Own AI Agent in 10 Minutes (Claude Code)",
+      "descKo": "채팅과 에이전트의 차이, 폴더 연결, 안내 문서 만들기, 설계 프롬프트로 에이전트 만들기, 카드뉴스 시키기, 피드백을 기억 파일에 남기기까지 4단계를 13분에 따라 하는 영상(설명란·챕터 기준, Pro 이상 요금제 필요).",
+      "descEn": "A 13-minute follow-along on the difference between chat and an agent, connecting a folder, writing a guide document, creating the agent with a design prompt, having it make card news and saving feedback to a memory file (summarized from the description and chapters; needs a Pro or higher plan).",
+      "channel": "딸깍 사장 - AI 바이브 코딩 자동화 전문가",
+      "publishedAt": "2026-11-21T22:35:54Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
+    {
+      "id": "vid-uug5-austinmarchese-self-improving-agents",
+      "youtubeId": "UUg5oij7ptw",
+      "category": "usecase",
+      "title": "스스로 나아지는 AI 에이전트 만들기(스탠퍼드 방식) — 생성기·검증기·코치 세 역할과 자동화 3단계",
+      "titleEn": "How To Build Self-Improving AI Agents with Claude (Stanford's Method)",
+      "descKo": "스탠퍼드 강의의 틀로 일하는 생성기(2:13), 채점하는 검증기(3:43), 한 번에 하나만 고치자고 제안하는 코치(6:42)를 만들고 사람 제안·AI 제안 후 승인·완전 자동의 3단계 중 고르는 법을 17분에 설명(영어, 설명란·챕터 기준, 제휴 링크 포함).",
+      "descEn": "A 17-minute walk through building a generator that does the work, a verifier that grades it and a coach that proposes one change at a time using Stanford's framework, then choosing among three levels: you suggest, AI suggests and you approve, or fully automatic (English; summarized from the description and chapters; includes affiliate links).",
+      "channel": "Austin Marchese",
+      "publishedAt": "2026-11-21T14:45:00Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
+    {
+      "id": "vid-ndva-hurd-reverse-prompting-interview-me-ko",
+      "youtubeId": "NDVAXNHUlio",
+      "category": "tip",
+      "title": "AI한테 내 의도를 완벽하게 전하는 기술 — 리버스 프롬프팅으로 AI가 먼저 질문하게 만들고 /interview-me 스킬로 세팅하기",
+      "titleEn": "The Technique for Telling AI Exactly What You Mean (Prompt Included)",
+      "descKo": "What만 말하고 Why를 빠뜨려 결과가 어긋나는 이유와 AI가 먼저 질문하게 하는 리버스 프롬프팅의 원리, Addy Osmani의 /interview-me 스킬, Claude Code·Codex·ChatGPT·Gemini용 원샷 세팅 프롬프트를 12분에 정리(설명란·챕터 기준).",
+      "descEn": "A 12-minute explainer on why results drift when you give the What but not the Why, how reverse prompting makes the AI ask first, Addy Osmani's /interview-me skill and a one-shot setup prompt for Claude Code, Codex, ChatGPT and Gemini (summarized from the description and chapters).",
+      "channel": "허드의 AI딸깍",
+      "publishedAt": "2026-11-20T01:04:33Z",
+      "addedAt": "2026-11-23T23:18:38Z"
+    },
     {
       "id": "vid-e4f6-devbrother-coordinator-agent-ko",
       "youtubeId": "e4F6vEOoSoo",
@@ -23,18 +107,6 @@
       "descEn": "A 21-minute tour of five computers wired like one office, 119 automated morning-report jobs, a subscription bill of about 10 million won a month, cutting cost with model routing and departments, and how to start with one machine (summarized from the description and chapters; includes course and membership plugs; figures are his own).",
       "channel": "QJC 퀀텀점프클럽",
       "publishedAt": "2026-11-21T12:00:32Z",
-      "addedAt": "2026-11-22T23:14:55Z"
-    },
-    {
-      "id": "vid-wpke-ddalkak-design-doc-first-ko",
-      "youtubeId": "wpKEY8OOfOI",
-      "category": "tip",
-      "title": "클로드 코드 잘하는 사람은 뭐가 다를까? 바이브 코딩 실전 워크플로우 — 설계서 먼저, 승인 전엔 한 줄도 금지",
-      "titleEn": "What Makes People Good at Claude Code Different? A Practical Vibe Coding Workflow",
-      "descKo": "업무 프로그램 200개 넘게 만들며 알게 된 무너지는 이유와 순서(현장 조사→설계서와 빨간펜→도면대로 제작), AI가 안 시킨 기능 6개를 2개로 거르는 장면을 15분에 정리(설명란·챕터 기준, 외주 서비스 홍보 포함).",
-      "descEn": "A 15-minute walk through why vibe-coded programs collapse and the order that prevents it after building 200+ work programs - site survey, a design doc with red-pen review, then building to the blueprint - including trimming 6 unrequested features to 2 (summarized from the description and chapters; includes a plug for the channel's outsourcing service).",
-      "channel": "딸깍 사장 - AI 바이브 코딩 자동화 전문가",
-      "publishedAt": "2026-11-18T05:57:27Z",
       "addedAt": "2026-11-22T23:14:55Z"
     },
     {
@@ -62,18 +134,6 @@
       "addedAt": "2026-11-22T23:14:55Z"
     },
     {
-      "id": "vid-4upu-cloudxberry-spec-driven-development",
-      "youtubeId": "4uPU1Q5hlFA",
-      "category": "lecture",
-      "title": "스펙 주도 개발(SDD) 쉽게 설명 — 바이브 코딩 그만하고 '완료'를 확인할 수 있게 만드는 4단계",
-      "titleEn": "Spec-Driven Development (SDD) Explained: STOP Vibe Coding",
-      "descKo": "바이브 코딩이 잘하는 일과 한 곳을 고치면 다른 화면이 깨지는 순간, 스펙 주도 개발의 4단계를 실제 기능 예시로 풀고 Kiro·Spec Kit·지침 파일 같은 도구와 '완료'를 확인 가능하게 만드는 법을 11분에 설명(영어, 챕터 기준).",
-      "descEn": "An 11-minute explainer on what vibe coding is good at, the moment one fix breaks another screen, the four steps of spec-driven development worked on a real feature, tools such as Kiro, Spec Kit and instruction files, and making 'done' something you can check (English; summarized from the chapters).",
-      "channel": "Cloud X Berry",
-      "publishedAt": "2026-11-16T12:45:14Z",
-      "addedAt": "2026-11-22T23:14:55Z"
-    },
-    {
       "id": "vid-2c3x-kimflip-mattpocock-skills-ko",
       "youtubeId": "2C3xTY10QR0",
       "category": "tip",
@@ -86,18 +146,6 @@
       "addedAt": "2026-11-21T23:10:36Z"
     },
     {
-      "id": "vid-nrar-betterstack-claude-code-code-mode",
-      "youtubeId": "nraROC2wl8s",
-      "category": "tip",
-      "title": "Claude Code의 새 Code Mode를 6번 돌려 봤다 — 도구 호출을 코드로 묶으면 약 18% 빠르고 더 일정해진다",
-      "titleEn": "I Tested Claude Code's New Code Mode 6 Times",
-      "descKo": "Code Mode를 켠 3번과 끈 3번의 같은 리팩터링을 비교해 같은 비용에 약 18% 빠르고 더 일정했다는 결과, 켜는 법과 자동 모드와 함께 쓸 때의 걸림돌을 9분에 정리(영어, 설명란 기준 요약, 개인 시험 6회).",
-      "descEn": "A 9-minute comparison of the same refactor run three times with Code Mode on and three times off - about 18% faster and more consistent at the same cost - plus how to enable it and a catch with auto mode (summarized from the description; a six-run personal test).",
-      "channel": "Better Stack",
-      "publishedAt": "2026-11-20T03:06:15Z",
-      "addedAt": "2026-11-21T23:10:36Z"
-    },
-    {
       "id": "vid-hani-aiwithsurya-antigravity-seven-ways",
       "youtubeId": "HANILv4mTzk",
       "category": "usecase",
@@ -107,18 +155,6 @@
       "descEn": "A 16-minute walk through seven ways to work with agents in Antigravity - Just Ask, Subagents, Orchestrator, Workflows, Swarm, Boost and Teamwork - compared on one apartment-move example, with when not to use each and the new /btw side threads (demo data is made up).",
       "channel": "AI with Surya",
       "publishedAt": "2026-11-21T01:00:37Z",
-      "addedAt": "2026-11-21T23:10:36Z"
-    },
-    {
-      "id": "vid-v5i0-nateb-long-running-agents",
-      "youtubeId": "v5I0nOoqAV4",
-      "category": "tip",
-      "title": "에이전트가 밤새 일해도 같은 설명을 또 하게 되는 이유 — 프로젝트 정보를 코드처럼, 스킬과 권한은 팀용으로",
-      "titleEn": "Anthropic Ran 1,000 AI Agents For 8 Days. Yours Still Needs The Same Thing Explained Again.",
-      "descKo": "장기 실행 에이전트가 원하는 일을 하게 하려면 올바른 맥락을 쥐여 주고 프로젝트 정보를 코드처럼 다루며 팀용 스킬·권한·충돌 방지를 갖추라는 내용을 20분에 정리(영어, 설명란·챕터 기준, 뉴스레터 홍보 포함).",
-      "descEn": "A 20-minute talk on keeping long-running agents on track - put the right context in front of them, treat project information like code, and set up team skills, permissions and collision avoidance (summarized from description and chapters; includes newsletter plugs).",
-      "channel": "AI News & Strategy Daily | Nate B Jones",
-      "publishedAt": "2026-11-20T15:00:03Z",
       "addedAt": "2026-11-21T23:10:36Z"
     },
     {
@@ -143,42 +179,6 @@
       "descEn": "A 2h02m demo of Matt Pocock's Grill with Docs skill that makes the agent question you before any code, his grill, spec, tickets, subagents-in-worktrees, review and retro loop, and a trust ladder built on tests and types (includes sponsor links; summarized from the description and chapters).",
       "channel": "NetworkChuck",
       "publishedAt": "2026-11-20T17:25:28Z",
-      "addedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "vid-oyzl-gongyeosa-claude-code-beginner-ko",
-      "youtubeId": "oYZl2zabPNQ",
-      "category": "lecture",
-      "title": "요즘 일할 때 클로드부터 켜는 이유 — 10분 만에 따라 하는 AI 업무 자동화 (바탕화면·영수증·엑셀 지출 내역, 무료 실습 파일)",
-      "titleEn": "Why I Open Claude First When I Work Now: 10-Minute AI Work Automation (Free Practice File)",
-      "descKo": "클로드 코드 왕초보 실습으로 설치와 작업 폴더 제한부터 바탕화면 정리, 영수증 사진 35장 정리, 엑셀 지출 내역 만들기까지 10분에 따라 하고 '신입사원에게 시키듯 구체적으로' 말하는 법을 소개(무료 실습 파일, 책·웨비나 홍보 포함).",
-      "descEn": "A 10-minute beginner practice in Claude Code, from installing and limiting the work folder to tidying the desktop, sorting 35 receipt photos and building an expense spreadsheet, with the advice to be as specific as you'd be with a new hire (free practice file; includes book and webinar plugs).",
-      "channel": "공여사들",
-      "publishedAt": "2026-11-20T11:00:10Z",
-      "addedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "vid-klr7-builderjosh-claude-code-aside-80days-ko",
-      "youtubeId": "KLR7GoH-Sco",
-      "category": "usecase",
-      "title": "클로드 코드에 어사이드 브라우저 붙여 쓰는 법, 반복 루틴 12개와 스킬로 일을 통째로 맡기는 과정 — 80일·태스크 1,524개 기록",
-      "titleEn": "How to Use the Aside Browser With Claude Code: 12 Recurring Routines and Skills to Hand Off Whole Jobs",
-      "descKo": "Claude Code에 aside CLI를 연결해 80일간 태스크 1,524개·루틴 12개를 돌린 기록으로, 되는 일을 스킬로 묶고 루틴으로 올리는 순서와 허위 보고·중복 실행·계정 정지 시행착오를 42분에 정리(스폰서 링크 포함, 수치는 본인 집계).",
-      "descEn": "A 42-minute record of connecting the aside CLI to Claude Code and running 1,524 tasks and 12 routines over 80 days: bundle what works into a skill, promote it to a routine, and the false reports, duplicate runs and account suspension along the way (includes a sponsor link; figures are his own tallies).",
-      "channel": "빌더 조쉬 Builder Josh",
-      "publishedAt": "2026-11-19T06:07:02Z",
-      "addedAt": "2026-11-19T23:18:25Z"
-    },
-    {
-      "id": "vid-fseb-shawn-codex-full-course",
-      "youtubeId": "fsEbDUVjFUE",
-      "category": "lecture",
-      "title": "OpenAI Codex 풀코스 (2시간) — 웹앱을 만들어 배포하고 브라우저 자동화·스킬·서브에이전트·론칭 영상까지",
-      "titleEn": "OpenAI Codex Full Course: Beginner to Advanced (2 Hours)",
-      "descKo": "AI 구인 대시보드를 계획·구현해 GitHub와 Vercel에 배포하고, 야간 코드 리뷰 예약, Codex Browser·Record & Replay로 만든 스킬, 서브에이전트와 커스텀 에이전트, 론칭 영상까지 1시간 59분에 안내하는 무료 강의(영어, 무료 프롬프트 제공).",
-      "descEn": "A free 1h59m course that plans and builds an AI jobs dashboard and deploys it via GitHub and Vercel, then covers scheduled nightly code reviews, Codex Browser and Record & Replay turned into a skill, subagents and custom agents, and a launch video (free prompts provided).",
-      "channel": "Shawn's AI Builds",
-      "publishedAt": "2026-11-17T14:00:20Z",
       "addedAt": "2026-11-20T23:13:48Z"
     }
   ]
