@@ -1,17 +1,77 @@
 {
-  "generatedAt": "2026-11-24T23:13:48Z",
+  "generatedAt": "2026-11-25T23:14:56Z",
   "videos": [
     {
-      "id": "vid-8aoq-claude-managed-agents-lessons",
-      "youtubeId": "8Aoq6mJeAXI",
+      "id": "vid-mngn-kyleschool-claude-code-mcp-connectors-ko",
+      "youtubeId": "MngNatzs2PU",
       "category": "lecture",
-      "title": "Claude Platform에서 에이전트를 만들며 배운 것 — Managed Agents의 하네스·실행 환경 분리, 동적 워크플로, 에이전트 기억 '드리밍'",
-      "titleEn": "Lessons from building agents on the Claude Platform",
-      "descKo": "Anthropic이 Managed Agents 인프라를 세 번 만든 뒤 얻은 교훈을 비용 관리(1:50), 동적 워크플로와 멀티 에이전트 하네스(4:50), 두뇌와 손의 분리(8:10), 고객 사례(10:30), 기억 정리 '드리밍'(12:15)으로 16분에 설명(영어, 설명란·챕터 기준).",
-      "descEn": "A 16-minute Anthropic talk on what it learned building Managed Agents infrastructure three times: managing cost, dynamic workflows and multi-agent harnesses, decoupling the brain from the hands, customer examples and how 'dreaming' consolidates agent memory (English; summarized from the description and chapters).",
-      "channel": "Claude",
-      "publishedAt": "2026-11-24T17:01:50Z",
-      "addedAt": "2026-11-24T23:13:48Z"
+      "title": "Claude Code 사용법 4강 — MCP(커넥터)로 노션·슬랙·구글 캘린더 연결하기 (비개발자용)",
+      "titleEn": "Claude Code Tutorial Part 4: Connecting Notion, Slack, and Google Calendar via MCP (Connectors)",
+      "descKo": "MCP·커넥터·스킬·플러그인 용어 정리(4:05), MCP 찾기와 설치(6:57~7:35), CLI·API·MCP 선택 기준(10:15)에 이어 Claude Desktop에서 노션·슬랙을 연결하고 여행 일정을 노션과 구글 캘린더에 넣는 실습을 24분에 설명(설명란·챕터 기준, 2026년 11월 화면).",
+      "descEn": "A 24-minute lesson that sorts out MCP, connectors, skills and plugins, shows how to find and install an MCP and choose between CLI, API and MCP, then connects Notion and Slack in Claude Desktop and puts a trip plan into Notion and Google Calendar (summarized from the description and chapters; November 2026 screens).",
+      "channel": "카일스쿨",
+      "publishedAt": "2026-11-25T09:15:30Z",
+      "addedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "vid-m8nz-darrelwilson-codex-beginner-masterclass",
+      "youtubeId": "M8nzX321W8E",
+      "category": "lecture",
+      "title": "Codex 초보자 마스터클래스 — 웹과 데스크톱 앱 비교, 요금제, 프롬프트 쓰는 법부터 PDF·웹사이트·견적 계산기·워드프레스 플러그인까지",
+      "titleEn": "Codex Tutorial for Beginners | What It Costs and What You Can Build",
+      "descKo": "Codex 웹과 데스크톱 앱 비교(2:20), ChatGPT·Codex 요금제(3:35), 상세 프롬프트 쓰기(7:50), 모델·추론 수준 고르기(14:30)에 이어 브랜드 PDF, 부동산 웹사이트, 견적 계산기, 워드프레스 폼 플러그인을 만드는 과정을 31분에 보여 줌(영어, 설명란·챕터 기준, Hostinger 제휴 링크 포함).",
+      "descEn": "A 31-minute beginner course on Codex: web versus desktop app, ChatGPT and Codex plans, writing detailed prompts and choosing a model and reasoning level, then building a branded PDF, a real-estate website, a quote calculator and a WordPress contact-form plugin (English; summarized from the description and chapters; includes a Hostinger affiliate link).",
+      "channel": "Darrel Wilson",
+      "publishedAt": "2026-11-24T15:30:26Z",
+      "addedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "vid-7i8b-peteryang-antigravity-five-steps",
+      "youtubeId": "7I8B7CQky0Y",
+      "category": "lecture",
+      "title": "안티그래비티 95%를 17분에 — 설치·모델 선택, 오케스트레이터·/grill-me 계획, 스킬 v1→v3, /swarm·/btw, GitHub 공개까지 5단계 (Gemini 4 Neon)",
+      "titleEn": "Learn 95% of Google Antigravity in 17 Minutes (with Gemini 4 Neon)",
+      "descKo": "/video-explainer 스킬을 만들며 설치와 플러그인(1:11), 오케스트레이터·음성 모드·/grill-me 계획(2:55), 스킬 반복(6:14), /swarm·/btw·원격 제어(9:09), GitHub 공개(12:50), 주간 자동화(14:41)를 17분에 익히는 영상(영어, Google 후원, 설명란·챕터 기준).",
+      "descEn": "A 17-minute course that builds a /video-explainer skill to cover installing and plugins, the Orchestrator, voice mode and /grill-me planning, skill iteration, /swarm, /btw and remote control, publishing on GitHub and weekly automations (English; sponsored by Google; summarized from the description and chapters).",
+      "channel": "Peter Yang",
+      "publishedAt": "2026-11-24T14:00:07Z",
+      "addedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "vid-imsy-robonuggets-agents-vs-skills",
+      "youtubeId": "IMSYKloMFrE",
+      "category": "tip",
+      "title": "Anthropic 엔지니어들이 에이전트 대신 만든다는 것 — 에이전트와 스킬의 차이, 스킬 제작기·Skillify·화면 녹화로 스킬 만들기 레벨 0~6",
+      "titleEn": "Anthropic's Engineers Stopped Building AI Agents (Here's What They Build Instead)",
+      "descKo": "에이전트 vs 스킬(1:20)을 설명한 뒤 직접 하기, 스킬 제작기(5:43), Skillify(6:51), 화면 녹화(9:11), 단계를 넘어서기(10:21), 남의 스킬 빌리기(12:26), 더 똑똑한 모델(13:33)의 레벨 0~6으로 스킬 만드는 법을 16분에 정리(영어, 챕터 기준이며 설명란에 커뮤니티·제휴 링크 다수).",
+      "descEn": "A 16-minute video that explains agents versus skills, then walks through levels 0 to 6 of building skills: by hand, the skill creator, Skillify, screen recording, going beyond steps, borrowing skills and smarter models (English; summarized from the chapters; the description is full of community and affiliate links).",
+      "channel": "Jay E | RoboNuggets",
+      "publishedAt": "2026-11-23T23:02:47Z",
+      "addedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "vid-bkvd-googlecloud-production-agent-roadmap",
+      "youtubeId": "BKVDdL1InsA",
+      "category": "lecture",
+      "title": "Google 엔지니어가 프로덕션 AI 에이전트를 만드는 법 — 프롬프트 대신 루프·하네스 엔지니어링, Learn·Guard·Review·Score 4층 로드맵",
+      "titleEn": "How Google engineers build AI agents in production (complete roadmap)",
+      "descKo": "스킬의 3단계 점진적 공개(6:13), 결정론적 가드레일과 git 훅(8:22), 대형 AI PR 리뷰와 UI 영상 QA(13:35), 도구 사용·비결정성·멀티턴·워크플로 평가 패턴(22:45~26:12)을 5명의 Google 엔지니어가 27분에 설명(영어, 설명란·챕터 기준, Google 제품 링크 포함).",
+      "descEn": "A 27-minute talk by five Google engineers on a four-layer production blueprint: skills with three-stage progressive disclosure, deterministic guardrails and git hooks, reviewing large AI-generated PRs with UI video QA, and evaluation patterns for tool use, non-determinism, multi-turn and workflows (English; summarized from the description and chapters; includes Google product links).",
+      "channel": "Google Cloud Tech",
+      "publishedAt": "2026-11-23T17:04:05Z",
+      "addedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "vid-ynhx-dante-everything-claude-code-harness-ko",
+      "youtubeId": "yNHXQdpm9S0",
+      "category": "tip",
+      "title": "해커톤 우승자의 클로드 코드 하네스, 안을 열어 보니 — Everything Claude Code의 에이전트·스킬·규칙·훅 구조와 한 조각씩 가져오는 5가지",
+      "titleEn": "Inside a Hackathon Winner's Claude Code Harness (Everything Claude Code)",
+      "descKo": "ECC 저장소 지도(1:25), 부품과 배포(3:13), 실행·기억·점검(6:04), 설치(10:44), 같은 일을 ECC 있고 없고 5번씩 돌려 비교(12:51), 내 작업에 한 조각씩 적용하기(14:07)를 17분에 설명(설명란·챕터 기준, 강의 홍보 포함).",
+      "descEn": "A 17-minute look at the Everything Claude Code repository map, parts and distribution, execution, memory and checks, installation, a five-run comparison of the same task with and without ECC, and five ways to adopt it one piece at a time (summarized from the description and chapters; includes course promotion).",
+      "channel": "단테",
+      "publishedAt": "2026-11-22T09:00:26Z",
+      "addedAt": "2026-11-25T23:14:56Z"
     },
     {
       "id": "vid-a8ra-googlecloud-post-build-interrogation",
@@ -23,18 +83,6 @@
       "descEn": "A 22-minute Build It! episode on uncovering the assumptions Gemini filled in even when you build from a spec: a tutor prompt, database-sync questions, the offline edge case, documenting the issues and adding planning mode (English; summarized from the description and chapters).",
       "channel": "Google Cloud Tech",
       "publishedAt": "2026-11-24T14:00:34Z",
-      "addedAt": "2026-11-24T23:13:48Z"
-    },
-    {
-      "id": "vid-wg9l-milan-claude-code-vps-sandbox",
-      "youtubeId": "Wg9l-ObI90w",
-      "category": "tip",
-      "title": "Claude Code를 노트북에서 빼세요 — VPS 개발 컨테이너 샌드박스, HTTPS 허용 목록 방화벽, tmux와 휴대폰 원격 제어",
-      "titleEn": "Stop Running Claude Code on Your Laptop",
-      "descKo": "Ubuntu VPS의 개발 컨테이너 안에만 Claude Code를 설치하고 방화벽으로 Claude·GitHub·NuGet 외 HTTPS를 막으며, tmux로 24시간 유지하고 Remote Control로 휴대폰에서 조종하는 구성을 17분에 설명(영어, 챕터 없음, VPS 제휴 링크 포함).",
-      "descEn": "A 17-minute walkthrough of installing Claude Code only inside a dev container on an Ubuntu VPS, firewalling HTTPS to Claude, GitHub and NuGet, keeping it alive with tmux and driving it from a phone with Remote Control (English; no chapters; includes VPS affiliate links).",
-      "channel": "Milan Jovanović",
-      "publishedAt": "2026-11-24T11:00:03Z",
       "addedAt": "2026-11-24T23:13:48Z"
     },
     {
@@ -50,18 +98,6 @@
       "addedAt": "2026-11-24T23:13:48Z"
     },
     {
-      "id": "vid-1j-eq-hurd-same-ai-different-results-ko",
-      "youtubeId": "1J-eqQ97kOY",
-      "category": "tip",
-      "title": "다 같은 AI를 써도 결과가 완전히 다른 이유 — 시작 전 비교하고 걸러내기, 선택 이유 되묻기, 막히면 원인 3줄 먼저",
-      "titleEn": "Why the Same AI Gives Completely Different Results (Prompt Included)",
-      "descKo": "어휘와 안목(Taste)이 결과를 가른다며, 랜딩 페이지를 만들면서 시작 전 비교·걸러내기(4:31), 결과물 뒤 선택 이유 되묻기(5:52), 막혔을 때 원인 3줄 먼저(6:41)를 9분에 정리(챗GPT·클로드·코덱스 공통, 세팅 프롬프트는 고정 댓글).",
-      "descEn": "A 9-minute talk, built around making a landing page, on how vocabulary and taste decide the result: compare and filter before starting, ask why a choice was made after the output, and write three lines on the cause first when stuck (works in ChatGPT, Claude and Codex; setup prompt in the pinned comment).",
-      "channel": "허드의 AI딸깍",
-      "publishedAt": "2026-11-23T23:55:11Z",
-      "addedAt": "2026-11-24T23:13:48Z"
-    },
-    {
       "id": "vid-go2q-ddalkak-ai-employee-advanced-ko",
       "youtubeId": "GO2qCPXPFdo",
       "category": "usecase",
@@ -74,18 +110,6 @@
       "addedAt": "2026-11-24T23:13:48Z"
     },
     {
-      "id": "vid-emkb-yangsiljang-mwa-bmad-harness-ko",
-      "youtubeId": "emkB2qENjjg",
-      "category": "usecase",
-      "title": "BMad v7 기반 자동 구축 하네스 my-web-agency — 실제 500만 원 외주 공고로 기획·설계·티켓 분해·무인 개발까지",
-      "titleEn": "An Automated Build Harness Based on BMad v7, Made by Manager Yang",
-      "descKo": "PM·UX·아키텍트·개발 에이전트가 위시캣 외주 공고를 받아 요구사항 분석(5:03), 기술 스택 결정(8:06), 에픽·스토리 분해(14:21), 개발 전 자동 점검(15:26), 무인 개발(16:30)을 진행하는 과정을 18분에 시연(하네스는 12월 7일부터 수강생 배포, 설명란·챕터 기준).",
-      "descEn": "An 18-minute demo of PM, UX, architect and developer agents taking a Wishket freelance posting through requirements analysis, stack choice, epic and story breakdown, a pre-development check and unattended development (the harness ships to enrolled students from December 7; summarized from the description and chapters).",
-      "channel": "양실장의 바이브코딩대학",
-      "publishedAt": "2026-11-24T05:35:07Z",
-      "addedAt": "2026-11-24T23:13:48Z"
-    },
-    {
       "id": "vid-o5sl-billybro-codex-seller-automation-ko",
       "youtubeId": "O5sLKTUd7Nk",
       "category": "usecase",
@@ -95,30 +119,6 @@
       "descEn": "A 20-minute demo of an online seller using Codex: installation, ordering tasks for automation, analyzing negative Coupang reviews, comparing wholesale products, shortlisting by margin and samples, then thumbnails and detail pages (summarized from the description and chapters; includes chat-room promotion).",
       "channel": "빌리브로 - 정확한 온라인 판매의 기준",
       "publishedAt": "2026-11-24T10:00:13Z",
-      "addedAt": "2026-11-24T23:13:48Z"
-    },
-    {
-      "id": "vid-y7sg-codefactory-paseo-orchestration-ko",
-      "youtubeId": "y7SgV6A7tDs",
-      "category": "lecture",
-      "title": "Paseo로 LLM 오케스트레이션 액기스 모음 — 워크스페이스·탭 분할·에이전트로 에이전트 실행·병렬 리서치·스케줄·모바일 연결",
-      "titleEn": "The Best of LLM Orchestration With Paseo",
-      "descKo": "Paseo 소개(0:00), 프로젝트 등록과 워크스페이스(0:43), 에이전트로 다른 에이전트 실행(4:06), 에이전트 4개 병렬 리서치(5:10), 스케줄·사용량·알림(7:00), 모바일·원격 호스트(8:12), 플러그인 대시보드(10:14)를 13분에 훑는 챕터 중심 안내.",
-      "descEn": "A 13-minute chaptered tour of Paseo: registering projects and workspaces, running one agent from another, four-agent parallel research, schedules, usage and notifications, mobile and remote hosts, and plugin dashboards (summarized from the chapters).",
-      "channel": "코드팩토리",
-      "publishedAt": "2026-11-24T09:00:28Z",
-      "addedAt": "2026-11-24T23:13:48Z"
-    },
-    {
-      "id": "vid-nemy-dalbee-claude-code-video-editing-ko",
-      "youtubeId": "nEmYQ84JrUc",
-      "category": "usecase",
-      "title": "AI 영상편집 '프리미어를 한 번도 안 열었습니다' — 클로드 코드로 녹화 원본을 30초 인트로로, 받아쓰기·자막·모션 그래픽 (스킬 공유)",
-      "titleEn": "AI Video Editing: \"I Never Opened Premiere\" - What Happens When Claude Automates It (Skill Shared)",
-      "descKo": "Claude Code 설치(2:24), 영상편집 프롬프트(5:06), Whisper 받아쓰기와 자막 분절, 하이퍼프레임 모션 그래픽으로 녹화 원본을 30분 안쪽에 인트로로 만들고 주간 한도 6%를 쓴 과정을 13분에 보여 줌(설명란·챕터 기준, 커뮤니티 홍보 포함).",
-      "descEn": "A 13-minute demo of having Claude Code turn a screen recording into a 30-second intro without opening Premiere - install, editing prompt, Whisper transcription and caption splitting, HyperFrames motion graphics, taking under 30 minutes and about 6% of the weekly limit (summarized from the description and chapters; includes community plugs).",
-      "channel": "달비의 작업실 | AI 자동화",
-      "publishedAt": "2026-11-24T10:00:17Z",
       "addedAt": "2026-11-24T23:13:48Z"
     },
     {

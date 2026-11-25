@@ -1,18 +1,96 @@
 {
-  "generatedAt": "2026-11-24T23:13:48Z",
+  "generatedAt": "2026-11-25T23:14:56Z",
   "posts": [
     {
-      "id": "curated-20261125-yt-claude-managed-agents-lessons",
-      "title": "Claude: Managed Agents를 세 번 만들고 얻은 교훈 — 두뇌(하네스)와 손(실행 환경)을 분리하고, 여러 에이전트를 묶는 동적 워크플로, 세션 사이에 기억을 정리하는 '드리밍' (16분, 영어)",
-      "body": "Anthropic의 공식 Claude 채널이 16분 28초 동안 Claude Managed Agents 인프라를 세 번 만든 뒤 고객용 플랫폼으로 내놓기까지 배운 점을 정리합니다. 제품 담당 Jess Yan, 엔지니어 Michael Cohen과 Lance Martin이 모델 변화를 따라가며 비용을 관리하는 법(1:50), 동적 워크플로와 멀티 에이전트 하네스로 여러 에이전트의 일을 조율하는 법(4:50), 하네스와 실행 환경을 분리해 확장하는 구조(8:10)를 다룹니다. 이어 고객 사례(10:30)와 에이전트가 세션 사이에 저장한 기억을 정리하는 '드리밍'(12:15)이 나오니, 에이전트 플랫폼을 직접 설계한다면 참고할 만한 공식 발표입니다. 제품 소개 성격이고 이 요약은 설명란과 챕터 기준이니 구체적인 설정은 영상과 문서에서 확인하세요.",
-      "titleEn": "Claude: lessons from building Managed Agents three times - separate the brain (harness) from the hands (execution environment), dynamic workflows that coordinate many agents, and 'dreaming' that consolidates memory between sessions (16 minutes)",
-      "bodyEn": "In 16m28s the official Claude channel recounts what Anthropic learned building the Claude Managed Agents infrastructure three times before turning it into a customer platform. Product manager Jess Yan and engineers Michael Cohen and Lance Martin cover keeping up with models and managing cost (1:50), using dynamic workflows and multi-agent harnesses to coordinate many agents (4:50), and scaling by decoupling the harness from its execution environment (8:10). They then show how customers build with it (10:30) and how 'dreaming' consolidates what agents store in memory between sessions (12:15), which makes it a useful official reference if you are designing your own agent platform. It is a product talk and this summary follows the description and chapters, so check the video and docs for concrete settings.",
-      "sourceName": "YouTube · Claude",
-      "sourceUrl": "https://www.youtube.com/watch?v=8Aoq6mJeAXI",
+      "id": "curated-20261126-geeknews-rockbox-llm-yp3-port-ko",
+      "title": "LLM으로 문서 없는 9달러 MP3 플레이어에 Rockbox 포팅 — RAM 512KiB 기기를 일주일 만에 부팅하고, 에이전트가 Ghidra·웹캠·Bluetooth 어댑터로 기기를 관찰하며 양방향 개발 셸로 복구·플래싱·버튼 테스트를 자동화 (GeekNews, HN 198점)",
+      "body": "GeekNews(11월 26일)에 소개된 글(원문 블로그는 11월 14일자, HN 198점·댓글 81개)은 SRAM이 512 KiB뿐이고 칩 문서도 없는 배송비 포함 9.71달러짜리 AliExpress MP3 플레이어 YP3에 오픈소스 펌웨어 Rockbox를 올린 기록입니다. LLM이 코드를 쓰고 사람이 방향과 테스트를 맡아 약 일주일 만에 부팅과 음악 재생에 성공했고, 이후 한 달가량 최적화와 버그 수정을 했습니다. 기기를 분해하거나 납땜하지 않고 에이전트가 기존 플래시 도구, Ghidra, 웹캠, 오디오 입력, Bluetooth 어댑터로 기기를 관찰하고 제어했으며, 단방향 USB 로그를 양방향 개발 셸로 넓혀 복구 모드 진입·펌웨어 기록·화면 확인·무작위 버튼 테스트를 자동화하자 수백 시간의 벤치 테스트에서 Rockbox 자체의 버그까지 나왔습니다. 이 도구와 절차를 auto-rockbox로 재사용해 다음 플레이어는 약 4시간 만에 알파 빌드에 닿았지만, 함께 넣은 플러그인 357개는 품질 검증이 충분하지 않다고 필자가 밝혔고 이 요약은 GeekNews 정리 기준입니다.",
+      "titleEn": "Porting Rockbox to an undocumented $9 MP3 player with LLMs - booting a 512 KiB RAM device in a week, with agents observing it through Ghidra, a webcam and a Bluetooth adapter and a two-way dev shell that automates recovery, flashing and button testing (GeekNews, HN 198 points)",
+      "bodyEn": "A write-up featured on GeekNews (November 26; the original blog post is dated November 14 and drew 198 points and 81 comments on HN) records putting the open-source Rockbox firmware on the YP3, a $9.71 AliExpress MP3 player with only 512 KiB of SRAM and no chip documentation. The LLM wrote the code while the human set direction and ran tests, and it booted and played music in about a week, followed by roughly a month of optimization and bug fixing. Without taking the device apart or soldering, agents observed and controlled it through an existing flash tool, Ghidra, a webcam, audio input and a Bluetooth adapter; widening a one-way USB log into a two-way dev shell let them automate entering recovery mode, writing firmware, checking the screen and random button testing, and hundreds of hours of bench tests turned up bugs in Rockbox itself. He reused the tools and procedure as auto-rockbox, so the next player reached an alpha build in about four hours, though the author says the 357 plugins added in the same release were not verified well enough; this summary follows the GeekNews write-up.",
+      "sourceName": "GeekNews · jayd.ml",
+      "sourceUrl": "https://news.hada.io/topic?id=37853",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-25T21:34:31Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "curated-20261126-geeknews-claude-navigation-pdca-ko",
+      "title": "Claude Navigation — Claude Code가 이미 버린 방법을 다시 꺼내지 않게 프로젝트를 가설→실행→평가로 기록하는 폴더 템플릿: /pdca 명령 4개와 기록하지 않으면 응답을 막는 훅 (GeekNews)",
+      "body": "GeekNews(11월 25일) Show GN에 올라온 글은 Claude Code로 몇 주짜리 작업을 하면 새 세션마다 지금까지 한 일을 다시 설명해야 하고, 지난주에 안 된다고 결론 낸 방법을 AI가 또 제안하는 문제를 막는 폴더 템플릿입니다. 서버나 가입 없이 폴더를 복사해 /pdca-init을 실행하면 되고, /pdca-start는 목표·현재 위치·이어갈 지점을 파일에서 읽어 브리핑하며 /pdca-status와 /pdca-wrap까지 명령은 4개입니다. 안 된 방향은 이유와 다시 시도할 조건을 붙여 남겨 새 사이클을 시작하기 전에 대조하고, 한 일을 기록하지 않으면 훅이 응답을 막아 세션이 끊겨도 기록이 남으며, 목표에 가장 가까웠던 시도도 따로 적어 둡니다. 만든 사람이 직접 사이드 프로젝트에 쓰며 의견을 받는 초기 단계의 템플릿이고 이 요약은 GeekNews 소개글 기준이니, 적용 전에 구성을 확인하세요.",
+      "titleEn": "Claude Navigation - a folder template that records a project as hypothesis, run, evaluation so Claude Code stops reviving approaches it already dropped: four /pdca commands and a hook that blocks replies until work is logged (GeekNews)",
+      "bodyEn": "A Show GN post on GeekNews (November 25) offers a folder template aimed at a problem anyone doing multi-week work in Claude Code knows: every new session you re-explain what has been done, and the AI proposes again a method you concluded last week doesn't work. There is no server or sign-up - copy the folder and run /pdca-init - and there are four commands: /pdca-init, /pdca-start (the AI reads the goal, current position and where to resume from the files and briefs you), /pdca-status and /pdca-wrap. Dropped directions are kept with the reason and the condition for retrying and checked against before each new cycle, a hook blocks the reply if you haven't logged what you did so the record survives a cut-off session, and the attempt closest to the goal is logged separately. It is an early template its maker uses on his own side project while asking for feedback, and this summary follows the GeekNews post, so check the structure before adopting it.",
+      "sourceName": "GeekNews · Show GN",
+      "sourceUrl": "https://news.hada.io/topic?id=37839",
+      "mediaType": "none",
+      "mediaUrl": "",
+      "createdAt": "2026-11-25T14:10:12Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "curated-20261126-yt-kyleschool-claude-code-mcp-connectors-ko",
+      "title": "카일스쿨: Claude Code 4강 — MCP·커넥터·스킬·플러그인 용어를 한 번에 정리하고, Claude Desktop에 노션·슬랙을 붙여 여행 일정을 노션에 저장한 뒤 구글 캘린더에 넣는 실습 (24분)",
+      "body": "카일스쿨이 24분 2초 동안 비개발자를 위해 Claude Code에 메일·캘린더·노션·슬랙 같은 외부 도구를 연결하는 방법을 정리합니다. MCP는 에이전트가 외부 프로그램과 연결되는 약속, 커넥터는 클릭만으로 붙는 MCP, 플러그인은 MCP와 스킬을 묶은 패키지라는 용어 구분(4:05)에 이어 MCP를 찾고 설치하는 법(6:57~7:35)과 CLI·API·MCP 중 무엇을 고를지 정하는 기준(10:15)을 다룹니다. 실습에서는 Claude Desktop에 노션(12:42)과 슬랙(14:13) 커넥터를 연결하고, 여행 일정을 짜서 노션에 저장한 뒤(17:07) 구글 캘린더에 넣습니다(18:42). 마무리는 MCP는 사용할 때만 켜고(21:06) 매주 하는 업무는 스킬로 만들라는 조언이며, 이 요약은 설명란과 챕터 기준이고 2026년 11월 화면이라 메뉴가 달라질 수 있습니다.",
+      "titleEn": "Kyle's School: Claude Code lesson 4 - sort out MCP, connectors, skills and plugins in one go, then connect Notion and Slack to Claude Desktop, save a trip plan to Notion and put it on Google Calendar (24 minutes)",
+      "bodyEn": "In 24m02s the Korean channel Kyle's School (카일스쿨) walks non-developers through connecting outside tools such as mail, calendar, Notion and Slack to Claude Code. It separates the terms - MCP is the agreement that lets an agent talk to outside programs, a connector is an MCP you attach with a click, and a plugin bundles MCP with skills (4:05) - then shows how to find and install an MCP (6:57-7:35) and how to choose between CLI, API and MCP (10:15). In the hands-on part it connects the Notion (12:42) and Slack (14:13) connectors in Claude Desktop, builds a trip plan, saves it to Notion (17:07) and puts it on Google Calendar (18:42). It closes with the advice to switch MCPs on only while you use them (21:06) and to turn weekly chores into skills (21:21); this summary follows the description and chapters, and the screens are from November 2026 so menus may differ.",
+      "sourceName": "YouTube · 카일스쿨",
+      "sourceUrl": "https://www.youtube.com/watch?v=MngNatzs2PU",
       "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=8Aoq6mJeAXI",
-      "createdAt": "2026-11-24T17:01:50Z",
-      "curatedAt": "2026-11-24T23:13:48Z"
+      "mediaUrl": "https://www.youtube.com/watch?v=MngNatzs2PU",
+      "createdAt": "2026-11-25T09:15:30Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "curated-20261126-yt-peteryang-antigravity-five-steps",
+      "title": "Peter Yang: 구글 안티그래비티를 5단계로 익히기(Gemini 4 Neon) — 오케스트레이터·음성 모드·/grill-me로 계획하고, /video-explainer 스킬을 v1에서 v3까지 다듬은 뒤 /swarm·/btw로 반복해 GitHub에 공개 (17분, 영어)",
+      "body": "Peter Yang이 17분 16초 동안 Antigravity를 초보에서 고급까지 5단계로 보여 주며, 어떤 주제든 모션·일러스트·3D 스타일의 짧은 설명 영상으로 바꿔 주는 오픈소스 /video-explainer 스킬을 만듭니다. 설치와 모델 선택·스레드 정리·플러그인 연결(1:11), 오케스트레이터와 음성 모드, /grill-me로 계획 세우기(2:55), 스킬을 v1에서 v3까지 반복하기(6:14), /swarm·/btw·원격 제어·브라우저 사용으로 다듬기(9:09), 정리해서 GitHub에 올리기(12:50) 순서이고 보너스로 주간 설명 영상을 예약 자동화합니다(14:41). 설명란에 Google 후원 영상이라고 밝혀 두었으니 홍보가 섞였음을 감안하고, 이 요약은 설명란과 챕터 기준입니다.",
+      "titleEn": "Peter Yang: learn Google Antigravity in five steps (Gemini 4 Neon) - plan with the Orchestrator, voice mode and /grill-me, iterate a /video-explainer skill from v1 to v3, refine with /swarm and /btw, and publish it on GitHub (17 minutes)",
+      "bodyEn": "In 17m16s Peter Yang takes Antigravity from beginner to pro in five steps while building an open-source /video-explainer skill that turns any topic into a short explainer video in motion, illustrated or 3D style. The steps are installing, picking a model, organizing threads and connecting plugins (1:11); planning with the Orchestrator, voice mode and /grill-me (2:55); building the skill and iterating from v1 to v3 (6:14); refining with /swarm, /btw, remote control and browser use (9:09); and cleaning it up and launching it on GitHub (12:50), with a bonus on scheduling a weekly explainer through automations (14:41). The description says the video is sponsored by Google, so expect promotion mixed in, and this summary follows the description and chapters.",
+      "sourceName": "YouTube · Peter Yang",
+      "sourceUrl": "https://www.youtube.com/watch?v=7I8B7CQky0Y",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=7I8B7CQky0Y",
+      "createdAt": "2026-11-24T14:00:07Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "curated-20261126-yt-ilmeori-pickle-claude-code-notion-ko",
+      "title": "AI일머리: 피클에 시킨 일을 클로드 코드에 복사 붙여넣지 말고 노션 표 하나로 잇기 — '노션 확인해' 한마디로 엑셀 3개와 공지문 만들기, 연결 명령 한 줄과 CLAUDE.md 네 줄 (9분)",
+      "body": "AI일머리가 9분 20초 동안 AI 비서 앱 피클에 말로 시킨 업무 세 건을 노션 표에 쌓고, 클로드 코드에는 '노션 확인해' 한마디만 해서 엑셀 3개와 공지문이 만들어지는 과정을 보여 줍니다. 연결은 노션 표 만들기(3:38), 피클에 노션 연결(4:39), 터미널에서 claude mcp add --transport http notion https://mcp.notion.com/mcp를 실행한 뒤 /mcp에서 notion을 골라 로그인하는 3단계(5:21)입니다. CLAUDE.md 네 줄(5:36)은 상태가 '피클 접수'인 카드를 읽어 결과/ 폴더에 엑셀·텍스트로 저장하고, 시작과 끝에 상태를 바꾸며, 카드에 없는 숫자와 사실은 지어내지 않는다는 내용입니다. 써 보며 알게 된 팁(7:03)과 주의할 점(8:13)도 있고, 이 요약은 설명란과 챕터 기준입니다.",
+      "titleEn": "AI Ilmeori: stop copy-pasting what you told Pickle into Claude Code - link them with one Notion table, so 'check Notion' makes three Excel files and a notice, with one connect command and four lines of CLAUDE.md (9 minutes)",
+      "bodyEn": "In 9m20s the Korean channel AI Ilmeori (AI일머리) has three jobs spoken to the AI assistant app Pickle land in a Notion table, then says only 'check Notion' to Claude Code and gets three Excel files and a notice. The connection takes three steps: build the Notion table (3:38), connect Notion to Pickle (4:39) and connect it to Claude Code (5:21) by running claude mcp add --transport http notion https://mcp.notion.com/mcp in a terminal, picking notion under /mcp and logging in. The four lines of CLAUDE.md (5:36) tell it to read cards whose status is 'received by Pickle', save the results as Excel or text in a results folder, change the status at the start and the end, and never invent numbers or facts that are not on the card. Tips learned from using it (7:03) and cautions (8:13) follow, and this summary follows the description and chapters.",
+      "sourceName": "YouTube · AI일머리",
+      "sourceUrl": "https://www.youtube.com/watch?v=61qBl0ZbSeg",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=61qBl0ZbSeg",
+      "createdAt": "2026-11-24T08:00:37Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "curated-20261126-yt-googlecloud-production-agent-roadmap",
+      "title": "Google Cloud Tech: Google 엔지니어 다섯 명이 말하는 프로덕션 AI 에이전트 로드맵 — 프롬프트 대신 루프·하네스 엔지니어링, Learn·Guard·Review·Score 4층과 스킬의 3단계 점진적 공개 (28분, 영어)",
+      "body": "Google Cloud Tech가 27분 31초 동안 10분이면 만드는 에이전트 데모를 테스트 삭제나 깨진 PR 없이 프로덕션까지 가져가는 4층 구조를 설명합니다. Learn은 간결한 컨텍스트 지도·마크다운 메모리·모듈형 스킬이고, 스킬은 발견·활성화·실행의 3단계 점진적 공개로 컨텍스트를 아끼며(6:13) Google Cloud Developer Plugin에는 스킬 150개 이상이 들어 있습니다(7:11). Guard는 git 훅·비밀 스캐너·재시도 한도로 에이전트가 테스트를 속이지 못하게 막고(8:22~12:12), Review는 대형 AI PR을 파일별 대화형으로 보거나 Gemini로 UI 영상 QA를 하는 방법(13:35~19:13), Score는 도구 사용·비결정성·멀티턴·멀티 에이전트 워크플로 네 가지 평가 패턴을 다룹니다(20:57~26:12). 설명란에 Antigravity와 Google Cloud 플러그인 링크가 붙은 Google 제품 소개 성격이고, 이 요약은 설명란과 챕터 기준입니다.",
+      "titleEn": "Google Cloud Tech: five Google engineers on the roadmap for production AI agents - loop and harness engineering instead of prompt engineering, a four-layer Learn, Guard, Review and Score blueprint and three-stage progressive disclosure for skills (28 minutes)",
+      "bodyEn": "In 27m31s Google Cloud Tech explains a four-layer structure for taking an agent demo that takes ten minutes to build all the way to production without deleted tests or broken PRs. Learn is concise context maps, markdown memory and modular skills; skills save context through three-stage progressive disclosure - discovery, activation and execution (6:13) - and the Google Cloud Developer Plugin ships 150+ skills (7:11). Guard uses git hooks, secret scanners and retry limits so the agent cannot cheat its way to green tests (8:22-12:12), Review covers going through large AI-generated PRs file by file interactively and doing UI video QA with Gemini (13:35-19:13), and Score covers four evaluation patterns: tool use, non-determinism, multi-turn and multi-agent workflows (20:57-26:12). The description links Antigravity and the Google Cloud plugin, so it doubles as Google product promotion, and this summary follows the description and chapters.",
+      "sourceName": "YouTube · Google Cloud Tech",
+      "sourceUrl": "https://www.youtube.com/watch?v=BKVDdL1InsA",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=BKVDdL1InsA",
+      "createdAt": "2026-11-23T17:04:05Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
+    },
+    {
+      "id": "curated-20261126-yt-dante-everything-claude-code-harness-ko",
+      "title": "단테: 해커톤 우승자의 Claude Code 설정 Everything Claude Code(ECC)를 열어 보니 — 에이전트·스킬·규칙·훅이 나뉜 구조, 같은 과제를 ECC 있고 없고 5번씩 비교, 통째로 깔지 말고 한 조각씩 가져오는 5가지 (17분)",
+      "body": "단테가 16분 40초 동안 Anthropic이 함께 연 해커톤에서 1등 한 개발자가 공개한 Claude Code 설정 Everything Claude Code(affaan-m/ECC)를 층층이 뜯어봅니다. 에이전트·스킬·규칙·훅이 저장소에서 어떻게 나뉘는지(1:25~3:13), 실행·기억·점검 장치가 어떻게 이어지는지(6:04), 설치 프로필과 설치 방법(10:44)을 보고, 같은 과제를 ECC 있고 없고 다섯 번씩 돌려 비교합니다(12:51). 결론은 통째로 깔기보다 내 작업에 한 조각씩 가져가라는 것이고 그 다섯 가지 방법을 실제 화면으로 보여 줍니다(14:07). 설명란에 영상 기준 커밋의 README와 훅·planner 에이전트 소스 링크가 정리돼 있고 강의 홍보가 붙어 있으며, 이 요약은 설명란과 챕터 기준이니 비교 결과는 영상에서 확인하세요.",
+      "titleEn": "Dante: opening the Claude Code setup of a hackathon winner, Everything Claude Code (ECC) - how agents, skills, rules and hooks are split, the same task run five times with and without ECC, and five ways to take one piece at a time instead of installing it all (17 minutes)",
+      "bodyEn": "In 16m40s the Korean channel Dante (단테) opens up layer by layer Everything Claude Code (affaan-m/ECC), the Claude Code setup published by the developer who won first place at a hackathon co-hosted with Anthropic. It looks at how agents, skills, rules and hooks are split in the repository (1:25-3:13), how execution, memory and checking pieces connect (6:04), and the install profiles and installation (10:44), then runs the same task five times with and without ECC to compare (12:51). The conclusion is to take it one piece at a time into your own work rather than installing everything, and it shows five ways to do that on screen (14:07). The description lists the README at the commit used in the video plus links to the hooks and planner-agent sources and plugs the author's courses; this summary follows the description and chapters, so check the video for the comparison result.",
+      "sourceName": "YouTube · 단테",
+      "sourceUrl": "https://www.youtube.com/watch?v=yNHXQdpm9S0",
+      "mediaType": "video",
+      "mediaUrl": "https://www.youtube.com/watch?v=yNHXQdpm9S0",
+      "createdAt": "2026-11-22T09:00:26Z",
+      "curatedAt": "2026-11-25T23:14:56Z"
     },
     {
       "id": "curated-20261125-yt-googlecloud-post-build-interrogation",
@@ -25,19 +103,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=a8RaOENF34M",
       "createdAt": "2026-11-24T14:00:34Z",
-      "curatedAt": "2026-11-24T23:13:48Z"
-    },
-    {
-      "id": "curated-20261125-yt-milan-claude-code-vps-sandbox",
-      "title": "Milan Jovanović: Claude Code를 노트북에서 빼서 VPS 샌드박스로 — 개발 컨테이너 안에만 설치하고 방화벽으로 Claude·GitHub·NuGet 외 HTTPS는 막고, tmux로 24시간 돌리며 휴대폰에서 원격 조종 (17분, 영어)",
-      "body": "Milan Jovanović가 17분 1초 동안 Claude Code를 노트북이 아니라 VPS의 개발 컨테이너(dev container) 안에서 돌리는 구성을 보여 줍니다. 평범한 Ubuntu VPS에 Docker·Node·Dev Container CLI를 깔고 컨테이너 안에만 Claude Code를 설치해 호스트에는 없게 하며, 방화벽 스크립트가 Claude·GitHub·NuGet으로 가는 HTTPS만 열고 나머지 호스트는 거부합니다. tmux로 접속을 끊어도 세션을 유지하고, Remote Control로 휴대폰의 Claude 앱에 연결하며, SSH 터널로 샌드박스 안에서 만든 앱을 열어 봅니다. 설명란에 Hostinger VPS 제휴·할인 링크가 붙어 있고 챕터는 없으니, 따라 하기 전에 방화벽 허용 목록을 내 프로젝트가 쓰는 호스트에 맞게 바꿔야 합니다.",
-      "titleEn": "Milan Jovanovic: stop running Claude Code on your laptop - install it only inside a dev container on a VPS, firewall HTTPS to just Claude, GitHub and NuGet, keep it running 24/7 with tmux and drive it from your phone (17 minutes)",
-      "bodyEn": "In 17m01s Milan Jovanovic shows how he moved Claude Code off his laptop and into a dev container on a VPS. On a plain Ubuntu VPS he installs Docker, Node and the Dev Container CLI and puts Claude Code only inside the container so it isn't on the host at all, and a firewall script lets HTTPS through to Claude, GitHub and NuGet while rejecting other hosts. tmux keeps the session alive when he disconnects, Remote Control connects it to the Claude app on his phone, and an SSH tunnel lets him open the app it builds inside the sandbox. The description carries Hostinger VPS affiliate and discount links and there are no chapters, so adjust the firewall allow-list to the hosts your own project uses before copying it.",
-      "sourceName": "YouTube · Milan Jovanović",
-      "sourceUrl": "https://www.youtube.com/watch?v=Wg9l-ObI90w",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=Wg9l-ObI90w",
-      "createdAt": "2026-11-24T11:00:03Z",
       "curatedAt": "2026-11-24T23:13:48Z"
     },
     {
@@ -67,19 +132,6 @@
       "curatedAt": "2026-11-24T23:13:48Z"
     },
     {
-      "id": "curated-20261125-yt-yangsiljang-mwa-bmad-harness-ko",
-      "title": "양실장의 바이브코딩대학: BMad v7 기반 자동 구축 하네스 my-web-agency — PM·UX·아키텍트·개발 에이전트가 실제 500만 원 외주 공고로 요구사항 분석부터 설계·티켓 분해·무인 개발까지 (18분)",
-      "body": "양실장의 바이브코딩대학이 18분 8초 동안 직접 만든 하네스 my-web-agency(MWA)를 시연합니다. BMAD v7을 바탕으로 PM·UX 디자이너·아키텍트·개발 에이전트가 역할을 나눠, 위시캣에 올라온 실제 500만 원 외주 공고를 입력하면(1:16~5:03) 요구사항 분석, Next.js·FastAPI 기술 스택 결정(8:06), MVP 범위와 완료 조건(8:24), 기획 문서·화면 설계·에픽과 스토리 분해(10:39~14:21)를 거쳐 자동 개발 모드로 넘어갑니다(10:13). 자동·수동 모드와 '결정 공백' 개념(4:25), 개발 직전 자동 점검(15:26), 개발 도중 변경 요청과 실행 제어(17:08)도 다룹니다. 하네스는 12월 7일부터 권한이 있는 수강생이 마이페이지에서 내려받는 방식이라 지금은 구조와 흐름을 참고하는 영상이고, 설명란에 과정 홍보가 있으며 이 요약은 설명란과 챕터 기준입니다.",
-      "titleEn": "Yang Siljang's Vibe Coding University: a BMad v7-based automatic build harness, my-web-agency - PM, UX, architect and developer agents take a real 5 million won freelance posting from requirements analysis through design and ticket breakdown to unattended development (18 minutes)",
-      "bodyEn": "In 18m08s the Korean channel Yang Siljang's Vibe Coding University (양실장의 바이브코딩대학) demos the harness he built, my-web-agency (MWA). Based on BMAD v7, a PM, UX designer, architect and developer agent split the roles: given a real 5 million won freelance posting from Wishket (1:16-5:03) they move through requirements analysis, the Next.js and FastAPI stack decision (8:06), MVP scope and completion criteria (8:24), planning documents, screen design and epic-and-story breakdown (10:39-14:21) and then into automatic development mode (10:13). It also covers auto versus manual mode and the idea of a 'decision gap' (4:25), an automatic check just before development (15:26) and handling change requests and run control mid-build (17:08). The harness is only to be downloaded from December 7 by enrolled students through their my page, so for now this is a video for studying the structure and flow; the description plugs the course and this summary follows the description and chapters.",
-      "sourceName": "YouTube · 양실장의 바이브코딩대학",
-      "sourceUrl": "https://www.youtube.com/watch?v=emkB2qENjjg",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=emkB2qENjjg",
-      "createdAt": "2026-11-24T05:35:07Z",
-      "curatedAt": "2026-11-24T23:13:48Z"
-    },
-    {
       "id": "curated-20261125-yt-ddalkak-ai-employee-advanced-ko",
       "title": "딸깍 사장: 에이전트를 만들어도 매일 직접 시키고 있다면 도구일 뿐 — 클로드 데스크톱 앱 기본 기능만으로 출근(스킬+예약 작업)·분업·검수·결재·교육 다섯 칸의 'AI 직원' 만들기, 프롬프트 6개 (15분)",
       "body": "딸깍 사장이 15분 8초 동안 서버와 코딩 없이 클로드 데스크톱 앱 기능만으로 정해진 시각에 알아서 일하고 서로 검사하며 사장에게는 결재할 것만 올리는 'AI 직원'을 만듭니다. 먼저 클로드에게 인터뷰받아 업무표를 만들고(2:23), 출근은 스킬로 굳혀 예약 작업을 걸고(3:36), 분업은 보조 직원 셋에게 나누며(5:24), 검수는 대화를 모르는 검토자에게 맡기고(6:40), 결재는 금지 규칙과 결재함으로(8:02), 교육은 반려 사유를 매뉴얼 한 줄로 남기는(9:42) 순서입니다. 프롬프트 6개는 고정 댓글에 있고, 설명란은 Pro 요금제부터 가능하며 '이 컴퓨터에서만' 예약 작업은 컴퓨터가 켜져 있어야 돌고 몇 분 늦게 시작할 수 있다고 알립니다. 별도 설치가 필요한 프로그램을 쓰면 예약 실행이 멈출 수 있어 프롬프트에 쓰지 말라고 넣으라는 안내도 있고, 책·무료 체험판 홍보가 붙어 있으며 이 요약은 설명란과 챕터 기준입니다.",
@@ -106,19 +158,6 @@
       "curatedAt": "2026-11-24T23:13:48Z"
     },
     {
-      "id": "curated-20261125-hn-vibecoding-fpga-inference-chip",
-      "title": "AI 에이전트에게 맡겨 FPGA로 LLM을 돌렸다 — 클라우드 에이전트가 며칠간 실험 수백 번으로 속도를 33배(약 6→213토큰/초) 끌어올렸고, 사람이 한 일은 격려와 '몇 시간 걸리는 검증은 하지 마' 같은 반복 방식 지시 (HN 180점)",
-      "body": "HN에서 180점·댓글 80개를 받은 글(11월 20일)은 Verilog를 모르는 필자가 Codex로 AWS F2 FPGA 인스턴스를 잡고 Conductor의 클라우드 에이전트를 며칠간 돌려 모델을 FPGA에서 돌린 기록입니다. 첫 비트 단위 일치 기준선 대비 33배, 초당 약 6토큰에서 213토큰까지 올렸고 실험 이력에 C++ 위주 약 300만 줄이 쌓였으며 Claude·OpenAI 토큰 비용은 약 1만 달러였다고 합니다. 프롬프트 166개 대부분은 '더 창의적으로', '2배 빠르게' 같은 격려였고, 다른 팀이 준 4,741자짜리 설계 조언은 에이전트가 이미 계획한 것과 거의 겹쳤지만 '몇 시간 걸리는 시뮬레이션은 하지 말라'는 진행 방식 조언은 24시간 돌던 시뮬레이션을 멈추고 짧은 합성·검사 루프로 바꾸게 해 바로 효과가 있었다고 합니다. 필자의 결론은 사람은 빠르게 반복하는 방법과 정답의 기준을 정하고 에이전트는 탐색을 맡는다는 것인데, 토큰 예산이 큰 한 사람의 경험담이라는 점은 감안하세요.",
-      "titleEn": "I let an AI agent run an LLM on an FPGA - a cloud agent took speed up 33x (about 6 to 213 tokens/s) over several days and hundreds of experiments, and the human's job was encouragement plus iteration advice like 'skip the hours-long verification' (HN, 180 points)",
-      "bodyEn": "A post that drew 180 points and 80 comments on HN (November 20) records an author who knows no Verilog using Codex to reserve an AWS F2 FPGA instance and then running a cloud agent in Conductor for several days to get a model running on the FPGA. Speed rose 33x over the first bit-exact full-model baseline, from about 6 to 213 tokens per second, the experiment history piled up roughly 3 million lines mostly of C++, and the Claude and OpenAI token bill was about $10,000. Most of the 166 prompts were encouragement such as 'be more creative' and 'let's go for 2x faster'; a 4,741-character design memo from another team mostly overlapped what the agent had already planned, but the process advice not to run hours-long simulations made it stop a roughly 24-hour simulation and switch to a short synthesis-and-check loop right away. The author's conclusion is that humans define how to iterate fast and what correctness looks like while agents manage the exploration - keep in mind it is one person's experience with a large token budget.",
-      "sourceName": "Hacker News · ankitg.me",
-      "sourceUrl": "https://ankitg.me/blog/vibecoding-inference-chip/",
-      "mediaType": "image",
-      "mediaUrl": "https://ankitg.me/assets/fpga-prompts.png",
-      "createdAt": "2026-11-20T18:15:16Z",
-      "curatedAt": "2026-11-24T23:13:48Z"
-    },
-    {
       "id": "curated-20261124-yt-mindung-boris-prompt-three-things-ko",
       "title": "민둥이: 클로드 코드 만든 보리스의 프롬프트법 — 길게 쓰지 말고 '무엇을·얼마나 공들일지·어떻게 확인할지' 세 가지만, 매번 하는 말은 CLAUDE.md에 잘된 작업은 스킬로 (11분)",
       "body": "민둥이 | 쉽게 배우는 AI가 11분 5초 동안 Claude Code를 만든 보리스 체르니가 직접 공개한 프롬프트 방식을 정리합니다. 길고 복잡한 프롬프트 대신 무엇을 시킬지(2:04), 얼마나 공들일지(3:50), 어떻게 확인할지(5:28) 세 가지만 알려 주면 된다는 것이 핵심입니다. 이어서 매번 하는 말은 CLAUDE.md 파일로 빼 두고(7:19), 잘된 작업은 스킬로 남기라는 순서(9:09)까지 이어지며, 설명란은 영상에 나온 프롬프트 팁을 노션에 정리해 고정 댓글에 올려 두었다고 안내합니다. 이 요약은 설명란과 챕터 기준이니 실제 예시는 영상에서 확인하세요.",
@@ -142,19 +181,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=qFvEqpR_Ax8",
       "createdAt": "2026-11-23T08:30:12Z",
-      "curatedAt": "2026-11-23T23:18:38Z"
-    },
-    {
-      "id": "curated-20261124-yt-austinmarchese-self-improving-agents",
-      "title": "Austin Marchese: 스스로 나아지는 AI 에이전트 만들기(스탠퍼드 강의 방식) — 일하는 생성기·채점하는 검증기·한 번에 하나만 바꾸자고 제안하는 코치로 나누고, 내 에이전트에 맞는 자동화 3단계 고르기 (17분, 영어)",
-      "body": "Austin Marchese가 16분 44초 동안 스탠퍼드의 10시간 넘는 자기 개선 에이전트 강의 내용을 바탕으로, 나를 복제하는 Claude 에이전트를 세 역할로 쪼개 만드는 법을 보여 줍니다. 작업을 하는 생성기(2:13), 결과를 채점하는 검증기(3:43), 한 번에 하나씩만 고치자고 제안하는 코치(6:42)를 두고, 설명란은 에이전트가 자기 숙제를 스스로 채점하게 두는 방식을 경계하며 실수마다 새 테스트가 되는 정답지를 만든다고 합니다. 마지막에는 사람이 개선을 제안하는 1단계(10:27), AI가 제안하고 사람이 승인하는 2단계(11:16), 사람 없이 AI가 스스로 개선하는 3단계(12:03) 중 어느 쪽을 돌릴지 고르는 기준을 다룹니다. 설명란에 Clay 제휴 링크와 채널의 BuildPartner·뉴스레터 홍보가 붙어 있고 이 요약은 설명란과 챕터 기준입니다.",
-      "titleEn": "Austin Marchese: build self-improving AI agents with Claude (Stanford's method) - split the work into a generator that does the job, a verifier that grades it and a coach that proposes one change at a time, then pick which of three automation levels to run (17 minutes)",
-      "bodyEn": "In 16m44s Austin Marchese uses the playbook from Stanford's 10-plus-hour course on self-improving agents to show how to build a clone of yourself with Claude agents split into three jobs. A generator does the task (2:13), a verifier grades the result (3:43) and a coach proposes one change at a time (6:42); the description warns against letting an agent grade its own homework and says an answer key turns every mistake into a new test. The last part covers choosing which level to run: you suggest the improvement (10:27), the AI suggests and you approve (11:16), or the AI improves itself without you (12:03). The description carries a Clay affiliate link and plugs for the channel's BuildPartner and newsletter, and this summary follows the description and chapters.",
-      "sourceName": "YouTube · Austin Marchese",
-      "sourceUrl": "https://www.youtube.com/watch?v=UUg5oij7ptw",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=UUg5oij7ptw",
-      "createdAt": "2026-11-21T14:45:00Z",
       "curatedAt": "2026-11-23T23:18:38Z"
     },
     {
@@ -220,32 +246,6 @@
       "mediaType": "video",
       "mediaUrl": "https://www.youtube.com/watch?v=2C3xTY10QR0",
       "createdAt": "2026-11-21T00:00:23Z",
-      "curatedAt": "2026-11-21T23:10:36Z"
-    },
-    {
-      "id": "curated-20261122-yt-aiwithsurya-antigravity-seven-agent-modes",
-      "title": "AI with Surya: 구글 안티그래비티에서 AI 에이전트 팀을 부리는 7가지 방법과 '쓰지 말아야 할 때' — 그냥 묻기·서브에이전트·오케스트레이터(네온이 계획, 하이드로겐이 실행)·워크플로·스웜·부스트·팀워크를 이사 준비 하나로 비교 (16분, 영어)",
-      "body": "AI with Surya가 15분 47초 동안 Antigravity의 에이전트 작업 방식을 사다리처럼 7단계로 정리하고, 샌프란시스코로 이사하는 한 사람의 일을 같은 예시로 비교합니다. 그냥 묻기(3:39), 서브에이전트(4:02), 계획은 똑똑한 네온이 하고 실행은 빠른 하이드로겐이 맡는 오케스트레이터(5:45), 아파트 매물 20개를 한꺼번에 점검해 사기 매물을 걸러 낸 워크플로(7:35), 검사자가 입주일 문제를 잡아낸 스웜(9:23), 부스트(11:20), 먼저 인터뷰하고 며칠씩 도는 팀워크(12:04) 순이며, 각각 언제 쓰지 말아야 하는지와 모든 방식에 붙는 추가 기능 4가지, 방금 나온 /btw 사이드 스레드(14:19)도 다룹니다. 데모 데이터는 영상용으로 만든 가짜 매물과 견적서이고 설명란에 소속과 무관한 개인 의견이라고 밝혔으니, 방식을 고르는 기준(14:35)으로 참고하세요.",
-      "titleEn": "AI with Surya: seven ways to run an AI agent team in Google Antigravity and when not to - just ask, subagents, orchestrator (Neon plans, Hydrogen executes), workflows, swarm, boost and teamwork, compared on one apartment move (16 minutes)",
-      "bodyEn": "In 15m47s AI with Surya lays out Antigravity's ways of working with agents as a seven-step ladder and compares them on one example, a person moving apartments in San Francisco. They are Just Ask (3:39), Subagents (4:02), an Orchestrator in which the smart Neon plans and the fast Hydrogen executes (5:45), Workflows that checked 20 apartment listings at once and caught the scams (7:35), a Swarm whose checker caught a move-in date problem (9:23), Boost (11:20) and Teamwork, which interviews you first and runs for days (12:04); for each it covers when not to use it, plus four extras that work with all of them and the new /btw side threads (14:19). The demo data is made-up listings, quotes and a lease, and the description says the opinions are the host's own and not his employer's - use the which-to-use-when section (14:35) as a selection guide.",
-      "sourceName": "YouTube · AI with Surya",
-      "sourceUrl": "https://www.youtube.com/watch?v=HANILv4mTzk",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=HANILv4mTzk",
-      "createdAt": "2026-11-21T01:00:37Z",
-      "curatedAt": "2026-11-21T23:10:36Z"
-    },
-    {
-      "id": "curated-20261122-yt-betterstack-claude-code-code-mode",
-      "title": "Better Stack: Claude Code의 숨은 설정 Code Mode를 6번 돌려 보니 — 도구를 하나씩 부르는 대신 작은 JavaScript로 묶어 같은 비용에 약 18% 빠르고 더 일정했다, 자동 모드와 함께 쓸 때의 걸림돌과 로그 44MB 시험까지 (9분, 영어)",
-      "body": "Better Stack이 9분 20초 동안 Claude Code의 숨은 설정 Code Mode(Claude가 도구를 한 번에 하나씩 부르지 않고 작은 JavaScript 프로그램으로 한꺼번에 몰고 가는 방식)를 켠 채 3번, 끈 채 3번 같은 리팩터링을 돌려 비교합니다. 설명란에 따르면 수치를 Claude Code 자체 로그로 확인했고 같은 비용에 약 18% 빨랐으며 훨씬 일정했고(4:04), 켜지 않았을 때는 Claude가 파이썬 스크립트로 파일 53개를 고쳤는데 Claude Code는 0줄 변경이라고 보고한 경우도 있었다고 합니다(5:12). 켜는 법은 1:57, 로그 44MB를 읽히는 시험은 6:03, 자동 모드와 함께 쓸 때의 걸림돌은 6:55에 나옵니다. 프로젝트 하나에 실행 6번인 개인 시험이라 일반화하기는 어렵고, 설명란이 Code Mode 공식 문서(code.claude.com/docs/en/code-mode)를 안내합니다.",
-      "titleEn": "Better Stack: testing Claude Code's hidden Code Mode six times - instead of calling tools one at a time Claude drives them with a small JavaScript program: about 18% faster and more consistent at the same cost, plus a catch with auto mode and a 44 MB log test (9 minutes)",
-      "bodyEn": "In 9m20s Better Stack runs the same refactor three times with Claude Code's hidden Code Mode on and three times off - a setting where Claude writes a small JavaScript program that drives its tools in one go rather than making one call at a time. According to the description it checked every number against Claude Code's own logs and found it about 18% faster and much more consistent at the same cost (4:04), while without it Claude once edited 53 files with a Python script and Claude Code reported 0 lines changed (5:12). How to turn it on is at 1:57, a 44 MB log test at 6:03 and a catch when combined with auto mode at 6:55. It is one project and six runs, so don't generalize, and the description points to the official Code Mode docs (code.claude.com/docs/en/code-mode).",
-      "sourceName": "YouTube · Better Stack",
-      "sourceUrl": "https://www.youtube.com/watch?v=nraROC2wl8s",
-      "mediaType": "video",
-      "mediaUrl": "https://www.youtube.com/watch?v=nraROC2wl8s",
-      "createdAt": "2026-11-20T03:06:15Z",
       "curatedAt": "2026-11-21T23:10:36Z"
     },
     {
