@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-11-25T23:14:56Z",
+  "generatedAt": "2026-11-26T23:13:21Z",
   "videos": [
+    {
+      "id": "vid-yv0g-mildcode-addy-osmani-spec-workflow-ko",
+      "youtubeId": "yv0Gzjkkkc4",
+      "category": "tip",
+      "title": "상위 0.1% 바이브코딩 노하우 — Addy Osmani식 워크플로우: 스펙 먼저, 규칙 파일, 스킬, 테스트 절차로 검수량 줄이기",
+      "titleEn": "Top 0.1% Vibe Coding Know-How from a Claude Code Engineer",
+      "descKo": "고쳐 달라고 할수록 다른 곳이 망가지는 이유, 코드보다 스펙부터 쓰는 이유(3:22), 판단 기준 세 가지(5:50), 규칙 파일(8:14)·스킬(8:45), 기준대로 끝났는지 확인하는 검수(13:41)를 15분에 설명(설명란·챕터 기준, 강의 홍보 포함).",
+      "descEn": "A 15-minute talk on why fixes keep breaking other things, why to write the spec before code, three judgment criteria outside the spec, rule files and skills, and reviewing by criteria instead of reading all the code (Korean; summarized from the description and chapters; includes course promotion).",
+      "channel": "마일드코드",
+      "publishedAt": "2026-11-26T10:55:13Z",
+      "addedAt": "2026-11-26T23:13:21Z"
+    },
+    {
+      "id": "vid-kyel-imyeonseoda-seven-ai-delegation-ko",
+      "youtubeId": "KYE-LRNyQAg",
+      "category": "usecase",
+      "title": "AI한테 일 떠넘기는 법 7가지 — 음성 인식·메신저 답장·전화·자료 공유·녹음 전사·휴대폰 조작·결재 서명 자동화",
+      "titleEn": "7 Ways to Hand Your Work Off to AI (Must-Watch for Professionals and Office Workers)",
+      "descKo": "음성 인식(0:47), 메신저 답장(2:22), 전화(4:20), 자료 공유(8:35), 녹음 전사·분석(9:00), 휴대폰 조작(14:25), 결재·서명(19:33) 7가지를 30분에 보여 줌(챕터 기준, 설명란에 세부 설명 없음).",
+      "descEn": "A 30-minute walk through seven kinds of work to hand to AI: voice input, messenger replies, phone calls, file sharing, recording transcription, phone control, and approval and signing (Korean; summarized from the chapters only, the description has no details).",
+      "channel": "이면서다",
+      "publishedAt": "2026-11-25T09:18:07Z",
+      "addedAt": "2026-11-26T23:13:21Z"
+    },
+    {
+      "id": "vid-xjil-bostonbuilder-eight-skills-ko",
+      "youtubeId": "XJILzLeuAfg",
+      "category": "tip",
+      "title": "클로드 코드 1,000시간 써 보고 추린 스킬 8가지 — Grill Me·Ponytail·UI UX Pro Max·마케팅 스킬·Humanizer·Claude-Mem·Archify·HyperFrames와 설치 명령",
+      "titleEn": "I Used Claude Code for 1,000 Hours: the 8 'Crazy Skills' the World Is Excited About",
+      "descKo": "스킬이 무엇인지(0:34), Grill Me(2:24)부터 HyperFrames(19:19)까지 8가지를 23분에 소개하고 설명란에 GitHub 주소와 설치 명령을 정리(설명란·챕터 기준, 1,000시간은 본인 주장, 전자책·카페 홍보 포함).",
+      "descEn": "A 23-minute tour of what a skill is and eight picks from Grill Me to HyperFrames, with GitHub links and install commands in the description (Korean; summarized from the description and chapters; the 1,000 hours is the host's own claim; includes e-book and cafe promotion).",
+      "channel": "보스턴빌더 | AI 시대 생존기",
+      "publishedAt": "2026-11-25T07:00:26Z",
+      "addedAt": "2026-11-26T23:13:21Z"
+    },
+    {
+      "id": "vid-ntoa-robonuggets-claude-code-new-rules",
+      "youtubeId": "nT_oMAIZ3P4",
+      "category": "tip",
+      "title": "Anthropic이 공개했다는 클로드 코드 새 규칙 — 조종·승인·거부·검증·세션 시작 5가지 범주 (11분)",
+      "titleEn": "Anthropic Just Revealed the NEW Rules of Claude Code (Master it in 11mins)",
+      "descKo": "Steering(1:00), Approving(2:56), Disapproving(4:50), Verifying(6:43), Starting sessions(9:07) 다섯 범주를 11분에 정리하고 Lydia Hallie의 'Rethinking Claude Code Best Practices' 강연을 출처로 링크(영어, 챕터 기준, 설명란에 커뮤니티·제휴 링크 다수).",
+      "descEn": "An 11-minute rundown of five categories - steering, approving, disapproving, verifying and starting sessions - linking Lydia Hallie's talk 'Rethinking Claude Code Best Practices' as its source (English; summarized from the chapters; the description is full of community and affiliate links).",
+      "channel": "Jay E | RoboNuggets",
+      "publishedAt": "2026-11-24T23:20:35Z",
+      "addedAt": "2026-11-26T23:13:21Z"
+    },
+    {
+      "id": "vid-uxfx-dingco-realestate-claude-code-ko",
+      "youtubeId": "uxFxvdsrC7k",
+      "category": "usecase",
+      "title": "네이버 부동산 안 뒤지고 시세 브리핑 받는 법 — 공공데이터 실거래가 API + 클로드 코드로 부동산 AI 비서 만들기",
+      "titleEn": "Get a Price Briefing Without Digging Through Naver Real Estate: Build a Real-Estate AI Assistant With Public Data and Claude Code",
+      "descKo": "실거래가 API 신청(1:55), 송파구 대시보드(4:56), 호가 수집(5:58), 서울 25개 구 비교와 카카오맵(6:50), 호가·실거래가 차이 색 표시와 현금 필터(8:54)를 11분에 따라 하는 영상(설명란·챕터 기준, 실습 자료는 오픈채팅 입장 필요).",
+      "descEn": "An 11-minute follow-along on applying for the transaction-price API, a Songpa-gu dashboard, collecting asking prices, a 25-district Seoul comparison on Kakao Map, and coloring asking-versus-sold gaps with a cash filter (Korean; summarized from the description and chapters; practice files require joining an open chat room).",
+      "channel": "딩코의 AI 심야 아지트",
+      "publishedAt": "2026-11-24T11:15:29Z",
+      "addedAt": "2026-11-26T23:13:21Z"
+    },
     {
       "id": "vid-mngn-kyleschool-claude-code-mcp-connectors-ko",
       "youtubeId": "MngNatzs2PU",
@@ -38,18 +98,6 @@
       "addedAt": "2026-11-25T23:14:56Z"
     },
     {
-      "id": "vid-imsy-robonuggets-agents-vs-skills",
-      "youtubeId": "IMSYKloMFrE",
-      "category": "tip",
-      "title": "Anthropic 엔지니어들이 에이전트 대신 만든다는 것 — 에이전트와 스킬의 차이, 스킬 제작기·Skillify·화면 녹화로 스킬 만들기 레벨 0~6",
-      "titleEn": "Anthropic's Engineers Stopped Building AI Agents (Here's What They Build Instead)",
-      "descKo": "에이전트 vs 스킬(1:20)을 설명한 뒤 직접 하기, 스킬 제작기(5:43), Skillify(6:51), 화면 녹화(9:11), 단계를 넘어서기(10:21), 남의 스킬 빌리기(12:26), 더 똑똑한 모델(13:33)의 레벨 0~6으로 스킬 만드는 법을 16분에 정리(영어, 챕터 기준이며 설명란에 커뮤니티·제휴 링크 다수).",
-      "descEn": "A 16-minute video that explains agents versus skills, then walks through levels 0 to 6 of building skills: by hand, the skill creator, Skillify, screen recording, going beyond steps, borrowing skills and smarter models (English; summarized from the chapters; the description is full of community and affiliate links).",
-      "channel": "Jay E | RoboNuggets",
-      "publishedAt": "2026-11-23T23:02:47Z",
-      "addedAt": "2026-11-25T23:14:56Z"
-    },
-    {
       "id": "vid-bkvd-googlecloud-production-agent-roadmap",
       "youtubeId": "BKVDdL1InsA",
       "category": "lecture",
@@ -59,18 +107,6 @@
       "descEn": "A 27-minute talk by five Google engineers on a four-layer production blueprint: skills with three-stage progressive disclosure, deterministic guardrails and git hooks, reviewing large AI-generated PRs with UI video QA, and evaluation patterns for tool use, non-determinism, multi-turn and workflows (English; summarized from the description and chapters; includes Google product links).",
       "channel": "Google Cloud Tech",
       "publishedAt": "2026-11-23T17:04:05Z",
-      "addedAt": "2026-11-25T23:14:56Z"
-    },
-    {
-      "id": "vid-ynhx-dante-everything-claude-code-harness-ko",
-      "youtubeId": "yNHXQdpm9S0",
-      "category": "tip",
-      "title": "해커톤 우승자의 클로드 코드 하네스, 안을 열어 보니 — Everything Claude Code의 에이전트·스킬·규칙·훅 구조와 한 조각씩 가져오는 5가지",
-      "titleEn": "Inside a Hackathon Winner's Claude Code Harness (Everything Claude Code)",
-      "descKo": "ECC 저장소 지도(1:25), 부품과 배포(3:13), 실행·기억·점검(6:04), 설치(10:44), 같은 일을 ECC 있고 없고 5번씩 돌려 비교(12:51), 내 작업에 한 조각씩 적용하기(14:07)를 17분에 설명(설명란·챕터 기준, 강의 홍보 포함).",
-      "descEn": "A 17-minute look at the Everything Claude Code repository map, parts and distribution, execution, memory and checks, installation, a five-run comparison of the same task with and without ECC, and five ways to adopt it one piece at a time (summarized from the description and chapters; includes course promotion).",
-      "channel": "단테",
-      "publishedAt": "2026-11-22T09:00:26Z",
       "addedAt": "2026-11-25T23:14:56Z"
     },
     {
@@ -144,42 +180,6 @@
       "channel": "퇴사한아빠",
       "publishedAt": "2026-11-23T08:30:12Z",
       "addedAt": "2026-11-23T23:18:38Z"
-    },
-    {
-      "id": "vid-e4f6-devbrother-coordinator-agent-ko",
-      "youtubeId": "e4F6vEOoSoo",
-      "category": "usecase",
-      "title": "에이전트를 여러 개 돌리면 내가 병목이 된다 — 매니저·코디네이터·코딩 에이전트 세 계층과 난이도 A~D 모델 배정표",
-      "titleEn": "Why You Need a Coordinator Agent | Watch This If You're the Bottleneck",
-      "descKo": "일감을 물어오는 매니저, 어느 세션·모델에 맡길지 정하는 코디네이터, 계정 사용량과 기기 여유 분배, 사람은 '내 결정' 카드만 보는 칸반과 Paseo 플러그인 설치를 26분에 정리(설명란·챕터 기준, 배정표는 본인 작업 기준 예시).",
-      "descEn": "A 26-minute look at a manager that fetches work, a coordinator that picks the session and model, splitting by account usage and machine capacity, and a kanban where you only see 'my decision' cards, plus the Paseo plugin install (summarized from the description and chapters; the grading table is an example from his own work).",
-      "channel": "개발동생",
-      "publishedAt": "2026-11-22T14:34:19Z",
-      "addedAt": "2026-11-22T23:14:55Z"
-    },
-    {
-      "id": "vid-mu8w-networkchuck-pocock-code-with-ai",
-      "youtubeId": "mU8WKII1gpk",
-      "category": "lecture",
-      "title": "AI와 제대로 코딩하는 법 (Matt Pocock 출연) — Grill with Docs 스킬, 스펙·티켓·워크트리 서브에이전트·리뷰 루프, 신뢰 사다리",
-      "titleEn": "How to Actually Code with AI (ft. Matt Pocock)",
-      "descKo": "Matt Pocock이 코드 전에 에이전트에게 질문부터 받는 Grill with Docs 스킬과 스펙→티켓→워크트리 서브에이전트→리뷰→회고 루프, 테스트·타입 기반 신뢰 사다리를 2시간 2분에 시연(영어, 스폰서 링크 포함, 설명란·챕터 기준 요약).",
-      "descEn": "A 2h02m demo of Matt Pocock's Grill with Docs skill that makes the agent question you before any code, his grill, spec, tickets, subagents-in-worktrees, review and retro loop, and a trust ladder built on tests and types (includes sponsor links; summarized from the description and chapters).",
-      "channel": "NetworkChuck",
-      "publishedAt": "2026-11-20T17:25:28Z",
-      "addedAt": "2026-11-20T23:13:48Z"
-    },
-    {
-      "id": "vid-fxmf-honjobs-claude-map-ko",
-      "youtubeId": "FXmf7Du3564",
-      "category": "lecture",
-      "title": "모든 클로드 사용법 종결편, 이 지도 한 장으로 끝내드립니다 (최신판) — 묻기·만들기·맡기기·일 시키기",
-      "titleEn": "The Ultimate Claude Guide: Master Everything with This One Map (Latest Edition)",
-      "descKo": "대화창 하나에서 시작해 문서·발표·시트 만들기, 쓰던 앱 안에서 쓰기, 예약 작업으로 맡기기, 내 컴퓨터에서 일 시키기, 여러 클로드를 팀으로 쓰기까지 클로드 기능을 지도 한 장으로 11분에 정리(2026년 11월 기준, 공식 영상·문서로 확인했다고 설명).",
-      "descEn": "An 11-minute one-map overview of Claude from a single chat window to building documents and slides, working inside your apps, scheduled tasks, running work on your own computer and using several Claudes as a team (as of November 2026; checked against official videos and docs per the description).",
-      "channel": "혼잡스",
-      "publishedAt": "2026-11-20T09:30:01Z",
-      "addedAt": "2026-11-21T23:10:36Z"
     }
   ]
 }
